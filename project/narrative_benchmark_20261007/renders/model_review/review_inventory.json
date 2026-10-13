@@ -1,0 +1,22 @@
+[
+  {
+    "id": "modern_reinforced_frame_v2",
+    "triangles": 16623,
+    "render_angles": [
+      0,
+      90,
+      180,
+      270
+    ]
+  },
+  {
+    "id": "roman_lime_clast_solid_v2",
+    "triangles": 20652,
+    "render_angles": [
+      0,
+      90,
+      180,
+      270
+    ]
+  }
+]
