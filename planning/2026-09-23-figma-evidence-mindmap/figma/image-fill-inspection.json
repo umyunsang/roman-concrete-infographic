@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "[{\"id\":\"21:3\",\"type\":\"RECTANGLE\",\"name\":\"그림 · pantheon-cutaway\",\"fills\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.9803921580314636,\"g\":0.95686274766922,\"b\":0.8980392217636108},\"boundVariables\":{}}]},{\"id\":\"21:43\",\"type\":\"ELLIPSE\",\"name\":\"그림 · colosseum-photo\",\"fills\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.9803921580314636,\"g\":0.95686274766922,\"b\":0.8980392217636108},\"boundVariables\":{}}]}]"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "cc385658-808f-403e-9841-b8f9b57eb38a"
+  }
+}

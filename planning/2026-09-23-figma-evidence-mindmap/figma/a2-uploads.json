@@ -1,0 +1,17 @@
+[
+  {
+    "nodeId": "11:7",
+    "asset": "colosseum-photo",
+    "status": 200
+  },
+  {
+    "nodeId": "11:12",
+    "asset": "2025-production",
+    "status": 200
+  },
+  {
+    "nodeId": "11:97",
+    "asset": "2023-experiment",
+    "status": 200
+  }
+]

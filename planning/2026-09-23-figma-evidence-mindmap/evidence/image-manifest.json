@@ -1,0 +1,29 @@
+[
+  {
+    "path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/images/2023-mechanism.jpg",
+    "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/77b5/9821858/01a02194e842/sciadv.add1602-f6.jpg",
+    "attribution": "Seymour et al. 2023, Fig. 6",
+    "license": "CC BY-NC 4.0",
+    "kind": "proposed mechanism schematic",
+    "modification": "none; proportionate display only",
+    "sha256": "6c327953bb54a653faf0a9b7b19ecb8de1f7bbc2c5e40a39057255592ffcc671"
+  },
+  {
+    "path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/images/2025-production.png",
+    "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-025-66634-7/MediaObjects/41467_2025_66634_Fig7_HTML.png",
+    "attribution": "Vaserman et al. 2025, Fig. 7",
+    "license": "CC BY-NC-ND 4.0",
+    "kind": "archaeological reconstruction of production",
+    "modification": "none; proportionate display only",
+    "sha256": "30c591307b9b503e4501e1878f72aa44d5698736d14ae7bb70467ae60460dca0"
+  },
+  {
+    "path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/images/2023-experiment.jpg",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/9821858/bin/sciadv.add1602-f5.jpg",
+    "attribution": "Seymour et al. 2023, Fig. 5",
+    "license": "CC BY-NC 4.0",
+    "kind": "modern mortar experiment, including setup and measured data",
+    "modification": "none; proportionate display only",
+    "sha256": "9eff19d3905fbdf22036e37a10e1f0023229c803c1a7b248069fa7ce1304b9e9"
+  }
+]

@@ -1,0 +1,1315 @@
+{
+  "styles": [
+    {
+      "id": "691:200",
+      "font": "MIXED",
+      "size": null,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": null,
+      "mixedSegments": [
+        {
+          "s": 0,
+          "e": 5,
+          "f": "Medium",
+          "z": 10.5
+        },
+        {
+          "s": 5,
+          "e": 14,
+          "f": "Bold",
+          "z": 12
+        }
+      ]
+    },
+    {
+      "id": "691:201",
+      "font": "MIXED",
+      "size": null,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": null,
+      "mixedSegments": [
+        {
+          "s": 0,
+          "e": 5,
+          "f": "Medium",
+          "z": 10.5
+        },
+        {
+          "s": 5,
+          "e": 12,
+          "f": "Bold",
+          "z": 12
+        }
+      ]
+    },
+    {
+      "id": "691:202",
+      "font": "Bold",
+      "size": 80,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 0.07000000029802322
+    },
+    {
+      "id": "691:203",
+      "font": "Bold",
+      "size": 18,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 0.12999999523162842
+    },
+    {
+      "id": "691:204",
+      "font": "Bold",
+      "size": 18,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 0.12999999523162842
+    },
+    {
+      "id": "691:205",
+      "font": "Bold",
+      "size": 18,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 0.12999999523162842
+    },
+    {
+      "id": "691:206",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "align": "CENTER",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:207",
+      "font": "Bold",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "CENTER",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:208",
+      "font": "Bold",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "CENTER",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:209",
+      "font": "Bold",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "CENTER",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:210",
+      "font": "Bold",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "CENTER",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:211",
+      "font": "Bold",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "CENTER",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:212",
+      "font": "Bold",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "CENTER",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:213",
+      "font": "Bold",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "CENTER",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:214",
+      "font": "Regular",
+      "size": 9,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 127.99999713897705
+      },
+      "align": "CENTER",
+      "gray": 0.36000001430511475
+    },
+    {
+      "id": "691:215",
+      "font": "Regular",
+      "size": 9,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 127.99999713897705
+      },
+      "align": "CENTER",
+      "gray": 0.36000001430511475
+    },
+    {
+      "id": "691:216",
+      "font": "Regular",
+      "size": 9,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 127.99999713897705
+      },
+      "align": "CENTER",
+      "gray": 0.36000001430511475
+    },
+    {
+      "id": "691:217",
+      "font": "Regular",
+      "size": 9,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "CENTER",
+      "gray": 0.36000001430511475
+    },
+    {
+      "id": "691:218",
+      "font": "Regular",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 137.99999952316284
+      },
+      "align": "LEFT",
+      "gray": 0.1599999964237213
+    },
+    {
+      "id": "691:219",
+      "font": "Regular",
+      "size": 10,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 137.99999952316284
+      },
+      "align": "LEFT",
+      "gray": 0.1599999964237213
+    },
+    {
+      "id": "691:220",
+      "font": "Medium",
+      "size": 9,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:221",
+      "font": "Medium",
+      "size": 9,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:222",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 1
+    },
+    {
+      "id": "691:223",
+      "font": "Medium",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.11999999731779099
+    },
+    {
+      "id": "691:225",
+      "font": "Medium",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.11999999731779099
+    },
+    {
+      "id": "691:226",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 1
+    },
+    {
+      "id": "691:227",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 1
+    },
+    {
+      "id": "691:228",
+      "font": "Medium",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.11999999731779099
+    },
+    {
+      "id": "691:229",
+      "font": "Medium",
+      "size": 9,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:230",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:231",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 1
+    },
+    {
+      "id": "691:232",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "align": "LEFT",
+      "gray": 1
+    },
+    {
+      "id": "691:233",
+      "font": "Medium",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.20000000298023224
+    },
+    {
+      "id": "691:234",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 135.0000023841858
+      },
+      "align": "LEFT",
+      "gray": 0.14000000059604645
+    },
+    {
+      "id": "691:235",
+      "font": "Medium",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:236",
+      "font": "Medium",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.11999999731779099
+    },
+    {
+      "id": "691:237",
+      "font": "Medium",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:238",
+      "font": "Medium",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:239",
+      "font": "Medium",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.10196078568696976
+    },
+    {
+      "id": "691:240",
+      "font": "Medium",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.11999999731779099
+    },
+    {
+      "id": "691:241",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:242",
+      "font": "Medium",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.11999999731779099
+    },
+    {
+      "id": "691:243",
+      "font": "Medium",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.20000000298023224
+    },
+    {
+      "id": "691:244",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:245",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:246",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:247",
+      "font": "Medium",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.20000000298023224
+    },
+    {
+      "id": "691:248",
+      "font": "Medium",
+      "size": 13,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "align": "LEFT",
+      "gray": 0.11999999731779099
+    },
+    {
+      "id": "691:249",
+      "font": "Medium",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.20000000298023224
+    },
+    {
+      "id": "691:250",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:251",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:252",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:253",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:254",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:255",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:256",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:257",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:258",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:259",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:260",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "align": "LEFT",
+      "gray": 0.15000000596046448
+    },
+    {
+      "id": "691:261",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "align": "LEFT",
+      "gray": 0.15000000596046448
+    },
+    {
+      "id": "691:262",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:263",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "align": "LEFT",
+      "gray": 0.15000000596046448
+    },
+    {
+      "id": "691:264",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "align": "LEFT",
+      "gray": 0.15000000596046448
+    },
+    {
+      "id": "691:265",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "align": "LEFT",
+      "gray": 0.15000000596046448
+    },
+    {
+      "id": "691:266",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "align": "LEFT",
+      "gray": 0.15000000596046448
+    },
+    {
+      "id": "691:270",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:271",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:272",
+      "font": "Regular",
+      "size": 10.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:276",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:277",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:278",
+      "font": "Regular",
+      "size": 10.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:282",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:283",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:284",
+      "font": "Regular",
+      "size": 10.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:288",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:289",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:290",
+      "font": "Regular",
+      "size": 10.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:294",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:295",
+      "font": "Bold",
+      "size": 20,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:296",
+      "font": "Regular",
+      "size": 10.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:298",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:299",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.14000000059604645
+    },
+    {
+      "id": "691:301",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "align": "LEFT",
+      "gray": 0.07999999821186066
+    },
+    {
+      "id": "691:302",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:304",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 15
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:305",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:307",
+      "font": "Bold",
+      "size": 12,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:308",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:310",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:311",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:312",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:313",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "691:224",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    },
+    {
+      "id": "692:79",
+      "font": "Regular",
+      "size": 9.5,
+      "lh": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "align": "LEFT",
+      "gray": 0.06666667014360428
+    }
+  ],
+  "fontFamilies": [
+    "Noto Sans KR"
+  ],
+  "frames": [
+    {
+      "id": "691:267",
+      "name": "CORE 1 · 철근이 있어도 금은 생기는데",
+      "x": 528,
+      "y": 386,
+      "w": 174,
+      "h": 102,
+      "gap": 10,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:268",
+      "name": "단계 제목",
+      "x": 0,
+      "y": 0,
+      "w": 174,
+      "h": 50,
+      "gap": 0,
+      "layout": "VERTICAL",
+      "parent": "691:267"
+    },
+    {
+      "id": "691:269",
+      "name": "첫 줄 · 번호 오른쪽",
+      "x": 0,
+      "y": 0,
+      "w": 174,
+      "h": 25,
+      "gap": 0,
+      "layout": "HORIZONTAL",
+      "parent": "691:268"
+    },
+    {
+      "id": "691:273",
+      "name": "CORE 2 · 물을 넣자, 열이 났다",
+      "x": 69.5,
+      "y": 756,
+      "w": 155,
+      "h": 94,
+      "gap": 5,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:274",
+      "name": "단계 제목",
+      "x": 0,
+      "y": 0,
+      "w": 155,
+      "h": 50,
+      "gap": 0,
+      "layout": "VERTICAL",
+      "parent": "691:273"
+    },
+    {
+      "id": "691:275",
+      "name": "첫 줄 · 번호 오른쪽",
+      "x": 0,
+      "y": 0,
+      "w": 155,
+      "h": 25,
+      "gap": 0,
+      "layout": "HORIZONTAL",
+      "parent": "691:274"
+    },
+    {
+      "id": "691:279",
+      "name": "CORE 3 · 잘못 섞인 걸까? 흰 알갱이의 반전",
+      "x": 408.5,
+      "y": 1028,
+      "w": 190,
+      "h": 88,
+      "gap": 10,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:280",
+      "name": "단계 제목",
+      "x": 0,
+      "y": 0,
+      "w": 190,
+      "h": 50,
+      "gap": 0,
+      "layout": "VERTICAL",
+      "parent": "691:279"
+    },
+    {
+      "id": "691:281",
+      "name": "첫 줄 · 번호 오른쪽",
+      "x": 0,
+      "y": 0,
+      "w": 190,
+      "h": 25,
+      "gap": 0,
+      "layout": "HORIZONTAL",
+      "parent": "691:280"
+    },
+    {
+      "id": "691:285",
+      "name": "CORE 4 · 금에 스민 물, 칼슘을 옮기다",
+      "x": 638.5,
+      "y": 1032,
+      "w": 178,
+      "h": 102,
+      "gap": 10,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:286",
+      "name": "단계 제목",
+      "x": 0,
+      "y": 0,
+      "w": 178,
+      "h": 50,
+      "gap": 0,
+      "layout": "VERTICAL",
+      "parent": "691:285"
+    },
+    {
+      "id": "691:287",
+      "name": "첫 줄 · 번호 오른쪽",
+      "x": 0,
+      "y": 0,
+      "w": 178,
+      "h": 25,
+      "gap": 0,
+      "layout": "HORIZONTAL",
+      "parent": "691:286"
+    },
+    {
+      "id": "691:291",
+      "name": "CORE 5 · 정말 메워질까? 금을 내어 봤더니",
+      "x": 982.5,
+      "y": 816,
+      "w": 180,
+      "h": 116,
+      "gap": 10,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:292",
+      "name": "단계 제목",
+      "x": 0,
+      "y": 0,
+      "w": 180,
+      "h": 50,
+      "gap": 0,
+      "layout": "VERTICAL",
+      "parent": "691:291"
+    },
+    {
+      "id": "691:293",
+      "name": "첫 줄 · 번호 오른쪽",
+      "x": 0,
+      "y": 0,
+      "w": 180,
+      "h": 25,
+      "gap": 0,
+      "layout": "HORIZONTAL",
+      "parent": "691:292"
+    },
+    {
+      "id": "691:297",
+      "name": "DETAIL 1 · 원리와 근거",
+      "x": 36,
+      "y": 412.4532165527344,
+      "w": 134,
+      "h": 47.19000244140625,
+      "gap": 4.19000244140625,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:300",
+      "name": "DETAIL 2 · 원리와 근거",
+      "x": 36,
+      "y": 1036.5,
+      "w": 125,
+      "h": 46.900001525878906,
+      "gap": 3.9000000953674316,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:303",
+      "name": "DETAIL 3 · 원리와 근거",
+      "x": 250,
+      "y": 1344.5,
+      "w": 142,
+      "h": 63.400001525878906,
+      "gap": 5.400000095367432,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:306",
+      "name": "DETAIL 4 · 원리와 근거",
+      "x": 650,
+      "y": 1253,
+      "w": 154,
+      "h": 48,
+      "gap": 5,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "691:309",
+      "name": "균열의 연속 동작 · 물 → 칼슘 → 결정",
+      "x": 642,
+      "y": 1234,
+      "w": 172,
+      "h": 13,
+      "gap": 2,
+      "layout": "HORIZONTAL",
+      "parent": "691:198"
+    },
+    {
+      "id": "692:78",
+      "name": "대표 배합 비교 · 무늬 위 캡션 바탕",
+      "x": 524,
+      "y": 492,
+      "w": 180,
+      "h": 47,
+      "gap": 0,
+      "layout": "VERTICAL",
+      "parent": "691:198"
+    }
+  ],
+  "createdNodeIds": [],
+  "mutatedNodeIds": []
+}

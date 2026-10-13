@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"page\":{\"id\":\"19:4\",\"name\":\"스케치\"},\"frame\":{\"id\":\"21:2\",\"name\":\"A2 · 건축물을 따라 읽는 자유 구도\",\"width\":1190.5511474609375,\"height\":1683.779541015625},\"children\":[{\"id\":\"21:3\",\"name\":\"그림 · pantheon-cutaway\",\"type\":\"RECTANGLE\"},{\"id\":\"21:4\",\"name\":\"분야 표제\",\"type\":\"TEXT\"},{\"id\":\"21:5\",\"name\":\"중심 질문\",\"type\":\"TEXT\"},{\"id\":\"21:6\",\"name\":\"독해의 출발\",\"type\":\"TEXT\"},{\"id\":\"21:7\",\"name\":\"공간의 규모\",\"type\":\"FRAME\"},{\"id\":\"21:10\",\"name\":\"공간 설명선\",\"type\":\"VECTOR\"},{\"id\":\"21:11\",\"name\":\"Ellipse\",\"type\":\"ELLIPSE\"},{\"id\":\"21:12\",\"name\":\"구조의 작동\",\"type\":\"FRAME\"},{\"id\":\"21:15\",\"name\":\"구조 설명선\",\"type\":\"VECTOR\"},{\"id\":\"21:16\",\"name\":\"Ellipse\",\"type\":\"ELLIPSE\"},{\"id\":\"21:17\",\"name\":\"쓰임과 보존\",\"type\":\"FRAME\"},{\"id\":\"21:20\",\"name\":\"사용 설명선\",\"type\":\"VECTOR\"},{\"id\":\"21:21\",\"name\":\"Ellipse\",\"type\":\"ELLIPSE\"},{\"id\":\"21:22\",\"name\":\"재료 확대의 바탕\",\"type\":\"ELLIPSE\"},{\"id\":\"21:23\",\"name\":\"균열 충전 개념 확대\",\"type\":\"FRAME\"},{\"id\":\"21:36\",\"name\":\"재료 확대 연결\",\"type\":\"VECTOR\"},{\"id\":\"21:37\",\"name\":\"Ellipse\",\"type\":\"ELLIPSE\"},{\"id\":\"21:38\",\"name\":\"재료의 단서\",\"type\":\"FRAME\"},{\"id\":\"21:41\",\"name\":\"재료 연구의 적용 범위\",\"type\":\"TEXT\"},{\"id\":\"21:42\",\"name\":\"비교 표제\",\"type\":\"TEXT\"},{\"id\":\"21:43\",\"name\":\"그림 · colosseum-photo\",\"type\":\"ELLIPSE\"},{\"id\":\"21:44\",\"name\":\"콜로세움 비교\",\"type\":\"TEXT\"},{\"id\":\"21:45\",\"name\":\"사진 출처\",\"type\":\"TEXT\"},{\"id\":\"21:46\",\"name\":\"보존의 흔적\",\"type\":\"VECTOR\"},{\"id\":\"21:47\",\"name\":\"Ellipse\",\"type\":\"ELLIPSE\"},{\"id\":\"21:48\",\"name\":\"Ellipse\",\"type\":\"ELLIPSE\"},{\"id\":\"21:49\",\"name\":\"복원 시점\",\"type\":\"TEXT\"},{\"id\":\"21:50\",\"name\":\"복원 내용\",\"type\":\"TEXT\"},{\"id\":\"21:51\",\"name\":\"현대 보존 시점\",\"type\":\"TEXT\"},{\"id\":\"21:52\",\"name\":\"현대 보존 내용\",\"type\":\"TEXT\"},{\"id\":\"21:53\",\"name\":\"핵심 해석\",\"type\":\"TEXT\"},{\"id\":\"21:54\",\"name\":\"정보 출처\",\"type\":\"TEXT\"},{\"id\":\"21:55\",\"name\":\"표현 범위\",\"type\":\"TEXT\"}],\"otherPageNodes\":[]}"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "0ebe5994-f842-455b-921d-d28c8430db90"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "method": "fresh v10 original projected face silhouette union at 2x (2382x3368); no scene save/render/visibility/material/UI writes",
+  "objects": {
+    "L03_forum_vesta": {
+      "bbox": [
+        75.94707890021832,
+        830.9998760255947,
+        182.0528494518319,
+        971.9998681586148
+      ],
+      "geometrySHA": "f4ace59c259c6d26cad81338d53a2a4bd1ae365c7e8a46a577d790c36de3ff5c",
+      "hide_render": false,
+      "hide_viewport": false,
+      "vertices": 15902,
+      "polygons": 33534,
+      "riverOverlapPixels2x": 0,
+      "heroOverlapPixels2x": 0
+    },
+    "L03_forum_temple": {
+      "bbox": [
+        86.83397702428483,
+        991.0000970335267,
+        175.1660656425499,
+        1108.000085609487
+      ],
+      "geometrySHA": "f1cc0499d1df4fa1a6286ca1cafbeb7638fa3c2acfb178d161f5d8ea375b12bf",
+      "hide_render": false,
+      "hide_viewport": false,
+      "vertices": 5651,
+      "polygons": 7939,
+      "riverOverlapPixels2x": 0,
+      "heroOverlapPixels2x": 0
+    }
+  },
+  "pass": true
+}

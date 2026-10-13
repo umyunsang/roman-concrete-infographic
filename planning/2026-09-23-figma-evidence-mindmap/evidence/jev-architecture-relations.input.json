@@ -1,0 +1,1448 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "question": "로마 건축물은 어떻게 약 2천 년을 버텼을까?",
+    "verified_facts": {
+      "ARC01": {
+        "statement": "판테온은 원형 실내 공간과 돔이 잘 보존된 고대 로마 건축물이다.",
+        "limits": [
+          "남아 있다는 사실을 모든 부분이 원형 그대로라는 뜻으로 쓰지 않는다."
+        ]
+      },
+      "ARC02": {
+        "statement": "판테온의 반구형 콘크리트 돔은 원통형 몸체 위를 덮는다.",
+        "limits": [
+          "형태 설명이며 이 사실만으로 생존 원인이 모두 설명되지는 않는다."
+        ]
+      },
+      "ARC03": {
+        "statement": "판테온의 원형 실내 공간은 두꺼운 조적 벽체로 둘러싸여 있다.",
+        "limits": [
+          "벽 두께 수치와 상세 응력값은 이 자료에서 검증하지 않았다."
+        ]
+      },
+      "ARC04": {
+        "statement": "판테온 돔의 무게는 벽체의 여덟 개 큰 지지부에 분산된다.",
+        "limits": [
+          "현관의 열주와 구별한다. 단면 화살표는 원리 설명이며 구조해석 결과가 아니다."
+        ]
+      },
+      "ARC05": {
+        "statement": "로마시 안내는 판테온의 교회 전환이 중세의 자재 약탈을 피하는 데 기여했다고 설명한다.",
+        "limits": [
+          "보존의 한 요인이다. 전 시기 무손상이나 무보수를 뜻하지 않는다."
+        ]
+      },
+      "ARC06": {
+        "statement": "콜로세움 남쪽은 바깥쪽 회랑 두 겹이 사라진 상태로 남아 있다.",
+        "limits": [
+          "판테온과 보존 상태를 비교한다. 모든 로마 건축이 온전히 남았다는 사례로 쓰지 않는다."
+        ]
+      },
+      "ARC07": {
+        "statement": "콜로세움의 방사형 벽은 고리형 벽과 경사진 콘크리트 볼트로 연결된다.",
+        "limits": [
+          "원래 구조 체계의 설명이다. 현재의 결손 부위까지 연속되어 있다고 그리지 않는다."
+        ]
+      },
+      "ARC08": {
+        "statement": "콜로세움의 회랑에서는 지지 기둥이 볼트를 받쳤다.",
+        "limits": [
+          "번호가 붙은 외곽 아치와 입체적인 볼트를 구별한다. 정량 하중은 제시하지 않는다."
+        ]
+      },
+      "ARC09": {
+        "statement": "콜로세움에는 트래버틴·응회암·벽돌·모르타르·콘크리트가 함께 쓰였다.",
+        "limits": [
+          "부위와 보수 시기에 따라 재료가 다르다. 건물 전체를 단일 콘크리트 덩어리로 표시하지 않는다."
+        ]
+      },
+      "ARC10": {
+        "statement": "콜로세움 관리기관은 구조물과 표면을 위한 계획적 유지관리를 시행한다.",
+        "limits": [
+          "오늘의 보존 활동에 관한 근거다. 이를 고대 전체 기간의 유지관리 이력으로 확장하지 않는다."
+        ]
+      },
+      "ARC11": {
+        "statement": "로마 콘크리트의 배합은 사용 목적에 맞추어 달라졌다.",
+        "limits": [
+          "두 건축물에 동일 배합이나 동일 자가치유 성능을 부여하지 않는다."
+        ]
+      },
+      "ARC12": {
+        "statement": "석회 덩어리를 통한 균열 충전은 로마 모르타르 연구가 제안한 내구성 기작이다.",
+        "limits": [
+          "고대 관찰은 프리베르눔·폼페이의 재료에 관한 것이다.",
+          "균열 유량 시험은 현대 모르타르 시편으로 수행됐다.",
+          "판테온·콜로세움의 자가치유를 직접 시험한 결과가 아니다.",
+          "구조와 보존을 함께 다루는 건축 설명의 재료 하위 가지로만 사용한다."
+        ]
+      },
+      "PRE02": {
+        "statement": "판테온은 현재에도 미사와 개인·공동 기도를 위한 장소로 사용된다.",
+        "limits": [
+          "현재 기능에 관한 운영기관의 설명이며, 현재의 보존 상태를 이 기능 하나로 설명하지 않는다."
+        ]
+      },
+      "PRE04": {
+        "statement": "판테온 현관의 청동 덮개는 후대에 철거됐다.",
+        "limits": [
+          "건물 전체 붕괴나 돔 콘크리트의 재료 파괴와 구분한다.",
+          "철거된 청동의 세부 용도와 논란 여지가 있는 연대는 이 사실에 포함하지 않는다."
+        ]
+      },
+      "PRE05": {
+        "statement": "2024년 관리기관 보고는 판테온 대리석 바닥의 여러 균열·결손·파손을 기록한다.",
+        "limits": [
+          "바닥 마감재의 보존 상태이며 돔의 구조 균열에 대한 진단이 아니다."
+        ]
+      },
+      "PRE06": {
+        "statement": "2024년 보고는 2023년 공사 이전의 체계적인 전면 바닥 복원을 1872–1873년으로 기록한다.",
+        "limits": [
+          "해당 대리석 바닥 복원 이력에 한정하며, 그 사이 다른 유지보수가 전혀 없었다는 뜻은 아니다."
+        ]
+      },
+      "PRE07": {
+        "statement": "판테온 대리석 바닥의 보존·복원 작업은 2023년 11월에 시작됐다.",
+        "limits": [
+          "2024년 공사 보고의 착수 사실이다. 현재 완료 여부나 구조 전체 보강을 주장하지 않는다."
+        ]
+      },
+      "PRE08": {
+        "statement": "성당의 공식 운영 안내는 문화부가 판테온의 일상·특별 유지관리와 청소 비용을 담당한다고 설명한다.",
+        "limits": [
+          "현재 운영·비용 책임에 관한 설명이며, 과거 2천 년의 관리 방식이 같았다는 뜻은 아니다."
+        ]
+      },
+      "PRE09": {
+        "statement": "콜로세움 남측의 두 회랑은 지진과 철거로 붕괴를 겪었다.",
+        "limits": [
+          "원인은 자연재해와 인위적 철거를 함께 포함한다.",
+          "이를 특정 콘크리트 배합의 실패나 한 차례 지진만의 결과로 단정하지 않는다."
+        ]
+      },
+      "PRE10": {
+        "statement": "콜로세움에는 외벽의 추가 붕괴를 막기 위한 스테른·발라디에의 19세기 버팀 구조가 설치됐다.",
+        "limits": [
+          "후대 보강이 남아 있는 유적의 일부를 지지한다는 사례다.",
+          "이 보강이 모든 부위의 손상이나 미래 위험을 없앴다는 뜻은 아니다."
+        ]
+      },
+      "PRE11": {
+        "statement": "콜로세움의 코모두스 통로에는 1990년대에 복원과 방수 공사가 시행됐다.",
+        "limits": [
+          "특정 통로의 보존 작업이며 콜로세움 전체의 완전한 복구를 의미하지 않는다."
+        ]
+      },
+      "PRE12": {
+        "statement": "이 두 유적의 손상·보존 기록만으로도, 지금 남아 있는 로마 건축물이 모두 무손상·무보수로 원형을 유지했다는 일반화는 성립하지 않는다.",
+        "limits": [
+          "사례 비교에 따른 해석상의 한계다.",
+          "로마 건축물 전체의 생존율이나 각 보존 요인의 기여 비율을 계산한 결과가 아니다."
+        ]
+      }
+    },
+    "relationships": {
+      "schema_version": "1.0",
+      "status": "pending_root_jev_review",
+      "owner": "figma_options",
+      "title": "로마 건축물은 어떻게 약 2천 년을 버텼을까?",
+      "focus": "판테온의 건축적 잔존을 중심으로, 콜로세움의 부분 잔존·후대 보강과 비교",
+      "source_dataset": "evidence/architecture-mindmap.json",
+      "canonical_fact_count": 22,
+      "node_count": 15,
+      "edge_count": 17,
+      "nodes": [
+        {
+          "id": "P",
+          "label": "판테온\n오늘도 남은 건축물",
+          "evidence_ids": [
+            "ARC01"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            }
+          ],
+          "limits": [
+            "남아 있다는 사실을 모든 부분이 원형 그대로라는 뜻으로 쓰지 않는다."
+          ],
+          "kind": "primary_case",
+          "position": {
+            "x": 2080,
+            "y": 1080,
+            "width": 680
+          }
+        },
+        {
+          "id": "D",
+          "label": "원통형 몸체 위의\n반구형 돔",
+          "evidence_ids": [
+            "ARC02"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            }
+          ],
+          "limits": [
+            "형태 설명이며 이 사실만으로 생존 원인이 모두 설명되지는 않는다."
+          ],
+          "kind": "structure",
+          "position": {
+            "x": 1210,
+            "y": 820,
+            "width": 490
+          }
+        },
+        {
+          "id": "W",
+          "label": "두꺼운 벽체\n여덟 큰 지지부",
+          "evidence_ids": [
+            "ARC03",
+            "ARC04"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            }
+          ],
+          "limits": [
+            "벽 두께 수치와 상세 응력값은 이 자료에서 검증하지 않았다.",
+            "현관의 열주와 구별한다. 단면 화살표는 원리 설명이며 구조해석 결과가 아니다."
+          ],
+          "kind": "structure",
+          "position": {
+            "x": 190,
+            "y": 820,
+            "width": 590
+          }
+        },
+        {
+          "id": "PD",
+          "label": "청동 덮개의 상실\n바닥의 균열·결손",
+          "evidence_ids": [
+            "PRE04",
+            "PRE05"
+          ],
+          "sources": [
+            {
+              "id": "PANTHEON_HISTORY",
+              "url": "https://www.senato.it/relazioni-con-i-cittadini/biblioteca/pubblicazioni-testi/minervaweb/il-pantheon"
+            },
+            {
+              "id": "PANTHEON_FLOOR",
+              "url": "https://direzionemuseiroma.cultura.gov.it/recupero-e-restauro-della-pavimentazione-marmorea-del-pantheon/"
+            }
+          ],
+          "limits": [
+            "건물 전체 붕괴나 돔 콘크리트의 재료 파괴와 구분한다.",
+            "철거된 청동의 세부 용도와 논란 여지가 있는 연대는 이 사실에 포함하지 않는다.",
+            "바닥 마감재의 보존 상태이며 돔의 구조 균열에 대한 진단이 아니다."
+          ],
+          "kind": "damage",
+          "position": {
+            "x": 1230,
+            "y": 370,
+            "width": 740
+          }
+        },
+        {
+          "id": "U",
+          "label": "609년 교회 전환\n지금도 이어지는 예배",
+          "evidence_ids": [
+            "ARC05",
+            "PRE02"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            },
+            {
+              "id": "PANTHEON_CHAPTER",
+              "url": "https://pantheonroma.org/the-basilica/"
+            }
+          ],
+          "limits": [
+            "보존의 한 요인이다. 전 시기 무손상이나 무보수를 뜻하지 않는다.",
+            "현재 기능에 관한 운영기관의 설명이며, 현재의 보존 상태를 이 기능 하나로 설명하지 않는다."
+          ],
+          "kind": "use",
+          "position": {
+            "x": 3440,
+            "y": 380,
+            "width": 680
+          }
+        },
+        {
+          "id": "H",
+          "label": "지속된 쓰임\n보존에 일부 기여",
+          "evidence_ids": [
+            "ARC05"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            }
+          ],
+          "limits": [
+            "보존의 한 요인이다. 전 시기 무손상이나 무보수를 뜻하지 않는다."
+          ],
+          "kind": "historical_interpretation",
+          "position": {
+            "x": 3210,
+            "y": 870,
+            "width": 780
+          }
+        },
+        {
+          "id": "PC",
+          "label": "바닥 복원과\n오늘의 유지관리",
+          "evidence_ids": [
+            "PRE06",
+            "PRE07",
+            "PRE08"
+          ],
+          "sources": [
+            {
+              "id": "PANTHEON_FLOOR",
+              "url": "https://direzionemuseiroma.cultura.gov.it/recupero-e-restauro-della-pavimentazione-marmorea-del-pantheon/"
+            },
+            {
+              "id": "PANTHEON_CHAPTER",
+              "url": "https://pantheonroma.org/the-basilica/"
+            }
+          ],
+          "limits": [
+            "해당 대리석 바닥 복원 이력에 한정하며, 그 사이 다른 유지보수가 전혀 없었다는 뜻은 아니다.",
+            "2024년 공사 보고의 착수 사실이다. 현재 완료 여부나 구조 전체 보강을 주장하지 않는다.",
+            "현재 운영·비용 책임에 관한 설명이며, 과거 2천 년의 관리 방식이 같았다는 뜻은 아니다."
+          ],
+          "kind": "conservation",
+          "position": {
+            "x": 3400,
+            "y": 1360,
+            "width": 760
+          }
+        },
+        {
+          "id": "S",
+          "label": "다른 유적·현대 시편 연구\n조건부 균열 충전 단서",
+          "evidence_ids": [
+            "ARC12"
+          ],
+          "sources": [
+            {
+              "id": "S2023",
+              "url": "https://doi.org/10.1126/sciadv.add1602"
+            },
+            {
+              "id": "S2025",
+              "url": "https://doi.org/10.1038/s41467-025-66634-7"
+            }
+          ],
+          "limits": [
+            "고대 관찰은 프리베르눔·폼페이의 재료에 관한 것이다.",
+            "균열 유량 시험은 현대 모르타르 시편으로 수행됐다.",
+            "판테온·콜로세움의 자가치유를 직접 시험한 결과가 아니다.",
+            "구조와 보존을 함께 다루는 건축 설명의 재료 하위 가지로만 사용한다."
+          ],
+          "kind": "conditional_material_detail",
+          "position": {
+            "x": 130,
+            "y": 1460,
+            "width": 720
+          }
+        },
+        {
+          "id": "L",
+          "label": "잔존 ≠ 무손상·무보수\n타유적 치유 ≠ 판테온 직접 입증",
+          "evidence_ids": [
+            "PRE12",
+            "ARC12"
+          ],
+          "sources": [
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            },
+            {
+              "id": "S2023",
+              "url": "https://doi.org/10.1126/sciadv.add1602"
+            },
+            {
+              "id": "S2025",
+              "url": "https://doi.org/10.1038/s41467-025-66634-7"
+            }
+          ],
+          "limits": [
+            "사례 비교에 따른 해석상의 한계다.",
+            "로마 건축물 전체의 생존율이나 각 보존 요인의 기여 비율을 계산한 결과가 아니다.",
+            "고대 관찰은 프리베르눔·폼페이의 재료에 관한 것이다.",
+            "균열 유량 시험은 현대 모르타르 시편으로 수행됐다.",
+            "판테온·콜로세움의 자가치유를 직접 시험한 결과가 아니다.",
+            "구조와 보존을 함께 다루는 건축 설명의 재료 하위 가지로만 사용한다."
+          ],
+          "kind": "interpretation_limit",
+          "position": {
+            "x": 1190,
+            "y": 1460,
+            "width": 740
+          }
+        },
+        {
+          "id": "C",
+          "label": "콜로세움\n일부를 잃고 남은 비교 사례",
+          "evidence_ids": [
+            "ARC06"
+          ],
+          "sources": [
+            {
+              "id": "A-COLOSSEO-CONSTRUCTION",
+              "url": "https://colosseo.it/en/southern-ambulatories/"
+            },
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            }
+          ],
+          "limits": [
+            "판테온과 보존 상태를 비교한다. 모든 로마 건축이 온전히 남았다는 사례로 쓰지 않는다."
+          ],
+          "kind": "comparison_case",
+          "position": {
+            "x": 2130,
+            "y": 2280,
+            "width": 750
+          }
+        },
+        {
+          "id": "CD",
+          "label": "지진과 철거\n남측 회랑의 붕괴",
+          "evidence_ids": [
+            "PRE09"
+          ],
+          "sources": [
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "limits": [
+            "원인은 자연재해와 인위적 철거를 함께 포함한다.",
+            "이를 특정 콘크리트 배합의 실패나 한 차례 지진만의 결과로 단정하지 않는다."
+          ],
+          "kind": "damage",
+          "position": {
+            "x": 3500,
+            "y": 2220,
+            "width": 670
+          }
+        },
+        {
+          "id": "B",
+          "label": "19세기 버팀 구조\n남은 외벽의 후대 보강",
+          "evidence_ids": [
+            "PRE10"
+          ],
+          "sources": [
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "limits": [
+            "후대 보강이 남아 있는 유적의 일부를 지지한다는 사례다.",
+            "이 보강이 모든 부위의 손상이나 미래 위험을 없앴다는 뜻은 아니다."
+          ],
+          "kind": "conservation",
+          "position": {
+            "x": 3500,
+            "y": 2740,
+            "width": 700
+          }
+        },
+        {
+          "id": "CC",
+          "label": "통로 복원·방수\n계속되는 계획적 유지관리",
+          "evidence_ids": [
+            "ARC10",
+            "PRE11"
+          ],
+          "sources": [
+            {
+              "id": "A-COLOSSEO-MAINTENANCE",
+              "url": "https://colosseo.it/en/restauri/colosseum/"
+            },
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "limits": [
+            "오늘의 보존 활동에 관한 근거다. 이를 고대 전체 기간의 유지관리 이력으로 확장하지 않는다.",
+            "특정 통로의 보존 작업이며 콜로세움 전체의 완전한 복구를 의미하지 않는다."
+          ],
+          "kind": "conservation",
+          "position": {
+            "x": 2140,
+            "y": 2990,
+            "width": 760
+          }
+        },
+        {
+          "id": "CS",
+          "label": "고리형·방사형 벽\n기둥과 볼트의 연결",
+          "evidence_ids": [
+            "ARC07",
+            "ARC08"
+          ],
+          "sources": [
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            },
+            {
+              "id": "A-COLOSSEO-CONSTRUCTION",
+              "url": "https://colosseo.it/en/southern-ambulatories/"
+            }
+          ],
+          "limits": [
+            "원래 구조 체계의 설명이다. 현재의 결손 부위까지 연속되어 있다고 그리지 않는다.",
+            "번호가 붙은 외곽 아치와 입체적인 볼트를 구별한다. 정량 하중은 제시하지 않는다."
+          ],
+          "kind": "structure",
+          "position": {
+            "x": 1190,
+            "y": 2360,
+            "width": 700
+          }
+        },
+        {
+          "id": "M",
+          "label": "석재·벽돌·콘크리트\n부위·용도별 재료와 배합",
+          "evidence_ids": [
+            "ARC09",
+            "ARC11"
+          ],
+          "sources": [
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            },
+            {
+              "id": "A-COLOSSEO-MAINTENANCE",
+              "url": "https://colosseo.it/en/restauri/colosseum/"
+            },
+            {
+              "id": "S2023",
+              "url": "https://doi.org/10.1126/sciadv.add1602"
+            },
+            {
+              "id": "S2025",
+              "url": "https://doi.org/10.1038/s41467-025-66634-7"
+            }
+          ],
+          "limits": [
+            "부위와 보수 시기에 따라 재료가 다르다. 건물 전체를 단일 콘크리트 덩어리로 표시하지 않는다.",
+            "두 건축물에 동일 배합이나 동일 자가치유 성능을 부여하지 않는다."
+          ],
+          "kind": "material",
+          "position": {
+            "x": 150,
+            "y": 2380,
+            "width": 740
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "AR01",
+          "source": "P",
+          "target": "D",
+          "type": "whole_part",
+          "label": "전체–부분\n판테온의 돔",
+          "evidence_ids": [
+            "ARC01",
+            "ARC02"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            }
+          ],
+          "qualifier": "건물과 구성 부분의 관계이며 돔 하나만으로 잔존을 설명하지 않는다.",
+          "source_limits": {
+            "ARC01": [
+              "남아 있다는 사실을 모든 부분이 원형 그대로라는 뜻으로 쓰지 않는다."
+            ],
+            "ARC02": [
+              "형태 설명이며 이 사실만으로 생존 원인이 모두 설명되지는 않는다."
+            ]
+          },
+          "visual": {
+            "color": "#D29F2A",
+            "start_magnet": "LEFT",
+            "end_magnet": "RIGHT",
+            "arrow": false,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR02",
+          "source": "D",
+          "target": "W",
+          "type": "mechanical_load_path",
+          "label": "역학 원리\n돔 무게의 전달·분산",
+          "evidence_ids": [
+            "ARC02",
+            "ARC03",
+            "ARC04"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            }
+          ],
+          "qualifier": "돔의 무게가 벽체의 여덟 큰 지지부에 분산된다는 개념 설명이다. 현관 열주나 응력해석 결과로 혼동하지 않는다.",
+          "source_limits": {
+            "ARC02": [
+              "형태 설명이며 이 사실만으로 생존 원인이 모두 설명되지는 않는다."
+            ],
+            "ARC03": [
+              "벽 두께 수치와 상세 응력값은 이 자료에서 검증하지 않았다."
+            ],
+            "ARC04": [
+              "현관의 열주와 구별한다. 단면 화살표는 원리 설명이며 구조해석 결과가 아니다."
+            ]
+          },
+          "visual": {
+            "color": "#E67845",
+            "start_magnet": "LEFT",
+            "end_magnet": "RIGHT",
+            "arrow": true,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR03",
+          "source": "PD",
+          "target": "P",
+          "type": "preservation_state_limit",
+          "label": "상태의 한계\n모든 부분이 원형은 아님",
+          "evidence_ids": [
+            "ARC01",
+            "PRE04",
+            "PRE05"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            },
+            {
+              "id": "PANTHEON_HISTORY",
+              "url": "https://www.senato.it/relazioni-con-i-cittadini/biblioteca/pubblicazioni-testi/minervaweb/il-pantheon"
+            },
+            {
+              "id": "PANTHEON_FLOOR",
+              "url": "https://direzionemuseiroma.cultura.gov.it/recupero-e-restauro-della-pavimentazione-marmorea-del-pantheon/"
+            }
+          ],
+          "qualifier": "마감·청동 덮개의 상실을 돔 전체 붕괴나 콘크리트 재료 실패로 바꾸어 설명하지 않는다.",
+          "source_limits": {
+            "ARC01": [
+              "남아 있다는 사실을 모든 부분이 원형 그대로라는 뜻으로 쓰지 않는다."
+            ],
+            "PRE04": [
+              "건물 전체 붕괴나 돔 콘크리트의 재료 파괴와 구분한다.",
+              "철거된 청동의 세부 용도와 논란 여지가 있는 연대는 이 사실에 포함하지 않는다."
+            ],
+            "PRE05": [
+              "바닥 마감재의 보존 상태이며 돔의 구조 균열에 대한 진단이 아니다."
+            ]
+          },
+          "visual": {
+            "color": "#BD687B",
+            "start_magnet": "BOTTOM",
+            "end_magnet": "TOP",
+            "arrow": false,
+            "dashed": true
+          }
+        },
+        {
+          "id": "AR04",
+          "source": "U",
+          "target": "H",
+          "type": "qualified_historical_interpretation",
+          "label": "역사 해석\n보존의 한 요인",
+          "evidence_ids": [
+            "ARC05",
+            "PRE02"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            },
+            {
+              "id": "PANTHEON_CHAPTER",
+              "url": "https://pantheonroma.org/the-basilica/"
+            }
+          ],
+          "qualifier": "교회 전환과 계속된 쓰임의 역사적 기여를 다룬다. 건물이 무손상·무보수였거나 사용만으로 보존됐다는 뜻은 아니다.",
+          "source_limits": {
+            "ARC05": [
+              "보존의 한 요인이다. 전 시기 무손상이나 무보수를 뜻하지 않는다."
+            ],
+            "PRE02": [
+              "현재 기능에 관한 운영기관의 설명이며, 현재의 보존 상태를 이 기능 하나로 설명하지 않는다."
+            ]
+          },
+          "visual": {
+            "color": "#9C79C1",
+            "start_magnet": "BOTTOM",
+            "end_magnet": "TOP",
+            "arrow": true,
+            "dashed": true
+          }
+        },
+        {
+          "id": "AR05",
+          "source": "H",
+          "target": "P",
+          "type": "qualified_contribution",
+          "label": "공동 설명\n보존에 일부 기여",
+          "evidence_ids": [
+            "ARC01",
+            "ARC05"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            }
+          ],
+          "qualifier": "역사적 보존 요인을 구조·재료·보수와 함께 읽는 연결이다. 요인별 기여율을 측정한 인과모형이 아니다.",
+          "source_limits": {
+            "ARC01": [
+              "남아 있다는 사실을 모든 부분이 원형 그대로라는 뜻으로 쓰지 않는다."
+            ],
+            "ARC05": [
+              "보존의 한 요인이다. 전 시기 무손상이나 무보수를 뜻하지 않는다."
+            ]
+          },
+          "visual": {
+            "color": "#9C79C1",
+            "start_magnet": "LEFT",
+            "end_magnet": "RIGHT",
+            "arrow": true,
+            "dashed": true
+          }
+        },
+        {
+          "id": "AR06",
+          "source": "PC",
+          "target": "P",
+          "type": "conservation_action",
+          "label": "보존 활동\n후대의 복원·관리",
+          "evidence_ids": [
+            "PRE06",
+            "PRE07",
+            "PRE08"
+          ],
+          "sources": [
+            {
+              "id": "PANTHEON_FLOOR",
+              "url": "https://direzionemuseiroma.cultura.gov.it/recupero-e-restauro-della-pavimentazione-marmorea-del-pantheon/"
+            },
+            {
+              "id": "PANTHEON_CHAPTER",
+              "url": "https://pantheonroma.org/the-basilica/"
+            }
+          ],
+          "qualifier": "특정 시기의 바닥 복원과 오늘의 유지관리 책임이다. 2023년 공사 완료 여부나 고대 전체 기간의 동일 관리체계를 주장하지 않는다.",
+          "source_limits": {
+            "PRE06": [
+              "해당 대리석 바닥 복원 이력에 한정하며, 그 사이 다른 유지보수가 전혀 없었다는 뜻은 아니다."
+            ],
+            "PRE07": [
+              "2024년 공사 보고의 착수 사실이다. 현재 완료 여부나 구조 전체 보강을 주장하지 않는다."
+            ],
+            "PRE08": [
+              "현재 운영·비용 책임에 관한 설명이며, 과거 2천 년의 관리 방식이 같았다는 뜻은 아니다."
+            ]
+          },
+          "visual": {
+            "color": "#4785C9",
+            "start_magnet": "LEFT",
+            "end_magnet": "RIGHT",
+            "arrow": true,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR07",
+          "source": "C",
+          "target": "P",
+          "type": "case_comparison",
+          "label": "사례 비교\n남아 있는 상태가 다름",
+          "evidence_ids": [
+            "ARC01",
+            "ARC06",
+            "PRE12"
+          ],
+          "sources": [
+            {
+              "id": "A-PANTHEON-ROMA",
+              "url": "https://www.turismoroma.it/en/places/pantheon"
+            },
+            {
+              "id": "A-COLOSSEO-CONSTRUCTION",
+              "url": "https://colosseo.it/en/southern-ambulatories/"
+            },
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            },
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "qualifier": "판테온과 콜로세움의 잔존 상태 비교이다. 한 건물의 손상이 다른 건물의 생존 원인이 되는 인과관계가 아니다.",
+          "source_limits": {
+            "ARC01": [
+              "남아 있다는 사실을 모든 부분이 원형 그대로라는 뜻으로 쓰지 않는다."
+            ],
+            "ARC06": [
+              "판테온과 보존 상태를 비교한다. 모든 로마 건축이 온전히 남았다는 사례로 쓰지 않는다."
+            ],
+            "PRE12": [
+              "사례 비교에 따른 해석상의 한계다.",
+              "로마 건축물 전체의 생존율이나 각 보존 요인의 기여 비율을 계산한 결과가 아니다."
+            ]
+          },
+          "visual": {
+            "color": "#D29F2A",
+            "start_magnet": "TOP",
+            "end_magnet": "BOTTOM",
+            "arrow": false,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR08",
+          "source": "CD",
+          "target": "C",
+          "type": "recorded_damage_consequence",
+          "label": "손상 이력\n붕괴·철거 뒤 부분 잔존",
+          "evidence_ids": [
+            "ARC06",
+            "PRE09"
+          ],
+          "sources": [
+            {
+              "id": "A-COLOSSEO-CONSTRUCTION",
+              "url": "https://colosseo.it/en/southern-ambulatories/"
+            },
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            },
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "qualifier": "남측 회랑의 상실에는 지진과 철거가 함께 포함된다. 한 번의 지진이나 단일 배합의 실패로 축소하지 않는다.",
+          "source_limits": {
+            "ARC06": [
+              "판테온과 보존 상태를 비교한다. 모든 로마 건축이 온전히 남았다는 사례로 쓰지 않는다."
+            ],
+            "PRE09": [
+              "원인은 자연재해와 인위적 철거를 함께 포함한다.",
+              "이를 특정 콘크리트 배합의 실패나 한 차례 지진만의 결과로 단정하지 않는다."
+            ]
+          },
+          "visual": {
+            "color": "#BD687B",
+            "start_magnet": "LEFT",
+            "end_magnet": "RIGHT",
+            "arrow": true,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR09",
+          "source": "CD",
+          "target": "B",
+          "type": "temporal_sequence",
+          "label": "시간 관계\n손상 뒤의 후대 보강",
+          "evidence_ids": [
+            "PRE09",
+            "PRE10"
+          ],
+          "sources": [
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "qualifier": "여러 세기에 걸친 손상과 19세기 개입의 선후 관계이다. 특정 지진 직후 한 번의 보강으로 모두 복구됐다는 뜻은 아니다.",
+          "source_limits": {
+            "PRE09": [
+              "원인은 자연재해와 인위적 철거를 함께 포함한다.",
+              "이를 특정 콘크리트 배합의 실패나 한 차례 지진만의 결과로 단정하지 않는다."
+            ],
+            "PRE10": [
+              "후대 보강이 남아 있는 유적의 일부를 지지한다는 사례다.",
+              "이 보강이 모든 부위의 손상이나 미래 위험을 없앴다는 뜻은 아니다."
+            ]
+          },
+          "visual": {
+            "color": "#9C79C1",
+            "start_magnet": "BOTTOM",
+            "end_magnet": "TOP",
+            "arrow": true,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR10",
+          "source": "B",
+          "target": "C",
+          "type": "later_structural_support",
+          "label": "후대 보강\n추가 붕괴를 막기 위한 지지",
+          "evidence_ids": [
+            "PRE10",
+            "ARC06"
+          ],
+          "sources": [
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            },
+            {
+              "id": "A-COLOSSEO-CONSTRUCTION",
+              "url": "https://colosseo.it/en/southern-ambulatories/"
+            },
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            }
+          ],
+          "qualifier": "버팀 구조의 보존 목적과 남은 외벽 지지를 설명한다. 모든 부위의 미래 안전을 보장하지 않는다.",
+          "source_limits": {
+            "PRE10": [
+              "후대 보강이 남아 있는 유적의 일부를 지지한다는 사례다.",
+              "이 보강이 모든 부위의 손상이나 미래 위험을 없앴다는 뜻은 아니다."
+            ],
+            "ARC06": [
+              "판테온과 보존 상태를 비교한다. 모든 로마 건축이 온전히 남았다는 사례로 쓰지 않는다."
+            ]
+          },
+          "visual": {
+            "color": "#4785C9",
+            "start_magnet": "LEFT",
+            "end_magnet": "RIGHT",
+            "arrow": true,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR11",
+          "source": "CC",
+          "target": "C",
+          "type": "ongoing_conservation",
+          "label": "보존 활동\n복원·방수·유지관리",
+          "evidence_ids": [
+            "ARC10",
+            "PRE11"
+          ],
+          "sources": [
+            {
+              "id": "A-COLOSSEO-MAINTENANCE",
+              "url": "https://colosseo.it/en/restauri/colosseum/"
+            },
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "qualifier": "1990년대 특정 통로 공사와 오늘의 계획적 관리라는 서로 다른 시기·범위의 사실이다.",
+          "source_limits": {
+            "ARC10": [
+              "오늘의 보존 활동에 관한 근거다. 이를 고대 전체 기간의 유지관리 이력으로 확장하지 않는다."
+            ],
+            "PRE11": [
+              "특정 통로의 보존 작업이며 콜로세움 전체의 완전한 복구를 의미하지 않는다."
+            ]
+          },
+          "visual": {
+            "color": "#4785C9",
+            "start_magnet": "TOP",
+            "end_magnet": "BOTTOM",
+            "arrow": true,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR12",
+          "source": "C",
+          "target": "CS",
+          "type": "whole_part",
+          "label": "전체–부분\n회랑을 이루는 구조",
+          "evidence_ids": [
+            "ARC07",
+            "ARC08"
+          ],
+          "sources": [
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            },
+            {
+              "id": "A-COLOSSEO-CONSTRUCTION",
+              "url": "https://colosseo.it/en/southern-ambulatories/"
+            }
+          ],
+          "qualifier": "원래 구조체계의 설명이며 소실된 남측 부위가 지금도 온전히 이어진 것처럼 그리지 않는다.",
+          "source_limits": {
+            "ARC07": [
+              "원래 구조 체계의 설명이다. 현재의 결손 부위까지 연속되어 있다고 그리지 않는다."
+            ],
+            "ARC08": [
+              "번호가 붙은 외곽 아치와 입체적인 볼트를 구별한다. 정량 하중은 제시하지 않는다."
+            ]
+          },
+          "visual": {
+            "color": "#E67845",
+            "start_magnet": "LEFT",
+            "end_magnet": "RIGHT",
+            "arrow": false,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR13",
+          "source": "M",
+          "target": "CS",
+          "type": "material_composition",
+          "label": "재료 구성\n부위별로 조합",
+          "evidence_ids": [
+            "ARC07",
+            "ARC08",
+            "ARC09",
+            "ARC11"
+          ],
+          "sources": [
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            },
+            {
+              "id": "A-COLOSSEO-CONSTRUCTION",
+              "url": "https://colosseo.it/en/southern-ambulatories/"
+            },
+            {
+              "id": "A-COLOSSEO-MAINTENANCE",
+              "url": "https://colosseo.it/en/restauri/colosseum/"
+            },
+            {
+              "id": "S2023",
+              "url": "https://doi.org/10.1126/sciadv.add1602"
+            },
+            {
+              "id": "S2025",
+              "url": "https://doi.org/10.1038/s41467-025-66634-7"
+            }
+          ],
+          "qualifier": "콜로세움의 구조와 혼합 재료를 연결한다. 건물 전체가 단일 콘크리트 덩어리이거나 같은 배합이라는 뜻은 아니다.",
+          "source_limits": {
+            "ARC07": [
+              "원래 구조 체계의 설명이다. 현재의 결손 부위까지 연속되어 있다고 그리지 않는다."
+            ],
+            "ARC08": [
+              "번호가 붙은 외곽 아치와 입체적인 볼트를 구별한다. 정량 하중은 제시하지 않는다."
+            ],
+            "ARC09": [
+              "부위와 보수 시기에 따라 재료가 다르다. 건물 전체를 단일 콘크리트 덩어리로 표시하지 않는다."
+            ],
+            "ARC11": [
+              "두 건축물에 동일 배합이나 동일 자가치유 성능을 부여하지 않는다."
+            ]
+          },
+          "visual": {
+            "color": "#36A091",
+            "start_magnet": "RIGHT",
+            "end_magnet": "LEFT",
+            "arrow": false,
+            "dashed": false
+          }
+        },
+        {
+          "id": "AR14",
+          "source": "S",
+          "target": "M",
+          "type": "conditional_supporting_detail",
+          "label": "재료 보조 단서\n조건부·다른 유적 연구",
+          "evidence_ids": [
+            "ARC11",
+            "ARC12"
+          ],
+          "sources": [
+            {
+              "id": "S2023",
+              "url": "https://doi.org/10.1126/sciadv.add1602"
+            },
+            {
+              "id": "S2025",
+              "url": "https://doi.org/10.1038/s41467-025-66634-7"
+            }
+          ],
+          "qualifier": "재료 연구의 보조 설명이다. 판테온·콜로세움에서 같은 자가치유 성능을 검증했다는 연결이 아니다.",
+          "source_limits": {
+            "ARC11": [
+              "두 건축물에 동일 배합이나 동일 자가치유 성능을 부여하지 않는다."
+            ],
+            "ARC12": [
+              "고대 관찰은 프리베르눔·폼페이의 재료에 관한 것이다.",
+              "균열 유량 시험은 현대 모르타르 시편으로 수행됐다.",
+              "판테온·콜로세움의 자가치유를 직접 시험한 결과가 아니다.",
+              "구조와 보존을 함께 다루는 건축 설명의 재료 하위 가지로만 사용한다."
+            ]
+          },
+          "visual": {
+            "color": "#36A091",
+            "start_magnet": "BOTTOM",
+            "end_magnet": "TOP",
+            "arrow": false,
+            "dashed": true
+          }
+        },
+        {
+          "id": "AR15",
+          "source": "S",
+          "target": "L",
+          "type": "evidence_scope_limit",
+          "label": "근거의 범위\n타유적 관찰·현대 시편",
+          "evidence_ids": [
+            "ARC12"
+          ],
+          "sources": [
+            {
+              "id": "S2023",
+              "url": "https://doi.org/10.1126/sciadv.add1602"
+            },
+            {
+              "id": "S2025",
+              "url": "https://doi.org/10.1038/s41467-025-66634-7"
+            }
+          ],
+          "qualifier": "프리베르눔·폼페이의 고대 재료 관찰과 현대 모르타르 시험을 구분하며 두 건축물의 직접시험으로 확대하지 않는다.",
+          "source_limits": {
+            "ARC12": [
+              "고대 관찰은 프리베르눔·폼페이의 재료에 관한 것이다.",
+              "균열 유량 시험은 현대 모르타르 시편으로 수행됐다.",
+              "판테온·콜로세움의 자가치유를 직접 시험한 결과가 아니다.",
+              "구조와 보존을 함께 다루는 건축 설명의 재료 하위 가지로만 사용한다."
+            ]
+          },
+          "visual": {
+            "color": "#BD687B",
+            "start_magnet": "RIGHT",
+            "end_magnet": "LEFT",
+            "arrow": false,
+            "dashed": true
+          }
+        },
+        {
+          "id": "AR16",
+          "source": "L",
+          "target": "P",
+          "type": "application_limit",
+          "label": "적용의 한계\n자가치유의 직접 입증 아님",
+          "evidence_ids": [
+            "ARC12",
+            "PRE12"
+          ],
+          "sources": [
+            {
+              "id": "S2023",
+              "url": "https://doi.org/10.1126/sciadv.add1602"
+            },
+            {
+              "id": "S2025",
+              "url": "https://doi.org/10.1038/s41467-025-66634-7"
+            },
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "qualifier": "판테온의 약 2천년 잔존을 자가치유 하나로 환원하거나 건물 강도 회복으로 단정하지 않는다.",
+          "source_limits": {
+            "ARC12": [
+              "고대 관찰은 프리베르눔·폼페이의 재료에 관한 것이다.",
+              "균열 유량 시험은 현대 모르타르 시편으로 수행됐다.",
+              "판테온·콜로세움의 자가치유를 직접 시험한 결과가 아니다.",
+              "구조와 보존을 함께 다루는 건축 설명의 재료 하위 가지로만 사용한다."
+            ],
+            "PRE12": [
+              "사례 비교에 따른 해석상의 한계다.",
+              "로마 건축물 전체의 생존율이나 각 보존 요인의 기여 비율을 계산한 결과가 아니다."
+            ]
+          },
+          "visual": {
+            "color": "#BD687B",
+            "start_magnet": "RIGHT",
+            "end_magnet": "LEFT",
+            "arrow": false,
+            "dashed": true
+          }
+        },
+        {
+          "id": "AR17",
+          "source": "C",
+          "target": "L",
+          "type": "survivorship_limit",
+          "label": "일반화 한계\n남아 있음 ≠ 무손상",
+          "evidence_ids": [
+            "ARC06",
+            "PRE09",
+            "PRE10",
+            "PRE12"
+          ],
+          "sources": [
+            {
+              "id": "A-COLOSSEO-CONSTRUCTION",
+              "url": "https://colosseo.it/en/southern-ambulatories/"
+            },
+            {
+              "id": "A-VESTRONI",
+              "url": "https://www.ilasl.org/Scienze/article/download/872/884"
+            },
+            {
+              "id": "COLOSSEUM_DIARY",
+              "url": "https://colosseo.it/en/event/archaeological-colosseum-square-excavation-southern-side/"
+            }
+          ],
+          "qualifier": "손상·결손·후대 보강이 남아 있는 사례를 통해 무손상·무보수 일반화의 한계를 보여준다. 제국 전체의 생존율은 산출하지 않는다.",
+          "source_limits": {
+            "ARC06": [
+              "판테온과 보존 상태를 비교한다. 모든 로마 건축이 온전히 남았다는 사례로 쓰지 않는다."
+            ],
+            "PRE09": [
+              "원인은 자연재해와 인위적 철거를 함께 포함한다.",
+              "이를 특정 콘크리트 배합의 실패나 한 차례 지진만의 결과로 단정하지 않는다."
+            ],
+            "PRE10": [
+              "후대 보강이 남아 있는 유적의 일부를 지지한다는 사례다.",
+              "이 보강이 모든 부위의 손상이나 미래 위험을 없앴다는 뜻은 아니다."
+            ],
+            "PRE12": [
+              "사례 비교에 따른 해석상의 한계다.",
+              "로마 건축물 전체의 생존율이나 각 보존 요인의 기여 비율을 계산한 결과가 아니다."
+            ]
+          },
+          "visual": {
+            "color": "#BD687B",
+            "start_magnet": "LEFT",
+            "end_magnet": "BOTTOM",
+            "arrow": false,
+            "dashed": true
+          }
+        }
+      ],
+      "interpretation_rules": [
+        "화살표의 종류를 가시 라벨로 구분하며 구조 원리·역사 해석·시간 선후·관찰·한계를 섞지 않는다.",
+        "재료와 구조 사이에 검증되지 않은 양방향 영향 관계를 만들지 않는다.",
+        "자가치유는 다른 유적과 현대 시편에서 얻은 조건부 보조 단서이며 판테온·콜로세움의 직접 증거가 아니다.",
+        "남아 있는 건축물이라는 결과와 무손상·무보수·원형 전체 보존을 구분한다.",
+        "관계도는 근거의 종합이며 요인별 생존 기여율을 계산한 모델이 아니다."
+      ],
+      "visual_plan": {
+        "file_key": "Ob3wzRNRC0OSzDCDFp4gtF",
+        "section_name": "03 · 건축물 관계 마인드맵",
+        "native_types": [
+          "SECTION",
+          "TEXT",
+          "CONNECTOR",
+          "SHAPE_WITH_TEXT"
+        ],
+        "append_to_right_of_all_existing_content": true,
+        "connector_line_type": "CURVED",
+        "image_keys": [
+          "pantheon-exterior",
+          "colosseum-photo"
+        ],
+        "image_scale_mode": "FIT",
+        "images_are_reference_photographs_not_structural_analysis": true
+      }
+    }
+  },
+  "questions": {
+    "AR01": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR01 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR02": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR02 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR03": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR03 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR04": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR04 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR05": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR05 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR06": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR06 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR07": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR07 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR08": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR08 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR09": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR09 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR10": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR10 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR11": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR11 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR12": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR12 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR13": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR13 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR14": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR14 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR15": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR15 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR16": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR16 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    },
+    "AR17": {
+      "type": "choice",
+      "instructions": "Evaluate relationship AR17 using verified_facts. Distinguish whole-part, load-bearing mechanism, chronological order, qualified historical interpretation, conservation activity and evidence boundary. Do not turn material clues from other sites into direct Pantheon proof.",
+      "criteria": {
+        "supported": "The qualified relation is justified by the supplied verified facts.",
+        "contradicted": "The relation conflicts with the verified facts or has an invalid direction/type.",
+        "insufficient": "The relation requires additional evidence even with its stated limitations."
+      }
+    }
+  }
+}

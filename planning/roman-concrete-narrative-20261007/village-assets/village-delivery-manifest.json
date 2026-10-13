@@ -1,0 +1,115 @@
+{
+  "helper_path": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/village-assets/village_parts.py",
+  "helper_sha256": "cdc1f9b48c99a6630af8aba381a8a822a3632c1ce3527c8365cc0e618d428e45",
+  "palette_roles": [
+    "village_plaster",
+    "village_roof",
+    "village_stone",
+    "village_wood",
+    "village_terracotta",
+    "village_basket",
+    "village_canopy",
+    "village_linen",
+    "village_cloth",
+    "village_skin",
+    "village_sandals"
+  ],
+  "counts": {
+    "NB_village_house": {
+      "village_plaster": 634,
+      "village_roof": 18702,
+      "village_stone": 576,
+      "village_terracotta": 247,
+      "village_wood": 29
+    },
+    "NB_village_market": {
+      "village_basket": 3181,
+      "village_canopy": 3906,
+      "village_linen": 2293,
+      "village_sandals": 368,
+      "village_skin": 1048,
+      "village_terracotta": 1527,
+      "village_wood": 8125
+    },
+    "NB_village_citizens": {
+      "village_basket": 2710,
+      "village_cloth": 6757,
+      "village_linen": 5744,
+      "village_sandals": 1019,
+      "village_skin": 3579,
+      "village_terracotta": 852
+    }
+  },
+  "corrections": {
+    "NB_village_citizens": {
+      "left_head_for_copy": {
+        "face_count": 657,
+        "bbox": [
+          [
+            -0.40836048126220703,
+            -0.35921192169189453,
+            1.5985369682312012
+          ],
+          [
+            -0.1626725047826767,
+            -0.05075094476342201,
+            1.901487946510315
+          ]
+        ],
+        "vertex_mean": [
+          -0.30357199893981257,
+          -0.24577063117961317,
+          1.737341095661295
+        ]
+      },
+      "right_empty_neck_rim": {
+        "face_count": 345,
+        "bbox": [
+          [
+            0.10112247616052628,
+            0.12821805477142334,
+            1.5825600624084473
+          ],
+          [
+            0.3641534745693207,
+            0.39921605587005615,
+            1.678534984588623
+          ]
+        ],
+        "vertex_mean": [
+          0.23130528692392602,
+          0.2680444289590158,
+          1.6387568981874556
+        ]
+      },
+      "amphora_for_move": {
+        "face_count": 852,
+        "bbox": [
+          [
+            0.380839467048645,
+            0.25472503900527954,
+            0.6745419502258301
+          ],
+          [
+            0.5959784984588623,
+            0.4684010148048401,
+            1.204953908920288
+          ]
+        ],
+        "vertex_mean": [
+          0.47121956629430517,
+          0.34745150262659247,
+          1.0395631720223335
+        ]
+      }
+    }
+  },
+  "source_hashes": {
+    "NB_village_house": "ccd2ee620846028e66684c73b3553ef003f625b64b36e18fc4df3cf09ccfbf71",
+    "NB_village_market": "ec59a772216c2458fa179f190178c39f3fd3f29c944ea4a9453e45ff22911aff",
+    "NB_village_citizens": "1d13bb60f4e2ab9233f05170cbf173f8b083cfce016b879d7fc385a2ae00ec75"
+  },
+  "credited_task_total": 60,
+  "balance_after_download": 540,
+  "factory_only_no_production_write": true
+}

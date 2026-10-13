@@ -1,0 +1,16 @@
+[
+  {
+    "nodeId": "21:3",
+    "asset": "pantheon-cutaway",
+    "http_status": 200,
+    "imageHash": "695bf753f86e3d0a2a3e076c486e3af50b02b3d4",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "21:43",
+    "asset": "colosseum-photo",
+    "http_status": 200,
+    "imageHash": "5715635988c54990f2c070fb976e3b6299b0cc28",
+    "scaleMode": "FILL"
+  }
+]

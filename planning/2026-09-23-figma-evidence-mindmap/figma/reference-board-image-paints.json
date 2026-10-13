@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"20:5\",\"20:9\",\"20:13\"],\"images\":[{\"id\":\"20:5\",\"type\":\"IMAGE\",\"imageHash\":\"777883b37dba023cffd2f5bd06c772be254ba184\"},{\"id\":\"20:9\",\"type\":\"IMAGE\",\"imageHash\":\"caf74ff8d527a9797d39ea9b9905e63b880e72d6\"},{\"id\":\"20:13\",\"type\":\"IMAGE\",\"imageHash\":\"930e0629267186c912ec378d531b732cdf9e190b\"}]}"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "d04daf06-2efc-4ed5-9d6c-84c050b97e24"
+  }
+}

@@ -1,0 +1,4115 @@
+{
+  "pass": false,
+  "checks": {
+    "fresh_v9_v12_opened_read_only": true,
+    "source_v9_original317_objects_all_retained": true,
+    "new_objects_match_independent_name_generator_and_production_report": true,
+    "allowed_existing_names_within_independent_user_scope": true,
+    "existing_object_changes_only_authorized_fields": true,
+    "newly_hidden_objects_exactly_reported_and_scoped": true,
+    "all_original_geometry_topology_exact_including_overlays": true,
+    "existing_slots_and_indices_exact_except_kiln": true,
+    "original_mesh_datablock_names_exact_except_optional_kiln_isolation": true,
+    "all_original_materials_preserved_except_unused_replaced_kiln_slot": true,
+    "new_material_HEX_linear_diffuse_and_principled_match": true,
+    "kiln_exact_original_faces_match_independent_helper_and_palette": true,
+    "new_meshes_visible_material_indices_valid_inside_safe_poster_bounds": true,
+    "scene_camera_render_world_exposure_studio_and_old_collections_preserved": true,
+    "all_saved_viewport_settings_preserved": true,
+    "all_original_parent_inverse_and_narrative_properties_preserved": true,
+    "production_before_matches_fresh_v9": true,
+    "production_after_matches_fresh_v12": true,
+    "fresh_mover_bboxes_and_reported_bboxes_valid": true,
+    "all_original_and_new_face_index_SHAs_match_report": true,
+    "applied_roles_face_counts_material_slot_order_polygon_count_match_report": true,
+    "material_roles_HEX_and_linear_values_match_report": true,
+    "downloaded_Meshy_GLB_provenance_SHA_preserved": true,
+    "report_object_material_totals_match_fresh_saved": true,
+    "CORE2_CORE3_overlay_screen_translations_exact": true,
+    "upper_temples_exact_original_source_restored": true,
+    "abstract_display_models_retired_and_no_new_specimen_cubes": true,
+    "freestanding_stage_and_hero_surfaces_do_not_intersect": true,
+    "actual_primary_floors_off_road_and_water": false,
+    "natural_world_units_match_targets": true,
+    "laboratory_copy_retains_building_and_removes_rock_only": false,
+    "attached_scaffolds_match_facade_and_support_geometry": true,
+    "source_v9_SHA_exact_preserved": true,
+    "canonical_SHA_exact_preserved": true
+  },
+  "source": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v9.blend",
+  "output": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v12.blend",
+  "source_sha256": "0c4215a062517bbd60ff1ab1668443dee6c6089062713280efc88551bcd5a528",
+  "output_sha256": "6030c5a77fc9f695deeccf3925709eb5a3c2602cc1d520212f07444185c24d93",
+  "canonical_sha256": "28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3",
+  "original_object_count": 317,
+  "output_object_count": 525,
+  "output_mesh_count": 455,
+  "new_objects": [
+    "NB_build_formboard0",
+    "NB_build_formboard1",
+    "NB_build_formbrace",
+    "NB_build_formpost0",
+    "NB_build_formpost1",
+    "NB_build_stone_0_0",
+    "NB_build_stone_0_1",
+    "NB_build_stone_0_2",
+    "NB_build_stone_0_3",
+    "NB_build_stone_1_0",
+    "NB_build_stone_1_1",
+    "NB_build_stone_1_2",
+    "NB_build_stone_1_3",
+    "NB_build_stone_2_0",
+    "NB_build_stone_2_1",
+    "NB_build_wall_mortar",
+    "NB_carrier_bucket",
+    "NB_carrier_handle0",
+    "NB_carrier_handle1",
+    "NB_carrier_human_head",
+    "NB_carrier_mortar",
+    "NB_pair_mortar",
+    "NB_vault_complete",
+    "NB_vault_construction",
+    "NB_vault_timber_post0_0",
+    "NB_vault_timber_post0_1",
+    "NB_vault_timber_post1_0",
+    "NB_vault_timber_post1_1",
+    "NB_vault_timber_rib0",
+    "NB_vault_timber_rib1",
+    "NB_vault_timber_sill0",
+    "NB_vault_timber_sill1",
+    "NB_village_citizens",
+    "NB_village_house",
+    "NB_village_market",
+    "NB_worker_builder",
+    "NB_worker_carrier",
+    "NB_worker_pair",
+    "V_COL_brace_0_-1.9",
+    "V_COL_brace_0_1.9",
+    "V_COL_brace_1_-1.9",
+    "V_COL_brace_1_1.9",
+    "V_COL_mason_0",
+    "V_COL_mason_0__NB_build_formboard0",
+    "V_COL_mason_0__NB_build_formboard1",
+    "V_COL_mason_0__NB_build_formbrace",
+    "V_COL_mason_0__NB_build_formpost0",
+    "V_COL_mason_0__NB_build_formpost1",
+    "V_COL_mason_0__NB_build_stone_0_0",
+    "V_COL_mason_0__NB_build_stone_0_1",
+    "V_COL_mason_0__NB_build_stone_0_2",
+    "V_COL_mason_0__NB_build_stone_0_3",
+    "V_COL_mason_0__NB_build_stone_1_0",
+    "V_COL_mason_0__NB_build_stone_1_1",
+    "V_COL_mason_0__NB_build_stone_1_2",
+    "V_COL_mason_0__NB_build_stone_1_3",
+    "V_COL_mason_0__NB_build_stone_2_0",
+    "V_COL_mason_0__NB_build_stone_2_1",
+    "V_COL_mason_0__NB_build_wall_mortar",
+    "V_COL_mason_1",
+    "V_COL_mason_1__NB_build_formboard0",
+    "V_COL_mason_1__NB_build_formboard1",
+    "V_COL_mason_1__NB_build_formbrace",
+    "V_COL_mason_1__NB_build_formpost0",
+    "V_COL_mason_1__NB_build_formpost1",
+    "V_COL_mason_1__NB_build_stone_0_0",
+    "V_COL_mason_1__NB_build_stone_0_1",
+    "V_COL_mason_1__NB_build_stone_0_2",
+    "V_COL_mason_1__NB_build_stone_0_3",
+    "V_COL_mason_1__NB_build_stone_1_0",
+    "V_COL_mason_1__NB_build_stone_1_1",
+    "V_COL_mason_1__NB_build_stone_1_2",
+    "V_COL_mason_1__NB_build_stone_1_3",
+    "V_COL_mason_1__NB_build_stone_2_0",
+    "V_COL_mason_1__NB_build_stone_2_1",
+    "V_COL_mason_1__NB_build_wall_mortar",
+    "V_COL_materials0",
+    "V_COL_materials1",
+    "V_COL_plank_0_3.0_0",
+    "V_COL_plank_0_3.0_1",
+    "V_COL_plank_0_3.0_2",
+    "V_COL_plank_0_3.0_3",
+    "V_COL_plank_0_3.0_4",
+    "V_COL_plank_1_3.0_0",
+    "V_COL_plank_1_3.0_1",
+    "V_COL_plank_1_3.0_2",
+    "V_COL_plank_1_3.0_3",
+    "V_COL_plank_1_3.0_4",
+    "V_COL_post_0_-1.9_0.25",
+    "V_COL_post_0_-1.9_1.5",
+    "V_COL_post_0_1.9_0.25",
+    "V_COL_post_0_1.9_1.5",
+    "V_COL_post_1_-1.9_0.25",
+    "V_COL_post_1_-1.9_1.5",
+    "V_COL_post_1_1.9_0.25",
+    "V_COL_post_1_1.9_1.5",
+    "V_COL_rail_0_3.0_0.25",
+    "V_COL_rail_0_3.0_1.5",
+    "V_COL_rail_1_3.0_0.25",
+    "V_COL_rail_1_3.0_1.5",
+    "V_COL_rubble_0_0",
+    "V_COL_rubble_0_1",
+    "V_COL_rubble_0_2",
+    "V_COL_rubble_0_3",
+    "V_COL_rubble_1_0",
+    "V_COL_rubble_1_1",
+    "V_COL_rubble_1_2",
+    "V_COL_rubble_1_3",
+    "V_COL_scaffold_0",
+    "V_COL_scaffold_1",
+    "V_citizen_carried_amphora",
+    "V_citizen_head",
+    "V_citizen_jarhandle0",
+    "V_citizen_jarhandle1",
+    "V_citizens_01",
+    "V_citizens_01__V_citizen_carried_amphora",
+    "V_citizens_01__V_citizen_head",
+    "V_citizens_01__V_citizen_jarhandle0",
+    "V_citizens_01__V_citizen_jarhandle1",
+    "V_citizens_02",
+    "V_citizens_02__V_citizen_carried_amphora",
+    "V_citizens_02__V_citizen_head",
+    "V_citizens_02__V_citizen_jarhandle0",
+    "V_citizens_02__V_citizen_jarhandle1",
+    "V_grounded_research_building",
+    "V_house_01",
+    "V_house_02",
+    "V_house_03",
+    "V_house_04",
+    "V_house_courtyard_00",
+    "V_house_courtyard_01",
+    "V_house_courtyard_02",
+    "V_house_courtyard_03",
+    "V_house_courtyard_04",
+    "V_making_ground",
+    "V_market_ground",
+    "V_mortar_wall_0",
+    "V_mortar_wall_1",
+    "V_raw_chunk00",
+    "V_raw_chunk01",
+    "V_raw_chunk02",
+    "V_raw_chunk03",
+    "V_raw_chunk04",
+    "V_raw_chunk05",
+    "V_raw_chunk06",
+    "V_raw_chunk07",
+    "V_raw_pile",
+    "V_research_ground",
+    "V_rubble_chunk00",
+    "V_rubble_chunk01",
+    "V_rubble_chunk02",
+    "V_rubble_chunk03",
+    "V_rubble_chunk04",
+    "V_rubble_chunk05",
+    "V_rubble_chunk06",
+    "V_rubble_chunk07",
+    "V_rubble_pile",
+    "V_se_workyard",
+    "V_sw_workyard",
+    "V_wall_core_0",
+    "V_wall_core_1",
+    "V_wall_crack0",
+    "V_wall_crack1",
+    "V_wall_crack2",
+    "V_wall_crack3",
+    "V_wall_facing_0_0.3_-0.48",
+    "V_wall_facing_0_0.3_-1.42",
+    "V_wall_facing_0_0.3_0.48",
+    "V_wall_facing_0_0.3_1.42",
+    "V_wall_facing_0_0.8_-0.48",
+    "V_wall_facing_0_0.8_-1.42",
+    "V_wall_facing_0_0.8_0.48",
+    "V_wall_facing_0_0.8_1.42",
+    "V_wall_facing_0_1.3_-0.48",
+    "V_wall_facing_0_1.3_-1.42",
+    "V_wall_facing_0_1.3_0.48",
+    "V_wall_facing_0_1.3_1.42",
+    "V_wall_facing_0_1.8_-0.48",
+    "V_wall_facing_0_1.8_-1.42",
+    "V_wall_facing_0_1.8_0.48",
+    "V_wall_facing_0_1.8_1.42",
+    "V_wall_facing_1_0.3_-0.48",
+    "V_wall_facing_1_0.3_-1.42",
+    "V_wall_facing_1_0.3_0.48",
+    "V_wall_facing_1_0.3_1.42",
+    "V_wall_facing_1_0.8_-0.48",
+    "V_wall_facing_1_0.8_-1.42",
+    "V_wall_facing_1_0.8_0.48",
+    "V_wall_facing_1_0.8_1.42",
+    "V_wall_facing_1_1.3_-0.48",
+    "V_wall_facing_1_1.3_-1.42",
+    "V_wall_facing_1_1.3_0.48",
+    "V_wall_facing_1_1.3_1.42",
+    "V_wall_facing_1_1.8_-0.48",
+    "V_wall_facing_1_1.8_-1.42",
+    "V_wall_facing_1_1.8_0.48",
+    "V_wall_facing_1_1.8_1.42",
+    "V_wall_lime_00",
+    "V_wall_lime_01",
+    "V_wall_lime_02",
+    "V_wall_lime_03",
+    "V_wall_lime_04",
+    "V_wall_lime_05",
+    "V_wall_lime_06",
+    "V_wall_lime_07",
+    "V_wall_lime_08",
+    "V_wall_whitefill2",
+    "V_wall_whitefill3"
+  ],
+  "new_materials": [
+    "RC.v14.construction_base",
+    "RC.v14.construction_brick_facing",
+    "RC.v14.construction_mortar",
+    "RC.v14.construction_stone",
+    "RC.v14.construction_timber",
+    "RC.v14.kiln_foundation",
+    "RC.v14.kiln_interior",
+    "RC.v14.kiln_shell",
+    "RC.v14.kiln_smoke",
+    "RC.v14.linen",
+    "RC.v14.raw_lime",
+    "RC.v14.roman_stone",
+    "RC.v14.skin",
+    "RC.v14.toolmetal",
+    "RC.v14.toolwood",
+    "RC.v14.village_basket",
+    "RC.v14.village_canopy",
+    "RC.v14.village_cloth",
+    "RC.v14.village_linen",
+    "RC.v14.village_paving",
+    "RC.v14.village_plaster",
+    "RC.v14.village_roof",
+    "RC.v14.village_sandals",
+    "RC.v14.village_skin",
+    "RC.v14.village_stone",
+    "RC.v14.village_terracotta",
+    "RC.v14.village_wood",
+    "RC.v14.worker_cloth",
+    "RC.v14.worker_dark",
+    "RC.v14.worker_mortar"
+  ],
+  "actual_material_count": 90,
+  "reported_material_count": 90,
+  "retired_unused_materials": [
+    {
+      "material": "RC.v12.base_roman_support_stone",
+      "original_consumers": [
+        "D2_lime_kiln"
+      ],
+      "original_users": 1,
+      "reason": "old kiln slot replaced by authorized four-part material assignment; resulting unused datablock omitted from saved file"
+    }
+  ],
+  "changed_original_objects": [
+    "C2_hot_mixing",
+    "COL_ruined",
+    "D1_concrete",
+    "D1_crystal00",
+    "D1_crystal01",
+    "D1_crystal02",
+    "D1_crystal03",
+    "D1_crystal04",
+    "D1_crystal05",
+    "D1_crystal06",
+    "D1_crystal07",
+    "D1_crystal08",
+    "D1_crystal09",
+    "D1_crystal10",
+    "D1_crystal11",
+    "D1_crystal12",
+    "D1_crystal13",
+    "D1_crystal14",
+    "D1_crystal15",
+    "D1_crystal16",
+    "D1_crystal17",
+    "D1_crystal18",
+    "D1_crystal19",
+    "D1_crystal20",
+    "D1_crystal21",
+    "D1_crystal22",
+    "D1_crystal23",
+    "D1_crystal24",
+    "D1_crystal25",
+    "D1_material",
+    "D1_seawater",
+    "D1_tank_floor",
+    "D1_tank_wall0",
+    "D1_tank_wall1",
+    "D1_tank_wall2",
+    "D1_tank_wall3",
+    "D2_cube",
+    "D2_heat0",
+    "D2_heat1",
+    "D2_heat2",
+    "D2_lime00",
+    "D2_lime01",
+    "D2_lime02",
+    "D2_lime03",
+    "D2_lime04",
+    "D2_lime05",
+    "D2_lime06",
+    "D2_lime07",
+    "D2_lime08",
+    "D2_lime09",
+    "D2_lime10",
+    "D2_lime11",
+    "D2_lime12",
+    "D2_lime13",
+    "D2_lime14",
+    "D2_lime15",
+    "D2_lime_kiln",
+    "D2_making",
+    "D3_brick_course1",
+    "D3_brick_course2",
+    "D3_brick_course3",
+    "D3_foundation",
+    "D3_heavy",
+    "D3_light",
+    "D3_middle",
+    "D3_press0",
+    "D3_press1",
+    "D3_press_tip0",
+    "D3_press_tip1",
+    "D3_structure",
+    "F_centuriatio",
+    "L04_palatine",
+    "L04_palatine_arch",
+    "NB_core4_sequence",
+    "NB_core4_sequence_GRAY00",
+    "NB_core4_sequence_GRAY01",
+    "NB_core4_sequence_GRAY02",
+    "NB_core4_sequence_GRAY03",
+    "NB_core4_sequence_GRAY04",
+    "NB_lime_clast_specimen",
+    "NB_lime_clast_specimen_LIME00",
+    "NB_lime_clast_specimen_LIME01",
+    "NB_lime_clast_specimen_LIME02",
+    "NB_lime_clast_specimen_LIME03",
+    "NB_lime_clast_specimen_LIME04",
+    "NB_lime_clast_specimen_LIME05",
+    "S_core2_badge",
+    "S_core2_underline",
+    "S_core3_badge",
+    "S_core3_underline",
+    "S_lab_island",
+    "S_lead00",
+    "S_lead01",
+    "S_lead02",
+    "S_lead03",
+    "S_lead04",
+    "S_lead05",
+    "S_lead06",
+    "S_lead07",
+    "S_lead08",
+    "S_lead09",
+    "S_lead10",
+    "S_lead_dot0",
+    "S_lead_dot1",
+    "S_lead_dot2",
+    "S_sect0",
+    "S_sect0_edge",
+    "S_sect1",
+    "S_sect1_edge",
+    "S_sect2",
+    "S_sect2_edge",
+    "S_sect3",
+    "S_sect3_edge",
+    "S_sect_brick1227",
+    "S_sect_brick1233",
+    "S_sect_brick1239",
+    "S_sect_dot0",
+    "S_sect_dot1",
+    "S_sect_dot2",
+    "S_sect_dot3",
+    "S_sect_ground"
+  ],
+  "hidden_original_objects": [
+    "D1_concrete",
+    "D1_crystal00",
+    "D1_crystal01",
+    "D1_crystal02",
+    "D1_crystal03",
+    "D1_crystal04",
+    "D1_crystal05",
+    "D1_crystal06",
+    "D1_crystal07",
+    "D1_crystal08",
+    "D1_crystal09",
+    "D1_crystal10",
+    "D1_crystal11",
+    "D1_crystal12",
+    "D1_crystal13",
+    "D1_crystal14",
+    "D1_crystal15",
+    "D1_crystal16",
+    "D1_crystal17",
+    "D1_crystal18",
+    "D1_crystal19",
+    "D1_crystal20",
+    "D1_crystal21",
+    "D1_crystal22",
+    "D1_crystal23",
+    "D1_crystal24",
+    "D1_crystal25",
+    "D1_material",
+    "D1_seawater",
+    "D1_tank_floor",
+    "D1_tank_wall0",
+    "D1_tank_wall1",
+    "D1_tank_wall2",
+    "D1_tank_wall3",
+    "D2_cube",
+    "D2_heat0",
+    "D2_heat1",
+    "D2_heat2",
+    "D2_lime00",
+    "D2_lime01",
+    "D2_lime02",
+    "D2_lime03",
+    "D2_lime04",
+    "D2_lime05",
+    "D2_lime06",
+    "D2_lime07",
+    "D2_lime08",
+    "D2_lime09",
+    "D2_lime10",
+    "D2_lime11",
+    "D2_lime12",
+    "D2_lime13",
+    "D2_lime14",
+    "D2_lime15",
+    "D2_making",
+    "D3_brick_course1",
+    "D3_brick_course2",
+    "D3_brick_course3",
+    "D3_foundation",
+    "D3_heavy",
+    "D3_light",
+    "D3_middle",
+    "D3_press0",
+    "D3_press1",
+    "D3_press_tip0",
+    "D3_press_tip1",
+    "D3_structure",
+    "F_centuriatio",
+    "L04_palatine",
+    "L04_palatine_arch",
+    "NB_core4_sequence",
+    "NB_core4_sequence_GRAY00",
+    "NB_core4_sequence_GRAY01",
+    "NB_core4_sequence_GRAY02",
+    "NB_core4_sequence_GRAY03",
+    "NB_core4_sequence_GRAY04",
+    "NB_lime_clast_specimen",
+    "NB_lime_clast_specimen_LIME00",
+    "NB_lime_clast_specimen_LIME01",
+    "NB_lime_clast_specimen_LIME02",
+    "NB_lime_clast_specimen_LIME03",
+    "NB_lime_clast_specimen_LIME04",
+    "NB_lime_clast_specimen_LIME05",
+    "S_lab_island",
+    "S_lead00",
+    "S_lead01",
+    "S_lead02",
+    "S_lead03",
+    "S_lead04",
+    "S_lead05",
+    "S_lead06",
+    "S_lead07",
+    "S_lead08",
+    "S_lead09",
+    "S_lead10",
+    "S_lead_dot0",
+    "S_lead_dot1",
+    "S_lead_dot2",
+    "S_sect0",
+    "S_sect0_edge",
+    "S_sect1",
+    "S_sect1_edge",
+    "S_sect2",
+    "S_sect2_edge",
+    "S_sect3",
+    "S_sect3_edge",
+    "S_sect_brick1227",
+    "S_sect_brick1233",
+    "S_sect_brick1239",
+    "S_sect_dot0",
+    "S_sect_dot1",
+    "S_sect_dot2",
+    "S_sect_dot3",
+    "S_sect_ground"
+  ],
+  "unexpected_object_changes": [],
+  "report_allowed_field_errors": [],
+  "geometry_errors": [],
+  "translation_errors": [],
+  "mesh_errors": [],
+  "old_material_errors": [],
+  "new_material_errors": [],
+  "kiln_errors": [],
+  "new_object_errors": [],
+  "scene_errors": [],
+  "viewport_errors": [],
+  "extra_errors": [],
+  "before_report_errors": [],
+  "after_report_errors": [],
+  "bbox_errors": [],
+  "checked_mover_bboxes": {
+    "COL_ruined": {
+      "actual": [
+        394.9999989817524,
+        612.7361295749773,
+        790.9999823865762,
+        965.0001030610573
+      ],
+      "target": [
+        395,
+        592,
+        791,
+        965
+      ]
+    }
+  },
+  "index_report_errors": [],
+  "applied_report_errors": [],
+  "material_report_errors": [],
+  "mesh_source_errors": [],
+  "physical_geometry": {
+    "actual_primary_floors": [
+      {
+        "name": "NB_village_house",
+        "source_anchor": [
+          590,
+          610
+        ],
+        "actual_low_vertex_mean_pixel": [
+          586.9948421692582,
+          609.1758505317391
+        ],
+        "world_height": 5.199999925360771,
+        "world_lowZ": 0.5148605108261108,
+        "low_band_vertices": 211,
+        "low_band_threshold_world": 0.10399999850721542,
+        "floor_hull": [
+          [
+            570.0417174161299,
+            595.9768545644777
+          ],
+          [
+            570.3708302377146,
+            595.494486979645
+          ],
+          [
+            605.0899484501965,
+            584.1848993668176
+          ],
+          [
+            639.3571088205055,
+            611.5351887622217
+          ],
+          [
+            604.3098905158828,
+            623.6640058675101
+          ],
+          [
+            597.7245554141422,
+            625.9260279287802
+          ],
+          [
+            595.3129767411297,
+            624.1495405240107
+          ],
+          [
+            590.0059848532234,
+            619.7533477998868
+          ],
+          [
+            584.8089765265039,
+            615.4225638310904
+          ],
+          [
+            570.6479865338173,
+            602.2888449281346
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.03134329128710078,
+        "ground_gap_median": 0.1448470929982193,
+        "ground_gap_max": 0.2822854178605212
+      },
+      {
+        "name": "V_house_01",
+        "source_anchor": [
+          496,
+          600
+        ],
+        "actual_low_vertex_mean_pixel": [
+          495.1146983748069,
+          600.2427311386842
+        ],
+        "world_height": 4.600000191821209,
+        "world_lowZ": 1.3045028448104858,
+        "low_band_vertices": 211,
+        "low_band_threshold_world": 0.09200000383642419,
+        "floor_hull": [
+          [
+            472.485228552836,
+            592.8278700469051
+          ],
+          [
+            472.94385647193326,
+            592.3154870852655
+          ],
+          [
+            493.41069740728085,
+            576.7470977885691
+          ],
+          [
+            539.0335873889693,
+            592.3179779239468
+          ],
+          [
+            518.4590823820786,
+            608.6245295679079
+          ],
+          [
+            514.58261593375,
+            611.6803415420258
+          ],
+          [
+            511.4717562791418,
+            610.7122245537463
+          ],
+          [
+            504.29617369467866,
+            608.1896071483937
+          ],
+          [
+            497.241509205663,
+            605.6948910500123
+          ],
+          [
+            477.37834393586814,
+            597.7691451853334
+          ]
+        ],
+        "road_pixels": 234,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.14833086260587436,
+        "ground_gap_median": 0.3925366538059194,
+        "ground_gap_max": 0.6081897502864422
+      },
+      {
+        "name": "V_house_02",
+        "source_anchor": [
+          875,
+          824
+        ],
+        "actual_low_vertex_mean_pixel": [
+          872.9039324737666,
+          824.3328999168151
+        ],
+        "world_height": 4.899999890989648,
+        "world_lowZ": 0.7095092535018921,
+        "low_band_vertices": 211,
+        "low_band_threshold_world": 0.09799999781979296,
+        "floor_hull": [
+          [
+            842.4571941211334,
+            818.5692969525414
+          ],
+          [
+            854.9715698999587,
+            795.649596086302
+          ],
+          [
+            916.336626485643,
+            808.016042281738
+          ],
+          [
+            904.4654402939174,
+            831.1404645702294
+          ],
+          [
+            902.2201539599685,
+            835.4884001550605
+          ],
+          [
+            898.0982185769955,
+            834.7636435067817
+          ],
+          [
+            888.384856514606,
+            832.7337087323509
+          ],
+          [
+            878.8197504975949,
+            830.7188423920081
+          ],
+          [
+            851.5128922053294,
+            823.9548974684249
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.032792515447567894,
+        "ground_gap_median": 0.10992322360270634,
+        "ground_gap_max": 0.7698947666015385
+      },
+      {
+        "name": "V_house_03",
+        "source_anchor": [
+          570,
+          1204
+        ],
+        "actual_low_vertex_mean_pixel": [
+          568.9853339854883,
+          1204.2022222734681
+        ],
+        "world_height": 4.500000180364168,
+        "world_lowZ": 0.7768996953964233,
+        "low_band_vertices": 211,
+        "low_band_threshold_world": 0.09000000360728336,
+        "floor_hull": [
+          [
+            552.1260553634924,
+            1193.88096511217
+          ],
+          [
+            552.251938003666,
+            1185.7451031425478
+          ],
+          [
+            552.5733411629698,
+            1185.312693460221
+          ],
+          [
+            591.4157979290115,
+            1171.1623101145165
+          ],
+          [
+            625.28330582645,
+            1209.2767212528893
+          ],
+          [
+            586.0375083976043,
+            1224.3098008736044
+          ],
+          [
+            578.6639803932193,
+            1227.11507015296
+          ],
+          [
+            577.7801401238183,
+            1226.2048249116715
+          ],
+          [
+            576.2641908444109,
+            1224.6295769577132
+          ],
+          [
+            571.0419028615854,
+            1218.5028566272426
+          ],
+          [
+            565.9330128404517,
+            1212.4708632700842
+          ],
+          [
+            552.1268138107902,
+            1194.369147076861
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.026974896145020466,
+        "ground_gap_median": 0.35834546592514016,
+        "ground_gap_max": 0.5589496220799219
+      },
+      {
+        "name": "V_house_04",
+        "source_anchor": [
+          690,
+          1215
+        ],
+        "actual_low_vertex_mean_pixel": [
+          689.4852292161567,
+          1215.5169126623175
+        ],
+        "world_height": 4.399999833704442,
+        "world_lowZ": 0.7213653326034546,
+        "low_band_vertices": 211,
+        "low_band_threshold_world": 0.08799999667408884,
+        "floor_hull": [
+          [
+            659.5100104284855,
+            1206.9073731438502
+          ],
+          [
+            677.6493171296815,
+            1180.7105821019975
+          ],
+          [
+            738.051626322978,
+            1198.8652002088686
+          ],
+          [
+            720.5214172488504,
+            1225.362855569835
+          ],
+          [
+            717.2086796711114,
+            1230.3460245099789
+          ],
+          [
+            713.1226910434744,
+            1229.247857926442
+          ],
+          [
+            703.5728273035876,
+            1226.2805745242688
+          ],
+          [
+            694.1763885794364,
+            1223.3410099395512
+          ],
+          [
+            667.5008084307689,
+            1213.8312489434295
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.03036739652606002,
+        "ground_gap_median": 0.5145188502536087,
+        "ground_gap_max": 0.7290886431229353
+      },
+      {
+        "name": "NB_village_market",
+        "source_anchor": [
+          857,
+          717
+        ],
+        "actual_low_vertex_mean_pixel": [
+          856.2299716981775,
+          717.2962981442955
+        ],
+        "world_height": 4.100000093581514,
+        "world_lowZ": 0.7047942876815796,
+        "low_band_vertices": 1360,
+        "low_band_threshold_world": 0.08200000187163027,
+        "floor_hull": [
+          [
+            825.1401795222343,
+            711.298375313496
+          ],
+          [
+            825.2141436863429,
+            711.1126322783035
+          ],
+          [
+            825.4590235223299,
+            710.9464170772314
+          ],
+          [
+            856.8218868581804,
+            698.4449047943972
+          ],
+          [
+            857.3464567569189,
+            698.3299036416996
+          ],
+          [
+            857.8892336759474,
+            698.3820887801239
+          ],
+          [
+            858.2920143883655,
+            698.5869424017403
+          ],
+          [
+            892.4725626088111,
+            723.1818304570845
+          ],
+          [
+            892.8165649453191,
+            723.5050105384796
+          ],
+          [
+            892.8595696671887,
+            723.6885214107358
+          ],
+          [
+            892.7888490483251,
+            723.9241710153367
+          ],
+          [
+            892.5901227362945,
+            724.1004270152957
+          ],
+          [
+            861.3313204433066,
+            736.6968019822783
+          ],
+          [
+            860.9148011192517,
+            736.8506823250913
+          ],
+          [
+            860.6327437243805,
+            736.9252980802346
+          ],
+          [
+            860.1628365324787,
+            736.9346489424595
+          ],
+          [
+            859.7830759795942,
+            736.819587997566
+          ],
+          [
+            859.4098670546126,
+            736.6293768946366
+          ],
+          [
+            825.6984430636968,
+            711.9091985195181
+          ],
+          [
+            825.1486231496416,
+            711.4990267524357
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.03057740125491648,
+        "ground_gap_median": 0.13372276842488873,
+        "ground_gap_max": 0.1684408433722382
+      },
+      {
+        "name": "D2_lime_kiln",
+        "source_anchor": [
+          89,
+          912
+        ],
+        "actual_low_vertex_mean_pixel": [
+          83.59443977137715,
+          912.4032640044268
+        ],
+        "world_height": 3.5000000073125714,
+        "world_lowZ": 0.7982238814670012,
+        "low_band_vertices": 173,
+        "low_band_threshold_world": 0.07000000014625143,
+        "floor_hull": [
+          [
+            48.613866215185446,
+            910.5080081358244
+          ],
+          [
+            51.00778795266685,
+            907.4480674579563
+          ],
+          [
+            55.70640915766392,
+            903.9220903197354
+          ],
+          [
+            57.771409988896885,
+            903.1268714430614
+          ],
+          [
+            60.3648565054964,
+            902.3133100796392
+          ],
+          [
+            64.38528821811566,
+            901.4040082090654
+          ],
+          [
+            67.99232078043876,
+            900.7888615915936
+          ],
+          [
+            73.9807807067575,
+            899.99505400004
+          ],
+          [
+            75.18621603694457,
+            900.0042067132521
+          ],
+          [
+            77.17074879555702,
+            900.065254427869
+          ],
+          [
+            77.94188278941999,
+            900.1455055515901
+          ],
+          [
+            85.37932220951552,
+            901.8441628118198
+          ],
+          [
+            86.30312413614615,
+            902.2208496661445
+          ],
+          [
+            87.43268982892337,
+            902.6943726572832
+          ],
+          [
+            88.89005805557713,
+            903.5075051802281
+          ],
+          [
+            89.64630111911859,
+            904.0546828907845
+          ],
+          [
+            92.9444956942269,
+            906.5862422261533
+          ],
+          [
+            95.24449391722064,
+            909.8431200732402
+          ],
+          [
+            96.57487884547764,
+            911.8916090100113
+          ],
+          [
+            97.30177572425806,
+            913.5521361682471
+          ],
+          [
+            97.56274670639213,
+            914.3604519282846
+          ],
+          [
+            97.86181975576736,
+            916.0864696142909
+          ],
+          [
+            97.85286470558752,
+            916.8181143475554
+          ],
+          [
+            97.51896510750949,
+            917.9722272160861
+          ],
+          [
+            96.30447831892796,
+            920.9622633005719
+          ],
+          [
+            95.98089758817325,
+            921.3774182996896
+          ],
+          [
+            93.87720668948475,
+            923.5184561278161
+          ],
+          [
+            92.02322912383498,
+            925.3315704894381
+          ],
+          [
+            91.42633532396177,
+            925.8434153162581
+          ],
+          [
+            90.65727808782647,
+            926.4496106841642
+          ],
+          [
+            88.03779058831492,
+            928.4742815482874
+          ],
+          [
+            85.43971563688736,
+            929.4230705240311
+          ],
+          [
+            73.49298080130029,
+            930.9227968739374
+          ],
+          [
+            72.24539753746073,
+            930.9339394965457
+          ],
+          [
+            71.01562025055883,
+            930.6709896382091
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.09412827766445342,
+        "ground_gap_median": 0.5927374769088289,
+        "ground_gap_max": 0.8649636845096195
+      },
+      {
+        "name": "C2_hot_mixing",
+        "source_anchor": [
+          159,
+          912
+        ],
+        "actual_low_vertex_mean_pixel": [
+          159.21270596113013,
+          912.1121298790276
+        ],
+        "world_height": 3.4500000788099783,
+        "world_lowZ": 0.09953918308019638,
+        "low_band_vertices": 2538,
+        "low_band_threshold_world": 0.06900000157619957,
+        "floor_hull": [
+          [
+            124.57815170675632,
+            913.719054320673
+          ],
+          [
+            124.63708618717759,
+            912.6710265014565
+          ],
+          [
+            124.92763194627328,
+            910.5694823569232
+          ],
+          [
+            125.05647340993802,
+            909.9604221629722
+          ],
+          [
+            125.41211434416824,
+            908.8692138909704
+          ],
+          [
+            126.08362982235718,
+            907.472301865373
+          ],
+          [
+            126.98158434026097,
+            905.7724585846803
+          ],
+          [
+            128.48829313835682,
+            904.1019528692791
+          ],
+          [
+            129.69256560184283,
+            903.0044885013027
+          ],
+          [
+            130.33856435531808,
+            902.4308909777067
+          ],
+          [
+            131.08312039398203,
+            901.783242263322
+          ],
+          [
+            132.97890353408363,
+            900.2908316121529
+          ],
+          [
+            134.17542752831795,
+            899.4051540215453
+          ],
+          [
+            135.57749668255192,
+            898.453902132304
+          ],
+          [
+            137.79408349754732,
+            897.1939790434437
+          ],
+          [
+            141.66997636298012,
+            895.3322155253177
+          ],
+          [
+            142.5184915061849,
+            895.0340765140277
+          ],
+          [
+            147.80257099795764,
+            893.4526003845407
+          ],
+          [
+            149.9813490431696,
+            892.9176158990384
+          ],
+          [
+            152.61452570218023,
+            892.5553277119401
+          ],
+          [
+            155.30641621445548,
+            892.320025282106
+          ],
+          [
+            156.85578448191657,
+            892.1948076687839
+          ],
+          [
+            158.32174069688253,
+            892.0867415517214
+          ],
+          [
+            161.4913240616773,
+            891.9440420437505
+          ],
+          [
+            164.0950703651667,
+            892.0016135534617
+          ],
+          [
+            168.1997383282675,
+            892.2312280516487
+          ],
+          [
+            169.386031022336,
+            892.4157415309057
+          ],
+          [
+            172.46059809752896,
+            893.0120432650766
+          ],
+          [
+            174.51500441261297,
+            893.4499282130201
+          ],
+          [
+            176.75374728154583,
+            894.1553263702526
+          ],
+          [
+            179.92768631450681,
+            895.2931325027536
+          ],
+          [
+            182.14552311486452,
+            896.4229101722758
+          ],
+          [
+            184.69235469210844,
+            897.9178737893884
+          ],
+          [
+            185.7812092834251,
+            898.6215993884766
+          ],
+          [
+            187.9902623006248,
+            900.64218254173
+          ],
+          [
+            189.656695414074,
+            902.514840618984
+          ],
+          [
+            190.48442056175853,
+            903.683004513141
+          ],
+          [
+            191.54418923931013,
+            906.0543462001792
+          ],
+          [
+            191.72481409520998,
+            906.6478828455563
+          ],
+          [
+            191.8178150264889,
+            906.9998215060526
+          ],
+          [
+            191.9749064050375,
+            907.684877271979
+          ],
+          [
+            192.00614743521854,
+            907.8548503082316
+          ],
+          [
+            192.20612043782802,
+            909.0592526953975
+          ],
+          [
+            192.25245248534378,
+            910.2308922986526
+          ],
+          [
+            192.21964803372762,
+            910.6297230412232
+          ],
+          [
+            192.13901761088113,
+            911.5669011229352
+          ],
+          [
+            191.79045355883628,
+            913.0913926004682
+          ],
+          [
+            191.36622591825238,
+            914.504021240373
+          ],
+          [
+            190.50697557182508,
+            916.5894214376975
+          ],
+          [
+            190.1386010111195,
+            917.3056623087971
+          ],
+          [
+            189.8378412914706,
+            917.8196526609937
+          ],
+          [
+            189.04760063709077,
+            918.9252258139984
+          ],
+          [
+            188.42661976875033,
+            919.7367854520847
+          ],
+          [
+            186.83058036065458,
+            921.5109180148544
+          ],
+          [
+            186.03998415637267,
+            922.2656036281564
+          ],
+          [
+            184.26537770487215,
+            923.6970993137944
+          ],
+          [
+            182.72129894194373,
+            924.7802669452333
+          ],
+          [
+            181.10850417299125,
+            925.7251534220367
+          ],
+          [
+            177.9950449834135,
+            927.4018623717769
+          ],
+          [
+            175.53863026466635,
+            928.4890064741459
+          ],
+          [
+            172.62578787933987,
+            929.5907534758446
+          ],
+          [
+            171.52200965854036,
+            929.9885276251197
+          ],
+          [
+            169.72403864615939,
+            930.4957055569566
+          ],
+          [
+            166.8657290136057,
+            931.1418099244314
+          ],
+          [
+            165.01257281784785,
+            931.4635997410587
+          ],
+          [
+            162.34428003683365,
+            931.9003874778577
+          ],
+          [
+            161.24165007960713,
+            932.0592370811019
+          ],
+          [
+            156.38333154680095,
+            932.3104620078105
+          ],
+          [
+            155.37120401692826,
+            932.3099425487225
+          ],
+          [
+            151.9754835267935,
+            932.1971270244661
+          ],
+          [
+            149.63501992467016,
+            932.0467896605145
+          ],
+          [
+            146.88339092190085,
+            931.6874460592883
+          ],
+          [
+            145.14858455118087,
+            931.4096051357147
+          ],
+          [
+            142.68407817005817,
+            930.8693675213154
+          ],
+          [
+            139.21793727052346,
+            929.8707997969566
+          ],
+          [
+            137.90069786922905,
+            929.4357876307741
+          ],
+          [
+            136.97730308884488,
+            929.0418088472422
+          ],
+          [
+            134.72787286461246,
+            927.9862503808118
+          ],
+          [
+            131.14075880836876,
+            925.7417863136467
+          ],
+          [
+            129.22782574035338,
+            924.1821353945242
+          ],
+          [
+            128.47282772606474,
+            923.4034468752039
+          ],
+          [
+            128.1042480555916,
+            923.01018354485
+          ],
+          [
+            127.5725828345075,
+            922.3909805125126
+          ],
+          [
+            127.10229465855234,
+            921.83342872133
+          ],
+          [
+            126.65931079984406,
+            921.0454908506504
+          ],
+          [
+            126.54463816378207,
+            920.836846417845
+          ],
+          [
+            125.88494651458961,
+            919.5894133942257
+          ],
+          [
+            125.35084161298293,
+            918.3080661129609
+          ],
+          [
+            124.99560833733887,
+            917.2571149275979
+          ],
+          [
+            124.75541384577997,
+            916.1320903068929
+          ],
+          [
+            124.68382186971415,
+            915.6489384955668
+          ],
+          [
+            124.60201505599116,
+            914.3496598059994
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.02998839503857198,
+        "ground_gap_median": 0.12326952555754644,
+        "ground_gap_max": 0.168202181651111
+      },
+      {
+        "name": "NB_worker_carrier",
+        "source_anchor": [
+          340,
+          883
+        ],
+        "actual_low_vertex_mean_pixel": [
+          340.37463725399107,
+          883.040532684381
+        ],
+        "world_height": 2.499999952398568,
+        "world_lowZ": 0.02529754675924778,
+        "low_band_vertices": 760,
+        "low_band_threshold_world": 0.04999999904797136,
+        "floor_hull": [
+          [
+            334.4922454825305,
+            882.8630785529599
+          ],
+          [
+            334.51686408242415,
+            882.7302168878824
+          ],
+          [
+            334.5633489935883,
+            882.6282599530805
+          ],
+          [
+            335.72961804892924,
+            881.2642403338489
+          ],
+          [
+            335.94278629508796,
+            881.0691324129526
+          ],
+          [
+            336.0510351583612,
+            880.9917372780856
+          ],
+          [
+            336.2284017025253,
+            880.8942152038234
+          ],
+          [
+            336.6320070716593,
+            880.6863718162189
+          ],
+          [
+            337.1101819880869,
+            880.5424557351542
+          ],
+          [
+            337.6190619319878,
+            880.5361246391107
+          ],
+          [
+            337.9769886330303,
+            880.5596809074758
+          ],
+          [
+            338.15966919996544,
+            880.5979881245876
+          ],
+          [
+            338.32768049558746,
+            880.6340976255574
+          ],
+          [
+            338.42301992675306,
+            880.6549714453078
+          ],
+          [
+            338.52357517642787,
+            880.6906450912841
+          ],
+          [
+            345.8546470092933,
+            884.3376637519499
+          ],
+          [
+            346.29095501926525,
+            885.0145170165339
+          ],
+          [
+            346.3051901803777,
+            885.0980121676525
+          ],
+          [
+            346.29807930147604,
+            885.1925067116023
+          ],
+          [
+            346.256454268611,
+            885.3028268563502
+          ],
+          [
+            346.145830395785,
+            885.4407511319182
+          ],
+          [
+            345.86892717778295,
+            885.6696423618763
+          ],
+          [
+            345.643176058965,
+            885.8052202135283
+          ],
+          [
+            345.4661697331614,
+            885.9028267097979
+          ],
+          [
+            345.36084834361566,
+            885.9485838744026
+          ],
+          [
+            345.07982792014343,
+            886.0607986236561
+          ],
+          [
+            344.8608859266829,
+            886.1073720252427
+          ],
+          [
+            344.57257890129557,
+            886.1400970695586
+          ],
+          [
+            344.3792334448597,
+            886.1468106694671
+          ],
+          [
+            344.08973646979035,
+            886.1156777251438
+          ],
+          [
+            343.8498570137393,
+            886.0709919857863
+          ],
+          [
+            334.96339274740285,
+            883.248041866594
+          ],
+          [
+            334.79225496966586,
+            883.1829992241016
+          ],
+          [
+            334.6562514103409,
+            883.1293013042659
+          ],
+          [
+            334.6012637660168,
+            883.0848917909027
+          ],
+          [
+            334.52207374176965,
+            882.9938892191723
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.02525219864934769,
+        "ground_gap_median": 0.06107873490969595,
+        "ground_gap_max": 0.07521376756589859
+      },
+      {
+        "name": "NB_village_citizens",
+        "source_anchor": [
+          631,
+          606
+        ],
+        "actual_low_vertex_mean_pixel": [
+          631.0063806050084,
+          605.9998500193477
+        ],
+        "world_height": 2.4500001077956597,
+        "world_lowZ": 0.311422735452652,
+        "low_band_vertices": 1611,
+        "low_band_threshold_world": 0.04900000215591319,
+        "floor_hull": [
+          [
+            626.0418071086598,
+            606.5184082851903
+          ],
+          [
+            626.3612891324856,
+            604.5591466511937
+          ],
+          [
+            626.5003590642774,
+            604.3995155038812
+          ],
+          [
+            626.6455751682881,
+            604.2842850589884
+          ],
+          [
+            626.884883536663,
+            604.1725546307482
+          ],
+          [
+            627.0685474882954,
+            604.1034486870657
+          ],
+          [
+            627.6751395326328,
+            604.0298146698887
+          ],
+          [
+            628.8965649013936,
+            604.0864920271314
+          ],
+          [
+            636.7643668195619,
+            605.0879292646146
+          ],
+          [
+            637.580119593039,
+            605.2766081353774
+          ],
+          [
+            637.7686060456066,
+            605.5318326164328
+          ],
+          [
+            637.8338813204762,
+            605.6921632337526
+          ],
+          [
+            637.835865276752,
+            605.7987434621874
+          ],
+          [
+            637.8074725719176,
+            605.9324200895072
+          ],
+          [
+            637.7481502092172,
+            606.0083087069845
+          ],
+          [
+            637.6818611400419,
+            606.073040151296
+          ],
+          [
+            637.6210010381388,
+            606.1192790893008
+          ],
+          [
+            637.5094186017675,
+            606.1806445648934
+          ],
+          [
+            637.2816424414408,
+            606.2889522671198
+          ],
+          [
+            634.3589037092812,
+            607.6488452300433
+          ],
+          [
+            634.2631081718976,
+            607.6800423399498
+          ],
+          [
+            633.9337000957115,
+            607.7092381631401
+          ],
+          [
+            633.568484265796,
+            607.7057481085064
+          ],
+          [
+            626.8398379371146,
+            606.9611337826426
+          ],
+          [
+            626.6635634519981,
+            606.9088837331483
+          ],
+          [
+            626.3912854194095,
+            606.8253035997027
+          ],
+          [
+            626.1713980335525,
+            606.7251117593462
+          ],
+          [
+            626.0706044519094,
+            606.6224404826974
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.03029269481968555,
+        "ground_gap_median": 0.05655615372947054,
+        "ground_gap_max": 0.09463218238361293
+      },
+      {
+        "name": "V_citizens_01",
+        "source_anchor": [
+          884,
+          735
+        ],
+        "actual_low_vertex_mean_pixel": [
+          884.0026730678081,
+          735.0008475553932
+        ],
+        "world_height": 2.4500001077956597,
+        "world_lowZ": 0.6184371709823608,
+        "low_band_vertices": 1611,
+        "low_band_threshold_world": 0.04900000215591319,
+        "floor_hull": [
+          [
+            878.6388871729577,
+            734.8060235880521
+          ],
+          [
+            879.7778219816396,
+            732.7551809141237
+          ],
+          [
+            879.7981724323289,
+            732.7368419368693
+          ],
+          [
+            879.9877642390109,
+            732.6051608543229
+          ],
+          [
+            880.1850779324507,
+            732.5036654785504
+          ],
+          [
+            880.4286890614928,
+            732.4221377437148
+          ],
+          [
+            880.6701691597558,
+            732.3749228242551
+          ],
+          [
+            881.2735050902965,
+            732.3898939482407
+          ],
+          [
+            882.5018724621845,
+            732.63570091834
+          ],
+          [
+            890.2401294668641,
+            734.8987535265252
+          ],
+          [
+            891.0448661309312,
+            735.2229884843146
+          ],
+          [
+            891.160548605942,
+            735.5248789364373
+          ],
+          [
+            891.219519227437,
+            735.7035733854782
+          ],
+          [
+            891.1918836776688,
+            735.8175662619051
+          ],
+          [
+            891.1615996007619,
+            735.8818018609227
+          ],
+          [
+            891.1186608579433,
+            735.956129877264
+          ],
+          [
+            891.042885496128,
+            736.0278243842328
+          ],
+          [
+            890.9392919185934,
+            736.0875200938557
+          ],
+          [
+            890.8688577046511,
+            736.1274064868339
+          ],
+          [
+            890.719451018898,
+            736.1766454213262
+          ],
+          [
+            890.4463725362282,
+            736.2579672694667
+          ],
+          [
+            886.8512339929342,
+            737.2734580415668
+          ],
+          [
+            886.7397270736908,
+            737.2923672283456
+          ],
+          [
+            886.3855935042332,
+            737.2738098375977
+          ],
+          [
+            886.0089126755394,
+            737.2147522000332
+          ],
+          [
+            879.3421673681665,
+            735.398646703205
+          ],
+          [
+            879.1759669603075,
+            735.3162140346989
+          ],
+          [
+            878.9302408565901,
+            735.1854155601944
+          ],
+          [
+            878.7474473827422,
+            735.0446724830434
+          ],
+          [
+            878.6771057862509,
+            734.9197652170343
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.029868485513475207,
+        "ground_gap_median": 0.045642232564937046,
+        "ground_gap_max": 0.08097486456263425
+      },
+      {
+        "name": "V_citizens_02",
+        "source_anchor": [
+          599,
+          1199
+        ],
+        "actual_low_vertex_mean_pixel": [
+          599.0179520995061,
+          1198.9979989550466
+        ],
+        "world_height": 2.4500001077956597,
+        "world_lowZ": 0.7903121709823608,
+        "low_band_vertices": 1611,
+        "low_band_threshold_world": 0.04900000215591319,
+        "floor_hull": [
+          [
+            592.2715992827663,
+            1198.7936896092606
+          ],
+          [
+            592.2771345766917,
+            1198.675145617641
+          ],
+          [
+            592.30078435816,
+            1198.459452065736
+          ],
+          [
+            592.4748504157175,
+            1198.2168020231577
+          ],
+          [
+            592.6251533336348,
+            1198.0479259512433
+          ],
+          [
+            593.353542054517,
+            1197.713833477787
+          ],
+          [
+            594.7817794040554,
+            1197.2939951148321
+          ],
+          [
+            604.4788891307535,
+            1195.433440792476
+          ],
+          [
+            605.477486339356,
+            1195.3461746488265
+          ],
+          [
+            605.7786795947627,
+            1195.4939613291049
+          ],
+          [
+            605.9219283991334,
+            1195.609556471182
+          ],
+          [
+            606.1502700933206,
+            1196.025944198524
+          ],
+          [
+            606.1840699140866,
+            1196.1137053750836
+          ],
+          [
+            606.1895108971582,
+            1196.292402328759
+          ],
+          [
+            606.1881291921885,
+            1196.353266082266
+          ],
+          [
+            606.1185734615597,
+            1196.5686824818658
+          ],
+          [
+            605.9871319602744,
+            1196.842771463925
+          ],
+          [
+            604.4778407869699,
+            1199.802956059075
+          ],
+          [
+            604.3582490635014,
+            1199.9279562638028
+          ],
+          [
+            604.3331347943946,
+            1199.9445334747904
+          ],
+          [
+            604.2558447697853,
+            1199.9869622658107
+          ],
+          [
+            604.0382391703838,
+            1200.102622527012
+          ],
+          [
+            603.638034802356,
+            1200.2473851849466
+          ],
+          [
+            595.4874347650631,
+            1201.9965232682325
+          ],
+          [
+            595.2498255904554,
+            1201.9992800984212
+          ],
+          [
+            594.8514737516236,
+            1201.9971062489108
+          ],
+          [
+            594.4851499223952,
+            1201.9504226499519
+          ],
+          [
+            594.2788897920024,
+            1201.854586659847
+          ],
+          [
+            592.5005420274446,
+            1199.381650638369
+          ],
+          [
+            592.3228902917109,
+            1199.1041850453894
+          ],
+          [
+            592.2790409347816,
+            1198.8624798335093
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.028937699380662707,
+        "ground_gap_median": 0.052457349869129644,
+        "ground_gap_max": 0.091473571254852
+      },
+      {
+        "name": "NB_vault_construction",
+        "source_anchor": [
+          404,
+          1220
+        ],
+        "actual_low_vertex_mean_pixel": [
+          404.48155781682726,
+          1219.6445467993217
+        ],
+        "world_height": 4.80000006492196,
+        "world_lowZ": 0.6120666265487671,
+        "low_band_vertices": 1003,
+        "low_band_threshold_world": 0.0960000012984392,
+        "floor_hull": [
+          [
+            363.66044595419686,
+            1213.3256272896633
+          ],
+          [
+            394.06877667504153,
+            1194.2265527962245
+          ],
+          [
+            396.79278126307906,
+            1192.6289115113093
+          ],
+          [
+            397.39606492255336,
+            1192.5257909067218
+          ],
+          [
+            399.60690091015886,
+            1193.959851073281
+          ],
+          [
+            446.8391685202074,
+            1226.3421019720138
+          ],
+          [
+            446.8426685153006,
+            1226.370306038493
+          ],
+          [
+            446.74131440719975,
+            1226.844145087806
+          ],
+          [
+            437.35593712062456,
+            1232.852639347845
+          ],
+          [
+            413.6381206017748,
+            1248.0243700445312
+          ],
+          [
+            382.3852669775211,
+            1227.5672730014123
+          ],
+          [
+            363.7357847835174,
+            1213.437126868267
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.04302149079222772,
+        "ground_gap_median": 0.08665985216302374,
+        "ground_gap_max": 0.4617963839264405
+      },
+      {
+        "name": "NB_vault_complete",
+        "source_anchor": [
+          786,
+          1220
+        ],
+        "actual_low_vertex_mean_pixel": [
+          786.0293670264792,
+          1220.077628136031
+        ],
+        "world_height": 4.400000088078713,
+        "world_lowZ": 2.276075839996338,
+        "low_band_vertices": 357,
+        "low_band_threshold_world": 0.08800000176157426,
+        "floor_hull": [
+          [
+            723.6322516731256,
+            1194.463646540716
+          ],
+          [
+            723.6535542157548,
+            1194.2330580491587
+          ],
+          [
+            729.5246235498008,
+            1191.7484341588295
+          ],
+          [
+            772.8396346401927,
+            1173.5978265864585
+          ],
+          [
+            773.3835527776247,
+            1173.4314063636955
+          ],
+          [
+            798.0215969710116,
+            1196.5758096152908
+          ],
+          [
+            843.730333364158,
+            1240.0862195550183
+          ],
+          [
+            843.6590465913919,
+            1240.1573332338064
+          ],
+          [
+            825.0219879179128,
+            1248.5417103622044
+          ],
+          [
+            805.4674517051023,
+            1257.3220472432736
+          ],
+          [
+            799.9527754976202,
+            1259.787906521217
+          ],
+          [
+            793.9138628780365,
+            1262.3186967816944
+          ],
+          [
+            789.0195445705712,
+            1257.6442078779137
+          ],
+          [
+            769.6932990231752,
+            1239.0451541513062
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.028672287225759874,
+        "ground_gap_median": 1.5751892514676342,
+        "ground_gap_max": 2.3254367702260907
+      },
+      {
+        "name": "NB_worker_builder",
+        "source_anchor": [
+          440,
+          1208
+        ],
+        "actual_low_vertex_mean_pixel": [
+          439.9967313219619,
+          1207.7500834170003
+        ],
+        "world_height": 2.499999935527171,
+        "world_lowZ": 0.5523971319198608,
+        "low_band_vertices": 445,
+        "low_band_threshold_world": 0.04999999871054343,
+        "floor_hull": [
+          [
+            424.6879075180422,
+            1211.9003258368327
+          ],
+          [
+            425.40383183887565,
+            1211.4459427929546
+          ],
+          [
+            437.3899192038749,
+            1205.1515182445653
+          ],
+          [
+            441.8747150842601,
+            1203.587246400405
+          ],
+          [
+            442.55812028190184,
+            1203.4157798777578
+          ],
+          [
+            442.9376236851067,
+            1203.4582731498117
+          ],
+          [
+            444.9335996814274,
+            1211.0966645518479
+          ],
+          [
+            442.9527201021659,
+            1216.7222957754034
+          ],
+          [
+            442.7802527189776,
+            1216.8726287712198
+          ],
+          [
+            438.0627466087632,
+            1220.1028014392805
+          ],
+          [
+            437.3466790761477,
+            1220.559808503305
+          ],
+          [
+            436.7813750581328,
+            1220.1731011263043
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.03063046932220459,
+        "ground_gap_median": 0.26812589168548584,
+        "ground_gap_max": 0.4387826657491658
+      },
+      {
+        "name": "NB_worker_pair",
+        "source_anchor": [
+          788,
+          1152
+        ],
+        "actual_low_vertex_mean_pixel": [
+          787.8878265481418,
+          1151.9185535808438
+        ],
+        "world_height": 2.4999999696570114,
+        "world_lowZ": 2.349050998687744,
+        "low_band_vertices": 796,
+        "low_band_threshold_world": 0.04999999939314023,
+        "floor_hull": [
+          [
+            781.5264044907094,
+            1151.2081359002962
+          ],
+          [
+            781.5682233801158,
+            1150.9068618795425
+          ],
+          [
+            781.7238106352486,
+            1150.6136167168215
+          ],
+          [
+            781.7731508046645,
+            1150.5709822403164
+          ],
+          [
+            782.1962555006844,
+            1150.3146327615605
+          ],
+          [
+            782.5953945761379,
+            1150.1937767623804
+          ],
+          [
+            796.3972971758163,
+            1147.8184182420464
+          ],
+          [
+            798.057050640687,
+            1148.5580402755909
+          ],
+          [
+            793.0947305445877,
+            1154.248156633424
+          ],
+          [
+            792.8794851941557,
+            1154.4437100352432
+          ],
+          [
+            792.7737763475697,
+            1154.5216629813121
+          ],
+          [
+            792.5633004966526,
+            1154.5963674987145
+          ],
+          [
+            792.4426515230224,
+            1154.630174567329
+          ],
+          [
+            792.2750714618471,
+            1154.6282418476947
+          ],
+          [
+            782.9418348331279,
+            1153.472809935161
+          ],
+          [
+            782.6875076636076,
+            1153.4387976775008
+          ],
+          [
+            782.4961275371384,
+            1153.3434262883402
+          ],
+          [
+            782.4076756648653,
+            1153.2792387094648
+          ],
+          [
+            782.2535935082707,
+            1153.0619876571043
+          ],
+          [
+            781.6705560088762,
+            1151.9290736524115
+          ],
+          [
+            781.6250479931628,
+            1151.8067102956095
+          ],
+          [
+            781.5283889656879,
+            1151.4761084616716
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.06004578672916239,
+        "ground_gap_median": 0.4277166179073326,
+        "ground_gap_max": 0.5399760073095123
+      },
+      {
+        "name": "V_raw_pile",
+        "source_anchor": [
+          77,
+          945
+        ],
+        "actual_low_vertex_mean_pixel": [
+          77.00004548231854,
+          945.0000345313285
+        ],
+        "world_height": 0.4564046859741211,
+        "world_lowZ": 0.9447234869003296,
+        "low_band_vertices": 35,
+        "low_band_threshold_world": 0.045,
+        "floor_hull": [
+          [
+            66.09805151081959,
+            945.3151001984705
+          ],
+          [
+            66.27097652294155,
+            944.0108794015212
+          ],
+          [
+            67.9172015419385,
+            943.1189843036271
+          ],
+          [
+            75.34156015077994,
+            939.9520045810758
+          ],
+          [
+            77.07554119267627,
+            940.2270634729413
+          ],
+          [
+            87.43664985467848,
+            945.7432986042863
+          ],
+          [
+            88.60235934414729,
+            947.1261738510851
+          ],
+          [
+            87.15172293927702,
+            948.469134492787
+          ],
+          [
+            86.95158958040528,
+            948.6357804660123
+          ],
+          [
+            84.70575807846178,
+            949.3908294039079
+          ],
+          [
+            67.84891987512324,
+            946.0731031453524
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.02499997615814209,
+        "ground_gap_median": 0.12004207074642181,
+        "ground_gap_max": 0.24760262668132782
+      },
+      {
+        "name": "V_rubble_pile",
+        "source_anchor": [
+          370,
+          1236
+        ],
+        "actual_low_vertex_mean_pixel": [
+          370.000006317669,
+          1235.9997855843296
+        ],
+        "world_height": 0.4966985136270523,
+        "world_lowZ": 0.6286071985960007,
+        "low_band_vertices": 14,
+        "low_band_threshold_world": 0.045,
+        "floor_hull": [
+          [
+            360.8231389908355,
+            1235.8169963583998
+          ],
+          [
+            363.3143396596315,
+            1234.0952149324191
+          ],
+          [
+            374.47441652646444,
+            1232.7781623377953
+          ],
+          [
+            377.6490791379431,
+            1233.5126060214295
+          ],
+          [
+            379.7934452403096,
+            1235.1340814430391
+          ],
+          [
+            378.0847758286159,
+            1237.113162161468
+          ],
+          [
+            375.0466868040481,
+            1238.0707204327528
+          ],
+          [
+            363.8669684991864,
+            1239.175204401415
+          ],
+          [
+            361.4961698059638,
+            1237.8883525851265
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.02500002086162567,
+        "ground_gap_median": 0.06688076257705688,
+        "ground_gap_max": 0.10385580360889435
+      },
+      {
+        "name": "V_mortar_wall_0",
+        "source_anchor": [
+          454,
+          1227
+        ],
+        "actual_low_vertex_mean_pixel": [
+          454.00003035170374,
+          1227.0006200330251
+        ],
+        "world_height": 2.0999999046325684,
+        "world_lowZ": 0.326986700296402,
+        "low_band_vertices": 4,
+        "low_band_threshold_world": 0.045,
+        "floor_hull": [
+          [
+            437.43731176503275,
+            1217.8991995107547
+          ],
+          [
+            440.7831672960195,
+            1215.7656603051087
+          ],
+          [
+            470.6632452483666,
+            1236.1572645315623
+          ],
+          [
+            467.3160284928587,
+            1238.319849279978
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.025000005960464478,
+        "ground_gap_median": 0.1864418089389801,
+        "ground_gap_max": 0.3199218809604645
+      },
+      {
+        "name": "V_mortar_wall_1",
+        "source_anchor": [
+          827,
+          1223
+        ],
+        "actual_low_vertex_mean_pixel": [
+          826.9999498219156,
+          1223.0512973732048
+        ],
+        "world_height": 2.0999999046325684,
+        "world_lowZ": 2.2515320777893066,
+        "low_band_vertices": 4,
+        "low_band_threshold_world": 0.045,
+        "floor_hull": [
+          [
+            809.2057017532671,
+            1213.9069314151927
+          ],
+          [
+            812.3065504845152,
+            1211.7633733155105
+          ],
+          [
+            844.902822218317,
+            1232.2514847742527
+          ],
+          [
+            841.8042288815054,
+            1234.4244026646545
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.02500009536743164,
+        "ground_gap_median": 0.1862626075744629,
+        "ground_gap_max": 0.3232102394104004
+      },
+      {
+        "name": "V_grounded_research_building",
+        "source_anchor": [
+          1040,
+          776
+        ],
+        "actual_low_vertex_mean_pixel": [
+          1040.121172137884,
+          775.855560185081
+        ],
+        "world_height": 4.600000014952124,
+        "world_lowZ": 0.025007629103036166,
+        "low_band_vertices": 20,
+        "low_band_threshold_world": 0.09200000029904247,
+        "floor_hull": [
+          [
+            1037.6609064589263,
+            775.1547528623746
+          ],
+          [
+            1039.0505409978823,
+            774.3417687577157
+          ],
+          [
+            1041.545747763972,
+            774.1919691487034
+          ],
+          [
+            1042.9133353968193,
+            775.9982984011396
+          ],
+          [
+            1041.1493093227832,
+            776.974274758687
+          ],
+          [
+            1040.3898168985224,
+            776.9574807922942
+          ],
+          [
+            1039.1781316631539,
+            776.5447158862298
+          ],
+          [
+            1038.7719061871467,
+            776.3921935668424
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.025007629103036166,
+        "ground_gap_median": 0.05792077473696111,
+        "ground_gap_max": 0.11641374599925802
+      },
+      {
+        "name": "V_COL_materials0",
+        "source_anchor": [
+          372,
+          918
+        ],
+        "actual_low_vertex_mean_pixel": [
+          372.0000251662821,
+          918.0000212213663
+        ],
+        "world_height": 0.3044999912381172,
+        "world_lowZ": 0.02501525729894638,
+        "low_band_vertices": 28,
+        "low_band_threshold_world": 0.045,
+        "floor_hull": [
+          [
+            367.997831250718,
+            918.5418695055507
+          ],
+          [
+            369.20757942183127,
+            915.6943392078509
+          ],
+          [
+            370.85688639362354,
+            914.5455326819555
+          ],
+          [
+            373.09294663457086,
+            915.0078360393951
+          ],
+          [
+            376.4099670660828,
+            918.52604879516
+          ],
+          [
+            375.86902474522105,
+            919.9557940962436
+          ],
+          [
+            370.0868467981026,
+            920.5972542574214
+          ],
+          [
+            368.36490032793904,
+            919.8461026195233
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.02499999850988388,
+        "ground_gap_median": 0.02501525729894638,
+        "ground_gap_max": 0.02502288669347763
+      },
+      {
+        "name": "V_COL_materials1",
+        "source_anchor": [
+          830,
+          918
+        ],
+        "actual_low_vertex_mean_pixel": [
+          829.9999951156241,
+          917.9939766412645
+        ],
+        "world_height": 0.3044999912381172,
+        "world_lowZ": 0.41267242282629013,
+        "low_band_vertices": 28,
+        "low_band_threshold_world": 0.045,
+        "floor_hull": [
+          [
+            823.7254945380964,
+            915.4515324887684
+          ],
+          [
+            824.9968968301166,
+            914.4292076350265
+          ],
+          [
+            827.4343485026105,
+            914.4419998312209
+          ],
+          [
+            835.5669754284371,
+            918.2706174061144
+          ],
+          [
+            837.1422120530472,
+            919.4764423849056
+          ],
+          [
+            836.3261996788171,
+            920.8712734847682
+          ],
+          [
+            834.0552608502318,
+            921.1669239775435
+          ],
+          [
+            831.1656224022228,
+            920.5564110567382
+          ],
+          [
+            829.2492688561091,
+            919.720891906633
+          ],
+          [
+            826.2501396063251,
+            918.3646789852139
+          ],
+          [
+            824.0695319890981,
+            916.6591810517212
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.02499999850988388,
+        "ground_gap_median": 0.17448654025793076,
+        "ground_gap_max": 0.33622588962316513
+      }
+    ],
+    "paving_patch_floors": [
+      {
+        "name": "V_house_courtyard_00",
+        "floor_hull": [
+          [
+            559.607785830233,
+            605.2786876131344
+          ],
+          [
+            561.0760311513452,
+            598.4321375944883
+          ],
+          [
+            568.6759906093508,
+            593.7111384210508
+          ],
+          [
+            577.4693502972966,
+            589.4750881985552
+          ],
+          [
+            590.7061309301827,
+            588.9339739484083
+          ],
+          [
+            603.1111746556097,
+            592.8684103042052
+          ],
+          [
+            612.3033131476656,
+            598.253351562126
+          ],
+          [
+            619.8833883166849,
+            604.5823831031913
+          ],
+          [
+            617.237311597354,
+            611.0442962428167
+          ],
+          [
+            612.9558339963899,
+            617.0024020885352
+          ],
+          [
+            602.1018023338291,
+            619.8512374167505
+          ],
+          [
+            589.3521218202025,
+            619.6020074970413
+          ],
+          [
+            576.5580454369272,
+            617.2910253663939
+          ],
+          [
+            564.1168853398802,
+            612.6730997929897
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_house_courtyard_01",
+        "floor_hull": [
+          [
+            466.36566757329325,
+            588.6320725286755
+          ],
+          [
+            466.87698281707014,
+            581.7397815539545
+          ],
+          [
+            474.60534106936234,
+            576.8813015070251
+          ],
+          [
+            484.7546483633984,
+            573.8209518454196
+          ],
+          [
+            497.2600429598607,
+            573.2852593939751
+          ],
+          [
+            509.95664447123767,
+            575.9885111429556
+          ],
+          [
+            519.0381935515566,
+            581.5254051904286
+          ],
+          [
+            524.7648087350307,
+            587.9624319749047
+          ],
+          [
+            527.1013641830278,
+            595.2898552880251
+          ],
+          [
+            518.6196569392042,
+            600.3565782246468
+          ],
+          [
+            507.21908235508073,
+            602.7297713840104
+          ],
+          [
+            494.8204140269487,
+            602.3411714431153
+          ],
+          [
+            481.56109730194385,
+            601.0211770420873
+          ],
+          [
+            470.7049387888765,
+            595.7220163577268
+          ]
+        ],
+        "road_pixels": 567,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_house_courtyard_02",
+        "floor_hull": [
+          [
+            842.0769795934416,
+            807.9130851761953
+          ],
+          [
+            847.1681612201197,
+            800.7580417764075
+          ],
+          [
+            858.7019597761818,
+            796.6782589811166
+          ],
+          [
+            873.7165092888049,
+            797.0773226717703
+          ],
+          [
+            889.2839777967945,
+            799.6982262204999
+          ],
+          [
+            899.8196447654524,
+            807.3688808591434
+          ],
+          [
+            906.3708957224284,
+            815.3530264726515
+          ],
+          [
+            910.4442958672382,
+            824.1826224690475
+          ],
+          [
+            900.2199842649055,
+            829.3309702829181
+          ],
+          [
+            890.4377173275469,
+            833.8108594506709
+          ],
+          [
+            876.2733876357624,
+            834.2716050600363
+          ],
+          [
+            860.9070562426776,
+            831.5828149497273
+          ],
+          [
+            851.9231904228656,
+            823.5384503826972
+          ],
+          [
+            845.0606983039642,
+            816.1246641954741
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_house_courtyard_03",
+        "floor_hull": [
+          [
+            534.9826099446884,
+            1185.095729895535
+          ],
+          [
+            542.7425581938322,
+            1176.9677861282428
+          ],
+          [
+            555.7279249107985,
+            1172.7526451022125
+          ],
+          [
+            570.925456599104,
+            1172.945318717894
+          ],
+          [
+            587.3605906139818,
+            1175.1665640454182
+          ],
+          [
+            598.591652415314,
+            1184.2781087246474
+          ],
+          [
+            607.0612187882244,
+            1194.3807738817043
+          ],
+          [
+            606.3602123054119,
+            1205.109331236875
+          ],
+          [
+            597.5460699864764,
+            1213.0508035021462
+          ],
+          [
+            584.5587560474567,
+            1217.5210909867046
+          ],
+          [
+            569.0144883761545,
+            1218.3093410387216
+          ],
+          [
+            551.5864819040813,
+            1215.8596597077433
+          ],
+          [
+            540.9422972943945,
+            1205.723832497764
+          ],
+          [
+            535.8729499292388,
+            1195.4055290665508
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_house_courtyard_04",
+        "floor_hull": [
+          [
+            650.2969564549263,
+            1206.573178902469
+          ],
+          [
+            652.8175631574111,
+            1195.6514846170621
+          ],
+          [
+            663.2401140449074,
+            1188.770733057651
+          ],
+          [
+            674.5961508643095,
+            1183.4014405128692
+          ],
+          [
+            690.0483688960401,
+            1180.9638439130601
+          ],
+          [
+            705.5348082441285,
+            1187.4131228766155
+          ],
+          [
+            719.3868947006283,
+            1194.860083687469
+          ],
+          [
+            729.9676422814341,
+            1205.421374643099
+          ],
+          [
+            721.5380913815527,
+            1226.3039356215859
+          ],
+          [
+            705.1379898692065,
+            1228.206905675025
+          ],
+          [
+            689.9541921926167,
+            1229.7271787306568
+          ],
+          [
+            674.846894028288,
+            1224.1285951028933
+          ],
+          [
+            659.1692433219949,
+            1217.6855923859357
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_making_ground",
+        "floor_hull": [
+          [
+            122.0039029531488,
+            910.9664766420976
+          ],
+          [
+            124.66551501699388,
+            901.3904730435931
+          ],
+          [
+            134.29326980967193,
+            894.0869328402866
+          ],
+          [
+            146.79819965073156,
+            887.9220115182118
+          ],
+          [
+            163.42190193402067,
+            889.7419031706311
+          ],
+          [
+            178.37804627733618,
+            893.1984342146119
+          ],
+          [
+            189.45867203056648,
+            900.4108236619641
+          ],
+          [
+            197.6401065347693,
+            909.5424382613465
+          ],
+          [
+            192.93874624309936,
+            919.0470239294953
+          ],
+          [
+            183.85456828008236,
+            926.5497364426714
+          ],
+          [
+            170.43186685199043,
+            931.2076781801136
+          ],
+          [
+            154.08271176812195,
+            933.0979808111457
+          ],
+          [
+            139.85841841299498,
+            927.1331239577516
+          ],
+          [
+            129.29630188106046,
+            919.884670831811
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_market_ground",
+        "floor_hull": [
+          [
+            822.3842669589053,
+            709.562890052253
+          ],
+          [
+            822.5938723326251,
+            701.4651632696083
+          ],
+          [
+            826.9826195525459,
+            694.3582219615782
+          ],
+          [
+            838.3578711397175,
+            690.1771357901225
+          ],
+          [
+            854.141454257433,
+            689.4424278681391
+          ],
+          [
+            871.4105944175782,
+            693.6057786095764
+          ],
+          [
+            885.6116318118338,
+            701.1576545052878
+          ],
+          [
+            893.6679794517732,
+            710.3122458849492
+          ],
+          [
+            894.6777681065603,
+            719.1930028992871
+          ],
+          [
+            887.7204186274882,
+            725.8599863141366
+          ],
+          [
+            875.8587018096194,
+            729.9058438491791
+          ],
+          [
+            859.6351998241543,
+            728.8108342801676
+          ],
+          [
+            844.2137735427708,
+            724.4080542798065
+          ],
+          [
+            828.314218414744,
+            718.7186222693589
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_research_ground",
+        "floor_hull": [
+          [
+            1012.5717369643289,
+            766.5809973990232
+          ],
+          [
+            1017.1554060464221,
+            761.2030029530805
+          ],
+          [
+            1025.832989126172,
+            757.7260130389417
+          ],
+          [
+            1038.101879294991,
+            758.7662002680785
+          ],
+          [
+            1049.1861785909857,
+            761.9763126483118
+          ],
+          [
+            1059.0120183809984,
+            766.4549217205615
+          ],
+          [
+            1064.927721235585,
+            772.5968128633905
+          ],
+          [
+            1066.1440795845976,
+            778.9341546275011
+          ],
+          [
+            1062.623900153487,
+            784.4952249390019
+          ],
+          [
+            1053.5748267626902,
+            787.4507754493779
+          ],
+          [
+            1042.0663699657214,
+            788.2987015129211
+          ],
+          [
+            1030.209197405023,
+            784.55427895062
+          ],
+          [
+            1021.2227154775242,
+            779.2766869281545
+          ],
+          [
+            1014.758230531257,
+            773.2183549383549
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_se_workyard",
+        "floor_hull": [
+          [
+            743.3772928185876,
+            1180.2537422071373
+          ],
+          [
+            749.5239021777509,
+            1169.431640710484
+          ],
+          [
+            784.358948993139,
+            1163.4376396635391
+          ],
+          [
+            803.0726707342377,
+            1170.7081200359773
+          ],
+          [
+            816.9596223592929,
+            1180.7624149618616
+          ],
+          [
+            827.8987327263137,
+            1192.2094960505917
+          ],
+          [
+            824.2894252485994,
+            1203.1902274619126
+          ],
+          [
+            818.4262149260151,
+            1212.6976628743632
+          ],
+          [
+            804.4690847678786,
+            1217.3451213262508
+          ],
+          [
+            787.6326209058193,
+            1221.086488963387
+          ],
+          [
+            769.5994900096257,
+            1213.1126568814634
+          ],
+          [
+            754.5452912941961,
+            1204.0950048225384
+          ],
+          [
+            747.2285632694586,
+            1192.4534007266218
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      },
+      {
+        "name": "V_sw_workyard",
+        "floor_hull": [
+          [
+            361.0216684681543,
+            1212.0843511199262
+          ],
+          [
+            361.0685451082107,
+            1199.3783438217329
+          ],
+          [
+            370.30669688601387,
+            1189.5856520778157
+          ],
+          [
+            384.53831346944673,
+            1182.3531689586807
+          ],
+          [
+            404.7769881986591,
+            1185.0861209312661
+          ],
+          [
+            422.89367719832154,
+            1191.3122378019386
+          ],
+          [
+            440.75795780480354,
+            1200.001281873141
+          ],
+          [
+            451.1886030506508,
+            1213.4806584490743
+          ],
+          [
+            447.54124530041105,
+            1226.3113733623009
+          ],
+          [
+            441.12847190474747,
+            1238.2758419187915
+          ],
+          [
+            421.7491217372419,
+            1240.4718277283796
+          ],
+          [
+            403.1937677338022,
+            1241.455224436676
+          ],
+          [
+            383.886589059963,
+            1235.5715522612527
+          ],
+          [
+            366.75146163811695,
+            1225.6686904691055
+          ]
+        ],
+        "road_pixels": 0,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      }
+    ],
+    "floor_constraint_errors": [
+      {
+        "name": "V_house_01",
+        "source_anchor": [
+          496,
+          600
+        ],
+        "actual_low_vertex_mean_pixel": [
+          495.1146983748069,
+          600.2427311386842
+        ],
+        "world_height": 4.600000191821209,
+        "world_lowZ": 1.3045028448104858,
+        "low_band_vertices": 211,
+        "low_band_threshold_world": 0.09200000383642419,
+        "floor_hull": [
+          [
+            472.485228552836,
+            592.8278700469051
+          ],
+          [
+            472.94385647193326,
+            592.3154870852655
+          ],
+          [
+            493.41069740728085,
+            576.7470977885691
+          ],
+          [
+            539.0335873889693,
+            592.3179779239468
+          ],
+          [
+            518.4590823820786,
+            608.6245295679079
+          ],
+          [
+            514.58261593375,
+            611.6803415420258
+          ],
+          [
+            511.4717562791418,
+            610.7122245537463
+          ],
+          [
+            504.29617369467866,
+            608.1896071483937
+          ],
+          [
+            497.241509205663,
+            605.6948910500123
+          ],
+          [
+            477.37834393586814,
+            597.7691451853334
+          ]
+        ],
+        "road_pixels": 234,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0,
+        "ground_gap_min": 0.14833086260587436,
+        "ground_gap_median": 0.3925366538059194,
+        "ground_gap_max": 0.6081897502864422
+      },
+      {
+        "name": "V_house_courtyard_01",
+        "floor_hull": [
+          [
+            466.36566757329325,
+            588.6320725286755
+          ],
+          [
+            466.87698281707014,
+            581.7397815539545
+          ],
+          [
+            474.60534106936234,
+            576.8813015070251
+          ],
+          [
+            484.7546483633984,
+            573.8209518454196
+          ],
+          [
+            497.2600429598607,
+            573.2852593939751
+          ],
+          [
+            509.95664447123767,
+            575.9885111429556
+          ],
+          [
+            519.0381935515566,
+            581.5254051904286
+          ],
+          [
+            524.7648087350307,
+            587.9624319749047
+          ],
+          [
+            527.1013641830278,
+            595.2898552880251
+          ],
+          [
+            518.6196569392042,
+            600.3565782246468
+          ],
+          [
+            507.21908235508073,
+            602.7297713840104
+          ],
+          [
+            494.8204140269487,
+            602.3411714431153
+          ],
+          [
+            481.56109730194385,
+            601.0211770420873
+          ],
+          [
+            470.7049387888765,
+            595.7220163577268
+          ]
+        ],
+        "road_pixels": 567,
+        "water_pixels": 0,
+        "outside_terrain_pixels": 0
+      }
+    ],
+    "natural_unit_measurements": [
+      {
+        "name": "NB_village_house",
+        "actual_world_height": 5.199999925360771,
+        "reported_world_height": 5.199999925360771
+      },
+      {
+        "name": "V_house_01",
+        "actual_world_height": 4.600000191821209,
+        "reported_world_height": 4.600000191821209
+      },
+      {
+        "name": "V_house_02",
+        "actual_world_height": 4.899999890989648,
+        "reported_world_height": 4.899999890989648
+      },
+      {
+        "name": "V_house_03",
+        "actual_world_height": 4.500000180364168,
+        "reported_world_height": 4.500000180364168
+      },
+      {
+        "name": "V_house_04",
+        "actual_world_height": 4.399999833704442,
+        "reported_world_height": 4.399999833704442
+      },
+      {
+        "name": "NB_village_market",
+        "actual_world_height": 4.100000093581514,
+        "reported_world_height": 4.100000093581514
+      },
+      {
+        "name": "D2_lime_kiln",
+        "actual_world_height": 3.5000000073125714,
+        "reported_world_height": 3.5000000073125714
+      },
+      {
+        "name": "C2_hot_mixing",
+        "actual_world_height": 3.4500000788099783,
+        "reported_world_height": 3.4500000788099783
+      },
+      {
+        "name": "NB_worker_carrier",
+        "actual_world_height": 2.499999952398568,
+        "reported_world_height": 2.499999952398568
+      },
+      {
+        "name": "NB_village_citizens",
+        "actual_world_height": 2.4500001077956597,
+        "reported_world_height": 2.4500001077956597
+      },
+      {
+        "name": "V_citizens_01",
+        "actual_world_height": 2.4500001077956597,
+        "reported_world_height": 2.4500001077956597
+      },
+      {
+        "name": "V_citizens_02",
+        "actual_world_height": 2.4500001077956597,
+        "reported_world_height": 2.4500001077956597
+      },
+      {
+        "name": "NB_vault_construction",
+        "actual_world_height": 4.80000006492196,
+        "reported_world_height": 4.80000006492196
+      },
+      {
+        "name": "NB_vault_complete",
+        "actual_world_height": 4.400000088078713,
+        "reported_world_height": 4.400000088078713
+      },
+      {
+        "name": "NB_worker_builder",
+        "actual_world_height": 2.499999935527171,
+        "reported_world_height": 2.499999935527171
+      },
+      {
+        "name": "NB_worker_pair",
+        "actual_world_height": 2.4999999696570114,
+        "reported_world_height": 2.4999999696570114
+      },
+      {
+        "name": "V_raw_pile",
+        "actual_world_height": 0.4564046859741211,
+        "reported_world_height": 0.4564046859741211
+      },
+      {
+        "name": "V_rubble_pile",
+        "actual_world_height": 0.4966985136270523,
+        "reported_world_height": 0.4966985136270523
+      },
+      {
+        "name": "V_mortar_wall_0",
+        "actual_world_height": 2.0999999046325684,
+        "reported_world_height": 2.0999999046325684
+      },
+      {
+        "name": "V_mortar_wall_1",
+        "actual_world_height": 2.0999999046325684,
+        "reported_world_height": 2.0999999046325684
+      },
+      {
+        "name": "V_grounded_research_building",
+        "actual_world_height": 4.600000014952124,
+        "reported_world_height": 4.600000014952124
+      },
+      {
+        "name": "V_COL_materials0",
+        "actual_world_height": 0.3044999912381172,
+        "reported_world_height": 0.3044999912381172
+      },
+      {
+        "name": "V_COL_materials1",
+        "actual_world_height": 0.3044999912381172,
+        "reported_world_height": 0.3044999912381172
+      }
+    ],
+    "unit_errors": [],
+    "freestanding_col_surface_intersections": [],
+    "attached_scaffolds": [
+      {
+        "scaffold": "V_COL_scaffold_0",
+        "worker": "V_COL_mason_0",
+        "human_world_height": 2.4000000560475883,
+        "facade_record_distance_to_actual_surface": 2.8214097255840898e-05,
+        "platform_level": 3.0,
+        "worker_world_lowZ": 3.065000057220459,
+        "expected_worker_lowZ": 3.065,
+        "worker_lowZ_error": 5.7220459037665705e-08,
+        "closest_support_vertical_gap": 0.009999990463256836,
+        "support_hits": 188,
+        "support_lowZ": -0.9862493011425919,
+        "note": "Scaffold/worker intentional COL attachment exempt from global zero-collision rule."
+      },
+      {
+        "scaffold": "V_COL_scaffold_1",
+        "worker": "V_COL_mason_1",
+        "human_world_height": 2.4000000560475883,
+        "facade_record_distance_to_actual_surface": 4.6768949687248096e-05,
+        "platform_level": 3.0,
+        "worker_world_lowZ": 3.065000057220459,
+        "expected_worker_lowZ": 3.065,
+        "worker_lowZ_error": 5.7220459037665705e-08,
+        "closest_support_vertical_gap": 0.009999990463256836,
+        "support_hits": 188,
+        "support_lowZ": 0.010474021043700654,
+        "note": "Scaffold/worker intentional COL attachment exempt from global zero-collision rule."
+      }
+    ],
+    "scaffold_errors": [],
+    "abstract_models_retired": true,
+    "source_abstract_model_names": [
+      "NB_core4_sequence",
+      "NB_core4_sequence_GRAY00",
+      "NB_core4_sequence_GRAY01",
+      "NB_core4_sequence_GRAY02",
+      "NB_core4_sequence_GRAY03",
+      "NB_core4_sequence_GRAY04",
+      "NB_lime_clast_specimen",
+      "NB_lime_clast_specimen_LIME00",
+      "NB_lime_clast_specimen_LIME01",
+      "NB_lime_clast_specimen_LIME02",
+      "NB_lime_clast_specimen_LIME03",
+      "NB_lime_clast_specimen_LIME04",
+      "NB_lime_clast_specimen_LIME05"
+    ],
+    "laboratory": {
+      "original_name": "S_lab_island",
+      "original_hidden": true,
+      "target_name": "V_grounded_research_building",
+      "original_role_counts": {
+        "glass": 303,
+        "base": 5548,
+        "labstone": 831,
+        "roof": 101
+      },
+      "expected_role_counts": {
+        "glass": 303,
+        "labstone": 831,
+        "roof": 101
+      },
+      "actual_role_counts": {
+        "glass": 303,
+        "base": 5548,
+        "roof": 101
+      },
+      "NB_modern_lab_exists": false
+    },
+    "laboratory_errors": [
+      {
+        "error": "copy must retain building labstone/roof/glass faces and remove only rock/base faces",
+        "original_role_counts": {
+          "glass": 303,
+          "base": 5548,
+          "labstone": 831,
+          "roof": 101
+        },
+        "expected": {
+          "glass": 303,
+          "labstone": 831,
+          "roof": 101
+        },
+        "actual": {
+          "glass": 303,
+          "base": 5548,
+          "roof": 101
+        }
+      }
+    ],
+    "method": "Fresh saved world geometry; actual low-band vertex convex hulls and ground-paving polygon raster masks intersect unchanged road/water/terrain projections. Exact world heights recomputed; independent COLBVH surface overlaps on freestanding groups only. Intentional scaffold facade/support contact assessed using COLsurface distance, worker sole level and support rays. Terrain-height under lowvertex samples reported; bbox projection not used as physical contact proof."
+  },
+  "overlay_shift_errors": [],
+  "source_alias_normalized_read_only": true,
+  "expected_new_names": [
+    "NB_build_formboard0",
+    "NB_build_formboard1",
+    "NB_build_formbrace",
+    "NB_build_formpost0",
+    "NB_build_formpost1",
+    "NB_build_stone_0_0",
+    "NB_build_stone_0_1",
+    "NB_build_stone_0_2",
+    "NB_build_stone_0_3",
+    "NB_build_stone_1_0",
+    "NB_build_stone_1_1",
+    "NB_build_stone_1_2",
+    "NB_build_stone_1_3",
+    "NB_build_stone_2_0",
+    "NB_build_stone_2_1",
+    "NB_build_wall_mortar",
+    "NB_carrier_bucket",
+    "NB_carrier_handle0",
+    "NB_carrier_handle1",
+    "NB_carrier_human_head",
+    "NB_carrier_mortar",
+    "NB_pair_mortar",
+    "NB_vault_complete",
+    "NB_vault_construction",
+    "NB_vault_timber_post0_0",
+    "NB_vault_timber_post0_1",
+    "NB_vault_timber_post1_0",
+    "NB_vault_timber_post1_1",
+    "NB_vault_timber_rib0",
+    "NB_vault_timber_rib1",
+    "NB_vault_timber_sill0",
+    "NB_vault_timber_sill1",
+    "NB_village_citizens",
+    "NB_village_house",
+    "NB_village_market",
+    "NB_worker_builder",
+    "NB_worker_carrier",
+    "NB_worker_pair",
+    "V_COL_brace_0_-1.9",
+    "V_COL_brace_0_1.9",
+    "V_COL_brace_1_-1.9",
+    "V_COL_brace_1_1.9",
+    "V_COL_mason_0",
+    "V_COL_mason_0__NB_build_formboard0",
+    "V_COL_mason_0__NB_build_formboard1",
+    "V_COL_mason_0__NB_build_formbrace",
+    "V_COL_mason_0__NB_build_formpost0",
+    "V_COL_mason_0__NB_build_formpost1",
+    "V_COL_mason_0__NB_build_stone_0_0",
+    "V_COL_mason_0__NB_build_stone_0_1",
+    "V_COL_mason_0__NB_build_stone_0_2",
+    "V_COL_mason_0__NB_build_stone_0_3",
+    "V_COL_mason_0__NB_build_stone_1_0",
+    "V_COL_mason_0__NB_build_stone_1_1",
+    "V_COL_mason_0__NB_build_stone_1_2",
+    "V_COL_mason_0__NB_build_stone_1_3",
+    "V_COL_mason_0__NB_build_stone_2_0",
+    "V_COL_mason_0__NB_build_stone_2_1",
+    "V_COL_mason_0__NB_build_wall_mortar",
+    "V_COL_mason_1",
+    "V_COL_mason_1__NB_build_formboard0",
+    "V_COL_mason_1__NB_build_formboard1",
+    "V_COL_mason_1__NB_build_formbrace",
+    "V_COL_mason_1__NB_build_formpost0",
+    "V_COL_mason_1__NB_build_formpost1",
+    "V_COL_mason_1__NB_build_stone_0_0",
+    "V_COL_mason_1__NB_build_stone_0_1",
+    "V_COL_mason_1__NB_build_stone_0_2",
+    "V_COL_mason_1__NB_build_stone_0_3",
+    "V_COL_mason_1__NB_build_stone_1_0",
+    "V_COL_mason_1__NB_build_stone_1_1",
+    "V_COL_mason_1__NB_build_stone_1_2",
+    "V_COL_mason_1__NB_build_stone_1_3",
+    "V_COL_mason_1__NB_build_stone_2_0",
+    "V_COL_mason_1__NB_build_stone_2_1",
+    "V_COL_mason_1__NB_build_wall_mortar",
+    "V_COL_materials0",
+    "V_COL_materials1",
+    "V_COL_plank_0_3.0_0",
+    "V_COL_plank_0_3.0_1",
+    "V_COL_plank_0_3.0_2",
+    "V_COL_plank_0_3.0_3",
+    "V_COL_plank_0_3.0_4",
+    "V_COL_plank_1_3.0_0",
+    "V_COL_plank_1_3.0_1",
+    "V_COL_plank_1_3.0_2",
+    "V_COL_plank_1_3.0_3",
+    "V_COL_plank_1_3.0_4",
+    "V_COL_post_0_-1.9_0.25",
+    "V_COL_post_0_-1.9_1.5",
+    "V_COL_post_0_1.9_0.25",
+    "V_COL_post_0_1.9_1.5",
+    "V_COL_post_1_-1.9_0.25",
+    "V_COL_post_1_-1.9_1.5",
+    "V_COL_post_1_1.9_0.25",
+    "V_COL_post_1_1.9_1.5",
+    "V_COL_rail_0_3.0_0.25",
+    "V_COL_rail_0_3.0_1.5",
+    "V_COL_rail_1_3.0_0.25",
+    "V_COL_rail_1_3.0_1.5",
+    "V_COL_rubble_0_0",
+    "V_COL_rubble_0_1",
+    "V_COL_rubble_0_2",
+    "V_COL_rubble_0_3",
+    "V_COL_rubble_1_0",
+    "V_COL_rubble_1_1",
+    "V_COL_rubble_1_2",
+    "V_COL_rubble_1_3",
+    "V_COL_scaffold_0",
+    "V_COL_scaffold_1",
+    "V_citizen_carried_amphora",
+    "V_citizen_head",
+    "V_citizen_jarhandle0",
+    "V_citizen_jarhandle1",
+    "V_citizens_01",
+    "V_citizens_01__V_citizen_carried_amphora",
+    "V_citizens_01__V_citizen_head",
+    "V_citizens_01__V_citizen_jarhandle0",
+    "V_citizens_01__V_citizen_jarhandle1",
+    "V_citizens_02",
+    "V_citizens_02__V_citizen_carried_amphora",
+    "V_citizens_02__V_citizen_head",
+    "V_citizens_02__V_citizen_jarhandle0",
+    "V_citizens_02__V_citizen_jarhandle1",
+    "V_grounded_research_building",
+    "V_house_01",
+    "V_house_02",
+    "V_house_03",
+    "V_house_04",
+    "V_house_courtyard_00",
+    "V_house_courtyard_01",
+    "V_house_courtyard_02",
+    "V_house_courtyard_03",
+    "V_house_courtyard_04",
+    "V_making_ground",
+    "V_market_ground",
+    "V_mortar_wall_0",
+    "V_mortar_wall_1",
+    "V_raw_chunk00",
+    "V_raw_chunk01",
+    "V_raw_chunk02",
+    "V_raw_chunk03",
+    "V_raw_chunk04",
+    "V_raw_chunk05",
+    "V_raw_chunk06",
+    "V_raw_chunk07",
+    "V_raw_pile",
+    "V_research_ground",
+    "V_rubble_chunk00",
+    "V_rubble_chunk01",
+    "V_rubble_chunk02",
+    "V_rubble_chunk03",
+    "V_rubble_chunk04",
+    "V_rubble_chunk05",
+    "V_rubble_chunk06",
+    "V_rubble_chunk07",
+    "V_rubble_pile",
+    "V_se_workyard",
+    "V_sw_workyard",
+    "V_wall_core_0",
+    "V_wall_core_1",
+    "V_wall_crack0",
+    "V_wall_crack1",
+    "V_wall_crack2",
+    "V_wall_crack3",
+    "V_wall_facing_0_0.3_-0.48",
+    "V_wall_facing_0_0.3_-1.42",
+    "V_wall_facing_0_0.3_0.48",
+    "V_wall_facing_0_0.3_1.42",
+    "V_wall_facing_0_0.8_-0.48",
+    "V_wall_facing_0_0.8_-1.42",
+    "V_wall_facing_0_0.8_0.48",
+    "V_wall_facing_0_0.8_1.42",
+    "V_wall_facing_0_1.3_-0.48",
+    "V_wall_facing_0_1.3_-1.42",
+    "V_wall_facing_0_1.3_0.48",
+    "V_wall_facing_0_1.3_1.42",
+    "V_wall_facing_0_1.8_-0.48",
+    "V_wall_facing_0_1.8_-1.42",
+    "V_wall_facing_0_1.8_0.48",
+    "V_wall_facing_0_1.8_1.42",
+    "V_wall_facing_1_0.3_-0.48",
+    "V_wall_facing_1_0.3_-1.42",
+    "V_wall_facing_1_0.3_0.48",
+    "V_wall_facing_1_0.3_1.42",
+    "V_wall_facing_1_0.8_-0.48",
+    "V_wall_facing_1_0.8_-1.42",
+    "V_wall_facing_1_0.8_0.48",
+    "V_wall_facing_1_0.8_1.42",
+    "V_wall_facing_1_1.3_-0.48",
+    "V_wall_facing_1_1.3_-1.42",
+    "V_wall_facing_1_1.3_0.48",
+    "V_wall_facing_1_1.3_1.42",
+    "V_wall_facing_1_1.8_-0.48",
+    "V_wall_facing_1_1.8_-1.42",
+    "V_wall_facing_1_1.8_0.48",
+    "V_wall_facing_1_1.8_1.42",
+    "V_wall_lime_00",
+    "V_wall_lime_01",
+    "V_wall_lime_02",
+    "V_wall_lime_03",
+    "V_wall_lime_04",
+    "V_wall_lime_05",
+    "V_wall_lime_06",
+    "V_wall_lime_07",
+    "V_wall_lime_08",
+    "V_wall_whitefill2",
+    "V_wall_whitefill3"
+  ],
+  "missing_expected_new_names": [],
+  "unexpected_new_names": [],
+  "hero_transform": {
+    "basis_before": [
+      [
+        -0.8275816440582275,
+        -0.2217499166727066,
+        0.0,
+        -1.2141854763031006
+      ],
+      [
+        0.2217499166727066,
+        -0.8275816440582275,
+        0.0,
+        0.7515208721160889
+      ],
+      [
+        0.0,
+        0.0,
+        0.9739201068878174,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "basis_after": [
+      [
+        -0.6774663329124451,
+        -0.18152661621570587,
+        0.0,
+        -0.1639637053012848
+      ],
+      [
+        0.18152661621570587,
+        -0.6774663329124451,
+        0.0,
+        -0.3877127766609192
+      ],
+      [
+        0.0,
+        0.0,
+        0.7972604632377625,
+        1.0240870714187622
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "relative_linear_transform": [
+      [
+        0.818609662920762,
+        -1.0058760512170519e-08,
+        0.0
+      ],
+      [
+        1.0058760517895747e-08,
+        0.8186096629207621,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.81860971716194
+      ]
+    ]
+  },
+  "method": "Two fresh background file opens. No save, render, object/material/visibility/UI writes. Hidden matrix_world cache normalized read-only from persistent basis/parent inverse. Existing geometry/slots/indices/property and material-node snapshots compared outside independent authorized scope."
+}

@@ -1,0 +1,670 @@
+{
+  "createdNodeIds": [
+    "13:354",
+    "13:355",
+    "13:356",
+    "13:357",
+    "13:358",
+    "13:359",
+    "13:360",
+    "13:361",
+    "13:362",
+    "13:363",
+    "13:364",
+    "13:365",
+    "13:366",
+    "13:367",
+    "13:368",
+    "13:369",
+    "13:370",
+    "13:371",
+    "13:372",
+    "13:373",
+    "13:377",
+    "13:381",
+    "13:385",
+    "13:389",
+    "13:393",
+    "13:397",
+    "13:401",
+    "13:405",
+    "13:409",
+    "13:413",
+    "13:417",
+    "13:421",
+    "13:425",
+    "13:429",
+    "13:433",
+    "13:437",
+    "13:441",
+    "13:445",
+    "13:446",
+    "13:450",
+    "13:451",
+    "13:452",
+    "13:453",
+    "13:454"
+  ],
+  "mutatedNodeIds": [],
+  "sectionId": "13:354",
+  "pageId": "0:1",
+  "rootNodeId": "13:358",
+  "nodes": [
+    {
+      "id": "P",
+      "nodeId": "13:358",
+      "evidenceIds": [
+        "ARC01"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA"
+      ]
+    },
+    {
+      "id": "D",
+      "nodeId": "13:359",
+      "evidenceIds": [
+        "ARC02"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA"
+      ]
+    },
+    {
+      "id": "W",
+      "nodeId": "13:360",
+      "evidenceIds": [
+        "ARC03",
+        "ARC04"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA"
+      ]
+    },
+    {
+      "id": "PD",
+      "nodeId": "13:361",
+      "evidenceIds": [
+        "PRE04",
+        "PRE05"
+      ],
+      "sourceIds": [
+        "PANTHEON_FLOOR",
+        "PANTHEON_HISTORY"
+      ]
+    },
+    {
+      "id": "U",
+      "nodeId": "13:362",
+      "evidenceIds": [
+        "ARC05",
+        "PRE02"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA",
+        "PANTHEON_CHAPTER"
+      ]
+    },
+    {
+      "id": "H",
+      "nodeId": "13:363",
+      "evidenceIds": [
+        "ARC05"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA"
+      ]
+    },
+    {
+      "id": "PC",
+      "nodeId": "13:364",
+      "evidenceIds": [
+        "PRE06",
+        "PRE07",
+        "PRE08"
+      ],
+      "sourceIds": [
+        "PANTHEON_CHAPTER",
+        "PANTHEON_FLOOR"
+      ]
+    },
+    {
+      "id": "S",
+      "nodeId": "13:365",
+      "evidenceIds": [
+        "ARC12"
+      ],
+      "sourceIds": [
+        "S2023",
+        "S2025"
+      ]
+    },
+    {
+      "id": "L",
+      "nodeId": "13:366",
+      "evidenceIds": [
+        "PRE12",
+        "ARC12"
+      ],
+      "sourceIds": [
+        "COLOSSEUM_DIARY",
+        "S2023",
+        "S2025"
+      ]
+    },
+    {
+      "id": "C",
+      "nodeId": "13:367",
+      "evidenceIds": [
+        "ARC06"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-CONSTRUCTION",
+        "A-VESTRONI"
+      ]
+    },
+    {
+      "id": "CD",
+      "nodeId": "13:368",
+      "evidenceIds": [
+        "PRE09"
+      ],
+      "sourceIds": [
+        "COLOSSEUM_DIARY"
+      ]
+    },
+    {
+      "id": "B",
+      "nodeId": "13:369",
+      "evidenceIds": [
+        "PRE10"
+      ],
+      "sourceIds": [
+        "COLOSSEUM_DIARY"
+      ]
+    },
+    {
+      "id": "CC",
+      "nodeId": "13:370",
+      "evidenceIds": [
+        "ARC10",
+        "PRE11"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-MAINTENANCE",
+        "COLOSSEUM_DIARY"
+      ]
+    },
+    {
+      "id": "CS",
+      "nodeId": "13:371",
+      "evidenceIds": [
+        "ARC07",
+        "ARC08"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-CONSTRUCTION",
+        "A-VESTRONI"
+      ]
+    },
+    {
+      "id": "M",
+      "nodeId": "13:372",
+      "evidenceIds": [
+        "ARC09",
+        "ARC11"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-MAINTENANCE",
+        "A-VESTRONI",
+        "S2023",
+        "S2025"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "AR01",
+      "nodeId": "13:373",
+      "source": "P",
+      "target": "D",
+      "type": "whole_part",
+      "label": "전체–부분\n판테온의 돔",
+      "evidenceIds": [
+        "ARC01",
+        "ARC02"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA"
+      ]
+    },
+    {
+      "id": "AR02",
+      "nodeId": "13:377",
+      "source": "D",
+      "target": "W",
+      "type": "mechanical_load_path",
+      "label": "역학 원리\n돔 무게의 전달·분산",
+      "evidenceIds": [
+        "ARC02",
+        "ARC03",
+        "ARC04"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA"
+      ]
+    },
+    {
+      "id": "AR03",
+      "nodeId": "13:381",
+      "source": "PD",
+      "target": "P",
+      "type": "preservation_state_limit",
+      "label": "상태의 한계\n모든 부분이 원형은 아님",
+      "evidenceIds": [
+        "ARC01",
+        "PRE04",
+        "PRE05"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA",
+        "PANTHEON_FLOOR",
+        "PANTHEON_HISTORY"
+      ]
+    },
+    {
+      "id": "AR04",
+      "nodeId": "13:385",
+      "source": "U",
+      "target": "H",
+      "type": "qualified_historical_interpretation",
+      "label": "역사 해석\n보존의 한 요인",
+      "evidenceIds": [
+        "ARC05",
+        "PRE02"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA",
+        "PANTHEON_CHAPTER"
+      ]
+    },
+    {
+      "id": "AR05",
+      "nodeId": "13:389",
+      "source": "H",
+      "target": "P",
+      "type": "qualified_contribution",
+      "label": "공동 설명\n보존에 일부 기여",
+      "evidenceIds": [
+        "ARC01",
+        "ARC05"
+      ],
+      "sourceIds": [
+        "A-PANTHEON-ROMA"
+      ]
+    },
+    {
+      "id": "AR06",
+      "nodeId": "13:393",
+      "source": "PC",
+      "target": "P",
+      "type": "conservation_action",
+      "label": "보존 활동\n후대의 복원·관리",
+      "evidenceIds": [
+        "PRE06",
+        "PRE07",
+        "PRE08"
+      ],
+      "sourceIds": [
+        "PANTHEON_CHAPTER",
+        "PANTHEON_FLOOR"
+      ]
+    },
+    {
+      "id": "AR07",
+      "nodeId": "13:397",
+      "source": "C",
+      "target": "P",
+      "type": "case_comparison",
+      "label": "사례 비교\n남아 있는 상태가 다름",
+      "evidenceIds": [
+        "ARC01",
+        "ARC06",
+        "PRE12"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-CONSTRUCTION",
+        "A-PANTHEON-ROMA",
+        "A-VESTRONI",
+        "COLOSSEUM_DIARY"
+      ]
+    },
+    {
+      "id": "AR08",
+      "nodeId": "13:401",
+      "source": "CD",
+      "target": "C",
+      "type": "recorded_damage_consequence",
+      "label": "손상 이력\n붕괴·철거 뒤 부분 잔존",
+      "evidenceIds": [
+        "ARC06",
+        "PRE09"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-CONSTRUCTION",
+        "A-VESTRONI",
+        "COLOSSEUM_DIARY"
+      ]
+    },
+    {
+      "id": "AR09",
+      "nodeId": "13:405",
+      "source": "CD",
+      "target": "B",
+      "type": "temporal_sequence",
+      "label": "시간 관계\n손상 뒤의 후대 보강",
+      "evidenceIds": [
+        "PRE09",
+        "PRE10"
+      ],
+      "sourceIds": [
+        "COLOSSEUM_DIARY"
+      ]
+    },
+    {
+      "id": "AR10",
+      "nodeId": "13:409",
+      "source": "B",
+      "target": "C",
+      "type": "later_structural_support",
+      "label": "후대 보강\n추가 붕괴를 막기 위한 지지",
+      "evidenceIds": [
+        "PRE10",
+        "ARC06"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-CONSTRUCTION",
+        "A-VESTRONI",
+        "COLOSSEUM_DIARY"
+      ]
+    },
+    {
+      "id": "AR11",
+      "nodeId": "13:413",
+      "source": "CC",
+      "target": "C",
+      "type": "ongoing_conservation",
+      "label": "보존 활동\n복원·방수·유지관리",
+      "evidenceIds": [
+        "ARC10",
+        "PRE11"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-MAINTENANCE",
+        "COLOSSEUM_DIARY"
+      ]
+    },
+    {
+      "id": "AR12",
+      "nodeId": "13:417",
+      "source": "C",
+      "target": "CS",
+      "type": "whole_part",
+      "label": "전체–부분\n회랑을 이루는 구조",
+      "evidenceIds": [
+        "ARC07",
+        "ARC08"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-CONSTRUCTION",
+        "A-VESTRONI"
+      ]
+    },
+    {
+      "id": "AR13",
+      "nodeId": "13:421",
+      "source": "M",
+      "target": "CS",
+      "type": "material_composition",
+      "label": "재료 구성\n부위별로 조합",
+      "evidenceIds": [
+        "ARC07",
+        "ARC08",
+        "ARC09",
+        "ARC11"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-CONSTRUCTION",
+        "A-COLOSSEO-MAINTENANCE",
+        "A-VESTRONI",
+        "S2023",
+        "S2025"
+      ]
+    },
+    {
+      "id": "AR14",
+      "nodeId": "13:425",
+      "source": "S",
+      "target": "M",
+      "type": "conditional_supporting_detail",
+      "label": "재료 보조 단서\n조건부·다른 유적 연구",
+      "evidenceIds": [
+        "ARC11",
+        "ARC12"
+      ],
+      "sourceIds": [
+        "S2023",
+        "S2025"
+      ]
+    },
+    {
+      "id": "AR15",
+      "nodeId": "13:429",
+      "source": "S",
+      "target": "L",
+      "type": "evidence_scope_limit",
+      "label": "근거의 범위\n타유적 관찰·현대 시편",
+      "evidenceIds": [
+        "ARC12"
+      ],
+      "sourceIds": [
+        "S2023",
+        "S2025"
+      ]
+    },
+    {
+      "id": "AR16",
+      "nodeId": "13:433",
+      "source": "L",
+      "target": "P",
+      "type": "application_limit",
+      "label": "적용의 한계\n자가치유의 직접 입증 아님",
+      "evidenceIds": [
+        "ARC12",
+        "PRE12"
+      ],
+      "sourceIds": [
+        "COLOSSEUM_DIARY",
+        "S2023",
+        "S2025"
+      ]
+    },
+    {
+      "id": "AR17",
+      "nodeId": "13:437",
+      "source": "C",
+      "target": "L",
+      "type": "survivorship_limit",
+      "label": "일반화 한계\n남아 있음 ≠ 무손상",
+      "evidenceIds": [
+        "ARC06",
+        "PRE09",
+        "PRE10",
+        "PRE12"
+      ],
+      "sourceIds": [
+        "A-COLOSSEO-CONSTRUCTION",
+        "A-VESTRONI",
+        "COLOSSEUM_DIARY"
+      ]
+    }
+  ],
+  "imageTargets": [
+    {
+      "nodeId": "13:441",
+      "key": "pantheon-exterior",
+      "scaleMode": "FIT",
+      "width": 690,
+      "height": 420,
+      "path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/images/pantheon-exterior.jpg"
+    },
+    {
+      "nodeId": "13:446",
+      "key": "colosseum-photo",
+      "scaleMode": "FIT",
+      "width": 700,
+      "height": 390
+    }
+  ],
+  "conceptCount": 15,
+  "connectorCount": 17,
+  "canonicalEvidenceCount": 22,
+  "bounds": {
+    "x": 8120,
+    "y": 120,
+    "width": 4380,
+    "height": 3624
+  },
+  "nodeBounds": [
+    {
+      "id": "P",
+      "nodeId": "13:358",
+      "x": 2080,
+      "y": 1080,
+      "width": 680,
+      "height": 219
+    },
+    {
+      "id": "D",
+      "nodeId": "13:359",
+      "x": 1210,
+      "y": 820,
+      "width": 490,
+      "height": 138
+    },
+    {
+      "id": "W",
+      "nodeId": "13:360",
+      "x": 190,
+      "y": 820,
+      "width": 590,
+      "height": 138
+    },
+    {
+      "id": "PD",
+      "nodeId": "13:361",
+      "x": 1230,
+      "y": 370,
+      "width": 740,
+      "height": 138
+    },
+    {
+      "id": "U",
+      "nodeId": "13:362",
+      "x": 3440,
+      "y": 380,
+      "width": 680,
+      "height": 138
+    },
+    {
+      "id": "H",
+      "nodeId": "13:363",
+      "x": 3210,
+      "y": 870,
+      "width": 780,
+      "height": 138
+    },
+    {
+      "id": "PC",
+      "nodeId": "13:364",
+      "x": 3400,
+      "y": 1360,
+      "width": 760,
+      "height": 138
+    },
+    {
+      "id": "S",
+      "nodeId": "13:365",
+      "x": 130,
+      "y": 1460,
+      "width": 720,
+      "height": 138
+    },
+    {
+      "id": "L",
+      "nodeId": "13:366",
+      "x": 1190,
+      "y": 1460,
+      "width": 740,
+      "height": 138
+    },
+    {
+      "id": "C",
+      "nodeId": "13:367",
+      "x": 2130,
+      "y": 2280,
+      "width": 750,
+      "height": 171
+    },
+    {
+      "id": "CD",
+      "nodeId": "13:368",
+      "x": 3500,
+      "y": 2220,
+      "width": 670,
+      "height": 138
+    },
+    {
+      "id": "B",
+      "nodeId": "13:369",
+      "x": 3500,
+      "y": 2740,
+      "width": 700,
+      "height": 138
+    },
+    {
+      "id": "CC",
+      "nodeId": "13:370",
+      "x": 2140,
+      "y": 2990,
+      "width": 760,
+      "height": 138
+    },
+    {
+      "id": "CS",
+      "nodeId": "13:371",
+      "x": 1190,
+      "y": 2360,
+      "width": 700,
+      "height": 138
+    },
+    {
+      "id": "M",
+      "nodeId": "13:372",
+      "x": 150,
+      "y": 2380,
+      "width": 740,
+      "height": 138
+    }
+  ],
+  "layoutIssues": [],
+  "imageUploadPending": true,
+  "nativeNodeTypes": [
+    "SECTION",
+    "TEXT",
+    "CONNECTOR",
+    "SHAPE_WITH_TEXT"
+  ],
+  "fullLimitsMetadata": "evidence/architecture-relationships.json",
+  "proposalSha256": "5179a2897f9c25aaa677609a8ed32b88eb628dae46c6b84487bb4c8027ce534a"
+}

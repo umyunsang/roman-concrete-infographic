@@ -1,0 +1,11 @@
+WD2 progress (resume notes)
+- Decided harbour design: option B (road ends on land at shore with half-disc paved landing; sea section removed);
+  procedural Claudian stepped lighthouse (harbor_build.py) at LH_CENTER (35.0,-93.95) seated at sea; mole + pilae seated
+  in sea (base 0.04 below SEA_Z -0.70). Pilae to move into harbour mouth below landing (search with layout_lib on an
+  ID map of the new state). Causeway/arcade variants rejected (road behind tower always hidden; arches too grazing).
+- harbor_fix.py = option B code; harbor_fix_causeway_old.py = rejected variant.
+- Flame colour palette token crystal_edge #D7A64C (h80, outside accent A2 h20-48).
+- Next: run proto_harbor.py -> ID map -> pilae position; then other assets (breakwater, privernum, observers, pompeii,
+  cypress, pines), then step.py + ownership hash check + WD2_test.blend + crops + JSON report.
+- [05:15] harbor_fix option B idempotent (landing centre s=-1.68, R=1.141). Pilae choice: scale 0.451*0.7, rot_z 1.1781,
+  world (31.1,-85.2) -> screen ~(129,1430), road gap 4pt, lh 17, mole 17.8 (search_pilae6.py, landgrid.npz).

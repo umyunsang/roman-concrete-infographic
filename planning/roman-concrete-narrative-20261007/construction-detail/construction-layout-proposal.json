@@ -1,0 +1,187 @@
+{
+  "sourceSHA": "8125d6cf8ec2da6cf09125472aa603afd1debcd88910ff8ed0893b174a2288fe",
+  "selectedLayout": {
+    "kiln": {
+      "name": "D2_lime_kiln",
+      "bbox": [
+        40,
+        358,
+        160,
+        502
+      ],
+      "riverOverlapPixels": 0,
+      "colosseumOverlapPixels": 0,
+      "withinPoster": true,
+      "method": "Original projected-face silhouette with uniform fit"
+    },
+    "mixer": {
+      "name": "C2_hot_mixing",
+      "bbox": [
+        45,
+        624,
+        190,
+        742
+      ],
+      "riverOverlapPixels": 0,
+      "colosseumOverlapPixels": 0,
+      "withinPoster": true,
+      "method": "Original projected-face silhouette with uniform fit"
+    },
+    "unfinished_vault_slot": {
+      "bbox": [
+        300,
+        470,
+        410,
+        556
+      ],
+      "riverOverlapPixels": 0,
+      "colosseumOverlapPixels": 0,
+      "withinPoster": true,
+      "method": "Conservative full slot rectangle"
+    },
+    "completed_vault_slot": {
+      "bbox": [
+        420,
+        470,
+        515,
+        556
+      ],
+      "riverOverlapPixels": 0,
+      "colosseumOverlapPixels": 0,
+      "withinPoster": true,
+      "method": "Conservative full slot rectangle"
+    },
+    "white_clast_zoom_slot": {
+      "bbox": [
+        300,
+        1170,
+        400,
+        1260
+      ],
+      "riverOverlapPixels": 0,
+      "colosseumOverlapPixels": 0,
+      "withinPoster": true,
+      "method": "Conservative full slot rectangle"
+    }
+  },
+  "retireGroups": {
+    "D1": [
+      "D1_material",
+      "D1_concrete",
+      "D1_crystal00",
+      "D1_crystal01",
+      "D1_crystal02",
+      "D1_crystal03",
+      "D1_crystal04",
+      "D1_crystal05",
+      "D1_crystal06",
+      "D1_crystal07",
+      "D1_crystal08",
+      "D1_crystal09",
+      "D1_crystal10",
+      "D1_crystal11",
+      "D1_crystal12",
+      "D1_crystal13",
+      "D1_crystal14",
+      "D1_crystal15",
+      "D1_crystal16",
+      "D1_crystal17",
+      "D1_crystal18",
+      "D1_crystal19",
+      "D1_crystal20",
+      "D1_crystal21",
+      "D1_crystal22",
+      "D1_crystal23",
+      "D1_crystal24",
+      "D1_crystal25",
+      "D1_seawater",
+      "D1_tank_floor",
+      "D1_tank_wall0",
+      "D1_tank_wall1",
+      "D1_tank_wall2",
+      "D1_tank_wall3",
+      "S_lead00",
+      "S_lead01",
+      "S_lead_dot0",
+      "S_lead_dot1"
+    ],
+    "D2": [
+      "D2_making",
+      "D2_cube",
+      "D2_heat0",
+      "D2_heat1",
+      "D2_heat2",
+      "D2_lime00",
+      "D2_lime01",
+      "D2_lime02",
+      "D2_lime03",
+      "D2_lime04",
+      "D2_lime05",
+      "D2_lime06",
+      "D2_lime07",
+      "D2_lime08",
+      "D2_lime09",
+      "D2_lime10",
+      "D2_lime11",
+      "D2_lime12",
+      "D2_lime13",
+      "D2_lime14",
+      "D2_lime15",
+      "S_lead02",
+      "S_lead_dot2"
+    ],
+    "D3": [
+      "D3_structure",
+      "D3_brick_course1",
+      "D3_brick_course2",
+      "D3_brick_course3",
+      "D3_foundation",
+      "D3_heavy",
+      "D3_light",
+      "D3_middle",
+      "D3_press0",
+      "D3_press1",
+      "D3_press_tip0",
+      "D3_press_tip1",
+      "S_lead03",
+      "S_lead04",
+      "S_lead05",
+      "S_lead06",
+      "S_lead07",
+      "S_lead08",
+      "S_lead09",
+      "S_lead10",
+      "S_sect0",
+      "S_sect0_edge",
+      "S_sect1",
+      "S_sect1_edge",
+      "S_sect2",
+      "S_sect2_edge",
+      "S_sect3",
+      "S_sect3_edge",
+      "S_sect_brick1227",
+      "S_sect_brick1233",
+      "S_sect_brick1239",
+      "S_sect_dot0",
+      "S_sect_dot1",
+      "S_sect_dot2",
+      "S_sect_dot3",
+      "S_sect_ground"
+    ],
+    "construction_slot": [
+      "L03_forum_vesta",
+      "L03_forum_temple"
+    ]
+  },
+  "retainedKeyGroups": [
+    "D2_lime_kiln",
+    "C2_hot_mixing",
+    "NB_lime_clast_specimen",
+    "NB_lime_clast_specimen_LIME00..05",
+    "NB_core4_sequence",
+    "NB_core4_sequence_GRAY00..04",
+    "COL_ruined",
+    "L02_tiber"
+  ],
+  "notes": "Model slots are proposals only. Hidden legacy D4 child mesh matrices are runtime caches and not interpreted as current visible placement."
+}

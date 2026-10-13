@@ -1,0 +1,1226 @@
+{
+  "pass": true,
+  "checks": {
+    "fresh_v9_v11_opened_read_only": true,
+    "source_v9_original317_objects_all_retained": true,
+    "new_objects_exactly40_match_production_report": true,
+    "allowed_existing_names_within_independent_user_scope": true,
+    "existing_object_changes_only_authorized_fields": true,
+    "newly_hidden_objects_exactly_reported_and_scoped": true,
+    "all_original_geometry_topology_exact_including_overlays": true,
+    "existing_slots_and_indices_exact_except_kiln": true,
+    "original_mesh_datablock_names_exact_except_optional_kiln_isolation": true,
+    "all_original_materials_preserved_except_unused_replaced_kiln_slot": true,
+    "new_material_HEX_linear_diffuse_and_principled_match": true,
+    "kiln_exact_original_faces_match_independent_helper_and_palette": true,
+    "new_meshes_visible_material_indices_valid_inside_safe_poster_bounds": true,
+    "scene_camera_render_world_exposure_studio_and_old_collections_preserved": true,
+    "all_saved_viewport_settings_preserved": true,
+    "all_original_parent_inverse_and_narrative_properties_preserved": true,
+    "production_before_matches_fresh_v9": true,
+    "production_after_matches_fresh_v11": true,
+    "fresh_mover_bboxes_and_reported_bboxes_valid": true,
+    "all_original_and_new_face_index_SHAs_match_report": true,
+    "applied_roles_face_counts_material_slot_order_polygon_count_match_report": true,
+    "material_roles_HEX_and_linear_values_match_report": true,
+    "downloaded_Meshy_GLB_provenance_SHA_preserved": true,
+    "report_object_material_totals_match_fresh_saved": true,
+    "CORE2_overlay_screen_translation_exact": true,
+    "upper_temples_exact_original_source_restored": true,
+    "white_micro_fill_matches_crack_geometry_and_camera_front": true,
+    "actual_stage_and_hero_BVH_surfaces_do_not_intersect": true,
+    "sampled_low_vertices_have_no_ground_penetration_beyond_0_002": true,
+    "source_v9_SHA_exact_preserved": true,
+    "canonical_SHA_exact_preserved": true
+  },
+  "source": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v9.blend",
+  "output": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v11.blend",
+  "source_sha256": "8125d6cf8ec2da6cf09125472aa603afd1debcd88910ff8ed0893b174a2288fe",
+  "output_sha256": "f58d958eee5db375a76779f337681be96f8b7b6f0f0d4ba562f7d9aa3f79f528",
+  "canonical_sha256": "28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3",
+  "original_object_count": 317,
+  "output_object_count": 357,
+  "output_mesh_count": 294,
+  "new_objects": [
+    "NB_build_formboard0",
+    "NB_build_formboard1",
+    "NB_build_formbrace",
+    "NB_build_formpost0",
+    "NB_build_formpost1",
+    "NB_build_stone_0_0",
+    "NB_build_stone_0_1",
+    "NB_build_stone_0_2",
+    "NB_build_stone_0_3",
+    "NB_build_stone_1_0",
+    "NB_build_stone_1_1",
+    "NB_build_stone_1_2",
+    "NB_build_stone_1_3",
+    "NB_build_stone_2_0",
+    "NB_build_stone_2_1",
+    "NB_build_wall_mortar",
+    "NB_carrier_bucket",
+    "NB_carrier_handle0",
+    "NB_carrier_handle1",
+    "NB_carrier_human_head",
+    "NB_carrier_mortar",
+    "NB_detail4_crack",
+    "NB_detail4_crystal",
+    "NB_detail4_matrix",
+    "NB_detail4_micro",
+    "NB_detail_calcium_clast",
+    "NB_pair_mortar",
+    "NB_vault_complete",
+    "NB_vault_construction",
+    "NB_vault_timber_post0_0",
+    "NB_vault_timber_post0_1",
+    "NB_vault_timber_post1_0",
+    "NB_vault_timber_post1_1",
+    "NB_vault_timber_rib0",
+    "NB_vault_timber_rib1",
+    "NB_vault_timber_sill0",
+    "NB_vault_timber_sill1",
+    "NB_worker_builder",
+    "NB_worker_carrier",
+    "NB_worker_pair"
+  ],
+  "new_materials": [
+    "RC.v14.construction_base",
+    "RC.v14.construction_brick_facing",
+    "RC.v14.construction_mortar",
+    "RC.v14.construction_stone",
+    "RC.v14.construction_timber",
+    "RC.v14.kiln_foundation",
+    "RC.v14.kiln_interior",
+    "RC.v14.kiln_shell",
+    "RC.v14.kiln_smoke",
+    "RC.v14.linen",
+    "RC.v14.roman_stone",
+    "RC.v14.skin",
+    "RC.v14.toolmetal",
+    "RC.v14.toolwood",
+    "RC.v14.worker_cloth",
+    "RC.v14.worker_dark",
+    "RC.v14.worker_mortar"
+  ],
+  "actual_material_count": 77,
+  "reported_material_count": 77,
+  "retired_unused_materials": [
+    {
+      "material": "RC.v12.base_roman_support_stone",
+      "original_consumers": [
+        "D2_lime_kiln"
+      ],
+      "original_users": 1,
+      "reason": "old kiln slot replaced by authorized four-part material assignment; resulting unused datablock omitted from saved file"
+    }
+  ],
+  "changed_original_objects": [
+    "C2_hot_mixing",
+    "COL_ruined",
+    "D1_concrete",
+    "D1_crystal00",
+    "D1_crystal01",
+    "D1_crystal02",
+    "D1_crystal03",
+    "D1_crystal04",
+    "D1_crystal05",
+    "D1_crystal06",
+    "D1_crystal07",
+    "D1_crystal08",
+    "D1_crystal09",
+    "D1_crystal10",
+    "D1_crystal11",
+    "D1_crystal12",
+    "D1_crystal13",
+    "D1_crystal14",
+    "D1_crystal15",
+    "D1_crystal16",
+    "D1_crystal17",
+    "D1_crystal18",
+    "D1_crystal19",
+    "D1_crystal20",
+    "D1_crystal21",
+    "D1_crystal22",
+    "D1_crystal23",
+    "D1_crystal24",
+    "D1_crystal25",
+    "D1_material",
+    "D1_seawater",
+    "D1_tank_floor",
+    "D1_tank_wall0",
+    "D1_tank_wall1",
+    "D1_tank_wall2",
+    "D1_tank_wall3",
+    "D2_cube",
+    "D2_heat0",
+    "D2_heat1",
+    "D2_heat2",
+    "D2_lime00",
+    "D2_lime01",
+    "D2_lime02",
+    "D2_lime03",
+    "D2_lime04",
+    "D2_lime05",
+    "D2_lime06",
+    "D2_lime07",
+    "D2_lime08",
+    "D2_lime09",
+    "D2_lime10",
+    "D2_lime11",
+    "D2_lime12",
+    "D2_lime13",
+    "D2_lime14",
+    "D2_lime15",
+    "D2_lime_kiln",
+    "D2_making",
+    "D3_brick_course1",
+    "D3_brick_course2",
+    "D3_brick_course3",
+    "D3_foundation",
+    "D3_heavy",
+    "D3_light",
+    "D3_middle",
+    "D3_press0",
+    "D3_press1",
+    "D3_press_tip0",
+    "D3_press_tip1",
+    "D3_structure",
+    "L04_palatine",
+    "L04_palatine_arch",
+    "S_core2_badge",
+    "S_core2_underline",
+    "S_lead00",
+    "S_lead01",
+    "S_lead02",
+    "S_lead03",
+    "S_lead04",
+    "S_lead05",
+    "S_lead06",
+    "S_lead07",
+    "S_lead08",
+    "S_lead09",
+    "S_lead10",
+    "S_lead_dot0",
+    "S_lead_dot1",
+    "S_lead_dot2",
+    "S_sect0",
+    "S_sect0_edge",
+    "S_sect1",
+    "S_sect1_edge",
+    "S_sect2",
+    "S_sect2_edge",
+    "S_sect3",
+    "S_sect3_edge",
+    "S_sect_brick1227",
+    "S_sect_brick1233",
+    "S_sect_brick1239",
+    "S_sect_dot0",
+    "S_sect_dot1",
+    "S_sect_dot2",
+    "S_sect_dot3",
+    "S_sect_ground"
+  ],
+  "hidden_original_objects": [
+    "D1_concrete",
+    "D1_crystal00",
+    "D1_crystal01",
+    "D1_crystal02",
+    "D1_crystal03",
+    "D1_crystal04",
+    "D1_crystal05",
+    "D1_crystal06",
+    "D1_crystal07",
+    "D1_crystal08",
+    "D1_crystal09",
+    "D1_crystal10",
+    "D1_crystal11",
+    "D1_crystal12",
+    "D1_crystal13",
+    "D1_crystal14",
+    "D1_crystal15",
+    "D1_crystal16",
+    "D1_crystal17",
+    "D1_crystal18",
+    "D1_crystal19",
+    "D1_crystal20",
+    "D1_crystal21",
+    "D1_crystal22",
+    "D1_crystal23",
+    "D1_crystal24",
+    "D1_crystal25",
+    "D1_material",
+    "D1_seawater",
+    "D1_tank_floor",
+    "D1_tank_wall0",
+    "D1_tank_wall1",
+    "D1_tank_wall2",
+    "D1_tank_wall3",
+    "D2_cube",
+    "D2_heat0",
+    "D2_heat1",
+    "D2_heat2",
+    "D2_lime00",
+    "D2_lime01",
+    "D2_lime02",
+    "D2_lime03",
+    "D2_lime04",
+    "D2_lime05",
+    "D2_lime06",
+    "D2_lime07",
+    "D2_lime08",
+    "D2_lime09",
+    "D2_lime10",
+    "D2_lime11",
+    "D2_lime12",
+    "D2_lime13",
+    "D2_lime14",
+    "D2_lime15",
+    "D2_making",
+    "D3_brick_course1",
+    "D3_brick_course2",
+    "D3_brick_course3",
+    "D3_foundation",
+    "D3_heavy",
+    "D3_light",
+    "D3_middle",
+    "D3_press0",
+    "D3_press1",
+    "D3_press_tip0",
+    "D3_press_tip1",
+    "D3_structure",
+    "S_lead00",
+    "S_lead01",
+    "S_lead02",
+    "S_lead03",
+    "S_lead04",
+    "S_lead05",
+    "S_lead06",
+    "S_lead07",
+    "S_lead08",
+    "S_lead09",
+    "S_lead10",
+    "S_lead_dot0",
+    "S_lead_dot1",
+    "S_lead_dot2",
+    "S_sect0",
+    "S_sect0_edge",
+    "S_sect1",
+    "S_sect1_edge",
+    "S_sect2",
+    "S_sect2_edge",
+    "S_sect3",
+    "S_sect3_edge",
+    "S_sect_brick1227",
+    "S_sect_brick1233",
+    "S_sect_brick1239",
+    "S_sect_dot0",
+    "S_sect_dot1",
+    "S_sect_dot2",
+    "S_sect_dot3",
+    "S_sect_ground"
+  ],
+  "unexpected_object_changes": [],
+  "report_allowed_field_errors": [],
+  "geometry_errors": [],
+  "translation_errors": [],
+  "mesh_errors": [],
+  "old_material_errors": [],
+  "new_material_errors": [],
+  "kiln_errors": [],
+  "new_object_errors": [],
+  "scene_errors": [],
+  "viewport_errors": [],
+  "extra_errors": [],
+  "before_report_errors": [],
+  "after_report_errors": [],
+  "bbox_errors": [],
+  "checked_mover_bboxes": {
+    "COL_ruined": {
+      "actual": [
+        394.9999989817524,
+        612.7361295749773,
+        790.9999823865762,
+        965.0001030610573
+      ],
+      "target": [
+        395,
+        592,
+        791,
+        965
+      ]
+    },
+    "D2_lime_kiln": {
+      "actual": [
+        89.99994790813973,
+        584.0689995512614,
+        195.99995680044955,
+        710.0004238919748
+      ],
+      "target": [
+        90,
+        578,
+        196,
+        710
+      ]
+    },
+    "C2_hot_mixing": {
+      "actual": [
+        141.71441480667494,
+        779.0001292245834,
+        308.28556664210356,
+        940.0001318241281
+      ],
+      "target": [
+        135,
+        779,
+        315,
+        940
+      ]
+    },
+    "NB_worker_carrier": {
+      "actual": [
+        310.9645370223034,
+        913.000213085063,
+        350.0354101920222,
+        1005.0002090754615
+      ],
+      "target": [
+        301,
+        913,
+        360,
+        1005
+      ]
+    },
+    "NB_vault_construction": {
+      "actual": [
+        367.4168887559788,
+        920.0000118727565,
+        446.5830516594763,
+        1008.000020450001
+      ],
+      "target": [
+        351,
+        920,
+        463,
+        1008
+      ]
+    },
+    "NB_worker_builder": {
+      "actual": [
+        477.966624698787,
+        920.0003893869491,
+        535.0334076172487,
+        1008.0003856629138
+      ],
+      "target": [
+        465,
+        920,
+        548,
+        1008
+      ]
+    },
+    "NB_worker_pair": {
+      "actual": [
+        586.4097487958722,
+        901.999971395027,
+        643.5902162580959,
+        1007.9999698335041
+      ],
+      "target": [
+        557,
+        902,
+        673,
+        1008
+      ]
+    },
+    "NB_vault_complete": {
+      "actual": [
+        813.4319136917296,
+        887.0002502599624,
+        907.5681524752389,
+        970.0002617090566
+      ],
+      "target": [
+        804,
+        887,
+        917,
+        970
+      ]
+    },
+    "NB_detail_calcium_clast": {
+      "actual": [
+        302.197455713382,
+        1170.0001963434875,
+        397.8025396184191,
+        1260.0001886609996
+      ],
+      "target": [
+        300,
+        1170,
+        400,
+        1260
+      ]
+    },
+    "L04_palatine": {
+      "actual": [
+        66.47631686018744,
+        1125.000311792807,
+        128.5236226084822,
+        1189.000313450367
+      ],
+      "target": [
+        65,
+        1125,
+        130,
+        1189
+      ]
+    },
+    "NB_detail4_micro": {
+      "actual": [
+        706.0560485707357,
+        1365.0003185395985,
+        740.9441070067614,
+        1414.0003525974078
+      ],
+      "target": [
+        682,
+        1365,
+        765,
+        1414
+      ]
+    }
+  },
+  "index_report_errors": [],
+  "applied_report_errors": [],
+  "material_report_errors": [],
+  "mesh_source_errors": [],
+  "physical_geometry": {
+    "contacts": [
+      {
+        "object": "C2_hot_mixing",
+        "group_meshes": [
+          "C2_hot_mixing"
+        ],
+        "world_height": 8.17143586361766,
+        "world_lowZ": 0.7090209722518921,
+        "low_band_vertex_count": 2548,
+        "sample_count": 510,
+        "ground_hits": 395,
+        "min_gap": 0.017128449537494816,
+        "median_gap": 0.3995420045132221,
+        "max_gap": 0.8708013122216016,
+        "closest_ground_vertex": {
+          "world": [
+            -21.694882085177113,
+            -25.679660422039092,
+            0.7096257029554636
+          ],
+          "surface": {
+            "worldZ": 0.6924972534179688,
+            "verticalGap": 0.017128449537494816,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.01709488220512867,
+            "projected_distance_px": 0.17842312786048142,
+            "nearest_world": [
+              -21.69396209716797,
+              -25.680397033691406,
+              0.6925714612007141
+            ],
+            "vertex_pixel": [
+              258.44472373144845,
+              851.2162804265722
+            ],
+            "nearest_pixel": [
+              258.44515737834314,
+              851.3947030274553
+            ]
+          }
+        },
+        "closest_road_vertex": {
+          "world": [
+            -21.694882085177113,
+            -25.679660422039092,
+            0.7096257029554636
+          ],
+          "surface": {
+            "worldZ": 0.6924972534179688,
+            "verticalGap": 0.017128449537494816,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.01709488220512867,
+            "projected_distance_px": 0.17842312786048142,
+            "nearest_world": [
+              -21.69396209716797,
+              -25.680397033691406,
+              0.6925714612007141
+            ],
+            "vertex_pixel": [
+              258.44472373144845,
+              851.2162804265722
+            ],
+            "nearest_pixel": [
+              258.44515737834314,
+              851.3947030274553
+            ]
+          }
+        },
+        "ground_penetration_beyond_0_002": false
+      },
+      {
+        "object": "NB_worker_carrier",
+        "group_meshes": [
+          "NB_worker_carrier",
+          "NB_carrier_bucket",
+          "NB_carrier_handle0",
+          "NB_carrier_handle1",
+          "NB_carrier_human_head",
+          "NB_carrier_mortar"
+        ],
+        "world_height": 7.543801640440847,
+        "world_lowZ": 0.9727691411972046,
+        "low_band_vertex_count": 769,
+        "sample_count": 769,
+        "ground_hits": 380,
+        "min_gap": 0.02502286434173584,
+        "median_gap": 0.12031721269656259,
+        "max_gap": 0.17686740894129116,
+        "closest_ground_vertex": {
+          "world": [
+            0.1583132648082426,
+            -35.151512063120826,
+            0.9727691411972046
+          ],
+          "surface": {
+            "worldZ": 0.9477462768554688,
+            "verticalGap": 0.02502286434173584,
+            "objects": [
+              "B_pons2"
+            ]
+          },
+          "road": {
+            "world_distance": 0.025004208087921143,
+            "projected_distance_px": 0.26450792244584787,
+            "nearest_world": [
+              0.15831303596496582,
+              -35.151512145996094,
+              0.9477649331092834
+            ],
+            "vertex_pixel": [
+              333.743335391174,
+              984.1889337393646
+            ],
+            "nearest_pixel": [
+              333.7433331214533,
+              984.4534416618008
+            ]
+          }
+        },
+        "closest_road_vertex": {
+          "world": [
+            0.1583132648082426,
+            -35.151512063120826,
+            0.9727691411972046
+          ],
+          "surface": {
+            "worldZ": 0.9477462768554688,
+            "verticalGap": 0.02502286434173584,
+            "objects": [
+              "B_pons2"
+            ]
+          },
+          "road": {
+            "world_distance": 0.025004208087921143,
+            "projected_distance_px": 0.26450792244584787,
+            "nearest_world": [
+              0.15831303596496582,
+              -35.151512145996094,
+              0.9477649331092834
+            ],
+            "vertex_pixel": [
+              333.743335391174,
+              984.1889337393646
+            ],
+            "nearest_pixel": [
+              333.7433331214533,
+              984.4534416618008
+            ]
+          }
+        },
+        "ground_penetration_beyond_0_002": false
+      },
+      {
+        "object": "NB_vault_construction",
+        "group_meshes": [
+          "NB_vault_construction",
+          "NB_vault_timber_post0_0",
+          "NB_vault_timber_post0_1",
+          "NB_vault_timber_post1_0",
+          "NB_vault_timber_post1_1",
+          "NB_vault_timber_rib0",
+          "NB_vault_timber_rib1",
+          "NB_vault_timber_sill0",
+          "NB_vault_timber_sill1"
+        ],
+        "world_height": 4.935342278659277,
+        "world_lowZ": 0.9835113286972046,
+        "low_band_vertex_count": 1003,
+        "sample_count": 502,
+        "ground_hits": 502,
+        "min_gap": 0.044166400060277056,
+        "median_gap": 0.37369195459042714,
+        "max_gap": 0.777467668644789,
+        "closest_ground_vertex": {
+          "world": [
+            3.353302170055578,
+            -31.80781685976445,
+            1.0026777525993396
+          ],
+          "surface": {
+            "worldZ": 0.9585113525390625,
+            "verticalGap": 0.044166400060277056,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.04416525736451149,
+            "projected_distance_px": 0.46685248002816376,
+            "nearest_world": [
+              3.353020429611206,
+              -31.808046340942383,
+              0.9585140347480774
+            ],
+            "vertex_pixel": [
+              382.7059996295644,
+              983.1958922855275
+            ],
+            "nearest_pixel": [
+              382.7021947476047,
+              983.6627292602647
+            ]
+          }
+        },
+        "closest_road_vertex": {
+          "world": [
+            3.353302170055578,
+            -31.80781685976445,
+            1.0026777525993396
+          ],
+          "surface": {
+            "worldZ": 0.9585113525390625,
+            "verticalGap": 0.044166400060277056,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.04416525736451149,
+            "projected_distance_px": 0.46685248002816376,
+            "nearest_world": [
+              3.353020429611206,
+              -31.808046340942383,
+              0.9585140347480774
+            ],
+            "vertex_pixel": [
+              382.7059996295644,
+              983.1958922855275
+            ],
+            "nearest_pixel": [
+              382.7021947476047,
+              983.6627292602647
+            ]
+          }
+        },
+        "ground_penetration_beyond_0_002": false
+      },
+      {
+        "object": "NB_worker_builder",
+        "group_meshes": [
+          "NB_worker_builder",
+          "NB_build_formboard0",
+          "NB_build_formboard1",
+          "NB_build_formbrace",
+          "NB_build_formpost0",
+          "NB_build_formpost1",
+          "NB_build_stone_0_0",
+          "NB_build_stone_0_1",
+          "NB_build_stone_0_2",
+          "NB_build_stone_0_3",
+          "NB_build_stone_1_0",
+          "NB_build_stone_1_1",
+          "NB_build_stone_1_2",
+          "NB_build_stone_1_3",
+          "NB_build_stone_2_0",
+          "NB_build_stone_2_1",
+          "NB_build_wall_mortar"
+        ],
+        "world_height": 6.522968532007553,
+        "world_lowZ": 0.16032257676124573,
+        "low_band_vertex_count": 445,
+        "sample_count": 445,
+        "ground_hits": 445,
+        "min_gap": 0.024992376565933228,
+        "median_gap": 0.23854397331170674,
+        "max_gap": 0.29055763269252566,
+        "closest_ground_vertex": {
+          "world": [
+            13.869723431129401,
+            -24.566100855643185,
+            0.16032257676124573
+          ],
+          "surface": {
+            "worldZ": 0.1353302001953125,
+            "verticalGap": 0.024992376565933228,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.024992167949676514,
+            "projected_distance_px": 0.26574416098297765,
+            "nearest_world": [
+              13.869723320007324,
+              -24.56610107421875,
+              0.1353304088115692
+            ],
+            "vertex_pixel": [
+              515.0764681087875,
+              1007.1302474023886
+            ],
+            "nearest_pixel": [
+              515.0764656154176,
+              1007.3959915633599
+            ]
+          }
+        },
+        "closest_road_vertex": {
+          "world": [
+            13.869723431129401,
+            -24.566100855643185,
+            0.16032257676124573
+          ],
+          "surface": {
+            "worldZ": 0.1353302001953125,
+            "verticalGap": 0.024992376565933228,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.024992167949676514,
+            "projected_distance_px": 0.26574416098297765,
+            "nearest_world": [
+              13.869723320007324,
+              -24.56610107421875,
+              0.1353304088115692
+            ],
+            "vertex_pixel": [
+              515.0764681087875,
+              1007.1302474023886
+            ],
+            "nearest_pixel": [
+              515.0764656154176,
+              1007.3959915633599
+            ]
+          }
+        },
+        "ground_penetration_beyond_0_002": false
+      },
+      {
+        "object": "NB_worker_pair",
+        "group_meshes": [
+          "NB_worker_pair",
+          "NB_pair_mortar"
+        ],
+        "world_height": 8.374204036953415,
+        "world_lowZ": 0.24928894639015198,
+        "low_band_vertex_count": 804,
+        "sample_count": 804,
+        "ground_hits": 804,
+        "min_gap": 0.05081288711517118,
+        "median_gap": 0.348098899486331,
+        "max_gap": 0.4175761761289323,
+        "closest_ground_vertex": {
+          "world": [
+            19.88743695523564,
+            -18.678338241930717,
+            0.2751018275448587
+          ],
+          "surface": {
+            "worldZ": 0.2242889404296875,
+            "verticalGap": 0.05081288711517118,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.050805334001779556,
+            "projected_distance_px": 0.5403225920640595,
+            "nearest_world": [
+              19.887449264526367,
+              -18.67832374572754,
+              0.22429651021957397
+            ],
+            "vertex_pixel": [
+              604.5928752039565,
+              1006.509141867178
+            ],
+            "nearest_pixel": [
+              604.5930767585685,
+              1007.0494644216494
+            ]
+          }
+        },
+        "closest_road_vertex": {
+          "world": [
+            19.88743695523564,
+            -18.678338241930717,
+            0.2751018275448587
+          ],
+          "surface": {
+            "worldZ": 0.2242889404296875,
+            "verticalGap": 0.05081288711517118,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.050805334001779556,
+            "projected_distance_px": 0.5403225920640595,
+            "nearest_world": [
+              19.887449264526367,
+              -18.67832374572754,
+              0.22429651021957397
+            ],
+            "vertex_pixel": [
+              604.5928752039565,
+              1006.509141867178
+            ],
+            "nearest_pixel": [
+              604.5930767585685,
+              1007.0494644216494
+            ]
+          }
+        },
+        "ground_penetration_beyond_0_002": false
+      },
+      {
+        "object": "NB_vault_complete",
+        "group_meshes": [
+          "NB_vault_complete"
+        ],
+        "world_height": 3.479132257241133,
+        "world_lowZ": 1.0604156255722046,
+        "low_band_vertex_count": 357,
+        "sample_count": 357,
+        "ground_hits": 357,
+        "min_gap": 0.028559516327561596,
+        "median_gap": 0.2574971007059048,
+        "max_gap": 0.7892560179201666,
+        "closest_ground_vertex": {
+          "world": [
+            35.21977286337426,
+            6.973766025792145,
+            1.0632808908392803
+          ],
+          "surface": {
+            "worldZ": 1.0347213745117188,
+            "verticalGap": 0.028559516327561596,
+            "objects": [
+              "T_land"
+            ]
+          },
+          "road": {
+            "world_distance": 1.401370882987976,
+            "projected_distance_px": 12.492379579897731,
+            "nearest_world": [
+              33.84162521362305,
+              6.805229663848877,
+              0.8731590509414673
+            ],
+            "vertex_pixel": [
+              907.5021240741503,
+              951.4569903109087
+            ],
+            "nearest_pixel": [
+              895.4767964200294,
+              948.0730514256331
+            ]
+          }
+        },
+        "closest_road_vertex": {
+          "world": [
+            30.166894971931,
+            6.969882349871682,
+            1.0630297038979393
+          ],
+          "surface": {
+            "worldZ": 0.9820785522460938,
+            "verticalGap": 0.08095115165184552,
+            "objects": [
+              "R_core_road"
+            ]
+          },
+          "road": {
+            "world_distance": 0.08095026761293411,
+            "projected_distance_px": 0.8413353257655175,
+            "nearest_world": [
+              30.166940689086914,
+              6.96954345703125,
+              0.9820801019668579
+            ],
+            "vertex_pixel": [
+              867.8799685203024,
+              929.1906141090155
+            ],
+            "nearest_pixel": [
+              867.8779866910357,
+              930.0319471006031
+            ]
+          }
+        },
+        "ground_penetration_beyond_0_002": false
+      }
+    ],
+    "collisions": [
+      {
+        "a": "C2_hot_mixing",
+        "b": "COL_ruined",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_carrier",
+        "b": "COL_ruined",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_vault_construction",
+        "b": "COL_ruined",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_builder",
+        "b": "COL_ruined",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_pair",
+        "b": "COL_ruined",
+        "worldAABB_overlaps": true,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_vault_complete",
+        "b": "COL_ruined",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "C2_hot_mixing",
+        "b": "NB_worker_carrier",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "C2_hot_mixing",
+        "b": "NB_vault_construction",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "C2_hot_mixing",
+        "b": "NB_worker_builder",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "C2_hot_mixing",
+        "b": "NB_worker_pair",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "C2_hot_mixing",
+        "b": "NB_vault_complete",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_carrier",
+        "b": "NB_vault_construction",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_carrier",
+        "b": "NB_worker_builder",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_carrier",
+        "b": "NB_worker_pair",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_carrier",
+        "b": "NB_vault_complete",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_vault_construction",
+        "b": "NB_worker_builder",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_vault_construction",
+        "b": "NB_worker_pair",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_vault_construction",
+        "b": "NB_vault_complete",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_builder",
+        "b": "NB_worker_pair",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_builder",
+        "b": "NB_vault_complete",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      },
+      {
+        "a": "NB_worker_pair",
+        "b": "NB_vault_complete",
+        "worldAABB_overlaps": false,
+        "surface_triangle_overlap_pair_count": 0,
+        "surface_triangle_overlap_examples": []
+      }
+    ],
+    "micro_fill": {
+      "geometry_sha256_equal": true,
+      "camera_depth_delta_min": 0.08179050758246831,
+      "camera_depth_delta_max": 0.08179050758252515,
+      "projected_vertex_max_delta_px": 0.025941338961943606,
+      "fill_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "pass": true
+    },
+    "method": "World-space exact mesh vertices and BVH polygon surfaces. Low2percent vertex band matches production planting policy; vertical ground rays and closest-road3D distance independently measured. Triangle-surface overlap is a collision indicator, not a closed-solid interior proof; finite surface/no intersection does not prove invisible volume interiors. No scene mutation."
+  },
+  "overlay_shift_errors": [],
+  "hero_transform": {
+    "basis_before": [
+      [
+        -0.8275816440582275,
+        -0.2217499166727066,
+        0.0,
+        -1.2141854763031006
+      ],
+      [
+        0.2217499166727066,
+        -0.8275816440582275,
+        0.0,
+        0.7515208721160889
+      ],
+      [
+        0.0,
+        0.0,
+        0.9739201068878174,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "basis_after": [
+      [
+        -0.6774663329124451,
+        -0.18152661621570587,
+        0.0,
+        -0.1639637053012848
+      ],
+      [
+        0.18152661621570587,
+        -0.6774663329124451,
+        0.0,
+        -0.3877127766609192
+      ],
+      [
+        0.0,
+        0.0,
+        0.7972604632377625,
+        1.0240870714187622
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "relative_linear_transform": [
+      [
+        0.818609662920762,
+        -1.0058760512170519e-08,
+        0.0
+      ],
+      [
+        1.0058760517895747e-08,
+        0.8186096629207621,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.81860971716194
+      ]
+    ]
+  },
+  "method": "Two fresh background file opens. No save, render, object/material/visibility/UI writes. Hidden matrix_world cache normalized read-only from persistent basis/parent inverse. Existing geometry/slots/indices/property and material-node snapshots compared outside independent authorized scope."
+}

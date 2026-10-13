@@ -1,0 +1,184 @@
+{
+  "guides": {
+    "carrier_neck_cut_z": 1.435,
+    "carrier_original_head_bucket_center": [
+      0.025,
+      -0.034,
+      1.666
+    ],
+    "carrier_neck_target_center": [
+      0.02,
+      -0.06,
+      1.435
+    ],
+    "carrier_hand_centers": [
+      [
+        -0.173,
+        -0.345,
+        1.155
+      ],
+      [
+        0.207,
+        -0.341,
+        1.15
+      ]
+    ],
+    "carrier_unwanted_bar_axes": [
+      [
+        [
+          -0.34,
+          -0.264,
+          1.464
+        ],
+        [
+          -0.122,
+          -0.356,
+          1.044
+        ]
+      ],
+      [
+        [
+          0.403,
+          -0.276,
+          1.494
+        ],
+        [
+          0.159,
+          -0.3,
+          1.03
+        ]
+      ]
+    ],
+    "builder_head_center": [
+      -0.013,
+      -0.259,
+      1.728
+    ],
+    "builder_head_selection": "z>1.55, -.245<x<.235, y<.06; head/upper neck only, avoid rear shoulder.",
+    "pair_trough_candidate_fill_box": [
+      [
+        -0.145,
+        -0.175,
+        0.98
+      ],
+      [
+        0.085,
+        -0.035,
+        1.012
+      ]
+    ],
+    "pair_trough_fill_note": "A small inset fill surface, not the full trough outside bbox. Trough is slightly oblique; root checks final view."
+  },
+  "helper_sha256": "056e3aa80bb594f5363a91c49745e9cb4319139defd71ab4e31fbf5450bccb0d",
+  "models": {
+    "NB_worker_carrier": {
+      "roles": {
+        "skin": 3067,
+        "toolwood": 6372,
+        "worker_dark": 3058,
+        "linen": 8172
+      },
+      "correction_masks": {
+        "head_bucket": {
+          "face_count": 5831,
+          "bbox": [
+            [
+              -0.36879998445510864,
+              -0.31186044216156006,
+              1.4071691036224365
+            ],
+            [
+              0.4329869747161865,
+              0.26985353231430054,
+              1.9024109840393066
+            ]
+          ]
+        },
+        "unwanted_hand_bars": {
+          "face_count": 541,
+          "bbox": [
+            [
+              -0.36879998445510864,
+              -0.38689446449279785,
+              1.0077440738677979
+            ],
+            [
+              0.42889100313186646,
+              -0.22505344450473785,
+              1.490136981010437
+            ]
+          ]
+        },
+        "preserve_lower_hands": {
+          "face_count": 968,
+          "bbox": [
+            [
+              -0.2371480017900467,
+              -0.3917664885520935,
+              1.0653890371322632
+            ],
+            [
+              0.2823690176010132,
+              -0.25076448917388916,
+              1.252140998840332
+            ]
+          ]
+        }
+      }
+    },
+    "NB_worker_builder": {
+      "roles": {
+        "roman_stone": 733,
+        "skin": 8717,
+        "toolmetal": 121,
+        "toolwood": 311,
+        "worker_dark": 4311,
+        "linen": 6408
+      },
+      "correction_masks": {
+        "head_for_copy": {
+          "face_count": 8439,
+          "bbox": [
+            [
+              -0.2581820487976074,
+              -0.4876144528388977,
+              1.5138840675354004
+            ],
+            [
+              0.20440396666526794,
+              0.09357257187366486,
+              1.9026250839233398
+            ]
+          ]
+        }
+      }
+    },
+    "NB_worker_pair": {
+      "roles": {
+        "skin": 5252,
+        "toolwood": 800,
+        "worker_cloth": 5721,
+        "worker_dark": 2948,
+        "linen": 6042
+      },
+      "correction_masks": {
+        "actual_trough": {
+          "face_count": 1606,
+          "bbox": [
+            [
+              -0.2935330271720886,
+              -0.3450854420661926,
+              0.7334110140800476
+            ],
+            [
+              0.2413250207901001,
+              0.14792756736278534,
+              1.1250430345535278
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "pair_trough_region_caveat": "Correction-mask trough volume includes fused end triangles; use inset fill guide and final material selection, not the broad search bbox as a new filled basin shape."
+}

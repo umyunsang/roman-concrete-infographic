@@ -1,0 +1,11 @@
+{
+  "plans": [
+    {
+      "name": "엄윤상의 팀",
+      "seat": "Full",
+      "tier": "pro",
+      "key": "team::1563398300834441749",
+      "role": "admin"
+    }
+  ]
+}

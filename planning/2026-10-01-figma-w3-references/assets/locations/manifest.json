@@ -1,0 +1,268 @@
+[
+  {
+    "id": "apennines",
+    "title_ko": "아펜니노 산맥 · 그란사소",
+    "subject": "Central Italian Apennines, Gran Sasso massif",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Gran_Sasso.jpg",
+    "direct_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gran_Sasso.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/apennines.jpg",
+    "credit": "MrPanyGoff",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption_ko": "이탈리아 중부 아펜니노 산맥의 그란사소 산괴. 재료 산지와 지형을 생각하기 위한 실제 풍경 참고사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gran_Sasso.jpg",
+    "original_description": "Gran Sasso mountain seen from an airplane. Part of the Central Apennines range, it is located in the Abruzzo region of Italy. The highest peak is Corno Grande (2,912 m).",
+    "dimensions": [
+      1930,
+      1282
+    ],
+    "mime": "image/jpeg",
+    "bytes": 1543118,
+    "sha256": "74f1ccc1ffb7f2a3f8374fd37a2d061f54ef8837d73dbec99cacfb20125e6950"
+  },
+  {
+    "id": "tiber",
+    "title_ko": "티베르강 (테베레강) · 로마",
+    "subject": "Tiber river in Rome",
+    "source_page": "https://commons.wikimedia.org/wiki/File:River_Tiber,_Rome.jpg",
+    "direct_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/River_Tiber%2C_Rome.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/tiber.jpg",
+    "credit": "DeveshT",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption_ko": "오늘날 로마를 흐르는 티베르강(테베레강). 고대 도시의 하천 환경을 살펴보는 지리 참고사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/River_Tiber%2C_Rome.jpg",
+    "original_description": "River Tiber, Rome",
+    "dimensions": [
+      3200,
+      2400
+    ],
+    "mime": "image/jpeg",
+    "bytes": 383854,
+    "sha256": "58b5044efa44d2dfd12c05adfde4f6b11b306f2ef430748809a46abcbf057d7a"
+  },
+  {
+    "id": "rome",
+    "title_ko": "로마 · 포로 로마노",
+    "subject": "Roman Forum context, Rome",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Forum_Romanum_panorama.jpg",
+    "direct_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Forum_Romanum_panorama.jpg/1280px-Forum_Romanum_panorama.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/rome.jpg",
+    "credit": "Hans E C Johansson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption_ko": "포로 로마노 유적의 파노라마 사진. 고대 로마의 도시 맥락을 살펴보는 현장 참고사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Forum_Romanum_panorama.jpg",
+    "original_description": "The Roman Forum, Rome, Italy. Taken in two shots and stitched together (hence the slightly distorted geometry).",
+    "dimensions": [
+      1280,
+      535
+    ],
+    "mime": "image/jpeg",
+    "bytes": 255763,
+    "sha256": "2659c864949e2c301d452d75d457ecc2d121a84bd6a943fe20a6eb471559e104"
+  },
+  {
+    "id": "palatine",
+    "title_ko": "팔라티노 언덕",
+    "subject": "Ruins on the Palatine Hill in Rome",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ruins_on_Palatine_Hill,_Rome,_Italy.jpg",
+    "direct_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ruins_on_Palatine_Hill%2C_Rome%2C_Italy.jpg/1920px-Ruins_on_Palatine_Hill%2C_Rome%2C_Italy.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/palatine.jpg",
+    "credit": "Christoph Strässler",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption_ko": "로마 팔라티노 언덕의 유적. 황궁과 도시 지형을 이해하기 위한 현장 풍경 참고사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ruins_on_Palatine_Hill%2C_Rome%2C_Italy.jpg",
+    "original_description": "Ruins on Palatine Hill",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mime": "image/jpeg",
+    "bytes": 912016,
+    "sha256": "9158bf8302973f5f517b19aa8ddb4c79864088939e59a3340f3ba55bbba4a7f1"
+  },
+  {
+    "id": "aqueduct",
+    "title_ko": "로마 수로 · 수로 공원",
+    "subject": "Roman aqueduct at Parco degli Acquedotti in Rome",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Parco_degli_acquedotti_primavera.jpg",
+    "direct_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Parco_degli_acquedotti_primavera.jpg/1280px-Parco_degli_acquedotti_primavera.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/aqueduct.jpg",
+    "credit": "Mantico68",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption_ko": "로마 수로 공원에 남은 아치형 수로. 구조와 주변 경관을 살펴보는 실제 사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parco_degli_acquedotti_primavera.jpg",
+    "original_description": "parco degli Acquedotti",
+    "dimensions": [
+      1280,
+      853
+    ],
+    "mime": "image/jpeg",
+    "bytes": 315106,
+    "sha256": "a7fc706809364400d67b98b761270b7c101d92015de437478520d6f6ea647a7b"
+  },
+  {
+    "id": "via_appia",
+    "title_ko": "아피아 가도 · 로마 구간",
+    "subject": "Surviving Via Appia pavement near Quarto Miglio, Rome",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Via_appia.jpg",
+    "direct_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Via_appia.jpg/1280px-Via_appia.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/via_appia.jpg",
+    "credit": "Kleuske at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption_ko": "로마 콰르토 밀리오 인근 아피아 가도의 석재 포장. 길의 재료와 경관을 보여 주는 현장 사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Via_appia.jpg",
+    "original_description": "Remains of the Via Appia in Rome, near Quarto Miglio",
+    "dimensions": [
+      1280,
+      1707
+    ],
+    "mime": "image/jpeg",
+    "bytes": 679738,
+    "sha256": "5cdead0f0b30058c436e547879981370a5da63da428364d9fce697145657a7b1"
+  },
+  {
+    "id": "vesuvius",
+    "title_ko": "베수비오산",
+    "subject": "Mount Vesuvius viewed from the south",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Vesuvius_-_panoramio.jpg",
+    "direct_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Mount_Vesuvius_-_panoramio.jpg/1280px-Mount_Vesuvius_-_panoramio.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/vesuvius.jpg",
+    "credit": "Colin W",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption_ko": "남쪽에서 바라본 베수비오산. 화산 지형을 보여 주는 실제 풍경 사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mount_Vesuvius_-_panoramio.jpg",
+    "original_description": "Mount Vesuvius from the South",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "mime": "image/jpeg",
+    "bytes": 213382,
+    "sha256": "d7f0478ef4a1320539664509b5e3f96e5b91b43c33db96dde33fd466b4a598b5"
+  },
+  {
+    "id": "pompeii",
+    "title_ko": "폼페이 · 포럼 유적",
+    "subject": "Forum at ancient Pompeii, Italy",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Antigua_ciudad_de_Pompeya,_Italia,_2023-03-27,_DD_156.jpg",
+    "direct_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Antigua_ciudad_de_Pompeya%2C_Italia%2C_2023-03-27%2C_DD_156.jpg/1920px-Antigua_ciudad_de_Pompeya%2C_Italia%2C_2023-03-27%2C_DD_156.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/pompeii.jpg",
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption_ko": "폼페이 포럼의 유적. 보존된 로마 도시의 건축과 거리 맥락을 살펴보는 현장 사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Antigua_ciudad_de_Pompeya%2C_Italia%2C_2023-03-27%2C_DD_156.jpg",
+    "original_description": "Forum, ancient roman city of Pompeii, Italy",
+    "dimensions": [
+      1920,
+      1305
+    ],
+    "mime": "image/jpeg",
+    "bytes": 568571,
+    "sha256": "952a419d448e8b73dcfc5729af7d47a316fc121ecd896ec3122cc1f0edc6731a"
+  },
+  {
+    "id": "harbor",
+    "title_ko": "포추올리 항구 · 지리 참고",
+    "subject": "Modern Pozzuoli harbor, geographic reference for ancient Puteoli port region",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Pozzuoli_harbor_(5048296672).jpg",
+    "direct_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Pozzuoli_harbor_%285048296672%29.jpg/1280px-Pozzuoli_harbor_%285048296672%29.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/harbor.jpg",
+    "credit": "jimmyweee",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption_ko": "현재의 포추올리 항구. 고대 푸테올리 항만 지역의 지리 참고사진이며, 고대 항만 구조물 자체나 당시 배치를 보여 주는 사진은 아님.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pozzuoli_harbor_%285048296672%29.jpg",
+    "original_description": "Pozzuoli harbor",
+    "dimensions": [
+      1280,
+      853
+    ],
+    "mime": "image/jpeg",
+    "bytes": 321120,
+    "sha256": "e576602248a11fd290237c6d7cc99c4e396a7674ae0c0777fd7b6789f7304d91"
+  },
+  {
+    "id": "tyrrhenian",
+    "title_ko": "티레니아해 · 아말피 해안",
+    "subject": "Sea seen from Amalfi Coast, Campania, Italy",
+    "source_page": "https://commons.wikimedia.org/wiki/File:20050128_1519_sea_seen_from_the_amalfi_coast.JPG",
+    "direct_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/20050128_1519_sea_seen_from_the_amalfi_coast.JPG/1280px-20050128_1519_sea_seen_from_the_amalfi_coast.JPG",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/tyrrhenian.jpg",
+    "credit": "Sabine Cretella",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption_ko": "캄파니아 아말피 해안에서 바라본 바다. 티레니아해 연안 환경을 살펴보는 실제 풍경 참고사진.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/20050128_1519_sea_seen_from_the_amalfi_coast.JPG",
+    "original_description": "sea seen from the Amalfi Coast Italy",
+    "dimensions": [
+      1280,
+      960
+    ],
+    "mime": "image/jpeg",
+    "bytes": 122410,
+    "sha256": "0dd7fb83dff4402332b0ddd185a7dbaa9dfc91d18376df129b618de60c9f25d0"
+  },
+  {
+    "id": "privernum",
+    "title_ko": "프리베르눔 · 고고학 유적",
+    "subject": "Privernum archaeological park at Mezzagosto, near Priverno, Lazio",
+    "source_page": "https://www.privernomusei.it/parco-archeologico/",
+    "direct_url": "https://www.privernomusei.it/wp-content/uploads/2026/01/ParcoArcheologico.jpg",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/privernum.jpg",
+    "credit": "Priverno Musei / Parco Archeologico Privernum; photographer not stated",
+    "license": "Official museum publication; reuse license not stated",
+    "caption_ko": "프리베르눔 고고학 공원. W3 연구의 지명 맥락을 위한 현장 사진이며 이 장면을 연구 시료의 정확한 채취 지점으로 단정하지 않음.",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mime": "image/jpeg",
+    "bytes": 2183163,
+    "sha256": "5254e1bbb9176017cc71df4f8b087e4a809e703b8384f3d7ef898eeb05a03a60"
+  },
+  {
+    "id": "cosa_pier2",
+    "title_ko": "코사 항구 · 고대 콘크리트 구조물",
+    "subject": "Side view of surviving Roman concrete Pier 2 at Cosa harbour, Ansedonia, Tuscany; ROMACONS 2003 Figure 6",
+    "source_page": "https://web.uvic.ca/~jpoleson/Harbour%20Concrete/ROMACONS03.html",
+    "direct_url": "https://web.uvic.ca/~jpoleson/Images/RCONS03Fig6.jpg",
+    "credit": "ROMACONS / John P. Oleson, Christopher Brandon, Robert L. Hohlfelder; University of Victoria, 2003 field report, Figure 6; photographer not individually stated",
+    "license": "University research publication; reuse license not stated",
+    "caption_ko": "토스카나 안세도니아의 고대 코사 항구에 남은 2번 콘크리트 교각 측면. ROMACONS 2003 현장보고서의 실제 구조물 사진. W3 항만 구조 참고용이며 프리베르눔의 자가치유 연구 시료와는 다른 사례.",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/cosa_pier2.jpg",
+    "dimensions": [
+      504,
+      378
+    ],
+    "mime": "image/jpeg",
+    "bytes": 92465,
+    "sha256": "5a708065ddf459ac901b10fa85b0e77d3e8847feb5baedf2c8074c589aa5eae9",
+    "quality_note": "Native published photograph is 504 x 378 pixels. Suitable for small reference card; no artificial upscaling performed."
+  },
+  {
+    "id": "secca_fumosa_pier",
+    "title_ko": "포추올리만 · 세카 푸모사 수중 교각",
+    "subject": "Opus reticulatum facing on a submerged Roman marine concrete pier at Secca Fumosa in Pozzuoli Bay, Campania; ROMACONS 2006 Figure 8",
+    "source_page": "https://web.uvic.ca/~jpoleson/ROMACONS/Baia%202006.htm",
+    "direct_url": "https://web.uvic.ca/~jpoleson/ROMACONS/Baia06%20Fig%2008.JPG",
+    "credit": "C. Brandon, R. L. Hohlfelder, J. P. Oleson / ROMACONS; University of Victoria, The Concrete Construction of the Roman Harbours of Baiae and Portus Iulius, Figure 8; photographer not individually stated",
+    "license": "University research publication; reuse license not stated",
+    "caption_ko": "캄파니아 포추올리만 세카 푸모사의 수중 로마 콘크리트 교각에 남은 망상식 석재 표면. ROMACONS 2006 연구보고서의 현장 사진. 항만·해안 구조 사례이며, 이 구조물의 정확한 방파 기능은 보고서에서도 확정하지 않음.",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/secca_fumosa_pier.jpg",
+    "dimensions": [
+      1050,
+      788
+    ],
+    "mime": "image/jpeg",
+    "bytes": 251775,
+    "sha256": "716fc8ed1cab6cfe44a9cdef545e284353fa5825d8fe9dc8fa947ef356c8567d",
+    "quality_note": "Native published photograph is 1050 x 788 pixels. Underwater research photo, naturally green and low contrast."
+  }
+]

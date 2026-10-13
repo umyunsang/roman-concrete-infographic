@@ -1,0 +1,86 @@
+{
+  "core_question": "로마 콘크리트는 어떻게 작은 균열을 스스로 메우며, 이 반응은 오래 버티는 데 어떻게 기여할까?",
+  "format": {
+    "width_mm": 420,
+    "height_mm": 594,
+    "figma_unit_mapping": "PDF points; verify exported MediaBox",
+    "width": 1190.5511811023623,
+    "height": 1683.7795275590552
+  },
+  "zones": [
+    {
+      "id": "N1",
+      "name": "질문과 핵심 단서",
+      "y": 52,
+      "h": 245,
+      "role": "core",
+      "takeaway": "일부 재료 안의 칼슘 공급원을 통해 작은 틈을 메울 가능성",
+      "evidence": [
+        "MAT-06",
+        "MAT-11",
+        "MAT-13"
+      ]
+    },
+    {
+      "id": "N2",
+      "name": "제조 당시",
+      "y": 340,
+      "h": 238,
+      "role": "basic",
+      "takeaway": "제조 공정과 나중의 치유 반응은 다른 시간대",
+      "evidence": [
+        "MAT-02",
+        "MAT-03",
+        "MAT-04",
+        "MAT-05",
+        "MAT-08"
+      ]
+    },
+    {
+      "id": "N3",
+      "name": "균열 이후 반응",
+      "y": 620,
+      "h": 460,
+      "role": "core",
+      "takeaway": "물 유입, 칼슘 용해와 이동, 광물 석출이 조건부로 작은 틈을 충전",
+      "evidence": [
+        "MAT-10",
+        "MAT-11",
+        "MAT-12",
+        "MAT-13",
+        "MAT-14"
+      ]
+    },
+    {
+      "id": "N4",
+      "name": "현대 실험",
+      "y": 1120,
+      "h": 270,
+      "role": "detail",
+      "takeaway": "현대 모르타르 시편에서 측정한 결과와 조건",
+      "evidence": [
+        "MAT-15",
+        "MAT-16",
+        "MAT-17",
+        "MAT-18",
+        "MAT-19",
+        "MAT-20",
+        "MAT-21"
+      ]
+    },
+    {
+      "id": "N5",
+      "name": "한계와 출처",
+      "y": 1440,
+      "h": 185,
+      "role": "support",
+      "takeaway": "틈 충전은 하중 지지 능력 회복의 입증이 아니며 모든 로마 구조물의 일반 성능이 아니다",
+      "evidence": [
+        "MAT-22",
+        "MAT-23",
+        "MAT-24"
+      ]
+    }
+  ],
+  "sketch_not_acceptance": "Actual print at A2 and reader comprehension tests are pending; local file geometry and rendered composition will be verified."
+}

@@ -1,0 +1,223 @@
+{
+  "transport": "Meshy MCP stdio @0.6.0",
+  "tasks": {
+    "modern_reinforced_cutaway": {
+      "task_id": "01a116a5-6131-721c-9a2c-6ebf3a4d0b47",
+      "request": {
+        "prompt": "An educational architectural cutaway maquette of a contemporary reinforced concrete building, three floors, one rectangular structural bay. Clean concrete columns, beams and floor slabs. The front right quarter is deliberately sectioned away to expose a thick continuous steel reinforcing cage inside two columns and one horizontal beam: longitudinal bars and closed rectangular stirrups, visibly distinct from the surrounding concrete shells. The exposed bars must be readable as physical geometry, not drawn lines or texture. Flat roof, open section, square footing, robust simplified proportions, neutral monochrome gray architectural museum model. No signage, no lettering, no people, no landscape, no roads, no extra buildings. One compact isolated object.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_response": {
+        "task_id": "01a116a5-6131-721c-9a2c-6ebf3a4d0b47",
+        "status": "PENDING",
+        "message": "3D generation task created successfully. Task ID: 01a116a5-6131-721c-9a2c-6ebf3a4d0b47",
+        "estimated_time": "2-3 minutes"
+      },
+      "latest_status": {
+        "outcome": "SUCCEEDED",
+        "task_id": "01a116a5-6131-721c-9a2c-6ebf3a4d0b47",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116a5-6131-721c-9a2c-6ebf3a4d0b47/output/model.glb?Expires=4944931200&Signature=jWHaQWz1dToYMIjvs-NVlZIMSDiodOwZgSVpe1kYLXxIQC45Ilq7yyTgFvOd12Dg-StcqR1BDhmkNcfJDnKmdtxcq70pN3zb45pe~O6tm0q58IJUyHC6-m2LO~U~Yb0BimqR5KCv32N~MfLlyrZSsxfZyDTAx7y6es6KbLrh~vxIBPgYLd7jPM9miQsB58V6CzFAL1B9dXuy~7EQs7XR4QJz~6qHlJ2Bdd-zN0z-JrS-EUVPuI6MAUUsniSigSbEBaypN8v1AvtV-MbUxhVc2wBheCAXkc8qEdlmBY7LJKldnr3uVXPce-B74I7S~I69x3W-fn~UCpw4koaizbLLgg__&Key-Pair-Id=K1VGYTHIYLM9UM"
+        },
+        "consumed_credits": 20
+      },
+      "download_response": {
+        "download_url": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116a5-6131-721c-9a2c-6ebf3a4d0b47/output/model.glb?Expires=4944931200&Signature=jWHaQWz1dToYMIjvs-NVlZIMSDiodOwZgSVpe1kYLXxIQC45Ilq7yyTgFvOd12Dg-StcqR1BDhmkNcfJDnKmdtxcq70pN3zb45pe~O6tm0q58IJUyHC6-m2LO~U~Yb0BimqR5KCv32N~MfLlyrZSsxfZyDTAx7y6es6KbLrh~vxIBPgYLd7jPM9miQsB58V6CzFAL1B9dXuy~7EQs7XR4QJz~6qHlJ2Bdd-zN0z-JrS-EUVPuI6MAUUsniSigSbEBaypN8v1AvtV-MbUxhVc2wBheCAXkc8qEdlmBY7LJKldnr3uVXPce-B74I7S~I69x3W-fn~UCpw4koaizbLLgg__&Key-Pair-Id=K1VGYTHIYLM9UM",
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/modern_reinforced_cutaway.glb",
+        "file_size_bytes": 762880,
+        "format": "glb",
+        "expires_at": "2026-10-08T13:58:22.744Z"
+      }
+    },
+    "roman_lime_clast_cutaway": {
+      "task_id": "01a116a5-6904-73b1-8ce8-e76a797951a0",
+      "request": {
+        "prompt": "Educational material specimen maquette: a single Roman concrete cube with the front upper right eighth cleanly cut away, revealing a stepped solid interior section. The dark gray mortar contains eight irregular pale lime nodules as clearly protruding solid rounded angular inclusions at different depths, plus a few larger rough stone aggregates. The contrast is a section through a dense material, not a hollow room or a dice. Large readable shapes, simple robust geometry, crisp cut faces, neutral monochrome gray museum teaching model. No text, no symbols, no base plinth, no background, no people, no surrounding scene. Inclusions must be actual distinct geometry, not just texture.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_response": {
+        "task_id": "01a116a5-6904-73b1-8ce8-e76a797951a0",
+        "status": "PENDING",
+        "message": "3D generation task created successfully. Task ID: 01a116a5-6904-73b1-8ce8-e76a797951a0",
+        "estimated_time": "2-3 minutes"
+      },
+      "latest_status": {
+        "outcome": "SUCCEEDED",
+        "task_id": "01a116a5-6904-73b1-8ce8-e76a797951a0",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116a5-6904-73b1-8ce8-e76a797951a0/output/model.glb?Expires=4944931200&Signature=WswZrsPwfMj2eSsQ9Wh~5iieVI-ll~kyppyM-3irmUgLm8XkehG7kiMFhwHKxRG5JJmwyH2nH~tQYwHYpqSkUcuvhjYJqRAcpDMYRApxusoTLrue2XRkuR5dkz83EgUrYZP~RozZs-S5wgvt0L~Rr2VikjjgG6mqQ1L4C4o46mZob71OGtGD-Q-h32KquGYAzCYLNCDe8~960tY1SZsNwb3bXOkFfoO8DiMrcEXJt~xjT0f2j7a4H3ZFetZx~D3BvJ0y9ghPPxQySKDWLk-vSoLY58jZSjvh-eEx6WZdXmWzzKiMXaLh1E-SNpkGX1YmhxUDD4HbxigTUCXjeU~elQ__&Key-Pair-Id=K1VGYTHIYLM9UM"
+        },
+        "consumed_credits": 20
+      },
+      "download_response": {
+        "download_url": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116a5-6904-73b1-8ce8-e76a797951a0/output/model.glb?Expires=4944931200&Signature=WswZrsPwfMj2eSsQ9Wh~5iieVI-ll~kyppyM-3irmUgLm8XkehG7kiMFhwHKxRG5JJmwyH2nH~tQYwHYpqSkUcuvhjYJqRAcpDMYRApxusoTLrue2XRkuR5dkz83EgUrYZP~RozZs-S5wgvt0L~Rr2VikjjgG6mqQ1L4C4o46mZob71OGtGD-Q-h32KquGYAzCYLNCDe8~960tY1SZsNwb3bXOkFfoO8DiMrcEXJt~xjT0f2j7a4H3ZFetZx~D3BvJ0y9ghPPxQySKDWLk-vSoLY58jZSjvh-eEx6WZdXmWzzKiMXaLh1E-SNpkGX1YmhxUDD4HbxigTUCXjeU~elQ__&Key-Pair-Id=K1VGYTHIYLM9UM",
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/roman_lime_clast_cutaway.glb",
+        "file_size_bytes": 593172,
+        "format": "glb",
+        "expires_at": "2026-10-08T13:58:23.331Z"
+      }
+    },
+    "roman_marine_breakwater": {
+      "task_id": "01a116a5-71fb-75a2-869c-d1b1d612d645",
+      "request": {
+        "prompt": "A compact educational maquette of an ancient Roman marine concrete breakwater pier, a single low L shaped massive masonry structure with a broad rectangular footing and thick blocky walls. The outer shell is partly cut away at its near corner to reveal a dense concrete core with large irregular volcanic stone aggregate inclusions bound in mortar. Show thick submerged foundation blocks and two squat rectangular pila supports, all physically connected. Simple coarse robust proportions, realistic ancient harbor engineering, neutral monochrome gray museum model. No lighthouse, no houses, no boats, no people, no water surface, no waves, no scenery, no text or signs. The main pier and exposed aggregate core must be easy to read from an elevated three quarter view.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_response": {
+        "task_id": "01a116a5-71fb-75a2-869c-d1b1d612d645",
+        "status": "PENDING",
+        "message": "3D generation task created successfully. Task ID: 01a116a5-71fb-75a2-869c-d1b1d612d645",
+        "estimated_time": "2-3 minutes"
+      },
+      "latest_status": {
+        "outcome": "SUCCEEDED",
+        "task_id": "01a116a5-71fb-75a2-869c-d1b1d612d645",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116a5-71fb-75a2-869c-d1b1d612d645/output/model.glb?Expires=4944931200&Signature=RdnE1WP0hNrAi1HuYhp3rlrcg9BJI3RWNFlq1ASSXkIJGHlgSCv7c62F4DNcugBz1TzTiO4tYd~u0aFiLX6dztfrEQ-YSGDIBmEjy49fldNeO3YKnabpqnPTZp0oDrdj4r6SCZfh6Lw~QP~7u9HNLn~Kcg5QoGP7y45nrDr7wzG7a1DkBIAUU6KDEquHIEUm9e6QB-LtvW2QvB1~~xjC375wBBvQ8ebNY9k1KzT2EJtHn5NCx-GyXBlPoayV26G76~~rwKTacyP0Kzz9hjaHVsrkY6zCHXOWp274hK3c8gBxjYJmhYJtCkjvFCjphlZi1VjxWLUd6TXX0ynVzms7FA__&Key-Pair-Id=K1VGYTHIYLM9UM"
+        },
+        "consumed_credits": 20
+      },
+      "download_response": {
+        "download_url": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116a5-71fb-75a2-869c-d1b1d612d645/output/model.glb?Expires=4944931200&Signature=RdnE1WP0hNrAi1HuYhp3rlrcg9BJI3RWNFlq1ASSXkIJGHlgSCv7c62F4DNcugBz1TzTiO4tYd~u0aFiLX6dztfrEQ-YSGDIBmEjy49fldNeO3YKnabpqnPTZp0oDrdj4r6SCZfh6Lw~QP~7u9HNLn~Kcg5QoGP7y45nrDr7wzG7a1DkBIAUU6KDEquHIEUm9e6QB-LtvW2QvB1~~xjC375wBBvQ8ebNY9k1KzT2EJtHn5NCx-GyXBlPoayV26G76~~rwKTacyP0Kzz9hjaHVsrkY6zCHXOWp274hK3c8gBxjYJmhYJtCkjvFCjphlZi1VjxWLUd6TXX0ynVzms7FA__&Key-Pair-Id=K1VGYTHIYLM9UM",
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/roman_marine_breakwater.glb",
+        "file_size_bytes": 762280,
+        "format": "glb",
+        "expires_at": "2026-10-08T13:58:24.037Z"
+      }
+    },
+    "modern_reinforced_frame_v2": {
+      "task_id": "01a116ac-b735-72d7-8c7e-3ba593cac38c",
+      "request": {
+        "prompt": "Three story reinforced concrete skeleton building under construction. Single compact rectangular structural bay, completely open front, no exterior walls, no facade panels, no window glass. Three flat floor slabs supported by four square concrete columns and horizontal beams. Two front columns have HALF of their concrete shell removed to expose the actual continuous thick vertical steel rebars and closed rectangular steel stirrup loops INSIDE the columns from footing to top floor. One front beam also exposes its reinforcing cage. Every bar must be a thick readable solid rod. Educational cutaway construction maquette, simple robust structural geometry, neutral gray concrete and darker gray steel. Flat surfaces, no roof ornaments, no steps, no text, no people or landscape.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_response": {
+        "task_id": "01a116ac-b735-72d7-8c7e-3ba593cac38c",
+        "status": "PENDING",
+        "message": "3D generation task created successfully. Task ID: 01a116ac-b735-72d7-8c7e-3ba593cac38c",
+        "estimated_time": "2-3 minutes"
+      },
+      "latest_status": {
+        "outcome": "SUCCEEDED",
+        "task_id": "01a116ac-b735-72d7-8c7e-3ba593cac38c",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116ac-b735-72d7-8c7e-3ba593cac38c/output/model.glb?Expires=4944931200&Signature=Suiif59cDHlqNQi4L7iDDysb1mBzX0EUFNenKIX7yH341CPdd~yHhsOoVQpjYuS~RdOCxpAnxxKXr0opaIUpYK0o1D5YbMHoowwL9Wd2QL5Re3R9ArYhBKgHDezgQ0gE-GebiYn5LOmeRMJyoJr~A6fv3invF5kF5jsg0qWl5-OJToPRQkQg2qreimgY1qVrV2rOfiqfDDO4x-pq1rSEXRFxWJ7V~4CW9igjGoRBdFKEGlAToMsH7D1Qsv1n-LMz1xST~yhv1uwdyJmQg59zrVpMg75WMux0KSucfkND0sdagG4z9TfQfd~3aPmO9wckTKaJG4rOLkr72ynvUk5Iqw__&Key-Pair-Id=K1VGYTHIYLM9UM"
+        },
+        "consumed_credits": 20
+      },
+      "download_response": {
+        "download_url": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116ac-b735-72d7-8c7e-3ba593cac38c/output/model.glb?Expires=4944931200&Signature=Suiif59cDHlqNQi4L7iDDysb1mBzX0EUFNenKIX7yH341CPdd~yHhsOoVQpjYuS~RdOCxpAnxxKXr0opaIUpYK0o1D5YbMHoowwL9Wd2QL5Re3R9ArYhBKgHDezgQ0gE-GebiYn5LOmeRMJyoJr~A6fv3invF5kF5jsg0qWl5-OJToPRQkQg2qreimgY1qVrV2rOfiqfDDO4x-pq1rSEXRFxWJ7V~4CW9igjGoRBdFKEGlAToMsH7D1Qsv1n-LMz1xST~yhv1uwdyJmQg59zrVpMg75WMux0KSucfkND0sdagG4z9TfQfd~3aPmO9wckTKaJG4rOLkr72ynvUk5Iqw__&Key-Pair-Id=K1VGYTHIYLM9UM",
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/modern_reinforced_frame_v2.glb",
+        "file_size_bytes": 871128,
+        "format": "glb",
+        "expires_at": "2026-10-08T14:07:48.071Z"
+      }
+    },
+    "roman_lime_clast_solid_v2": {
+      "task_id": "01a116ac-c435-7236-a463-d2ed8874d393",
+      "request": {
+        "prompt": "A SOLID dense block of ancient Roman concrete, a single chunky rectangular stone specimen. One front vertical corner is diagonally sliced off, leaving a FLAT exposed diagonal cut face across the whole solid height. The concrete is solid throughout: absolutely no hollow recess, no cavity, no bowl, no walls around an empty room. The flat section reveals many small pale irregular rounded lime inclusions embedded FLUSH in the dark gray mortar matrix, and a few larger volcanic rock aggregate inclusions. The inclusions are physical solid geometry visible on the surface, not holes. A geological rock cross section teaching maquette, solid filled block, coarse simplified detail, monochrome gray, no lettering, no pedestal, no background.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_response": {
+        "task_id": "01a116ac-c435-7236-a463-d2ed8874d393",
+        "status": "PENDING",
+        "message": "3D generation task created successfully. Task ID: 01a116ac-c435-7236-a463-d2ed8874d393",
+        "estimated_time": "2-3 minutes"
+      },
+      "latest_status": {
+        "outcome": "SUCCEEDED",
+        "task_id": "01a116ac-c435-7236-a463-d2ed8874d393",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116ac-c435-7236-a463-d2ed8874d393/output/model.glb?Expires=4944931200&Signature=FH0pJXqGMee0WxdUSlnAQZRDhufueCWpNyU8NceNuPwFtG5X9pFJnLpaIMQ1VgPRNblmquYalla4p0dpbGRiZY9day9-itoKFVvbXtSuD3nlPsy7q5Zu4k8UQJ69kR4eHEI3rPpj0P7ccfDZfMq7WGXdMfKldXDEQV6FE~ypNICH3ijXANsKfckSI8O1f9vG2sN86uwFoVstJa1CP8znTjCFOOw7egWURZKKgrWVwY84Kj5VtA~vypVzj8gTTWKbV3SKtm6dOvIHmAIjUu1wJd6i4dPRh4JDdErWzCeIE9zLE5~WYVR8PCDpf19047lh7AcEbQnJF5GvxJRGpOGraw__&Key-Pair-Id=K1VGYTHIYLM9UM"
+        },
+        "consumed_credits": 20
+      },
+      "download_response": {
+        "download_url": "https://assets.meshy.ai/c59377b4-71ca-4db5-8bfc-a4acee565df1/tasks/01a116ac-c435-7236-a463-d2ed8874d393/output/model.glb?Expires=4944931200&Signature=FH0pJXqGMee0WxdUSlnAQZRDhufueCWpNyU8NceNuPwFtG5X9pFJnLpaIMQ1VgPRNblmquYalla4p0dpbGRiZY9day9-itoKFVvbXtSuD3nlPsy7q5Zu4k8UQJ69kR4eHEI3rPpj0P7ccfDZfMq7WGXdMfKldXDEQV6FE~ypNICH3ijXANsKfckSI8O1f9vG2sN86uwFoVstJa1CP8znTjCFOOw7egWURZKKgrWVwY84Kj5VtA~vypVzj8gTTWKbV3SKtm6dOvIHmAIjUu1wJd6i4dPRh4JDdErWzCeIE9zLE5~WYVR8PCDpf19047lh7AcEbQnJF5GvxJRGpOGraw__&Key-Pair-Id=K1VGYTHIYLM9UM",
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/roman_lime_clast_solid_v2.glb",
+        "file_size_bytes": 723780,
+        "format": "glb",
+        "expires_at": "2026-10-08T14:07:48.742Z"
+      }
+    }
+  },
+  "balance_before": {
+    "balance": 740
+  },
+  "balance_after_creation": {
+    "balance": 700
+  },
+  "verified_initial_balance": {
+    "balance": 800
+  },
+  "batch_history": [
+    {
+      "models": [
+        "modern_reinforced_cutaway",
+        "roman_lime_clast_cutaway",
+        "roman_marine_breakwater",
+        "modern_reinforced_frame_v2",
+        "roman_lime_clast_solid_v2"
+      ],
+      "balance_recorded_after_creation": {
+        "balance": 700
+      }
+    }
+  ]
+}

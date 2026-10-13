@@ -1,0 +1,338 @@
+{
+  "part_colors": {
+    "kiln_shell": "#D3BE9E",
+    "kiln_foundation": "#9C9B89",
+    "kiln_interior": "#6E6253",
+    "kiln_smoke": "#A7AAA3",
+    "construction_stone": "#D3BE9E",
+    "construction_mortar": "#B5AD97",
+    "construction_brick_facing": "#B58A69",
+    "construction_base": "#B5A68B",
+    "construction_wood": "#8D6C49",
+    "skin": "#C99C78",
+    "linen": "#DED1AF",
+    "worker_cloth": "#B77B60",
+    "worker_dark": "#735A42",
+    "toolwood": "#8D6C49",
+    "toolmetal": "#526873",
+    "roman_stone": "#D3BE9E",
+    "worker_mortar": "#B5AD97",
+    "village_plaster": "#DCCFB8",
+    "village_roof": "#B77B60",
+    "village_stone": "#B5A68B",
+    "village_wood": "#8D6C49",
+    "village_terracotta": "#AC7055",
+    "village_basket": "#A3885E",
+    "village_canopy": "#D9CFB1",
+    "village_linen": "#DED1AF",
+    "village_cloth": "#A66F57",
+    "village_skin": "#C99C78",
+    "village_sandals": "#735A42",
+    "construction_timber": "#8D6C49",
+    "construction_rubble": "#B5AD97",
+    "village_paving": "#BDAF95",
+    "raw_lime": "#EEE4CA"
+  },
+  "materials": {
+    "kiln_shell": {
+      "name": "RC.v14.kiln_shell",
+      "hex": "#D3BE9E",
+      "linear_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ]
+    },
+    "kiln_foundation": {
+      "name": "RC.v14.kiln_foundation",
+      "hex": "#9C9B89",
+      "linear_color": [
+        0.3324515223503113,
+        0.3277781009674072,
+        0.25015828013420105,
+        1.0
+      ]
+    },
+    "kiln_interior": {
+      "name": "RC.v14.kiln_interior",
+      "hex": "#6E6253",
+      "linear_color": [
+        0.15592646598815918,
+        0.12213877588510513,
+        0.08650045841932297,
+        1.0
+      ]
+    },
+    "kiln_smoke": {
+      "name": "RC.v14.kiln_smoke",
+      "hex": "#A7AAA3",
+      "linear_color": [
+        0.38642942905426025,
+        0.4019777774810791,
+        0.366252601146698,
+        1.0
+      ]
+    },
+    "construction_stone": {
+      "name": "RC.v14.construction_stone",
+      "hex": "#D3BE9E",
+      "linear_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ]
+    },
+    "construction_mortar": {
+      "name": "RC.v14.construction_mortar",
+      "hex": "#B5AD97",
+      "linear_color": [
+        0.46207699179649353,
+        0.41788506507873535,
+        0.30946892499923706,
+        1.0
+      ]
+    },
+    "construction_base": {
+      "name": "RC.v14.construction_base",
+      "hex": "#B5A68B",
+      "linear_color": [
+        0.46207699179649353,
+        0.38132601976394653,
+        0.2581828534603119,
+        1.0
+      ]
+    },
+    "construction_brick_facing": {
+      "name": "RC.v14.construction_brick_facing",
+      "hex": "#B58A69",
+      "linear_color": [
+        0.46207699179649353,
+        0.2541520893573761,
+        0.14126329123973846,
+        1.0
+      ]
+    },
+    "linen": {
+      "name": "RC.v14.linen",
+      "hex": "#DED1AF",
+      "linear_color": [
+        0.7304607629776001,
+        0.637596845626831,
+        0.42869049310684204,
+        1.0
+      ]
+    },
+    "skin": {
+      "name": "RC.v14.skin",
+      "hex": "#C99C78",
+      "linear_color": [
+        0.5840784311294556,
+        0.3324515223503113,
+        0.18782077729701996,
+        1.0
+      ]
+    },
+    "toolwood": {
+      "name": "RC.v14.toolwood",
+      "hex": "#8D6C49",
+      "linear_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ]
+    },
+    "worker_dark": {
+      "name": "RC.v14.worker_dark",
+      "hex": "#735A42",
+      "linear_color": [
+        0.17144110798835754,
+        0.10224173218011856,
+        0.05448027700185776,
+        1.0
+      ]
+    },
+    "roman_stone": {
+      "name": "RC.v14.roman_stone",
+      "hex": "#D3BE9E",
+      "linear_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ]
+    },
+    "toolmetal": {
+      "name": "RC.v14.toolmetal",
+      "hex": "#526873",
+      "linear_color": [
+        0.08437620848417282,
+        0.1384316086769104,
+        0.17144110798835754,
+        1.0
+      ]
+    },
+    "worker_cloth": {
+      "name": "RC.v14.worker_cloth",
+      "hex": "#B77B60",
+      "linear_color": [
+        0.47353148460388184,
+        0.19806931912899017,
+        0.11697066575288773,
+        1.0
+      ]
+    },
+    "village_plaster": {
+      "name": "RC.v14.village_plaster",
+      "hex": "#DCCFB8",
+      "linear_color": [
+        0.715693473815918,
+        0.6239603757858276,
+        0.4793201684951782,
+        1.0
+      ]
+    },
+    "village_roof": {
+      "name": "RC.v14.village_roof",
+      "hex": "#B77B60",
+      "linear_color": [
+        0.47353148460388184,
+        0.19806931912899017,
+        0.11697066575288773,
+        1.0
+      ]
+    },
+    "village_stone": {
+      "name": "RC.v14.village_stone",
+      "hex": "#B5A68B",
+      "linear_color": [
+        0.46207699179649353,
+        0.38132601976394653,
+        0.2581828534603119,
+        1.0
+      ]
+    },
+    "village_terracotta": {
+      "name": "RC.v14.village_terracotta",
+      "hex": "#AC7055",
+      "linear_color": [
+        0.4125426113605499,
+        0.16202937066555023,
+        0.09084171056747437,
+        1.0
+      ]
+    },
+    "village_wood": {
+      "name": "RC.v14.village_wood",
+      "hex": "#8D6C49",
+      "linear_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ]
+    },
+    "village_basket": {
+      "name": "RC.v14.village_basket",
+      "hex": "#A3885E",
+      "linear_color": [
+        0.366252601146698,
+        0.2462013214826584,
+        0.1119324266910553,
+        1.0
+      ]
+    },
+    "village_canopy": {
+      "name": "RC.v14.village_canopy",
+      "hex": "#D9CFB1",
+      "linear_color": [
+        0.6938717365264893,
+        0.6239603757858276,
+        0.43965718150138855,
+        1.0
+      ]
+    },
+    "village_linen": {
+      "name": "RC.v14.village_linen",
+      "hex": "#DED1AF",
+      "linear_color": [
+        0.7304607629776001,
+        0.637596845626831,
+        0.42869049310684204,
+        1.0
+      ]
+    },
+    "village_sandals": {
+      "name": "RC.v14.village_sandals",
+      "hex": "#735A42",
+      "linear_color": [
+        0.17144110798835754,
+        0.10224173218011856,
+        0.05448027700185776,
+        1.0
+      ]
+    },
+    "village_skin": {
+      "name": "RC.v14.village_skin",
+      "hex": "#C99C78",
+      "linear_color": [
+        0.5840784311294556,
+        0.3324515223503113,
+        0.18782077729701996,
+        1.0
+      ]
+    },
+    "village_cloth": {
+      "name": "RC.v14.village_cloth",
+      "hex": "#A66F57",
+      "linear_color": [
+        0.38132601976394653,
+        0.15896083414554596,
+        0.09530746936798096,
+        1.0
+      ]
+    },
+    "construction_timber": {
+      "name": "RC.v14.construction_timber",
+      "hex": "#8D6C49",
+      "linear_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ]
+    },
+    "worker_mortar": {
+      "name": "RC.v14.worker_mortar",
+      "hex": "#B5AD97",
+      "linear_color": [
+        0.46207699179649353,
+        0.41788506507873535,
+        0.30946892499923706,
+        1.0
+      ]
+    },
+    "village_paving": {
+      "name": "RC.v14.village_paving",
+      "hex": "#BDAF95",
+      "linear_color": [
+        0.5088813304901123,
+        0.42869049310684204,
+        0.30054378509521484,
+        1.0
+      ]
+    },
+    "raw_lime": {
+      "name": "RC.v14.raw_lime",
+      "hex": "#EEE4CA",
+      "linear_color": [
+        0.8549926280975342,
+        0.7758222222328186,
+        0.5906188488006592,
+        1.0
+      ]
+    }
+  }
+}

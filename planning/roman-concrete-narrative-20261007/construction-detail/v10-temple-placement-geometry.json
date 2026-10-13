@@ -1,0 +1,54 @@
+{
+  "L03_forum_vesta": {
+    "bbox": [
+      75.94707890021832,
+      830.9998760255947,
+      182.0528494518319,
+      971.9998681586148
+    ],
+    "geometrySHA": "f4ace59c259c6d26cad81338d53a2a4bd1ae365c7e8a46a577d790c36de3ff5c",
+    "hide_render": false,
+    "hide_viewport": false,
+    "vertices": 15902,
+    "polygons": 33534
+  },
+  "L03_forum_temple": {
+    "bbox": [
+      86.83397702428483,
+      991.0000970335267,
+      175.1660656425499,
+      1108.000085609487
+    ],
+    "geometrySHA": "f1cc0499d1df4fa1a6286ca1cafbeb7638fa3c2acfb178d161f5d8ea375b12bf",
+    "hide_render": false,
+    "hide_viewport": false,
+    "vertices": 5651,
+    "polygons": 7939
+  },
+  "L02_tiber": {
+    "bbox": [
+      45.586358837714826,
+      318.21228228298475,
+      345.29189676266907,
+      1393.8494374324175
+    ],
+    "geometrySHA": "4d77a0c0dd4a6490c7df9b41dbe1be453b074cdd32755243b62e9458b2cb8ed7",
+    "hide_render": false,
+    "hide_viewport": false,
+    "vertices": 4882,
+    "polygons": 8197
+  },
+  "COL_ruined": {
+    "bbox": [
+      353.2058988586742,
+      568.2912542922313,
+      835.3687532147561,
+      996.9814397532066
+    ],
+    "geometrySHA": "a93e2e10a7114fa16fad34ab426aaab3b9293a6595c1decf58ea72a5ecb245c2",
+    "hide_render": false,
+    "hide_viewport": false,
+    "vertices": 99207,
+    "polygons": 197806
+  }
+}

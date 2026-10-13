@@ -1,0 +1,16 @@
+[
+  {
+    "nodeId": "20:9",
+    "asset": "R2",
+    "http_status": 200,
+    "imageHash": "573b56cb7acdef756e47c98a18598a04f4187ccb",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "20:13",
+    "asset": "R3",
+    "http_status": 200,
+    "imageHash": "096cb4e356086fd974d41618d5bb15adc7ad0894",
+    "scaleMode": "FIT"
+  }
+]

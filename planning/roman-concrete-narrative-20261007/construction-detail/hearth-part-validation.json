@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "source": "/Users/um-yunsang/Documents/\ub85c\ub9c8\ucf58\ud06c\ub9ac\ud2b8_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v9.blend",
+  "sourceSHA": "8125d6cf8ec2da6cf09125472aa603afd1debcd88910ff8ed0893b174a2288fe",
+  "sourceSHAAfter": "8125d6cf8ec2da6cf09125472aa603afd1debcd88910ff8ed0893b174a2288fe",
+  "geometrySHA": "377d9bd7686a87065a2e91d6479a1b010557353a966754253e13db28960b086c",
+  "helperSHA": "fa33ffd0d759a847ae42c545cccf4f9fa7c8d4a78f8f3dffc2b572503e22e7df",
+  "counts": {
+    "kiln_shell": 3671,
+    "kiln_foundation": 1278,
+    "kiln_interior": 930,
+    "kiln_smoke": 615
+  },
+  "palette": {
+    "kiln_shell": "#D3BE9E",
+    "kiln_foundation": "#9C9B89",
+    "kiln_interior": "#6E6253",
+    "kiln_smoke": "#A7AAA3"
+  },
+  "helperReadMutations": 0,
+  "indicesUniqueInRange": true
+}

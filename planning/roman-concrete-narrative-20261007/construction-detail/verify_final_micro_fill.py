@@ -1,0 +1,8 @@
+import bpy,runpy,json,hashlib
+from pathlib import Path
+import numpy as np
+P=Path(__file__).parent;R=Path('/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007');H=runpy.run_path(str(R/'scripts/integrate_assets.py'),run_name='helpers')
+crack=bpy.data.objects['NB_detail4_crack'];fill=bpy.data.objects['NB_detail4_crystal'];geom_match=H['mesh_fingerprint'](crack.data)==H['mesh_fingerprint'](fill.data)
+crackbox=H['screen_bbox'](crack);fillbox=H['screen_bbox'](fill);delta=np.array(fill.matrix_world.translation)-np.array(crack.matrix_world.translation);camera=np.array(bpy.context.scene.camera.matrix_world)[:3,2];camera/=np.linalg.norm(camera);along=float(delta@camera);perp=float(np.linalg.norm(delta-along*camera));roles=[m.get('semantic_role') if m else None for m in fill.data.materials]
+report={'pass':geom_match and max(abs(x-y) for x,y in zip(crackbox,fillbox))<.25 and along>0 and roles==['base_lime_calcium_crystal'],'source':bpy.data.filepath,'sourceSHA':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),'crackFillGeometrySHAExact':geom_match,'crackBBox':crackbox,'fillBBox':fillbox,'worldOffset':delta.tolist(),'opticalAxisDepthOffset':along,'perpendicularToOpticalAxisOffset':perp,'fillMaterialRoles':roles,'method':'Fresh current v10 read: exact crack/fill mesh fingerprint, matching projected bounds, positive depth toward camera, and lime-calcium fill material. The camera-point ray offset is applied before group fitting and is not required to be parallel to the camera optical axis; no save/render/UI/scene writes'}
+(P/'v10-final-micro-fill-validation.json').write_text(json.dumps(report,indent=2)+'\n');print('FINAL_MICRO_FILL '+json.dumps(report))

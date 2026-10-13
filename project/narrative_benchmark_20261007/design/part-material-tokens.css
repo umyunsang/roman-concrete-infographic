@@ -1,0 +1,26 @@
+:root {
+  --rc-material-concrete: #B9BEC0;
+  --rc-material-steel: #344E5A;
+  --rc-material-labstone: #B9C7C5;
+  --rc-material-roof: #527882;
+  --rc-material-glass: #3F9DAA;
+  --rc-material-base: #9FACA6;
+  --rc-material-skin: #C99C78;
+  --rc-material-linen: #DED1AF;
+  --rc-material-cloth: #9C5C43;
+  --rc-material-toolwood: #8D6C49;
+  --rc-material-toolmetal: #526873;
+  --rc-material-basin: #B9976F;
+  --rc-material-mixture: #8B6950;
+  --rc-material-raw-lime: #FFF4DD;
+  --rc-material-raw-ash: #A4876D;
+  --rc-material-roman-stone: #D3BE9E;
+  --rc-material-colosseum-wall: #CDA477;
+  --rc-material-colosseum-interior: #B89D78;
+  --rc-material-arena-earth: #B5A07B;
+  --rc-material-roman-roof: #A88565;
+  --rc-material-roman-plinth: #B5A68B;
+  --rc-material-foliage: #75865C;
+  --rc-material-foliage-light: #8D9A70;
+  --rc-material-trunk: #8D6C49;
+}

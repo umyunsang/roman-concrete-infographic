@@ -1,0 +1,542 @@
+{
+  "part_colors": {
+    "concrete": "#B9BEC0",
+    "steel": "#344E5A",
+    "labstone": "#B9C7C5",
+    "roof": "#527882",
+    "glass": "#3F9DAA",
+    "base": "#9FACA6",
+    "skin": "#C99C78",
+    "linen": "#DED1AF",
+    "cloth": "#9C5C43",
+    "toolwood": "#8D6C49",
+    "toolmetal": "#526873",
+    "basin": "#B9976F",
+    "mixture": "#8B6950",
+    "raw_lime": "#FFF4DD",
+    "raw_ash": "#A4876D",
+    "roman_stone": "#D3BE9E",
+    "colosseum_wall": "#CDA477",
+    "colosseum_interior": "#B89D78",
+    "arena_earth": "#B5A07B",
+    "roman_roof": "#A88565",
+    "roman_plinth": "#B5A68B",
+    "foliage": "#75865C",
+    "foliage_light": "#8D9A70",
+    "trunk": "#8D6C49"
+  },
+  "all_materials": {
+    "base_road_foundation": {
+      "name": "RC.v12.base_road_foundation",
+      "hex": "#C0AF90",
+      "linear_color": [
+        0.5271151065826416,
+        0.42869049310684204,
+        0.2788942754268646,
+        1.0
+      ]
+    },
+    "roman_stone": {
+      "name": "RC.v12.roman_stone",
+      "hex": "#D3BE9E",
+      "linear_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ]
+    },
+    "mixture": {
+      "name": "RC.v12.mixture",
+      "hex": "#8B6950",
+      "linear_color": [
+        0.2581828534603119,
+        0.14126329123973846,
+        0.0802198201417923,
+        1.0
+      ]
+    },
+    "toolwood": {
+      "name": "RC.v12.toolwood",
+      "hex": "#8D6C49",
+      "linear_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ]
+    },
+    "basin": {
+      "name": "RC.v12.basin",
+      "hex": "#B9976F",
+      "linear_color": [
+        0.48514994978904724,
+        0.30946892499923706,
+        0.15896083414554596,
+        1.0
+      ]
+    },
+    "skin": {
+      "name": "RC.v12.skin",
+      "hex": "#C99C78",
+      "linear_color": [
+        0.5840784311294556,
+        0.3324515223503113,
+        0.18782077729701996,
+        1.0
+      ]
+    },
+    "cloth": {
+      "name": "RC.v12.cloth",
+      "hex": "#9C5C43",
+      "linear_color": [
+        0.3324515223503113,
+        0.10702310502529144,
+        0.05612849071621895,
+        1.0
+      ]
+    },
+    "linen": {
+      "name": "RC.v12.linen",
+      "hex": "#DED1AF",
+      "linear_color": [
+        0.7304607629776001,
+        0.637596845626831,
+        0.42869049310684204,
+        1.0
+      ]
+    },
+    "toolmetal": {
+      "name": "RC.v12.toolmetal",
+      "hex": "#526873",
+      "linear_color": [
+        0.08437620848417282,
+        0.1384316086769104,
+        0.17144110798835754,
+        1.0
+      ]
+    },
+    "colosseum_wall": {
+      "name": "RC.v12.colosseum_wall",
+      "hex": "#CDA477",
+      "linear_color": [
+        0.6104955673217773,
+        0.37123769521713257,
+        0.18447498977184296,
+        1.0
+      ]
+    },
+    "colosseum_interior": {
+      "name": "RC.v12.colosseum_interior",
+      "hex": "#B89D78",
+      "linear_color": [
+        0.4793201684951782,
+        0.33716362714767456,
+        0.18782077729701996,
+        1.0
+      ]
+    },
+    "arena_earth": {
+      "name": "RC.v12.arena_earth",
+      "hex": "#B5A07B",
+      "linear_color": [
+        0.46207699179649353,
+        0.35153260827064514,
+        0.19806931912899017,
+        1.0
+      ]
+    },
+    "base_lime_specimen_matrix": {
+      "name": "RC.v12.base_lime_specimen_matrix",
+      "hex": "#97614B",
+      "linear_color": [
+        0.30946892499923706,
+        0.11953842639923096,
+        0.07036009430885315,
+        1.0
+      ]
+    },
+    "base_lime_calcium_crystal": {
+      "name": "RC.v12.base_lime_calcium_crystal",
+      "hex": "#FFF4DD",
+      "linear_color": [
+        1.0,
+        0.9046611785888672,
+        0.7230551242828369,
+        1.0
+      ]
+    },
+    "base_water_process": {
+      "name": "RC.v12.base_water_process",
+      "hex": "#3F9DAA",
+      "linear_color": [
+        0.04970656707882881,
+        0.33716362714767456,
+        0.4019777774810791,
+        1.0
+      ]
+    },
+    "base_modern_concrete": {
+      "name": "RC.v12.base_modern_concrete",
+      "hex": "#657B88",
+      "linear_color": [
+        0.13013647496700287,
+        0.19806931912899017,
+        0.2462013214826584,
+        1.0
+      ]
+    },
+    "base_hot_mixing": {
+      "name": "RC.v12.base_hot_mixing",
+      "hex": "#D15B36",
+      "linear_color": [
+        0.637596845626831,
+        0.10461648553609848,
+        0.03688944876194,
+        1.0
+      ]
+    },
+    "base_roman_support_stone": {
+      "name": "RC.v12.base_roman_support_stone",
+      "hex": "#D3BE9E",
+      "linear_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ]
+    },
+    "base_pozzolan": {
+      "name": "RC.v12.base_pozzolan",
+      "hex": "#A4876D",
+      "linear_color": [
+        0.37123769521713257,
+        0.24228112399578094,
+        0.15292614698410034,
+        1.0
+      ]
+    },
+    "base_concrete_dense": {
+      "name": "RC.v12.base_concrete_dense",
+      "hex": "#6B6254",
+      "linear_color": [
+        0.14702726900577545,
+        0.12213877588510513,
+        0.08865558356046677,
+        1.0
+      ]
+    },
+    "base_stone_light": {
+      "name": "RC.v12.base_stone_light",
+      "hex": "#EBDDCA",
+      "linear_color": [
+        0.8307698965072632,
+        0.7230551242828369,
+        0.5906188488006592,
+        1.0
+      ]
+    },
+    "base_stone_middle": {
+      "name": "RC.v12.base_stone_middle",
+      "hex": "#B7A584",
+      "linear_color": [
+        0.47353148460388184,
+        0.3762621283531189,
+        0.23074005544185638,
+        1.0
+      ]
+    },
+    "base_type_secondary_on_light_ground": {
+      "name": "RC.v12.base_type_secondary_on_light_ground",
+      "hex": "#615A4E",
+      "linear_color": [
+        0.11953842639923096,
+        0.10224173218011856,
+        0.07618538290262222,
+        1.0
+      ]
+    },
+    "base_field": {
+      "name": "RC.v12.base_field",
+      "hex": "#C8BBA0",
+      "linear_color": [
+        0.577580451965332,
+        0.4969329833984375,
+        0.35153260827064514,
+        1.0
+      ]
+    },
+    "base_laboratory": {
+      "name": "RC.v12.base_laboratory",
+      "hex": "#527882",
+      "linear_color": [
+        0.08437620848417282,
+        0.18782077729701996,
+        0.22322796285152435,
+        1.0
+      ]
+    },
+    "base_colosseum": {
+      "name": "RC.v12.base_colosseum",
+      "hex": "#CDA477",
+      "linear_color": [
+        0.6104955673217773,
+        0.37123769521713257,
+        0.18447498977184296,
+        1.0
+      ]
+    },
+    "base_steel_if_separate": {
+      "name": "RC.v12.base_steel_if_separate",
+      "hex": "#344E5A",
+      "linear_color": [
+        0.03433980792760849,
+        0.07618538290262222,
+        0.10224173218011856,
+        1.0
+      ]
+    },
+    "base_header_trim": {
+      "name": "RC.v12.base_header_trim",
+      "hex": "#D6C09D",
+      "linear_color": [
+        0.672443151473999,
+        0.5271151065826416,
+        0.33716362714767456,
+        1.0
+      ]
+    },
+    "base_header_surface": {
+      "name": "RC.v12.base_header_surface",
+      "hex": "#EADFC8",
+      "linear_color": [
+        0.8227857351303101,
+        0.7379103899002075,
+        0.577580451965332,
+        1.0
+      ]
+    },
+    "base_badge_1_5": {
+      "name": "RC.v12.base_badge_1_5",
+      "hex": "#365864",
+      "linear_color": [
+        0.03688944876194,
+        0.09758734703063965,
+        0.12743768095970154,
+        1.0
+      ]
+    },
+    "base_mountain_volcano": {
+      "name": "RC.v12.base_mountain_volcano",
+      "hex": "#CDC7AE",
+      "linear_color": [
+        0.6104955673217773,
+        0.5711248517036438,
+        0.423267662525177,
+        1.0
+      ]
+    },
+    "base_sea_river": {
+      "name": "RC.v12.base_sea_river",
+      "hex": "#82B9BC",
+      "linear_color": [
+        0.22322796285152435,
+        0.48514994978904724,
+        0.5028864741325378,
+        1.0
+      ]
+    },
+    "roman_plinth": {
+      "name": "RC.v12.roman_plinth",
+      "hex": "#B5A68B",
+      "linear_color": [
+        0.46207699179649353,
+        0.38132601976394653,
+        0.2581828534603119,
+        1.0
+      ]
+    },
+    "roman_roof": {
+      "name": "RC.v12.roman_roof",
+      "hex": "#A88565",
+      "linear_color": [
+        0.3915724754333496,
+        0.2345505803823471,
+        0.13013647496700287,
+        1.0
+      ]
+    },
+    "raw_lime": {
+      "name": "RC.v12.raw_lime",
+      "hex": "#FFF4DD",
+      "linear_color": [
+        1.0,
+        0.9046611785888672,
+        0.7230551242828369,
+        1.0
+      ]
+    },
+    "base_type_heading": {
+      "name": "RC.v12.base_type_heading",
+      "hex": "#2E2A22",
+      "linear_color": [
+        0.027320891618728638,
+        0.023153366521000862,
+        0.01599629409611225,
+        1.0
+      ]
+    },
+    "concrete": {
+      "name": "RC.v12.concrete",
+      "hex": "#B9BEC0",
+      "linear_color": [
+        0.48514994978904724,
+        0.5149176716804504,
+        0.5271151065826416,
+        1.0
+      ]
+    },
+    "steel": {
+      "name": "RC.v12.steel",
+      "hex": "#344E5A",
+      "linear_color": [
+        0.03433980792760849,
+        0.07618538290262222,
+        0.10224173218011856,
+        1.0
+      ]
+    },
+    "base_badge_2": {
+      "name": "RC.v12.base_badge_2",
+      "hex": "#B44327",
+      "linear_color": [
+        0.4564110338687897,
+        0.05612849071621895,
+        0.020288562402129173,
+        1.0
+      ]
+    },
+    "base_badge_3": {
+      "name": "RC.v12.base_badge_3",
+      "hex": "#8C5B2F",
+      "linear_color": [
+        0.2622506618499756,
+        0.10461648553609848,
+        0.028426039963960648,
+        1.0
+      ]
+    },
+    "base_badge_4": {
+      "name": "RC.v12.base_badge_4",
+      "hex": "#206D74",
+      "linear_color": [
+        0.014443843625485897,
+        0.15292614698410034,
+        0.17464740574359894,
+        1.0
+      ]
+    },
+    "labstone": {
+      "name": "RC.v12.labstone",
+      "hex": "#B9C7C5",
+      "linear_color": [
+        0.48514994978904724,
+        0.5711248517036438,
+        0.5583403706550598,
+        1.0
+      ]
+    },
+    "base": {
+      "name": "RC.v12.base",
+      "hex": "#9FACA6",
+      "linear_color": [
+        0.34670406579971313,
+        0.4125426113605499,
+        0.38132601976394653,
+        1.0
+      ]
+    },
+    "roof": {
+      "name": "RC.v12.roof",
+      "hex": "#527882",
+      "linear_color": [
+        0.08437620848417282,
+        0.18782077729701996,
+        0.22322796285152435,
+        1.0
+      ]
+    },
+    "glass": {
+      "name": "RC.v12.glass",
+      "hex": "#3F9DAA",
+      "linear_color": [
+        0.04970656707882881,
+        0.33716362714767456,
+        0.4019777774810791,
+        1.0
+      ]
+    },
+    "base_line": {
+      "name": "RC.v12.base_line",
+      "hex": "#6C7465",
+      "linear_color": [
+        0.14995978772640228,
+        0.17464740574359894,
+        0.13013647496700287,
+        1.0
+      ]
+    },
+    "foliage": {
+      "name": "RC.v12.foliage",
+      "hex": "#75865C",
+      "linear_color": [
+        0.177888423204422,
+        0.23839756846427917,
+        0.10702310502529144,
+        1.0
+      ]
+    },
+    "base_terrain": {
+      "name": "RC.v12.base_terrain",
+      "hex": "#EDE1CB",
+      "linear_color": [
+        0.8468732237815857,
+        0.7529422044754028,
+        0.5972017645835876,
+        1.0
+      ]
+    },
+    "trunk": {
+      "name": "RC.v12.trunk",
+      "hex": "#8D6C49",
+      "linear_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ]
+    },
+    "foliage_light": {
+      "name": "RC.v12.foliage_light",
+      "hex": "#8D9A70",
+      "linear_color": [
+        0.26635560393333435,
+        0.32314321398735046,
+        0.16202937066555023,
+        1.0
+      ]
+    },
+    "base_water_wave": {
+      "name": "RC.v12.base_water_wave",
+      "hex": "#D2E8E1",
+      "linear_color": [
+        0.6444796919822693,
+        0.8069522380828857,
+        0.7529422044754028,
+        1.0
+      ]
+    }
+  },
+  "render_mode": "Workbench MATERIAL",
+  "preserved": "current v7 geometry/layout + 95 Figma texts"
+}

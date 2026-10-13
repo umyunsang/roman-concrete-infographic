@@ -1,0 +1,9914 @@
+{
+  "source": "/Users/um-yunsang/Documents/로마콘크리트_3D/roman_concrete_map.blend",
+  "blender_version": "5.2.2 LTS",
+  "scene": "Scene",
+  "render": {
+    "engine": "BLENDER_WORKBENCH",
+    "resolution_x": 4962,
+    "resolution_y": 7016,
+    "resolution_percentage": 48,
+    "filepath": "/Users/um-yunsang/Documents/로마콘크리트_3D/renders/_pass_shapes.png",
+    "image_format": "PNG",
+    "transparent": false
+  },
+  "camera": {
+    "name": "CAM_iso",
+    "type": "PERSP",
+    "lens": 65.0,
+    "ortho_scale": 168.39999389648438,
+    "location": [
+      322.51641845703125,
+      -322.51641845703125,
+      263.33233642578125
+    ],
+    "rotation_euler": [
+      1.5707963705062866,
+      0.0,
+      0.7853981852531433
+    ]
+  },
+  "collections": [
+    {
+      "name": "20_LANDMARK",
+      "objects": 1,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "30_TERRAIN",
+      "objects": 4,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "35_FIELDS_ROADS",
+      "objects": 10,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "40_REGION",
+      "objects": 22,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "45_CORE_SCENES",
+      "objects": 5,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "50_DETAIL_MODEL",
+      "objects": 71,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "60_TREES",
+      "objects": 21,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "70_LABELS_TEST",
+      "objects": 57,
+      "hide_render": true,
+      "hide_viewport": true
+    },
+    {
+      "name": "80_SHAPES",
+      "objects": 57,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "81_NOSHADOW",
+      "objects": 10,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "85_HEADER",
+      "objects": 42,
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "Collection",
+      "objects": 1,
+      "hide_render": false,
+      "hide_viewport": false
+    }
+  ],
+  "object_counts": {
+    "MESH": 241,
+    "CAMERA": 1,
+    "EMPTY": 12,
+    "FONT": 47,
+    "LIGHT": 1
+  },
+  "material_count": 0,
+  "materials": [],
+  "images": [
+    {
+      "name": "REF_sketch_final",
+      "filepath": "//ref/sketch_final_2x.png",
+      "packed": false,
+      "source": "FILE"
+    },
+    {
+      "name": "Render Result",
+      "filepath": "",
+      "packed": false,
+      "source": "VIEWER"
+    },
+    {
+      "name": "Viewer Node",
+      "filepath": "",
+      "packed": false,
+      "source": "VIEWER"
+    }
+  ],
+  "texts": [
+    "anchors.py",
+    "asset_utils.py",
+    "look.py",
+    "proxies.py"
+  ],
+  "cameras": [
+    "CAM_iso"
+  ],
+  "visible_mesh_count": 241,
+  "visible_mesh_triangles": 1382133,
+  "inventory": [
+    {
+      "name": "B_pons1",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        3.3935317993164062,
+        10.570145606994629,
+        1.544032096862793
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 162,
+      "triangles": 304,
+      "materials": [],
+      "screen_bbox_pt": [
+        227.76,
+        656.34,
+        319.05,
+        711.42
+      ]
+    },
+    {
+      "name": "B_pons1_parapet0",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.4648094177246094,
+        8.064475059509277,
+        0.31999993324279785
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        236.71,
+        653.66,
+        293.19,
+        687.16
+      ]
+    },
+    {
+      "name": "B_pons1_parapet1",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.4648094177246094,
+        8.064475059509277,
+        0.31999993324279785
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        253.84,
+        662.74,
+        310.33,
+        696.47
+      ]
+    },
+    {
+      "name": "B_pons2",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        11.6778564453125,
+        4.43951416015625,
+        1.6977648735046387
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 162,
+      "triangles": 304,
+      "materials": [],
+      "screen_bbox_pt": [
+        257.12,
+        946.87,
+        368.4,
+        1015.06
+      ]
+    },
+    {
+      "name": "B_pons2_parapet0",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        8.932536125183105,
+        1.3144416809082031,
+        0.3199999928474426
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        267.15,
+        957.23,
+        339.71,
+        996.56
+      ]
+    },
+    {
+      "name": "B_pons2_parapet1",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        8.932536125183105,
+        1.3144416809082031,
+        0.3199999928474426
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        285.68,
+        943.98,
+        358.12,
+        982.94
+      ]
+    },
+    {
+      "name": "C1_pozzolana_quarry",
+      "type": "MESH",
+      "collections": [
+        "45_CORE_SCENES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -43.24957275390625,
+        68.38803100585938,
+        0.0
+      ],
+      "dimensions": [
+        11.64792251586914,
+        12.022435188293457,
+        5.925559997558594
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 40966,
+      "triangles": 15732,
+      "materials": [],
+      "screen_bbox_pt": [
+        695.24,
+        384.01,
+        816.79,
+        478.01
+      ]
+    },
+    {
+      "name": "C2_hot_mixing",
+      "type": "MESH",
+      "collections": [
+        "45_CORE_SCENES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -21.730987548828125,
+        -40.58978271484375,
+        0.0
+      ],
+      "dimensions": [
+        9.360321044921875,
+        9.35241985321045,
+        4.900764465332031
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 40541,
+      "triangles": 15801,
+      "materials": [],
+      "screen_bbox_pt": [
+        93.51,
+        852.0,
+        194.41,
+        950.0
+      ]
+    },
+    {
+      "name": "C3_arch_building",
+      "type": "MESH",
+      "collections": [
+        "45_CORE_SCENES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        35.294342041015625,
+        -46.7235107421875,
+        0.0
+      ],
+      "dimensions": [
+        9.089374542236328,
+        5.432063102722168,
+        6.849364757537842
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 36591,
+      "triangles": 14907,
+      "materials": [],
+      "screen_bbox_pt": [
+        450.82,
+        1127.99,
+        555.23,
+        1245.99
+      ]
+    },
+    {
+      "name": "C4_crack_repair",
+      "type": "MESH",
+      "collections": [
+        "45_CORE_SCENES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        47.44158935546875,
+        -31.119049072265625,
+        0.0
+      ],
+      "dimensions": [
+        7.34356689453125,
+        5.7200822830200195,
+        5.25130558013916
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 40688,
+      "triangles": 15760,
+      "materials": [],
+      "screen_bbox_pt": [
+        684.66,
+        1130.0,
+        769.33,
+        1228.0
+      ]
+    },
+    {
+      "name": "C5_researchers",
+      "type": "MESH",
+      "collections": [
+        "45_CORE_SCENES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        27.71136474609375,
+        40.31494140625,
+        0.0
+      ],
+      "dimensions": [
+        10.006723403930664,
+        7.4463043212890625,
+        6.7427659034729
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 41601,
+      "triangles": 15813,
+      "materials": [],
+      "screen_bbox_pt": [
+        1015.99,
+        708.01,
+        1115.99,
+        812.01
+      ]
+    },
+    {
+      "name": "CAM_iso",
+      "type": "CAMERA",
+      "collections": [
+        "Collection"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        322.51641845703125,
+        -322.51641845703125,
+        263.33233642578125
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "COL_ruined",
+      "type": "MESH",
+      "collections": [
+        "20_LANDMARK"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -1.2141854763031006,
+        0.7515208721160889,
+        0.0
+      ],
+      "dimensions": [
+        56.533164978027344,
+        45.328125,
+        18.674686431884766
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 99207,
+      "triangles": 197806,
+      "materials": [],
+      "screen_bbox_pt": [
+        353.21,
+        568.29,
+        835.37,
+        996.98
+      ]
+    },
+    {
+      "name": "D1_concrete",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.7699999809265137
+      ],
+      "dimensions": [
+        4.031411170959473,
+        4.031411170959473,
+        4.031411170959473
+      ],
+      "color": [
+        0.550000011920929,
+        0.550000011920929,
+        0.550000011920929,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        93.99,
+        338.84,
+        140.06,
+        392.73
+      ]
+    },
+    {
+      "name": "D1_crystal00",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.31520015001296997,
+        -0.8108341693878174,
+        1.2404489517211914
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010860204696655,
+        0.9508717060089111
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        92.09,
+        355.64,
+        99.65,
+        358.86
+      ]
+    },
+    {
+      "name": "D1_crystal01",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.047518182545900345,
+        -0.2802882492542267,
+        1.5331494808197021
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        0.9248852729797363
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        107.99,
+        344.09,
+        112.3,
+        352.49
+      ]
+    },
+    {
+      "name": "D1_crystal02",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.11795306205749512,
+        -0.7915575504302979,
+        1.112966775894165
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010860204696655,
+        0.8585053086280823
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        95.82,
+        360.74,
+        102.97,
+        363.55
+      ]
+    },
+    {
+      "name": "D1_crystal03",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.8626816272735596,
+        0.15125307440757751,
+        1.2097409963607788
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        1.2859954833984375
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        130.0,
+        358.32,
+        137.33,
+        361.44
+      ]
+    },
+    {
+      "name": "D1_crystal04",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.18086276948451996,
+        -0.80647873878479,
+        1.3993571996688843
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010860204696655,
+        1.1618385314941406
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        95.16,
+        353.19,
+        101.54,
+        357.59
+      ]
+    },
+    {
+      "name": "D1_crystal05",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.560462236404419,
+        0.2132336050271988,
+        1.6178334951400757
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.3101085424423218,
+        1.25994873046875
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        111.05,
+        332.0,
+        114.39,
+        343.2
+      ]
+    },
+    {
+      "name": "D1_crystal06",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.06351069360971451,
+        -0.7538048028945923,
+        0.976399838924408
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        0.8178898692131042
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        99.67,
+        366.08,
+        106.52,
+        369.8
+      ]
+    },
+    {
+      "name": "D1_crystal07",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.38908830285072327,
+        0.15677528083324432,
+        1.569670557975769
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        0.9480471014976501
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        125.19,
+        343.54,
+        127.6,
+        351.44
+      ]
+    },
+    {
+      "name": "D1_crystal08",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.4498431980609894,
+        -0.8094721436500549,
+        0.8499773740768433
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010860204696655,
+        0.9797470569610596
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        105.44,
+        372.59,
+        111.56,
+        375.23
+      ]
+    },
+    {
+      "name": "D1_crystal09",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.3667633831501007,
+        -0.7870911359786987,
+        1.2166846990585327
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        0.8530307412147522
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        92.92,
+        356.45,
+        98.49,
+        359.04
+      ]
+    },
+    {
+      "name": "D1_crystal10",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.8312143087387085,
+        -0.07493039220571518,
+        1.177227258682251
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        1.1454544067382812
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        124.68,
+        362.02,
+        132.69,
+        364.67
+      ]
+    },
+    {
+      "name": "D1_crystal11",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.8366328477859497,
+        0.3175708055496216,
+        1.0177230834960938
+      ],
+      "dimensions": [
+        0.2685619592666626,
+        0.31010857224464417,
+        1.2099825143814087
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        132.5,
+        359.59,
+        140.81,
+        366.96
+      ]
+    },
+    {
+      "name": "D1_crystal12",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.826068639755249,
+        0.4606963098049164,
+        1.0499162673950195
+      ],
+      "dimensions": [
+        0.2685619592666626,
+        0.31010857224464417,
+        1.1703704595565796
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        136.78,
+        356.85,
+        141.58,
+        365.52
+      ]
+    },
+    {
+      "name": "D1_crystal13",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.3649757504463196,
+        -0.5249959826469421,
+        1.5358439683914185
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        0.8022680282592773
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        111.16,
+        351.16,
+        113.57,
+        356.99
+      ]
+    },
+    {
+      "name": "D1_crystal14",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.37386080622673035,
+        -0.8448694944381714,
+        0.7677348852157593
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.3101085126399994,
+        1.2090885639190674
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        101.94,
+        372.13,
+        110.95,
+        379.31
+      ]
+    },
+    {
+      "name": "D1_crystal15",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.5609949827194214,
+        0.2440715879201889,
+        1.5930949449539185
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010860204696655,
+        1.1200867891311646
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        128.77,
+        342.98,
+        132.31,
+        352.23
+      ]
+    },
+    {
+      "name": "D1_crystal16",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.1268922984600067,
+        -0.8220131397247314,
+        0.9743857979774475
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        1.0972431898117065
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        98.1,
+        366.46,
+        107.32,
+        369.47
+      ]
+    },
+    {
+      "name": "D1_crystal17",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.008407996967434883,
+        0.01344938576221466,
+        1.5281188488006592
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        0.7600199580192566
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        115.52,
+        343.24,
+        119.71,
+        349.61
+      ]
+    },
+    {
+      "name": "D1_crystal18",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.025048531591892242,
+        -0.815768837928772,
+        1.2593196630477905
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        1.0095584392547607
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        97.55,
+        358.87,
+        105.17,
+        361.63
+      ]
+    },
+    {
+      "name": "D1_crystal19",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.8580520153045654,
+        -0.31626832485198975,
+        1.2277828454971313
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        1.2462981939315796
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        120.28,
+        361.83,
+        128.19,
+        364.97
+      ]
+    },
+    {
+      "name": "D1_crystal20",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.11418572068214417,
+        -0.23814088106155396,
+        1.5591762065887451
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        1.0213409662246704
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        109.64,
+        343.79,
+        112.19,
+        350.13
+      ]
+    },
+    {
+      "name": "D1_crystal21",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.805873453617096,
+        0.3638353943824768,
+        1.1683263778686523
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010860204696655,
+        1.204533338546753
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        135.86,
+        357.79,
+        138.21,
+        360.59
+      ]
+    },
+    {
+      "name": "D1_crystal22",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.34622448682785034,
+        -0.7942970991134644,
+        1.2947670221328735
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010860204696655,
+        0.8947976231575012
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        103.87,
+        360.8,
+        110.27,
+        363.51
+      ]
+    },
+    {
+      "name": "D1_crystal23",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.2557560205459595,
+        -0.7959209680557251,
+        1.191878318786621
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        1.0434635877609253
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        94.1,
+        357.95,
+        100.55,
+        362.07
+      ]
+    },
+    {
+      "name": "D1_crystal24",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.088770791888237,
+        -0.7641659379005432,
+        1.0517754554748535
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        0.7870295643806458
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        97.6,
+        362.95,
+        103.58,
+        366.63
+      ]
+    },
+    {
+      "name": "D1_crystal25",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.029229747131466866,
+        -0.12719684839248657,
+        1.546871542930603
+      ],
+      "dimensions": [
+        0.2685618996620178,
+        0.31010857224464417,
+        0.8045573830604553
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [],
+      "screen_bbox_pt": [
+        113.94,
+        344.02,
+        116.35,
+        350.82
+      ]
+    },
+    {
+      "name": "D1_material",
+      "type": "EMPTY",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -108.58798217773438,
+        26.72314453125,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "D1_seawater",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.3700000047683716
+      ],
+      "dimensions": [
+        6.698345184326172,
+        6.698345184326172,
+        1.5505428314208984
+      ],
+      "color": [
+        0.6200000047683716,
+        0.6200000047683716,
+        0.6200000047683716,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        77.88,
+        351.11,
+        156.18,
+        401.14
+      ]
+    },
+    {
+      "name": "D1_tank_floor",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.05999999865889549
+      ],
+      "dimensions": [
+        7.442605972290039,
+        7.442605972290039,
+        0.37213027477264404
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        73.85,
+        362.29,
+        160.21,
+        405.83
+      ]
+    },
+    {
+      "name": "D1_tank_wall0",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        1.1399999856948853,
+        0.3499999940395355
+      ],
+      "dimensions": [
+        7.442605972290039,
+        0.37213027477264404,
+        2.170759916305542
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        119.38,
+        347.4,
+        160.31,
+        386.09
+      ]
+    },
+    {
+      "name": "D1_tank_wall1",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        -1.1399999856948853,
+        0.3499999940395355
+      ],
+      "dimensions": [
+        7.442605972290039,
+        0.37213027477264404,
+        2.170759916305542
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        73.74,
+        366.77,
+        114.63,
+        406.0
+      ]
+    },
+    {
+      "name": "D1_tank_wall2",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        1.1399999856948853,
+        0.0,
+        0.3499999940395355
+      ],
+      "dimensions": [
+        0.37213027477264404,
+        7.442605972290039,
+        2.170759916305542
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        110.67,
+        366.77,
+        160.31,
+        406.0
+      ]
+    },
+    {
+      "name": "D1_tank_wall3",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -1.1399999856948853,
+        0.0,
+        0.3499999940395355
+      ],
+      "dimensions": [
+        0.37213027477264404,
+        7.442605972290039,
+        2.170759916305542
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        73.74,
+        347.4,
+        123.27,
+        386.09
+      ]
+    },
+    {
+      "name": "D2_cube",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.75
+      ],
+      "dimensions": [
+        4.036753177642822,
+        4.036753177642822,
+        4.036753177642822
+      ],
+      "color": [
+        0.33000001311302185,
+        0.33000001311302185,
+        0.33000001311302185,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        70.73,
+        954.11,
+        130.36,
+        1031.99
+      ]
+    },
+    {
+      "name": "D2_heat0",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        -1.9073486328125e-06,
+        0.0
+      ],
+      "dimensions": [
+        0.7594837546348572,
+        0.13455848395824432,
+        1.271311640739441
+      ],
+      "color": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "vertices": 144,
+      "triangles": 276,
+      "materials": [],
+      "screen_bbox_pt": [
+        86.81,
+        951.99,
+        92.45,
+        965.25
+      ]
+    },
+    {
+      "name": "D2_heat1",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        -1.9073486328125e-06,
+        0.0
+      ],
+      "dimensions": [
+        0.7594836950302124,
+        0.13455848395824432,
+        1.271311640739441
+      ],
+      "color": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "vertices": 144,
+      "triangles": 276,
+      "materials": [],
+      "screen_bbox_pt": [
+        96.71,
+        955.4,
+        102.38,
+        968.68
+      ]
+    },
+    {
+      "name": "D2_heat2",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        -1.9073486328125e-06,
+        0.0
+      ],
+      "dimensions": [
+        0.7594836950302124,
+        0.13455848395824432,
+        1.271311640739441
+      ],
+      "color": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "vertices": 144,
+      "triangles": 276,
+      "materials": [],
+      "screen_bbox_pt": [
+        106.65,
+        958.83,
+        112.33,
+        972.12
+      ]
+    },
+    {
+      "name": "D2_lime00",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.5182145237922668,
+        -0.30732420086860657,
+        1.5
+      ],
+      "dimensions": [
+        0.4110207259654999,
+        0.43217211961746216,
+        0.3025204837322235
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        100.69,
+        979.36,
+        105.33,
+        983.57
+      ]
+    },
+    {
+      "name": "D2_lime01",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.75,
+        -0.2641270160675049,
+        0.5576692819595337
+      ],
+      "dimensions": [
+        0.43898850679397583,
+        0.4615791440010071,
+        0.3231053948402405
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        105.72,
+        1008.68,
+        110.68,
+        1013.2
+      ]
+    },
+    {
+      "name": "D2_lime02",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.043579742312431335,
+        -0.75,
+        1.2743206024169922
+      ],
+      "dimensions": [
+        0.40347954630851746,
+        0.42424294352531433,
+        0.29697003960609436
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        82.14,
+        985.5,
+        86.7,
+        989.63
+      ]
+    },
+    {
+      "name": "D2_lime03",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.10180246084928513,
+        0.20178893208503723,
+        1.5
+      ],
+      "dimensions": [
+        0.675338625907898,
+        0.7100920677185059,
+        0.497064471244812
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        99.44,
+        964.13,
+        107.03,
+        971.01
+      ]
+    },
+    {
+      "name": "D2_lime04",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.75,
+        0.5997636318206787,
+        0.32236433029174805
+      ],
+      "dimensions": [
+        0.5508507490158081,
+        0.579197883605957,
+        0.40543851256370544
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        124.5,
+        1004.1,
+        130.7,
+        1009.75
+      ]
+    },
+    {
+      "name": "D2_lime05",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.45744064450263977,
+        -0.75,
+        0.2136356085538864
+      ],
+      "dimensions": [
+        0.5691236257553101,
+        0.5984110832214355,
+        0.41888776421546936
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        88.69,
+        1020.35,
+        95.13,
+        1026.22
+      ]
+    },
+    {
+      "name": "D2_lime06",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.3913063704967499,
+        0.3213963210582733,
+        1.5
+      ],
+      "dimensions": [
+        0.6942997574806213,
+        0.7300288677215576,
+        0.5110202431678772
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        96.8,
+        959.05,
+        104.59,
+        966.09
+      ]
+    },
+    {
+      "name": "D2_lime07",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.75,
+        0.04594583064317703,
+        0.16075976192951202
+      ],
+      "dimensions": [
+        0.3813464641571045,
+        0.40097081661224365,
+        0.2806795537471771
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        113.03,
+        1016.52,
+        117.33,
+        1020.44
+      ]
+    },
+    {
+      "name": "D2_lime08",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.10115768760442734,
+        -0.75,
+        1.166764736175537
+      ],
+      "dimensions": [
+        0.44316330552101135,
+        0.4659687876701355,
+        0.3261781632900238
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        79.3,
+        986.59,
+        84.31,
+        991.14
+      ]
+    },
+    {
+      "name": "D2_lime09",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.20296508073806763,
+        -0.11363059282302856,
+        1.5
+      ],
+      "dimensions": [
+        0.4533355236053467,
+        0.4766644537448883,
+        0.333665132522583
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        99.11,
+        972.87,
+        104.22,
+        977.5
+      ]
+    },
+    {
+      "name": "D2_lime10",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.75,
+        0.2446669340133667,
+        0.5199081301689148
+      ],
+      "dimensions": [
+        0.49157795310020447,
+        0.5168748497962952,
+        0.36181238293647766
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        116.87,
+        1003.15,
+        122.41,
+        1008.2
+      ]
+    },
+    {
+      "name": "D2_lime11",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.31837236881256104,
+        -0.75,
+        0.744239866733551
+      ],
+      "dimensions": [
+        0.6392208933830261,
+        0.672115683555603,
+        0.47048094868659973
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        85.77,
+        1002.96,
+        93.01,
+        1009.54
+      ]
+    },
+    {
+      "name": "D2_lime12",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.019560636952519417,
+        -0.40803399682044983,
+        1.5
+      ],
+      "dimensions": [
+        0.5173116326332092,
+        0.5439328551292419,
+        0.3807529807090759
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        88.79,
+        973.91,
+        94.63,
+        979.2
+      ]
+    },
+    {
+      "name": "D2_lime13",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.75,
+        0.44731807708740234,
+        0.8279014229774475
+      ],
+      "dimensions": [
+        0.7040407061576843,
+        0.7402710318565369,
+        0.5181897282600403
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        120.22,
+        990.71,
+        128.15,
+        997.91
+      ]
+    },
+    {
+      "name": "D2_lime14",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.5986219048500061,
+        -0.75,
+        0.5584397315979004
+      ],
+      "dimensions": [
+        0.6338931918144226,
+        0.6665137410163879,
+        0.46655961871147156
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        69.28,
+        996.92,
+        76.42,
+        1003.41
+      ]
+    },
+    {
+      "name": "D2_lime15",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.2233811467885971,
+        0.0731743723154068,
+        1.5
+      ],
+      "dimensions": [
+        0.5961591601371765,
+        0.6268379092216492,
+        0.43878650665283203
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        102.87,
+        970.1,
+        109.59,
+        976.18
+      ]
+    },
+    {
+      "name": "D2_lime_kiln",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -51.63116455078125,
+        -16.32989501953125,
+        0.0
+      ],
+      "dimensions": [
+        13.289241790771484,
+        11.080288887023926,
+        8.698661804199219
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4442,
+      "triangles": 8880,
+      "materials": [],
+      "screen_bbox_pt": [
+        80.02,
+        594.91,
+        200.36,
+        738.38
+      ]
+    },
+    {
+      "name": "D2_making",
+      "type": "EMPTY",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -13.0419921875,
+        -52.65911865234375,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "D3_brick_course1",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        2.997499942779541
+      ],
+      "dimensions": [
+        2.6080946922302246,
+        1.4554100036621094,
+        0.0582164004445076
+      ],
+      "color": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        273.32,
+        1225.02,
+        306.61,
+        1248.23
+      ]
+    },
+    {
+      "name": "D3_brick_course2",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        3.234999895095825
+      ],
+      "dimensions": [
+        2.6080946922302246,
+        1.4554100036621094,
+        0.0582164004445076
+      ],
+      "color": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        273.32,
+        1218.51,
+        306.61,
+        1241.68
+      ]
+    },
+    {
+      "name": "D3_brick_course3",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        3.4725000858306885
+      ],
+      "dimensions": [
+        2.6080946922302246,
+        1.4554100036621094,
+        0.0582164004445076
+      ],
+      "color": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        273.32,
+        1212.0,
+        306.61,
+        1235.12
+      ]
+    },
+    {
+      "name": "D3_foundation",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.44999998807907104
+      ],
+      "dimensions": [
+        4.424446105957031,
+        2.433445453643799,
+        2.095790386199951
+      ],
+      "color": [
+        0.2199999988079071,
+        0.2199999988079071,
+        0.2199999988079071,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        262.26,
+        1275.69,
+        317.74,
+        1337.98
+      ]
+    },
+    {
+      "name": "D3_heavy",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        1.3700000047683716
+      ],
+      "dimensions": [
+        3.7258496284484863,
+        2.0492172241210938,
+        2.095790386199951
+      ],
+      "color": [
+        0.41999998688697815,
+        0.41999998688697815,
+        0.41999998688697815,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        266.68,
+        1253.55,
+        313.29,
+        1309.43
+      ]
+    },
+    {
+      "name": "D3_light",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        3.234999895095825
+      ],
+      "dimensions": [
+        2.561521530151367,
+        1.408836841583252,
+        2.2122230529785156
+      ],
+      "color": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        274.05,
+        1206.76,
+        305.88,
+        1253.5
+      ]
+    },
+    {
+      "name": "D3_middle",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        2.2899999618530273
+      ],
+      "dimensions": [
+        3.1436855792999268,
+        1.7290270328521729,
+        2.095790386199951
+      ],
+      "color": [
+        0.6200000047683716,
+        0.6200000047683716,
+        0.6200000047683716,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        270.36,
+        1230.86,
+        309.58,
+        1281.44
+      ]
+    },
+    {
+      "name": "D3_press0",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.25,
+        0.0,
+        4.28000020980835
+      ],
+      "dimensions": [
+        0.13971932232379913,
+        0.13971932232379913,
+        1.630058765411377
+      ],
+      "color": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.07999999821186066,
+        1.0
+      ],
+      "vertices": 24,
+      "triangles": 44,
+      "materials": [],
+      "screen_bbox_pt": [
+        284.61,
+        1187.98,
+        286.23,
+        1208.26
+      ]
+    },
+    {
+      "name": "D3_press1",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.25,
+        0.0,
+        4.28000020980835
+      ],
+      "dimensions": [
+        0.13971932232379913,
+        0.13971932232379913,
+        1.630058765411377
+      ],
+      "color": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.07999999821186066,
+        1.0
+      ],
+      "vertices": 24,
+      "triangles": 44,
+      "materials": [],
+      "screen_bbox_pt": [
+        293.68,
+        1194.34,
+        295.3,
+        1214.66
+      ]
+    },
+    {
+      "name": "D3_press_tip0",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.25,
+        0.0,
+        3.84999942779541
+      ],
+      "dimensions": [
+        0.419158011674881,
+        0.419158011674881,
+        0.419158011674881
+      ],
+      "color": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.07999999821186066,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 22,
+      "materials": [],
+      "screen_bbox_pt": [
+        282.99,
+        1205.89,
+        287.85,
+        1212.41
+      ]
+    },
+    {
+      "name": "D3_press_tip1",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.25,
+        0.0,
+        3.84999942779541
+      ],
+      "dimensions": [
+        0.419158011674881,
+        0.419158011674881,
+        0.419158011674881
+      ],
+      "color": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.07999999821186066,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 22,
+      "materials": [],
+      "screen_bbox_pt": [
+        292.05,
+        1212.29,
+        296.93,
+        1218.82
+      ]
+    },
+    {
+      "name": "D3_structure",
+      "type": "EMPTY",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        31.1737060546875,
+        -67.75918579101562,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "D4_arrow0",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        1.0932257175445557,
+        1.0932257175445557,
+        0.0
+      ],
+      "color": [
+        0.15000000596046448,
+        0.15000000596046448,
+        0.15000000596046448,
+        1.0
+      ],
+      "vertices": 7,
+      "triangles": 5,
+      "materials": [],
+      "screen_bbox_pt": [
+        693.83,
+        1269.41,
+        710.72,
+        1274.59
+      ]
+    },
+    {
+      "name": "D4_arrow1",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        1.0932257175445557,
+        1.0932257175445557,
+        0.0
+      ],
+      "color": [
+        0.15000000596046448,
+        0.15000000596046448,
+        0.15000000596046448,
+        1.0
+      ],
+      "vertices": 7,
+      "triangles": 5,
+      "materials": [],
+      "screen_bbox_pt": [
+        749.24,
+        1269.41,
+        766.14,
+        1274.59
+      ]
+    },
+    {
+      "name": "D4_crack",
+      "type": "EMPTY",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        54.756561279296875,
+        -38.484161376953125,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "D4_crack0",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.6184219121932983,
+        1.958336353302002
+      ],
+      "color": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.07999999821186066,
+        1.0
+      ],
+      "vertices": 14,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        682.58,
+        1267.61,
+        687.6,
+        1291.24
+      ]
+    },
+    {
+      "name": "D4_crack1",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.6184219717979431,
+        1.958336353302002
+      ],
+      "color": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.07999999821186066,
+        1.0
+      ],
+      "vertices": 14,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        738.16,
+        1267.61,
+        743.12,
+        1291.24
+      ]
+    },
+    {
+      "name": "D4_crack2",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.6596499681472778,
+        1.958336353302002
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 14,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        793.57,
+        1267.49,
+        798.79,
+        1291.35
+      ]
+    },
+    {
+      "name": "D4_cube0",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -1.6263455152511597,
+        -1.6263455152511597,
+        0.6000000238418579
+      ],
+      "dimensions": [
+        2.4736881256103516,
+        2.4736881256103516,
+        2.4736881256103516
+      ],
+      "color": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        654.53,
+        1245.2,
+        694.63,
+        1300.0
+      ]
+    },
+    {
+      "name": "D4_cube1",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.6000000238418579
+      ],
+      "dimensions": [
+        2.4736881256103516,
+        2.4736881256103516,
+        2.4736881256103516
+      ],
+      "color": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        709.95,
+        1245.2,
+        750.05,
+        1300.0
+      ]
+    },
+    {
+      "name": "D4_cube2",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        1.6263455152511597,
+        1.6263455152511597,
+        0.6000000238418579
+      ],
+      "dimensions": [
+        2.4736881256103516,
+        2.4736881256103516,
+        2.4736881256103516
+      ],
+      "color": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        765.37,
+        1245.2,
+        805.47,
+        1300.0
+      ]
+    },
+    {
+      "name": "D4_drop0",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.39999961853027344,
+        0.10000038146972656,
+        1.75
+      ],
+      "dimensions": [
+        0.23526205122470856,
+        0.24736876785755157,
+        0.37105318903923035
+      ],
+      "color": [
+        0.3499999940395355,
+        0.3499999940395355,
+        0.3499999940395355,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        737.26,
+        1245.83,
+        740.1,
+        1250.53
+      ]
+    },
+    {
+      "name": "D4_drop1",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.39999961853027344,
+        -0.049999237060546875,
+        2.049999952316284
+      ],
+      "dimensions": [
+        0.23526205122470856,
+        0.24736876785755157,
+        0.37105318903923035
+      ],
+      "color": [
+        0.3499999940395355,
+        0.3499999940395355,
+        0.3499999940395355,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        734.78,
+        1240.29,
+        737.62,
+        1244.99
+      ]
+    },
+    {
+      "name": "D4_drop2",
+      "type": "MESH",
+      "collections": [
+        "81_NOSHADOW"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.39999961853027344,
+        0.14999961853027344,
+        2.3000001907348633
+      ],
+      "dimensions": [
+        0.23526205122470856,
+        0.24736876785755157,
+        0.37105318903923035
+      ],
+      "color": [
+        0.3499999940395355,
+        0.3499999940395355,
+        0.3499999940395355,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        738.08,
+        1232.0,
+        740.93,
+        1236.69
+      ]
+    },
+    {
+      "name": "D4_lime0",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -1.006345510482788,
+        -1.5763455629348755,
+        0.6200000047683716
+      ],
+      "dimensions": [
+        0.43131378293037415,
+        0.45350944995880127,
+        0.45350944995880127
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        683.57,
+        1275.35,
+        688.8,
+        1281.73
+      ]
+    },
+    {
+      "name": "D4_lime1",
+      "type": "MESH",
+      "collections": [
+        "50_DETAIL_MODEL"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.6200000047683716,
+        0.05000000074505806,
+        0.6200000047683716
+      ],
+      "dimensions": [
+        0.31368276476860046,
+        0.3298250436782837,
+        0.3298250436782837
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        739.83,
+        1276.22,
+        743.63,
+        1280.86
+      ]
+    },
+    {
+      "name": "F_centuriatio",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        165.89999389648438,
+        181.5,
+        2.234229803085327
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42012,
+      "triangles": 57458,
+      "materials": [],
+      "screen_bbox_pt": [
+        -17.97,
+        412.53,
+        1206.22,
+        1474.8
+      ]
+    },
+    {
+      "name": "H_ash",
+      "type": "EMPTY",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        205.4858856201172,
+        -227.41493225097656,
+        200.52304077148438
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "H_ash_pile",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.42500001192092896
+      ],
+      "dimensions": [
+        1.703627109527588,
+        1.703627109527588,
+        0.7240415215492249
+      ],
+      "color": [
+        0.41999998688697815,
+        0.41999998688697815,
+        0.41999998688697815,
+        1.0
+      ],
+      "vertices": 1121,
+      "triangles": 2238,
+      "materials": [],
+      "screen_bbox_pt": [
+        98.0,
+        96.54,
+        150.0,
+        129.46
+      ]
+    },
+    {
+      "name": "H_book1",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.3448139727115631,
+        1.5762923955917358,
+        2.1674020290374756
+      ],
+      "color": [
+        0.550000011920929,
+        0.550000011920929,
+        0.550000011920929,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        876.63,
+        54.0,
+        890.03,
+        139.0
+      ]
+    },
+    {
+      "name": "H_book1_pages",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.29555484652519226,
+        1.4777741432189941,
+        2.0885872840881348
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        878.19,
+        54.71,
+        890.02,
+        136.77
+      ]
+    },
+    {
+      "name": "H_book2",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.3448140025138855,
+        1.4777741432189941,
+        1.9703655242919922
+      ],
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        890.04,
+        59.96,
+        903.37,
+        137.73
+      ]
+    },
+    {
+      "name": "H_books",
+      "type": "EMPTY",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        223.14324951171875,
+        -209.757568359375,
+        200.1718292236328
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "H_colosseum",
+      "type": "EMPTY",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        228.60110473632812,
+        -204.29971313476562,
+        200.4553680419922
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "H_colosseum_mini",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2.16086745262146,
+        1.7325772047042847,
+        0.6279454827308655
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 99207,
+      "triangles": 197806,
+      "materials": [],
+      "screen_bbox_pt": [
+        1085.0,
+        94.38,
+        1151.0,
+        131.62
+      ]
+    },
+    {
+      "name": "H_core_band0",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.550000011920929
+      ],
+      "dimensions": [
+        0.9203633069992065,
+        0.9203633069992065,
+        0.0347306914627552
+      ],
+      "color": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645,
+        1.0
+      ],
+      "vertices": 576,
+      "triangles": 1152,
+      "materials": [],
+      "screen_bbox_pt": [
+        978.43,
+        103.76,
+        1006.49,
+        116.12
+      ]
+    },
+    {
+      "name": "H_core_band1",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        1.100000023841858
+      ],
+      "dimensions": [
+        0.9203633069992065,
+        0.9203633069992065,
+        0.0347306914627552
+      ],
+      "color": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645,
+        1.0
+      ],
+      "vertices": 576,
+      "triangles": 1152,
+      "materials": [],
+      "screen_bbox_pt": [
+        978.43,
+        89.28,
+        1006.49,
+        101.55
+      ]
+    },
+    {
+      "name": "H_core_band2",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        1.5
+      ],
+      "dimensions": [
+        0.9203633069992065,
+        0.9203633069992065,
+        0.0347306914627552
+      ],
+      "color": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645,
+        1.0
+      ],
+      "vertices": 576,
+      "triangles": 1152,
+      "materials": [],
+      "screen_bbox_pt": [
+        978.43,
+        78.75,
+        1006.49,
+        90.96
+      ]
+    },
+    {
+      "name": "H_core_sample",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.949999988079071
+      ],
+      "dimensions": [
+        0.868267297744751,
+        0.868267297744751,
+        1.6497077941894531
+      ],
+      "color": [
+        0.75,
+        0.75,
+        0.75,
+        1.0
+      ],
+      "vertices": 80,
+      "triangles": 156,
+      "materials": [],
+      "screen_bbox_pt": [
+        979.24,
+        68.9,
+        1005.68,
+        130.0
+      ]
+    },
+    {
+      "name": "H_gate",
+      "type": "EMPTY",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        216.46200561523438,
+        -216.43881225585938,
+        196.6936798095703
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "H_gate_base",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        15.606306076049805,
+        2.1970043182373047,
+        0.1818210333585739
+      ],
+      "color": [
+        0.75,
+        0.75,
+        0.75,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        357.19,
+        228.89,
+        834.81,
+        235.0
+      ]
+    },
+    {
+      "name": "H_gate_body",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        15.151753425598145,
+        1.6666929721832275,
+        6.57586145401001
+      ],
+      "color": [
+        0.9300000071525574,
+        0.9300000071525574,
+        0.9300000071525574,
+        1.0
+      ],
+      "vertices": 286,
+      "triangles": 568,
+      "materials": [
+        null
+      ],
+      "screen_bbox_pt": [
+        364.57,
+        19.0,
+        827.43,
+        235.0
+      ]
+    },
+    {
+      "name": "H_gate_cornice146",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        15.454788208007812,
+        2.0454866886138916,
+        0.19697296619415283
+      ],
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        360.97,
+        158.11,
+        831.03,
+        165.5
+      ]
+    },
+    {
+      "name": "H_gate_cornice238",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        15.454788208007812,
+        2.0454866886138916,
+        0.19697296619415283
+      ],
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        361.85,
+        112.21,
+        830.15,
+        120.09
+      ]
+    },
+    {
+      "name": "H_gate_keystone",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.6363736391067505,
+        1.9091209173202515,
+        0.5454633235931396
+      ],
+      "color": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        586.31,
+        163.41,
+        605.69,
+        182.08
+      ]
+    },
+    {
+      "name": "H_gate_pilaster-24",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.48485636711120605,
+        1.8788174390792847,
+        2.060638427734375
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        475.09,
+        165.42,
+        491.67,
+        233.98
+      ]
+    },
+    {
+      "name": "H_gate_pilaster-45",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.48485565185546875,
+        1.8788174390792847,
+        2.060638427734375
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        377.81,
+        165.41,
+        396.0,
+        233.98
+      ]
+    },
+    {
+      "name": "H_gate_pilaster24",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.48485636711120605,
+        1.8788174390792847,
+        2.060638427734375
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        700.33,
+        165.43,
+        716.91,
+        233.99
+      ]
+    },
+    {
+      "name": "H_gate_pilaster45",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.48485565185546875,
+        1.8788174390792847,
+        2.060638427734375
+      ],
+      "color": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        796.0,
+        165.43,
+        814.19,
+        234.0
+      ]
+    },
+    {
+      "name": "H_lens_handle",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        1.1799999475479126,
+        -0.30000001192092896,
+        1.5499999523162842
+      ],
+      "dimensions": [
+        0.12155743688344955,
+        0.12155742198228836,
+        0.6946136951446533
+      ],
+      "color": [
+        0.15000000596046448,
+        0.15000000596046448,
+        0.15000000596046448,
+        1.0
+      ],
+      "vertices": 24,
+      "triangles": 44,
+      "materials": [],
+      "screen_bbox_pt": [
+        1016.13,
+        77.27,
+        1032.57,
+        96.3
+      ]
+    },
+    {
+      "name": "H_lens_ring",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.75,
+        -0.30000001192092896,
+        2.0
+      ],
+      "dimensions": [
+        0.9029979705810547,
+        0.9029979705810547,
+        0.12155742198228836
+      ],
+      "color": [
+        0.15000000596046448,
+        0.15000000596046448,
+        0.15000000596046448,
+        1.0
+      ],
+      "vertices": 576,
+      "triangles": 1152,
+      "materials": [],
+      "screen_bbox_pt": [
+        999.23,
+        61.0,
+        1026.73,
+        88.77
+      ]
+    },
+    {
+      "name": "H_lime",
+      "type": "EMPTY",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        203.76495361328125,
+        -229.1358642578125,
+        200.5234832763672
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "H_lime_pile",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.42500001192092896
+      ],
+      "dimensions": [
+        1.699330449104309,
+        1.699330449104309,
+        0.722215473651886
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1121,
+      "triangles": 2238,
+      "materials": [],
+      "screen_bbox_pt": [
+        24.0,
+        96.58,
+        76.0,
+        129.42
+      ]
+    },
+    {
+      "name": "H_mold",
+      "type": "EMPTY",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        209.3047332763672,
+        -223.59608459472656,
+        200.31906127929688
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "H_mold_box",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2.3031296730041504,
+        1.5703157186508179,
+        0.9421893954277039
+      ],
+      "color": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        251.49,
+        86.67,
+        324.61,
+        134.44
+      ]
+    },
+    {
+      "name": "H_mold_lime0",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.5,
+        -0.20000000298023224,
+        0.9200000166893005
+      ],
+      "dimensions": [
+        0.21904097497463226,
+        0.23031297326087952,
+        0.23031297326087952
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        268.46,
+        94.4,
+        275.28,
+        101.82
+      ]
+    },
+    {
+      "name": "H_mold_lime1",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.20000000298023224,
+        0.30000001192092896,
+        0.9200000166893005
+      ],
+      "dimensions": [
+        0.21904097497463226,
+        0.23031297326087952,
+        0.23031297326087952
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        291.83,
+        87.84,
+        298.62,
+        95.22
+      ]
+    },
+    {
+      "name": "H_mold_lime2",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.6000000238418579,
+        -0.4000000059604645,
+        0.9200000166893005
+      ],
+      "dimensions": [
+        0.21904097497463226,
+        0.23031297326087952,
+        0.23031297326087952
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        303.12,
+        97.04,
+        309.93,
+        104.47
+      ]
+    },
+    {
+      "name": "H_mold_lime3",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -0.10000000149011612,
+        0.5,
+        0.9200000166893005
+      ],
+      "dimensions": [
+        0.21904097497463226,
+        0.23031297326087952,
+        0.23031297326087952
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        282.74,
+        85.23,
+        289.52,
+        92.6
+      ]
+    },
+    {
+      "name": "H_mold_lime4",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.800000011920929,
+        0.30000001192092896,
+        0.9200000166893005
+      ],
+      "dimensions": [
+        0.21904097497463226,
+        0.23031297326087952,
+        0.23031297326087952
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "triangles": 80,
+      "materials": [],
+      "screen_bbox_pt": [
+        310.9,
+        87.84,
+        317.68,
+        95.23
+      ]
+    },
+    {
+      "name": "H_mold_plank0",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2.512505292892456,
+        0.10468774288892746,
+        1.046877145767212
+      ],
+      "color": [
+        0.7200000286102295,
+        0.7200000286102295,
+        0.7200000286102295,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        248.0,
+        102.97,
+        325.0,
+        136.06
+      ]
+    },
+    {
+      "name": "H_mold_plank1",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2.512505292892456,
+        0.10468774288892746,
+        1.046877145767212
+      ],
+      "color": [
+        0.7200000286102295,
+        0.7200000286102295,
+        0.7200000286102295,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        251.86,
+        81.94,
+        328.0,
+        114.65
+      ]
+    },
+    {
+      "name": "H_mold_plank2",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.10468761622905731,
+        1.779691219329834,
+        1.046877145767212
+      ],
+      "color": [
+        0.7200000286102295,
+        0.7200000286102295,
+        0.7200000286102295,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        248.0,
+        81.94,
+        255.22,
+        136.06
+      ]
+    },
+    {
+      "name": "H_mold_plank3",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.10468761622905731,
+        1.779691219329834,
+        1.046877145767212
+      ],
+      "color": [
+        0.7200000286102295,
+        0.7200000286102295,
+        0.7200000286102295,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        321.64,
+        81.94,
+        328.0,
+        136.06
+      ]
+    },
+    {
+      "name": "H_research",
+      "type": "EMPTY",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        225.681884765625,
+        -207.21893310546875,
+        200.32945251464844
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "H_stone0",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.6290861964225769,
+        0.6290861964225769,
+        0.47181466221809387
+      ],
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        177.0,
+        109.88,
+        197.71,
+        131.64
+      ]
+    },
+    {
+      "name": "H_stone1",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5504504442214966,
+        0.5504504442214966,
+        0.4324967861175537
+      ],
+      "color": [
+        0.6499999761581421,
+        0.6499999761581421,
+        0.6499999761581421,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        198.98,
+        109.96,
+        217.0,
+        129.51
+      ]
+    },
+    {
+      "name": "H_stone2",
+      "type": "MESH",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.47181466221809387,
+        0.7077219486236572,
+        0.39317888021469116
+      ],
+      "color": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421,
+        1.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "materials": [],
+      "screen_bbox_pt": [
+        188.51,
+        102.36,
+        204.53,
+        122.6
+      ]
+    },
+    {
+      "name": "H_stones",
+      "type": "EMPTY",
+      "collections": [
+        "85_HEADER"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        206.9591827392578,
+        -225.94163513183594,
+        200.21530151367188
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "L01_autore",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -42.688262939453125,
+        96.77532958984375,
+        0.0
+      ],
+      "dimensions": [
+        16.66694450378418,
+        15.060393333435059,
+        8.229019165039062
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 6594,
+      "triangles": 12746,
+      "materials": [],
+      "screen_bbox_pt": [
+        837.64,
+        282.97,
+        956.37,
+        397.83
+      ]
+    },
+    {
+      "name": "L01_corno_grande",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -79.560302734375,
+        79.48297119140625,
+        0.0
+      ],
+      "dimensions": [
+        21.5507869720459,
+        21.486736297607422,
+        7.162705421447754
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8030,
+      "triangles": 15597,
+      "materials": [],
+      "screen_bbox_pt": [
+        505.19,
+        262.01,
+        686.19,
+        357.49
+      ]
+    },
+    {
+      "name": "L01_gennaro",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -89.6097412109375,
+        41.864501953125,
+        0.0
+      ],
+      "dimensions": [
+        20.657936096191406,
+        19.505136489868164,
+        9.070327758789062
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 9173,
+      "triangles": 17843,
+      "materials": [],
+      "screen_bbox_pt": [
+        233.92,
+        302.2,
+        401.1,
+        433.88
+      ]
+    },
+    {
+      "name": "L01_terminillo",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -128.41751098632812,
+        35.2623291015625,
+        0.0
+      ],
+      "dimensions": [
+        13.351335525512695,
+        13.805083274841309,
+        4.827735424041748
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8030,
+      "triangles": 15597,
+      "materials": [],
+      "screen_bbox_pt": [
+        15.05,
+        262.43,
+        122.69,
+        331.44
+      ]
+    },
+    {
+      "name": "L01_terminillo_e",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -24.613555908203125,
+        115.774169921875,
+        0.0
+      ],
+      "dimensions": [
+        14.604835510253906,
+        14.709900856018066,
+        7.1058268547058105
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8965,
+      "triangles": 17346,
+      "materials": [],
+      "screen_bbox_pt": [
+        1065.73,
+        314.46,
+        1183.25,
+        399.09
+      ]
+    },
+    {
+      "name": "L01_velino",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -58.25152587890625,
+        89.46017456054688,
+        0.0
+      ],
+      "dimensions": [
+        19.250452041625977,
+        19.25236701965332,
+        9.429548263549805
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8633,
+      "triangles": 16837,
+      "materials": [],
+      "screen_bbox_pt": [
+        693.64,
+        268.42,
+        856.84,
+        378.61
+      ]
+    },
+    {
+      "name": "L01_velino_w",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -86.86349487304688,
+        57.946197509765625,
+        0.0
+      ],
+      "dimensions": [
+        16.58653450012207,
+        17.429210662841797,
+        8.47146224975586
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8633,
+      "triangles": 16837,
+      "materials": [],
+      "screen_bbox_pt": [
+        353.72,
+        282.88,
+        485.8,
+        391.11
+      ]
+    },
+    {
+      "name": "L01_viglio",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -31.5728759765625,
+        105.63052368164062,
+        0.0
+      ],
+      "dimensions": [
+        19.21706199645996,
+        16.829410552978516,
+        8.860713958740234
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8633,
+      "triangles": 16865,
+      "materials": [],
+      "screen_bbox_pt": [
+        946.97,
+        302.44,
+        1092.57,
+        417.74
+      ]
+    },
+    {
+      "name": "L02_tiber",
+      "type": "MESH",
+      "collections": [
+        "30_TERRAIN"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        147.06753540039062,
+        126.49307250976562,
+        0.29999998211860657
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4882,
+      "triangles": 8197,
+      "materials": [],
+      "screen_bbox_pt": [
+        45.59,
+        318.21,
+        345.29,
+        1393.85
+      ]
+    },
+    {
+      "name": "L03_forum_temple",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -53.070068359375,
+        30.61749267578125,
+        0.0
+      ],
+      "dimensions": [
+        7.266930103302002,
+        5.975879669189453,
+        9.160903930664062
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 5651,
+      "triangles": 11354,
+      "materials": [],
+      "screen_bbox_pt": [
+        414.28,
+        454.9,
+        495.43,
+        558.11
+      ]
+    },
+    {
+      "name": "L03_forum_vesta",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -57.802459716796875,
+        19.572418212890625,
+        0.0
+      ],
+      "dimensions": [
+        8.125298500061035,
+        9.693554878234863,
+        9.146064758300781
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 15902,
+      "triangles": 33534,
+      "materials": [],
+      "screen_bbox_pt": [
+        304.25,
+        470.42,
+        395.12,
+        585.43
+      ]
+    },
+    {
+      "name": "L04_palatine",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        19.465667724609375,
+        -48.021728515625,
+        0.0
+      ],
+      "dimensions": [
+        4.358956336975098,
+        3.814086675643921,
+        2.688023090362549
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 672,
+      "triangles": 1268,
+      "materials": [],
+      "screen_bbox_pt": [
+        338.72,
+        1106.01,
+        401.31,
+        1170.01
+      ]
+    },
+    {
+      "name": "L04_palatine_arch",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        4.273230075836182,
+        3.537656307220459,
+        1.5503355264663696
+      ],
+      "color": [
+        0.3799999952316284,
+        0.3799999952316284,
+        0.3799999952316284,
+        1.0
+      ],
+      "vertices": 533,
+      "triangles": 451,
+      "materials": [],
+      "screen_bbox_pt": [
+        339.23,
+        1124.86,
+        400.64,
+        1168.75
+      ]
+    },
+    {
+      "name": "L05_aqua_claudia",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        11.316933631896973,
+        71.66078186035156,
+        6.935079574584961
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 7976,
+      "triangles": 11172,
+      "materials": [],
+      "screen_bbox_pt": [
+        830.6,
+        352.1,
+        1171.3,
+        671.99
+      ]
+    },
+    {
+      "name": "L07_vesuvius",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        85.42784881591797,
+        -33.79428482055664,
+        0.021892547607421875
+      ],
+      "dimensions": [
+        22.467693328857422,
+        22.047067642211914,
+        15.777122497558594
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 59014,
+      "triangles": 116849,
+      "materials": [],
+      "screen_bbox_pt": [
+        905.04,
+        1269.43,
+        1173.27,
+        1579.93
+      ]
+    },
+    {
+      "name": "L08_pompeii",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        75.55543518066406,
+        -48.466705322265625,
+        0.0
+      ],
+      "dimensions": [
+        8.588427543640137,
+        8.668197631835938,
+        3.3559553623199463
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 6849,
+      "triangles": 13782,
+      "materials": [],
+      "screen_bbox_pt": [
+        758.14,
+        1396.96,
+        904.89,
+        1522.01
+      ]
+    },
+    {
+      "name": "L08_pompeii_site",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        69.61505126953125,
+        -57.66693115234375,
+        0.0
+      ],
+      "dimensions": [
+        6.1855974197387695,
+        5.187448501586914,
+        4.507576942443848
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 7565,
+      "triangles": 15096,
+      "materials": [],
+      "screen_bbox_pt": [
+        652.54,
+        1419.95,
+        749.44,
+        1524.98
+      ]
+    },
+    {
+      "name": "L09_portus_lighthouse",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        35.249725341796875,
+        -93.9500732421875,
+        0.0
+      ],
+      "dimensions": [
+        3.6319754123687744,
+        4.502317905426025,
+        8.70083999633789
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4928,
+      "triangles": 9844,
+      "materials": [],
+      "screen_bbox_pt": [
+        43.34,
+        1389.72,
+        106.29,
+        1524.38
+      ]
+    },
+    {
+      "name": "L09_portus_mole",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        38.93902587890625,
+        -87.11361694335938,
+        0.0
+      ],
+      "dimensions": [
+        5.980240821838379,
+        6.917766094207764,
+        2.603020668029785
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4265,
+      "triangles": 8474,
+      "materials": [],
+      "screen_bbox_pt": [
+        115.17,
+        1432.03,
+        224.84,
+        1521.38
+      ]
+    },
+    {
+      "name": "L10_sea",
+      "type": "MESH",
+      "collections": [
+        "30_TERRAIN"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        97.67185974121094,
+        73.14067840576172,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 17516,
+      "triangles": 33179,
+      "materials": [],
+      "screen_bbox_pt": [
+        -12.0,
+        1337.08,
+        1203.0,
+        1714.29
+      ]
+    },
+    {
+      "name": "L11_privernum_wall",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        57.244110107421875,
+        5.474273681640625,
+        0.0
+      ],
+      "dimensions": [
+        8.850406646728516,
+        7.935186862945557,
+        3.5070698261260986
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 5723,
+      "triangles": 11466,
+      "materials": [],
+      "screen_bbox_pt": [
+        1022.21,
+        1004.66,
+        1124.52,
+        1102.75
+      ]
+    },
+    {
+      "name": "L12_harbor_pilae",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        49.855255126953125,
+        -77.70640563964844,
+        0.0
+      ],
+      "dimensions": [
+        4.519168376922607,
+        4.21450662612915,
+        2.2452077865600586
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4172,
+      "triangles": 8340,
+      "materials": [],
+      "screen_bbox_pt": [
+        312.74,
+        1438.32,
+        387.25,
+        1517.73
+      ]
+    },
+    {
+      "name": "L_C1_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -57.63767623901367,
+        46.463680267333984,
+        2.4763779640197754
+      ],
+      "dimensions": [
+        5.3254075050354,
+        1.752811312675476,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "석회 + 화산재 + 물이 만나 굳고\n굳은 뒤에도 반응이 이어짐"
+    },
+    {
+      "name": "L_C1_b_ul",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -57.59421157836914,
+        46.507144927978516,
+        3.969297409057617
+      ],
+      "dimensions": [
+        15.564146041870117,
+        0.104535311460495,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        595.5,
+        841.56,
+        709.01,
+        907.1
+      ]
+    },
+    {
+      "name": "L_C1_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -69.20735168457031,
+        58.5366325378418,
+        0.09190934896469116
+      ],
+      "dimensions": [
+        0.22435396909713745,
+        0.37358716130256653,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body": "1"
+    },
+    {
+      "name": "L_C1_n_badge",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -68.75031280517578,
+        59.0078125,
+        0.9836218953132629
+      ],
+      "dimensions": [
+        2.15682315826416,
+        2.15682315826416,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 25,
+      "triangles": 24,
+      "materials": [],
+      "screen_bbox_pt": [
+        584.72,
+        835.78,
+        606.28,
+        848.23
+      ]
+    },
+    {
+      "name": "L_C1_t1",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -66.41893005371094,
+        59.09706115722656,
+        1.1871166229248047
+      ],
+      "dimensions": [
+        3.976194143295288,
+        0.7758018970489502,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "굳은 뒤에도"
+    },
+    {
+      "name": "L_C1_t2",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -64.19837951660156,
+        52.66618347167969,
+        1.17595374584198
+      ],
+      "dimensions": [
+        5.427698135375977,
+        0.7679298520088196,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "단단해지는 재료"
+    },
+    {
+      "name": "L_C2_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -36.6689338684082,
+        -37.68037033081055,
+        2.1321184635162354
+      ],
+      "dimensions": [
+        5.019514083862305,
+        1.5068895816802979,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "마른 석회와 화산재를 먼저 섞고\n물을 부으면 뜨거워지며 빨리 굳음"
+    },
+    {
+      "name": "L_C2_b_ul",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -36.63149642944336,
+        -37.6429328918457,
+        3.4172534942626953
+      ],
+      "dimensions": [
+        14.478874206542969,
+        0.08986887335777283,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        595.5,
+        841.62,
+        700.86,
+        902.45
+      ]
+    },
+    {
+      "name": "L_C2_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -45.941612243652344,
+        -29.554649353027344,
+        0.21710962057113647
+      ],
+      "dimensions": [
+        0.21748429536819458,
+        0.3253633975982666,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body": "2"
+    },
+    {
+      "name": "L_C2_n_badge",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -45.61589813232422,
+        -29.214794158935547,
+        0.8460670709609985
+      ],
+      "dimensions": [
+        1.8460274934768677,
+        1.8460274934768677,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 25,
+      "triangles": 24,
+      "materials": [],
+      "screen_bbox_pt": [
+        586.27,
+        836.67,
+        604.73,
+        847.33
+      ]
+    },
+    {
+      "name": "L_C2_t1",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -43.6739616394043,
+        -28.921728134155273,
+        0.9964916110038757
+      ],
+      "dimensions": [
+        3.3609161376953125,
+        0.6664443016052246,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "뜨겁게 섞어"
+    },
+    {
+      "name": "L_C2_t2",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -41.96207809448242,
+        -33.550174713134766,
+        0.9418163299560547
+      ],
+      "dimensions": [
+        2.662161350250244,
+        0.6635865569114685,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "빨리 굳힘"
+    },
+    {
+      "name": "L_C3_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        19.445547103881836,
+        -43.384098052978516,
+        1.9310479164123535
+      ],
+      "dimensions": [
+        3.8533992767333984,
+        1.3619216680526733,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "아치와 둥근 천장으로 무게를\n누르는 힘으로만 받음"
+    },
+    {
+      "name": "L_C3_b_ul",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        19.479354858398438,
+        -43.35028839111328,
+        3.091977119445801
+      ],
+      "dimensions": [
+        11.103205680847168,
+        0.08124297112226486,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        595.5,
+        841.66,
+        675.96,
+        888.11
+      ]
+    },
+    {
+      "name": "L_C3_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        12.469442367553711,
+        -36.19196701049805,
+        0.20978404581546783
+      ],
+      "dimensions": [
+        0.19765636324882507,
+        0.29881903529167175,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body": "3"
+    },
+    {
+      "name": "L_C3_n_badge",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        12.751540184020996,
+        -35.89572525024414,
+        0.7716860175132751
+      ],
+      "dimensions": [
+        1.664515495300293,
+        1.664515495300293,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 25,
+      "triangles": 24,
+      "materials": [],
+      "screen_bbox_pt": [
+        587.18,
+        837.19,
+        603.82,
+        846.8
+      ]
+    },
+    {
+      "name": "L_C3_t1",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        14.365821838378906,
+        -35.61103820800781,
+        0.9165688753128052
+      ],
+      "dimensions": [
+        3.0784354209899902,
+        0.603652834892273,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "누르는 힘만"
+    },
+    {
+      "name": "L_C3_t2",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        15.390210151672363,
+        -39.75946807861328,
+        0.8626666069030762
+      ],
+      "dimensions": [
+        2.3936455249786377,
+        0.5939216017723083,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "받게 짓기"
+    },
+    {
+      "name": "L_C4_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        34.123069763183594,
+        -28.70193862915039,
+        1.925009846687317
+      ],
+      "dimensions": [
+        3.927738904953003,
+        1.3622535467147827,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "금에 스민 물이 석회 알갱이를\n녹였다가 다시 굳어 금을 메움"
+    },
+    {
+      "name": "L_C4_b_ul",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        34.157047271728516,
+        -28.66796112060547,
+        3.0898962020874023
+      ],
+      "dimensions": [
+        14.714004516601562,
+        0.08124297112226486,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        595.5,
+        841.66,
+        702.54,
+        903.46
+      ]
+    },
+    {
+      "name": "L_C4_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        27.514198303222656,
+        -21.14718246459961,
+        0.2945196330547333
+      ],
+      "dimensions": [
+        0.21049624681472778,
+        0.28831368684768677,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body": "4"
+    },
+    {
+      "name": "L_C4_n_badge",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        27.788761138916016,
+        -20.858478546142578,
+        0.7716621160507202
+      ],
+      "dimensions": [
+        1.664515495300293,
+        1.664515495300293,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 25,
+      "triangles": 24,
+      "materials": [],
+      "screen_bbox_pt": [
+        587.18,
+        837.19,
+        603.82,
+        846.8
+      ]
+    },
+    {
+      "name": "L_C4_t1",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        29.366844177246094,
+        -20.60525894165039,
+        0.9036356806755066
+      ],
+      "dimensions": [
+        2.4754295349121094,
+        0.6010648608207703,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "금이 가도"
+    },
+    {
+      "name": "L_C4_t2",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        30.264535903930664,
+        -24.880449295043945,
+        0.9083036184310913
+      ],
+      "dimensions": [
+        5.106699466705322,
+        0.6766602396965027,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "메우고, 쓰면서 고침"
+    },
+    {
+      "name": "L_C5_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        34.90035629272461,
+        19.567964553833008,
+        2.0767176151275635
+      ],
+      "dimensions": [
+        3.4957637786865234,
+        1.4733681678771973,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "80년에 지은 콜로세움은\n지금도 로마에 서 있음"
+    },
+    {
+      "name": "L_C5_b_ul",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        34.934268951416016,
+        19.601877212524414,
+        3.339230537414551
+      ],
+      "dimensions": [
+        13.5709867477417,
+        0.08786969631910324,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        595.5,
+        841.63,
+        694.14,
+        898.58
+      ]
+    },
+    {
+      "name": "L_C5_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        27.747119903564453,
+        29.023513793945312,
+        0.24743963778018951
+      ],
+      "dimensions": [
+        0.21462664008140564,
+        0.3183557689189911,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body": "5"
+    },
+    {
+      "name": "L_C5_n_badge",
+      "type": "MESH",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        28.050596237182617,
+        29.34113121032715,
+        0.8305564522743225
+      ],
+      "dimensions": [
+        1.8038755655288696,
+        1.8038755655288696,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 25,
+      "triangles": 24,
+      "materials": [],
+      "screen_bbox_pt": [
+        586.48,
+        836.79,
+        604.52,
+        847.21
+      ]
+    },
+    {
+      "name": "L_C5_t1",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        29.754390716552734,
+        29.484222412109375,
+        0.9906098246574402
+      ],
+      "dimensions": [
+        3.8977715969085693,
+        0.7374919652938843,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "약 1,950년째"
+    },
+    {
+      "name": "L_C5_t2",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        30.78655433654785,
+        24.447843551635742,
+        0.9767530560493469
+      ],
+      "dimensions": [
+        2.025702953338623,
+        0.6451415419578552,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "서 있음"
+    },
+    {
+      "name": "L_D1_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -100.71821594238281,
+        8.168357849121094,
+        2.5901503562927246
+      ],
+      "dimensions": [
+        5.234348773956299,
+        1.5960139036178589,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "바닷물이 스미면 보통 온도에서도\n새 결정이 자람"
+    },
+    {
+      "name": "L_D1_h",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -106.83135986328125,
+        12.960240364074707,
+        0.8145576119422913
+      ],
+      "dimensions": [
+        5.50335693359375,
+        0.46351945400238037,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "재료 원리 · 해수 속 새 결정"
+    },
+    {
+      "name": "L_D2_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -8.965270042419434,
+        -63.572715759277344,
+        2.023470878601074
+      ],
+      "dimensions": [
+        3.923860549926758,
+        1.249910831451416,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "마른 석회는 물을 만나면 열을 냄\n남은 석회 알갱이 = 칼슘 창고"
+    },
+    {
+      "name": "L_D2_h",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -12.647350311279297,
+        -60.630558013916016,
+        0.6320480108261108
+      ],
+      "dimensions": [
+        3.400703191757202,
+        0.3618432879447937,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "제작 원리 · 열과 석회"
+    },
+    {
+      "name": "L_D3_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        37.10611343383789,
+        -77.35437774658203,
+        1.8286466598510742
+      ],
+      "dimensions": [
+        4.059409141540527,
+        1.122930884361267,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "돌과 콘크리트는\n누르는 힘엔 강하고 당기는 힘엔 약함"
+    },
+    {
+      "name": "L_D3_h",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        34.09495162963867,
+        -74.77011108398438,
+        1.8221776485443115
+      ],
+      "dimensions": [
+        3.8486454486846924,
+        1.485606074333191,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "구조 원리 · 벽과 기초\n위는 가볍게, 아래는 두껍게"
+    },
+    {
+      "name": "L_D4_b",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        53.63130569458008,
+        -47.185367584228516,
+        1.876863956451416
+      ],
+      "dimensions": [
+        4.158808708190918,
+        1.1526668071746826,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "금이 흰 석회 알갱이를 지나감\n스민 물이 칼슘을 녹였다가 다시 굳음"
+    },
+    {
+      "name": "L_D4_h",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        50.849647521972656,
+        -44.33958435058594,
+        0.5892391800880432
+      ],
+      "dimensions": [
+        4.528287887573242,
+        0.3332367241382599,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "균열 원리 · 금이 메워지는 순서"
+    },
+    {
+      "name": "L_P_apennini",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -127.14926147460938,
+        57.908355712890625,
+        0.5166898965835571
+      ],
+      "dimensions": [
+        3.675118923187256,
+        0.5968028903007507,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "아펜니노 산맥"
+    },
+    {
+      "name": "L_P_appia",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        40.378623962402344,
+        16.064023971557617,
+        0.5728984475135803
+      ],
+      "dimensions": [
+        1.9050133228302002,
+        0.36595988273620605,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "아피아 가도"
+    },
+    {
+      "name": "L_P_aqueduct",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -20.7874755859375,
+        59.34320068359375,
+        0.5503191351890564
+      ],
+      "dimensions": [
+        1.5306892395019531,
+        0.5029324889183044,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "수도교"
+    },
+    {
+      "name": "L_P_harbor",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        42.298004150390625,
+        -81.7611083984375,
+        0.11999999731779099
+      ],
+      "dimensions": [
+        0.7180700898170471,
+        0.377866268157959,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "항구"
+    },
+    {
+      "name": "L_P_pompeii",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        83.72015380859375,
+        -44.453399658203125,
+        0.11999999731779099
+      ],
+      "dimensions": [
+        1.0593608617782593,
+        0.37200814485549927,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "폼페이"
+    },
+    {
+      "name": "L_P_sea",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        46.458984375,
+        -92.04815673828125,
+        0.11999999731779099
+      ],
+      "dimensions": [
+        0.7528581619262695,
+        0.3949562907218933,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "바다"
+    },
+    {
+      "name": "L_P_vesuvio",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        79.32632446289062,
+        -27.72119140625,
+        0.8800054788589478
+      ],
+      "dimensions": [
+        0.7547687292098999,
+        0.38678690791130066,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "화산"
+    },
+    {
+      "name": "L_S1_d",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        51.92594528198242,
+        -91.9135513305664,
+        1.568985104560852
+      ],
+      "dimensions": [
+        2.8038244247436523,
+        1.0610228776931763,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "바닷물 속에서\n새 결정이 자라 더 단단해짐"
+    },
+    {
+      "name": "L_S1_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        48.276390075683594,
+        -88.81475067138672,
+        0.5451379418373108
+      ],
+      "dimensions": [
+        2.946542978286743,
+        0.30949971079826355,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "로마 항구 방파제 조각"
+    },
+    {
+      "name": "L_S1_o",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        49.535099029541016,
+        -89.9029312133789,
+        0.46277758479118347
+      ],
+      "dimensions": [
+        0.9919253587722778,
+        0.23650796711444855,
+        0.0
+      ],
+      "color": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "body": "결정 관찰"
+    },
+    {
+      "name": "L_S2_d",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        78.5248031616211,
+        -65.09420013427734,
+        0.5577828288078308
+      ],
+      "dimensions": [
+        3.0887529850006104,
+        0.23429425060749054,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "마른 석회를 섞어 둔 원료 더미"
+    },
+    {
+      "name": "L_S2_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        76.2155532836914,
+        -62.618404388427734,
+        0.5420950055122375
+      ],
+      "dimensions": [
+        3.1035423278808594,
+        0.34410420060157776,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "폼페이 공사현장(79년)"
+    },
+    {
+      "name": "L_S2_o",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        77.326416015625,
+        -63.83073806762695,
+        0.4336578845977783
+      ],
+      "dimensions": [
+        0.9604752063751221,
+        0.23778000473976135,
+        0.0
+      ],
+      "color": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "body": "배합 흔적"
+    },
+    {
+      "name": "L_S3_d",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        43.31903076171875,
+        -13.66286563873291,
+        1.8251583576202393
+      ],
+      "dimensions": [
+        2.1044788360595703,
+        1.2451939582824707,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "흰 석회 알갱이와\n금을 메운 흰 결정"
+    },
+    {
+      "name": "L_S3_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        38.904170989990234,
+        -8.766077995300293,
+        2.013547420501709
+      ],
+      "dimensions": [
+        1.764186143875122,
+        1.606449842453003,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "프리베르눔\n성벽 조각"
+    },
+    {
+      "name": "L_S3_o",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        40.43722915649414,
+        -10.47636890411377,
+        0.5527178049087524
+      ],
+      "dimensions": [
+        1.9055790901184082,
+        0.2782225012779236,
+        0.0
+      ],
+      "color": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "body": "석회·결정 관찰"
+    },
+    {
+      "name": "L_S4_d",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        59.27381896972656,
+        -69.40442657470703,
+        1.6152738332748413
+      ],
+      "dimensions": [
+        3.676647663116455,
+        1.0944511890411377,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "금으로 흐르던 물이 2주 안에 멈춤,\n알갱이 없으면 계속 샘"
+    },
+    {
+      "name": "L_S4_n",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        55.619415283203125,
+        -65.89311218261719,
+        0.551275372505188
+      ],
+      "dimensions": [
+        1.9190759658813477,
+        0.3193337023258209,
+        0.0
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "body": "오늘의 실험실"
+    },
+    {
+      "name": "L_S4_o",
+      "type": "FONT",
+      "collections": [
+        "70_LABELS_TEST"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        56.89090347290039,
+        -67.1143798828125,
+        0.48249751329421997
+      ],
+      "dimensions": [
+        1.5564149618148804,
+        0.24480214715003967,
+        0.0
+      ],
+      "color": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "body": "균열 충전 실험"
+    },
+    {
+      "name": "R_core_road",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        87.58251953125,
+        84.45977783203125,
+        1.3268468379974365
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 22240,
+      "triangles": 28500,
+      "materials": [],
+      "screen_bbox_pt": [
+        217.88,
+        486.64,
+        977.79,
+        1026.44
+      ]
+    },
+    {
+      "name": "R_via_appia",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        25.87982177734375,
+        26.776708602905273,
+        2.9180173873901367
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 3720,
+      "triangles": 4788,
+      "materials": [],
+      "screen_bbox_pt": [
+        842.93,
+        938.32,
+        1214.05,
+        992.73
+      ]
+    },
+    {
+      "name": "R_via_ostiensis",
+      "type": "MESH",
+      "collections": [
+        "35_FIELDS_ROADS"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        21.383508682250977,
+        46.0074348449707,
+        0.5643723011016846
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4816,
+      "triangles": 6222,
+      "materials": [],
+      "screen_bbox_pt": [
+        139.72,
+        1006.04,
+        402.29,
+        1352.48
+      ]
+    },
+    {
+      "name": "S_core1_badge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.465118408203125,
+        0.465118408203125,
+        0.65777587890625
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 33,
+      "triangles": 32,
+      "materials": [],
+      "screen_bbox_pt": [
+        528.0,
+        388.5,
+        548.0,
+        408.5
+      ]
+    },
+    {
+      "name": "S_core1_underline",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        3.081390380859375,
+        3.081390380859375,
+        0.0263214111328125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        528.0,
+        441.1,
+        660.5,
+        441.9
+      ]
+    },
+    {
+      "name": "S_core2_badge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.465118408203125,
+        0.465118408203125,
+        0.6577606201171875
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 33,
+      "triangles": 32,
+      "materials": [],
+      "screen_bbox_pt": [
+        69.5,
+        758.5,
+        89.5,
+        778.5
+      ]
+    },
+    {
+      "name": "S_core2_underline",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        3.351165771484375,
+        3.351165771484375,
+        0.0263214111328125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        69.5,
+        811.1,
+        213.6,
+        811.9
+      ]
+    },
+    {
+      "name": "S_core3_badge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.4651031494140625,
+        0.465118408203125,
+        0.6577606201171875
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 33,
+      "triangles": 32,
+      "materials": [],
+      "screen_bbox_pt": [
+        408.5,
+        1030.5,
+        428.5,
+        1050.5
+      ]
+    },
+    {
+      "name": "S_core3_underline",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2.84649658203125,
+        2.84649658203125,
+        0.026336669921875
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        408.5,
+        1083.1,
+        530.9,
+        1083.9
+      ]
+    },
+    {
+      "name": "S_core4_badge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.465118408203125,
+        0.4651031494140625,
+        0.65777587890625
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 33,
+      "triangles": 32,
+      "materials": [],
+      "screen_bbox_pt": [
+        638.5,
+        1034.5,
+        658.5,
+        1054.5
+      ]
+    },
+    {
+      "name": "S_core4_underline",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        3.7348785400390625,
+        3.73486328125,
+        0.0263214111328125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        638.5,
+        1087.1,
+        799.1,
+        1087.9
+      ]
+    },
+    {
+      "name": "S_core5_badge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.4651336669921875,
+        0.4651031494140625,
+        0.65777587890625
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 33,
+      "triangles": 32,
+      "materials": [],
+      "screen_bbox_pt": [
+        982.5,
+        818.5,
+        1002.5,
+        838.5
+      ]
+    },
+    {
+      "name": "S_core5_underline",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2.38836669921875,
+        2.3883819580078125,
+        0.026336669921875
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        982.5,
+        871.1,
+        1085.2,
+        871.9
+      ]
+    },
+    {
+      "name": "S_lab_island",
+      "type": "MESH",
+      "collections": [
+        "40_REGION"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        70.30908203125,
+        -70.99154663085938,
+        0.0
+      ],
+      "dimensions": [
+        4.620893478393555,
+        4.309707164764404,
+        5.212491989135742
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4851,
+      "triangles": 9694,
+      "materials": [],
+      "screen_bbox_pt": [
+        556.26,
+        1505.13,
+        623.7,
+        1581.85
+      ]
+    },
+    {
+      "name": "S_lead00",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        1.0247955322265625,
+        1.024810791015625,
+        0.3496246337890625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        51.9,
+        347.06,
+        95.97,
+        357.69
+      ]
+    },
+    {
+      "name": "S_lead01",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.6028900146484375,
+        0.6028900146484375,
+        0.074737548828125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        60.98,
+        385.68,
+        86.9,
+        387.95
+      ]
+    },
+    {
+      "name": "S_lead02",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.2790679931640625,
+        0.2790679931640625,
+        0.0296173095703125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        128.0,
+        1006.55,
+        140.0,
+        1007.45
+      ]
+    },
+    {
+      "name": "S_lead03",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.3930206298828125,
+        0.393035888671875,
+        0.02960205078125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        298.9,
+        1231.45,
+        315.8,
+        1232.35
+      ]
+    },
+    {
+      "name": "S_lead04",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.393035888671875,
+        0.393035888671875,
+        0.02960205078125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        373.8,
+        1231.45,
+        390.7,
+        1232.35
+      ]
+    },
+    {
+      "name": "S_lead05",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5418701171875,
+        0.5418701171875,
+        0.02960205078125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        300.8,
+        1258.05,
+        324.1,
+        1258.95
+      ]
+    },
+    {
+      "name": "S_lead06",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5418701171875,
+        0.5418701171875,
+        0.02960205078125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        365.1,
+        1258.05,
+        388.4,
+        1258.95
+      ]
+    },
+    {
+      "name": "S_lead07",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.38140869140625,
+        0.38140869140625,
+        0.02960205078125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        303.4,
+        1286.55,
+        319.8,
+        1287.45
+      ]
+    },
+    {
+      "name": "S_lead08",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.381378173828125,
+        0.38140869140625,
+        0.02960205078125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        369.8,
+        1286.55,
+        386.2,
+        1287.45
+      ]
+    },
+    {
+      "name": "S_lead09",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.2116241455078125,
+        0.21160888671875,
+        0.02960205078125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        309.5,
+        1307.55,
+        318.6,
+        1308.45
+      ]
+    },
+    {
+      "name": "S_lead10",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.211639404296875,
+        0.2116241455078125,
+        0.0295867919921875
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        375.6,
+        1307.55,
+        384.7,
+        1308.45
+      ]
+    },
+    {
+      "name": "S_lead_dot0",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0744171142578125,
+        0.07440185546875,
+        0.1052398681640625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        94.27,
+        355.65,
+        97.47,
+        358.85
+      ]
+    },
+    {
+      "name": "S_lead_dot1",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0744171142578125,
+        0.0744171142578125,
+        0.105255126953125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        85.28,
+        384.53,
+        88.48,
+        387.73
+      ]
+    },
+    {
+      "name": "S_lead_dot2",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.07440185546875,
+        0.0744171142578125,
+        0.105255126953125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        126.4,
+        1005.4,
+        129.6,
+        1008.6
+      ]
+    },
+    {
+      "name": "S_pin_harbor",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.9918670654296875,
+        0.9918670654296875,
+        1.2089691162109375
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 120,
+      "triangles": 60,
+      "materials": [],
+      "screen_bbox_pt": [
+        197.67,
+        1496.62,
+        240.33,
+        1533.38
+      ]
+    },
+    {
+      "name": "S_pin_harbor_dot",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.079071044921875,
+        0.079071044921875,
+        0.11181640625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        196.3,
+        1495.3,
+        199.7,
+        1498.7
+      ]
+    },
+    {
+      "name": "S_pin_lab",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0232696533203125,
+        0.0232696533203125,
+        1.2826690673828125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 84,
+      "triangles": 42,
+      "materials": [],
+      "screen_bbox_pt": [
+        589.5,
+        1497.8,
+        590.5,
+        1536.8
+      ]
+    },
+    {
+      "name": "S_pin_lab_dot",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.079071044921875,
+        0.079071044921875,
+        0.1118316650390625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        588.3,
+        1535.2,
+        591.7,
+        1538.6
+      ]
+    },
+    {
+      "name": "S_pin_pompeii",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.023284912109375,
+        0.023284912109375,
+        2.071990966796875
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 132,
+      "triangles": 66,
+      "materials": [],
+      "screen_bbox_pt": [
+        723.5,
+        1482.0,
+        724.5,
+        1545.0
+      ]
+    },
+    {
+      "name": "S_pin_pompeii_dot",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.079071044921875,
+        0.079071044921875,
+        0.11181640625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        722.3,
+        1480.3,
+        725.7,
+        1483.7
+      ]
+    },
+    {
+      "name": "S_pin_privernum",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2.9534759521484375,
+        2.9534759521484375,
+        0.03289794921875
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 264,
+      "triangles": 132,
+      "materials": [],
+      "screen_bbox_pt": [
+        897.0,
+        1061.5,
+        1024.0,
+        1062.5
+      ]
+    },
+    {
+      "name": "S_pin_privernum_dot",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.079071044921875,
+        0.079071044921875,
+        0.11181640625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        1022.3,
+        1060.3,
+        1025.7,
+        1063.7
+      ]
+    },
+    {
+      "name": "S_sect0",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.2441864013671875,
+        0.2441864013671875,
+        0.789337158203125
+      ],
+      "color": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        390.7,
+        1221.0,
+        401.2,
+        1245.0
+      ]
+    },
+    {
+      "name": "S_sect0_edge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.258148193359375,
+        0.258148193359375,
+        0.80908203125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 16,
+      "triangles": 8,
+      "materials": [],
+      "screen_bbox_pt": [
+        390.4,
+        1220.7,
+        401.5,
+        1245.3
+      ]
+    },
+    {
+      "name": "S_sect1",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.348846435546875,
+        0.348846435546875,
+        0.88800048828125
+      ],
+      "color": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        388.4,
+        1245.0,
+        403.4,
+        1272.0
+      ]
+    },
+    {
+      "name": "S_sect1_edge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.36279296875,
+        0.36279296875,
+        0.907745361328125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 16,
+      "triangles": 8,
+      "materials": [],
+      "screen_bbox_pt": [
+        388.1,
+        1244.7,
+        403.7,
+        1272.3
+      ]
+    },
+    {
+      "name": "S_sect2",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.4534912109375,
+        0.4534759521484375,
+        0.937347412109375
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        386.2,
+        1272.0,
+        405.7,
+        1300.5
+      ]
+    },
+    {
+      "name": "S_sect2_edge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.467437744140625,
+        0.467437744140625,
+        0.957061767578125
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 16,
+      "triangles": 8,
+      "materials": [],
+      "screen_bbox_pt": [
+        385.9,
+        1271.7,
+        406.0,
+        1300.8
+      ]
+    },
+    {
+      "name": "S_sect3",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.52325439453125,
+        0.52325439453125,
+        0.4933319091796875
+      ],
+      "color": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        384.7,
+        1300.5,
+        407.2,
+        1315.5
+      ]
+    },
+    {
+      "name": "S_sect3_edge",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5372314453125,
+        0.537200927734375,
+        0.5130767822265625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 16,
+      "triangles": 8,
+      "materials": [],
+      "screen_bbox_pt": [
+        384.4,
+        1300.2,
+        407.5,
+        1315.8
+      ]
+    },
+    {
+      "name": "S_sect_brick1227",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.2441864013671875,
+        0.2441864013671875,
+        0.016448974609375
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        390.7,
+        1226.75,
+        401.2,
+        1227.25
+      ]
+    },
+    {
+      "name": "S_sect_brick1233",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.2441864013671875,
+        0.2441864013671875,
+        0.0164642333984375
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        390.7,
+        1232.75,
+        401.2,
+        1233.25
+      ]
+    },
+    {
+      "name": "S_sect_brick1239",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.2441864013671875,
+        0.244171142578125,
+        0.016448974609375
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        390.7,
+        1238.75,
+        401.2,
+        1239.25
+      ]
+    },
+    {
+      "name": "S_sect_dot0",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.079071044921875,
+        0.079071044921875,
+        0.1118316650390625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        389.0,
+        1230.2,
+        392.4,
+        1233.6
+      ]
+    },
+    {
+      "name": "S_sect_dot1",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.079071044921875,
+        0.0790557861328125,
+        0.1118316650390625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        386.7,
+        1256.8,
+        390.1,
+        1260.2
+      ]
+    },
+    {
+      "name": "S_sect_dot2",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.079071044921875,
+        0.079071044921875,
+        0.1118316650390625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        384.5,
+        1285.3,
+        387.9,
+        1288.7
+      ]
+    },
+    {
+      "name": "S_sect_dot3",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.079071044921875,
+        0.079071044921875,
+        0.11181640625
+      ],
+      "color": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        1.0
+      ],
+      "vertices": 13,
+      "triangles": 12,
+      "materials": [],
+      "screen_bbox_pt": [
+        383.0,
+        1306.3,
+        386.4,
+        1309.7
+      ]
+    },
+    {
+      "name": "S_sect_ground",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.8372039794921875,
+        0.8372039794921875,
+        0.03289794921875
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        382.4,
+        1300.0,
+        418.4,
+        1301.0
+      ]
+    },
+    {
+      "name": "S_time_dot0",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.120941162109375,
+        0.120941162109375,
+        0.1710205078125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        47.4,
+        1637.9,
+        52.6,
+        1643.1
+      ]
+    },
+    {
+      "name": "S_time_dot1",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.120941162109375,
+        0.1209259033203125,
+        0.1710205078125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        165.4,
+        1637.9,
+        170.6,
+        1643.1
+      ]
+    },
+    {
+      "name": "S_time_dot2",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.120941162109375,
+        0.120941162109375,
+        0.1710205078125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        283.4,
+        1637.9,
+        288.6,
+        1643.1
+      ]
+    },
+    {
+      "name": "S_time_dot3",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.1209259033203125,
+        0.12091064453125,
+        0.1710205078125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        401.4,
+        1637.9,
+        406.6,
+        1643.1
+      ]
+    },
+    {
+      "name": "S_time_dot4",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.1209259033203125,
+        0.1209259033203125,
+        0.1710205078125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        519.4,
+        1637.9,
+        524.6,
+        1643.1
+      ]
+    },
+    {
+      "name": "S_time_dot5",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.1209259033203125,
+        0.120941162109375,
+        0.1710205078125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        637.4,
+        1637.9,
+        642.6,
+        1643.1
+      ]
+    },
+    {
+      "name": "S_time_dot6",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.1209259033203125,
+        0.12091064453125,
+        0.1710205078125
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 17,
+      "triangles": 16,
+      "materials": [],
+      "screen_bbox_pt": [
+        755.4,
+        1637.9,
+        760.6,
+        1643.1
+      ]
+    },
+    {
+      "name": "S_time_head",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.16278076171875,
+        0.16278076171875,
+        0.230224609375
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 3,
+      "triangles": 1,
+      "materials": [],
+      "screen_bbox_pt": [
+        802.0,
+        1637.0,
+        809.0,
+        1644.0
+      ]
+    },
+    {
+      "name": "S_time_rule",
+      "type": "MESH",
+      "collections": [
+        "80_SHAPES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        17.499908447265625,
+        17.499923706054688,
+        0.03289794921875
+      ],
+      "color": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.07000000029802322,
+        1.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [],
+      "screen_bbox_pt": [
+        49.5,
+        1640.0,
+        802.0,
+        1641.0
+      ]
+    },
+    {
+      "name": "SUN_key",
+      "type": "LIGHT",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "T_cypress",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        28.50224494934082,
+        10.127150535583496,
+        0.5830294489860535
+      ],
+      "dimensions": [
+        0.843932569026947,
+        0.8461519479751587,
+        4.801327228546143
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 642,
+      "triangles": 1280,
+      "materials": [],
+      "screen_bbox_pt": [
+        872.46,
+        861.57,
+        881.02,
+        910.99
+      ]
+    },
+    {
+      "name": "T_land",
+      "type": "MESH",
+      "collections": [
+        "30_TERRAIN"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        322.525390625,
+        303.780029296875,
+        7.601987361907959
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 153090,
+      "triangles": 301317,
+      "materials": [],
+      "screen_bbox_pt": [
+        -9.0,
+        -9.0,
+        1200.0,
+        1621.96
+      ]
+    },
+    {
+      "name": "T_pine",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        75.23743438720703,
+        -12.801565170288086,
+        1.2158383131027222
+      ],
+      "dimensions": [
+        3.7332170009613037,
+        4.095429420471191,
+        4.335308074951172
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1080.46,
+        1181.74,
+        1128.15,
+        1245.52
+      ]
+    },
+    {
+      "name": "T_pine.001",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        64.61064147949219,
+        -21.95566749572754,
+        1.5295381546020508
+      ],
+      "dimensions": [
+        3.84067964553833,
+        4.239378452301025,
+        3.8843255043029785
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        916.26,
+        1181.41,
+        966.06,
+        1233.83
+      ]
+    },
+    {
+      "name": "T_pine.002",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        62.58939743041992,
+        -22.997303009033203,
+        1.0934988260269165
+      ],
+      "dimensions": [
+        3.3321571350097656,
+        3.6554572582244873,
+        3.897512912750244
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        898.96,
+        1177.99,
+        939.45,
+        1233.45
+      ]
+    },
+    {
+      "name": "T_pine.003",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        65.63050842285156,
+        -21.98082733154297,
+        1.7409764528274536
+      ],
+      "dimensions": [
+        2.7830862998962402,
+        3.0719969272613525,
+        2.990504741668701
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        938.62,
+        1194.79,
+        970.41,
+        1236.72
+      ]
+    },
+    {
+      "name": "T_pine.004",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        65.32965850830078,
+        -32.08504867553711,
+        1.8102285861968994
+      ],
+      "dimensions": [
+        3.838710308074951,
+        4.211158275604248,
+        3.9284589290618896
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        845.4,
+        1227.85,
+        894.51,
+        1290.48
+      ]
+    },
+    {
+      "name": "T_pine.007",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        74.60333251953125,
+        -8.472702026367188,
+        1.2395137548446655
+      ],
+      "dimensions": [
+        2.769075393676758,
+        3.0377426147460938,
+        2.9859185218811035
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1119.89,
+        1174.39,
+        1151.6,
+        1218.06
+      ]
+    },
+    {
+      "name": "T_pine.008",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        76.840087890625,
+        -9.855318069458008,
+        1.0740938186645508
+      ],
+      "dimensions": [
+        3.070690155029297,
+        3.368621349334717,
+        3.1518197059631348
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1125.37,
+        1196.29,
+        1164.18,
+        1239.58
+      ]
+    },
+    {
+      "name": "T_pine.009",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        73.21541595458984,
+        -2.727710247039795,
+        1.0394536256790161
+      ],
+      "dimensions": [
+        3.738334894180298,
+        4.126409530639648,
+        4.337661266326904
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1140.33,
+        1124.08,
+        1182.72,
+        1182.83
+      ]
+    },
+    {
+      "name": "T_pine.010",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        74.56390380859375,
+        -4.888186931610107,
+        1.117295265197754
+      ],
+      "dimensions": [
+        3.8939719200134277,
+        4.2717814445495605,
+        4.07189416885376
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1135.65,
+        1142.69,
+        1184.47,
+        1200.57
+      ]
+    },
+    {
+      "name": "T_pine.011",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -29.96812629699707,
+        55.009918212890625,
+        0.8808825612068176
+      ],
+      "dimensions": [
+        3.8723015785217285,
+        4.248008728027344,
+        4.126625061035156
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        734.88,
+        488.45,
+        772.37,
+        528.52
+      ]
+    },
+    {
+      "name": "T_pine.013",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -30.856765747070312,
+        54.98894500732422,
+        0.8543511033058167
+      ],
+      "dimensions": [
+        3.218033790588379,
+        3.552095890045166,
+        3.884735584259033
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        732.67,
+        487.85,
+        763.71,
+        525.85
+      ]
+    },
+    {
+      "name": "T_pine.014",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        68.12535095214844,
+        -14.804461479187012,
+        2.345670700073242
+      ],
+      "dimensions": [
+        2.9398810863494873,
+        3.2450685501098633,
+        3.6147971153259277
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1012.96,
+        1155.92,
+        1045.69,
+        1204.6
+      ]
+    },
+    {
+      "name": "T_pine.015",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        66.72721862792969,
+        -11.780309677124023,
+        2.34637451171875
+      ],
+      "dimensions": [
+        3.6890668869018555,
+        4.07202672958374,
+        4.403285026550293
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1017.17,
+        1123.57,
+        1064.1,
+        1181.48
+      ]
+    },
+    {
+      "name": "T_pine.016",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        64.50338745117188,
+        -12.091605186462402,
+        2.527301549911499
+      ],
+      "dimensions": [
+        3.5619664192199707,
+        3.931732177734375,
+        4.101934432983398
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        994.96,
+        1112.22,
+        1035.28,
+        1169.28
+      ]
+    },
+    {
+      "name": "T_pine.017",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -28.916276931762695,
+        56.59986114501953,
+        0.9138185977935791
+      ],
+      "dimensions": [
+        3.3452413082122803,
+        3.5001580715179443,
+        3.371553897857666
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        751.75,
+        493.22,
+        782.68,
+        526.39
+      ]
+    },
+    {
+      "name": "T_pine.018",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -30.49300765991211,
+        51.76535415649414,
+        0.8116063475608826
+      ],
+      "dimensions": [
+        3.877420663833618,
+        4.279933452606201,
+        4.600811004638672
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        711.38,
+        490.8,
+        745.23,
+        537.78
+      ]
+    },
+    {
+      "name": "T_pine.019",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        -26.79737663269043,
+        56.60480499267578,
+        0.8801613450050354
+      ],
+      "dimensions": [
+        3.2076475620269775,
+        3.3561923503875732,
+        3.6775190830230713
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        770.68,
+        495.7,
+        798.09,
+        533.37
+      ]
+    },
+    {
+      "name": "T_pine.020",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        73.10330200195312,
+        -11.332411766052246,
+        1.4664958715438843
+      ],
+      "dimensions": [
+        2.912769079208374,
+        3.0476582050323486,
+        2.9339396953582764
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1083.02,
+        1180.83,
+        1117.55,
+        1222.75
+      ]
+    },
+    {
+      "name": "T_pine.021",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        70.75404357910156,
+        -12.574319839477539,
+        1.9049224853515625
+      ],
+      "dimensions": [
+        3.5596702098846436,
+        3.7245171070098877,
+        4.059882640838623
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1043.83,
+        1152.6,
+        1086.17,
+        1212.0
+      ]
+    },
+    {
+      "name": "T_pine.022",
+      "type": "MESH",
+      "collections": [
+        "60_TREES"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        61.94540786743164,
+        10.876402854919434,
+        1.5602372884750366
+      ],
+      "dimensions": [
+        3.638219118118286,
+        3.806703805923462,
+        3.6930296421051025
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1190,
+      "triangles": 2336,
+      "materials": [],
+      "screen_bbox_pt": [
+        1136.51,
+        999.76,
+        1178.15,
+        1052.59
+      ]
+    },
+    {
+      "name": "W_water_marks",
+      "type": "MESH",
+      "collections": [
+        "30_TERRAIN"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        216.67245483398438,
+        135.42445373535156,
+        0.3479948937892914
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 10413,
+      "triangles": 12412,
+      "materials": [],
+      "screen_bbox_pt": [
+        -8.28,
+        352.19,
+        1190.52,
+        1618.59
+      ]
+    }
+  ]
+}

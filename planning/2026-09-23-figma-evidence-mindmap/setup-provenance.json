@@ -1,0 +1,12 @@
+{
+  "config_backup": "/Users/um-yunsang/.codex/backups/config-before-figma-20260923T143033.toml",
+  "config_before_sha256": "637e5a2ed10c820141bbfc80fe12783e7995337330c0085801f4e20dda599773",
+  "skills_repo": "https://github.com/figma/mcp-server-guide",
+  "skills_commit": "172920731eedf414e9b22ae60017d9a5b6c9f81f",
+  "skills": [
+    "figma-use",
+    "figma-use-figjam",
+    "figma-create-new-file",
+    "figma-generate-diagram"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"documentName\":\"Document\",\"pages\":[{\"id\":\"19:2\",\"name\":\"마인드맵\"},{\"id\":\"19:3\",\"name\":\"레퍼런스\"},{\"id\":\"19:4\",\"name\":\"스케치\"},{\"id\":\"4:3\",\"name\":\"보관 · 이전 스케치\"}],\"oldPagesAbsent\":true}"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "d86c5e25-1320-4ddc-9ea6-837e39da83fc"
+  }
+}

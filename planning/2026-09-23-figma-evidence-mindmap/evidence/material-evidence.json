@@ -1,0 +1,799 @@
+{
+  "schema_version": "1.0",
+  "status": "proposal_pending_jev_audit",
+  "owner": "research_method",
+  "language": "ko",
+  "headline": "로마의 콘크리트는 왜 안 무너질까?",
+  "core_question": "로마 콘크리트는 어떻게 작은 균열을 스스로 메우며, 이 반응은 오래 버티는 데 어떻게 기여할까?",
+  "production_context": {
+    "format": "A2 portrait",
+    "width_mm": 420,
+    "height_mm": 594,
+    "is_final_design": false
+  },
+  "source_verified_date": "2026-09-23",
+  "method_notes": {
+    "stage_1": "Use items and classification groups only. Item IDs and file order are inventory identifiers, not viewing order. Do not apply suggested_role or process order during classification.",
+    "stage_2": "suggested_role and normalized_process_proposal are proposals for the later priority/sequence stage.",
+    "stage_3": "Relationships must retain evidence type, direction, source IDs, and qualifiers. A before/after edge alone does not assert causation.",
+    "applicability": "directly_supported means the source supports the statement with its qualifications. It does not make a proposed mechanism an observed universal fact.",
+    "confidence": "Qualitative confidence within the stated source scope; not a numerical probability.",
+    "chemistry_type_exception": "Established background chemical reactions use proposed_mechanism as the available explanatory-process category, with source_scope explicitly distinguishing them from unverified hypotheses.",
+    "coverage": "24 selected atomic claims for the revised self-healing question; not an exhaustive extraction of every assertion in both papers.",
+    "deduplication": "Each canonical claim is stored once. Reuse by process steps or roles refers to its ID. Shared evidence sets are not independent replications."
+  },
+  "sources": {
+    "S2023": {
+      "authors": "Seymour et al.",
+      "title": "Hot mixing: Mechanistic insights into the durability of ancient Roman concrete",
+      "published": "2023-01-06",
+      "doi": "10.1126/sciadv.add1602",
+      "url": "https://doi.org/10.1126/sciadv.add1602",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9821858/",
+      "verified_full_text_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9821858/fullTextXML",
+      "document_lineage": "source-document.txt reference [3]",
+      "figure": {
+        "number": 6,
+        "kind": "proposed_mechanism_schematic",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/77b5/9821858/01a02194e842/sciadv.add1602-f6.jpg",
+        "pixel_dimensions": [
+          785,
+          365
+        ],
+        "license": "CC BY-NC 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "license_scope": "Article-level notice; no separate figure exception found.",
+        "verification": "HTTP 200; image/jpeg"
+      }
+    },
+    "S2025": {
+      "authors": "Vaserman et al.",
+      "title": "An unfinished Pompeian construction site reveals ancient Roman building technology",
+      "published": "2025-12-09",
+      "doi": "10.1038/s41467-025-66634-7",
+      "url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "full_text_url": "https://www.nature.com/articles/s41467-025-66634-7",
+      "verified_full_text_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12690119/fullTextXML",
+      "document_lineage": "source-document.txt reference [4]",
+      "figure": {
+        "number": 7,
+        "kind": "reconstructed_production_process_schematic",
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-025-66634-7/MediaObjects/41467_2025_66634_Fig7_HTML.png",
+        "pixel_dimensions": [
+          2000,
+          578
+        ],
+        "license": "CC BY-NC-ND 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "license_scope": "Article-level notice; no separate figure exception found. The notice does not permit sharing adapted material.",
+        "verification": "HTTP 200; image/png"
+      }
+    }
+  },
+  "classification_groups": {
+    "G-COMPOSITION": "무엇으로 이루어졌나",
+    "G-FORMATION": "만들어질 때의 반응",
+    "G-ANCIENT": "고대 현장에서 발견한 단서",
+    "G-HEALING": "균열 이후의 반응",
+    "G-EXPERIMENT": "현대 시편에서 확인한 결과",
+    "G-LIMITS": "설명할 수 있는 범위"
+  },
+  "evidence_items": [
+    {
+      "id": "MAT-01",
+      "statement": "로마 콘크리트는 굵은 골재와 이를 결합하는 모르타르로 구성된다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "INTRODUCTION (sec1), first paragraph",
+      "source_scope": "background_material_definition",
+      "evidence_type": "ancient_observation",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "논문의 재료 정의; 직접시험 결과와 구분."
+      ],
+      "classification_group": "G-COMPOSITION",
+      "classification_label": "무엇으로 이루어졌나",
+      "suggested_role": "basic",
+      "lineage": {
+        "canonical_claim_id": "MAT-01",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-background"
+      }
+    },
+    {
+      "id": "MAT-02",
+      "statement": "석회석을 가열하면 생석회가 만들어진다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "INTRODUCTION (sec1), mortar production paragraph",
+      "source_scope": "established_background_chemistry",
+      "evidence_type": "proposed_mechanism",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "기초 화학 설명; 유적별 공정은 별도 확인."
+      ],
+      "classification_group": "G-FORMATION",
+      "classification_label": "만들어질 때의 반응",
+      "suggested_role": "basic",
+      "lineage": {
+        "canonical_claim_id": "MAT-02",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-background"
+      }
+    },
+    {
+      "id": "MAT-03",
+      "statement": "폼페이 자료는 생석회·포졸란의 건식 혼합 후 물 첨가를 뒷받침한다.",
+      "source_id": "S2025",
+      "source_url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "source_section": "Abstract; Results / Evidence of construction activities (Sec3); Fig. 7A,C",
+      "source_scope": "inference_from_archaeological_observations",
+      "evidence_type": "ancient_observation",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "Domus IX 10, 1의 제조법 복원."
+      ],
+      "classification_group": "G-FORMATION",
+      "classification_label": "만들어질 때의 반응",
+      "suggested_role": "core",
+      "lineage": {
+        "canonical_claim_id": "MAT-03",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2025-Pompeii-site"
+      }
+    },
+    {
+      "id": "MAT-04",
+      "statement": "생석회가 물과 반응해 소석회가 될 때 열이 발생한다.",
+      "source_id": "S2025",
+      "source_url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "source_section": "Introduction (Sec1), hot mixing reaction; Fig. 7C",
+      "source_scope": "established_background_chemistry",
+      "evidence_type": "proposed_mechanism",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "발열 반응이지 균열 치유 자체는 아니다."
+      ],
+      "classification_group": "G-FORMATION",
+      "classification_label": "만들어질 때의 반응",
+      "suggested_role": "basic",
+      "lineage": {
+        "canonical_claim_id": "MAT-04",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2025-background"
+      }
+    },
+    {
+      "id": "MAT-05",
+      "statement": "석회·포졸란 반응은 재료를 결합하는 수화물을 만든다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "INTRODUCTION (sec1), hydraulic mortars paragraph",
+      "source_scope": "established_background_chemistry",
+      "evidence_type": "proposed_mechanism",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "초기 경화와 이후 충전을 구별."
+      ],
+      "classification_group": "G-FORMATION",
+      "classification_label": "만들어질 때의 반응",
+      "suggested_role": "detail",
+      "lineage": {
+        "canonical_claim_id": "MAT-05",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-background"
+      }
+    },
+    {
+      "id": "MAT-06",
+      "statement": "프리베르눔의 석회 덩어리에서는 방해석이 주성분으로 확인됐다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "RESULTS (sec2), XRD analysis; Fig. 2G; Fig. 3D",
+      "source_scope": "reported_finding",
+      "evidence_type": "ancient_observation",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "덩어리 전체를 미반응 생석회로 표시하지 않는다."
+      ],
+      "classification_group": "G-ANCIENT",
+      "classification_label": "고대 현장에서 발견한 단서",
+      "suggested_role": "basic",
+      "lineage": {
+        "canonical_claim_id": "MAT-06",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Privernum-samples"
+      }
+    },
+    {
+      "id": "MAT-07",
+      "statement": "2023년 고대 분석 대상은 프리베르눔 성벽 모르타르 시료 10개다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "MATERIALS AND METHODS / Sample collection (sec6)",
+      "source_scope": "reported_finding",
+      "evidence_type": "ancient_observation",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "콜로세움 시료가 아니다."
+      ],
+      "classification_group": "G-ANCIENT",
+      "classification_label": "고대 현장에서 발견한 단서",
+      "suggested_role": "support",
+      "lineage": {
+        "canonical_claim_id": "MAT-07",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Privernum-samples"
+      }
+    },
+    {
+      "id": "MAT-08",
+      "statement": "2025년 연구는 폼페이 공사 현장의 원료와 벽체를 비교했다.",
+      "source_id": "S2025",
+      "source_url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "source_section": "Results / Evidence of construction activities (Sec3); Wall construction (Sec4)",
+      "source_scope": "reported_finding",
+      "evidence_type": "ancient_observation",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "현장별 배합 차이를 남겨둔다."
+      ],
+      "classification_group": "G-ANCIENT",
+      "classification_label": "고대 현장에서 발견한 단서",
+      "suggested_role": "support",
+      "lineage": {
+        "canonical_claim_id": "MAT-08",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2025-Pompeii-site"
+      }
+    },
+    {
+      "id": "MAT-09",
+      "statement": "폼페이에는 소석회를 사용한 보수·마감의 단서도 있다.",
+      "source_id": "S2025",
+      "source_url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "source_section": "Discussion (Sec6), MR/W2 and lime-containing amphorae; Fig. 7D",
+      "source_scope": "inference_from_archaeological_observations",
+      "evidence_type": "ancient_observation",
+      "applicability": "directly_supported",
+      "confidence": "moderate",
+      "limits": [
+        "저자 해석이며 용도별 제조법이 다를 수 있다."
+      ],
+      "classification_group": "G-ANCIENT",
+      "classification_label": "고대 현장에서 발견한 단서",
+      "suggested_role": "detail",
+      "lineage": {
+        "canonical_claim_id": "MAT-09",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2025-Pompeii-site"
+      }
+    },
+    {
+      "id": "MAT-10",
+      "statement": "균열이 생긴 뒤 물이 틈과 연결된 공극으로 들어올 수 있다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "DISCUSSION (sec3); Fig. 6 bottom row",
+      "source_scope": "reported_finding",
+      "evidence_type": "proposed_mechanism",
+      "applicability": "directly_supported",
+      "confidence": "moderate",
+      "limits": [
+        "물의 접근이 필요한 조건."
+      ],
+      "classification_group": "G-HEALING",
+      "classification_label": "균열 이후의 반응",
+      "suggested_role": "core",
+      "lineage": {
+        "canonical_claim_id": "MAT-10",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-mechanism-F6"
+      }
+    },
+    {
+      "id": "MAT-11",
+      "statement": "석회 덩어리 일부가 녹으면 칼슘을 공급할 수 있다.",
+      "source_id": "S2025",
+      "source_url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "source_section": "Results / Post-pozzolanic aggregate/matrix interfacial remodeling (Sec5); Discussion (Sec6)",
+      "source_scope": "reported_finding",
+      "evidence_type": "proposed_mechanism",
+      "applicability": "directly_supported",
+      "confidence": "moderate",
+      "limits": [
+        "용해·재광물화 해석; 속도는 현장마다 다를 수 있다."
+      ],
+      "classification_group": "G-HEALING",
+      "classification_label": "균열 이후의 반응",
+      "suggested_role": "core",
+      "lineage": {
+        "canonical_claim_id": "MAT-11",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2025-Pompeii-site"
+      },
+      "additional_source_refs": [
+        {
+          "source_id": "S2023",
+          "url": "https://doi.org/10.1126/sciadv.add1602",
+          "section": "DISCUSSION (sec3); Fig. 6"
+        }
+      ]
+    },
+    {
+      "id": "MAT-12",
+      "statement": "칼슘이 풍부한 용액은 연결된 틈으로 이동할 수 있다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "DISCUSSION (sec3); Fig. 6 processes 1 and 2",
+      "source_scope": "reported_finding",
+      "evidence_type": "proposed_mechanism",
+      "applicability": "directly_supported",
+      "confidence": "moderate",
+      "limits": [
+        "연결된 물길과 화학 조건이 필요하다."
+      ],
+      "classification_group": "G-HEALING",
+      "classification_label": "균열 이후의 반응",
+      "suggested_role": "core",
+      "lineage": {
+        "canonical_claim_id": "MAT-12",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-mechanism-F6"
+      }
+    },
+    {
+      "id": "MAT-13",
+      "statement": "탄산칼슘이 다시 석출되면 작은 틈을 메울 수 있다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "DISCUSSION (sec3); Fig. 6 process 1; RESULTS / Fig. 5D–F",
+      "source_scope": "reported_finding",
+      "evidence_type": "proposed_mechanism",
+      "applicability": "directly_supported",
+      "confidence": "moderate",
+      "limits": [
+        "일부 조건의 충전 가능성."
+      ],
+      "classification_group": "G-HEALING",
+      "classification_label": "균열 이후의 반응",
+      "suggested_role": "core",
+      "lineage": {
+        "canonical_claim_id": "MAT-13",
+        "duplicate_of": null,
+        "derived_from_item_ids": [
+          "MAT-21"
+        ],
+        "shared_evidence_set": "S2023-mechanism-F6"
+      }
+    },
+    {
+      "id": "MAT-14",
+      "statement": "칼슘은 남은 포졸란과 반응해 추가 결합 물질을 만들 수도 있다.",
+      "source_id": "S2025",
+      "source_url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "source_section": "Results / Post-pozzolanic aggregate/matrix interfacial remodeling (Sec5); Discussion (Sec6)",
+      "source_scope": "reported_finding",
+      "evidence_type": "proposed_mechanism",
+      "applicability": "directly_supported",
+      "confidence": "moderate",
+      "limits": [
+        "주 경로와 병렬인 추가 반응."
+      ],
+      "classification_group": "G-HEALING",
+      "classification_label": "균열 이후의 반응",
+      "suggested_role": "detail",
+      "lineage": {
+        "canonical_claim_id": "MAT-14",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2025-Pompeii-site"
+      },
+      "additional_source_refs": [
+        {
+          "source_id": "S2023",
+          "url": "https://doi.org/10.1126/sciadv.add1602",
+          "section": "DISCUSSION (sec3); Fig. 6 process 2"
+        }
+      ]
+    },
+    {
+      "id": "MAT-15",
+      "statement": "균열 치유 시험은 로마 재료에서 착안한 현대 모르타르로 했다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "MATERIALS AND METHODS / Roman-inspired concrete samples (sec7), Mix 1",
+      "source_scope": "experimental_material",
+      "evidence_type": "modern_experiment",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "OPC·플라이애시·모래·물·생석회; 굵은 골재 없음."
+      ],
+      "classification_group": "G-EXPERIMENT",
+      "classification_label": "현대 시편에서 확인한 결과",
+      "suggested_role": "basic",
+      "lineage": {
+        "canonical_claim_id": "MAT-15",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Mix1-flow"
+      }
+    },
+    {
+      "id": "MAT-16",
+      "statement": "시험 시편의 인위적 틈은 0.5 ± 0.1 mm였다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "MATERIALS AND METHODS / Self-healing experiments (sec11), step 1; Fig. 5A",
+      "source_scope": "experimental_condition",
+      "evidence_type": "modern_experiment",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "보편적인 치유 한계값이 아니다."
+      ],
+      "classification_group": "G-EXPERIMENT",
+      "classification_label": "현대 시편에서 확인한 결과",
+      "suggested_role": "detail",
+      "lineage": {
+        "canonical_claim_id": "MAT-16",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Mix1-flow"
+      }
+    },
+    {
+      "id": "MAT-17",
+      "statement": "시편은 균열을 내기 전 28일간 수중 양생했다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "MATERIALS AND METHODS / Self-healing experiments (sec11), step 1",
+      "source_scope": "experimental_condition",
+      "evidence_type": "modern_experiment",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "현대 시편의 사전 준비 조건."
+      ],
+      "classification_group": "G-EXPERIMENT",
+      "classification_label": "현대 시편에서 확인한 결과",
+      "suggested_role": "support",
+      "lineage": {
+        "canonical_claim_id": "MAT-17",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Mix1-flow"
+      }
+    },
+    {
+      "id": "MAT-18",
+      "statement": "본시험 전 두 달간 습윤·건조 전처리를 했다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "MATERIALS AND METHODS / Self-healing experiments (sec11), step 3",
+      "source_scope": "experimental_condition",
+      "evidence_type": "modern_experiment",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "현장 자연노출 시간과 다르다."
+      ],
+      "classification_group": "G-EXPERIMENT",
+      "classification_label": "현대 시편에서 확인한 결과",
+      "suggested_role": "support",
+      "lineage": {
+        "canonical_claim_id": "MAT-18",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Mix1-flow"
+      }
+    },
+    {
+      "id": "MAT-19",
+      "statement": "물 공급에 따른 유량 변화를 30일 범위에서 관찰했다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "MATERIALS AND METHODS / Self-healing experiments (sec11), step 4; RESULTS / Fig. 5B,C",
+      "source_scope": "experimental_condition",
+      "evidence_type": "modern_experiment",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "유량이 멈추거나 미미해지면 종료."
+      ],
+      "classification_group": "G-EXPERIMENT",
+      "classification_label": "현대 시편에서 확인한 결과",
+      "suggested_role": "detail",
+      "lineage": {
+        "canonical_claim_id": "MAT-19",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Mix1-flow"
+      }
+    },
+    {
+      "id": "MAT-20",
+      "statement": "유량은 균열 형상에 따라 약 1–3주에 거의 0으로 줄었다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "RESULTS (sec2), flow experiment paragraph; Fig. 5C",
+      "source_scope": "reported_finding",
+      "evidence_type": "modern_experiment",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "해당 석회 덩어리 포함 시편의 결과."
+      ],
+      "classification_group": "G-EXPERIMENT",
+      "classification_label": "현대 시편에서 확인한 결과",
+      "suggested_role": "core",
+      "lineage": {
+        "canonical_claim_id": "MAT-20",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Mix1-flow"
+      }
+    },
+    {
+      "id": "MAT-21",
+      "statement": "새로 생긴 균열 충전물은 방해석으로 확인됐다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "RESULTS (sec2); Fig. 5D–F, Raman spectroscopy",
+      "source_scope": "reported_finding",
+      "evidence_type": "modern_experiment",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "현대 시험의 충전물 분석."
+      ],
+      "classification_group": "G-EXPERIMENT",
+      "classification_label": "현대 시편에서 확인한 결과",
+      "suggested_role": "basic",
+      "lineage": {
+        "canonical_claim_id": "MAT-21",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "S2023-Mix1-flow"
+      }
+    },
+    {
+      "id": "MAT-22",
+      "statement": "유량 감소만으로 원래의 하중 지지 능력 회복을 입증하지는 못한다.",
+      "source_id": "S2023",
+      "source_url": "https://doi.org/10.1126/sciadv.add1602",
+      "source_section": "MATERIALS AND METHODS / Self-healing experiments (sec11); Fig. 5",
+      "source_scope": "audit_inference_from_measured_outcomes",
+      "evidence_type": "limitation",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "측정 지표와 구조 안전을 구분."
+      ],
+      "classification_group": "G-LIMITS",
+      "classification_label": "설명할 수 있는 범위",
+      "suggested_role": "core",
+      "lineage": {
+        "canonical_claim_id": "MAT-22",
+        "duplicate_of": null,
+        "derived_from_item_ids": [
+          "MAT-19",
+          "MAT-20",
+          "MAT-21"
+        ],
+        "shared_evidence_set": "S2023-Mix1-flow"
+      }
+    },
+    {
+      "id": "MAT-23",
+      "statement": "두 현장 연구를 모든 로마 콘크리트에 일반화할 수는 없다.",
+      "source_id": "S2025",
+      "source_url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "source_section": "Discussion (Sec6), broader spatial/temporal assessment; Methods (Sec7)",
+      "source_scope": "audit_inference_from_sampling_scope",
+      "evidence_type": "limitation",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "콜로세움·제국 전체의 동일 성능 미검증."
+      ],
+      "classification_group": "G-LIMITS",
+      "classification_label": "설명할 수 있는 범위",
+      "suggested_role": "core",
+      "lineage": {
+        "canonical_claim_id": "MAT-23",
+        "duplicate_of": null,
+        "derived_from_item_ids": [
+          "MAT-07",
+          "MAT-08",
+          "MAT-15"
+        ],
+        "shared_evidence_set": "cross-study-scope-audit"
+      },
+      "additional_source_refs": [
+        {
+          "source_id": "S2023",
+          "url": "https://doi.org/10.1126/sciadv.add1602",
+          "section": "Sample collection (sec6); Roman-inspired concrete samples (sec7)"
+        }
+      ]
+    },
+    {
+      "id": "MAT-24",
+      "statement": "고대 건축가가 자가치유를 의도했는지는 확인되지 않았다.",
+      "source_id": "S2025",
+      "source_url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "source_section": "Discussion (Sec6); Methods (Sec7), archaeological and material analyses",
+      "source_scope": "audit_inference_from_evidence_type",
+      "evidence_type": "limitation",
+      "applicability": "directly_supported",
+      "confidence": "high",
+      "limits": [
+        "제조 행위와 설계 의도를 구분."
+      ],
+      "classification_group": "G-LIMITS",
+      "classification_label": "설명할 수 있는 범위",
+      "suggested_role": "support",
+      "lineage": {
+        "canonical_claim_id": "MAT-24",
+        "duplicate_of": null,
+        "derived_from_item_ids": [],
+        "shared_evidence_set": "cross-study-scope-audit"
+      },
+      "additional_source_refs": [
+        {
+          "source_id": "S2023",
+          "url": "https://doi.org/10.1126/sciadv.add1602",
+          "section": "INTRODUCTION (sec1); DISCUSSION (sec3)"
+        }
+      ]
+    }
+  ],
+  "normalized_process_proposal": {
+    "status": "for_stage_2_and_3_review_only",
+    "steps": [
+      {
+        "step": 1,
+        "phase": "formation",
+        "label": "석회석 가열 → 생석회",
+        "evidence_ids": [
+          "MAT-02"
+        ],
+        "status": "background_chemistry"
+      },
+      {
+        "step": 2,
+        "phase": "formation",
+        "label": "생석회 + 포졸란 건식 혼합",
+        "evidence_ids": [
+          "MAT-03"
+        ],
+        "status": "site_supported_reconstruction"
+      },
+      {
+        "step": 3,
+        "phase": "formation",
+        "label": "물 첨가·발열·경화 / 칼슘 공급원 잔류",
+        "evidence_ids": [
+          "MAT-04",
+          "MAT-05",
+          "MAT-06"
+        ],
+        "status": "chemistry_plus_ancient_observation"
+      },
+      {
+        "step": 4,
+        "phase": "after_crack",
+        "label": "균열로 물 유입 → 칼슘 용해·이동",
+        "evidence_ids": [
+          "MAT-10",
+          "MAT-11",
+          "MAT-12"
+        ],
+        "status": "proposed_mechanism"
+      },
+      {
+        "step": 5,
+        "phase": "after_crack",
+        "label": "광물 석출·추가 반응 → 틈 충전 가능",
+        "evidence_ids": [
+          "MAT-13",
+          "MAT-14",
+          "MAT-21"
+        ],
+        "status": "proposed_mechanism_with_modern_experiment_support"
+      }
+    ],
+    "transition_note": "Step 3 → 4 includes elapsed service time and a later cracking event; it is not a continuous five-step laboratory procedure.",
+    "branch_note": "Step 5 includes two possible chemical routes. Do not depict both as always occurring or as both demonstrated by the timed flow experiment.",
+    "lineage_note": "No additional observations are created by this synthesis; use the referenced canonical items."
+  },
+  "claim_audit_flags": [
+    {
+      "id": "AUD-01",
+      "severity": "material",
+      "related_ids": [
+        "MAT-15"
+      ],
+      "check": "Use 현대 모르타르 시편, not exact ancient replica or a Colosseum sample."
+    },
+    {
+      "id": "AUD-02",
+      "severity": "material",
+      "related_ids": [
+        "MAT-16",
+        "MAT-17",
+        "MAT-18",
+        "MAT-19",
+        "MAT-20"
+      ],
+      "check": "Display outcome numbers with their specimen and conditioning context; never as universal promises."
+    },
+    {
+      "id": "AUD-03",
+      "severity": "source_inconsistency",
+      "related_ids": [
+        "MAT-20"
+      ],
+      "check": "S2023 Results gives flow-meter precision as ±5 L/h; Methods step 2 gives ±0.5 L/h. Preserve 거의 0 and avoid an absolute impermeability claim."
+    },
+    {
+      "id": "AUD-04",
+      "severity": "material",
+      "related_ids": [
+        "MAT-22",
+        "MAT-23",
+        "MAT-24"
+      ],
+      "check": "No inference of restored building capacity, universal survival, ancient intent, or superiority in every property."
+    },
+    {
+      "id": "AUD-05",
+      "severity": "scope",
+      "related_ids": [
+        "MAT-08"
+      ],
+      "check": "S2025 is site/material evidence, not a second timed crack-flow trial or an independent repetition of S2023."
+    }
+  ],
+  "unused_scope": {
+    "reason": "User revised the subject from Colosseum engineering systems to Roman concrete self-healing.",
+    "preserved_source": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/source-document.txt",
+    "out_of_scope_topics": [
+      "콜로세움의 아치·볼트·하중 전달",
+      "벨라리움·차양·열환경",
+      "객석·경기장의 음향"
+    ],
+    "disposition": "Retained in the original document; not deleted, disproved, or silently reclassified as material evidence."
+  },
+  "handoff": {
+    "next_owner": "root / Jev evidence review",
+    "awaiting": [
+      "atomic-claim review",
+      "stage separation review",
+      "wording and evidence-boundary review"
+    ],
+    "no_external_actions_performed": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "R1",
+      "title": "Building Trajan’s Column",
+      "creator": "Fernando G. Baptista and National Geographic team",
+      "source": "https://www.athcreative.com/trajans-column",
+      "image": "https://images.squarespace-cdn.com/content/v1/50f43f46e4b022c54499c15d/1464723436336-P1Q4IO7X5HJ40FG61929/image-asset.png",
+      "file": "trajan.png",
+      "takeaway": "One dominant structure, exposed parts and local explanatory scenes.",
+      "local_path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/references/trajan.png"
+    },
+    {
+      "id": "R2",
+      "title": "City of Anarchy",
+      "creator": "Adolfo Arranz / South China Morning Post",
+      "source": "https://www.perdigallos.com/city-of-anarchy",
+      "image": "https://images.squarespace-cdn.com/content/v1/5dc6478b031296316656e59e/1628416787340-ZYUXPOQH4A49JNQ54GZ8/kwc00.jpg?format=1000w",
+      "file": "kowloon.jpg",
+      "takeaway": "Large perspective cutaway; annotations attach to the place they explain.",
+      "local_path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/references/kowloon-portfolio.jpg"
+    },
+    {
+      "id": "R3",
+      "title": "Notre-Dame reconstruction graphic",
+      "creator": "Fernando G. Baptista / National Geographic España,2025",
+      "source": "https://www.nationalgeographic.com.es/mundo-ng/fernando-baptista-national-geographic-mejor-disenador-mundo_24859",
+      "image": "https://content.nationalgeographic.com.es/medio/2025/04/25/infografia-de-baptista_00000000_3a80edba_250425122908_1280x929.webp",
+      "file": "notre-dame.webp",
+      "takeaway": "Asymmetric diagonal architectural cutaway; highlights replace rectangular information zones.",
+      "local_path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/references/notre-dame.webp",
+      "display_path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/references/notre-dame.png",
+      "display_conversion": "Lossless visual transcode fromWebPtoPNG forFigma renderer compatibility"
+    }
+  ],
+  "supporting_composition_sources": [
+    {
+      "title": "The Room of Change",
+      "creator": "Giorgia Lupi / Accurat",
+      "url": "https://giorgialupi.com/the-room-of-change",
+      "adaptation": "Thin chronological ribbons can wrap an architectural form; do not encode unmeasured preservation contribution through width."
+    },
+    {
+      "title": "Writing Without Words",
+      "creator": "Stefanie Posavec",
+      "url": "https://www.stefanieposavec.com/archive/writing-without-words",
+      "adaptation": "Branch geometry can express whole-part structure; distinguish this from causal or chronological links."
+    }
+  ],
+  "pinterest_discovery": [
+    "https://www.pinterest.com/pin/498281146243605177/",
+    "https://www.pinterest.com/pin/the-conception-and-construction-of-drum-and-dome-four-the-pantheon--428193877085033967/"
+  ],
+  "reuse_boundary": "Original works are visual references for critique and composition only. Final Pantheon illustration will be original; do not reuse copyrighted illustration fragments as our subject evidence.",
+  "preferred_direction": "A large asymmetrical Pantheon cutaway becomes the composition; local labels, a light preservation path and a small Colosseum comparison replace stacked sections.",
+  "visual_inspection_completed": true,
+  "research_before_sketch": true,
+  "selected_direction": "건축물이 지면을 조직한다: 대각선 절개도 + 부위에 붙는 짧은 설명 + 기초 주변의 시간 흔적",
+  "rejected_direction": "가로 단 나열, 동일한 사각 정보창, 균일한3열카드",
+  "decision_time": "2026-09-23T16:46:49.793098",
+  "original_illustration": {
+    "path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/outputs/pantheon-cutaway-concept.png",
+    "size": [
+      1054,
+      1492
+    ],
+    "kind": "Original AI-generated conceptual architectural cutaway",
+    "claim_limit": "Not a measured reconstruction or direct evidence of material self-healing",
+    "generated_after_research_gate": true
+  }
+}

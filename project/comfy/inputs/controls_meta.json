@@ -1,0 +1,24 @@
+{
+ "canvas": [
+  1216,
+  1728
+ ],
+ "scale_px_per_pt": 1.0209907640638118,
+ "pad_bottom_px": 8.651553316540912,
+ "classes": {
+  "back:aqueduct": 10,
+  "back:hill": 6,
+  "back:house": 43,
+  "back:kiln": 5,
+  "back:mountain": 24,
+  "back:wall": 16,
+  "front:harbor": 5,
+  "front:hill": 9,
+  "front:house": 33,
+  "front:plaza": 2,
+  "front:smoke": 3,
+  "front:tree": 2,
+  "front:volcano": 5,
+  "front:wall": 22
+ }
+}

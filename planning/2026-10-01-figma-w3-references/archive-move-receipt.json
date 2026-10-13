@@ -1,0 +1,138 @@
+{
+  "createdNodeIds": [
+    "427:78"
+  ],
+  "mutatedNodeIds": [
+    "19:4",
+    "146:78",
+    "147:78",
+    "178:78",
+    "178:2171"
+  ],
+  "archivePageId": "427:78",
+  "archivePageName": "이전 스케치",
+  "finalPageId": "19:4",
+  "finalPageName": "최종 스케치 · W3",
+  "before": [
+    {
+      "id": "146:78",
+      "name": "A2 · 로마시대 오픈월드 지도 (레이아웃 바탕)",
+      "parentId": "19:4",
+      "x": 1491,
+      "y": 100,
+      "width": 1191,
+      "height": 1684,
+      "descendants": 1604
+    },
+    {
+      "id": "147:78",
+      "name": "A2 · 내러티브 다이어그램 · 1차 (로마 오픈월드 지도 위)",
+      "parentId": "19:4",
+      "x": 100,
+      "y": 100,
+      "width": 1191,
+      "height": 1684,
+      "descendants": 2092
+    },
+    {
+      "id": "178:78",
+      "name": "작업 · W1",
+      "parentId": "19:4",
+      "x": 2900,
+      "y": 100,
+      "width": 1191,
+      "height": 1684,
+      "descendants": 1717
+    },
+    {
+      "id": "178:2171",
+      "name": "작업 · W2",
+      "parentId": "19:4",
+      "x": 4300,
+      "y": 100,
+      "width": 1191,
+      "height": 1684,
+      "descendants": 1759
+    }
+  ],
+  "moved": [
+    {
+      "id": "146:78",
+      "name": "A2 · 로마시대 오픈월드 지도 (레이아웃 바탕)",
+      "parentId": "427:78",
+      "x": 1491,
+      "y": 100,
+      "width": 1191,
+      "height": 1684,
+      "descendants": 1604
+    },
+    {
+      "id": "147:78",
+      "name": "A2 · 내러티브 다이어그램 · 1차 (로마 오픈월드 지도 위)",
+      "parentId": "427:78",
+      "x": 100,
+      "y": 100,
+      "width": 1191,
+      "height": 1684,
+      "descendants": 2092
+    },
+    {
+      "id": "178:78",
+      "name": "작업 · W1",
+      "parentId": "427:78",
+      "x": 2900,
+      "y": 100,
+      "width": 1191,
+      "height": 1684,
+      "descendants": 1717
+    },
+    {
+      "id": "178:2171",
+      "name": "작업 · W2",
+      "parentId": "427:78",
+      "x": 4300,
+      "y": 100,
+      "width": 1191,
+      "height": 1684,
+      "descendants": 1759
+    }
+  ],
+  "finalPageChildren": [
+    {
+      "id": "179:78",
+      "name": "작업 · W3",
+      "type": "FRAME"
+    },
+    {
+      "id": "414:78",
+      "name": "W3 · 최종 3차 마인드맵 (03 관계 · 원본 복사)",
+      "type": "FRAME"
+    },
+    {
+      "id": "419:78",
+      "name": "W3 · 지역 실사진 (지명과 항만 유구)",
+      "type": "FRAME"
+    },
+    {
+      "id": "421:78",
+      "name": "W3 · 연구 실사진 (CORE ①②④와 실험)",
+      "type": "FRAME"
+    },
+    {
+      "id": "423:78",
+      "name": "W3 · 오브젝트 실사진 (재료·제작·구조·보수)",
+      "type": "FRAME"
+    },
+    {
+      "id": "426:78",
+      "name": "W3 · 최종 스케치 표기",
+      "type": "TEXT"
+    },
+    {
+      "id": "426:79",
+      "name": "W3 · 전체 보기 (마인드맵·스케치·실사진 30장)",
+      "type": "SLICE"
+    }
+  ],
+  "archiveSketchCount": 4
+}

@@ -1,0 +1,75 @@
+{
+ "round": 0,
+ "text_object_overlaps": [
+  {
+   "text": "수도교",
+   "kind": "place",
+   "object": "L05_aqua_claudia",
+   "coll": "40_REGION",
+   "area": 786.0
+  },
+  {
+   "text": "아피아 가도",
+   "kind": "place",
+   "object": "T_pine",
+   "coll": "60_TREES",
+   "area": 57.4
+  },
+  {
+   "text": "폼페이",
+   "kind": "place",
+   "object": "T_pine.025",
+   "coll": "60_TREES",
+   "area": 102.6
+  },
+  {
+   "text": "CORE ② 블록",
+   "kind": "core",
+   "object": "C2_hot_mixing",
+   "coll": "45_CORE_SCENES",
+   "area": 224.6
+  },
+  {
+   "text": "CORE ③ 블록",
+   "kind": "core",
+   "object": "L04_palatine",
+   "coll": "40_REGION",
+   "area": 0.0
+  },
+  {
+   "text": "CORE ④ 블록",
+   "kind": "core",
+   "object": "C4_crack_repair",
+   "coll": "45_CORE_SCENES",
+   "area": 0.0
+  },
+  {
+   "text": "CORE ④ 블록",
+   "kind": "core",
+   "object": "T_pine.012",
+   "coll": "60_TREES",
+   "area": 60.8
+  },
+  {
+   "text": "CORE ④ 블록",
+   "kind": "core",
+   "object": "T_pine.013",
+   "coll": "60_TREES",
+   "area": 68.8
+  },
+  {
+   "text": "DETAIL ④ 글",
+   "kind": "detail",
+   "object": "D4_crack",
+   "coll": "50_DETAIL_MODEL",
+   "area": 2564.0
+  }
+ ],
+ "outside_frame": [
+  "T_pine.008",
+  "T_pine.020",
+  "T_pine.022"
+ ],
+ "text_text_overlaps": [],
+ "n_objects": 71
+}

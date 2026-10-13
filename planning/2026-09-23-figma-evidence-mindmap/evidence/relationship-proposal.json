@@ -1,0 +1,914 @@
+{
+  "schema_version": "1.0",
+  "status": "pending_jev_relationship_review",
+  "owner": "figma_options",
+  "core_question": "로마 콘크리트는 어떻게 작은 균열을 스스로 메우며, 이 반응은 오래 버티는 데 어떻게 기여할까?",
+  "source_dataset": "evidence/material-evidence.json",
+  "source_ids": {
+    "S2023": {
+      "url": "https://doi.org/10.1126/sciadv.add1602",
+      "title": "Hot mixing: Mechanistic insights into the durability of ancient Roman concrete"
+    },
+    "S2025": {
+      "url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "title": "An unfinished Pompeian construction site reveals ancient Roman building technology"
+    }
+  },
+  "interpretation_notes": [
+    "This graph is an explanatory synthesis, not a claim that each arrow was directly measured.",
+    "Manufacture precedes later damage; it is not a continuous laboratory procedure.",
+    "Proposed and optional causal paths carry qualifiers in both visible labels and metadata.",
+    "The two reaction routes are not asserted to occur together or to have identical experimental verification.",
+    "Experimental evidence concerns modern mortar; reduced flow does not establish restored load-bearing capacity.",
+    "No mutual-influence edges are asserted without evidence.",
+    "Evidence IDs identify reused canonical claims, not additional independent observations."
+  ],
+  "nodes": [
+    {
+      "id": "A1",
+      "label": "폼페이 현장 단서\n제조·보수법의 차이",
+      "evidence_ids": [
+        "MAT-03",
+        "MAT-08",
+        "MAT-09"
+      ],
+      "source_ids": [
+        "S2025"
+      ],
+      "kind": "ancient_observation",
+      "era": "ancient_evidence",
+      "qualifier": "Domus IX 10, 1 원료·벽체의 분석과 저자 해석; 자기치유 유량시험의 반복이 아니다.",
+      "position": {
+        "x": 120,
+        "y": 310,
+        "width": 500
+      }
+    },
+    {
+      "id": "L3",
+      "label": "고대의 자기치유\n설계 의도는 미확인",
+      "evidence_ids": [
+        "MAT-24"
+      ],
+      "source_ids": [
+        "S2025"
+      ],
+      "kind": "limitation",
+      "era": "cross_era",
+      "qualifier": "제조 공정의 증거는 자기치유를 의도했다는 증거가 아니다.",
+      "position": {
+        "x": 800,
+        "y": 280,
+        "width": 490
+      }
+    },
+    {
+      "id": "M1",
+      "label": "로마 콘크리트\n골재 + 모르타르",
+      "evidence_ids": [
+        "MAT-01"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "material_definition",
+      "era": "material",
+      "qualifier": "재료의 기초 정의.",
+      "position": {
+        "x": 1480,
+        "y": 310,
+        "width": 440
+      }
+    },
+    {
+      "id": "A2",
+      "label": "프리베르눔 성벽\n모르타르 시료 10개",
+      "evidence_ids": [
+        "MAT-06",
+        "MAT-07"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "ancient_observation",
+      "era": "ancient_evidence",
+      "qualifier": "2023년 고대 분석 표본. 콜로세움 시료가 아니다.",
+      "position": {
+        "x": 2180,
+        "y": 350,
+        "width": 570
+      }
+    },
+    {
+      "id": "F1",
+      "label": "석회석 가열 → 생석회\n생석회·포졸란 건식 혼합",
+      "evidence_ids": [
+        "MAT-02",
+        "MAT-03"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "kind": "manufacture",
+      "era": "formation",
+      "qualifier": "기초 화학과 폼페이 자료로 복원한 현장 제조법; 제국 전체의 유일 공정으로 일반화하지 않는다.",
+      "position": {
+        "x": 120,
+        "y": 660,
+        "width": 500
+      }
+    },
+    {
+      "id": "F2",
+      "label": "물 첨가\n발열·경화",
+      "evidence_ids": [
+        "MAT-04",
+        "MAT-05"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "kind": "manufacture",
+      "era": "formation",
+      "qualifier": "생석회 수화 발열 및 포졸란 반응에 의한 결합재 형성; 균열 치유 자체가 아니다.",
+      "position": {
+        "x": 800,
+        "y": 660,
+        "width": 440
+      }
+    },
+    {
+      "id": "M2",
+      "label": "시료 속 석회 덩어리\n방해석이 주성분",
+      "evidence_ids": [
+        "MAT-06"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "material_part",
+      "era": "material",
+      "qualifier": "고대 덩어리 전체를 미반응 생석회로 표현하지 않는다.",
+      "position": {
+        "x": 1480,
+        "y": 720,
+        "width": 490
+      }
+    },
+    {
+      "id": "C1",
+      "label": "시간이 흐른 뒤\n균열 발생",
+      "evidence_ids": [
+        "MAT-10"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "event",
+      "era": "after_crack",
+      "qualifier": "후속 사용 중 균열을 가정하는 제안 기작의 시작 조건; 균열 발생 시점 자체를 특정 실험으로 측정한 것은 아니다.",
+      "position": {
+        "x": 120,
+        "y": 1320,
+        "width": 420
+      }
+    },
+    {
+      "id": "C2",
+      "label": "물의 접근\n연결된 틈·화학 조건",
+      "evidence_ids": [
+        "MAT-10",
+        "MAT-12"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "necessary_condition",
+      "era": "after_crack",
+      "qualifier": "모든 균열에 자동으로 충분한 물과 반응 조건이 갖춰지는 것은 아니다.",
+      "position": {
+        "x": 810,
+        "y": 1320,
+        "width": 470
+      }
+    },
+    {
+      "id": "P1",
+      "label": "석회 덩어리 일부 용해\n칼슘 공급 가능",
+      "evidence_ids": [
+        "MAT-11"
+      ],
+      "source_ids": [
+        "S2025"
+      ],
+      "kind": "proposed_mechanism",
+      "era": "after_crack",
+      "qualifier": "용해·재광물화 해석; 현장 조건과 공급원에 의존한다.",
+      "position": {
+        "x": 1520,
+        "y": 1320,
+        "width": 450
+      }
+    },
+    {
+      "id": "P2",
+      "label": "칼슘이 풍부한\n용액의 이동 가능",
+      "evidence_ids": [
+        "MAT-12"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "proposed_mechanism",
+      "era": "after_crack",
+      "qualifier": "연결된 물길이 필요하며 모든 노출에서 발생하는 것은 아니다.",
+      "position": {
+        "x": 2200,
+        "y": 1320,
+        "width": 440
+      }
+    },
+    {
+      "id": "P3",
+      "label": "탄산칼슘(CaCO₃) 석출\n작은 틈의 충전 가능",
+      "evidence_ids": [
+        "MAT-13",
+        "MAT-21"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "proposed_mechanism",
+      "era": "after_crack",
+      "qualifier": "제안된 탄산칼슘 경로를 현대 시편 충전물 분석이 뒷받침한다.",
+      "position": {
+        "x": 2890,
+        "y": 1110,
+        "width": 510
+      }
+    },
+    {
+      "id": "P4",
+      "label": "남은 포졸란과\n추가 반응 가능",
+      "evidence_ids": [
+        "MAT-14"
+      ],
+      "source_ids": [
+        "S2025"
+      ],
+      "kind": "optional_mechanism",
+      "era": "after_crack",
+      "qualifier": "가능한 병렬 반응이다. 두 경로의 항상 동시 발생이나 유량시험에서의 동일 입증을 뜻하지 않는다.",
+      "position": {
+        "x": 2890,
+        "y": 1630,
+        "width": 510
+      }
+    },
+    {
+      "id": "R0",
+      "label": "작은 틈의 자기치유\n내구성 기여 가능성",
+      "evidence_ids": [
+        "MAT-13",
+        "MAT-14",
+        "MAT-20",
+        "MAT-21"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "kind": "qualified_synthesis",
+      "era": "synthesis",
+      "qualifier": "틈 충전·물길 감소의 기여 가능성을 설명하는 종합이며, 건물 전체의 강도 회복이나 2천년 생존의 단독 원인을 입증하지 않는다.",
+      "position": {
+        "x": 3590,
+        "y": 1270,
+        "width": 620
+      }
+    },
+    {
+      "id": "E1",
+      "label": "로마 재료에서 착안한\n현대 모르타르 시편",
+      "evidence_ids": [
+        "MAT-15"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "experimental_material",
+      "era": "modern_experiment",
+      "qualifier": "OPC·플라이애시·모래·물·생석회; 고대 배합의 정확한 복제품이 아니다.",
+      "position": {
+        "x": 120,
+        "y": 2160,
+        "width": 540
+      }
+    },
+    {
+      "id": "E2",
+      "label": "시험 틈 0.5 ± 0.1 mm\n28일 양생 · 2개월 습윤/건조\n30일 범위 유량 관찰",
+      "evidence_ids": [
+        "MAT-16",
+        "MAT-17",
+        "MAT-18",
+        "MAT-19"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "experimental_condition",
+      "era": "modern_experiment",
+      "qualifier": "28일 수중 양생 후 틈을 만들고, 두 달간 전처리한 뒤 유량 관찰; 수치들은 해당 시편의 시험 조건이다.",
+      "position": {
+        "x": 850,
+        "y": 2130,
+        "width": 670
+      }
+    },
+    {
+      "id": "E3",
+      "label": "조건별 약 1–3주\n유량이 거의 0",
+      "evidence_ids": [
+        "MAT-20"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "observed_result",
+      "era": "modern_experiment",
+      "qualifier": "석회 덩어리 포함 현대 시편의 관찰이며 절대 불투수성·보편적 치유 속도를 뜻하지 않는다.",
+      "position": {
+        "x": 2280,
+        "y": 2160,
+        "width": 500
+      }
+    },
+    {
+      "id": "E4",
+      "label": "새 균열 충전물\n방해석 확인",
+      "evidence_ids": [
+        "MAT-21"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "observed_result",
+      "era": "modern_experiment",
+      "qualifier": "현대 시험의 충전물 분석. 고대 구조물 전체의 성능시험이 아니다.",
+      "position": {
+        "x": 3590,
+        "y": 2160,
+        "width": 530
+      }
+    },
+    {
+      "id": "L1",
+      "label": "유량 감소 ≠\n하중 지지 능력 회복의 입증",
+      "evidence_ids": [
+        "MAT-22"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "kind": "limitation",
+      "era": "cross_era",
+      "qualifier": "관찰 지표가 구조 강도나 복원된 하중 지지능력이 아니다.",
+      "position": {
+        "x": 2280,
+        "y": 2700,
+        "width": 680
+      }
+    },
+    {
+      "id": "L2",
+      "label": "일부 현장·현대 시편\n모든 로마 콘크리트로 일반화 불가",
+      "evidence_ids": [
+        "MAT-23"
+      ],
+      "source_ids": [
+        "S2025"
+      ],
+      "kind": "limitation",
+      "era": "cross_era",
+      "qualifier": "표본·배합·시대·환경 범위의 차이를 유지한다.",
+      "position": {
+        "x": 3490,
+        "y": 2770,
+        "width": 730
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "REL-01",
+      "source": "A1",
+      "target": "F1",
+      "type": "archaeological_support",
+      "label": "현장 해석\n건식 혼합을 지지",
+      "evidence_ids": [
+        "MAT-03",
+        "MAT-08",
+        "MAT-09"
+      ],
+      "source_ids": [
+        "S2025"
+      ],
+      "qualifier": "폼페이 해당 현장 자료에서 복원한 공정이며, 모든 로마 재료에 적용하는 보편 법칙이 아니다.",
+      "visual": {
+        "color": "#9C79C1",
+        "start_magnet": "BOTTOM",
+        "end_magnet": "TOP",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-02",
+      "source": "F1",
+      "target": "F2",
+      "type": "manufacturing_sequence",
+      "label": "시간 · 제조\n이후 물 첨가",
+      "evidence_ids": [
+        "MAT-02",
+        "MAT-03",
+        "MAT-04",
+        "MAT-05"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "qualifier": "제조 단계의 순서. 모든 반응이 완전히 끝난 후 다음 과정이 시작된다는 배타적 단계 모델이 아니다.",
+      "visual": {
+        "color": "#E67845",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-03",
+      "source": "F2",
+      "target": "M2",
+      "type": "proposed_formation_context",
+      "label": "제조 기작(제안)\n칼슘 공급원 잔류",
+      "evidence_ids": [
+        "MAT-03",
+        "MAT-04",
+        "MAT-05",
+        "MAT-06",
+        "MAT-11"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "qualifier": "두 연구의 제조 해석·시료 관찰을 연결한 제안. 제조 과정이 모든 석회 덩어리의 동일한 성분이나 미래 반응성을 보장하지 않는다.",
+      "visual": {
+        "color": "#E67845",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-04",
+      "source": "M1",
+      "target": "M2",
+      "type": "whole_part",
+      "label": "전체–부분\n모르타르 속 덩어리",
+      "evidence_ids": [
+        "MAT-01",
+        "MAT-06"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "해당 분석 시료에서 관찰한 재료의 부분 관계; 모든 로마 모르타르에 대한 존재 명제가 아니다.",
+      "visual": {
+        "color": "#D29F2A",
+        "start_magnet": "BOTTOM",
+        "end_magnet": "TOP",
+        "arrow": false,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-05",
+      "source": "A2",
+      "target": "M2",
+      "type": "ancient_observation",
+      "label": "시료 관찰\n방해석 주성분",
+      "evidence_ids": [
+        "MAT-06",
+        "MAT-07"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "고대 시료 분석 결과이며, 생석회가 2천년 동안 그대로 남았다는 주장이 아니다.",
+      "visual": {
+        "color": "#9C79C1",
+        "start_magnet": "LEFT",
+        "end_magnet": "RIGHT",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-06",
+      "source": "F1",
+      "target": "L3",
+      "type": "intent_limit",
+      "label": "추론의 한계\n제조법 ≠ 치유 의도",
+      "evidence_ids": [
+        "MAT-03",
+        "MAT-24"
+      ],
+      "source_ids": [
+        "S2025"
+      ],
+      "qualifier": "제조 행위와 자가치유를 겨냥한 고대인의 설계 의도는 서로 다른 명제다.",
+      "visual": {
+        "color": "#BD687B",
+        "start_magnet": "TOP",
+        "end_magnet": "LEFT",
+        "arrow": false,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-07",
+      "source": "F2",
+      "target": "C1",
+      "type": "manufacture_before_damage",
+      "label": "시간 경과\n제조와 이후 균열",
+      "evidence_ids": [
+        "MAT-04",
+        "MAT-05",
+        "MAT-10"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "qualifier": "서로 다른 시기의 사건을 연결한 설명이며 연속 다섯 단계 실험이나 제조가 균열을 직접 일으킨다는 뜻이 아니다.",
+      "visual": {
+        "color": "#E67845",
+        "start_magnet": "BOTTOM",
+        "end_magnet": "TOP",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-08",
+      "source": "C1",
+      "target": "C2",
+      "type": "necessary_condition",
+      "label": "필요조건(제안)\n균열에 물이 닿을 때",
+      "evidence_ids": [
+        "MAT-10",
+        "MAT-12"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "균열만으로 반응이 보장되지 않으며 물 접근·연결 공극·화학 조건이 필요하다.",
+      "visual": {
+        "color": "#36A091",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-09",
+      "source": "C2",
+      "target": "P1",
+      "type": "necessary_condition",
+      "label": "필요조건(제안)\n물의 접근",
+      "evidence_ids": [
+        "MAT-10",
+        "MAT-11",
+        "MAT-12"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "qualifier": "용해를 설명하려면 물과 칼슘 공급원이 함께 필요하다. 물이 들어오는 것만으로 항상 치유되지는 않는다.",
+      "visual": {
+        "color": "#36A091",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-10",
+      "source": "M2",
+      "target": "P1",
+      "type": "proposed_causal_pathway",
+      "label": "제안 기작\n칼슘 공급원 가능",
+      "evidence_ids": [
+        "MAT-06",
+        "MAT-11"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "qualifier": "고대 덩어리의 전체가 미반응 생석회라는 뜻이 아니며 일부의 용해 가능성에 관한 해석이다.",
+      "visual": {
+        "color": "#36A091",
+        "start_magnet": "BOTTOM",
+        "end_magnet": "TOP",
+        "arrow": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-11",
+      "source": "P1",
+      "target": "P2",
+      "type": "proposed_causal_pathway",
+      "label": "제안 기작\n연결된 물길로 이동",
+      "evidence_ids": [
+        "MAT-11",
+        "MAT-12"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "qualifier": "공급된 칼슘이 물을 통해 이동할 수 있다는 경로이며 연결성·화학 조건에 의존한다.",
+      "visual": {
+        "color": "#36A091",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-12",
+      "source": "P2",
+      "target": "P3",
+      "type": "proposed_causal_pathway",
+      "label": "제안 기작\n탄산칼슘 석출 가능",
+      "evidence_ids": [
+        "MAT-12",
+        "MAT-13",
+        "MAT-21"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "석출에 맞는 화학 조건에서의 가능성. 이동한 모든 칼슘이 반드시 탄산칼슘이 된다는 의미가 아니다.",
+      "visual": {
+        "color": "#36A091",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-13",
+      "source": "P2",
+      "target": "P4",
+      "type": "optional_proposed_pathway",
+      "label": "선택 경로(제안)\n포졸란이 남으면",
+      "evidence_ids": [
+        "MAT-12",
+        "MAT-14"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "qualifier": "반응성 포졸란이 남아 있을 때 가능한 병렬 경로이며 CaCO3 경로와 항상 함께 일어나지 않는다.",
+      "visual": {
+        "color": "#36A091",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-14",
+      "source": "P3",
+      "target": "R0",
+      "type": "qualified_contribution",
+      "label": "제안 기작\n틈 충전에 기여 가능",
+      "evidence_ids": [
+        "MAT-13",
+        "MAT-20",
+        "MAT-21"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "틈 충전·물길 감소가 내구성에 기여할 가능성의 설명이며 하중 지지능력 회복이나 장기수명을 직접 측정한 결과가 아니다.",
+      "visual": {
+        "color": "#36A091",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-15",
+      "source": "P4",
+      "target": "R0",
+      "type": "qualified_contribution",
+      "label": "제안 기작\n추가 결합 가능",
+      "evidence_ids": [
+        "MAT-14"
+      ],
+      "source_ids": [
+        "S2025"
+      ],
+      "qualifier": "추가 포졸란 반응의 가능성을 포함하며 시간별 유량시험이 이 경로도 별도로 입증했다는 뜻이 아니다.",
+      "visual": {
+        "color": "#36A091",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-16",
+      "source": "E1",
+      "target": "E2",
+      "type": "experimental_design",
+      "label": "시험 설계\n해당 시편의 조건",
+      "evidence_ids": [
+        "MAT-15",
+        "MAT-16",
+        "MAT-17",
+        "MAT-18",
+        "MAT-19"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "현대 모르타르 실험의 재료·전처리·틈폭·관찰 조건이다.",
+      "visual": {
+        "color": "#4785C9",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-17",
+      "source": "E2",
+      "target": "E3",
+      "type": "experimental_observation",
+      "label": "시험 관찰\n조건별 유량 감소",
+      "evidence_ids": [
+        "MAT-16",
+        "MAT-17",
+        "MAT-18",
+        "MAT-19",
+        "MAT-20"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "정해진 조건에서 관찰된 결과이며 보편적인 치유 시간이나 치유 가능한 최대 틈폭을 뜻하지 않는다.",
+      "visual": {
+        "color": "#4785C9",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-18",
+      "source": "E3",
+      "target": "E4",
+      "type": "joint_explanation",
+      "label": "공동 설명\n유량 + 충전물",
+      "evidence_ids": [
+        "MAT-20",
+        "MAT-21"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "같은 실험 계열의 두 관찰 지표이며 서로 독립된 반복 연구나 유량 감소가 방해석을 만들었다는 인과관계가 아니다.",
+      "visual": {
+        "color": "#4785C9",
+        "start_magnet": "RIGHT",
+        "end_magnet": "LEFT",
+        "arrow": false,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-19",
+      "source": "E4",
+      "target": "R0",
+      "type": "experimental_support",
+      "label": "실험 지원\n현대 시편의 관찰",
+      "evidence_ids": [
+        "MAT-15",
+        "MAT-20",
+        "MAT-21"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "현대 시편의 유량·광물 분석이 기작 설명을 뒷받침하지만 고대 전체의 동일 성능을 입증하지 않는다.",
+      "visual": {
+        "color": "#4785C9",
+        "start_magnet": "TOP",
+        "end_magnet": "BOTTOM",
+        "arrow": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "REL-20",
+      "source": "E3",
+      "target": "L1",
+      "type": "measured_outcome_limit",
+      "label": "추론의 한계\n구조 강도는 미검증",
+      "evidence_ids": [
+        "MAT-19",
+        "MAT-20",
+        "MAT-21",
+        "MAT-22"
+      ],
+      "source_ids": [
+        "S2023"
+      ],
+      "qualifier": "유량 감소·광물 충전과 원래 구조 강도의 회복을 구분한다.",
+      "visual": {
+        "color": "#BD687B",
+        "start_magnet": "BOTTOM",
+        "end_magnet": "TOP",
+        "arrow": false,
+        "dashed": true
+      }
+    },
+    {
+      "id": "REL-21",
+      "source": "E4",
+      "target": "L2",
+      "type": "generalization_limit",
+      "label": "일반화 한계\n해당 현장·배합의 범위",
+      "evidence_ids": [
+        "MAT-07",
+        "MAT-08",
+        "MAT-15",
+        "MAT-21",
+        "MAT-23"
+      ],
+      "source_ids": [
+        "S2023",
+        "S2025"
+      ],
+      "qualifier": "프리베르눔·폼페이·현대 시편의 출처와 범위를 합쳐 살피며 모든 로마 콘크리트 또는 콜로세움의 같은 성능으로 확대하지 않는다.",
+      "visual": {
+        "color": "#BD687B",
+        "start_magnet": "BOTTOM",
+        "end_magnet": "TOP",
+        "arrow": false,
+        "dashed": true
+      }
+    }
+  ],
+  "visual_plan": {
+    "native_node_types": [
+      "SECTION",
+      "TEXT",
+      "CONNECTOR",
+      "SHAPE_WITH_TEXT"
+    ],
+    "connector_line_type": "CURVED",
+    "layout": "spatial graph with distinct manufacture, after-crack and modern-experiment eras; no column/card frames",
+    "new_section_name": "03 · 관계 마인드맵",
+    "append_right_of_existing_sections": true,
+    "image_targets": [
+      "2023-mechanism",
+      "2023-experiment"
+    ],
+    "image_scale_mode": "FIT"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "expected_source_sha256": "28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3",
+  "text_zones_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/copy/text_zones_narrative.json",
+  "assets": [
+    {
+      "id": "modern_building",
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/modern_reinforced_frame_v2.glb",
+      "source_task_id": "01a116ac-b735-72d7-8c7e-3ba593cac38c",
+      "bbox": [
+        688,
+        384,
+        826,
+        491
+      ],
+      "replace_objects": [
+        "C1_pozzolana_quarry"
+      ],
+      "rotation_z_degrees": 90,
+      "grayscale": 0.78,
+      "ground_z": 0,
+      "shadow_pass": "map"
+    },
+    {
+      "id": "lime_clast_specimen",
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/roman_lime_clast_solid_v2.glb",
+      "source_task_id": "01a116ac-c435-7236-a463-d2ed8874d393",
+      "bbox": [
+        438,
+        1132,
+        581,
+        1260
+      ],
+      "replace_objects": [
+        "C3_arch_building"
+      ],
+      "rotation_z_degrees": 0,
+      "grayscale": 0.58,
+      "ground_z": 0,
+      "shadow_pass": "map",
+      "reuse_lime_inclusions": true
+    },
+    {
+      "id": "marine_breakwater",
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/roman_marine_breakwater.glb",
+      "source_task_id": "01a116a5-71fb-75a2-869c-d1b1d612d645",
+      "bbox": [
+        398,
+        1510,
+        500,
+        1600
+      ],
+      "replace_objects": [],
+      "rotation_z_degrees": 270,
+      "grayscale": 0.75,
+      "ground_z": -1.6,
+      "shadow_pass": "map",
+      "model_proportions": [
+        1.8,
+        0.7,
+        0.8
+      ]
+    },
+    {
+      "id": "core4_sequence",
+      "reuse_object_prefixes": [
+        "D4_"
+      ],
+      "bbox": [
+        642,
+        1133,
+        811,
+        1227
+      ],
+      "replace_objects": [
+        "C4_crack_repair"
+      ],
+      "rotation_z_degrees": 0,
+      "ground_z": 0,
+      "shadow_pass": "overlay"
+    }
+  ]
+}

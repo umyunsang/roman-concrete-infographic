@@ -1,0 +1,523 @@
+{
+  "status": "final_saved_v6_pass",
+  "saved_scene": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v6.blend",
+  "scene_sha256": "d71533920ebd305c41e92db718b527647c8b9655aee87cbb3b656c3afde257cd",
+  "object_count": 317,
+  "added_objects": [],
+  "removed_objects": [],
+  "source_v5_sha_unchanged": true,
+  "canonical_sha_unchanged": true,
+  "snapshot_differences": {},
+  "protected_object_count": 286,
+  "protected_differences": {},
+  "hero_terrain_camera_roads_preserved": true,
+  "modern_clast_final_terrain_validation": {
+    "NB_modern_building": {
+      "vertex_count": 28609,
+      "polygon_count": 24975,
+      "terrain_crossing_polygon_pairs": 0,
+      "all_vertex_ground_gap_min_max": [
+        0.019969493182387055,
+        13.103465752933289
+      ],
+      "negative_ground_vertex_count": 0,
+      "bbox": [
+        709.8779836619115,
+        355.31037841977053,
+        885.1172737866987,
+        550.3783197525246
+      ]
+    },
+    "NB_lime_clast_specimen": {
+      "vertex_count": 20297,
+      "polygon_count": 23532,
+      "terrain_crossing_polygon_pairs": 0,
+      "all_vertex_ground_gap_min_max": [
+        0.01997699654966567,
+        7.57546972112516
+      ],
+      "negative_ground_vertex_count": 0,
+      "bbox": [
+        441.99390566515217,
+        1132.406785123379,
+        566.0060940596278,
+        1288.0872752258454
+      ]
+    }
+  },
+  "badge_bounds": {
+    "S_core2_badge": [
+      69.49989002672211,
+      746.5006291756816,
+      89.50007133860153,
+      766.5002105966421
+    ],
+    "S_core2_underline": [
+      69.49952391098904,
+      797.1000786079669,
+      213.60030922117767,
+      797.9003958533656
+    ]
+  },
+  "badge_matches_requested_box": true,
+  "underline_matches_requested_y": true,
+  "prior_unchanged_placement_checks": {
+    "note": "Reused prior actual saved-v6 tree/site/marine checks; root confirms positions and algorithm unchanged; current report fingerprints establish unchanged geometry/transforms for these objects.",
+    "moved_tree_contacts": [
+      {
+        "name": "T_pine.011",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.030957937240600586
+        ],
+        "bbox": [
+          411.5276175923297,
+          1350.7392218139646,
+          462.94702405049907,
+          1409.8608040886486
+        ],
+        "origin": [
+          48.57527160644531,
+          -67.20022583007812,
+          0.7981698513031006
+        ]
+      },
+      {
+        "name": "T_pine.013",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.036382436752319336
+        ],
+        "bbox": [
+          452.5656109178294,
+          1370.7761139615295,
+          495.25811020323965,
+          1426.8813001354645
+        ],
+        "origin": [
+          52.09654235839844,
+          -66.46780395507812,
+          0.7702310085296631
+        ]
+      },
+      {
+        "name": "T_pine.017",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.023290395736694336
+        ],
+        "bbox": [
+          481.88442093956826,
+          1354.3961735263792,
+          524.7426304382509,
+          1403.163526456095
+        ],
+        "origin": [
+          51.96234130859375,
+          -62.490509033203125,
+          0.6723916530609131
+        ]
+      },
+      {
+        "name": "T_pine.018",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.015195608139038086
+        ],
+        "bbox": [
+          516.041734571113,
+          1356.1064997273972,
+          562.3963793457468,
+          1426.6851618975286
+        ],
+        "origin": [
+          55.66537094116211,
+          -62.081783294677734,
+          0.3977487087249756
+        ]
+      },
+      {
+        "name": "T_pine.019",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.06960844993591309
+        ],
+        "bbox": [
+          418.4788196074012,
+          1405.1105406758272,
+          457.5200914225426,
+          1461.6342857392153
+        ],
+        "origin": [
+          52.94327926635742,
+          -71.27125549316406,
+          0.7805230617523193
+        ]
+      },
+      {
+        "name": "T_pine.001",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.08137297630310059
+        ],
+        "bbox": [
+          440.79250678045713,
+          1418.5323834362111,
+          493.78070051413056,
+          1476.1919229675511
+        ],
+        "origin": [
+          55.92262649536133,
+          -70.20130920410156,
+          0.5929696559906006
+        ]
+      },
+      {
+        "name": "T_pine.002",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.013952016830444336
+        ],
+        "bbox": [
+          489.7534813982446,
+          1398.7253789442987,
+          533.0675668337401,
+          1459.3577230817882
+        ],
+        "origin": [
+          56.65486145019531,
+          -66.43936157226562,
+          0.4094674587249756
+        ]
+      },
+      {
+        "name": "T_pine.003",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.010854482650756836
+        ],
+        "bbox": [
+          529.7725656439885,
+          1424.0143963220687,
+          563.1494564919279,
+          1469.7959475785642
+        ],
+        "origin": [
+          59.54644012451172,
+          -65.30612182617188,
+          0.4334237575531006
+        ]
+      },
+      {
+        "name": "T_pine.004",
+        "tested_vertices": 8,
+        "outside_land": [],
+        "gap_min_max": [
+          0.009999990463256836,
+          0.043760061264038086
+        ],
+        "bbox": [
+          846.5643821569403,
+          1287.8462656037234,
+          896.5036789874771,
+          1351.916572828757
+        ],
+        "origin": [
+          69.71420288085938,
+          -36.83259963989258,
+          1.0465295314788818
+        ]
+      }
+    ],
+    "tree_vs_key_site_crossings": [],
+    "lab_ruin_vs_visible_scene_crossings": [],
+    "marine": {
+      "world_min": [
+        57.54112976960478,
+        -79.49919397161767,
+        -0.8500000238418579
+      ],
+      "world_max": [
+        60.442802697263105,
+        -71.23182410197577,
+        0.1764354316421759
+      ],
+      "bbox": [
+        398.4302533322585,
+        1507.170232083378,
+        499.5786795670361,
+        1582.231333929536
+      ],
+      "water_z": -0.699999988079071,
+      "vertices_above_water": 20385,
+      "vertices_below_water": 154,
+      "sea_crossings": {
+        "a": "NB_marine_breakwater",
+        "b": "L10_sea",
+        "world_aabb_intersection": [
+          [
+            57.54112976960478,
+            -79.49919397161767,
+            -0.699999988079071
+          ],
+          [
+            60.442802697263105,
+            -71.23182410197577,
+            -0.699999988079071
+          ]
+        ],
+        "crossing_polygon_pair_count": 222,
+        "crossing_polygon_pairs_first20": [
+          [
+            14930,
+            17491
+          ],
+          [
+            14930,
+            17492
+          ],
+          [
+            15264,
+            17491
+          ],
+          [
+            15264,
+            13123
+          ],
+          [
+            15264,
+            13122
+          ],
+          [
+            15264,
+            9277
+          ],
+          [
+            15264,
+            8748
+          ],
+          [
+            15264,
+            8749
+          ],
+          [
+            15264,
+            11900
+          ],
+          [
+            15264,
+            11901
+          ],
+          [
+            15264,
+            20612
+          ],
+          [
+            15264,
+            20625
+          ],
+          [
+            15264,
+            20626
+          ],
+          [
+            15264,
+            20613
+          ],
+          [
+            17182,
+            20611
+          ],
+          [
+            17182,
+            20612
+          ],
+          [
+            17182,
+            20610
+          ],
+          [
+            17294,
+            20610
+          ],
+          [
+            17281,
+            20610
+          ],
+          [
+            17287,
+            20609
+          ]
+        ],
+        "screen": {
+          "area": 7592.312323187238,
+          "bbox": [
+            398.4302533322585,
+            1507.170232083378,
+            499.5786795670361,
+            1582.231333929536
+          ]
+        }
+      },
+      "shore_crossings": {
+        "a": "NB_marine_breakwater",
+        "b": "T_land",
+        "world_aabb_intersection": [
+          [
+            57.54112976960478,
+            -79.49919397161767,
+            -0.8500000238418579
+          ],
+          [
+            60.442802697263105,
+            -71.23182410197577,
+            0.1764354316421759
+          ]
+        ],
+        "crossing_polygon_pair_count": 37,
+        "crossing_polygon_pairs_first20": [
+          [
+            50,
+            294153
+          ],
+          [
+            50,
+            294152
+          ],
+          [
+            23,
+            294153
+          ],
+          [
+            21,
+            294153
+          ],
+          [
+            71,
+            294153
+          ],
+          [
+            71,
+            294152
+          ],
+          [
+            71,
+            294151
+          ],
+          [
+            71,
+            294150
+          ],
+          [
+            71,
+            294149
+          ],
+          [
+            71,
+            294148
+          ],
+          [
+            71,
+            294147
+          ],
+          [
+            71,
+            294145
+          ],
+          [
+            71,
+            294146
+          ],
+          [
+            87,
+            294143
+          ],
+          [
+            87,
+            294144
+          ],
+          [
+            87,
+            294145
+          ],
+          [
+            87,
+            294141
+          ],
+          [
+            87,
+            294142
+          ],
+          [
+            53,
+            294152
+          ],
+          [
+            53,
+            294151
+          ]
+        ],
+        "screen": {
+          "area": 7592.312323187238,
+          "bbox": [
+            398.4302533322585,
+            1507.170232083378,
+            499.5786795670361,
+            1582.231333929536
+          ]
+        }
+      },
+      "base_depth_below_water": 0.15000003576278687,
+      "top_above_water": 0.8764354197212469
+    }
+  },
+  "ground_face_refinement_operations": [
+    {
+      "name": "NB_modern_building",
+      "action": "subdivide crossing bottom surfaces and conform to terrain",
+      "initial_to_final_crossing_pairs": [
+        267,
+        0
+      ],
+      "added_base_vertices": 4536,
+      "after_bbox": [
+        709.8779836619115,
+        355.31037841977053,
+        885.1172737866987,
+        550.3783197525246
+      ]
+    },
+    {
+      "name": "NB_lime_clast_specimen",
+      "action": "subdivide crossing bottom surfaces and conform to terrain",
+      "initial_to_final_crossing_pairs": [
+        72,
+        0
+      ],
+      "added_base_vertices": 1584,
+      "after_bbox": [
+        441.99390566515217,
+        1132.406785123379,
+        566.0060940596278,
+        1288.0872752258454
+      ]
+    }
+  ],
+  "previous_intersection_history": "v6-validation-depth.json records pre-refinement lower-face crossings; that file is intentionally retained as history."
+}

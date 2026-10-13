@@ -1,0 +1,124 @@
+{
+  "part_colors": {
+    "sea_stone": "#D3BE9E",
+    "sea_base": "#9C9B89",
+    "sea_deck": "#C5AD87",
+    "sea_cap": "#A47F5E",
+    "sea_recess": "#6E817E",
+    "sea_concrete": "#B5B0A0",
+    "volcano_body": "#B6B19C",
+    "volcano_crater": "#7C7364",
+    "volcano_rock": "#A7957C",
+    "volcano_low_slope": "#AAA68F"
+  },
+  "materials": {
+    "sea_stone": {
+      "name": "RC.v13.sea_stone",
+      "hex": "#D3BE9E",
+      "linear_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ]
+    },
+    "sea_base": {
+      "name": "RC.v13.sea_base",
+      "hex": "#9C9B89",
+      "linear_color": [
+        0.3324515223503113,
+        0.3277781009674072,
+        0.25015828013420105,
+        1.0
+      ]
+    },
+    "sea_cap": {
+      "name": "RC.v13.sea_cap",
+      "hex": "#A47F5E",
+      "linear_color": [
+        0.37123769521713257,
+        0.21223075687885284,
+        0.1119324266910553,
+        1.0
+      ]
+    },
+    "sea_recess": {
+      "name": "RC.v13.sea_recess",
+      "hex": "#6E817E",
+      "linear_color": [
+        0.15592646598815918,
+        0.21952620148658752,
+        0.20863686501979828,
+        1.0
+      ]
+    },
+    "sea_deck": {
+      "name": "RC.v13.sea_deck",
+      "hex": "#C5AD87",
+      "linear_color": [
+        0.5583403706550598,
+        0.41788506507873535,
+        0.24228112399578094,
+        1.0
+      ]
+    },
+    "sea_concrete": {
+      "name": "RC.v13.sea_concrete",
+      "hex": "#B5B0A0",
+      "linear_color": [
+        0.46207699179649353,
+        0.43415364623069763,
+        0.35153260827064514,
+        1.0
+      ]
+    },
+    "volcano_body": {
+      "name": "RC.v13.volcano_body",
+      "hex": "#B6B19C",
+      "linear_color": [
+        0.4677838087081909,
+        0.43965718150138855,
+        0.3324515223503113,
+        1.0
+      ]
+    },
+    "volcano_crater": {
+      "name": "RC.v13.volcano_crater",
+      "hex": "#7C7364",
+      "linear_color": [
+        0.2015562504529953,
+        0.17144110798835754,
+        0.12743768095970154,
+        1.0
+      ]
+    },
+    "volcano_rock": {
+      "name": "RC.v13.volcano_rock",
+      "hex": "#A7957C",
+      "linear_color": [
+        0.38642942905426025,
+        0.30054378509521484,
+        0.2015562504529953,
+        1.0
+      ]
+    },
+    "volcano_low_slope": {
+      "name": "RC.v13.volcano_low_slope",
+      "hex": "#AAA68F",
+      "linear_color": [
+        0.4019777774810791,
+        0.38132601976394653,
+        0.2746773064136505,
+        1.0
+      ]
+    }
+  },
+  "render_mode": "Workbench MATERIAL",
+  "objects": [
+    "L09_portus_lighthouse",
+    "L09_portus_mole",
+    "L12_harbor_pilae",
+    "NB_marine_breakwater",
+    "L07_vesuvius"
+  ]
+}

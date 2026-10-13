@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"editorType\":\"figma\",\"pages\":[{\"id\":\"0:1\",\"name\":\"Page 1\"}],\"nodes\":[],\"fonts\":[{\"family\":\"Inter\",\"style\":\"Black\"},{\"family\":\"Inter\",\"style\":\"Black Italic\"},{\"family\":\"Inter\",\"style\":\"Bold\"},{\"family\":\"Inter\",\"style\":\"Bold Italic\"},{\"family\":\"Inter\",\"style\":\"Extra Bold\"},{\"family\":\"Inter\",\"style\":\"Extra Bold Italic\"},{\"family\":\"Inter\",\"style\":\"Extra Light\"},{\"family\":\"Inter\",\"style\":\"Extra Light Italic\"},{\"family\":\"Inter\",\"style\":\"Italic\"},{\"family\":\"Inter\",\"style\":\"Light\"},{\"family\":\"Inter\",\"style\":\"Light Italic\"},{\"family\":\"Inter\",\"style\":\"Medium\"},{\"family\":\"Inter\",\"style\":\"Medium Italic\"},{\"family\":\"Inter\",\"style\":\"Regular\"},{\"family\":\"Inter\",\"style\":\"Semi Bold\"},{\"family\":\"Inter\",\"style\":\"Semi Bold Italic\"},{\"family\":\"Inter\",\"style\":\"Thin\"},{\"family\":\"Inter\",\"style\":\"Thin Italic\"},{\"family\":\"Nanum Brush Script\",\"style\":\"Regular\"},{\"family\":\"Nanum Pen\",\"style\":\"Regular\"},{\"family\":\"NanumGothic\",\"style\":\"Bold\"},{\"family\":\"NanumGothic\",\"style\":\"ExtraBold\"},{\"family\":\"NanumGothic\",\"style\":\"Regular\"},{\"family\":\"NanumGothicCoding\",\"style\":\"Bold\"},{\"family\":\"NanumGothicCoding\",\"style\":\"Regular\"},{\"family\":\"NanumMyeongjo\",\"style\":\"Bold\"},{\"family\":\"NanumMyeongjo\",\"style\":\"ExtraBold\"},{\"family\":\"NanumMyeongjo\",\"style\":\"Regular\"},{\"family\":\"Noto Sans KR\",\"style\":\"Black\"},{\"family\":\"Noto Sans KR\",\"style\":\"Bold\"},{\"family\":\"Noto Sans KR\",\"style\":\"DemiLight\"},{\"family\":\"Noto Sans KR\",\"style\":\"Light\"},{\"family\":\"Noto Sans KR\",\"style\":\"Medium\"},{\"family\":\"Noto Sans KR\",\"style\":\"Regular\"},{\"family\":\"Noto Sans KR\",\"style\":\"Thin\"},{\"family\":\"Noto Serif KR\",\"style\":\"Black\"},{\"family\":\"Noto Serif KR\",\"style\":\"Bold\"},{\"family\":\"Noto Serif KR\",\"style\":\"ExtraLight\"},{\"family\":\"Noto Serif KR\",\"style\":\"Light\"},{\"family\":\"Noto Serif KR\",\"style\":\"Medium\"},{\"family\":\"Noto Serif KR\",\"style\":\"Regular\"},{\"family\":\"Noto Serif KR\",\"style\":\"SemiBold\"}]}"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "3b3ae41b-3308-4f2c-ae6e-69fd9047a2c6"
+  }
+}

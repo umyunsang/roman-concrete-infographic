@@ -1,0 +1,12 @@
+[
+  {
+    "nodeId": "13:441",
+    "asset": "pantheon-exterior",
+    "http_status": 200
+  },
+  {
+    "nodeId": "13:446",
+    "asset": "colosseum-photo",
+    "http_status": 200
+  }
+]

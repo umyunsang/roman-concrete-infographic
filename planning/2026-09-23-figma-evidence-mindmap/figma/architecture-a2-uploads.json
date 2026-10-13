@@ -1,0 +1,17 @@
+[
+  {
+    "nodeId": "13:10",
+    "asset": "pantheon-interior",
+    "http_status": 200
+  },
+  {
+    "nodeId": "13:53",
+    "asset": "2023-mechanism",
+    "http_status": 200
+  },
+  {
+    "nodeId": "13:58",
+    "asset": "colosseum-photo",
+    "http_status": 200
+  }
+]

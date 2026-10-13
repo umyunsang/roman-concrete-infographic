@@ -1,0 +1,91 @@
+{
+  "reviewDate": "2026-10-08",
+  "source": "out/figma_poster_v10_composition_1x.png",
+  "status": "recommendation_only_no_canvas_modifications",
+  "recommended": "A",
+  "directions": {
+    "A": {
+      "name": "석회·트래버틴 + 청록 + 적갈색",
+      "rationale": "중앙 로마 건축물을 따뜻한 돌색으로 유지하고 현대·물·발열의 서사 역할을 분리한다.",
+      "tokens": {
+        "background": "#F3E8D4",
+        "terrain": "#E5D5B9",
+        "mountain_volcano": "#C9C6AD",
+        "colosseum": "#CDA477",
+        "roman_support_stone": "#D3BE9E",
+        "road_foundation": "#B4A182",
+        "modern_concrete": "#657B88",
+        "steel_if_separate": "#344E5A",
+        "hot_mixing": "#D15B36",
+        "lime_calcium_crystal": "#FFF4DD",
+        "lime_specimen_matrix": "#97614B",
+        "water_process": "#3F9DAA",
+        "crystal_edge": "#D7A64C",
+        "laboratory": "#527882",
+        "foliage": "#75865C",
+        "trunk": "#A58E68",
+        "sea_river": "#82B9BC",
+        "water_wave": "#D2E8E1",
+        "type_heading": "#2E2A22",
+        "type_body": "#3E3A31",
+        "type_secondary_on_light_ground": "#615A4E",
+        "type_secondary_on_water": "#3E3A31",
+        "badge_1_5": "#365864",
+        "badge_2": "#B44327",
+        "badge_3": "#8C5B2F",
+        "badge_4": "#206D74",
+        "badge_numeral": "#FFF4DD"
+      },
+      "nominalAreaTargetsNotMeasured": {
+        "light_neutral_terrain_background": 0.62,
+        "warm_stone_buildings_roads": 0.22,
+        "water_vegetation": 0.10,
+        "modern_heat_specimen_accents": 0.06
+      },
+      "contrastFlatPairs": [
+        {"foreground":"#2E2A22","background":"#F3E8D4","ratio":11.77},
+        {"foreground":"#3E3A31","background":"#F3E8D4","ratio":9.33},
+        {"foreground":"#615A4E","background":"#E5D5B9","ratio":4.72},
+        {"foreground":"#FFF4DD","background":"#97614B","ratio":4.66},
+        {"foreground":"#FFF4DD","background":"#365864","ratio":7.03},
+        {"foreground":"#FFF4DD","background":"#B44327","ratio":5.10},
+        {"foreground":"#FFF4DD","background":"#8C5B2F","ratio":5.27},
+        {"foreground":"#FFF4DD","background":"#206D74","ratio":5.49},
+        {"foreground":"#3E3A31","background":"#82B9BC","ratio":5.18}
+      ]
+    },
+    "B": {
+      "name": "밝은 중성 바탕 + 황토 + 해군색 + 주홍",
+      "strength": "현대 골조와 실험 도해를 강한 냉색 계열로 묶을 수 있다.",
+      "risk": "중앙 유적과 현대 모형 모두 강해질 수 있고 A보다 로마의 토질·석회 재료감이 약하다.",
+      "tokens": {
+        "background": "#F1EFE5",
+        "terrain": "#DAD8C8",
+        "colosseum": "#D6B56A",
+        "roman_support_stone": "#CABF9F",
+        "modern_concrete": "#3C5169",
+        "hot_mixing": "#C84F40",
+        "lime_calcium_crystal": "#FFFFEA",
+        "lime_specimen_matrix": "#837465",
+        "water_process": "#447AA1",
+        "crystal_edge": "#D0AE49",
+        "laboratory": "#3C5169",
+        "foliage": "#667A58",
+        "sea_river": "#86ADC4",
+        "type_heading": "#202C36",
+        "type_body": "#354048"
+      }
+    }
+  },
+  "preservation": ["95 current text contents", "current layout", "terrain geometry", "central Colosseum", "existing semantic labels"],
+  "applicationRules": [
+    "All Hex tokens are intended sRGB display colors; verify color-managed Blender output instead of assuming base material equals final pixel.",
+    "Keep lime/calcium/crystal the same cream material across the process; teal represents water, gold only crystal edge/detail.",
+    "Keep main heads and body in dark ink; colored numbers/short rules identify stages without relying only on color.",
+    "Keep support landscapes and ruins less saturated than the Colosseum and core objects.",
+    "Use body ink rather than secondary ink for captions on sea.",
+    "Do not add historical lava/fire effects or claim reader comprehension was tested."
+  ],
+  "finalQATargets": ["Individual white clast visibility", "Text on local ground/shadows", "Water-calcium-crystal identity", "Sea and volcano color weight", "Native editable overlay"],
+  "smallAdjustments": {"specimenMatrixLuminance":"decrease 5-8 percent if clasts wash out", "terrainLightness":"increase 3-5 percent if body readability drops", "newHues":"none unless a real semantic need is found"}
+}

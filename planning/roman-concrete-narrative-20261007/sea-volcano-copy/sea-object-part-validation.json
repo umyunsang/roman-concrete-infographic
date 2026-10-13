@@ -1,0 +1,69 @@
+{
+  "source": "/Users/um-yunsang/Documents/\ub85c\ub9c8\ucf58\ud06c\ub9ac\ud2b8_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v8.blend",
+  "sourceSHA": "d179c5abdce8a9b0b48cf3f34cad9331b61e048f2e8edef504f430cee172ef3c",
+  "helperSHA": "fe5a93af5f9a287e08074d5418a85e270c54926c037e4b3fcc8a37668543238a",
+  "palette": {
+    "sea_stone": "#D3BE9E",
+    "sea_base": "#9C9B89",
+    "sea_deck": "#C5AD87",
+    "sea_cap": "#A47F5E",
+    "sea_recess": "#6E817E",
+    "sea_concrete": "#B5B0A0"
+  },
+  "objects": {
+    "L09_portus_lighthouse": {
+      "verts": 4928,
+      "polygons": 6779,
+      "counts": {
+        "sea_stone": 5565,
+        "sea_base": 449,
+        "sea_cap": 438,
+        "sea_recess": 327
+      },
+      "notes": "Warm stone walls; lowest foot is sea_base. The existing summit/conical roof and balcony top faces are sea_cap. Small inset shaft-window faces use sea_recess, bounded by measured recess depth, window heights and face area to exclude broad outer walls. Lantern body remains stone.",
+      "topologySHA": "425bc835c6a33879ecda4bdb1ce42e976fbb299fe0d14ce0da39ca08f5c85cb9",
+      "assignmentsSHA": "3183f570ee9e051dbbece10ad4fe63fab4978fe22accb3a27c6c1d852768ab06"
+    },
+    "L09_portus_mole": {
+      "verts": 4265,
+      "polygons": 5489,
+      "counts": {
+        "sea_stone": 2815,
+        "sea_base": 664,
+        "sea_deck": 1965,
+        "sea_cap": 45
+      },
+      "notes": "Raised quay wall body remains warm stone. Low vertical/underside foundation faces use sea_base; actual upward-facing recessed floor and perimeter walking surface use sea_deck; the elevated corner-block top uses sea_cap. Irregular debris remains stone.",
+      "topologySHA": "4328f0243b59ba7ab4f9203bcf613f75066938bd2c4e6a4497dd513d414bff0c",
+      "assignmentsSHA": "d4246846471434c4ba10bcc29dae46b1a1be2067d64d97a29591923277d13ff3"
+    },
+    "L12_harbor_pilae": {
+      "verts": 4172,
+      "polygons": 5389,
+      "counts": {
+        "sea_stone": 4612,
+        "sea_base": 252,
+        "sea_deck": 361,
+        "sea_cap": 164
+      },
+      "notes": "Six existing pier/pillar forms: stone side walls, sea_base below the slab-top elevation, sea_deck on actual upward slab faces, sea_cap on upward upper-pillar cap faces. Lower ornamental panels retain the stone default.",
+      "topologySHA": "56513050cf85f7fb4c28e1443707da10052bc996c0dd60e9d72053494e46e874",
+      "assignmentsSHA": "36267eb70e81536464097dc3f523f6a9b6cb8ed6c74f418e06f183c591ed2268"
+    },
+    "NB_marine_breakwater": {
+      "verts": 20539,
+      "polygons": 17330,
+      "counts": {
+        "sea_concrete": 12135,
+        "sea_base": 127,
+        "sea_deck": 843,
+        "sea_cap": 4225
+      },
+      "notes": "Existing low slab and two block-wall segments only: concrete wall body, base underside/lowest sides, deck on slab top, cap on upward wall tops. No separate exposed aggregate geometry was identified; no aggregate mask is invented.",
+      "topologySHA": "6db37fb69914c17245e133c39bcb28f12a4bbcf802f0d906d804659cc1ac75bd",
+      "assignmentsSHA": "623dc27bf42cf5fc409983cb2937a07ee02a1ca944f2cbaddb968f0d78de1942"
+    }
+  },
+  "pass": true,
+  "sourceSHAAfter": "d179c5abdce8a9b0b48cf3f34cad9331b61e048f2e8edef504f430cee172ef3c"
+}

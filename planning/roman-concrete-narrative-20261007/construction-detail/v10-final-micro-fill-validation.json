@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "source": "/Users/um-yunsang/Documents/\ub85c\ub9c8\ucf58\ud06c\ub9ac\ud2b8_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v10.blend",
+  "sourceSHA": "05be502a28c650dd0bbbbc8132f63c49c09c997cc2be4d62f7a754016b4d5f78",
+  "crackFillGeometrySHAExact": true,
+  "crackBBox": [
+    730.2976164845071,
+    1385.3619716523413,
+    734.8182846053168,
+    1405.743812404527
+  ],
+  "fillBBox": [
+    730.29761108794,
+    1385.3630664738994,
+    734.8183284631759,
+    1405.7451296908378
+  ],
+  "worldOffset": [
+    0.0028076171875,
+    -0.002979278564453125,
+    0.002759861061349511
+  ],
+  "opticalAxisDepthOffset": 0.004091952927410603,
+  "perpendicularToOpticalAxisOffset": 0.0027625293005257845,
+  "fillMaterialRoles": [
+    "base_lime_calcium_crystal"
+  ],
+  "method": "Fresh current v10 read: exact crack/fill mesh fingerprint, matching projected bounds, positive depth toward camera, and lime-calcium fill material. The camera-point ray offset is applied before group fitting and is not required to be parallel to the camera optical axis; no save/render/UI/scene writes"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate_source_sha": "6030c5a77fc9f695deeccf3925709eb5a3c2602cc1d520212f07444185c24d93",
+  "source_house_anchor": [
+    496,
+    600
+  ],
+  "footprint_names": [
+    "V_house_01",
+    "V_house_courtyard_01"
+  ],
+  "minimum_2px_clearance_translations": [
+    {
+      "delta": [
+        13,
+        19
+      ],
+      "new_house_anchor": [
+        509,
+        619
+      ],
+      "distance": 23.021728866442675
+    },
+    {
+      "delta": [
+        10,
+        21
+      ],
+      "new_house_anchor": [
+        506,
+        621
+      ],
+      "distance": 23.259406699226016
+    },
+    {
+      "delta": [
+        12,
+        20
+      ],
+      "new_house_anchor": [
+        508,
+        620
+      ],
+      "distance": 23.323807579381203
+    },
+    {
+      "delta": [
+        16,
+        17
+      ],
+      "new_house_anchor": [
+        512,
+        617
+      ],
+      "distance": 23.345235059857504
+    },
+    {
+      "delta": [
+        15,
+        18
+      ],
+      "new_house_anchor": [
+        511,
+        618
+      ],
+      "distance": 23.430749027719962
+    }
+  ],
+  "method": "Rigid projected translation of actual firstcandidate house and courtyard primary floor raster union. Negative road/water/terrain mask dilated2px. Final world placement still needsfreshcheck."
+}

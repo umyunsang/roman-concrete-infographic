@@ -1,0 +1,67 @@
+const page=await figma.getNodeByIdAsync('4:3');await figma.setCurrentPageAsync(page);
+const W=420*72/25.4,H=594*72/25.4,created=[],images=[],texts=[],zones=[];
+const fonts={regular:{family:'Noto Sans KR',style:'Regular'},bold:{family:'Noto Sans KR',style:'Bold'},serif:{family:'Noto Serif KR',style:'Bold'},inter:{family:'Inter',style:'Regular'}};
+await Promise.all(Object.values(fonts).map(f=>figma.loadFontAsync(f)));
+const C={paper:'#F7F3EA',ink:'#242E2B',muted:'#555F58',rust:'#AE5D39',teal:'#167E82',gold:'#BD902E',line:'#CFC6B8'};
+const rgb=h=>({r:parseInt(h.slice(1,3),16)/255,g:parseInt(h.slice(3,5),16)/255,b:parseInt(h.slice(5,7),16)/255});
+const paint=h=>[{type:'SOLID',color:rgb(h)}];const keep=n=>(created.push(n.id),n);
+if(page.children.some(n=>n.name==='A2 · 자가복원 내러티브 스케치'))throw new Error('A2 exists; inspect before rerunning');
+const root=keep(figma.createFrame());root.name='A2 · 자가복원 내러티브 스케치';root.resize(W,H);root.x=Math.max(100,...page.children.filter(n=>n.id!==root.id).map(n=>n.x+n.width+180));root.y=80;root.fills=paint(C.paper);root.clipsContent=true;root.exportSettings=[{format:'PDF'}];
+function rect(parent,name,x,y,w,h,color){const n=keep(figma.createRectangle());parent.appendChild(n);n.name=name;n.resize(w,h);n.x=x;n.y=y;n.fills=paint(color);return n;}
+function tx(parent,name,s,x,y,w,size=16,face='regular',color=C.ink,line=1.5){const n=keep(figma.createText());parent.appendChild(n);n.name=name;n.fontName=fonts[face];n.fontSize=size;n.lineHeight={unit:'PERCENT',value:line*100};n.characters=s;n.textAutoResize='HEIGHT';n.resize(w,Math.max(20,n.height));n.x=x;n.y=y;n.fills=paint(color);texts.push(n);return n;}
+function stack(parent,name,x,y,w,gap=10){const n=keep(figma.createAutoLayout('VERTICAL',{name,itemSpacing:gap}));parent.appendChild(n);n.resize(w,50);n.primaryAxisSizingMode='AUTO';n.counterAxisSizingMode='FIXED';n.x=x;n.y=y;n.fills=[];n.clipsContent=false;return n;}
+function st(parent,name,s,w,size=16,face='regular',color=C.ink,line=1.5){return tx(parent,name,s,0,0,w,size,face,color,line);}
+function zone(id,title,y,h){const z=keep(figma.createFrame());root.appendChild(z);z.name=id+' · '+title;z.resize(W,h);z.x=0;z.y=y;z.fills=[];z.clipsContent=false;zones.push({id,name:title,nodeId:z.id,x:0,y,width:W,height:h});return z;}
+function image(parent,key,x,y,w,h,caption){const n=rect(parent,'도판 · '+key,x,y,w,h,'#FFFFFF');images.push({nodeId:n.id,key,scaleMode:'FIT'});if(caption)tx(parent,'도판 출처 · '+key,caption,x,y+h+7,w,10,'regular',C.muted,1.45);return n;}
+function svg(parent,name,code,x,y,w,h){const n=figma.createNodeFromSvg(code);parent.appendChild(n);n.name=name;n.resize(w,h);n.x=x;n.y=y;created.push(n.id,...n.findAll().map(v=>v.id));return n;}
+function material(stage){
+ const crack='M115 -4 L144 37 L127 81 L176 118 L159 153 L187 207';
+ let drops='';if(stage<3)for(let i=0;i<5;i++)drops+=`<circle cx="${135+i*6}" cy="${34+i*24}" r="3.4" fill="#289CA5"/>`;
+ let ions='';if(stage===2)for(const [x,y] of [[147,85],[159,92],[173,106],[169,125],[164,140],[181,158]])ions+=`<circle cx="${x}" cy="${y}" r="5" fill="#D6A143" stroke="#93652A" stroke-width="1"/>`;
+ const water=stage<3?`<path d="${crack}" fill="none" stroke="#3FA4B0" stroke-width="${stage===1?3:6}" stroke-dasharray="${stage===1?'13 9':'none'}"/>`:'';
+ const bridge=stage===3?`<path d="${crack}" fill="none" stroke="#C6A253" stroke-width="10"/><path d="M141 63 l12 -7 l8 15 l-17 9 Z M163 112 l17 -4 l6 13 l-19 9 Z M157 153 l17 -7 l14 14 l-13 9 Z" fill="#E3C88E"/>`:'';
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="310" height="205" viewBox="0 0 310 205"><defs><clipPath id="c"><rect width="310" height="205" rx="6"/></clipPath></defs><g clip-path="url(#c)"><rect width="310" height="205" fill="#DDD3C2"/><path d="M16 28 L51 16 L73 45 L46 67 L13 55Z M244 13 L282 29 L270 63 L232 49Z M24 135 L70 122 L85 165 L43 184 L15 163Z M238 130 L284 123 L299 163 L275 192 L233 177Z M82 79 L105 69 L119 91 L103 108 L78 100Z" fill="#90938A" stroke="#737A71" stroke-width="2"/><ellipse cx="160" cy="107" rx="45" ry="38" fill="#F8F5E9" stroke="#BDB5A0" stroke-width="2"/><ellipse cx="94" cy="27" rx="14" ry="10" fill="#F8F5E9"/><ellipse cx="213" cy="173" rx="13" ry="9" fill="#F8F5E9"/><path d="${crack}" fill="none" stroke="#817B6D" stroke-width="16"/><path d="${crack}" fill="none" stroke="#F7F3EA" stroke-width="11"/>${water}${drops}${ions}${bridge}</g></svg>`;
+}
+function arrow(parent,x,y){return svg(parent,'설명 순서 화살표','<svg xmlns="http://www.w3.org/2000/svg" width="40" height="20"><path d="M0 10H35 M27 3L36 10L27 17" fill="none" stroke="#167E82" stroke-width="2.5"/></svg>',x,y,40,20);}
+const z1=zone('N1','질문과 핵심 단서',0,310);
+tx(z1,'시리즈','MATERIAL STORIES  /  ROMAN CONCRETE',56,45,740,12,'inter',C.rust,1.2);
+tx(z1,'표지 제목','로마의 콘크리트는\n왜 안 무너질까?',56,83,760,51,'serif',C.ink,1.28);
+tx(z1,'초점','작은 균열을 메우는 반응에서\n오래 버티는 재료의 단서를 찾다.',60,233,735,21,'regular',C.ink,1.45);
+image(z1,'colosseum-photo',846,80,285,172,'콜로세움의 현재 모습 · 도입 이미지\n자가복원 연구의 채취 현장은 아닙니다.');
+rect(root,'도입 하단선',56,316,W-112,1,C.ink);
+const z2=zone('N2','제조 당시',345,255);
+tx(z2,'구역 표제','01   반응의 출발점은 재료 안에',56,0,1080,26,'bold');
+image(z2,'2025-production',58,53,585,169,'폼페이 건설 공정의 재구성 · Vaserman 외(2025), Fig.7 · 원형 유지');
+const manufacture=stack(z2,'제조 당시 설명',704,52,430,12);
+st(manufacture,'제조 자료','폼페이 현장에서 찾은 제조법',430,18,'bold',C.rust);
+st(manufacture,'제조 순서','생석회 + 포졸란\n→ 물 첨가 · 발열 반응',430,24,'bold');
+st(manufacture,'공급원','재료 속에 남은 칼슘이 풍부한\n석회 덩어리가 이후 공급원이 될 수 있다.',430,16);
+const z3=zone('N3','균열 이후의 반응',630,490);
+tx(z3,'구역 표제','02   시간이 흐르고, 작은 균열이 생기면',56,0,1080,27,'bold');
+tx(z3,'기작 범위','논문이 제안한 작동 원리 · 조건이 맞을 때 일어날 수 있는 과정',58,48,1070,15,'regular',C.muted);
+const panels=[{x:58,title:'물이 들어온다',body:'균열을 따라 물이 들어와\n석회 덩어리에 닿을 수 있다.'},{x:440,title:'칼슘이 이동한다',body:'칼슘 성분이 용출되어\n물과 함께 연결된 틈으로 이동한다.'},{x:820,title:'틈이 메워질 수 있다',body:'탄산칼슘이 다시 석출되어\n작은 틈을 채울 수 있다.'}];
+panels.forEach((p,i)=>{tx(z3,'단계 '+(i+1),(i+1)+'  '+p.title,p.x,91,310,21,'bold',C.teal);svg(z3,'개념 도해 · '+p.title,material(i+1),p.x,138,310,205);tx(z3,'단계 설명 '+(i+1),p.body,p.x,362,310,16,'regular',C.ink,1.6);});
+arrow(z3,385,231);arrow(z3,766,231);
+tx(z3,'도해 범례','회색: 골재  ·  밝은 덩어리: 석회  ·  파랑: 물·용액  ·  금색: 칼슘/새 광물  |  원리 설명용 도식 · 축척 없음',58,430,1080,11,'regular',C.muted);
+tx(z3,'추가 반응','또 다른 경로: 남은 포졸란과 반응해 추가 결합 물질을 만들 수도 있다.',58,456,1080,13,'regular',C.teal);
+const z4=zone('N4','현대 실험의 결과와 조건',1144,310);
+tx(z4,'구역 표제','03   현대 시편에서는 무엇을 확인했을까?',56,0,1080,26,'bold');
+const exp=stack(z4,'실험 결과와 조건',60,56,513,9);
+st(exp,'시편 종류','로마 재료에서 착안한 현대 모르타르 시험',513,17,'bold',C.rust);
+st(exp,'균열 폭','0.5 ± 0.1 mm',513,31,'bold');
+st(exp,'균열 폭 의미','시험 시편에 인위적으로 만든 틈의 폭',513,14);
+st(exp,'유량 결과','약 1–3주에 유량이 거의 0으로 감소',513,19,'bold');
+st(exp,'시험 조건','균열 형상에 따른 결과 · 30일 범위에서 관찰\n28일 수중 양생 + 2개월 습윤·건조 전처리 후 시험',513,13,'regular',C.muted,1.55);
+image(z4,'2023-experiment',654,61,477,226,'시편·유량 시험·충전물 분석 · Seymour 외(2023), Fig.5');
+const z5=zone('N5','해석의 한계와 출처',1463,188);
+rect(z5,'해석 범위 강조',56,0,W-112,80,'#EBE3D4');
+tx(z5,'한계 핵심','작은 틈의 충전 ≠ 건물 전체의 영구 안전',75,12,W-150,22,'bold');
+tx(z5,'한계 설명','구조 강도 회복이나 모든 로마 콘크리트의 동일한 성능을 이 연구가 입증한 것은 아닙니다.',75,49,W-150,13);
+tx(z5,'출처','[1] Seymour 외 (2023), Science Advances. doi:10.1126/sciadv.add1602\n[2] Vaserman 외 (2025), Nature Communications. doi:10.1038/s41467-025-66634-7',58,96,1070,10,'regular',C.muted,1.5);
+tx(z5,'도판 저작표시','도판: [1] Fig.5 CC BY-NC 4.0 · [2] Fig.7 CC BY-NC-ND 4.0 (변경 없음)\n사진: Kasa Fue, 2021, Wikimedia Commons, CC BY-SA 4.0 · 원리 도해: 논문을 바탕으로 작성한 개념도',58,133,1070,9.5,'regular',C.muted,1.45);
+const review=keep(figma.createFrame());page.appendChild(review);review.name='A2 · 영역·순서·정보량 검토';review.resize(W,H);review.x=root.x+W+150;review.y=root.y;review.fills=paint('#FFFFFF');review.exportSettings=[{format:'PDF'}];
+const fills=['#F4DFCA','#EEE9D8','#D4E9E5','#DAE2EF','#E9E3DF'];
+zones.forEach((z,i)=>{const r=rect(review,'영역 · '+z.id,56,z.y+12,W-112,Math.max(60,z.height-18),fills[i]);const actual=page.findOne(n=>n.id===z.nodeId);const ts=actual?actual.findAllWithCriteria({types:['TEXT']}):[];const chars=ts.reduce((s,t)=>s+t.characters.replace(/\s/g,'').length,0);tx(review,'영역 정보 · '+z.id,`${z.id}  ${z.name}\n세로 ${Math.round(z.height/H*100)}% · 텍스트 ${chars}자 · ${i===2?'주요 반응 도해 3개':i===0||i===1||i===3?'원본 이미지 1개':'출처·해석 범위'}\n읽기 순서 ${i+1} / 5`,82,z.y+30,W-160,25,'bold');});
+tx(page,'규격 검토','420 × 594 mm · A2 세로 · 구역 면적·설명 순서·정보량 검토',review.x+56,review.y+H+30,W-112,18,'regular',C.muted);
+const overflow=texts.filter(t=>{const p=t.parent;return p.type==='FRAME'&&p.clipsContent&&(t.x+t.width>p.width+1||t.y+t.height>p.height+1)}).map(t=>({id:t.id,name:t.name}));
+return {createdNodeIds:created,posterId:root.id,reviewId:review.id,pageId:page.id,imageTargets:images,dimensions:{width:W,height:H,width_mm:420,height_mm:594},zones,textCount:texts.length,overflowChecks:overflow,exportConfigured:'PDF',sketchStatus:'Visual and physical-size verification pending'};

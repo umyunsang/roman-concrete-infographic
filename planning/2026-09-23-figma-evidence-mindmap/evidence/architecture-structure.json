@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0",
+  "status": "proposal_for_architecture_scope",
+  "title": "로마 건축물은 어떻게 약 2천 년을 버텼을까?",
+  "course_theme": "외국 건축물",
+  "scope": "판테온 중심 + 콜로세움 비교",
+  "core_question": "로마 건축물은 어떻게 약 2천 년을 버텼을까?",
+  "verified_date": "2026-09-23",
+  "source_selection": "Four newly consulted authority pages/documents, plus two previously audited material papers reused by reference.",
+  "sources": {
+    "A-PANTHEON-ROMA": {
+      "title": "The Pantheon",
+      "institution": "Roma Capitale — Turismo Roma",
+      "url": "https://www.turismoroma.it/en/places/pantheon",
+      "type": "official_municipal_explanation",
+      "verification": "Main text read through web tool."
+    },
+    "A-COLOSSEO-CONSTRUCTION": {
+      "title": "Colosseum – The Lost Ambulatories from Arch 18 to 60",
+      "institution": "Parco archeologico del Colosseo",
+      "url": "https://colosseo.it/en/southern-ambulatories/",
+      "type": "official_custodian_technical_conservation_page",
+      "verification": "Relevant complete sections retrieved from indexed primary-page text; direct request timed out."
+    },
+    "A-COLOSSEO-MAINTENANCE": {
+      "title": "Colosseum — Restoration",
+      "institution": "Parco archeologico del Colosseo",
+      "url": "https://colosseo.it/en/restauri/colosseum/",
+      "type": "official_custodian_restoration_page",
+      "verification": "Planned maintenance section retrieved from indexed primary-page text; direct request timed out."
+    },
+    "A-VESTRONI": {
+      "title": "The Colosseum: Dynamic Behaviour and Monitoring of the Monument",
+      "author": "Fabrizio Vestroni",
+      "institution": "Sapienza University of Rome; Istituto Lombardo, Rend. Scienze 157, pp. 113–134 (2023–2024)",
+      "url": "https://www.ilasl.org/Scienze/article/download/872/884",
+      "type": "original_structural_monitoring_paper",
+      "verification": "Publisher PDF read; especially section 2 and Fig. 1."
+    },
+    "S2023": {
+      "title": "Hot mixing: Mechanistic insights into the durability of ancient Roman concrete",
+      "author": "Seymour et al.",
+      "url": "https://doi.org/10.1126/sciadv.add1602",
+      "type": "original_materials_paper",
+      "verification": "Reused earlier full-text audit; see material-evidence.json."
+    },
+    "S2025": {
+      "title": "An unfinished Pompeian construction site reveals ancient Roman building technology",
+      "author": "Vaserman et al.",
+      "url": "https://doi.org/10.1038/s41467-025-66634-7",
+      "type": "original_materials_paper",
+      "verification": "Reused earlier full-text audit; see material-evidence.json."
+    }
+  },
+  "evidence_items": [
+    {
+      "id": "ARC01",
+      "short_label": "오늘도 남아 있는 판테온",
+      "statement": "판테온은 원형 실내 공간과 돔이 잘 보존된 고대 로마 건축물이다.",
+      "category": "building",
+      "building": "Pantheon",
+      "source": {
+        "id": "A-PANTHEON-ROMA",
+        "url": "https://www.turismoroma.it/en/places/pantheon",
+        "section": "Main description, history and present building paragraphs"
+      },
+      "limits": [
+        "남아 있다는 사실을 모든 부분이 원형 그대로라는 뜻으로 쓰지 않는다."
+      ],
+      "applicability": "directly_supported",
+      "factual_caption": "현재 건물: 하드리아누스 시대 재건, 서기 118–125년(로마시 공식 안내)."
+    },
+    {
+      "id": "ARC02",
+      "short_label": "원통 위를 덮은 돔",
+      "statement": "판테온의 반구형 콘크리트 돔은 원통형 몸체 위를 덮는다.",
+      "category": "structure",
+      "building": "Pantheon",
+      "source": {
+        "id": "A-PANTHEON-ROMA",
+        "url": "https://www.turismoroma.it/en/places/pantheon",
+        "section": "Architectural description: cylindrical structure and hemispherical concrete dome"
+      },
+      "limits": [
+        "형태 설명이며 이 사실만으로 생존 원인이 모두 설명되지는 않는다."
+      ],
+      "applicability": "directly_supported",
+      "factual_caption": "내부 높이와 돔 지름: 각각 43m를 조금 넘는 규모(로마시 공식 안내)."
+    },
+    {
+      "id": "ARC03",
+      "short_label": "원형 공간을 감싼 두꺼운 벽",
+      "statement": "판테온의 원형 실내 공간은 두꺼운 조적 벽체로 둘러싸여 있다.",
+      "category": "structure",
+      "building": "Pantheon",
+      "source": {
+        "id": "A-PANTHEON-ROMA",
+        "url": "https://www.turismoroma.it/en/places/pantheon",
+        "section": "Architectural description: large circular cell and thick masonry walls"
+      },
+      "limits": [
+        "벽 두께 수치와 상세 응력값은 이 자료에서 검증하지 않았다."
+      ],
+      "applicability": "directly_supported"
+    },
+    {
+      "id": "ARC04",
+      "short_label": "돔의 무게를 받는 여덟 지지부",
+      "statement": "판테온 돔의 무게는 벽체의 여덟 개 큰 지지부에 분산된다.",
+      "category": "structure",
+      "building": "Pantheon",
+      "source": {
+        "id": "A-PANTHEON-ROMA",
+        "url": "https://www.turismoroma.it/en/places/pantheon",
+        "section": "Architectural description: eight large pylons receiving dome weight"
+      },
+      "limits": [
+        "현관의 열주와 구별한다. 단면 화살표는 원리 설명이며 구조해석 결과가 아니다."
+      ],
+      "applicability": "directly_supported"
+    },
+    {
+      "id": "ARC05",
+      "short_label": "쓰임의 지속과 보존",
+      "statement": "로마시 안내는 판테온의 교회 전환이 중세의 자재 약탈을 피하는 데 기여했다고 설명한다.",
+      "category": "building",
+      "building": "Pantheon",
+      "source": {
+        "id": "A-PANTHEON-ROMA",
+        "url": "https://www.turismoroma.it/en/places/pantheon",
+        "section": "History paragraph on conversion to Santa Maria ad Martyres"
+      },
+      "limits": [
+        "보존의 한 요인이다. 전 시기 무손상이나 무보수를 뜻하지 않는다."
+      ],
+      "applicability": "directly_supported",
+      "factual_caption": "서기 609년: 산타 마리아 아드 마르티레스 성당으로 봉헌."
+    },
+    {
+      "id": "ARC06",
+      "short_label": "일부를 잃고 남은 콜로세움",
+      "statement": "콜로세움 남쪽은 바깥쪽 회랑 두 겹이 사라진 상태로 남아 있다.",
+      "category": "building",
+      "building": "Colosseum",
+      "source": {
+        "id": "A-COLOSSEO-CONSTRUCTION",
+        "url": "https://colosseo.it/en/southern-ambulatories/",
+        "section": "The Project: preserved northern perimeter and missing southern ambulatories"
+      },
+      "limits": [
+        "판테온과 보존 상태를 비교한다. 모든 로마 건축이 온전히 남았다는 사례로 쓰지 않는다."
+      ],
+      "applicability": "directly_supported",
+      "additional_sources": [
+        {
+          "id": "A-VESTRONI",
+          "url": "https://www.ilasl.org/Scienze/article/download/872/884",
+          "section": "Section 2, pp. 115–116, partial collapse and present profile"
+        }
+      ]
+    },
+    {
+      "id": "ARC07",
+      "short_label": "고리형 벽과 방사형 벽의 연결",
+      "statement": "콜로세움의 방사형 벽은 고리형 벽과 경사진 콘크리트 볼트로 연결된다.",
+      "category": "structure",
+      "building": "Colosseum",
+      "source": {
+        "id": "A-VESTRONI",
+        "url": "https://www.ilasl.org/Scienze/article/download/872/884",
+        "section": "Section 2: The history of the monuments and its structure, p. 115; Fig. 1"
+      },
+      "limits": [
+        "원래 구조 체계의 설명이다. 현재의 결손 부위까지 연속되어 있다고 그리지 않는다."
+      ],
+      "applicability": "directly_supported"
+    },
+    {
+      "id": "ARC08",
+      "short_label": "기둥과 아치·볼트가 만든 회랑",
+      "statement": "콜로세움의 회랑에서는 지지 기둥이 볼트를 받쳤다.",
+      "category": "structure",
+      "building": "Colosseum",
+      "source": {
+        "id": "A-COLOSSEO-CONSTRUCTION",
+        "url": "https://colosseo.it/en/southern-ambulatories/",
+        "section": "The Project; The Construction System of the Colosseum; The New Paving, the Crepidoma and the Arch Numbers"
+      },
+      "limits": [
+        "번호가 붙은 외곽 아치와 입체적인 볼트를 구별한다. 정량 하중은 제시하지 않는다."
+      ],
+      "applicability": "directly_supported"
+    },
+    {
+      "id": "ARC09",
+      "short_label": "석재·벽돌·콘크리트의 조합",
+      "statement": "콜로세움에는 트래버틴·응회암·벽돌·모르타르·콘크리트가 함께 쓰였다.",
+      "category": "material",
+      "building": "Colosseum",
+      "source": {
+        "id": "A-VESTRONI",
+        "url": "https://www.ilasl.org/Scienze/article/download/872/884",
+        "section": "Section 2, p. 115; Section 4, p. 122 and Fig. 8"
+      },
+      "limits": [
+        "부위와 보수 시기에 따라 재료가 다르다. 건물 전체를 단일 콘크리트 덩어리로 표시하지 않는다."
+      ],
+      "applicability": "directly_supported",
+      "additional_sources": [
+        {
+          "id": "A-COLOSSEO-MAINTENANCE",
+          "url": "https://colosseo.it/en/restauri/colosseum/",
+          "section": "Planned maintenance of the Colosseum: ancient structures in travertine, tuff, marble, brick, mortar"
+        }
+      ]
+    },
+    {
+      "id": "ARC10",
+      "short_label": "계속되는 관리와 보수",
+      "statement": "콜로세움 관리기관은 구조물과 표면을 위한 계획적 유지관리를 시행한다.",
+      "category": "building",
+      "building": "Colosseum",
+      "source": {
+        "id": "A-COLOSSEO-MAINTENANCE",
+        "url": "https://colosseo.it/en/restauri/colosseum/",
+        "section": "Planned maintenance of the Colosseum"
+      },
+      "limits": [
+        "오늘의 보존 활동에 관한 근거다. 이를 고대 전체 기간의 유지관리 이력으로 확장하지 않는다."
+      ],
+      "applicability": "directly_supported"
+    },
+    {
+      "id": "ARC11",
+      "short_label": "용도에 따라 달라지는 배합",
+      "statement": "로마 콘크리트의 배합은 사용 목적에 맞추어 달라졌다.",
+      "category": "material",
+      "building": "Roman architecture context",
+      "source": {
+        "id": "S2023",
+        "url": "https://doi.org/10.1126/sciadv.add1602",
+        "section": "INTRODUCTION, first paragraph: formulations tailored to intended applications"
+      },
+      "limits": [
+        "두 건축물에 동일 배합이나 동일 자가치유 성능을 부여하지 않는다."
+      ],
+      "applicability": "directly_supported",
+      "additional_sources": [
+        {
+          "id": "S2025",
+          "url": "https://doi.org/10.1038/s41467-025-66634-7",
+          "section": "Discussion: repair/finishing mortars and different lime preparation routes"
+        }
+      ],
+      "existing_material_evidence_ids": [
+        "MAT-01",
+        "MAT-03",
+        "MAT-09",
+        "MAT-23"
+      ]
+    },
+    {
+      "id": "ARC12",
+      "short_label": "재료 연구가 제안한 균열 충전",
+      "statement": "석회 덩어리를 통한 균열 충전은 로마 모르타르 연구가 제안한 내구성 기작이다.",
+      "category": "material",
+      "building": "Roman architecture context",
+      "source": {
+        "id": "S2023",
+        "url": "https://doi.org/10.1126/sciadv.add1602",
+        "section": "DISCUSSION; Fig. 6; MATERIALS AND METHODS / Sample collection and Roman-inspired concrete samples"
+      },
+      "limits": [
+        "고대 관찰은 프리베르눔·폼페이의 재료에 관한 것이다.",
+        "균열 유량 시험은 현대 모르타르 시편으로 수행됐다.",
+        "판테온·콜로세움의 자가치유를 직접 시험한 결과가 아니다.",
+        "구조와 보존을 함께 다루는 건축 설명의 재료 하위 가지로만 사용한다."
+      ],
+      "applicability": "directly_supported",
+      "additional_sources": [
+        {
+          "id": "S2025",
+          "url": "https://doi.org/10.1038/s41467-025-66634-7",
+          "section": "Results and Discussion: Pompeii construction materials and post-pozzolanic interfacial remodeling"
+        }
+      ],
+      "existing_material_evidence_ids": [
+        "MAT-07",
+        "MAT-08",
+        "MAT-13",
+        "MAT-15",
+        "MAT-21",
+        "MAT-22",
+        "MAT-23"
+      ]
+    }
+  ],
+  "workflow_notes": [
+    "ARC IDs are an evidence inventory, not a finalized viewing sequence.",
+    "Keep building form, load-bearing structure, material composition and continuing preservation distinguishable.",
+    "Self-healing is a material sub-branch. Do not inherit the former self-healing-centered question or headline from material-evidence.json.",
+    "No shade or acoustic claims were added.",
+    "Dates are factual caption data; the accepted title is unchanged.",
+    "The official Pantheon museum URL requested by the parent was attempted but unavailable via both web and DNS. No facts are attributed to that unread page."
+  ],
+  "unavailable_requested_source": {
+    "url": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/",
+    "result": "Web internal error; direct DNS resolution failure",
+    "fallback": "Roma Capitale official Turismo Roma page"
+  },
+  "ownership": "Only evidence/architecture-structure.json written in this lane."
+}

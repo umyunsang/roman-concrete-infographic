@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"25:244\",\"I25:244;25:24\",\"25:246\",\"I25:246;25:24\"],\"anchorBoundsPreserved\":[{\"id\":\"25:244\",\"width\":740,\"height\":224},{\"id\":\"25:246\",\"width\":750,\"height\":224}]}"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "dc9bf256-f1ac-4d53-ae37-a3f3d6723735"
+  }
+}

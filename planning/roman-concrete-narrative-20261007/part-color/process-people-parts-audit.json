@@ -1,0 +1,48 @@
+{
+  "C2_hot_mixing": {
+    "faces": 15801,
+    "default_faces": 6462,
+    "role_counts": {
+      "mixture": 2256,
+      "toolwood": 294,
+      "basin": 1512,
+      "skin": 1825,
+      "cloth": 1086,
+      "linen": 2366
+    },
+    "notes": [
+      "Two workers: head/neck and exposed extremities skin; short tunic linen; long lower apron/robe cloth.",
+      "Circular raised basin and filled mixture surface separated; oblique stirring shaft/paddle toolwood.",
+      "Ground and unidentifiable scattered angular fragments stay roman_stone; no chemical assertion from their shape."
+    ]
+  },
+  "C5_researchers": {
+    "faces": 15813,
+    "default_faces": 13078,
+    "role_counts": {
+      "linen": 1690,
+      "skin": 245,
+      "cloth": 387,
+      "toolmetal": 413
+    },
+    "notes": [
+      "Four small observation figures are bounded spatially, not by a global height band; surrounding arch stays roman_stone.",
+      "Foreground tripod/optical device toolmetal; facial volumes skin, garments linen/cloth.",
+      "Very small fingers, shoes, and backs partly fused to masonry remain conservative garment/stone colors."
+    ]
+  },
+  "L08_pompeii_site": {
+    "faces": 10528,
+    "default_faces": 7622,
+    "role_counts": {
+      "toolwood": 1696,
+      "raw_lime": 228,
+      "basin": 982
+    },
+    "notes": [
+      "Front scaffold posts/decks/diagonal bracing toolwood; wall and indistinct construction blocks remain roman_stone.",
+      "Foreground bowl and small vessels basin; central foreground pale powder heap raw_lime is a schematic palette role, not proof of lime chemistry.",
+      "No confidently identifiable human face/body in this mesh at the inspected views: no skin/cloth assignment on ambiguous scaffold lumps."
+    ]
+  }
+}

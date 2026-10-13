@@ -1,0 +1,253 @@
+THE COLOSSEUM 
+Dynamic Behaviour and Monitoring of the Monument 
+ 
+ 
+FABRIZIO VESTRONI (*) 
+ 
+ 
+Nota presentata dal m.e. Carlo Cinquini 
+(Adunanza del 19 ottobre 2023) 
+ 
+ 
+ 
+SUNTO. – Il Colosseo aveva in origine una struttura molto robusta con una forma chiusa 
+di anelli concentrici e pareti radiali collaboranti. In seguito a cedimenti della 
+fondazione e agli effetti di terremoti la parte esterna sul lato sud è crollata e la struttura 
+è divenuta più vulnerabile. Per mantenere questa situazione è necessaria un’adeguata 
+attività di monitoraggio. In questo contesto un ruolo importante assume il 
+monitoraggio dinamico basato sull’osservazione nel tempo di alcune proprietà 
+dinamiche della struttura. Dopo un cenno di dinamica strutturale, si evidenzia che le 
+grandezze modali, frequenze e modi di vibrazione, sono adatte al monitoraggio perché 
+sono semplici da determinare sperimentalmente e variano a seguito di un danno. La 
+tecnica è mostrata considerando due indagini sperimentali che hanno interessato il 
+Colosseo nel 2006 e 2022. Inoltre, sulla base di registrazioni delle accelerazioni 
+prodotte dal traffico e da un recente terremoto, si affronta il problema delle vibrazioni 
+dovute al traffico e si sviluppano considerazioni preliminari sulla vulnerabilità sismica 
+del monumento. 
+ 
+*** 
+ 
+ABSTRACT. – The original design of the Colosseum was a robust, closed structure with 
+concentric rings and radial walls. However, due to foundation settlements and 
+earthquake vibrations, a significant portion of the external zone on the south side has 
+collapsed, making the structure more vulnerable. To maintain the current situation and 
+prevent further collapses, it is essential to support monitoring activities focused on the 
+structural health conditions of the monument. This study centers on dynamic monitoring 
+based on variations in specific dynamic properties over time. After reviewing some 
+elements of structural dynamics, modal quantities, frequencies and vibration modes, are 
+(*)
+Department of Structural and Geotechnical Engineering, Sapienza Univer-
+sity of Rome, Rome, Italy. E-mail: vestroni@uniroma1.it
+Istituto Lombardo (Rend. Scienze) 157, 113-134 (2023-2024)
+Ingegneria e architettura
+
+FABRIZIO VESTRONI 
+114
+shown to be suitable for monitoring because they can be easily determined 
+experimentally and are sensitive to damage. The technique has been applied comparing 
+the results obtained in two experimental campaigns in 2006 and 2022, where the 
+Colosseum response to ambient excitation has been measured. Additionally, recorded 
+accelerations from road traffic and a recent earthquake enable an assessment of traffic 
+vibrations and a preliminary evaluation of the seismic vulnerability. 
+ 
+ 
+ 
+1. INTRODUCTION 
+ 
+The Colosseum is the most famous monument of ancient Rome 
+and, as such, receives special attention from the Superintendent of 
+Cultural Heritage, with a variety of conservation activities. Currently, a 
+new underground metro line that crosses the center of Rome is under 
+construction, running tangentially to the Colosseum [1]. This project 
+has provided an excellent opportunity to carry out an extensive exper-
+imental investigation campaign on the monument material properties 
+and dynamic characteristics during the design phase. Furthermore, the 
+Colosseum has been equipped with a permanent sensor network to 
+enable both static and dynamic monitoring.  
+In recent decades, Structural Health Monitoring (SHM) has 
+gained significant importance. The increasing prevalence of SHM is 
+partly due to advancements in instrumentation and reductions in asso-
+ciated costs. Concurrently, data processing methods and analytical 
+techniques have become more sophisticated and effective. In this con-
+text, vibration-based methods for monitoring structural health have 
+become well-established, particularly because valuable information can 
+be gathered efficiently using ambient excitations, which have proven 
+effective in detecting structural deterioration. For large structures and 
+cultural heritage sites like the Colosseum, SHM should be considered 
+essential [2,9]. 
+In this paper, after providing general information on the history 
+of the monument and a description of its current state, the focus shifts 
+to the fundamentals of structural dynamics, which are essential for 
+understanding the health monitoring approach based on the evolution 
+of dynamic properties of the structure. The paper then examines the 
+response of the monument to two significant dynamic excitations, traf-
+fic and earthquakes. This analysis is supported by available data from 
+the monitoring instruments currently in operation. 
+
+2. THE HISTORY OF THE MONUMENTS AND ITS STRUCTURE 
+ 
+The Flavian Amphitheater, more commonly known as the 
+Colosseum, was constructed between 70 and 80 AD under the emper-
+ors Vespasian and Titus of the Flavian dynasty. The foundations rest on 
+heterogeneous soil in an area that was once partially occupied by the 
+artificial lake of the Domus Aurea. The Colosseum hosted gladiatorial 
+games until 523 AD, when Emperor Theodoric banned them. 
+Afterward, the structure entered a long period of decline until its 
+restoration in the 19th century. 
+The amphitheater is elliptical in shape, with the major and minor 
+axes measuring 188 meters and 156 meters, respectively. The structural 
+design follows the well-established Roman technique for masonry 
+buildings with orthogonal walls, adapted here to the elliptical form. A 
+series of radial masonry walls, tied by concentric annular walls and 
+inclined concrete vaults, creates concentric wedge-shaped cells (Fig. 1). 
+The materials used include travertine, tuff, masonry, and con-
+crete. The external wall, standing approximately 50 meters high, was 
+originally made of travertine blocks connected by iron pins and cramps 
+without mortar joints, many of which have disappeared over the cen-
+turies. The engineers of the time were aware of the varying deformabil-
+ity of the soil across the large area occupied by the monument, and a 
+large and deep foundation was built as a concrete ring, twelve meters 
+thick. However, the northern side of the Colosseum is built on stiffer 
+soil than the southern side (Fig. 2a). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 1. Plan and sectional view of a model: the original design of the monument, charac-
+terized by its closed elliptical shape, composed of interconnected radial and circumferential 
+walls, symmetrical with respect to the principal axes. 
+THE COLOSSEUM – Dynamic Behaviour and Monitoring of the Monument 
+115
+
+This geometrical configuration originally provided the structure 
+with significant robustness against both vertical and horizontal forces, 
+such as those induced by earthquakes. Unfortunately, these exceptional 
+characteristics were compromised due to the varying deformability of 
+the soil on which the foundation rests. Despite the rigidity of the base 
+concrete ring, settlements on the south side caused discontinuities in 
+the elevated structures. In the absence of internal circumferential con-
+straints and the lack of iron pins between the blocks, the structure was 
+unable to resist seismic horizontal forces. The partial collapse of the 
+external walls led to the current world-renowned profile of the 
+Colosseum (Fig. 2b), where the original symmetry has been partially 
+lost, resulting in a negative impact on the structural robustness of the 
+monument, as will be discussed later. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 2. a) A transversal section of the monument with the different soils under the base foun-
+dation; b) the iconic image of the Colosseum; c) actual plane and section of the North side. 
+ 
+ 
+In the 19th century, several interventions were carried out to halt 
+the degradation of the monument. The most notable are the two large 
+buttresses constructed at the eastern end by Stern (1805–1807) and at 
+FABRIZIO VESTRONI 
+116
+
+the western end by Valadier (1820–1852), as shown in Fig. 2b. These 
+buttresses were built to support the remaining portion of the external 
+wall, attempting to compensate for the missing southern sections. 
+Despite these restoration efforts and the absence of recent severe 
+earthquakes, various decay phenomena have occurred over time. 
+Currently, the health status of the Colosseum is not very satisfactory, 
+and the effectiveness of the connections between the bearing elements 
+remains uncertain. An important factor to consider is that Rome is clas-
+sified as a seismic zone, albeit with low intensity. For all these reasons, 
+it is evident that monitoring of the monument is needed to assess its 
+health status and to record potential vibrational events. 
+ 
+ 
+3. THE STRUCTURAL DYNAMIC MONITORING 
+ 
+Structural health monitoring (SHM) has garnered increasing 
+attention in recent times. This interest arises from the need to assess the 
+integrity of constructions and to plan maintenance interventions. The 
+principles underlying monitoring are based on observing variations in 
+certain structural characteristics. Monitoring methods differ according 
+to the quantities observed, resulting in a wide variety of techniques 
+developed [3,9]. A critical aspect of selecting the observed quantities is 
+that they must be easily measurable and primarily related to the evolu-
+tion of damage. 
+In this context, the dynamic properties of a structure meet these 
+requirements satisfactorily. Indeed, they are distinct quantities of the 
+structure, related to its health conditions, and can be experimentally 
+determined in a simple manner. Before discussing the dynamic moni-
+toring of a structure, it is necessary to introduce the fundamental 
+descriptors of dynamic behaviour and their variations due to damage. 
+ 
+3.1  Dynamics of a structure 
+ 
+The study of the response of a mechanical system requires the use 
+of a model. When the structure is relatively simple, such as the frame 
+structure shown in Fig. 3 with a rigid horizontal beam, it can be approx-
+imated by the simplest model: a single-degree-of-freedom (SDOF) sys-
+tem. In this model, the deformed shape is described by a single variable 
+u1(t), the top mass displacement. 
+THE COLOSSEUM – Dynamic Behaviour and Monitoring of the Monument 
+117
+
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 3. The structure (a) and its deformed configuration (b) of a simple model described by 
+only one variable u1(t), time history of the free oscillations (c). 
+ 
+When this structure is displaced from its initial position and then 
+released, it oscillates in harmonic motion, characterized by a period, 
+which is the time interval between two successive maxima (Fig. 3c). 
+The period is a distinctive property of the structure and depends on 
+both its mass and stiffness. Alternatively, it may be useful to refer to 
+the frequency of the structure, which is the inverse of the period. The 
+frequency indicates how many times u1(t) reaches its maximum within 
+a unit of time. 
+It is worth noting that this quantity, the period or the frequency, 
+depends directly on the stiffness of the structure, and thus indirectly 
+reflects its structural health condition. For example, if a column in the 
+frame is damaged, its stiffness decreases, causing the oscillation period to 
+increase (or the frequency to decrease). In this scenario, when the same 
+experiment shown in Fig. 3 is repeated with a damaged column, the 
+frame response is slower (Fig. 4). The damage produces a noticeable 
+effect, making the oscillations visibly different. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 4. The structure with a damaged column (red); (b) time histories of free oscillations of 
+undamaged (black) and damaged (red) structures. 
+ 
+It can be concluded that the period (or frequency) of a structure is 
+a crucial parameter to monitor over time. Its variation provides valuable 
+information regarding the health of the structure, making it a useful indi-
+cator in structural health monitoring [6-9]. 
+FABRIZIO VESTRONI 
+118

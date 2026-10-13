@@ -1,0 +1,123 @@
+{
+  "name": "v11 · 석회·트래버틴 × 청록 — 컬러와 타이포",
+  "sourceFrameId": "718:78",
+  "backgroundSourceId": "718:79",
+  "pageId": "19:4",
+  "fileKey": "jQPriO85F6wtPy1NPo752p",
+  "poster": {
+    "x": -2596,
+    "y": 56,
+    "width": 1191,
+    "height": 1684
+  },
+  "tokens": {
+    "background": "#F3E8D4",
+    "terrain": "#EDE1CB",
+    "mountain_volcano": "#CDC7AE",
+    "colosseum": "#CDA477",
+    "roman_support_stone": "#D3BE9E",
+    "road_foundation": "#C0AF90",
+    "modern_concrete": "#657B88",
+    "steel_if_separate": "#344E5A",
+    "hot_mixing": "#D15B36",
+    "lime_calcium_crystal": "#FFF4DD",
+    "lime_specimen_matrix": "#97614B",
+    "water_process": "#3F9DAA",
+    "crystal_edge": "#D7A64C",
+    "laboratory": "#527882",
+    "foliage": "#75865C",
+    "trunk": "#A58E68",
+    "sea_river": "#82B9BC",
+    "water_wave": "#D2E8E1",
+    "type_heading": "#2E2A22",
+    "type_body": "#3E3A31",
+    "type_secondary_on_light_ground": "#615A4E",
+    "type_secondary_on_water": "#3E3A31",
+    "badge_1_5": "#365864",
+    "badge_2": "#B44327",
+    "badge_3": "#8C5B2F",
+    "badge_4": "#206D74",
+    "badge_numeral": "#FFF4DD",
+    "header_surface": "#EADFC8",
+    "header_trim": "#D6C09D",
+    "pozzolan": "#A4876D",
+    "field": "#C8BBA0",
+    "line": "#6C7465",
+    "concrete_dense": "#6B6254",
+    "stone_light": "#EBDDCA",
+    "stone_middle": "#B7A584"
+  },
+  "title": {
+    "sourceId": "718:82",
+    "family": "Noto Serif KR",
+    "style": "Bold",
+    "fontSize": 70,
+    "lineHeight": 80,
+    "trackingPercent": -1,
+    "width": 455
+  },
+  "body": {
+    "family": "Noto Sans KR",
+    "layout": "preserve current sizes/lineheights/current95copy"
+  },
+  "coreTitles": [
+    [
+      "718:149",
+      "718:150"
+    ],
+    [
+      "718:155",
+      "718:156"
+    ],
+    [
+      "718:161",
+      "718:162"
+    ],
+    [
+      "718:167",
+      "718:168"
+    ],
+    [
+      "718:173",
+      "718:174"
+    ]
+  ],
+  "coreBodyIds": [
+    "718:151",
+    "718:157",
+    "718:163",
+    "718:169",
+    "718:175"
+  ],
+  "numeralIds": [
+    "718:102",
+    "718:105",
+    "718:110",
+    "718:111",
+    "718:106"
+  ],
+  "sourceScene": "out/roman_concrete_narrative_v6.blend",
+  "outputScene": "out/roman_concrete_narrative_v7.blend",
+  "colorManagement": {
+    "hexSpace": "sRGB",
+    "objectColorInput": "convert sRGB to scene-linear",
+    "viewTransform": "Standard",
+    "exposure": 0.7,
+    "preserveLighting": "original Studio/shadows/cavity and camera"
+  },
+  "styleGuide": {
+    "x": -2596,
+    "y": 1840,
+    "width": 740,
+    "height": 462
+  },
+  "preservation": "All geometry/transforms/layout/current95text copy preserved; only color and titlefont change. No newmodels, no newgeneration. Terrain slightlylighter than proposedA tokeep hierarchy.",
+  "overlayInkTokens": {
+    "type_heat": "#983821",
+    "type_calcium": "#784C26",
+    "type_water": "#195B61"
+  },
+  "outputFrameId": "728:241",
+  "outputBackgroundId": "728:242",
+  "outputGuideId": "728:360"
+}

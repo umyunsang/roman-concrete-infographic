@@ -1,0 +1,26 @@
+[
+  {
+    "stage": 1,
+    "error": "No downloadable image found",
+    "response_keys": [
+      "content",
+      "_meta"
+    ],
+    "content_types": [
+      "text",
+      "text"
+    ]
+  },
+  {
+    "stage": 2,
+    "error": "No downloadable image found",
+    "response_keys": [
+      "content",
+      "_meta"
+    ],
+    "content_types": [
+      "text",
+      "text"
+    ]
+  }
+]

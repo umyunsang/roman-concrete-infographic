@@ -1,0 +1,21 @@
+{
+  "scope": "final W3 only",
+  "ordinalRule": "core titles and core reading route only",
+  "remainingNumberedMarkers": 10,
+  "hiddenNoncoreBadges": 15,
+  "dataValuesPreserved": true,
+  "coreAnglesPreserved": true,
+  "detailAnglesPreserved": true,
+  "modelPrimitivesPreserved": 1427,
+  "modelGeometryUnchanged": true,
+  "roleAnchorsUnchanged": true,
+  "otherPanelBoundsUnchanged": true,
+  "visualReview": "passed: native live W3 rendering visually inspected",
+  "screenshotExportLimitation": "first get_screenshot image was stale; replaced by verified native node.screenshot image",
+  "beforePngSha256": "c0af1fa60c5f5b528a9d8ffbc8366422cbd2efbad28f98870e5bc853bff22da7",
+  "afterPngSha256": "ddcd971952897c2eee460409396018bdec6eecf6c4d93f6ea02759973a555884",
+  "imageSize": [
+    1191,
+    1684
+  ]
+}

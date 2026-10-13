@@ -1,0 +1,231 @@
+{
+  "exit_code": 0,
+  "elapsed_ms": 833,
+  "mode": "LIVE",
+  "model_requested": "jev-latest",
+  "result": [
+    {
+      "model": "jev-1.13.0",
+      "answers": {
+        "REL-01": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-02": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-03": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.96,
+          "probabilities": {
+            "insufficient": 0.01,
+            "contradicted": 0.01,
+            "supported": 0.98
+          }
+        },
+        "REL-04": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-05": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-06": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.97,
+          "probabilities": {
+            "insufficient": 0.02,
+            "contradicted": 0,
+            "supported": 0.98
+          }
+        },
+        "REL-07": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "insufficient": 0.01,
+            "contradicted": 0,
+            "supported": 0.99
+          }
+        },
+        "REL-08": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0.01,
+            "contradicted": 0,
+            "supported": 0.99
+          }
+        },
+        "REL-09": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "insufficient": 0.01,
+            "contradicted": 0,
+            "supported": 0.99
+          }
+        },
+        "REL-10": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-11": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-12": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0.01,
+            "contradicted": 0,
+            "supported": 0.99
+          }
+        },
+        "REL-13": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-14": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-15": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "insufficient": 0.01,
+            "contradicted": 0,
+            "supported": 0.99
+          }
+        },
+        "REL-16": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-17": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-18": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0.01,
+            "contradicted": 0,
+            "supported": 0.99
+          }
+        },
+        "REL-19": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-20": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "insufficient": 0,
+            "contradicted": 0,
+            "supported": 1
+          }
+        },
+        "REL-21": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "insufficient": 0.01,
+            "contradicted": 0.01,
+            "supported": 0.98
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 32368,
+        "output_tokens": 927
+      }
+    }
+  ],
+  "error": null,
+  "retry": 0,
+  "fallback": 0,
+  "authority": 0
+}

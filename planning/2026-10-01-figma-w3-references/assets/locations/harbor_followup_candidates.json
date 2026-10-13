@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cosa_pier2",
+    "title_ko": "코사 항구 · 로마 콘크리트 교각 2번",
+    "subject": "Side view of surviving Roman concrete Pier 2 at Cosa harbour, Ansedonia, Tuscany; ROMACONS 2003 Figure 6",
+    "source_page": "https://web.uvic.ca/~jpoleson/Harbour%20Concrete/ROMACONS03.html",
+    "direct_url": "https://web.uvic.ca/~jpoleson/Images/RCONS03Fig6.jpg",
+    "credit": "ROMACONS / John P. Oleson, Christopher Brandon, Robert L. Hohlfelder; University of Victoria, 2003 field report, Figure 6; photographer not individually stated",
+    "license": "University research publication; reuse license not stated",
+    "caption_ko": "토스카나 안세도니아의 고대 코사 항구에 남은 2번 콘크리트 교각 측면. ROMACONS 2003 현장보고서의 실제 구조물 사진. W3 항만 구조 참고용이며 프리베르눔의 자가치유 연구 시료와는 다른 사례.",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/cosa_pier2.jpg",
+    "dimensions": [
+      504,
+      378
+    ],
+    "mime": "image/jpeg",
+    "bytes": 92465,
+    "sha256": "5a708065ddf459ac901b10fa85b0e77d3e8847feb5baedf2c8074c589aa5eae9"
+  },
+  {
+    "id": "secca_fumosa_pier",
+    "title_ko": "포추올리만 · 세카 푸모사 수중 교각",
+    "subject": "Opus reticulatum facing on a submerged Roman marine concrete pier at Secca Fumosa in Pozzuoli Bay, Campania; ROMACONS 2006 Figure 8",
+    "source_page": "https://web.uvic.ca/~jpoleson/ROMACONS/Baia%202006.htm",
+    "direct_url": "https://web.uvic.ca/~jpoleson/ROMACONS/Baia06%20Fig%2008.JPG",
+    "credit": "C. Brandon, R. L. Hohlfelder, J. P. Oleson / ROMACONS; University of Victoria, The Concrete Construction of the Roman Harbours of Baiae and Portus Iulius, Figure 8; photographer not individually stated",
+    "license": "University research publication; reuse license not stated",
+    "caption_ko": "캄파니아 포추올리만 세카 푸모사의 수중 로마 콘크리트 교각에 남은 망상식 석재 표면. ROMACONS 2006 연구보고서의 현장 사진. 항만·해안 구조 사례이며, 이 구조물의 정확한 방파 기능은 보고서에서도 확정하지 않음.",
+    "local_path": "/Users/um-yunsang/.planning/2026-10-01-figma-w3-references/assets/locations/secca_fumosa_pier.jpg",
+    "dimensions": [
+      1050,
+      788
+    ],
+    "mime": "image/jpeg",
+    "bytes": 251775,
+    "sha256": "716fc8ed1cab6cfe44a9cdef545e284353fa5825d8fe9dc8fa947ef356c8567d"
+  }
+]

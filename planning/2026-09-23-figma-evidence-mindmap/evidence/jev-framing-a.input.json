@@ -1,0 +1,87 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "core_question": "로마 콘크리트는 어떻게 작은 균열을 스스로 메우며 이 반응은 오래 버티는 데 어떻게 기여할까?",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "Seymour et al. 2023 DOI 10.1126/sciadv.add1602, Methods/Results",
+        "facts": "Ancient bedding mortar sampled from Privernum city wall, not Colosseum. Modern crack-sealing test used Roman-inspired mortar with Portland cement, fly ash, sand and quicklime; gap 0.5 ±0.1 mm; 28 days submerged curing plus two months wet/dry preconditioning; 30-day water-flow test; negligible flow after 1-3 weeks depending on crack geometry. No building-scale structural recovery test."
+      },
+      {
+        "id": "E2",
+        "source": "Vaserman et al. 2025 DOI 10.1038/s41467-025-66634-7, Abstract/Results",
+        "facts": "Pompeii unfinished construction site evidence supports dry quicklime and pozzolan premixing before water addition. Lime clasts can retain calcium source; dissolution and mineral deposition observed. No new timed crack-flow healing experiment reported."
+      },
+      {
+        "id": "E3",
+        "source": "European Commission JRC, Major concepts EN Eurocodes",
+        "facts": "Design working life is the assumed period of intended use with anticipated maintenance, not a material expiration or collapse date."
+      }
+    ],
+    "candidate_claims": {
+      "C1": "Some calcium-rich lime clasts can supply calcium that moves with water and contributes to crack-filling mineral reactions. This mechanism may contribute to durability.",
+      "C2": "The Colosseum was proven to heal every crack and restore its original structural strength within three weeks.",
+      "C3": "Modern concrete buildings always collapse at 100 years, so Roman concrete lasts twenty times longer.",
+      "C4": "Formation sequence (mixing and remaining clasts) must be distinguished from later healing sequence (crack, water, calcium movement, mineral filling).",
+      "C5": "A diagram should label laboratory results separately from ancient observations and proposed mechanism.",
+      "C6": "The modern mortar experiment proves continuous self-healing for 2000 years."
+    }
+  },
+  "questions": {
+    "C1": {
+      "type": "choice",
+      "instructions": "Classify candidate_claims.C1 only against supplied evidence. Do not infer external facts.",
+      "criteria": {
+        "supported": "The supplied evidence supports the statement with its stated scope.",
+        "contradicted": "The statement conflicts with supplied source, scope, or experimental conditions.",
+        "insufficient": "The supplied evidence is insufficient to establish the statement."
+      }
+    },
+    "C2": {
+      "type": "choice",
+      "instructions": "Classify candidate_claims.C2 only against supplied evidence. Do not infer external facts.",
+      "criteria": {
+        "supported": "The supplied evidence supports the statement with its stated scope.",
+        "contradicted": "The statement conflicts with supplied source, scope, or experimental conditions.",
+        "insufficient": "The supplied evidence is insufficient to establish the statement."
+      }
+    },
+    "C3": {
+      "type": "choice",
+      "instructions": "Classify candidate_claims.C3 only against supplied evidence. Do not infer external facts.",
+      "criteria": {
+        "supported": "The supplied evidence supports the statement with its stated scope.",
+        "contradicted": "The statement conflicts with supplied source, scope, or experimental conditions.",
+        "insufficient": "The supplied evidence is insufficient to establish the statement."
+      }
+    },
+    "C4": {
+      "type": "choice",
+      "instructions": "Classify candidate_claims.C4 only against supplied evidence. Do not infer external facts.",
+      "criteria": {
+        "supported": "The supplied evidence supports the statement with its stated scope.",
+        "contradicted": "The statement conflicts with supplied source, scope, or experimental conditions.",
+        "insufficient": "The supplied evidence is insufficient to establish the statement."
+      }
+    },
+    "C5": {
+      "type": "choice",
+      "instructions": "Classify candidate_claims.C5 only against supplied evidence. Do not infer external facts.",
+      "criteria": {
+        "supported": "The supplied evidence supports the statement with its stated scope.",
+        "contradicted": "The statement conflicts with supplied source, scope, or experimental conditions.",
+        "insufficient": "The supplied evidence is insufficient to establish the statement."
+      }
+    },
+    "C6": {
+      "type": "choice",
+      "instructions": "Classify candidate_claims.C6 only against supplied evidence. Do not infer external facts.",
+      "criteria": {
+        "supported": "The supplied evidence supports the statement with its stated scope.",
+        "contradicted": "The statement conflicts with supplied source, scope, or experimental conditions.",
+        "insufficient": "The supplied evidence is insufficient to establish the statement."
+      }
+    }
+  }
+}

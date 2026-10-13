@@ -1,0 +1,10 @@
+{
+  "model": "jev-1.13.0",
+  "framing_repeated_same_input": true,
+  "framing_labels_equal": true,
+  "framing_probabilities_equal": false,
+  "atomic_count": 24,
+  "supported_count": 24,
+  "limitations": "Jev is auxiliary evidence classification, not a factual authority. Two repeated label matches do not establish mathematical determinism. Probabilities differed. Prescriptive design choices require method/user rationale, not material-paper evidence.",
+  "atomic_input_sha256": "4332a8d0955c9bc1be7fee769c7aa65fc925d8c9113a045e2964c217655fbee5"
+}

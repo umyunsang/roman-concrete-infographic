@@ -1,0 +1,352 @@
+{
+  "createdNodeIds": [
+    "426:78",
+    "426:79"
+  ],
+  "mutatedNodeIds": [
+    "419:84",
+    "419:89",
+    "419:94",
+    "419:100",
+    "419:105",
+    "419:110",
+    "419:116",
+    "419:121",
+    "419:126",
+    "419:132",
+    "419:137",
+    "419:142",
+    "419:148",
+    "423:84",
+    "423:89",
+    "423:94",
+    "423:100",
+    "423:105",
+    "423:110",
+    "423:116",
+    "423:121",
+    "423:126",
+    "423:132",
+    "423:137",
+    "423:142",
+    "421:84",
+    "421:89",
+    "421:94",
+    "421:100",
+    "421:105"
+  ],
+  "totalPhotos": 30,
+  "imageFillCount": 30,
+  "linkedSources": 30,
+  "checks": [
+    {
+      "id": "apennines",
+      "nodeId": "419:84",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Sasso.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "tiber",
+      "nodeId": "419:89",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_Tiber,_Rome.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "rome",
+      "nodeId": "419:94",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forum_Romanum_panorama.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "palatine",
+      "nodeId": "419:100",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruins_on_Palatine_Hill,_Rome,_Italy.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "aqueduct",
+      "nodeId": "419:105",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parco_degli_acquedotti_primavera.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "via_appia",
+      "nodeId": "419:110",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Via_appia.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "vesuvius",
+      "nodeId": "419:116",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Vesuvius_-_panoramio.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "pompeii",
+      "nodeId": "419:121",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antigua_ciudad_de_Pompeya,_Italia,_2023-03-27,_DD_156.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "harbor",
+      "nodeId": "419:126",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pozzuoli_harbor_(5048296672).jpg",
+      "placeholder": false
+    },
+    {
+      "id": "tyrrhenian",
+      "nodeId": "419:132",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20050128_1519_sea_seen_from_the_amalfi_coast.JPG",
+      "placeholder": false
+    },
+    {
+      "id": "privernum",
+      "nodeId": "419:137",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://www.privernomusei.it/parco-archeologico/",
+      "placeholder": false
+    },
+    {
+      "id": "cosa_pier2",
+      "nodeId": "419:142",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://web.uvic.ca/~jpoleson/Harbour%20Concrete/ROMACONS03.html",
+      "placeholder": false
+    },
+    {
+      "id": "secca_fumosa_pier",
+      "nodeId": "419:148",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://web.uvic.ca/~jpoleson/ROMACONS/Baia%202006.htm",
+      "placeholder": false
+    },
+    {
+      "id": "obj07-colosseum-exterior",
+      "nodeId": "423:84",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome,_Italy_-_April_2007.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "obj12-colosseum-interior-bowl-hypogeum",
+      "nodeId": "423:89",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rome_Colosseum_interior_panorama_1.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "obj08-colosseum-vault-corridor",
+      "nodeId": "423:94",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:04_2022_Roma_(Colosseo-_Galleria_voltata_a_botte_e_arcate)_FO228654_Photo_by_Paolo_Villa.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "obj09-stern-brick-buttress",
+      "nodeId": "423:100",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:10_2023_Colosseum_(Sperone_di_Raffaele_Stern),_Piazza_del_Colosseo,_Celio,_Municipio_Roma_I,_Rome,_Roma_Capitale,_Lazio,_00184,_Italy_-_Photo_Paolo_Villa_FO232135.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "obj06-opus-caementicium-wall",
+      "nodeId": "423:105",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:OpusCaementiciumViaAppiaAntica.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "obj03-roman-rubble-aggregate",
+      "nodeId": "423:110",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://newscenter.lbl.gov/2014/12/15/roman-architectural-concrete/",
+      "placeholder": false
+    },
+    {
+      "id": "obj01-quicklime-powder",
+      "nodeId": "423:116",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calcium_oxide_powder.JPG",
+      "placeholder": false
+    },
+    {
+      "id": "obj02-granular-pozzolana",
+      "nodeId": "423:121",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:02pouzzolane.JPG",
+      "placeholder": false
+    },
+    {
+      "id": "obj05-mortar-mixing-tub",
+      "nodeId": "423:126",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mixing_mortar.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "obj04-wooden-formwork",
+      "nodeId": "423:132",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructing_Concrete_Kerb_And_Channel.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "obj10-pliny-historical-book",
+      "nodeId": "423:137",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Histoire_naturelle_de_Pline_l%27Ancien,_1525.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "obj11-modern-compression-test",
+      "nodeId": "423:142",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Concrete_Compression_Testing.jpg",
+      "placeholder": false
+    },
+    {
+      "id": "science-portus-cosanus-crystals",
+      "nodeId": "421:84",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://newscenter.lbl.gov/2017/07/03/ancient-concrete-could-teach-us-to-do-as-romans-did/",
+      "placeholder": false
+    },
+    {
+      "id": "science-privernum-lime-clasts",
+      "nodeId": "421:89",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9821858/#F4",
+      "placeholder": false
+    },
+    {
+      "id": "science-pompeii-dry-premix",
+      "nodeId": "421:94",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://www.nature.com/articles/s41467-025-66634-7/figures/2",
+      "placeholder": false
+    },
+    {
+      "id": "science-modern-fracture-specimen",
+      "nodeId": "421:100",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9821858/#F5",
+      "placeholder": false
+    },
+    {
+      "id": "science-modern-healed-crack",
+      "nodeId": "421:105",
+      "hasImage": true,
+      "scaleMode": "FIT",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9821858/#F5",
+      "placeholder": false
+    }
+  ],
+  "rootBounds": [
+    {
+      "id": "414:78",
+      "name": "W3 · 최종 3차 마인드맵 (03 관계 · 원본 복사)",
+      "x": 5700,
+      "y": -2937,
+      "width": 4300,
+      "height": 2797
+    },
+    {
+      "id": "179:78",
+      "name": "작업 · W3",
+      "x": 5700,
+      "y": 100,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "id": "419:78",
+      "name": "W3 · 지역 실사진 (지명과 항만 유구)",
+      "x": 7070,
+      "y": 100,
+      "width": 1380,
+      "height": 1980
+    },
+    {
+      "id": "423:78",
+      "name": "W3 · 오브젝트 실사진 (재료·제작·구조·보수)",
+      "x": 8560,
+      "y": 100,
+      "width": 1440,
+      "height": 1578
+    },
+    {
+      "id": "421:78",
+      "name": "W3 · 연구 실사진 (CORE ①②④와 실험)",
+      "x": 8560,
+      "y": 2100,
+      "width": 1440,
+      "height": 928
+    }
+  ],
+  "overlaps": [],
+  "mindmap": {
+    "sourceId": "89:92",
+    "copyId": "414:78",
+    "descendants": 323,
+    "textCount": 126,
+    "exactTextMatch": true
+  },
+  "w3": {
+    "id": "179:78",
+    "name": "작업 · W3",
+    "bounds": {
+      "x": 5700,
+      "y": 100,
+      "width": 1191,
+      "height": 1684
+    },
+    "originalRasterImages": 0
+  },
+  "overviewNodeId": "426:79",
+  "overviewBounds": {
+    "x": 5600,
+    "y": -3037,
+    "width": 4500,
+    "height": 6165
+  },
+  "headingId": "426:78"
+}

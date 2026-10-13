@@ -1,0 +1,1699 @@
+{
+  "source": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v11.blend",
+  "sha256": "f58d958eee5db375a76779f337681be96f8b7b6f0f0d4ba562f7d9aa3f79f528",
+  "objects": [
+    {
+      "name": "B_pons1",
+      "bbox": [
+        227.7641706075378,
+        656.3413538790617,
+        319.0490433370531,
+        711.4211812114297
+      ],
+      "parent": null,
+      "polygons": 91,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "B_pons1_parapet0",
+      "bbox": [
+        236.70995619984834,
+        653.6639030164312,
+        293.1926943596305,
+        687.1610366515307
+      ],
+      "parent": null,
+      "polygons": 6,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "B_pons1_parapet1",
+      "bbox": [
+        253.8417651221741,
+        662.7361303838122,
+        310.33003517333714,
+        696.4726325589064
+      ],
+      "parent": null,
+      "polygons": 6,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "B_pons2",
+      "bbox": [
+        257.118666162236,
+        946.8737958206005,
+        368.3963327710782,
+        1015.0644926807415
+      ],
+      "parent": null,
+      "polygons": 91,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "B_pons2_parapet0",
+      "bbox": [
+        267.1529557683934,
+        957.2338666540032,
+        339.7081479503031,
+        996.5601588348358
+      ],
+      "parent": null,
+      "polygons": 6,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "B_pons2_parapet1",
+      "bbox": [
+        285.6850022939432,
+        943.9806701883109,
+        358.11598174371863,
+        982.942466446356
+      ],
+      "parent": null,
+      "polygons": 6,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "C2_hot_mixing",
+      "bbox": [
+        141.71441480667494,
+        779.0001292245834,
+        308.28556664210356,
+        940.0001318241281
+      ],
+      "parent": null,
+      "polygons": 15801,
+      "materials": [
+        "roman_stone",
+        "mixture",
+        "toolwood",
+        "basin",
+        "skin",
+        "cloth",
+        "linen"
+      ]
+    },
+    {
+      "name": "C5_researchers",
+      "bbox": [
+        868.8780488747071,
+        1128.05590990843,
+        963.1102550924053,
+        1240.8782335393303
+      ],
+      "parent": null,
+      "polygons": 15813,
+      "materials": [
+        "roman_stone",
+        "linen",
+        "skin",
+        "cloth",
+        "toolmetal"
+      ]
+    },
+    {
+      "name": "COL_ruined",
+      "bbox": [
+        394.9999989817524,
+        612.7361295749773,
+        790.9999823865762,
+        965.0001030610573
+      ],
+      "parent": null,
+      "polygons": 197806,
+      "materials": [
+        "colosseum_wall",
+        "colosseum_interior",
+        "arena_earth"
+      ]
+    },
+    {
+      "name": "D2_lime_kiln",
+      "bbox": [
+        89.99994790813973,
+        584.0689995512614,
+        195.99995680044955,
+        710.0004238919748
+      ],
+      "parent": null,
+      "polygons": 6494,
+      "materials": [
+        "kiln_shell",
+        "kiln_foundation",
+        "kiln_interior",
+        "kiln_smoke"
+      ]
+    },
+    {
+      "name": "F_centuriatio",
+      "bbox": [
+        -17.969715870224302,
+        412.5261874017875,
+        1206.2192095682994,
+        1474.7970198251464
+      ],
+      "parent": null,
+      "polygons": 24922,
+      "materials": [
+        "base_field"
+      ]
+    },
+    {
+      "name": "L01_autore",
+      "bbox": [
+        837.6418441128942,
+        282.9731303564597,
+        956.3713013631706,
+        397.82616982373384
+      ],
+      "parent": null,
+      "polygons": 12746,
+      "materials": [
+        "base_mountain_volcano"
+      ]
+    },
+    {
+      "name": "L01_corno_grande",
+      "bbox": [
+        505.19354156628435,
+        262.013400512783,
+        686.1898054520065,
+        357.48764666207217
+      ],
+      "parent": null,
+      "polygons": 15597,
+      "materials": [
+        "base_mountain_volcano"
+      ]
+    },
+    {
+      "name": "L01_gennaro",
+      "bbox": [
+        233.9218566164073,
+        302.1984615475634,
+        401.1026907080818,
+        433.877742995095
+      ],
+      "parent": null,
+      "polygons": 17843,
+      "materials": [
+        "base_mountain_volcano"
+      ]
+    },
+    {
+      "name": "L01_terminillo_e",
+      "bbox": [
+        1065.7320548618852,
+        314.4573737071658,
+        1183.24934687625,
+        399.09086302238705
+      ],
+      "parent": null,
+      "polygons": 17346,
+      "materials": [
+        "base_mountain_volcano"
+      ]
+    },
+    {
+      "name": "L01_velino",
+      "bbox": [
+        693.6426265016687,
+        268.4222337215745,
+        856.8375534658107,
+        378.60940743727804
+      ],
+      "parent": null,
+      "polygons": 16837,
+      "materials": [
+        "base_mountain_volcano"
+      ]
+    },
+    {
+      "name": "L01_velino_w",
+      "bbox": [
+        353.7229481811591,
+        282.88481211956406,
+        485.8016757185426,
+        391.1073123206148
+      ],
+      "parent": null,
+      "polygons": 16837,
+      "materials": [
+        "base_mountain_volcano"
+      ]
+    },
+    {
+      "name": "L01_viglio",
+      "bbox": [
+        946.9690819341457,
+        302.44284794580966,
+        1092.5745737535613,
+        417.741253662175
+      ],
+      "parent": null,
+      "polygons": 16865,
+      "materials": [
+        "base_mountain_volcano"
+      ]
+    },
+    {
+      "name": "L02_tiber",
+      "bbox": [
+        45.586358837714826,
+        318.21228228298475,
+        345.29189676266907,
+        1393.8494374324175
+      ],
+      "parent": null,
+      "polygons": 8197,
+      "materials": [
+        "base_sea_river"
+      ]
+    },
+    {
+      "name": "L03_forum_temple",
+      "bbox": [
+        414.27931409307007,
+        454.89641367560154,
+        495.4265014679633,
+        558.1144668005666
+      ],
+      "parent": null,
+      "polygons": 7939,
+      "materials": [
+        "roman_stone",
+        "roman_plinth",
+        "roman_roof"
+      ]
+    },
+    {
+      "name": "L03_forum_vesta",
+      "bbox": [
+        304.25022614907374,
+        470.41894523444165,
+        395.1165554114561,
+        585.4323738265097
+      ],
+      "parent": null,
+      "polygons": 33534,
+      "materials": [
+        "roman_stone",
+        "roman_plinth",
+        "roman_roof"
+      ]
+    },
+    {
+      "name": "L04_palatine",
+      "bbox": [
+        66.47631686018744,
+        1125.000311792807,
+        128.5236226084822,
+        1189.000313450367
+      ],
+      "parent": null,
+      "polygons": 150,
+      "materials": [
+        "roman_stone",
+        "roman_plinth"
+      ]
+    },
+    {
+      "name": "L04_palatine_arch",
+      "bbox": [
+        66.94726297464663,
+        1143.831706075797,
+        127.79746946097967,
+        1187.742332719115
+      ],
+      "parent": "L04_palatine",
+      "polygons": 41,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "L05_aqua_claudia",
+      "bbox": [
+        830.5957557108054,
+        352.1049324851483,
+        1171.299836443365,
+        671.9914109703251
+      ],
+      "parent": null,
+      "polygons": 5586,
+      "materials": [
+        "roman_stone",
+        "roman_plinth"
+      ]
+    },
+    {
+      "name": "L07_vesuvius",
+      "bbox": [
+        905.0397522960728,
+        1269.4254486214754,
+        1173.2730432278051,
+        1579.928529721194
+      ],
+      "parent": null,
+      "polygons": 116849,
+      "materials": [
+        "volcano_body",
+        "volcano_crater",
+        "volcano_rock",
+        "volcano_low_slope"
+      ]
+    },
+    {
+      "name": "L10_sea",
+      "bbox": [
+        -12.000027070743052,
+        1337.0805026991,
+        1202.9999509235895,
+        1714.293846099758
+      ],
+      "parent": null,
+      "polygons": 33179,
+      "materials": [
+        "base_sea_river"
+      ]
+    },
+    {
+      "name": "L11_privernum_wall",
+      "bbox": [
+        1022.2120104465438,
+        1004.6563022380257,
+        1124.5241080548888,
+        1102.7478280274559
+      ],
+      "parent": null,
+      "polygons": 7540,
+      "materials": [
+        "roman_stone",
+        "roman_plinth"
+      ]
+    },
+    {
+      "name": "L_C1_b_ul",
+      "bbox": [
+        595.4999999999995,
+        841.5616220420201,
+        709.0096771090892,
+        907.0960584068174
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": []
+    },
+    {
+      "name": "L_C1_n_badge",
+      "bbox": [
+        584.7163841759833,
+        835.7771180079426,
+        606.2836158240158,
+        848.2289075347849
+      ],
+      "parent": null,
+      "polygons": 24,
+      "materials": []
+    },
+    {
+      "name": "L_C2_b_ul",
+      "bbox": [
+        595.4999999999995,
+        841.6214760972036,
+        700.8621496168199,
+        902.4519152982393
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": []
+    },
+    {
+      "name": "L_C2_n_badge",
+      "bbox": [
+        586.2702908777162,
+        836.6703335472569,
+        604.7297091222829,
+        847.3278185171158
+      ],
+      "parent": null,
+      "polygons": 24,
+      "materials": []
+    },
+    {
+      "name": "L_C3_b_ul",
+      "bbox": [
+        595.4999999999995,
+        841.656679864202,
+        675.9571349596905,
+        888.1082567760564
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": []
+    },
+    {
+      "name": "L_C3_n_badge",
+      "bbox": [
+        587.177807847185,
+        837.1922728207435,
+        603.8221921528141,
+        846.801846502065
+      ],
+      "parent": null,
+      "polygons": 24,
+      "materials": []
+    },
+    {
+      "name": "L_C4_b_ul",
+      "bbox": [
+        595.4999999999995,
+        841.656679864202,
+        702.5416187216366,
+        903.4567382088644
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": []
+    },
+    {
+      "name": "L_C4_n_badge",
+      "bbox": [
+        587.177807847185,
+        837.1922728207435,
+        603.8221921528141,
+        846.801846502065
+      ],
+      "parent": null,
+      "polygons": 24,
+      "materials": []
+    },
+    {
+      "name": "L_C5_b_ul",
+      "bbox": [
+        595.4999999999995,
+        841.6296349932595,
+        694.1400954757468,
+        898.5791061601218
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": []
+    },
+    {
+      "name": "L_C5_n_badge",
+      "bbox": [
+        586.481039793913,
+        836.7915228677034,
+        604.5189602060859,
+        847.2056555121321
+      ],
+      "parent": null,
+      "polygons": 24,
+      "materials": []
+    },
+    {
+      "name": "NB_build_formboard0",
+      "bbox": [
+        485.1328980001906,
+        981.9760227152424,
+        518.4428498239115,
+        1006.7157540778782
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "toolwood"
+      ]
+    },
+    {
+      "name": "NB_build_formboard1",
+      "bbox": [
+        485.1328980059353,
+        976.5463921917576,
+        518.4428498279502,
+        1001.2455397590046
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "toolwood"
+      ]
+    },
+    {
+      "name": "NB_build_formbrace",
+      "bbox": [
+        477.966624698787,
+        982.0974107171373,
+        487.49543314950654,
+        989.424092768426
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "toolwood"
+      ]
+    },
+    {
+      "name": "NB_build_formpost0",
+      "bbox": [
+        485.39350188809954,
+        968.7533133309253,
+        488.47230151892234,
+        989.4499174548322
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "toolwood"
+      ]
+    },
+    {
+      "name": "NB_build_formpost1",
+      "bbox": [
+        515.0764681087875,
+        987.1532256624346,
+        518.1741221625431,
+        1008.0003856629138
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "toolwood"
+      ]
+    },
+    {
+      "name": "NB_build_stone_0_0",
+      "bbox": [
+        490.26328021790664,
+        975.4443600611918,
+        503.3794069661575,
+        990.1128493873148
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_0_1",
+      "bbox": [
+        497.15127259035233,
+        979.7149790355719,
+        510.28697673715595,
+        994.4184848594884
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_0_2",
+      "bbox": [
+        504.0605943705875,
+        983.9988027385689,
+        517.2159343719404,
+        998.737471761376
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_0_3",
+      "bbox": [
+        510.991344785447,
+        988.2958925084263,
+        524.1663793591912,
+        1003.069872291981
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_1_0",
+      "bbox": [
+        490.8885834486177,
+        968.0589638545415,
+        504.0064868055748,
+        982.7082577023438
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_1_1",
+      "bbox": [
+        497.77851002836525,
+        972.3187799635824,
+        510.9159966453099,
+        987.0030347238852
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_1_2",
+      "bbox": [
+        504.68977566292943,
+        976.5917696546567,
+        517.8469033666812,
+        991.3111313810097
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_1_3",
+      "bbox": [
+        511.62247917077065,
+        980.8779938410546,
+        524.7993063256924,
+        995.6326096160999
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_2_0",
+      "bbox": [
+        490.26328023379017,
+        959.7196109983947,
+        503.37940698006,
+        974.3428493615368
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_stone_2_1",
+      "bbox": [
+        497.1512726052191,
+        963.9659570823884,
+        510.2869767500358,
+        978.6240719326707
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "roman_stone"
+      ]
+    },
+    {
+      "name": "NB_build_wall_mortar",
+      "bbox": [
+        489.5232799035204,
+        964.2422380345147,
+        525.290349602948,
+        1004.7661531936642
+      ],
+      "parent": "NB_worker_builder",
+      "polygons": 6,
+      "materials": [
+        "worker_mortar"
+      ]
+    },
+    {
+      "name": "NB_carrier_bucket",
+      "bbox": [
+        334.12305278463026,
+        946.8099490384709,
+        350.0354101920222,
+        966.2750928944721
+      ],
+      "parent": "NB_worker_carrier",
+      "polygons": 73,
+      "materials": [
+        "toolwood"
+      ]
+    },
+    {
+      "name": "NB_carrier_handle0",
+      "bbox": [
+        330.75940732629283,
+        949.3987118202974,
+        338.35390232761324,
+        956.1286959526228
+      ],
+      "parent": "NB_worker_carrier",
+      "polygons": 34,
+      "materials": [
+        "toolmetal"
+      ]
+    },
+    {
+      "name": "NB_carrier_handle1",
+      "bbox": [
+        339.7224046300592,
+        940.6760894684228,
+        347.30068150147883,
+        947.9100842532526
+      ],
+      "parent": "NB_worker_carrier",
+      "polygons": 34,
+      "materials": [
+        "toolmetal"
+      ]
+    },
+    {
+      "name": "NB_carrier_human_head",
+      "bbox": [
+        316.7045175928358,
+        913.000213085063,
+        340.1780015742534,
+        933.0215902131439
+      ],
+      "parent": "NB_worker_carrier",
+      "polygons": 8439,
+      "materials": [
+        "linen",
+        "roman_stone",
+        "skin",
+        "toolmetal",
+        "toolwood",
+        "worker_dark"
+      ]
+    },
+    {
+      "name": "NB_carrier_mortar",
+      "bbox": [
+        335.6687447062031,
+        948.5100662231923,
+        348.48955783122005,
+        957.5055474377994
+      ],
+      "parent": "NB_worker_carrier",
+      "polygons": 26,
+      "materials": [
+        "worker_mortar"
+      ]
+    },
+    {
+      "name": "NB_core4_sequence_GRAY00",
+      "bbox": [
+        680.9824417674475,
+        1206.8168909529406,
+        783.9853408266913,
+        1214.0454547191741
+      ],
+      "parent": "NB_core4_sequence",
+      "polygons": 2,
+      "materials": [
+        "base_type_secondary_on_light_ground"
+      ]
+    },
+    {
+      "name": "NB_core4_sequence_GRAY01",
+      "bbox": [
+        664.8775727085014,
+        1203.9744100882813,
+        751.2011696525228,
+        1237.651775146985
+      ],
+      "parent": "NB_core4_sequence",
+      "polygons": 12,
+      "materials": [
+        "base_type_heading"
+      ]
+    },
+    {
+      "name": "NB_core4_sequence_GRAY02",
+      "bbox": [
+        666.311845832463,
+        1203.8145381636914,
+        830.5677328778688,
+        1237.813483785843
+      ],
+      "parent": "NB_core4_sequence",
+      "polygons": 166,
+      "materials": [
+        "base_lime_calcium_crystal"
+      ]
+    },
+    {
+      "name": "NB_core4_sequence_GRAY03",
+      "bbox": [
+        624.9999919191388,
+        1172.7060850752948,
+        840.0000012990188,
+        1250.0001602218608
+      ],
+      "parent": "NB_core4_sequence",
+      "polygons": 162,
+      "materials": [
+        "base_lime_specimen_matrix"
+      ]
+    },
+    {
+      "name": "NB_core4_sequence_GRAY04",
+      "bbox": [
+        739.3151260681365,
+        1153.3627183208132,
+        748.0750137567743,
+        1179.7085679986862
+      ],
+      "parent": "NB_core4_sequence",
+      "polygons": 240,
+      "materials": [
+        "base_water_process"
+      ]
+    },
+    {
+      "name": "NB_detail4_matrix",
+      "bbox": [
+        706.0560485707357,
+        1365.0003185395985,
+        740.9441070067614,
+        1414.0003525974078
+      ],
+      "parent": "NB_detail4_micro",
+      "polygons": 6,
+      "materials": [
+        "base_lime_specimen_matrix"
+      ]
+    },
+    {
+      "name": "NB_detail_calcium_clast",
+      "bbox": [
+        302.197455713382,
+        1170.0001963434875,
+        397.8025396184191,
+        1260.0001886609996
+      ],
+      "parent": null,
+      "polygons": 80,
+      "materials": [
+        "base_lime_calcium_crystal"
+      ]
+    },
+    {
+      "name": "NB_lime_clast_specimen",
+      "bbox": [
+        441.99390566515217,
+        1132.406785123379,
+        566.0060940596278,
+        1288.0872752258454
+      ],
+      "parent": null,
+      "polygons": 23532,
+      "materials": [
+        "base_lime_specimen_matrix"
+      ]
+    },
+    {
+      "name": "NB_lime_clast_specimen_LIME00",
+      "bbox": [
+        454.67173187390244,
+        1186.822823596924,
+        463.1596823413818,
+        1194.8197071228037
+      ],
+      "parent": "NB_lime_clast_specimen",
+      "polygons": 80,
+      "materials": [
+        "base_lime_calcium_crystal"
+      ]
+    },
+    {
+      "name": "NB_lime_clast_specimen_LIME01",
+      "bbox": [
+        468.9045765867451,
+        1225.9232665449904,
+        482.2862894526592,
+        1238.6015917755506
+      ],
+      "parent": "NB_lime_clast_specimen",
+      "polygons": 80,
+      "materials": [
+        "base_lime_calcium_crystal"
+      ]
+    },
+    {
+      "name": "NB_lime_clast_specimen_LIME02",
+      "bbox": [
+        498.7638953009113,
+        1229.4271717502113,
+        504.8794458738249,
+        1235.2266437001035
+      ],
+      "parent": "NB_lime_clast_specimen",
+      "polygons": 80,
+      "materials": [
+        "base_lime_calcium_crystal"
+      ]
+    },
+    {
+      "name": "NB_lime_clast_specimen_LIME03",
+      "bbox": [
+        487.7797294217626,
+        1198.009341256351,
+        498.7659193768516,
+        1208.3878297597746
+      ],
+      "parent": "NB_lime_clast_specimen",
+      "polygons": 80,
+      "materials": [
+        "base_lime_calcium_crystal"
+      ]
+    },
+    {
+      "name": "NB_lime_clast_specimen_LIME04",
+      "bbox": [
+        528.7848691298967,
+        1260.0062710877905,
+        536.7484284842687,
+        1267.595097020473
+      ],
+      "parent": "NB_lime_clast_specimen",
+      "polygons": 80,
+      "materials": [
+        "base_lime_calcium_crystal"
+      ]
+    },
+    {
+      "name": "NB_lime_clast_specimen_LIME05",
+      "bbox": [
+        548.187649233645,
+        1211.1119588279166,
+        559.7652759182606,
+        1222.0900380303083
+      ],
+      "parent": "NB_lime_clast_specimen",
+      "polygons": 80,
+      "materials": [
+        "base_lime_calcium_crystal"
+      ]
+    },
+    {
+      "name": "NB_modern_building",
+      "bbox": [
+        709.8779836619115,
+        355.31037841977053,
+        885.1172737866987,
+        550.3783197525246
+      ],
+      "parent": null,
+      "polygons": 24975,
+      "materials": [
+        "concrete",
+        "steel"
+      ]
+    },
+    {
+      "name": "NB_pair_mortar",
+      "bbox": [
+        605.5880423183249,
+        943.6365361382968,
+        618.1301357097663,
+        951.7300834486897
+      ],
+      "parent": "NB_worker_pair",
+      "polygons": 6,
+      "materials": [
+        "worker_mortar"
+      ]
+    },
+    {
+      "name": "NB_vault_complete",
+      "bbox": [
+        813.4319136917296,
+        887.0002502599624,
+        907.5681524752389,
+        970.0002617090566
+      ],
+      "parent": null,
+      "polygons": 19731,
+      "materials": [
+        "construction_stone",
+        "construction_mortar",
+        "construction_brick_facing",
+        "construction_base"
+      ]
+    },
+    {
+      "name": "NB_vault_construction",
+      "bbox": [
+        367.4168887559788,
+        920.0000118727565,
+        446.5830516594763,
+        1008.000020450001
+      ],
+      "parent": null,
+      "polygons": 16493,
+      "materials": [
+        "construction_stone",
+        "construction_mortar",
+        "construction_base"
+      ]
+    },
+    {
+      "name": "NB_vault_timber_post0_0",
+      "bbox": [
+        376.9256478220989,
+        959.6289870955123,
+        380.59475320046676,
+        978.4641132616192
+      ],
+      "parent": "NB_vault_construction",
+      "polygons": 6,
+      "materials": [
+        "construction_timber"
+      ]
+    },
+    {
+      "name": "NB_vault_timber_post0_1",
+      "bbox": [
+        407.9827761418043,
+        979.2950963118353,
+        411.6763311179599,
+        998.2808732120552
+      ],
+      "parent": "NB_vault_construction",
+      "polygons": 6,
+      "materials": [
+        "construction_timber"
+      ]
+    },
+    {
+      "name": "NB_vault_timber_post1_0",
+      "bbox": [
+        387.03178210414615,
+        953.8148428198707,
+        390.6925515559101,
+        972.6054734082873
+      ],
+      "parent": "NB_vault_construction",
+      "polygons": 6,
+      "materials": [
+        "construction_timber"
+      ]
+    },
+    {
+      "name": "NB_vault_timber_post1_1",
+      "bbox": [
+        418.09489900892277,
+        973.397611469606,
+        421.7800061621026,
+        992.3381869795852
+      ],
+      "parent": "NB_vault_construction",
+      "polygons": 6,
+      "materials": [
+        "construction_timber"
+      ]
+    },
+    {
+      "name": "NB_vault_timber_rib0",
+      "bbox": [
+        376.6148163168358,
+        943.1742727298283,
+        411.9919182769167,
+        981.7331463338012
+      ],
+      "parent": "NB_vault_construction",
+      "polygons": 98,
+      "materials": [
+        "construction_timber"
+      ]
+    },
+    {
+      "name": "NB_vault_timber_rib1",
+      "bbox": [
+        386.72088591235115,
+        937.3817370022701,
+        422.0956481685671,
+        975.82528805379
+      ],
+      "parent": "NB_vault_construction",
+      "polygons": 98,
+      "materials": [
+        "construction_timber"
+      ]
+    },
+    {
+      "name": "NB_vault_timber_sill0",
+      "bbox": [
+        375.514245844088,
+        974.0814550747175,
+        413.1020816358831,
+        1001.2140069881841
+      ],
+      "parent": "NB_vault_construction",
+      "polygons": 6,
+      "materials": [
+        "construction_timber"
+      ]
+    },
+    {
+      "name": "NB_vault_timber_sill1",
+      "bbox": [
+        385.6222086151674,
+        968.2385995492729,
+        423.2038838278434,
+        995.2631878815789
+      ],
+      "parent": "NB_vault_construction",
+      "polygons": 6,
+      "materials": [
+        "construction_timber"
+      ]
+    },
+    {
+      "name": "NB_worker_builder",
+      "bbox": [
+        502.15158391389167,
+        920.0003893869491,
+        535.0334076172487,
+        999.8595575331409
+      ],
+      "parent": null,
+      "polygons": 20601,
+      "materials": [
+        "linen",
+        "roman_stone",
+        "skin",
+        "toolmetal",
+        "toolwood",
+        "worker_dark"
+      ]
+    },
+    {
+      "name": "NB_worker_carrier",
+      "bbox": [
+        310.9645370223034,
+        920.4256067248173,
+        346.29246624624443,
+        1005.0002090754615
+      ],
+      "parent": null,
+      "polygons": 14297,
+      "materials": [
+        "linen",
+        "skin",
+        "toolwood",
+        "worker_dark"
+      ]
+    },
+    {
+      "name": "NB_worker_pair",
+      "bbox": [
+        586.4097487958722,
+        901.999971395027,
+        643.5902162580959,
+        1007.9999698335041
+      ],
+      "parent": null,
+      "polygons": 20763,
+      "materials": [
+        "linen",
+        "skin",
+        "toolwood",
+        "worker_cloth",
+        "worker_dark"
+      ]
+    },
+    {
+      "name": "R_core_road",
+      "bbox": [
+        217.8773304636724,
+        486.6369260890484,
+        977.7889272738895,
+        1026.4377432703218
+      ],
+      "parent": null,
+      "polygons": 14250,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "R_via_appia",
+      "bbox": [
+        842.9328716970216,
+        938.3201650238999,
+        1214.0450378454677,
+        992.7330625140678
+      ],
+      "parent": null,
+      "polygons": 2394,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "R_via_ostiensis",
+      "bbox": [
+        139.72005239584578,
+        1006.0399414093367,
+        402.2941694949458,
+        1352.476717203186
+      ],
+      "parent": null,
+      "polygons": 3111,
+      "materials": [
+        "base_road_foundation"
+      ]
+    },
+    {
+      "name": "S_core1_badge",
+      "bbox": [
+        527.9998755545912,
+        388.5000992938303,
+        548.0000582341754,
+        408.5003013143763
+      ],
+      "parent": null,
+      "polygons": 32,
+      "materials": [
+        "base_badge_1_5"
+      ]
+    },
+    {
+      "name": "S_core1_underline",
+      "bbox": [
+        527.9998755265146,
+        441.1001959326624,
+        660.5002656702246,
+        441.9005131724912
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": [
+        "base_badge_1_5"
+      ]
+    },
+    {
+      "name": "S_core2_underline",
+      "bbox": [
+        29.999526177546745,
+        775.1000783077785,
+        174.10031147850597,
+        775.9003955529574
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": [
+        "base_badge_2"
+      ]
+    },
+    {
+      "name": "S_core3_badge",
+      "bbox": [
+        408.5000623487613,
+        1030.5004708557633,
+        428.49992909836357,
+        1050.5002539112606
+      ],
+      "parent": null,
+      "polygons": 32,
+      "materials": [
+        "base_badge_3"
+      ]
+    },
+    {
+      "name": "S_core3_underline",
+      "bbox": [
+        408.50006227097805,
+        1083.0998432043812,
+        530.8999737936746,
+        1083.900624406087
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": [
+        "base_badge_3"
+      ]
+    },
+    {
+      "name": "S_core4_badge",
+      "bbox": [
+        638.5001961880565,
+        1034.500201004426,
+        658.5000554576397,
+        1054.5002436083225
+      ],
+      "parent": null,
+      "polygons": 32,
+      "materials": [
+        "base_badge_4"
+      ]
+    },
+    {
+      "name": "S_core4_underline",
+      "bbox": [
+        638.499865047144,
+        1087.099830559033,
+        799.1000501020685,
+        1087.9003548465466
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": [
+        "base_badge_4"
+      ]
+    },
+    {
+      "name": "S_core5_badge",
+      "bbox": [
+        982.4997964986012,
+        818.5001146689186,
+        1002.5000378121398,
+        838.5001586286244
+      ],
+      "parent": null,
+      "polygons": 32,
+      "materials": [
+        "base_badge_1_5"
+      ]
+    },
+    {
+      "name": "S_core5_underline",
+      "bbox": [
+        982.5000968878762,
+        871.0997477892698,
+        1085.2003259661283,
+        871.9003374293815
+      ],
+      "parent": null,
+      "polygons": 1,
+      "materials": [
+        "base_badge_1_5"
+      ]
+    },
+    {
+      "name": "S_lab_island",
+      "bbox": [
+        1012.8869368411846,
+        698.9908584561787,
+        1117.1130211716302,
+        810.9992758321522
+      ],
+      "parent": null,
+      "polygons": 6783,
+      "materials": [
+        "labstone",
+        "base",
+        "roof",
+        "glass"
+      ]
+    },
+    {
+      "name": "S_pin_privernum",
+      "bbox": [
+        897.0000328672206,
+        1061.4998873599009,
+        1024.000078271115,
+        1062.50057839827
+      ],
+      "parent": null,
+      "polygons": 66,
+      "materials": [
+        "base_line"
+      ]
+    },
+    {
+      "name": "S_pin_privernum_dot",
+      "bbox": [
+        1022.3000430465581,
+        1060.3001075002478,
+        1025.7001134915636,
+        1063.6999477213324
+      ],
+      "parent": null,
+      "polygons": 16,
+      "materials": [
+        "base_line"
+      ]
+    },
+    {
+      "name": "T_cypress",
+      "bbox": [
+        872.4641907098477,
+        861.573887902071,
+        881.0226741116636,
+        910.9924540825958
+      ],
+      "parent": null,
+      "polygons": 1280,
+      "materials": [
+        "foliage"
+      ]
+    },
+    {
+      "name": "T_land",
+      "bbox": [
+        -9.000040835783352,
+        -8.999918182317339,
+        1200.0000297701952,
+        1621.9631608090497
+      ],
+      "parent": null,
+      "polygons": 296388,
+      "materials": [
+        "base_terrain"
+      ]
+    },
+    {
+      "name": "T_pine",
+      "bbox": [
+        1080.463899338822,
+        1181.7441439556123,
+        1128.1532863497646,
+        1245.515842115012
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.004",
+      "bbox": [
+        846.5643821569403,
+        1287.8462656037234,
+        896.5036789874771,
+        1351.916572828757
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.007",
+      "bbox": [
+        1119.888086117674,
+        1174.384857808661,
+        1151.6035913384994,
+        1218.0563049650889
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.011",
+      "bbox": [
+        411.5276175923297,
+        1350.7392218139646,
+        462.94702405049907,
+        1409.8608040886486
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.013",
+      "bbox": [
+        452.5656109178294,
+        1370.7761139615295,
+        495.25811020323965,
+        1426.8813001354645
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.014",
+      "bbox": [
+        1012.955074945914,
+        1155.9205782312729,
+        1045.6936559531782,
+        1204.6041004820556
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.015",
+      "bbox": [
+        1017.1726791975863,
+        1123.5678658734666,
+        1064.099094217364,
+        1181.4786699786157
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.016",
+      "bbox": [
+        994.955598815452,
+        1112.2152991678402,
+        1035.283282184879,
+        1169.2834683980432
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.017",
+      "bbox": [
+        481.88442093956826,
+        1354.3961735263792,
+        524.7426304382509,
+        1403.163526456095
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.018",
+      "bbox": [
+        516.041734571113,
+        1356.1064997273972,
+        562.3963793457468,
+        1426.6851618975286
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.020",
+      "bbox": [
+        1083.0154127106512,
+        1180.824968813817,
+        1117.5535553271397,
+        1222.7471417364263
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "T_pine.021",
+      "bbox": [
+        1043.829320714897,
+        1152.598192005072,
+        1086.1650049233979,
+        1212.0013646377715
+      ],
+      "parent": null,
+      "polygons": 2288,
+      "materials": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ]
+    },
+    {
+      "name": "W_water_marks",
+      "bbox": [
+        -8.275902427319359,
+        352.18684059263984,
+        1190.5179996544566,
+        1618.593777008646
+      ],
+      "parent": null,
+      "polygons": 6206,
+      "materials": [
+        "base_water_wave"
+      ]
+    }
+  ]
+}

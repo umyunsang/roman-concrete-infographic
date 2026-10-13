@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: in createPage: The Starter plan only comes with 3 pages. Upgrade to Professional for unlimited pages: https://www.figma.com/pricing\n    at <anonymous> (PLUGIN_1_SOURCE:4:98)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: a7cd231c-a4d3-467a-9d89-117777d509be"
+    }
+  ],
+  "structuredContent": {
+    "safeToRetryWithoutCanvasRead": true
+  },
+  "isError": true,
+  "_meta": {
+    "mcpRequestId": "a7cd231c-a4d3-467a-9d89-117777d509be"
+  }
+}

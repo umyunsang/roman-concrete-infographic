@@ -1,0 +1,1 @@
+{"fileKey": "Ob3wzRNRC0OSzDCDFp4gtF", "code": "return {editorType:figma.editorType,pageId:figma.currentPage.id,nodes:figma.currentPage.children.map(n=>({id:n.id,type:n.type,name:n.name}))};", "description": "Inspect the new native FigJam mindmap canvas", "skillNames": "figma-use,figma-use-figjam"}

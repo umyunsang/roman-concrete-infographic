@@ -1,0 +1,56 @@
+{
+ "round": 1,
+ "text_object_overlaps": [
+  {
+   "text": "아펜니노 산맥",
+   "kind": "place",
+   "object": "L01_gennaro",
+   "coll": "40_REGION",
+   "area": 120.5,
+   "verts_in": 22
+  },
+  {
+   "text": "CORE ③ 블록",
+   "kind": "core",
+   "object": "L04_palatine",
+   "coll": "40_REGION",
+   "area": 0.0,
+   "verts_in": 139
+  },
+  {
+   "text": "CORE ④ 블록",
+   "kind": "core",
+   "object": "C4_crack_repair",
+   "coll": "45_CORE_SCENES",
+   "area": 0.0,
+   "verts_in": 6
+  },
+  {
+   "text": "CORE ④ 블록",
+   "kind": "core",
+   "object": "T_pine.025",
+   "coll": "60_TREES",
+   "area": 342.0,
+   "verts_in": 539
+  },
+  {
+   "text": "CORE ④ 블록",
+   "kind": "core",
+   "object": "T_pine.026",
+   "coll": "60_TREES",
+   "area": 28.1,
+   "verts_in": 31
+  },
+  {
+   "text": "CORE ④ 블록",
+   "kind": "core",
+   "object": "T_pine.027",
+   "coll": "60_TREES",
+   "area": 215.0,
+   "verts_in": 246
+  }
+ ],
+ "outside_frame": [],
+ "text_text_overlaps": [],
+ "n_objects": 82
+}

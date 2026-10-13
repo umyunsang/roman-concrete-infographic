@@ -1,0 +1,27 @@
+{
+  "name":"v10 · 포스터 구성 고도화 — 장면·타이포·비율",
+  "sourceFrameId":"691:198",
+  "poster":{"width":1191,"height":1684,"x":-1185,"y":56},
+  "typography":{"title":72,"question":20,"coreTitle":21,"coreTitleLineHeight":26,"coreBody":11.5,"coreBodyLineHeight":15.5,"primaryGray":0.085,"bodyGray":0.18,"secondaryGray":0.30,"placeGray":0.34},
+  "cores":[
+    {"number":1,"x":528,"y":386,"width":174,"bodyWidth":174,"gap":8},
+    {"number":2,"x":69.5,"y":744,"width":160,"bodyWidth":160,"gap":3,"badgeDeltaY":-12},
+    {"number":3,"x":408.5,"y":1028,"width":190,"bodyWidth":190,"gap":8},
+    {"number":4,"x":638.5,"y":1032,"width":178,"bodyWidth":178,"gap":8},
+    {"number":5,"x":982.5,"y":816,"width":180,"bodyWidth":180,"gap":6}
+  ],
+  "comparison":{"x":528,"y":502,"width":174,"fontSize":10,"lineHeight":13.5,"background":"none; field pieces are cleared behind the caption"},
+  "models":{"modern":"retain enlarged scale; feet conform to unchanged terrain","clastBox":[423,1141,585,1296],"crackSequenceBox":[625,1150,840,1250],"laboratoryBox":[994,699,1136,811],"ruinObservationBox":[866,1129,966,1233]},
+  "crackStates":{"x":625,"y":1259,"width":214,"labelWidth":68,"gap":5,"fontSize":10.5,"lineHeight":14},
+  "crackEvidence":{"x":631,"y":1281,"width":190,"bodySize":10,"bodyLineHeight":14.5},
+  "clastCaption":{"x":438,"y":1303,"width":184,"fontSize":10,"lineHeight":14},
+  "laboratoryCaption":{"x":982.5,"y":630,"width":180,"titleId":"691:241","metaId":"691:243","bodyId":"691:244"},
+  "observationCaption":{"x":866,"y":1244,"width":115,"fontSize":10,"lineHeight":14},
+  "marine":{"deltaWorld":[-2.199984,2.063293,-0.85],"caption":{"x":385,"y":1587,"width":145,"fontSize":10,"lineHeight":14}},
+  "newTreeOrigins":{"T_pine.011":[435,1418],"T_pine.013":[471,1435],"T_pine.017":[505,1410],"T_pine.018":[540,1430],"T_pine.019":[435,1470],"T_pine.001":[470,1482],"T_pine.002":[510,1463],"T_pine.003":[545,1474],"T_pine.004":[874,1363]},
+  "fieldClearZones":[[515,478,710,569],[410,1124,850,1340],[851,1118,982,1270],[963,618,1180,813]],
+  "hideOldLeaders":["S_pin_lab","S_pin_lab_dot"],
+  "sourceScene":"out/roman_concrete_narrative_v5.blend",
+  "outputScene":"out/roman_concrete_narrative_v6.blend",
+  "scope":"Keep current95text contents and central hero/terrain/camera; spatial and type hierarchy refinement. No new Meshy jobs. Pompeii remains Pompeii."
+}

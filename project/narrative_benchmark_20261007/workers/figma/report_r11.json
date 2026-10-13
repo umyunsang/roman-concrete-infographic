@@ -1,0 +1,10 @@
+{"worker":"figma","round":"r11","fileKey":"jQPriO85F6wtPy1NPo752p","page":"19:4",
+ "changed_nodes":[
+  {"id":"790:79","before":{"imageHash":"974c8ec6a4b1d4481dd1b58107f260b2a6f5666a"},"after":{"imageHash":"cd3385a73acacbd362a55019c06a5ba81aeab77c","scaleMode":"FILL","xywh":[0,0,1191,1684]}},
+  {"id":"802:78","before":{"tx":742.577,"ty":633.25,"bbox_xy":[730.453,633.25]},"after":{"tx":741.777,"ty":620.55,"bbox_xy":[729.653,620.55]}},
+  {"id":"797:79","before":{"x":298,"y":496},"after":{"x":294.5,"y":472.8}},
+  {"id":"810:183","before":{"tx":751.077,"ty":641.75},"after":{"tx":750.277,"ty":629.05}},
+  {"id":"810:179","before":{"tx":306.5,"ty":504.5},"after":{"tx":303.0,"ty":481.3}},
+  {"id":"810:180","before":{"tx":129.062,"ty":443.062},"after":{"tx":129.062,"ty":443.062},"note":"float32 rewrite only"}],
+ "label_gaps":"review_loop/r11/label_gaps_r11.json",
+ "pairs_checked":66,"pair_offset_max_dev_pt":7.6e-6,"mismatches":[]}

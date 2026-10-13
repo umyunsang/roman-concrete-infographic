@@ -1,0 +1,32 @@
+[
+  {
+    "label": "baseline r16",
+    "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/loop/r16_1x.png",
+    "size": [
+      1191,
+      1684
+    ],
+    "modified_kst": "2026-10-07T19:16:14",
+    "sha256": "1bb4c44a5ca6b47d155d0d9d326b707e6056ede5d83474ce3c2a47ca3ddaee82"
+  },
+  {
+    "label": "candidate A",
+    "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/team/ws_A/out/poster_2x_1x.png",
+    "size": [
+      1191,
+      1684
+    ],
+    "modified_kst": "2026-10-07T22:19:00",
+    "sha256": "47a12044eb1d825fce057a2f4a53525e060a2b97f9f93a187f07f2f6595e8504"
+  },
+  {
+    "label": "candidate B",
+    "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/team/ws_B/out/poster_2x_1x.png",
+    "size": [
+      1191,
+      1684
+    ],
+    "modified_kst": "2026-10-07T22:19:01",
+    "sha256": "8fc9502827841a92f5fa213285e27b80b43f4041e39a6611e73f0fd7a2651b7d"
+  }
+]

@@ -1,0 +1,1 @@
+{"fileKey": "jQPriO85F6wtPy1NPo752p", "code": "return figma.root.children.map(p=>({id:p.id,name:p.name,childCount:p.children.length}));", "description": "Read pages after Starter page-limit error to recover without duplicating content", "skillNames": "figma-use"}

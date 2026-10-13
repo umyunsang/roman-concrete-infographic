@@ -1,0 +1,161 @@
+{
+  "created_at": "2026-10-08T08:57:37+00:00",
+  "transport": "Existing configured Meshy stdio MCP",
+  "scope": "Two illustrative Roman vault construction stages; not exact Colosseum replicas.",
+  "max_tasks": 2,
+  "expected_each_credits": 20,
+  "max_total_credits": 40,
+  "textures_or_refine_requested": false,
+  "tasks": {
+    "roman_vault_timber_centering": {
+      "task_id": "01a11abb-86a0-73fc-aab8-fefd07502f88",
+      "request": {
+        "prompt": "Roman concrete vault under construction on timber centering. One short arched corridor section with two rough masonry sidewalls. An exposed semicircular timber centering has thick readable curved ribs and upright wooden props. Only the back half of the rubble-and-mortar vault is built on top, leaving the front timber ribs clearly visible. One small bucket on a ledge. Compact isolated architectural museum maquette, simple robust physical geometry, neutral monochrome gray. No metal rebar, no wheelbarrow, no text, no people, no extra landscape, no dome or facade.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_at": "2026-10-08T08:57:41+00:00",
+      "created_response": {
+        "task_id": "01a11abb-86a0-73fc-aab8-fefd07502f88",
+        "status": "PENDING"
+      },
+      "balance_before": {
+        "balance": 700,
+        "checked_at": "2026-10-08T08:57:39+00:00"
+      },
+      "balance_after": {
+        "balance": 680,
+        "checked_at": "2026-10-08T08:57:41+00:00"
+      },
+      "observed_creation_credit_delta": 20,
+      "latest_status": {
+        "checked_at": "2026-10-08T09:00:14+00:00",
+        "task_id": "01a11abb-86a0-73fc-aab8-fefd07502f88",
+        "status": "SUCCEEDED",
+        "progress": 100
+      },
+      "status_history": [
+        {
+          "checked_at": "2026-10-08T08:59:26+00:00",
+          "task_id": "01a11abb-86a0-73fc-aab8-fefd07502f88",
+          "status": "SUCCEEDED",
+          "progress": 100
+        },
+        {
+          "checked_at": "2026-10-08T09:00:14+00:00",
+          "task_id": "01a11abb-86a0-73fc-aab8-fefd07502f88",
+          "status": "SUCCEEDED",
+          "progress": 100
+        }
+      ],
+      "download_response": {
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/construction_v14/roman_vault_timber_centering.glb",
+        "file_size_bytes": 873808
+      },
+      "file_inspection": {
+        "filename": "roman_vault_timber_centering.glb",
+        "bytes": 873808,
+        "sha256": "873611a9b97ee81edafe9527a254ed5d3cfb9ba222ad1ca6e72931533b30a967",
+        "glb_version": 2,
+        "meshes": 1,
+        "primitives": 1,
+        "vertex_accessor_count_sum": 23865,
+        "triangles": 18179,
+        "material_count": 0,
+        "textures": 0,
+        "images": 0,
+        "inspected_at": "2026-10-08T09:00:15+00:00"
+      }
+    },
+    "roman_completed_vault_cutaway": {
+      "task_id": "01a11abb-8f23-77a0-bc8f-16e8d20de6a0",
+      "request": {
+        "prompt": "Completed short Roman vaulted corridor cutaway section. One compact semicircular barrel vault with two thick sidewalls and a flat walkway. The near end is cut away to expose the thick solid rubble-concrete core inside the arch and sidewall. Thin brick-facing strips and one simplified stone pier are distinct physical surfaces, with robust readable large shapes. Neutral monochrome gray isolated architectural museum maquette. No dome, no temple, no exterior facade, no metal rebar, no people, no text, no landscape.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_at": "2026-10-08T08:57:43+00:00",
+      "created_response": {
+        "task_id": "01a11abb-8f23-77a0-bc8f-16e8d20de6a0",
+        "status": "PENDING"
+      },
+      "balance_before": {
+        "balance": 680,
+        "checked_at": "2026-10-08T08:57:41+00:00"
+      },
+      "balance_after": {
+        "balance": 660,
+        "checked_at": "2026-10-08T08:57:43+00:00"
+      },
+      "observed_creation_credit_delta": 20,
+      "latest_status": {
+        "checked_at": "2026-10-08T09:00:15+00:00",
+        "task_id": "01a11abb-8f23-77a0-bc8f-16e8d20de6a0",
+        "status": "SUCCEEDED",
+        "progress": 100
+      },
+      "status_history": [
+        {
+          "checked_at": "2026-10-08T08:59:26+00:00",
+          "task_id": "01a11abb-8f23-77a0-bc8f-16e8d20de6a0",
+          "status": "SUCCEEDED",
+          "progress": 100
+        },
+        {
+          "checked_at": "2026-10-08T09:00:15+00:00",
+          "task_id": "01a11abb-8f23-77a0-bc8f-16e8d20de6a0",
+          "status": "SUCCEEDED",
+          "progress": 100
+        }
+      ],
+      "download_response": {
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/construction_v14/roman_completed_vault_cutaway.glb",
+        "file_size_bytes": 925556
+      },
+      "file_inspection": {
+        "filename": "roman_completed_vault_cutaway.glb",
+        "bytes": 925556,
+        "sha256": "59235f63cddfa11434de82c7fa1793a7b7a6306de7e2b03bb53cab222ad6b731",
+        "glb_version": 2,
+        "meshes": 1,
+        "primitives": 1,
+        "vertex_accessor_count_sum": 25191,
+        "triangles": 19731,
+        "material_count": 0,
+        "textures": 0,
+        "images": 0,
+        "inspected_at": "2026-10-08T09:00:16+00:00"
+      }
+    }
+  },
+  "balance_before": {
+    "balance": 700,
+    "checked_at": "2026-10-08T08:57:39+00:00"
+  },
+  "balance_after_creation": {
+    "balance": 660,
+    "checked_at": "2026-10-08T08:57:43+00:00"
+  },
+  "observed_total_creation_credit_delta": 40,
+  "balance_after_download": {
+    "balance": 660,
+    "checked_at": "2026-10-08T09:00:16+00:00"
+  },
+  "models_ready": true
+}

@@ -1,0 +1,14 @@
+{
+  "same_size": true,
+  "before_size": [
+    1191,
+    1684
+  ],
+  "after_size": [
+    1191,
+    1684
+  ],
+  "pixels_identical": true,
+  "w3-before.png_sha256": "1d911063315b2f73af3eb5e2f00cf0f5f0399d53fd9d2fa3042e3cb5b9ea329a",
+  "w3-after-final.png_sha256": "1d911063315b2f73af3eb5e2f00cf0f5f0399d53fd9d2fa3042e3cb5b9ea329a"
+}

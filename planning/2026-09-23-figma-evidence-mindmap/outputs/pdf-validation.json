@@ -1,0 +1,8 @@
+{
+  "pages": 1,
+  "width_mm": 420.0,
+  "height_mm": 594.0,
+  "A2_within_0_2_mm": true,
+  "embedded_images": 2,
+  "validation_surface": "PDF page size and embedded image presence; not physical print inspection"
+}

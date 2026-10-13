@@ -1,0 +1,1535 @@
+{
+  "frameId": "728:241",
+  "question": "철근도 없는 로마 건축물이 어떻게 2천 년을 버텼을까?",
+  "copy_source": "live v10 95 texts; all copy and bounds preserved",
+  "titleFont": "Noto Serif KR Bold 70/80",
+  "bodyFont": "Noto Sans KR",
+  "texts": [
+    {
+      "sourceId": "718:80",
+      "id": "728:243",
+      "text": "전제 · 로마 콘크리트란?",
+      "x": 24,
+      "y": 24,
+      "width": 117,
+      "height": 14,
+      "fontSize": "mixed",
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:81",
+      "id": "728:244",
+      "text": "전제 · 어떻게 알았나",
+      "x": 858,
+      "y": 24,
+      "width": 100,
+      "height": 14,
+      "fontSize": "mixed",
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:82",
+      "id": "728:245",
+      "text": "로마 콘크리트",
+      "x": 368.5,
+      "y": 27,
+      "width": 455,
+      "height": 80,
+      "fontSize": 70,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 80
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116",
+      "fontFamily": "Noto Serif KR",
+      "fontStyle": "Bold",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      }
+    },
+    {
+      "sourceId": "718:83",
+      "id": "728:246",
+      "text": "→",
+      "x": 223.304931640625,
+      "y": 82,
+      "width": 18,
+      "height": 18,
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:84",
+      "id": "728:247",
+      "text": "+",
+      "x": 81.68994140625,
+      "y": 84,
+      "width": 11,
+      "height": 18,
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:85",
+      "id": "728:248",
+      "text": "+",
+      "x": 158.2900390625,
+      "y": 84,
+      "width": 11,
+      "height": 18,
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:86",
+      "id": "728:249",
+      "text": "철근도 없는 로마 건축물이 어떻게 2천 년을 버텼을까?",
+      "x": 370,
+      "y": 125,
+      "width": 452,
+      "height": 24,
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:87",
+      "id": "728:250",
+      "text": "로마 때 기록",
+      "x": 864.5,
+      "y": 144,
+      "width": 51,
+      "height": 13,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:88",
+      "id": "728:251",
+      "text": "오늘의 연구",
+      "x": 980.5,
+      "y": 144,
+      "width": 49,
+      "height": 13,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:89",
+      "id": "728:252",
+      "text": "살펴볼 건물",
+      "x": 1093.5,
+      "y": 144,
+      "width": 49,
+      "height": 13,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:90",
+      "id": "728:253",
+      "text": "석회",
+      "x": 40,
+      "y": 147,
+      "width": 19,
+      "height": 13,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:91",
+      "id": "728:254",
+      "text": "화산재",
+      "x": 109.5,
+      "y": 147,
+      "width": 28,
+      "height": 13,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:92",
+      "id": "728:255",
+      "text": "돌·벽돌 조각",
+      "x": 170,
+      "y": 147,
+      "width": 55,
+      "height": 13,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:93",
+      "id": "728:256",
+      "text": "틀에 부어 굳힘",
+      "x": 258,
+      "y": 147,
+      "width": 60,
+      "height": 13,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:94",
+      "id": "728:257",
+      "text": "비트루비우스와\n플리니우스의 책",
+      "x": 860,
+      "y": 158,
+      "width": 60,
+      "height": 24,
+      "fontSize": 9,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 127.99999713897705
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:95",
+      "id": "728:258",
+      "text": "옛 조각 살피고\n다시 만들어 시험",
+      "x": 974,
+      "y": 158,
+      "width": 62,
+      "height": 24,
+      "fontSize": 9,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 127.99999713897705
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:96",
+      "id": "728:259",
+      "text": "콜로세움 · 로마 · 80년",
+      "x": 1074.5,
+      "y": 158,
+      "width": 87,
+      "height": 12,
+      "fontSize": 9,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 127.99999713897705
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:97",
+      "id": "728:260",
+      "text": "나폴리 근처",
+      "x": 101.5,
+      "y": 161,
+      "width": 44,
+      "height": 11,
+      "fontSize": 9,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:98",
+      "id": "728:261",
+      "text": "로마 공화정 후기부터 제국 시기까지\n벽·지붕·항구에 널리 씀",
+      "x": 24,
+      "y": 180,
+      "width": 147,
+      "height": 28,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 137.99999952316284
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:99",
+      "id": "728:262",
+      "text": "기록과, 옛 조각 연구·재현 실험으로\n재료와 성질을 알게 됨",
+      "x": 858,
+      "y": 192,
+      "width": 147,
+      "height": 28,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 137.99999952316284
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:100",
+      "id": "728:263",
+      "text": "새 결정",
+      "x": 23.7119140625,
+      "y": 341.4880065917969,
+      "width": 27,
+      "height": 11,
+      "fontSize": 9,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:101",
+      "id": "728:264",
+      "text": "바닷물 속",
+      "x": 23.298095703125,
+      "y": 381.4880065917969,
+      "width": 36,
+      "height": 11,
+      "fontSize": 9,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:102",
+      "id": "728:265",
+      "text": "1",
+      "x": 534,
+      "y": 392.5,
+      "width": 8,
+      "height": 12,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "color": "#FFF4DD",
+      "colorVariableId": "VariableID:726:132"
+    },
+    {
+      "sourceId": "718:103",
+      "id": "728:266",
+      "text": "아펜니노 산맥",
+      "x": 412,
+      "y": 436.5007629394531,
+      "width": 69,
+      "height": 14,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:104",
+      "id": "728:267",
+      "text": "수도교",
+      "x": 962,
+      "y": 601.0003662109375,
+      "width": 34,
+      "height": 14,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:105",
+      "id": "728:268",
+      "text": "2",
+      "x": 75.5,
+      "y": 750.5,
+      "width": 8,
+      "height": 12,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "color": "#FFF4DD",
+      "colorVariableId": "VariableID:726:132"
+    },
+    {
+      "sourceId": "718:106",
+      "id": "728:269",
+      "text": "5",
+      "x": 988.5,
+      "y": 822.5,
+      "width": 8,
+      "height": 12,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "color": "#FFF4DD",
+      "colorVariableId": "VariableID:726:132"
+    },
+    {
+      "sourceId": "718:107",
+      "id": "728:270",
+      "text": "아피아 가도",
+      "x": 1108.33984375,
+      "y": 963.9840087890625,
+      "width": 58,
+      "height": 14,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:108",
+      "id": "728:271",
+      "text": "석회 알갱이",
+      "x": 143,
+      "y": 1001.5,
+      "width": 44,
+      "height": 11,
+      "fontSize": 9,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:109",
+      "id": "728:272",
+      "text": "프리베르눔\n성벽 조각",
+      "x": 826,
+      "y": 1020,
+      "width": 56,
+      "height": 30,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:110",
+      "id": "728:273",
+      "text": "3",
+      "x": 414.5,
+      "y": 1034.5,
+      "width": 8,
+      "height": 12,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "color": "#FFF4DD",
+      "colorVariableId": "VariableID:726:132"
+    },
+    {
+      "sourceId": "718:111",
+      "id": "728:274",
+      "text": "4",
+      "x": 644.5,
+      "y": 1038.5,
+      "width": 8,
+      "height": 12,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "color": "#FFF4DD",
+      "colorVariableId": "VariableID:726:132"
+    },
+    {
+      "sourceId": "718:112",
+      "id": "728:275",
+      "text": "석회·결정 관찰",
+      "x": 826,
+      "y": 1053.5,
+      "width": 61,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:113",
+      "id": "728:276",
+      "text": "흰 석회 알갱이와\n금을 메운 흰 결정",
+      "x": 826,
+      "y": 1069,
+      "width": 68,
+      "height": 26,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 135.0000023841858
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:114",
+      "id": "728:277",
+      "text": "가벼운 벽돌",
+      "x": 321.775390625,
+      "y": 1226.375,
+      "width": 46,
+      "height": 11,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:115",
+      "id": "728:278",
+      "text": "화산",
+      "x": 1026.1240234375,
+      "y": 1244,
+      "width": 23,
+      "height": 14,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:116",
+      "id": "728:279",
+      "text": "중간 돌",
+      "x": 330.12548828125,
+      "y": 1253,
+      "width": 29,
+      "height": 11,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:117",
+      "id": "728:280",
+      "text": "무거운 돌",
+      "x": 325.775390625,
+      "y": 1281.5,
+      "width": 38,
+      "height": 11,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:118",
+      "id": "728:281",
+      "text": "기초 12m+",
+      "x": 324.57763671875,
+      "y": 1302.5,
+      "width": 45,
+      "height": 11,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:119",
+      "id": "728:282",
+      "text": "폼페이",
+      "x": 812.124267578125,
+      "y": 1368,
+      "width": 34,
+      "height": 14,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:121",
+      "id": "728:283",
+      "text": "항구",
+      "x": 246.766357421875,
+      "y": 1450.7459716796875,
+      "width": 23,
+      "height": 14,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:124",
+      "id": "728:284",
+      "text": "로마 항구 방파제 조각",
+      "x": 232,
+      "y": 1535.5,
+      "width": 108,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:125",
+      "id": "728:285",
+      "text": "폼페이 공사현장(79년)",
+      "x": 718.5,
+      "y": 1547,
+      "width": 115,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:126",
+      "id": "728:286",
+      "text": "결정 관찰",
+      "x": 232,
+      "y": 1554,
+      "width": 38,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:127",
+      "id": "728:287",
+      "text": "바다",
+      "x": 167.679931640625,
+      "y": 1564,
+      "width": 24,
+      "height": 16,
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:128",
+      "id": "728:288",
+      "text": "배합 흔적",
+      "x": 718.5,
+      "y": 1565.5,
+      "width": 38,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:129",
+      "id": "728:289",
+      "text": "해양 콘크리트 안에서\n새로운 결정이 자람",
+      "x": 232,
+      "y": 1569.5,
+      "width": 105,
+      "height": 26,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:130",
+      "id": "728:290",
+      "text": "생석회를 섞어 둔 원료 더미",
+      "x": 718.5,
+      "y": 1581,
+      "width": 116,
+      "height": 13,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:131",
+      "id": "728:291",
+      "text": "로마 방파제 · 개념 모형",
+      "x": 385,
+      "y": 1587,
+      "width": 145,
+      "height": 14,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:132",
+      "id": "728:292",
+      "text": "공화정 후기~제국",
+      "x": 47.39990234375,
+      "y": 1617.5,
+      "width": 88,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:133",
+      "id": "728:293",
+      "text": "79년",
+      "x": 165.39990234375,
+      "y": 1617.5,
+      "width": 26,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:134",
+      "id": "728:294",
+      "text": "80년",
+      "x": 283.39990234375,
+      "y": 1617.5,
+      "width": 26,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:135",
+      "id": "728:295",
+      "text": "1349년",
+      "x": 401.39990234375,
+      "y": 1617.5,
+      "width": 40,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:136",
+      "id": "728:296",
+      "text": "19세기",
+      "x": 519.39990234375,
+      "y": 1617.5,
+      "width": 37,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:137",
+      "id": "728:297",
+      "text": "2017~2025년",
+      "x": 637.39990234375,
+      "y": 1617.5,
+      "width": 75,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:138",
+      "id": "728:298",
+      "text": "오늘",
+      "x": 755.39990234375,
+      "y": 1617.5,
+      "width": 23,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:139",
+      "id": "728:299",
+      "text": "벽·지붕·항구에 널리 씀",
+      "x": 47.39990234375,
+      "y": 1647.5,
+      "width": 94,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:140",
+      "id": "728:300",
+      "text": "폼페이 공사현장 원료 더미",
+      "x": 165.39990234375,
+      "y": 1647.5,
+      "width": 103,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:141",
+      "id": "728:301",
+      "text": "콜로세움 개장",
+      "x": 283.39990234375,
+      "y": 1647.5,
+      "width": 55,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:142",
+      "id": "728:302",
+      "text": "지진 · 남쪽 바깥벽 무너짐",
+      "x": 401.39990234375,
+      "y": 1647.5,
+      "width": 102,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:143",
+      "id": "728:303",
+      "text": "벽돌 버팀벽으로 받침",
+      "x": 519.39990234375,
+      "y": 1647.5,
+      "width": 83,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:144",
+      "id": "728:304",
+      "text": "옛 조각 연구·재현 실험",
+      "x": 637.39990234375,
+      "y": 1647.5,
+      "width": 91,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:145",
+      "id": "728:305",
+      "text": "약 1,950년째 서 있음",
+      "x": 755.39990234375,
+      "y": 1647.5,
+      "width": 83,
+      "height": 12,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:149",
+      "id": "728:309",
+      "text": "철근이 있어도",
+      "x": 553,
+      "y": 386,
+      "width": 149,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:150",
+      "id": "728:310",
+      "text": "금은 생기는데",
+      "x": 528,
+      "y": 412,
+      "width": 174,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#365864",
+      "colorVariableId": "VariableID:726:124"
+    },
+    {
+      "sourceId": "718:151",
+      "id": "728:311",
+      "text": "그런데 로마는 철근 없이도\n약 2천 년 전 유구가 남아 있다.\n굳히는 재료는 무엇이 달랐을까?",
+      "x": 528,
+      "y": 446,
+      "width": 174,
+      "height": 47,
+      "fontSize": 11.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15.5
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:155",
+      "id": "728:315",
+      "text": "물을 넣자,",
+      "x": 94.5,
+      "y": 744,
+      "width": 135,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:156",
+      "id": "728:316",
+      "text": "열이 났다",
+      "x": 69.5,
+      "y": 770,
+      "width": 160,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#983821",
+      "colorVariableId": "VariableID:732:79"
+    },
+    {
+      "sourceId": "718:157",
+      "id": "728:317",
+      "text": "생석회·화산재를 마른 채 섞는다.\n물을 붓자, 열을 내며 굳는다.\n그 반죽에 흰 알갱이가 남았다.",
+      "x": 69.5,
+      "y": 799,
+      "width": 160,
+      "height": 47,
+      "fontSize": 11.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15.5
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:161",
+      "id": "728:321",
+      "text": "잘못 섞인 걸까?",
+      "x": 433.5,
+      "y": 1028,
+      "width": 165,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:162",
+      "id": "728:322",
+      "text": "흰 알갱이의 반전",
+      "x": 408.5,
+      "y": 1054,
+      "width": 190,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#784C26",
+      "colorVariableId": "VariableID:732:81"
+    },
+    {
+      "sourceId": "718:163",
+      "id": "728:323",
+      "text": "불량 혼합의 흔적으로 여겼던 알갱이.\n연구가 찾은 역할은 ‘칼슘 공급원’.",
+      "x": 408.5,
+      "y": 1088,
+      "width": 190,
+      "height": 31,
+      "fontSize": 11.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15.5
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:167",
+      "id": "728:327",
+      "text": "금에 스민 물,",
+      "x": 663.5,
+      "y": 1032,
+      "width": 153,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:168",
+      "id": "728:328",
+      "text": "칼슘을 옮기다",
+      "x": 638.5,
+      "y": 1058,
+      "width": 178,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#195B61",
+      "colorVariableId": "VariableID:732:83"
+    },
+    {
+      "sourceId": "718:169",
+      "id": "728:329",
+      "text": "금으로 들어온 물이 칼슘을 녹이고,\n그 칼슘이 틈 안으로 이동한다.\n새 결정이 자라 작은 금을 메운다.",
+      "x": 638.5,
+      "y": 1092,
+      "width": 178,
+      "height": 47,
+      "fontSize": 11.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15.5
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:173",
+      "id": "728:333",
+      "text": "정말 메워질까?",
+      "x": 1007.5,
+      "y": 816,
+      "width": 155,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:174",
+      "id": "728:334",
+      "text": "금을 내어 봤더니",
+      "x": 982.5,
+      "y": 842,
+      "width": 180,
+      "height": 26,
+      "fontSize": 21,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "color": "#365864",
+      "colorVariableId": "VariableID:726:124"
+    },
+    {
+      "sourceId": "718:175",
+      "id": "728:335",
+      "text": "약 0.5mm 금을 낸 현대 재현 시편.\n생석회가 든 쪽은 수 주가 지나자\n누수가 거의 멈췄다.\n없는 쪽은 계속 샜다.",
+      "x": 982.5,
+      "y": 874,
+      "width": 180,
+      "height": 62,
+      "fontSize": 11.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15.5
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:177",
+      "id": "728:337",
+      "text": "재료 원리 · 해수 속 새 결정",
+      "x": 36,
+      "y": 412.4532165527344,
+      "width": 134,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#195B61",
+      "colorVariableId": "VariableID:732:83"
+    },
+    {
+      "sourceId": "718:178",
+      "id": "728:338",
+      "text": "바닷물이 스미면 보통 온도에서도\n새 결정이 자람",
+      "x": 36,
+      "y": 431.6432189941406,
+      "width": 129,
+      "height": 28,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:180",
+      "id": "728:340",
+      "text": "제작 원리 · 열과 석회",
+      "x": 36,
+      "y": 1036.5,
+      "width": 107,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "color": "#983821",
+      "colorVariableId": "VariableID:732:79"
+    },
+    {
+      "sourceId": "718:181",
+      "id": "728:341",
+      "text": "생석회는 물을 만나면 열을 냄\n남은 석회 알갱이 = 칼슘 창고",
+      "x": 36,
+      "y": 1055.4000244140625,
+      "width": 125,
+      "height": 28,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:183",
+      "id": "728:343",
+      "text": "철근 없이 버틴 구조\n위는 가볍게, 아래는 두껍게",
+      "x": 250,
+      "y": 1344.5,
+      "width": 134,
+      "height": 30,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15
+      },
+      "color": "#2E2A22",
+      "colorVariableId": "VariableID:726:116"
+    },
+    {
+      "sourceId": "718:184",
+      "id": "728:344",
+      "text": "아치·벽·기초가 무게를 나눠\n주로 누르는 힘을 받게 설계",
+      "x": 250,
+      "y": 1379.9000244140625,
+      "width": 142,
+      "height": 28,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:186",
+      "id": "728:346",
+      "text": "균열 원리 · 금이 메워지는 순서",
+      "x": 631,
+      "y": 1281,
+      "width": 190,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15
+      },
+      "color": "#195B61",
+      "colorVariableId": "VariableID:732:83"
+    },
+    {
+      "sourceId": "718:187",
+      "id": "728:347",
+      "text": "다른 유적·재현 시편에서 확인\n콜로세움에서 직접 입증 안 됨",
+      "x": 631,
+      "y": 1301,
+      "width": 190,
+      "height": 29,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14.5
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:189",
+      "id": "728:349",
+      "text": "물이 스밈",
+      "x": 625,
+      "y": 1259,
+      "width": 68,
+      "height": 14,
+      "fontSize": 10.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#195B61",
+      "colorVariableId": "VariableID:732:83"
+    },
+    {
+      "sourceId": "718:190",
+      "id": "728:350",
+      "text": "칼슘 이동",
+      "x": 698,
+      "y": 1259,
+      "width": 68,
+      "height": 14,
+      "fontSize": 10.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#784C26",
+      "colorVariableId": "VariableID:732:81"
+    },
+    {
+      "sourceId": "718:191",
+      "id": "728:351",
+      "text": "결정 충전",
+      "x": 771,
+      "y": 1259,
+      "width": 68,
+      "height": 14,
+      "fontSize": 10.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#784C26",
+      "colorVariableId": "VariableID:732:81"
+    },
+    {
+      "sourceId": "718:192",
+      "id": "728:352",
+      "text": "석회 알갱이를 확대한 개념 모형",
+      "x": 438,
+      "y": 1303,
+      "width": 184,
+      "height": 14,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#615A4E",
+      "colorVariableId": "VariableID:726:120"
+    },
+    {
+      "sourceId": "718:194",
+      "id": "728:354",
+      "text": "대표 결합재 — 현대: 포틀랜드 시멘트\n로마: 석회·화산재\n철근은 당기는 힘을 보완",
+      "x": 528,
+      "y": 502,
+      "width": 174,
+      "height": 41,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13.5
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:195",
+      "id": "728:355",
+      "text": "유적 관찰 장면",
+      "x": 866,
+      "y": 1244,
+      "width": 115,
+      "height": 14,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:120",
+      "id": "728:357",
+      "text": "오늘의 실험실",
+      "x": 982.5,
+      "y": 630,
+      "width": 180,
+      "height": 15,
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15
+      },
+      "color": "#365864",
+      "colorVariableId": "VariableID:726:124"
+    },
+    {
+      "sourceId": "718:122",
+      "id": "728:358",
+      "text": "균열 충전 실험",
+      "x": 982.5,
+      "y": 649,
+      "width": 180,
+      "height": 13,
+      "fontSize": 9.5,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    },
+    {
+      "sourceId": "718:123",
+      "id": "728:359",
+      "text": "재현 시편은 수 주 내 누수 감소,\n생석회 없는 시편은 계속 샘",
+      "x": 982.5,
+      "y": 666,
+      "width": 180,
+      "height": 28,
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      "color": "#3E3A31",
+      "colorVariableId": "VariableID:726:118"
+    }
+  ]
+}

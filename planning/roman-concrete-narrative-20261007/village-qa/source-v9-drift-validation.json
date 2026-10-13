@@ -1,0 +1,379 @@
+{
+  "source_sha_before": "0c4215a062517bbd60ff1ab1668443dee6c6089062713280efc88551bcd5a528",
+  "source_sha_after": "0c4215a062517bbd60ff1ab1668443dee6c6089062713280efc88551bcd5a528",
+  "previous_source_sha": "8125d6cf8ec2da6cf09125472aa603afd1debcd88910ff8ed0893b174a2288fe",
+  "saved_v11_sha": "f58d958eee5db375a76779f337681be96f8b7b6f0f0d4ba562f7d9aa3f79f528",
+  "original_canonical_sha": "28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3",
+  "source_stable_during_audit": true,
+  "object_differences_against_previous_v9_snapshot": [
+    {
+      "path": "\b",
+      "before": null,
+      "after": {
+        "name": "\b",
+        "type": "MESH",
+        "matrix_world": [
+          [
+            0.17587044835090637,
+            -1.3372706174850464,
+            -0.024654570966959,
+            -51.63116455078125
+          ],
+          [
+            1.3374968767166138,
+            0.17587044835090637,
+            0.0016140514053404331,
+            -16.32989501953125
+          ],
+          [
+            0.0016142098465934396,
+            -0.024654561653733253,
+            1.3487849235534668,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.17587044835090637,
+            -1.3372706174850464,
+            -0.024654570966959,
+            -51.63116455078125
+          ],
+          [
+            1.3374968767166138,
+            0.17587044835090637,
+            0.0016140514053404331,
+            -16.32989501953125
+          ],
+          [
+            0.0016142098465934396,
+            -0.024654561653733253,
+            1.3487849235534668,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "40_REGION"
+        ],
+        "color": [
+          0.6514056324958801,
+          0.5149176716804504,
+          0.34191441535949707,
+          1.0
+        ],
+        "hide_render": false,
+        "hide_viewport": false,
+        "modifiers": [],
+        "constraints": [],
+        "mesh_sha256": "377d9bd7686a87065a2e91d6479a1b010557353a966754253e13db28960b086c",
+        "materials": [
+          "RC.v12.base_roman_support_stone"
+        ]
+      }
+    },
+    {
+      "path": "D2_lime_kiln",
+      "before": {
+        "name": "D2_lime_kiln",
+        "type": "MESH",
+        "matrix_world": [
+          [
+            0.17587044835090637,
+            -1.3372706174850464,
+            -0.024654570966959,
+            -51.63116455078125
+          ],
+          [
+            1.3374968767166138,
+            0.17587044835090637,
+            0.0016140514053404331,
+            -16.32989501953125
+          ],
+          [
+            0.0016142098465934396,
+            -0.024654561653733253,
+            1.3487849235534668,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.17587044835090637,
+            -1.3372706174850464,
+            -0.024654570966959,
+            -51.63116455078125
+          ],
+          [
+            1.3374968767166138,
+            0.17587044835090637,
+            0.0016140514053404331,
+            -16.32989501953125
+          ],
+          [
+            0.0016142098465934396,
+            -0.024654561653733253,
+            1.3487849235534668,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "40_REGION"
+        ],
+        "color": [
+          0.6514056324958801,
+          0.5149176716804504,
+          0.34191441535949707,
+          1.0
+        ],
+        "hide_render": false,
+        "hide_viewport": false,
+        "modifiers": [],
+        "constraints": [],
+        "mesh_sha256": "377d9bd7686a87065a2e91d6479a1b010557353a966754253e13db28960b086c",
+        "materials": [
+          "RC.v12.base_roman_support_stone"
+        ]
+      },
+      "after": null
+    }
+  ],
+  "face_index_differences_against_previous_v9": [
+    {
+      "path": "\b",
+      "before": null,
+      "after": "2271b43c2d671ec9b9964c694b29ca02acc687c256c95e741275cc3469db4675"
+    },
+    {
+      "path": "D2_lime_kiln",
+      "before": "2271b43c2d671ec9b9964c694b29ca02acc687c256c95e741275cc3469db4675",
+      "after": null
+    }
+  ],
+  "global_scene_differences_against_preserved_v11": [],
+  "viewport_differences_against_preserved_v11": [
+    {
+      "path": "Layout/3/0.properties.show_region_asset_shelf",
+      "before": false,
+      "after": true
+    },
+    {
+      "path": "Layout/3/0.region3d.view_camera_zoom",
+      "before": 66.58695220947266,
+      "after": 60.58287048339844
+    },
+    {
+      "path": "Layout/3/0.region3d.view_distance",
+      "before": 504.6175231933594,
+      "after": 383.8319091796875
+    },
+    {
+      "path": "Layout/3/0.region3d.view_location",
+      "before": [
+        0.00836181640625,
+        -0.00836181640625,
+        263.3323669433594
+      ],
+      "after": [
+        0.00830078125,
+        -0.00830078125,
+        263.3323669433594
+      ]
+    },
+    {
+      "path": "Layout/3/0.region3d.view_perspective",
+      "before": "CAMERA",
+      "after": "PERSP"
+    },
+    {
+      "path": "Layout/3/0.region3d.view_rotation",
+      "before": [
+        0.6532814502716064,
+        0.6532814502716064,
+        0.27059802412986755,
+        0.27059802412986755
+      ],
+      "after": [
+        0.6532814502716064,
+        0.6532814502716064,
+        0.27059805393218994,
+        0.27059802412986755
+      ]
+    },
+    {
+      "path": "Modeling/2/0.region3d.is_perspective",
+      "before": true,
+      "after": false
+    },
+    {
+      "path": "Modeling/2/0.region3d.view_camera_zoom",
+      "before": 0.0,
+      "after": 53.909427642822266
+    },
+    {
+      "path": "Modeling/2/0.region3d.view_distance",
+      "before": 17.986562728881836,
+      "after": 456.10711669921875
+    },
+    {
+      "path": "Modeling/2/0.region3d.view_location",
+      "before": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "after": [
+        -3.0517578125e-05,
+        3.0517578125e-05,
+        263.3323669433594
+      ]
+    },
+    {
+      "path": "Modeling/2/0.region3d.view_perspective",
+      "before": "CAMERA",
+      "after": "ORTHO"
+    },
+    {
+      "path": "Modeling/2/0.region3d.view_rotation",
+      "before": [
+        0.7123758792877197,
+        0.4410620927810669,
+        0.28735825419425964,
+        0.4641229212284088
+      ],
+      "after": [
+        -0.7340350151062012,
+        0.18029619753360748,
+        -0.15617749094963074,
+        0.6358416080474854
+      ]
+    },
+    {
+      "path": "Sculpting/2/0.region3d.view_camera_zoom",
+      "before": 0.0,
+      "after": 50.90519714355469
+    },
+    {
+      "path": "Sculpting/2/0.region3d.view_rotation",
+      "before": [
+        0.7663204669952393,
+        0.5880184173583984,
+        0.15755906701087952,
+        0.20533491671085358
+      ],
+      "after": [
+        0.6532814502716064,
+        0.6532814502716064,
+        0.27059802412986755,
+        0.27059802412986755
+      ]
+    },
+    {
+      "path": "Shading/5/0.region3d.view_rotation",
+      "before": [
+        0.7224586606025696,
+        0.47944650053977966,
+        0.2754681706428528,
+        0.4150926172733307
+      ],
+      "after": [
+        0.6532814502716064,
+        0.6532814502716064,
+        0.27059802412986755,
+        0.27059802412986755
+      ]
+    },
+    {
+      "path": "Texture Paint/3/0.region3d.is_perspective",
+      "before": true,
+      "after": false
+    },
+    {
+      "path": "Texture Paint/3/0.region3d.view_camera_zoom",
+      "before": 0.0,
+      "after": 33.67460250854492
+    },
+    {
+      "path": "Texture Paint/3/0.region3d.view_distance",
+      "before": 12.490668296813965,
+      "after": 456.10711669921875
+    },
+    {
+      "path": "Texture Paint/3/0.region3d.view_location",
+      "before": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "after": [
+        -3.0517578125e-05,
+        3.0517578125e-05,
+        263.3323669433594
+      ]
+    },
+    {
+      "path": "Texture Paint/3/0.region3d.view_perspective",
+      "before": "CAMERA",
+      "after": "ORTHO"
+    },
+    {
+      "path": "Texture Paint/3/0.region3d.view_rotation",
+      "before": [
+        0.7123758792877197,
+        0.4410620927810669,
+        0.28735825419425964,
+        0.4641229212284088
+      ],
+      "after": [
+        0.6532814502716064,
+        0.6532814502716064,
+        0.27059805393218994,
+        0.27059802412986755
+      ]
+    },
+    {
+      "path": "UV Editing/3/0.region3d.view_rotation",
+      "before": [
+        0.7123758792877197,
+        0.4410620927810669,
+        0.28735825419425964,
+        0.4641229212284088
+      ],
+      "after": [
+        0.6532814502716064,
+        0.6532814502716064,
+        0.27059802412986755,
+        0.27059802412986755
+      ]
+    }
+  ],
+  "old_material_differences_against_preserved_v11": [],
+  "source_objects": 317,
+  "saved_v11_original_object_count": 317,
+  "method": "Fresh sourcev9 compared with exact productionv11 before snapshot+indices. Source global scene/UI/material properties compared with savedv11 already independently validated as preserving oldv9. Hidden runtimecache matrices normalized read-only from basis/parentinverse. Source file never written or restored."
+}

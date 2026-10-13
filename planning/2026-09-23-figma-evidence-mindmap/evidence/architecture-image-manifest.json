@@ -1,0 +1,44 @@
+[
+  {
+    "key": "pantheon-exterior",
+    "path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/images/pantheon-exterior.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Right_side_and_front.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/1920px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "NikonZ7II",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Pantheon (Rome) - Right side and front",
+    "bytes": 889907,
+    "mime": "image/jpeg",
+    "sha256": "ab2ed981c9efc19f89807a94590c6d8f72ab8cb214eea5acfdc01ab8fab6e4d6"
+  },
+  {
+    "key": "pantheon-interior",
+    "path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/images/pantheon-interior.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2024_Pantheon_Rome_04_2024_7134.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/2024_Pantheon_Rome_04_2024_7134.jpg/1920px-2024_Pantheon_Rome_04_2024_7134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Mariordo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Pantheon's dome interior. Rome, Italy",
+    "bytes": 1002953,
+    "mime": "image/jpeg",
+    "sha256": "a61089459a50c382f03e0db2a953c7312387559485702a9816293099ccf46480"
+  },
+  {
+    "key": "pantheon-section",
+    "path": "/Users/um-yunsang/.planning/2026-09-23-figma-evidence-mindmap/evidence/images/pantheon-section.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:L-Kuppel-Pantheon.png",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/L-Kuppel-Pantheon.png/1920px-L-Kuppel-Pantheon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "description": "",
+    "bytes": 1184191,
+    "mime": "image/png",
+    "sha256": "3c4a597525845c05e31c79178bd452ea258fa572fcb86da4113ee1a1ac957f94"
+  }
+]

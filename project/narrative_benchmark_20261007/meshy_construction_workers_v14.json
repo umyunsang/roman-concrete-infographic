@@ -1,0 +1,268 @@
+{
+  "created_at": "2026-10-08T09:35:13+00:00",
+  "transport": "Existing configured Meshy stdio MCP",
+  "scope": "Three illustrative Roman construction worker scenes; not exact Colosseum personnel reconstructions.",
+  "max_tasks": 3,
+  "expected_each_credits": 20,
+  "max_total_credits": 60,
+  "textures_or_refine_requested": false,
+  "tasks": {
+    "roman_mortar_carrier": {
+      "task_id": "01a11add-f69e-74f9-94cc-7654eba51786",
+      "request": {
+        "prompt": "A single ancient Roman construction worker walking midstep, leaning slightly forward in the direction of travel. Plain short belted tunic and sandals. He carries one small two-handled bucket full of mortar in front with BOTH hands. Clearly separate chunky readable hands, thick bucket handles, solid mortar inside, one leg stepping ahead and one behind. One isolated full-body museum teaching maquette, robust physical geometry, neutral monochrome gray. No base, no pedestal, no landscape, no text, no modern clothing, no wheelbarrow or wheels.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_at": "2026-10-08T09:35:18+00:00",
+      "created_response": {
+        "task_id": "01a11add-f69e-74f9-94cc-7654eba51786",
+        "status": "PENDING"
+      },
+      "balance_before": {
+        "balance": 660,
+        "checked_at": "2026-10-08T09:35:16+00:00"
+      },
+      "balance_after": {
+        "balance": 640,
+        "checked_at": "2026-10-08T09:35:19+00:00"
+      },
+      "observed_creation_credit_delta": 20,
+      "safe_creation_cost_diagnostic": {
+        "response_keys": [
+          "consumed_credits",
+          "model_urls",
+          "outcome",
+          "progress",
+          "status",
+          "task_id"
+        ],
+        "numeric_fields": {
+          "progress": 100,
+          "consumed_credits": 20
+        },
+        "ai_model": null
+      },
+      "latest_status": {
+        "checked_at": "2026-10-08T09:38:29+00:00",
+        "task_id": "01a11add-f69e-74f9-94cc-7654eba51786",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "consumed_credits": 20
+      },
+      "status_history": [
+        {
+          "checked_at": "2026-10-08T09:38:29+00:00",
+          "task_id": "01a11add-f69e-74f9-94cc-7654eba51786",
+          "status": "SUCCEEDED",
+          "progress": 100,
+          "consumed_credits": 20
+        }
+      ],
+      "download_response": {
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/workers_v14/roman_mortar_carrier.glb",
+        "file_size_bytes": 833552
+      },
+      "file_inspection": {
+        "filename": "roman_mortar_carrier.glb",
+        "bytes": 833552,
+        "sha256": "26da827ab6565c4f46ba02b7d52439c205fd37a67a1d5f4b1e3d25faf0a32626",
+        "glb_version": 2,
+        "meshes": 1,
+        "primitives": 1,
+        "vertex_accessor_count_sum": 22140,
+        "triangles": 20669,
+        "material_count": 0,
+        "textures": 0,
+        "images": 0,
+        "inspected_at": "2026-10-08T09:38:34+00:00"
+      }
+    },
+    "roman_wall_builder": {
+      "task_id": "01a11ade-01b6-734e-b498-241fbce0bcf5",
+      "request": {
+        "prompt": "One ancient Roman builder kneeling and leaning forward to place a large rough stone into mortar on a LOW half-built wall. Plain short belted tunic and sandals. One hand touches the stone and the other holds a clearly modeled thick masonry trowel. A tiny wooden side form stands beside the unfinished stone-and-mortar wall. Skin, tunic, hand, trowel, stone, mortar, and wood form are distinct readable physical geometry. Compact isolated museum construction workzone, gray untextured model. No extra base, no pedestal, no full building, no landscape, no text, no wheels, no metal rebar.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_at": "2026-10-08T09:35:21+00:00",
+      "created_response": {
+        "task_id": "01a11ade-01b6-734e-b498-241fbce0bcf5",
+        "status": "PENDING"
+      },
+      "balance_before": {
+        "balance": 640,
+        "checked_at": "2026-10-08T09:35:19+00:00"
+      },
+      "balance_after": {
+        "balance": 620,
+        "checked_at": "2026-10-08T09:35:21+00:00"
+      },
+      "observed_creation_credit_delta": 20,
+      "safe_creation_cost_diagnostic": {
+        "response_keys": [
+          "consumed_credits",
+          "model_urls",
+          "outcome",
+          "progress",
+          "status",
+          "task_id"
+        ],
+        "numeric_fields": {
+          "progress": 100,
+          "consumed_credits": 20
+        },
+        "ai_model": null
+      },
+      "latest_status": {
+        "checked_at": "2026-10-08T09:38:34+00:00",
+        "task_id": "01a11ade-01b6-734e-b498-241fbce0bcf5",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "consumed_credits": 20
+      },
+      "status_history": [
+        {
+          "checked_at": "2026-10-08T09:38:34+00:00",
+          "task_id": "01a11ade-01b6-734e-b498-241fbce0bcf5",
+          "status": "SUCCEEDED",
+          "progress": 100,
+          "consumed_credits": 20
+        }
+      ],
+      "download_response": {
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/workers_v14/roman_wall_builder.glb",
+        "file_size_bytes": 1159992
+      },
+      "file_inspection": {
+        "filename": "roman_wall_builder.glb",
+        "bytes": 1159992,
+        "sha256": "63d6ea62f22a790cb886946e9739b8a5c1fca959bbdab5e592deda8303f91ca9",
+        "glb_version": 2,
+        "meshes": 1,
+        "primitives": 1,
+        "vertex_accessor_count_sum": 32354,
+        "triangles": 20601,
+        "material_count": 0,
+        "textures": 0,
+        "images": 0,
+        "inspected_at": "2026-10-08T09:38:36+00:00"
+      }
+    },
+    "roman_mortar_pair": {
+      "task_id": "01a11ade-0b11-775e-9797-16e5001168b9",
+      "request": {
+        "prompt": "Two ancient Roman construction workers walking together in the SAME direction, carrying ONE shallow rectangular heavy mortar trough between them. The solid trough is visibly filled with mortar. Each worker holds one end with both hands; sturdy handles connect hands to trough. Plain short belted tunics and sandals. Walking midstep, bodies lean forward with exertion. Two full readable bodies, thick hands, separated legs, chunky isolated museum teaching maquette, neutral untextured gray. No stretcher patient, no cart, no wheels, no rebar, no extra base or pedestal, no landscape, no text.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_at": "2026-10-08T09:35:24+00:00",
+      "created_response": {
+        "task_id": "01a11ade-0b11-775e-9797-16e5001168b9",
+        "status": "PENDING"
+      },
+      "balance_before": {
+        "balance": 640,
+        "checked_at": "2026-10-08T09:35:21+00:00"
+      },
+      "balance_after": {
+        "balance": 600,
+        "checked_at": "2026-10-08T09:35:24+00:00"
+      },
+      "observed_creation_credit_delta": 40,
+      "safe_creation_cost_diagnostic": {
+        "response_keys": [
+          "consumed_credits",
+          "model_urls",
+          "outcome",
+          "progress",
+          "status",
+          "task_id"
+        ],
+        "numeric_fields": {
+          "progress": 100,
+          "consumed_credits": 20
+        },
+        "ai_model": null
+      },
+      "latest_status": {
+        "checked_at": "2026-10-08T09:38:36+00:00",
+        "task_id": "01a11ade-0b11-775e-9797-16e5001168b9",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "consumed_credits": 20
+      },
+      "status_history": [
+        {
+          "checked_at": "2026-10-08T09:38:36+00:00",
+          "task_id": "01a11ade-0b11-775e-9797-16e5001168b9",
+          "status": "SUCCEEDED",
+          "progress": 100,
+          "consumed_credits": 20
+        }
+      ],
+      "download_response": {
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/workers_v14/roman_mortar_pair.glb",
+        "file_size_bytes": 909920
+      },
+      "file_inspection": {
+        "filename": "roman_mortar_pair.glb",
+        "bytes": 909920,
+        "sha256": "66ae1696b3a33fc86bb12ba86b60829df5305dd3d15c669e4730fb47ce0dabc6",
+        "glb_version": 2,
+        "meshes": 1,
+        "primitives": 1,
+        "vertex_accessor_count_sum": 24509,
+        "triangles": 20763,
+        "material_count": 0,
+        "textures": 0,
+        "images": 0,
+        "inspected_at": "2026-10-08T09:38:37+00:00"
+      }
+    }
+  },
+  "balance_before": {
+    "balance": 660,
+    "checked_at": "2026-10-08T09:35:16+00:00"
+  },
+  "stopped_for_unexpected_cost": {
+    "task": "roman_mortar_pair",
+    "delta": 40
+  },
+  "balance_after_creation": {
+    "balance": 600
+  },
+  "observed_total_creation_credit_delta": 60,
+  "balance_diagnostic_scope": "Account balance delta; not itemized task billing. Unexpected last delta may reflect concurrent or delayed charges; no further generation.",
+  "balance_after_download": {
+    "balance": 600,
+    "checked_at": "2026-10-08T09:38:37+00:00"
+  },
+  "task_reported_consumed_credits_sum": 60,
+  "final_account_credit_delta": 60,
+  "models_ready": true
+}

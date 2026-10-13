@@ -1,0 +1,10 @@
+{
+  "http_status": 200,
+  "body": {
+    "success": true,
+    "imageHash": "695bf753f86e3d0a2a3e076c486e3af50b02b3d4",
+    "sizeBytes": 2744024,
+    "contentType": "image/png",
+    "placedOnNodeId": "21:3"
+  }
+}

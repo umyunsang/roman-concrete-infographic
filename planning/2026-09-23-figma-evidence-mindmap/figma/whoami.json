@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"handle\": \"엄윤상\",\n  \"email\": \"dbstkd5865@gmail.com\",\n  \"plans\": [\n    {\n      \"name\": \"엄윤상의 팀\",\n      \"seat\": \"View\",\n      \"tier\": \"starter\",\n      \"key\": \"team::1563398300834441749\",\n      \"role\": \"admin\"\n    }\n  ]\n}"
+    },
+    {
+      "type": "resource_link",
+      "uri": "file://figma/docs/rate-limits-access.md",
+      "name": "rate-limits-access.md",
+      "mimeType": "text/plain",
+      "size": 3928,
+      "_meta": {
+        "size": 3928
+      }
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "82f28836-afc1-4a1a-9d3e-d1be57c08c67"
+  }
+}

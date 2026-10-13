@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"results\": [\n    {\n      \"entity\": \"component\",\n      \"query\": \"mind map\",\n      \"components\": []\n    }\n  ]\n}"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "36351e89-5c2d-4448-996a-deeef127586c"
+  }
+}

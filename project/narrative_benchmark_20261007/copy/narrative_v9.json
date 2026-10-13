@@ -1,0 +1,151 @@
+{
+  "centralQuestion": "철근도 없는 로마 건축물이 어떻게 2천 년을 버텼을까?",
+  "sourceFrame": "688:78",
+  "purpose": "Replace itemized v8 explanations with the Reel's rhetorical progression while preserving the map and Colosseum.",
+  "cores": [
+    {
+      "core": 1,
+      "t1": "철근이 있어도",
+      "t2": "금은 생기는데",
+      "body": "그런데 로마는 철근 없이도\n약 2천 년 전 유구가 남아 있다.\n굳히는 재료는 무엇이 달랐을까?",
+      "width": 174,
+      "titleWidths": [
+        145,
+        160
+      ],
+      "bodyWidth": 174,
+      "bodyHeight": 42,
+      "gap": 10
+    },
+    {
+      "core": 2,
+      "t1": "물을 넣자,",
+      "t2": "열이 났다",
+      "body": "생석회·화산재를 마른 채 섞는다.\n물을 붓자, 열을 내며 굳는다.\n그 반죽에 흰 알갱이가 남았다.",
+      "width": 155,
+      "titleWidths": [
+        125,
+        130
+      ],
+      "bodyWidth": 155,
+      "bodyHeight": 39,
+      "gap": 5,
+      "lineHeight": 13
+    },
+    {
+      "core": 3,
+      "t1": "잘못 섞인 걸까?",
+      "t2": "흰 알갱이의 반전",
+      "body": "불량 혼합의 흔적으로 여겼던 알갱이.\n연구가 찾은 역할은 ‘칼슘 공급원’.",
+      "width": 190,
+      "titleWidths": [
+        160,
+        185
+      ],
+      "bodyWidth": 190,
+      "bodyHeight": 28,
+      "gap": 10
+    },
+    {
+      "core": 4,
+      "t1": "금에 스민 물,",
+      "t2": "칼슘을 옮기다",
+      "body": "금으로 들어온 물이 칼슘을 녹이고,\n그 칼슘이 틈 안으로 이동한다.\n새 결정이 자라 작은 금을 메운다.",
+      "width": 178,
+      "titleWidths": [
+        145,
+        170
+      ],
+      "bodyWidth": 178,
+      "bodyHeight": 42,
+      "gap": 10
+    },
+    {
+      "core": 5,
+      "t1": "정말 메워질까?",
+      "t2": "금을 내어 봤더니",
+      "body": "약 0.5mm 금을 낸 현대 재현 시편.\n생석회가 든 쪽은 수 주가 지나자\n누수가 거의 멈췄다.\n없는 쪽은 계속 샜다.",
+      "width": 180,
+      "titleWidths": [
+        153,
+        178
+      ],
+      "bodyWidth": 180,
+      "bodyHeight": 56,
+      "gap": 10
+    }
+  ],
+  "comparison": {
+    "text": "대표 결합재 — 현대: 포틀랜드 시멘트\n로마: 석회·화산재\n철근은 당기는 힘을 보완",
+    "x": 528,
+    "y": 496,
+    "width": 172,
+    "fontSize": 9.5,
+    "lineHeight": 13
+  },
+  "clastCaption": {
+    "text": "석회 알갱이를 확대한 개념 모형",
+    "x": 444,
+    "y": 1269,
+    "width": 181,
+    "fontSize": 9.5,
+    "lineHeight": 13
+  },
+  "states": [
+    {
+      "text": "물이 스밈",
+      "x": 642,
+      "y": 1234,
+      "width": 56
+    },
+    {
+      "text": "칼슘 이동",
+      "x": 700,
+      "y": 1234,
+      "width": 56
+    },
+    {
+      "text": "결정 충전",
+      "x": 758,
+      "y": 1234,
+      "width": 56
+    }
+  ],
+  "closing": {
+    "x": 462,
+    "y": 1320,
+    "width": 334,
+    "cue": "그래서 오늘, 로마의 배합을 다시 본다.",
+    "title": "2천 년의 비결은 하나가 아니었다.",
+    "body": "재료의 반응과 압축에 유리한 구조,\n그리고 이어진 보수를 함께 봐야 한다."
+  },
+  "proofBoundary": "The controlled modern specimens test crack filling and reduced leakage; this does not prove direct Colosseum healing or restored structural strength.",
+  "benchmarkFunctions": [
+    "familiar modern vulnerability to Roman surviving surprise",
+    "manufacture leaves the grains introduced next",
+    "apparent mixing defect becomes calcium-supply clue",
+    "same calcium moves and precipitates in the crack",
+    "controlled reconstructed specimens with comparator",
+    "return to present research and the opening question"
+  ],
+  "comparisonPanel": {
+    "x": 524,
+    "y": 492,
+    "width": 180,
+    "height": 47,
+    "rgb": [
+      225,
+      225,
+      225
+    ],
+    "opacity": 0.96
+  },
+  "observationCaption": {
+    "text": "유적 관찰 장면",
+    "x": 1016,
+    "y": 690,
+    "width": 100,
+    "fontSize": 9.5,
+    "lineHeight": 13
+  }
+}

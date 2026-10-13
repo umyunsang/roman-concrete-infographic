@@ -1,0 +1,241 @@
+{
+  "exit_code": 0,
+  "elapsed_ms": 709,
+  "mode": "LIVE",
+  "model_requested": "jev-latest",
+  "result": [
+    {
+      "model": "jev-1.13.0",
+      "answers": {
+        "ARC01": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "ARC02": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "ARC03": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "ARC04": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.96,
+          "probabilities": {
+            "contradicted": 0.01,
+            "insufficient": 0.02,
+            "supported": 0.97
+          }
+        },
+        "ARC05": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "ARC06": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.75,
+          "probabilities": {
+            "contradicted": 0.03,
+            "insufficient": 0.14,
+            "supported": 0.83
+          }
+        },
+        "ARC07": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "supported": 0.99,
+            "insufficient": 0.01
+          }
+        },
+        "ARC08": {
+          "type": "choice",
+          "choice": "insufficient",
+          "confidence": 0.24,
+          "probabilities": {
+            "contradicted": 0.02,
+            "insufficient": 0.49,
+            "supported": 0.49
+          }
+        },
+        "ARC09": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "ARC10": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "ARC11": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "ARC12": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.95,
+          "probabilities": {
+            "contradicted": 0.01,
+            "supported": 0.96,
+            "insufficient": 0.03
+          }
+        },
+        "PRE02": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "supported": 1,
+            "insufficient": 0
+          }
+        },
+        "PRE04": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "PRE05": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "PRE06": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "PRE07": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "PRE08": {
+          "type": "choice",
+          "choice": "insufficient",
+          "confidence": 0.53,
+          "probabilities": {
+            "contradicted": 0.02,
+            "insufficient": 0.6799999999999999,
+            "supported": 0.3
+          }
+        },
+        "PRE09": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.33,
+          "probabilities": {
+            "contradicted": 0.02,
+            "insufficient": 0.42,
+            "supported": 0.56
+          }
+        },
+        "PRE10": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.93,
+          "probabilities": {
+            "contradicted": 0.01,
+            "insufficient": 0.03,
+            "supported": 0.96
+          }
+        },
+        "PRE11": {
+          "type": "choice",
+          "choice": "insufficient",
+          "confidence": 0.43,
+          "probabilities": {
+            "contradicted": 0.02,
+            "insufficient": 0.62,
+            "supported": 0.36
+          }
+        },
+        "PRE12": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.97,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.02,
+            "supported": 0.98
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 25954,
+        "output_tokens": 958
+      }
+    }
+  ],
+  "error": null,
+  "retry": 0,
+  "fallback": 0,
+  "authority": 0
+}

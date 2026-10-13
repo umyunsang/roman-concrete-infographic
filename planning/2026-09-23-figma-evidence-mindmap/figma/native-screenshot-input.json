@@ -1,0 +1,1 @@
+{"fileKey": "Ob3wzRNRC0OSzDCDFp4gtF", "code": "const ids=[\"6:184\", \"6:341\"]; for(const id of ids){const n=await figma.getNodeByIdAsync(id);await n.screenshot({scale:0.75});} return {capturedNodeIds:ids};", "description": "Capture native FigJam composition through the documented node.screenshot API for visual review", "skillNames": "figma-use,figma-use-figjam"}

@@ -1,0 +1,23 @@
+[
+  {
+    "nodeId": "20:5",
+    "asset": "R1",
+    "http_status": 200,
+    "imageHash": "777883b37dba023cffd2f5bd06c772be254ba184",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "20:9",
+    "asset": "R2",
+    "http_status": 200,
+    "imageHash": "caf74ff8d527a9797d39ea9b9905e63b880e72d6",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "20:13",
+    "asset": "R3",
+    "http_status": 200,
+    "imageHash": "930e0629267186c912ec378d531b732cdf9e190b",
+    "scaleMode": "FIT"
+  }
+]

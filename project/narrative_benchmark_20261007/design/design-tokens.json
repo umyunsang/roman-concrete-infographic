@@ -1,0 +1,311 @@
+{
+  "name": "v11 · 석회·트래버틴 × 청록 — 컬러와 타이포",
+  "colors": {
+    "background": {
+      "value": "#F3E8D4",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:79",
+      "semanticVariableId": "VariableID:726:80",
+      "scope": "poster"
+    },
+    "terrain": {
+      "value": "#EDE1CB",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:81",
+      "semanticVariableId": "VariableID:726:82",
+      "scope": "poster"
+    },
+    "mountain_volcano": {
+      "value": "#CDC7AE",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:83",
+      "semanticVariableId": "VariableID:726:84",
+      "scope": "poster"
+    },
+    "colosseum": {
+      "value": "#CDA477",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:85",
+      "semanticVariableId": "VariableID:726:86",
+      "scope": "poster"
+    },
+    "roman_support_stone": {
+      "value": "#D3BE9E",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:87",
+      "semanticVariableId": "VariableID:726:88",
+      "scope": "poster"
+    },
+    "road_foundation": {
+      "value": "#C0AF90",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:89",
+      "semanticVariableId": "VariableID:726:90",
+      "scope": "poster"
+    },
+    "modern_concrete": {
+      "value": "#657B88",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:91",
+      "semanticVariableId": "VariableID:726:92",
+      "scope": "poster"
+    },
+    "steel_if_separate": {
+      "value": "#344E5A",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:93",
+      "semanticVariableId": "VariableID:726:94",
+      "scope": "poster"
+    },
+    "hot_mixing": {
+      "value": "#D15B36",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:95",
+      "semanticVariableId": "VariableID:726:96",
+      "scope": "poster"
+    },
+    "lime_calcium_crystal": {
+      "value": "#FFF4DD",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:97",
+      "semanticVariableId": "VariableID:726:98",
+      "scope": "poster"
+    },
+    "lime_specimen_matrix": {
+      "value": "#97614B",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:99",
+      "semanticVariableId": "VariableID:726:100",
+      "scope": "poster"
+    },
+    "water_process": {
+      "value": "#3F9DAA",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:101",
+      "semanticVariableId": "VariableID:726:102",
+      "scope": "poster"
+    },
+    "crystal_edge": {
+      "value": "#D7A64C",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:103",
+      "semanticVariableId": "VariableID:726:104",
+      "scope": "poster"
+    },
+    "laboratory": {
+      "value": "#527882",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:105",
+      "semanticVariableId": "VariableID:726:106",
+      "scope": "poster"
+    },
+    "foliage": {
+      "value": "#75865C",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:107",
+      "semanticVariableId": "VariableID:726:108",
+      "scope": "poster"
+    },
+    "trunk": {
+      "value": "#A58E68",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:109",
+      "semanticVariableId": "VariableID:726:110",
+      "scope": "poster"
+    },
+    "sea_river": {
+      "value": "#82B9BC",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:111",
+      "semanticVariableId": "VariableID:726:112",
+      "scope": "poster"
+    },
+    "water_wave": {
+      "value": "#D2E8E1",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:113",
+      "semanticVariableId": "VariableID:726:114",
+      "scope": "poster"
+    },
+    "type_heading": {
+      "value": "#2E2A22",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:115",
+      "semanticVariableId": "VariableID:726:116",
+      "scope": "TEXT_FILL"
+    },
+    "type_body": {
+      "value": "#3E3A31",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:117",
+      "semanticVariableId": "VariableID:726:118",
+      "scope": "TEXT_FILL"
+    },
+    "type_secondary_on_light_ground": {
+      "value": "#615A4E",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:119",
+      "semanticVariableId": "VariableID:726:120",
+      "scope": "TEXT_FILL"
+    },
+    "type_secondary_on_water": {
+      "value": "#3E3A31",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:121",
+      "semanticVariableId": "VariableID:726:122",
+      "scope": "TEXT_FILL"
+    },
+    "badge_1_5": {
+      "value": "#365864",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:123",
+      "semanticVariableId": "VariableID:726:124",
+      "scope": "poster"
+    },
+    "badge_2": {
+      "value": "#B44327",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:125",
+      "semanticVariableId": "VariableID:726:126",
+      "scope": "poster"
+    },
+    "badge_3": {
+      "value": "#8C5B2F",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:127",
+      "semanticVariableId": "VariableID:726:128",
+      "scope": "poster"
+    },
+    "badge_4": {
+      "value": "#206D74",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:129",
+      "semanticVariableId": "VariableID:726:130",
+      "scope": "poster"
+    },
+    "badge_numeral": {
+      "value": "#FFF4DD",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:131",
+      "semanticVariableId": "VariableID:726:132",
+      "scope": "poster"
+    },
+    "header_surface": {
+      "value": "#EADFC8",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:133",
+      "semanticVariableId": "VariableID:726:134",
+      "scope": "poster"
+    },
+    "header_trim": {
+      "value": "#D6C09D",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:135",
+      "semanticVariableId": "VariableID:726:136",
+      "scope": "poster"
+    },
+    "pozzolan": {
+      "value": "#A4876D",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:137",
+      "semanticVariableId": "VariableID:726:138",
+      "scope": "poster"
+    },
+    "field": {
+      "value": "#C8BBA0",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:139",
+      "semanticVariableId": "VariableID:726:140",
+      "scope": "poster"
+    },
+    "line": {
+      "value": "#6C7465",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:141",
+      "semanticVariableId": "VariableID:726:142",
+      "scope": "poster"
+    },
+    "concrete_dense": {
+      "value": "#6B6254",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:143",
+      "semanticVariableId": "VariableID:726:144",
+      "scope": "poster"
+    },
+    "stone_light": {
+      "value": "#EBDDCA",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:145",
+      "semanticVariableId": "VariableID:726:146",
+      "scope": "poster"
+    },
+    "stone_middle": {
+      "value": "#B7A584",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:726:147",
+      "semanticVariableId": "VariableID:726:148",
+      "scope": "poster"
+    },
+    "type_heat": {
+      "value": "#983821",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:732:78",
+      "semanticVariableId": "VariableID:732:79",
+      "scope": "TEXT_FILL"
+    },
+    "type_calcium": {
+      "value": "#784C26",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:732:80",
+      "semanticVariableId": "VariableID:732:81",
+      "scope": "TEXT_FILL"
+    },
+    "type_water": {
+      "value": "#195B61",
+      "space": "sRGB",
+      "primitiveVariableId": "VariableID:732:82",
+      "semanticVariableId": "VariableID:732:83",
+      "scope": "TEXT_FILL"
+    }
+  },
+  "typography": {
+    "display": {
+      "sourceId": "718:82",
+      "family": "Noto Serif KR",
+      "style": "Bold",
+      "fontSize": 70,
+      "lineHeight": 80,
+      "trackingPercent": -1,
+      "width": 455
+    },
+    "core": {
+      "family": "Noto Sans KR",
+      "style": "Bold",
+      "fontSize": 21,
+      "lineHeight": 26
+    },
+    "body": {
+      "family": "Noto Sans KR",
+      "style": "Regular",
+      "fontSize": 11.5,
+      "lineHeight": 15.5
+    },
+    "caption": {
+      "family": "Noto Sans KR",
+      "fontSize": "existing 9–12px",
+      "layout": "current bounds preserved"
+    }
+  },
+  "figma": {
+    "collectionId": "VariableCollectionId:726:78",
+    "modeId": "726:0",
+    "rawCount": 38,
+    "semanticCount": 38,
+    "textStyleIds": {
+      "Display": "S:bcc2a30d208acb31304d8dddd600816a005c4e98,",
+      "Core": "S:5370a839d4974b8cd29a536dc5b863e37b60da53,",
+      "Body": "S:49bc4c81d4d4aff84a63bb686de2ff62adff1b0b,",
+      "Caption": "S:ed55b7fac785b2f64d61ac923dd203d143872e45,"
+    }
+  }
+}

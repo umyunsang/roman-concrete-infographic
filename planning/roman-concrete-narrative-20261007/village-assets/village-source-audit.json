@@ -1,0 +1,63 @@
+{
+  "factory_scene_only": true,
+  "source_glbs_preserved": true,
+  "models": {
+    "NB_village_house": {
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/village_v15/roman_low_house.glb",
+      "source_sha256": "ccd2ee620846028e66684c73b3553ef003f625b64b36e18fc4df3cf09ccfbf71",
+      "vertices": 33899,
+      "faces": 20188,
+      "local_bbox": [
+        [
+          -0.9519989490509033,
+          -0.7668089866638184,
+          0.0
+        ],
+        [
+          0.9519989490509033,
+          0.7668089866638184,
+          1.4059419631958008
+        ]
+      ],
+      "geometry_hash": "30fcbb3c68215231f4a5b62b951ff7d82b1e36021dafc1424d4e6b0f32aa4680"
+    },
+    "NB_village_market": {
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/village_v15/roman_market_shade.glb",
+      "source_sha256": "ec59a772216c2458fa179f190178c39f3fd3f29c944ea4a9453e45ff22911aff",
+      "vertices": 27702,
+      "faces": 20448,
+      "local_bbox": [
+        [
+          -0.9500460028648376,
+          -0.6630520224571228,
+          0.0
+        ],
+        [
+          0.9500460028648376,
+          0.6630520224571228,
+          1.1786558628082275
+        ]
+      ],
+      "geometry_hash": "50b8284ecf5f51704f22a0b6b132ef822165cc0e15d4fb9087bbf4d51f87e54c"
+    },
+    "NB_village_citizens": {
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/village_v15/roman_ordinary_citizens.glb",
+      "source_sha256": "1d13bb60f4e2ab9233f05170cbf173f8b083cfce016b879d7fc385a2ae00ec75",
+      "vertices": 28161,
+      "faces": 20661,
+      "local_bbox": [
+        [
+          -0.5959784984588623,
+          -0.4794679284095764,
+          0.0
+        ],
+        [
+          0.5959784984588623,
+          0.4794679284095764,
+          1.901487946510315
+        ]
+      ],
+      "geometry_hash": "85fb4406d05feca5d876967d3fcc36b37d27794279eb52b190d6dd988f2bfd47"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "source_sha256": "f58d958eee5db375a76779f337681be96f8b7b6f0f0d4ba562f7d9aa3f79f528",
+  "source_yaw_degrees": 256.42505434935833,
+  "native_camera_preserved": true,
+  "all_mesh_geometry_preserved": true,
+  "production_bytes_preserved": true,
+  "candidates": [
+    {
+      "label": "plus30",
+      "delta_degrees": 30,
+      "absolute_yaw_degrees": 286.42504835399524,
+      "uniform_scale_ratio": 0.9445327165862019,
+      "bbox": [
+        596.6872614250514,
+        903.056072167617,
+        638.3985664091261,
+        1009.0756948782846
+      ],
+      "world_location": [
+        19.414766311645508,
+        -17.04822540283203,
+        0.24928894639015198
+      ],
+      "world_scale": [
+        4.155632019042969,
+        4.155632019042969,
+        4.155632019042969
+      ],
+      "foot_min_z": 0.24928894639015198,
+      "feet_screen_bbox": [
+        601.9683859414839,
+        977.382791653243,
+        631.5135859694304,
+        1009.0756948782846
+      ],
+      "screen_forward_vector": [
+        -38.58270263671875,
+        -12.8199462890625
+      ],
+      "png": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/construction-detail/workers/pair_yaw_plus30_native.png"
+    },
+    {
+      "label": "plus55",
+      "delta_degrees": 55,
+      "absolute_yaw_degrees": 311.4250433578593,
+      "uniform_scale_ratio": 0.9302588114347049,
+      "bbox": [
+        597.3760767647641,
+        903.0535199315894,
+        630.7387187648748,
+        1009.0813633721137
+      ],
+      "world_location": [
+        19.414766311645508,
+        -17.04822540283203,
+        0.24928894639015198
+      ],
+      "world_scale": [
+        4.092831611633301,
+        4.092831611633301,
+        4.092831611633301
+      ],
+      "foot_min_z": 0.24928894639015198,
+      "feet_screen_bbox": [
+        598.2658208824175,
+        978.8235897748608,
+        628.2395605139402,
+        1009.0813633721137
+      ],
+      "screen_forward_vector": [
+        -43.27874755859375,
+        -1.6527099609375
+      ],
+      "png": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/construction-detail/workers/pair_yaw_plus55_native.png"
+    },
+    {
+      "label": "minus35",
+      "delta_degrees": -35,
+      "absolute_yaw_degrees": 221.4250476835703,
+      "uniform_scale_ratio": 1,
+      "bbox": [
+        581.3595832410233,
+        908.0883979697014,
+        645.5801048500692,
+        1006.0983867839135
+      ],
+      "world_location": [
+        19.414766311645508,
+        -17.04822540283203,
+        0.24928894639015198
+      ],
+      "world_scale": [
+        4.399669647216797,
+        4.399669647216797,
+        4.399669647216797
+      ],
+      "foot_min_z": 0.24928894639015198,
+      "feet_screen_bbox": [
+        591.5136165671407,
+        986.1921929101256,
+        643.0974560806326,
+        1006.0983867839135
+      ],
+      "screen_forward_vector": [
+        2.69903564453125,
+        -28.16497802734375
+      ],
+      "png": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/construction-detail/workers/pair_yaw_minus35_native.png"
+    }
+  ],
+  "recommendation": {
+    "candidate": "minus35",
+    "delta_degrees": -35,
+    "absolute_yaw_degrees": 221.4250476835703,
+    "reason": "Only requested candidate visibly exposes shared wood trough wall and pale mortar top while retaining inward walking direction",
+    "new_geometry_needed": false
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "exit_code": 0,
+  "elapsed_ms": 649,
+  "mode": "LIVE",
+  "model_requested": "jev-latest",
+  "result": [
+    {
+      "model": "jev-1.13.0",
+      "answers": {
+        "AR01": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "AR02": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.96,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.03,
+            "supported": 0.97
+          }
+        },
+        "AR03": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "contradicted": 0.01,
+            "insufficient": 0.01,
+            "supported": 0.98
+          }
+        },
+        "AR04": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR05": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.97,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR06": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR07": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.96,
+          "probabilities": {
+            "contradicted": 0.01,
+            "insufficient": 0.02,
+            "supported": 0.97
+          }
+        },
+        "AR08": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR09": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR10": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR11": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR12": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR13": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.97,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR14": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.97,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR15": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "AR16": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "AR17": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 16290,
+        "output_tokens": 734
+      }
+    }
+  ],
+  "error": null,
+  "retry": 0,
+  "fallback": 0,
+  "authority": 0
+}

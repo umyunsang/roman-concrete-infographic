@@ -1,0 +1,46 @@
+# Saved v12 independent read-only validation
+
+Result: FAIL
+
+Original objects 317; output objects 525; new objects 208; changed originals 121.
+
+- PASS: fresh_v9_v12_opened_read_only
+- PASS: source_v9_original317_objects_all_retained
+- PASS: new_objects_match_independent_name_generator_and_production_report
+- PASS: allowed_existing_names_within_independent_user_scope
+- PASS: existing_object_changes_only_authorized_fields
+- PASS: newly_hidden_objects_exactly_reported_and_scoped
+- PASS: all_original_geometry_topology_exact_including_overlays
+- PASS: existing_slots_and_indices_exact_except_kiln
+- PASS: original_mesh_datablock_names_exact_except_optional_kiln_isolation
+- PASS: all_original_materials_preserved_except_unused_replaced_kiln_slot
+- PASS: new_material_HEX_linear_diffuse_and_principled_match
+- PASS: kiln_exact_original_faces_match_independent_helper_and_palette
+- PASS: new_meshes_visible_material_indices_valid_inside_safe_poster_bounds
+- PASS: scene_camera_render_world_exposure_studio_and_old_collections_preserved
+- PASS: all_saved_viewport_settings_preserved
+- PASS: all_original_parent_inverse_and_narrative_properties_preserved
+- PASS: production_before_matches_fresh_v9
+- PASS: production_after_matches_fresh_v12
+- PASS: fresh_mover_bboxes_and_reported_bboxes_valid
+- PASS: all_original_and_new_face_index_SHAs_match_report
+- PASS: applied_roles_face_counts_material_slot_order_polygon_count_match_report
+- PASS: material_roles_HEX_and_linear_values_match_report
+- PASS: downloaded_Meshy_GLB_provenance_SHA_preserved
+- PASS: report_object_material_totals_match_fresh_saved
+- PASS: CORE2_CORE3_overlay_screen_translations_exact
+- PASS: upper_temples_exact_original_source_restored
+- PASS: abstract_display_models_retired_and_no_new_specimen_cubes
+- PASS: freestanding_stage_and_hero_surfaces_do_not_intersect
+- FAIL: actual_primary_floors_off_road_and_water
+- PASS: natural_world_units_match_targets
+- FAIL: laboratory_copy_retains_building_and_removes_rock_only
+- PASS: attached_scaffolds_match_facade_and_support_geometry
+- PASS: source_v9_SHA_exact_preserved
+- PASS: canonical_SHA_exact_preserved
+
+Source v9 SHA `0c4215a062517bbd60ff1ab1668443dee6c6089062713280efc88551bcd5a528`
+Output v12 SHA `6030c5a77fc9f695deeccf3925709eb5a3c2602cc1d520212f07444185c24d93`
+Canonical SHA `28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3`
+
+Two fresh background file opens. No save, render, object/material/visibility/UI writes. Hidden matrix_world cache normalized read-only from persistent basis/parent inverse. Existing geometry/slots/indices/property and material-node snapshots compared outside independent authorized scope.

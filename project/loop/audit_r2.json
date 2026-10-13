@@ -1,0 +1,24 @@
+{
+ "round": 2,
+ "text_object_overlaps": [
+  {
+   "text": "CORE ③ 블록",
+   "kind": "core",
+   "object": "L04_palatine",
+   "coll": "40_REGION",
+   "area": 0.0,
+   "verts_in": 139
+  },
+  {
+   "text": "CORE ④ 블록",
+   "kind": "core",
+   "object": "C4_crack_repair",
+   "coll": "45_CORE_SCENES",
+   "area": 0.0,
+   "verts_in": 6
+  }
+ ],
+ "outside_frame": [],
+ "text_text_overlaps": [],
+ "n_objects": 75
+}

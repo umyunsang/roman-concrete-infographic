@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"21:3\",\"21:43\"],\"images\":[{\"id\":\"21:3\",\"type\":\"IMAGE\",\"imageHash\":\"695bf753f86e3d0a2a3e076c486e3af50b02b3d4\"},{\"id\":\"21:43\",\"type\":\"IMAGE\",\"imageHash\":\"5715635988c54990f2c070fb976e3b6299b0cc28\"}]}"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "9a06a9fb-5ecc-43ba-a687-f100d03c38ca"
+  }
+}

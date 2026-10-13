@@ -1,0 +1,14 @@
+{
+ "input": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/workers/WD1/WD1_test.blend",
+ "output": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/workers/WD1/WD1_idem.blend",
+ "sections": [
+  "aq",
+  "col",
+  "kiln",
+  "mtn",
+  "pan"
+ ],
+ "already_marked": true,
+ "foreign_changed": [],
+ "saved": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/workers/WD1/WD1_idem.blend"
+}

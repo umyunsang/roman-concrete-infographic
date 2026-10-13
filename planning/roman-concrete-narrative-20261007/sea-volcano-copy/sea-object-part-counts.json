@@ -1,0 +1,26 @@
+{
+  "L09_portus_lighthouse": {
+    "sea_stone": 5565,
+    "sea_base": 449,
+    "sea_cap": 438,
+    "sea_recess": 327
+  },
+  "L09_portus_mole": {
+    "sea_stone": 2815,
+    "sea_base": 664,
+    "sea_deck": 1965,
+    "sea_cap": 45
+  },
+  "L12_harbor_pilae": {
+    "sea_stone": 4612,
+    "sea_base": 252,
+    "sea_deck": 361,
+    "sea_cap": 164
+  },
+  "NB_marine_breakwater": {
+    "sea_concrete": 12135,
+    "sea_base": 127,
+    "sea_deck": 843,
+    "sea_cap": 4225
+  }
+}

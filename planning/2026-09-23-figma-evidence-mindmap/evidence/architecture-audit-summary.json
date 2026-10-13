@@ -1,0 +1,11 @@
+{
+  "model": "jev-1.13.0",
+  "canonical_count": 22,
+  "supported_count": 22,
+  "procedure": "22 statements checked against retrieved primary sources; 3 initially insufficient supplied with additional official passages and rechecked.",
+  "meaning": "Evidence classification within source limits, not experimental proof of the whole longevity narrative or mathematical determinism.",
+  "input_hashes": {
+    "jev-architecture-compact.input.json": "6105efe802fb2c5b4ee7a8e5bd0a6f1bedd6ecb588395777a578622327727ba4",
+    "jev-architecture-gaps.input.json": "697a756908ce8b4339b75cb0b8d04aa1c90dee55e95bd81107f8aab10232813c"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "exit_code": 0,
+  "elapsed_ms": 731,
+  "mode": "LIVE",
+  "model_requested": "jev-latest",
+  "result": [
+    {
+      "model": "jev-1.13.0",
+      "answers": {
+        "MAT-01": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-02": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-03": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "MAT-04": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-05": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-06": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-07": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.94,
+          "probabilities": {
+            "contradicted": 0.03,
+            "insufficient": 0.01,
+            "supported": 0.96
+          }
+        },
+        "MAT-08": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-09": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.88,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.07,
+            "supported": 0.93
+          }
+        },
+        "MAT-10": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-11": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-12": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.01,
+            "supported": 0.99
+          }
+        },
+        "MAT-13": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-14": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.87,
+          "probabilities": {
+            "contradicted": 0.02,
+            "insufficient": 0.07,
+            "supported": 0.91
+          }
+        },
+        "MAT-15": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.99,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-16": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-17": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-18": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.98,
+          "probabilities": {
+            "contradicted": 0.01,
+            "insufficient": 0,
+            "supported": 0.99
+          }
+        },
+        "MAT-19": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-20": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.77,
+          "probabilities": {
+            "contradicted": 0.11,
+            "insufficient": 0.04,
+            "supported": 0.85
+          }
+        },
+        "MAT-21": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 1,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0,
+            "supported": 1
+          }
+        },
+        "MAT-22": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.39,
+          "probabilities": {
+            "contradicted": 0.01,
+            "insufficient": 0.4,
+            "supported": 0.59
+          }
+        },
+        "MAT-23": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.54,
+          "probabilities": {
+            "contradicted": 0.01,
+            "insufficient": 0.3,
+            "supported": 0.69
+          }
+        },
+        "MAT-24": {
+          "type": "choice",
+          "choice": "supported",
+          "confidence": 0.31,
+          "probabilities": {
+            "contradicted": 0,
+            "insufficient": 0.46,
+            "supported": 0.54
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 27602,
+        "output_tokens": 1059
+      }
+    }
+  ],
+  "error": null,
+  "retry": 0,
+  "fallback": 0,
+  "authority": 0
+}

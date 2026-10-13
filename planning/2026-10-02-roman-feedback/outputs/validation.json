@@ -1,0 +1,13 @@
+{
+  "scope": "local proposal review, not Figma edit or A2 print acceptance",
+  "figmaScreenshotsInspected": ["current W3", "adjacent relationship mindmap", "previous W1", "previous W2"],
+  "livePhotoCorrespondencesRead": {"locations": 13, "scientificReferences": 5, "objectReferences": 12},
+  "researchLanesComplete": true,
+  "reverseQuestionRounds": 3,
+  "userSelections": ["combined factors", "placement and repeated numbers are primary", "core-only numbers"],
+  "userCorrectionsIntegrated": ["A2 spatial model is the information scaffold", "real regions and explanatory 3D objects determine the spatial meaning"],
+  "browserRuntime": {"allFourTopicsUpdate": true, "correctSiteCounts": [1, 2, 1, 2], "relationToggle": true, "numberTargetToggle": true, "numberReplacementTargets": 16, "embeddedImageLoaded": true, "desktopHorizontalOverflow": false},
+  "structuralChecks": {"javascriptSyntax": "passed", "uniqueDomIds": 14, "allLocalLinksExist": true, "overlayAnchorsInsideW3": true},
+  "visualReview": "scaled overview screenshot inspected; original current W3 remains the scene",
+  "limitations": ["overlay proposes relation meanings rather than finalized new node positions", "no physical A2 print or reader-comprehension test", "Aside full-page screenshot repeated a viewport; used a scaled viewport overview instead"]
+}

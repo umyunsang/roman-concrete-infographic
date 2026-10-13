@@ -1,0 +1,24 @@
+{
+ "input": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/out/roman_concrete_narrative_v8_14.blend",
+ "output": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/workers/WD1/dev_a2.blend",
+ "sections": [
+  "aq"
+ ],
+ "already_marked": false,
+ "aqueduct": {
+  "piers": 40,
+  "pitch_wu": 1.75,
+  "lift_wu_min_med_max": [
+   0.203,
+   0.221,
+   0.452
+  ],
+  "uphill_burial_wu_max": 0.15,
+  "plinths_extended_down": 8,
+  "depth_k": 0.6,
+  "pier_k": 0.7,
+  "max_plan_shift_wu": 0.197
+ },
+ "foreign_changed": [],
+ "saved": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/workers/WD1/dev_a2.blend"
+}

@@ -1,0 +1,240 @@
+{
+  "created_at": "2026-10-08T10:09:53+00:00",
+  "transport": "Existing configured Meshy stdio MCP",
+  "scope": "Three illustrative ordinary Roman village assets for direct map integration; not independently verified archaeological replicas.",
+  "max_tasks": 3,
+  "expected_each_credits": 20,
+  "max_total_credits": 60,
+  "textures_or_refine_requested": false,
+  "tasks": {
+    "roman_low_house": {
+      "task_id": "01a11afd-b265-7062-a5ec-0ed605b1366e",
+      "request": {
+        "prompt": "One modest ancient Roman one-story residential house for an actual living street. Rectangular low building, pitched roof with physically modeled rows of curved terracotta Roman clay tiles, plaster over stone walls, an open rectangular wooden doorway and two small window openings. A small side courtyard is bounded by LOW stone walls, with one ordinary clay amphora beside the door. Simple believable domestic proportions, warm Roman building character. Robust untextured geometry. NO display pedestal, NO diorama base, NO surrounding ground slab or terrain, NO labels or text, NO modern objects, NO temple columns, NO people, no second house.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_at": "2026-10-08T10:09:58+00:00",
+      "created_response": {
+        "task_id": "01a11afd-b265-7062-a5ec-0ed605b1366e",
+        "status": "PENDING"
+      },
+      "balance_before": {
+        "balance": 600,
+        "checked_at": "2026-10-08T10:09:56+00:00"
+      },
+      "balance_after": {
+        "balance": 600,
+        "checked_at": "2026-10-08T10:09:58+00:00"
+      },
+      "observed_creation_credit_delta": 0,
+      "latest_status": {
+        "checked_at": "2026-10-08T10:14:18+00:00",
+        "task_id": "01a11afd-b265-7062-a5ec-0ed605b1366e",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "consumed_credits": 20
+      },
+      "status_history": [
+        {
+          "checked_at": "2026-10-08T10:10:45+00:00",
+          "task_id": "01a11afd-b265-7062-a5ec-0ed605b1366e",
+          "status": "IN_PROGRESS",
+          "progress": 99,
+          "consumed_credits": 20
+        },
+        {
+          "checked_at": "2026-10-08T10:14:18+00:00",
+          "task_id": "01a11afd-b265-7062-a5ec-0ed605b1366e",
+          "status": "SUCCEEDED",
+          "progress": 100,
+          "consumed_credits": 20
+        }
+      ],
+      "download_response": {
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/village_v15/roman_low_house.glb",
+        "file_size_bytes": 1206948
+      },
+      "file_inspection": {
+        "filename": "roman_low_house.glb",
+        "bytes": 1206948,
+        "sha256": "ccd2ee620846028e66684c73b3553ef003f625b64b36e18fc4df3cf09ccfbf71",
+        "glb_version": 2,
+        "meshes": 1,
+        "primitives": 1,
+        "vertex_accessor_count_sum": 33899,
+        "triangles": 20188,
+        "material_count": 0,
+        "textures": 0,
+        "images": 0,
+        "inspected_at": "2026-10-08T10:14:19+00:00"
+      }
+    },
+    "roman_market_shade": {
+      "task_id": "01a11afd-bb2e-7523-a214-654151085578",
+      "request": {
+        "prompt": "An ordinary ancient Roman street market shade: four simple timber posts support a broad lightly sagging cloth canopy. One clearly visible full-body Roman merchant in a plain short tunic and sandals stands naturally beside a low timber counter. Three separate clay amphorae and two wicker baskets form compact everyday wares beside the counter. Human face and head unobstructed, chunky readable hands, canopy wood, cloth, pottery, baskets and person are distinct physical geometry. Untextured gray. NO pedestal, NO diorama display base, NO floor or ground slab, NO landscape, NO label or text, NO modern cart or wheels, NO temple.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_at": "2026-10-08T10:10:01+00:00",
+      "created_response": {
+        "task_id": "01a11afd-bb2e-7523-a214-654151085578",
+        "status": "PENDING"
+      },
+      "balance_before": {
+        "balance": 580,
+        "checked_at": "2026-10-08T10:09:58+00:00"
+      },
+      "balance_after": {
+        "balance": 560,
+        "checked_at": "2026-10-08T10:10:01+00:00"
+      },
+      "observed_creation_credit_delta": 20,
+      "latest_status": {
+        "checked_at": "2026-10-08T10:14:19+00:00",
+        "task_id": "01a11afd-bb2e-7523-a214-654151085578",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "consumed_credits": 20
+      },
+      "status_history": [
+        {
+          "checked_at": "2026-10-08T10:10:45+00:00",
+          "task_id": "01a11afd-bb2e-7523-a214-654151085578",
+          "status": "IN_PROGRESS",
+          "progress": 99,
+          "consumed_credits": 20
+        },
+        {
+          "checked_at": "2026-10-08T10:14:19+00:00",
+          "task_id": "01a11afd-bb2e-7523-a214-654151085578",
+          "status": "SUCCEEDED",
+          "progress": 100,
+          "consumed_credits": 20
+        }
+      ],
+      "download_response": {
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/village_v15/roman_market_shade.glb",
+        "file_size_bytes": 1010204
+      },
+      "file_inspection": {
+        "filename": "roman_market_shade.glb",
+        "bytes": 1010204,
+        "sha256": "ec59a772216c2458fa179f190178c39f3fd3f29c944ea4a9453e45ff22911aff",
+        "glb_version": 2,
+        "meshes": 1,
+        "primitives": 1,
+        "vertex_accessor_count_sum": 27702,
+        "triangles": 20448,
+        "material_count": 0,
+        "textures": 0,
+        "images": 0,
+        "inspected_at": "2026-10-08T10:14:20+00:00"
+      }
+    },
+    "roman_ordinary_citizens": {
+      "task_id": "01a11afd-c8ee-76a3-a5a3-3610abfc8d92",
+      "request": {
+        "prompt": "Two ordinary ancient Roman citizens in natural everyday street poses, complete full bodies with a small visible gap between them. Plain short belted tunics and sandals, different simple hairstyles. One walks slowly carrying a clearly separate clay amphora against one HIP, supported by both hands; the amphora stays below chest height. The other stands casually holding one small wicker basket at the SIDE with one hand. BOTH human heads and faces are fully visible and unobstructed. Thick readable limbs, hands, vessel neck and basket handle, robust untextured gray geometry. NO pedestal, NO floor or diorama base, NO landscape, NO military gear, NO text, NO extra people or props.",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "standard",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 20000,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "created_at": "2026-10-08T10:10:05+00:00",
+      "created_response": {
+        "task_id": "01a11afd-c8ee-76a3-a5a3-3610abfc8d92",
+        "status": "PENDING"
+      },
+      "balance_before": {
+        "balance": 560,
+        "checked_at": "2026-10-08T10:10:02+00:00"
+      },
+      "balance_after": {
+        "balance": 540,
+        "checked_at": "2026-10-08T10:10:05+00:00"
+      },
+      "observed_creation_credit_delta": 20,
+      "latest_status": {
+        "checked_at": "2026-10-08T10:14:20+00:00",
+        "task_id": "01a11afd-c8ee-76a3-a5a3-3610abfc8d92",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "consumed_credits": 20
+      },
+      "status_history": [
+        {
+          "checked_at": "2026-10-08T10:10:45+00:00",
+          "task_id": "01a11afd-c8ee-76a3-a5a3-3610abfc8d92",
+          "status": "IN_PROGRESS",
+          "progress": 99,
+          "consumed_credits": 20
+        },
+        {
+          "checked_at": "2026-10-08T10:14:20+00:00",
+          "task_id": "01a11afd-c8ee-76a3-a5a3-3610abfc8d92",
+          "status": "SUCCEEDED",
+          "progress": 100,
+          "consumed_credits": 20
+        }
+      ],
+      "download_response": {
+        "local_path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/models/village_v15/roman_ordinary_citizens.glb",
+        "file_size_bytes": 1026172
+      },
+      "file_inspection": {
+        "filename": "roman_ordinary_citizens.glb",
+        "bytes": 1026172,
+        "sha256": "1d13bb60f4e2ab9233f05170cbf173f8b083cfce016b879d7fc385a2ae00ec75",
+        "glb_version": 2,
+        "meshes": 1,
+        "primitives": 1,
+        "vertex_accessor_count_sum": 28161,
+        "triangles": 20661,
+        "material_count": 0,
+        "textures": 0,
+        "images": 0,
+        "inspected_at": "2026-10-08T10:14:21+00:00"
+      }
+    }
+  },
+  "balance_before": {
+    "balance": 600,
+    "checked_at": "2026-10-08T10:09:56+00:00"
+  },
+  "balance_after_creation": {
+    "balance": 540,
+    "checked_at": "2026-10-08T10:10:05+00:00"
+  },
+  "observed_total_creation_credit_delta": 60,
+  "balance_after_download": {
+    "balance": 540,
+    "checked_at": "2026-10-08T10:14:21+00:00"
+  },
+  "task_reported_consumed_credits_sum": 60,
+  "final_account_credit_delta": 60,
+  "models_ready": true
+}

@@ -1,0 +1,1519 @@
+{
+  "status": "compact_proposal_complete",
+  "canvas": [
+    1191,
+    1684
+  ],
+  "source": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v9.blend",
+  "sourceSHA": "8125d6cf8ec2da6cf09125472aa603afd1debcd88910ff8ed0893b174a2288fe",
+  "temporaryPoster": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/figma_poster_v14_construction_details_1x.png",
+  "geometryEvidence": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/construction-detail/counterclockwise-road-geometry.npz",
+  "geometrySummaries": {
+    "B_pons1": {
+      "bbox": [
+        227.7641706075378,
+        656.3413538790617,
+        319.0490433370531,
+        711.4211812114297
+      ],
+      "geometrySHA": "1f2ff8e95ddbe6e0dcb26d55be8f66ca7f88de158a8e1850afa3538b8845073f"
+    },
+    "B_pons1_parapet0": {
+      "bbox": [
+        236.70995619984834,
+        653.6639030164312,
+        293.1926943596305,
+        687.1610366515307
+      ],
+      "geometrySHA": "ae86b9f12bf0c817ab6520510d25e1dbd29412184ce6e8aa1b0fe0cc57076923"
+    },
+    "B_pons1_parapet1": {
+      "bbox": [
+        253.8417651221741,
+        662.7361303838122,
+        310.33003517333714,
+        696.4726325589064
+      ],
+      "geometrySHA": "dd75e9fafcdba2902c97f92044bf53648d69ee4c592e1ef6b78bd9c8ea5373ba"
+    },
+    "B_pons2": {
+      "bbox": [
+        257.118666162236,
+        946.8737958206005,
+        368.3963327710782,
+        1015.0644926807415
+      ],
+      "geometrySHA": "71eeb38522ef9f528834e5ba0f7bdfc3e6df8c019bf94222f3b0b810848648d0"
+    },
+    "B_pons2_parapet0": {
+      "bbox": [
+        267.1529557683934,
+        957.2338666540032,
+        339.7081479503031,
+        996.5601588348358
+      ],
+      "geometrySHA": "1e8d505306d8b44215642076956f0dbd45784c72d8dd232df46445bd2cb53023"
+    },
+    "B_pons2_parapet1": {
+      "bbox": [
+        285.6850022939432,
+        943.9806701883109,
+        358.11598174371863,
+        982.942466446356
+      ],
+      "geometrySHA": "e97f804aafe1366800737c713d1912a7939e36d92e4791a6c46e1c3f87873fbf"
+    },
+    "COL_ruined": {
+      "bbox": [
+        353.2058988586742,
+        568.2912542922313,
+        835.3687532147561,
+        996.9814397532066
+      ],
+      "geometrySHA": "a93e2e10a7114fa16fad34ab426aaab3b9293a6595c1decf58ea72a5ecb245c2"
+    },
+    "L02_tiber": {
+      "bbox": [
+        45.586358837714826,
+        318.21228228298475,
+        345.29189676266907,
+        1393.8494374324175
+      ],
+      "geometrySHA": "4d77a0c0dd4a6490c7df9b41dbe1be453b074cdd32755243b62e9458b2cb8ed7"
+    },
+    "R_core_road": {
+      "bbox": [
+        217.8773304636724,
+        486.6369260890484,
+        977.7889272738895,
+        1026.4377432703218
+      ],
+      "geometrySHA": "b814e5adc880baaf6cb55965a662a0513ee9d1866d1fa3c7013dfca1b04f2e45"
+    },
+    "R_via_appia": {
+      "bbox": [
+        842.9328716970216,
+        938.3201650238999,
+        1214.0450378454677,
+        992.7330625140678
+      ],
+      "geometrySHA": "55b2ed077a00eb329c61e64b9da8ad9166ae5f3cc93f108b2646909fcc97d3c9"
+    },
+    "R_via_ostiensis": {
+      "bbox": [
+        139.72005239584578,
+        1006.0399414093367,
+        402.2941694949458,
+        1352.476717203186
+      ],
+      "geometrySHA": "c7ac19b3429ea2ab8c687d34ed73add79ee671ae0caffd196504448d45131e58"
+    },
+    "T_land": {
+      "bbox": [
+        -9.000040835783352,
+        -8.999918182317339,
+        1200.0000297701952,
+        1621.9631608090497
+      ],
+      "geometrySHA": "a469ba491c3d2ac0d3a15aad3cdfa0575edcdc9ab4789ccb9282d10eaaa7d874"
+    }
+  },
+  "hero": {
+    "requestedUniformScaleOption": 0.88,
+    "controllerTargetBBox": [
+      395,
+      592,
+      791,
+      965
+    ],
+    "virtualScaleOptions": [
+      {
+        "uniformScaleFactor": 0.86,
+        "pivot": [
+          -1.2141854763031006,
+          0.7515208721160889,
+          0.0
+        ],
+        "predictedBBoxAboutExistingObjectOrigin": [
+          386.4590256741146,
+          604.0715887616835,
+          801.0858558164495,
+          972.9517178166996
+        ]
+      },
+      {
+        "uniformScaleFactor": 0.88,
+        "pivot": [
+          -1.2141854763031006,
+          0.7515208721160889,
+          0.0
+        ],
+        "predictedBBoxAboutExistingObjectOrigin": [
+          381.70747291188616,
+          598.9329623241928,
+          805.9784995648159,
+          976.3590906535396
+        ]
+      },
+      {
+        "uniformScaleFactor": 0.9,
+        "pivot": [
+          -1.2141854763031006,
+          0.7515208721160889,
+          0.0
+        ],
+        "predictedBBoxAboutExistingObjectOrigin": [
+          376.95745517187504,
+          593.8034259379016,
+          810.8727796181887,
+          979.7748925644545
+        ]
+      }
+    ],
+    "constraints": [
+      "Preserve local mesh vertices/topology; scale/translation only",
+      "Keep camera and terrain unchanged; retain arena as central representative",
+      "Foreground body/facade screen overlap allowed; actual 3D penetration remains a final validation task"
+    ]
+  },
+  "slots": [
+    {
+      "id": "maker",
+      "asset": "C2_hot_mixing",
+      "bbox": [
+        177,
+        831,
+        319,
+        940
+      ],
+      "foot": [
+        248,
+        940
+      ],
+      "semantic": "배합 제작",
+      "pose": "Existing two workers and mortar bowl; beginning of route",
+      "roadAssessment": {
+        "reference": "Target bbox bottom-centre proxy; exact sole/platform contact needs actual final model BVH verification",
+        "nearestRoadPixel": [
+          248,
+          940
+        ],
+        "distancePx": 0.0,
+        "roadObjects": [
+          "R_core_road"
+        ],
+        "referencePixelOnRoad": true,
+        "terrainReferencePixel": true,
+        "waterReferencePixel": false
+      },
+      "textIntersections": [],
+      "bboxSize": [
+        142,
+        109
+      ]
+    },
+    {
+      "id": "carrier",
+      "asset": "roman_mortar_carrier",
+      "bbox": [
+        293,
+        913,
+        352,
+        1005
+      ],
+      "foot": [
+        322.5,
+        1005
+      ],
+      "semantic": "모르타르 운반",
+      "pose": "Walking toward bridge exit and SW workzone; forward bucket points east/southeast",
+      "roadAssessment": {
+        "reference": "Target bbox bottom-centre proxy; exact sole/platform contact needs actual final model BVH verification",
+        "nearestRoadPixel": [
+          328,
+          1003
+        ],
+        "distancePx": 5.852,
+        "roadObjects": [
+          "B_pons2"
+        ],
+        "referencePixelOnRoad": false,
+        "terrainReferencePixel": false,
+        "waterReferencePixel": true
+      },
+      "textIntersections": [
+        {
+          "id": "749:202",
+          "text": "배합·운반",
+          "areaPx2": 364
+        }
+      ],
+      "bboxSize": [
+        59,
+        92
+      ]
+    },
+    {
+      "id": "vault_construction",
+      "asset": "NB_vault_construction",
+      "bbox": [
+        351,
+        920,
+        463,
+        1008
+      ],
+      "foot": [
+        407,
+        1008
+      ],
+      "semantic": "목재 틀 위 볼트 시공",
+      "pose": "Arch opening faces viewer/South; visible timber support inside; base on road shoulder",
+      "roadAssessment": {
+        "reference": "Target bbox bottom-centre proxy; exact sole/platform contact needs actual final model BVH verification",
+        "nearestRoadPixel": [
+          407,
+          1006
+        ],
+        "distancePx": 2.0,
+        "roadObjects": [
+          "R_core_road"
+        ],
+        "referencePixelOnRoad": false,
+        "terrainReferencePixel": true,
+        "waterReferencePixel": false
+      },
+      "textIntersections": [],
+      "bboxSize": [
+        112,
+        88
+      ]
+    },
+    {
+      "id": "builder",
+      "asset": "roman_wall_builder",
+      "bbox": [
+        465,
+        920,
+        548,
+        1008
+      ],
+      "foot": [
+        506.5,
+        1008
+      ],
+      "semantic": "돌·모르타르·틀로 쌓기",
+      "pose": "Kneeling builder hands/tool face half-wall/form on its north side toward Colosseum",
+      "roadAssessment": {
+        "reference": "Target bbox bottom-centre proxy; exact sole/platform contact needs actual final model BVH verification",
+        "nearestRoadPixel": [
+          506,
+          1008
+        ],
+        "distancePx": 0.5,
+        "roadObjects": [
+          "R_core_road"
+        ],
+        "referencePixelOnRoad": true,
+        "terrainReferencePixel": true,
+        "waterReferencePixel": false
+      },
+      "textIntersections": [],
+      "bboxSize": [
+        83,
+        88
+      ]
+    },
+    {
+      "id": "pair",
+      "asset": "roman_mortar_pair",
+      "bbox": [
+        557,
+        902,
+        673,
+        1008
+      ],
+      "foot": [
+        615,
+        1008
+      ],
+      "semantic": "콜로세움으로 함께 운반",
+      "pose": "Both workers and filled trough face north toward Colosseum south edge",
+      "roadAssessment": {
+        "reference": "Target bbox bottom-centre proxy; exact sole/platform contact needs actual final model BVH verification",
+        "nearestRoadPixel": [
+          615,
+          1008
+        ],
+        "distancePx": 0.0,
+        "roadObjects": [
+          "R_core_road"
+        ],
+        "referencePixelOnRoad": true,
+        "terrainReferencePixel": true,
+        "waterReferencePixel": false
+      },
+      "textIntersections": [],
+      "bboxSize": [
+        116,
+        106
+      ]
+    },
+    {
+      "id": "vault_complete",
+      "asset": "NB_vault_complete",
+      "bbox": [
+        804,
+        887,
+        917,
+        970
+      ],
+      "foot": [
+        860.5,
+        970
+      ],
+      "semantic": "굳은 볼트·틀 해체 뒤",
+      "pose": "Open/cut face visible; clear separation from east CORE5 text",
+      "roadAssessment": {
+        "reference": "Target bbox bottom-centre proxy; exact sole/platform contact needs actual final model BVH verification",
+        "nearestRoadPixel": [
+          860,
+          970
+        ],
+        "distancePx": 0.5,
+        "roadObjects": [
+          "R_core_road"
+        ],
+        "referencePixelOnRoad": true,
+        "terrainReferencePixel": true,
+        "waterReferencePixel": false
+      },
+      "textIntersections": [],
+      "bboxSize": [
+        113,
+        83
+      ]
+    }
+  ],
+  "ancillarySlots": [
+    {
+      "asset": "D2_lime_kiln",
+      "bbox": [
+        90,
+        578,
+        196,
+        710
+      ]
+    },
+    {
+      "asset": "L04_palatine",
+      "bbox": [
+        65,
+        1125,
+        130,
+        1189
+      ]
+    }
+  ],
+  "roadflowRoute": {
+    "direction": "Counterclockwise CORE1 NE -> CORE2 W -> CORE3 SW -> CORE4 S -> CORE5 E",
+    "sequence": [
+      "maker",
+      "carrier",
+      "vault_construction",
+      "builder",
+      "pair",
+      "vault_complete"
+    ],
+    "roadPolyline": [
+      [
+        248,
+        940
+      ],
+      [
+        287,
+        974
+      ],
+      [
+        352,
+        1001
+      ],
+      [
+        424,
+        1009
+      ],
+      [
+        534,
+        1012
+      ],
+      [
+        650,
+        1008
+      ],
+      [
+        760,
+        991
+      ],
+      [
+        860.5,
+        970
+      ]
+    ],
+    "towardColosseumBranch": [
+      [
+        615,
+        1008
+      ],
+      [
+        610,
+        985
+      ],
+      [
+        603,
+        967
+      ]
+    ],
+    "arrows": [
+      {
+        "from": [
+          248,
+          940
+        ],
+        "to": [
+          287,
+          974
+        ]
+      },
+      {
+        "from": [
+          287,
+          974
+        ],
+        "to": [
+          352,
+          1001
+        ]
+      },
+      {
+        "from": [
+          352,
+          1001
+        ],
+        "to": [
+          424,
+          1009
+        ]
+      },
+      {
+        "from": [
+          424,
+          1009
+        ],
+        "to": [
+          534,
+          1012
+        ]
+      },
+      {
+        "from": [
+          534,
+          1012
+        ],
+        "to": [
+          650,
+          1008
+        ]
+      },
+      {
+        "from": [
+          650,
+          1008
+        ],
+        "to": [
+          760,
+          991
+        ]
+      },
+      {
+        "from": [
+          760,
+          991
+        ],
+        "to": [
+          860.5,
+          970
+        ]
+      }
+    ],
+    "notes": [
+      "Maker→carrier follows the west road and B_pons2 bridge. South stages follow fixed R_core_road. Pair faces north toward COL and does not continue eastward in pose.",
+      "Arrows show a teaching sequence, not a claim that production buildings once stood on this road."
+    ]
+  },
+  "textAssessment": {
+    "source": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/figma-v14-construction-validation.json",
+    "inputTextRectangles": [
+      {
+        "id": "749:80",
+        "text": "전제 · 로마 콘크리트란?",
+        "bbox": [
+          24,
+          24,
+          141,
+          38
+        ]
+      },
+      {
+        "id": "749:81",
+        "text": "전제 · 어떻게 알았나",
+        "bbox": [
+          858,
+          24,
+          958,
+          38
+        ]
+      },
+      {
+        "id": "749:82",
+        "text": "로마 콘크리트",
+        "bbox": [
+          368.5,
+          27,
+          823.5,
+          107
+        ]
+      },
+      {
+        "id": "749:83",
+        "text": "→",
+        "bbox": [
+          223.3046875,
+          82,
+          241.3046875,
+          100
+        ]
+      },
+      {
+        "id": "749:84",
+        "text": "+",
+        "bbox": [
+          81.68994140625,
+          84,
+          92.68994140625,
+          102
+        ]
+      },
+      {
+        "id": "749:85",
+        "text": "+",
+        "bbox": [
+          158.2900390625,
+          84,
+          169.2900390625,
+          102
+        ]
+      },
+      {
+        "id": "749:86",
+        "text": "철근도 없는 로마 건축물이 어떻게 2천 년을 버텼을까?",
+        "bbox": [
+          370,
+          125,
+          822,
+          149
+        ]
+      },
+      {
+        "id": "749:87",
+        "text": "로마 때 기록",
+        "bbox": [
+          864.5,
+          144,
+          915.5,
+          157
+        ]
+      },
+      {
+        "id": "749:88",
+        "text": "오늘의 연구",
+        "bbox": [
+          980.5,
+          144,
+          1029.5,
+          157
+        ]
+      },
+      {
+        "id": "749:89",
+        "text": "살펴볼 건물",
+        "bbox": [
+          1093.5,
+          144,
+          1142.5,
+          157
+        ]
+      },
+      {
+        "id": "749:90",
+        "text": "석회",
+        "bbox": [
+          40,
+          147,
+          59,
+          160
+        ]
+      },
+      {
+        "id": "749:91",
+        "text": "화산재",
+        "bbox": [
+          109.5,
+          147,
+          137.5,
+          160
+        ]
+      },
+      {
+        "id": "749:92",
+        "text": "돌·벽돌 조각",
+        "bbox": [
+          170,
+          147,
+          225,
+          160
+        ]
+      },
+      {
+        "id": "749:93",
+        "text": "틀에 부어 굳힘",
+        "bbox": [
+          258,
+          147,
+          318,
+          160
+        ]
+      },
+      {
+        "id": "749:94",
+        "text": "비트루비우스와\n플리니우스의 책",
+        "bbox": [
+          860,
+          158,
+          920,
+          182
+        ]
+      },
+      {
+        "id": "749:95",
+        "text": "옛 조각 살피고\n다시 만들어 시험",
+        "bbox": [
+          974,
+          158,
+          1036,
+          182
+        ]
+      },
+      {
+        "id": "749:96",
+        "text": "콜로세움 · 로마 · 80년",
+        "bbox": [
+          1074.5,
+          158,
+          1161.5,
+          170
+        ]
+      },
+      {
+        "id": "749:97",
+        "text": "나폴리 근처",
+        "bbox": [
+          101.5,
+          161,
+          145.5,
+          172
+        ]
+      },
+      {
+        "id": "749:98",
+        "text": "로마 공화정 후기부터 제국 시기까지\n벽·지붕·항구에 널리 씀",
+        "bbox": [
+          24,
+          180,
+          171,
+          208
+        ]
+      },
+      {
+        "id": "749:99",
+        "text": "기록과, 옛 조각 연구·재현 실험으로\n재료와 성질을 알게 됨",
+        "bbox": [
+          858,
+          192,
+          1005,
+          220
+        ]
+      },
+      {
+        "id": "749:102",
+        "text": "1",
+        "bbox": [
+          534,
+          392.5,
+          542,
+          404.5
+        ]
+      },
+      {
+        "id": "749:103",
+        "text": "아펜니노 산맥",
+        "bbox": [
+          445,
+          250,
+          514,
+          264
+        ]
+      },
+      {
+        "id": "749:104",
+        "text": "수도교",
+        "bbox": [
+          962,
+          601.0003662109375,
+          996,
+          615.0003662109375
+        ]
+      },
+      {
+        "id": "749:105",
+        "text": "2",
+        "bbox": [
+          36,
+          728.5,
+          44,
+          740.5
+        ]
+      },
+      {
+        "id": "749:106",
+        "text": "5",
+        "bbox": [
+          988.5,
+          822.5,
+          996.5,
+          834.5
+        ]
+      },
+      {
+        "id": "749:107",
+        "text": "아피아 가도",
+        "bbox": [
+          1108.33984375,
+          963.9840087890625,
+          1166.33984375,
+          977.9840087890625
+        ]
+      },
+      {
+        "id": "749:108",
+        "text": "석회 알갱이 확대",
+        "bbox": [
+          300,
+          1151,
+          384,
+          1164
+        ]
+      },
+      {
+        "id": "749:109",
+        "text": "프리베르눔\n성벽 조각",
+        "bbox": [
+          826,
+          1020,
+          882,
+          1050
+        ]
+      },
+      {
+        "id": "749:110",
+        "text": "3",
+        "bbox": [
+          414.5,
+          1034.5,
+          422.5,
+          1046.5
+        ]
+      },
+      {
+        "id": "749:111",
+        "text": "4",
+        "bbox": [
+          644.5,
+          1038.5,
+          652.5,
+          1050.5
+        ]
+      },
+      {
+        "id": "749:112",
+        "text": "석회·결정 관찰",
+        "bbox": [
+          826,
+          1053.5,
+          887,
+          1065.5
+        ]
+      },
+      {
+        "id": "749:113",
+        "text": "흰 석회 알갱이와\n금을 메운 흰 결정",
+        "bbox": [
+          826,
+          1069,
+          894,
+          1095
+        ]
+      },
+      {
+        "id": "749:115",
+        "text": "화산",
+        "bbox": [
+          1026.1240234375,
+          1244,
+          1049.1240234375,
+          1258
+        ]
+      },
+      {
+        "id": "749:119",
+        "text": "폼페이",
+        "bbox": [
+          816,
+          1364,
+          850,
+          1378
+        ]
+      },
+      {
+        "id": "749:120",
+        "text": "항구",
+        "bbox": [
+          246.7666015625,
+          1450.7459716796875,
+          269.7666015625,
+          1464.7459716796875
+        ]
+      },
+      {
+        "id": "749:121",
+        "text": "로마 항구 방파제 조각",
+        "bbox": [
+          232,
+          1535.5,
+          340,
+          1550.5
+        ]
+      },
+      {
+        "id": "749:122",
+        "text": "폼페이 공사현장(79년)",
+        "bbox": [
+          718.5,
+          1547,
+          833.5,
+          1562
+        ]
+      },
+      {
+        "id": "749:123",
+        "text": "결정 관찰",
+        "bbox": [
+          232,
+          1554,
+          270,
+          1566
+        ]
+      },
+      {
+        "id": "749:124",
+        "text": "바다",
+        "bbox": [
+          167.6796875,
+          1564,
+          191.6796875,
+          1580
+        ]
+      },
+      {
+        "id": "749:125",
+        "text": "배합 흔적",
+        "bbox": [
+          718.5,
+          1565.5,
+          756.5,
+          1577.5
+        ]
+      },
+      {
+        "id": "749:126",
+        "text": "해양 콘크리트 안에서\n새로운 결정이 자람",
+        "bbox": [
+          232,
+          1569.5,
+          337,
+          1595.5
+        ]
+      },
+      {
+        "id": "749:127",
+        "text": "생석회를 섞어 둔 원료 더미",
+        "bbox": [
+          718.5,
+          1581,
+          834.5,
+          1594
+        ]
+      },
+      {
+        "id": "749:128",
+        "text": "로마 방파제 · 개념 모형",
+        "bbox": [
+          385,
+          1587,
+          530,
+          1601
+        ]
+      },
+      {
+        "id": "749:129",
+        "text": "공화정 후기~제국",
+        "bbox": [
+          47.39990234375,
+          1617.5,
+          135.39990234375,
+          1632.5
+        ]
+      },
+      {
+        "id": "749:130",
+        "text": "79년",
+        "bbox": [
+          165.39990234375,
+          1617.5,
+          191.39990234375,
+          1632.5
+        ]
+      },
+      {
+        "id": "749:131",
+        "text": "80년",
+        "bbox": [
+          283.39990234375,
+          1617.5,
+          309.39990234375,
+          1632.5
+        ]
+      },
+      {
+        "id": "749:132",
+        "text": "1349년",
+        "bbox": [
+          401.39990234375,
+          1617.5,
+          441.39990234375,
+          1632.5
+        ]
+      },
+      {
+        "id": "749:133",
+        "text": "19세기",
+        "bbox": [
+          519.39990234375,
+          1617.5,
+          556.39990234375,
+          1632.5
+        ]
+      },
+      {
+        "id": "749:134",
+        "text": "2017~2025년",
+        "bbox": [
+          637.39990234375,
+          1617.5,
+          712.39990234375,
+          1632.5
+        ]
+      },
+      {
+        "id": "749:135",
+        "text": "오늘",
+        "bbox": [
+          755.39990234375,
+          1617.5,
+          778.39990234375,
+          1632.5
+        ]
+      },
+      {
+        "id": "749:136",
+        "text": "벽·지붕·항구에 널리 씀",
+        "bbox": [
+          47.39990234375,
+          1647.5,
+          141.39990234375,
+          1659.5
+        ]
+      },
+      {
+        "id": "749:137",
+        "text": "폼페이 공사현장 원료 더미",
+        "bbox": [
+          165.39990234375,
+          1647.5,
+          268.39990234375,
+          1659.5
+        ]
+      },
+      {
+        "id": "749:138",
+        "text": "콜로세움 개장",
+        "bbox": [
+          283.39990234375,
+          1647.5,
+          338.39990234375,
+          1659.5
+        ]
+      },
+      {
+        "id": "749:139",
+        "text": "지진 · 남쪽 바깥벽 무너짐",
+        "bbox": [
+          401.39990234375,
+          1647.5,
+          503.39990234375,
+          1659.5
+        ]
+      },
+      {
+        "id": "749:140",
+        "text": "벽돌 버팀벽으로 받침",
+        "bbox": [
+          519.39990234375,
+          1647.5,
+          602.39990234375,
+          1659.5
+        ]
+      },
+      {
+        "id": "749:141",
+        "text": "옛 조각 연구·재현 실험",
+        "bbox": [
+          637.39990234375,
+          1647.5,
+          728.39990234375,
+          1659.5
+        ]
+      },
+      {
+        "id": "749:142",
+        "text": "약 1,950년째 서 있음",
+        "bbox": [
+          755.39990234375,
+          1647.5,
+          838.39990234375,
+          1659.5
+        ]
+      },
+      {
+        "id": "749:146",
+        "text": "철근이 있어도",
+        "bbox": [
+          553,
+          386,
+          702,
+          412
+        ]
+      },
+      {
+        "id": "749:147",
+        "text": "금은 생기는데",
+        "bbox": [
+          528,
+          412,
+          702,
+          438
+        ]
+      },
+      {
+        "id": "749:148",
+        "text": "로마에는 2천 년 전 유구가 남았다.\n철근 없이, 어떤 재료로 굳혔을까?",
+        "bbox": [
+          528,
+          446,
+          702,
+          477
+        ]
+      },
+      {
+        "id": "749:152",
+        "text": "물을 넣자,",
+        "bbox": [
+          55,
+          722,
+          190,
+          748
+        ]
+      },
+      {
+        "id": "749:153",
+        "text": "열이 났다",
+        "bbox": [
+          30,
+          748,
+          190,
+          774
+        ]
+      },
+      {
+        "id": "749:154",
+        "text": "생석회·화산재를 마른 채 섞고,\n물을 붓자 열이 났다.\n굳은 반죽엔 흰 알갱이가 남았다.",
+        "bbox": [
+          30,
+          777,
+          190,
+          824
+        ]
+      },
+      {
+        "id": "749:158",
+        "text": "잘못 섞인 걸까?",
+        "bbox": [
+          433.5,
+          1028,
+          598.5,
+          1054
+        ]
+      },
+      {
+        "id": "749:159",
+        "text": "흰 알갱이의 반전",
+        "bbox": [
+          408.5,
+          1054,
+          598.5,
+          1080
+        ]
+      },
+      {
+        "id": "749:160",
+        "text": "불량 혼합으로 여긴 흰 알갱이.\n연구가 찾은 건 ‘칼슘 공급원’.",
+        "bbox": [
+          408.5,
+          1088,
+          598.5,
+          1119
+        ]
+      },
+      {
+        "id": "749:164",
+        "text": "금에 스민 물,",
+        "bbox": [
+          663.5,
+          1032,
+          816.5,
+          1058
+        ]
+      },
+      {
+        "id": "749:165",
+        "text": "칼슘을 옮기다",
+        "bbox": [
+          638.5,
+          1058,
+          816.5,
+          1084
+        ]
+      },
+      {
+        "id": "749:166",
+        "text": "물이 칼슘을 녹여 틈으로 옮긴다.\n새 결정이 자라 작은 금을 메운다.",
+        "bbox": [
+          638.5,
+          1092,
+          816.5,
+          1123
+        ]
+      },
+      {
+        "id": "749:170",
+        "text": "정말 메워질까?",
+        "bbox": [
+          1007.5,
+          816,
+          1162.5,
+          842
+        ]
+      },
+      {
+        "id": "749:171",
+        "text": "금을 내어 봤더니",
+        "bbox": [
+          982.5,
+          842,
+          1162.5,
+          868
+        ]
+      },
+      {
+        "id": "749:172",
+        "text": "현대 재현 시편에 약 0.5mm 금.\n생석회 든 쪽은 수 주 뒤 거의 안 샜다.\n없는 쪽은 계속 샜다.",
+        "bbox": [
+          982.5,
+          874,
+          1162.5,
+          921
+        ]
+      },
+      {
+        "id": "749:177",
+        "text": "확대 · 알갱이 속 칼슘",
+        "bbox": [
+          270,
+          1277,
+          425,
+          1292
+        ]
+      },
+      {
+        "id": "749:178",
+        "text": "굳은 모재 속 흰 석회 알갱이.\n칼슘이 풍부하고 물에 녹아 나온다.",
+        "bbox": [
+          270,
+          1295.9000244140625,
+          425,
+          1323.9000244140625
+        ]
+      },
+      {
+        "id": "749:180",
+        "text": "확대 · 물에서 새 결정으로",
+        "bbox": [
+          631,
+          1281,
+          821,
+          1296
+        ]
+      },
+      {
+        "id": "749:181",
+        "text": "칼슘 성분이 물에 녹아 틈으로 이동.\n탄산칼슘 결정이 작은 금을 메운다.",
+        "bbox": [
+          631,
+          1301.4000244140625,
+          821,
+          1329.4000244140625
+        ]
+      },
+      {
+        "id": "749:184",
+        "text": "다른 유적·재현 시편에서 확인\n콜로세움에서 직접 입증 안 됨",
+        "bbox": [
+          631,
+          1334,
+          821,
+          1360
+        ]
+      },
+      {
+        "id": "749:186",
+        "text": "물이 스밈",
+        "bbox": [
+          625,
+          1259,
+          693,
+          1273
+        ]
+      },
+      {
+        "id": "749:187",
+        "text": "칼슘 이동",
+        "bbox": [
+          698,
+          1259,
+          766,
+          1273
+        ]
+      },
+      {
+        "id": "749:188",
+        "text": "결정 충전",
+        "bbox": [
+          771,
+          1259,
+          839,
+          1273
+        ]
+      },
+      {
+        "id": "749:189",
+        "text": "흰 알갱이가 남은 콘크리트",
+        "bbox": [
+          438,
+          1303,
+          622,
+          1317
+        ]
+      },
+      {
+        "id": "749:191",
+        "text": "현대: 포틀랜드 시멘트 · 철근 보강\n로마: 석회·화산재",
+        "bbox": [
+          528,
+          502,
+          702,
+          529
+        ]
+      },
+      {
+        "id": "749:192",
+        "text": "유적 관찰 장면",
+        "bbox": [
+          866,
+          1244,
+          981,
+          1258
+        ]
+      },
+      {
+        "id": "749:194",
+        "text": "오늘의 실험실",
+        "bbox": [
+          982.5,
+          630,
+          1162.5,
+          645
+        ]
+      },
+      {
+        "id": "749:195",
+        "text": "균열 충전 실험",
+        "bbox": [
+          982.5,
+          649,
+          1162.5,
+          662
+        ]
+      },
+      {
+        "id": "749:196",
+        "text": "재현 시편은 수 주 내 누수 감소,\n생석회 없는 시편은 계속 샘",
+        "bbox": [
+          982.5,
+          666,
+          1162.5,
+          694
+        ]
+      },
+      {
+        "id": "749:202",
+        "text": "배합·운반",
+        "bbox": [
+          177,
+          947,
+          319,
+          961
+        ]
+      },
+      {
+        "id": "749:204",
+        "text": "틈 속 탄산칼슘 결정",
+        "bbox": [
+          776,
+          1382,
+          906,
+          1396
+        ]
+      }
+    ],
+    "removedOldUpperConstructionTextIds": [
+      "749:197",
+      "749:198",
+      "749:199",
+      "749:200",
+      "749:201",
+      "749:203"
+    ],
+    "core2Frame": [
+      30,
+      722,
+      160,
+      102
+    ],
+    "core34TitlesRetained": true,
+    "bodyBBoxTextOverlapCount": 1,
+    "labelRows": {
+      "maker": [
+        177,
+        947,
+        142,
+        13
+      ],
+      "carrier": [
+        293,
+        1012,
+        59,
+        12
+      ],
+      "vault_construction": [
+        351,
+        1012,
+        112,
+        12
+      ],
+      "builder": [
+        465,
+        1012,
+        83,
+        12
+      ],
+      "pair": [
+        557,
+        1012,
+        116,
+        12
+      ],
+      "vault_complete": [
+        804,
+        975,
+        113,
+        12
+      ]
+    },
+    "notes": [
+      "Maker caption needs y947 after bottom changed to940; prior y937 would touch model.",
+      "Construction label row y1012 with height12 ends1024; keep CORE3/4 title starts1028/1032.",
+      "No need to move CORE3/4 headings down80 for these slots.",
+      "One original-size maker caption frame intersects the carrier slot. Recommend narrowing it to106px atx177,y947; then all six model bboxes clear all retained native text frames."
+    ],
+    "recommendedMakerCaption": {
+      "id": "749:202",
+      "bbox": [
+        177,
+        947,
+        283,
+        961
+      ],
+      "labelRow": [
+        177,
+        947,
+        106,
+        13
+      ],
+      "reason": "The previous142px caption frame crosses26px into the carrier body slot. A106px frame ends10px before the carrier starts293."
+    },
+    "recommendedCaptionAppliedBodyBBoxOverlapCount": 0
+  },
+  "limitations": [
+    "Foot proxy confirms useful road alignment only; true feet/platform must be planted on the road/bridge/terrain BVH in the final saved scene.",
+    "Body bbox may project over river or Colosseum while feet remain on bridge/road. This is expected perspective composition; geometry penetration is checked separately."
+  ],
+  "method": "Fresh background v9 geometry/property reads; current v14 text-rectangle input with explicit planned edits; original projected face masks at native1x; virtual COL scale calculation uses original world vertices without changing scene; no production save/render/UI/Figma writes."
+}

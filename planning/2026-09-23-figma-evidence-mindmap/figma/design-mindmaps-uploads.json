@@ -1,0 +1,44 @@
+[
+  {
+    "nodeId": "25:121",
+    "asset": "pantheon-exterior",
+    "http_status": 200,
+    "imageHash": "5a0cf1a71cb16ead13cac4e53bfe6bb5fcfeb0c6",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "25:124",
+    "asset": "colosseum-photo",
+    "http_status": 200,
+    "imageHash": "5715635988c54990f2c070fb976e3b6299b0cc28",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "25:215",
+    "asset": "pantheon-interior",
+    "http_status": 200,
+    "imageHash": "8e34449bc83401a4f5e01dcc2a27d168a5db70cd",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "25:218",
+    "asset": "2023-mechanism",
+    "http_status": 200,
+    "imageHash": "8fea251c01e3fb576511554918771afa5f2c0306",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "25:259",
+    "asset": "pantheon-exterior",
+    "http_status": 200,
+    "imageHash": "5a0cf1a71cb16ead13cac4e53bfe6bb5fcfeb0c6",
+    "scaleMode": "FIT"
+  },
+  {
+    "nodeId": "25:262",
+    "asset": "colosseum-photo",
+    "http_status": 200,
+    "imageHash": "5715635988c54990f2c070fb976e3b6299b0cc28",
+    "scaleMode": "FIT"
+  }
+]

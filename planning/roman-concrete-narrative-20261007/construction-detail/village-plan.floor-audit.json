@@ -1,0 +1,199 @@
+{
+  "canvas": [
+    1191,
+    1684
+  ],
+  "heroLow2percentHull": [
+    [
+      594.0951796184474,
+      834.613213169839
+    ],
+    [
+      598.797069878107,
+      819.774541331357
+    ],
+    [
+      604.0112034680027,
+      820.5931276537439
+    ],
+    [
+      624.1400271564154,
+      825.5568439667189
+    ],
+    [
+      627.2248668389436,
+      827.2032873089648
+    ],
+    [
+      629.6890930912481,
+      828.9136312132392
+    ],
+    [
+      633.1071337940404,
+      833.1020545507365
+    ],
+    [
+      632.6894929005385,
+      833.8146196618611
+    ],
+    [
+      632.4415107268458,
+      834.0834413460204
+    ],
+    [
+      620.196715536388,
+      841.8568764514189
+    ],
+    [
+      613.8629688356015,
+      845.6395066797656
+    ],
+    [
+      612.5281400352654,
+      845.8820237713662
+    ],
+    [
+      607.6620101593633,
+      846.487288339179
+    ],
+    [
+      606.95899176975,
+      846.2413102709249
+    ],
+    [
+      606.3190199345231,
+      845.8077033700278
+    ],
+    [
+      597.9952348177769,
+      839.4195514960346
+    ],
+    [
+      597.016089419445,
+      838.5538048016394
+    ],
+    [
+      594.9173024513599,
+      836.0328945125262
+    ]
+  ],
+  "rectangles": [
+    {
+      "name": "NW_vault",
+      "floor_rect": [
+        348,
+        634,
+        427,
+        660
+      ],
+      "road_pixels": 607,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    },
+    {
+      "name": "N_house",
+      "floor_rect": [
+        555,
+        590,
+        625,
+        615
+      ],
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    },
+    {
+      "name": "NE_market",
+      "floor_rect": [
+        824,
+        604,
+        900,
+        634
+      ],
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    },
+    {
+      "name": "W_prep",
+      "floor_rect": [
+        68,
+        902,
+        206,
+        945
+      ],
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    },
+    {
+      "name": "W_scaffold",
+      "floor_rect": [
+        370,
+        895,
+        396,
+        922
+      ],
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    },
+    {
+      "name": "E_scaffold",
+      "floor_rect": [
+        798,
+        891,
+        827,
+        923
+      ],
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    },
+    {
+      "name": "SW_yard",
+      "floor_rect": [
+        358,
+        1201,
+        464,
+        1234
+      ],
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    },
+    {
+      "name": "S_life",
+      "floor_rect": [
+        551,
+        1182,
+        608,
+        1206
+      ],
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    },
+    {
+      "name": "SE_yard",
+      "floor_rect": [
+        746,
+        1208,
+        835,
+        1235
+      ],
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "hero_ground_pixels": 0
+    }
+  ]
+}

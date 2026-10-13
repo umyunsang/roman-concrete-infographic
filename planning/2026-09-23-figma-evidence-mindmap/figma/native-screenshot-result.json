@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "You've reached the Figma MCP tool call limit on the Starter plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1563398300834441749/all-projects?upgrade=mcp_rate_limit_paywall"
+    },
+    {
+      "type": "resource_link",
+      "uri": "file://figma/docs/rate-limits-access.md",
+      "name": "rate-limits-access.md",
+      "mimeType": "text/plain",
+      "size": 3928,
+      "_meta": {
+        "size": 3928
+      }
+    }
+  ],
+  "isError": true
+}

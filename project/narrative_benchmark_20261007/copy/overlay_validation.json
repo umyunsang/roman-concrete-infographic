@@ -1,0 +1,47 @@
+{
+  "size": [
+    2382,
+    3368
+  ],
+  "mode": "RGBA",
+  "fonts": [
+    "/Users/um-yunsang/Library/Fonts/NotoSansCJKkr-Bold.otf",
+    "/Users/um-yunsang/Library/Fonts/NotoSansCJKkr-Regular.otf"
+  ],
+  "overflows": [],
+  "newTextCollisions": [],
+  "retainedTextCollisions": [],
+  "provisionalModelCollisions": [],
+  "actualIntegratedModelCollisions": [],
+  "integrationReportChecked": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/integration-report-v4.json",
+  "provisionalModelAnchors": {
+    "modern_building_C1": [
+      695.24,
+      384.01,
+      816.79,
+      478.01
+    ],
+    "new_clue_C3": [
+      450.82,
+      1127.99,
+      555.23,
+      1245.99
+    ],
+    "new_breakwater": [
+      398,
+      1510,
+      500,
+      1600
+    ]
+  },
+  "changedPixelsOutsidePatchMask": 0,
+  "headerQuestionInkBbox": [
+    376.0,
+    130.0,
+    816.0,
+    149.5
+  ],
+  "scope": "local copy and RGBA overlay only; no remote Figma or Blender mutations",
+  "sourceOverlaySha256": "d3e541807be16bf4da812a586eede591b75c232f5b803c6a4109580bbf248459",
+  "sourceCopySha256": "10b75bbc328d4383bdf0cc3aed074d99561ff1cc2ab240ead13f2d12334d8f8c"
+}

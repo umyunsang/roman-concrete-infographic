@@ -1,0 +1,11 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"25:121\",\"25:124\",\"25:215\",\"25:218\",\"25:259\",\"25:262\"],\"images\":[{\"id\":\"25:121\",\"type\":\"IMAGE\",\"imageHash\":\"5a0cf1a71cb16ead13cac4e53bfe6bb5fcfeb0c6\"},{\"id\":\"25:124\",\"type\":\"IMAGE\",\"imageHash\":\"5715635988c54990f2c070fb976e3b6299b0cc28\"},{\"id\":\"25:215\",\"type\":\"IMAGE\",\"imageHash\":\"8e34449bc83401a4f5e01dcc2a27d168a5db70cd\"},{\"id\":\"25:218\",\"type\":\"IMAGE\",\"imageHash\":\"8fea251c01e3fb576511554918771afa5f2c0306\"},{\"id\":\"25:259\",\"type\":\"IMAGE\",\"imageHash\":\"5a0cf1a71cb16ead13cac4e53bfe6bb5fcfeb0c6\"},{\"id\":\"25:262\",\"type\":\"IMAGE\",\"imageHash\":\"5715635988c54990f2c070fb976e3b6299b0cc28\"}]}"
+    }
+  ],
+  "_meta": {
+    "mcpRequestId": "99cb53fe-21c8-4506-a946-2d5138426c5f"
+  }
+}

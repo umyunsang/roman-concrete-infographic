@@ -1,0 +1,22 @@
+[
+  {
+    "nodeId": "6:328",
+    "asset": "pantheon-exterior",
+    "http_status": 200
+  },
+  {
+    "nodeId": "6:333",
+    "asset": "colosseum-photo",
+    "http_status": 200
+  },
+  {
+    "nodeId": "6:475",
+    "asset": "pantheon-interior",
+    "http_status": 200
+  },
+  {
+    "nodeId": "6:480",
+    "asset": "2023-mechanism",
+    "http_status": 200
+  }
+]

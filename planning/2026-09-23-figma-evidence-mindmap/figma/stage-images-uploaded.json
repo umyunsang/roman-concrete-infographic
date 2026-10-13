@@ -1,0 +1,22 @@
+[
+  {
+    "nodeId": "5:331",
+    "asset": "2023-experiment.jpg",
+    "status": 200
+  },
+  {
+    "nodeId": "5:335",
+    "asset": "2025-production.png",
+    "status": 200
+  },
+  {
+    "nodeId": "5:166",
+    "asset": "2023-mechanism.jpg",
+    "status": 200
+  },
+  {
+    "nodeId": "5:170",
+    "asset": "2023-experiment.jpg",
+    "status": 200
+  }
+]

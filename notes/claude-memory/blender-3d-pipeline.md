@@ -1,0 +1,97 @@
+---
+name: blender-3d-pipeline
+description: 로마 콘크리트 포스터 3D 디자인 단계 — Blender MCP 설치 상태, 진짜 아이소 카메라 값, 에셋·생성형 3D 라이선스 함정(Hunyuan 한국 제외)
+metadata:
+  type: reference
+---
+
+2026-10-07, 디자인 단계를 3D 에셋 배치로 하기로 해서([[colosseum-poster-mindmap]]) 조사·설치한 것. 조사 원문은 그 세션 scratchpad `research/pipeline3d.md`(tmp).
+
+- **렌더러는 Blender**(Unity 아님): Blender 5.2.2 LTS에 Line Art·Freestyle(별도 패스)·Shader-to-RGB 툰·Workbench 평면·Cryptomatte·카메라 배경 이미지가 다 있음. Unity MCP(`unity-editor-mcp`)는 무관한 프로젝트 CHOOGuard에 고정돼 있고 선 렌더가 없어 이 포스터엔 안 씀.
+- **설치함: mcp-for-blender 2.1.9**(ahujasid, MIT, 코드 직접 검토)
+  - 애드온: `~/Library/Application Support/Blender/5.2/scripts/addons/blender_mcp.py`(배포 wheel의 bundled/addon.py), 백그라운드 Blender로 활성화·userpref 저장. Blender를 열면 localhost:9876 서버가 자동 시작(Scene 'Auto-Start Server' 기본 켬). 애드온 텔레메트리 동의는 기본 꺼짐 — 첫 실행 동의 창이 뜨면 거절.
+  - Claude Code: `claude mcp add blender -s user -e DISABLE_TELEMETRY=true -e UV_PYTHON_PREFERENCE=only-managed -- uvx --python 3.12 mcp-for-blender==2.1.9`. 서버 측 Supabase 텔레메트리는 이 env로 꺼짐. `curl|sh` 설치기는 모든 클라이언트 설정을 고치므로 쓰지 말 것.
+  - 위험: 인증 없는 로컬 소켓에서 임의 Python 실행(설계상).
+- **카메라**: 스케치의 ±30° 축 = 진짜 아이소메트릭 → 정사영 `rotation_euler=(54.7356°, 0, 45°)`. 게임식 2:1(60°)은 ±26.565°라 안 맞음. 세로 A2는 `sensor_fit='VERTICAL'`, 300dpi 4961×7016에서 ortho_scale 10 = 701.6px/유닛.
+- **라이선스 함정**: Hunyuan3D 라이선스는 **한국·EU·영국 제외**(출력 사용·표시 금지) → mcp-for-blender의 Hunyuan 생성 쓰지 말 것. Sketchfab NC/ND 제외, CC-BY는 포스터에 출처 줄. Meshy 무료 웹 출력은 CC BY 4.0, API는 Pro 플랜 필요. tripo-mcp는 2025-04 이후 방치.
+- **배치 원칙(연구 근거)**: 시각 모델 눈대중이 아니라 Figma 앵커 좌표 → 카메라 광선과 z=0 교차로 3D 점 계산 → `world_to_camera_view` 오차(<10px)로 검증. 시각 심사는 마지막에만(SceneCraft·Code-as-Room 계열).
+- 미설치·선택: 공식 Blender Lab MCP(GPL, 5.2 API 문서 검색, 포트 9876 충돌 → 9877), Meshy MCP(Pro 키 필요), fal MCP(TRELLIS.2 종량제, 지출 한도 없음).
+- **사용자 선택(2026-10-07)**: 생성형 3D = Meshy 웹 무료(사용자가 웹에서 생성·다운로드 → Blender로 가져와 배치). Sketchfab 토큰은 사용자가 Aside CLI로 내가 직접 넣으라고 했으나, 페이지에서 토큰을 읽는 단계가 자동 모드 분류기에 'Credential Materialization'으로 막힘 → 사용자가 Blender 환경설정 → 애드온 → MCP for Blender → Sketchfab API Key(PASSWORD, userpref에 영구 저장)에 직접 붙여넣는 방식으로 안내. Aside 계정 u0(개인 gmail)가 Sketchfab에 로그인돼 있음. 'Use Sketchfab'은 장면별 체크(기본 꺼짐) — MCP 코드로 켜면 됨.
+- **렌더 스타일 확정(2026-10-07 사용자)**: 미니어처 디오라마(클레이) + **조금 플랫한 느낌**(사용자 추가 지시: 면 단위 평면 음영·2~3단 툰·제한 팔레트) — 둥근 모서리, 파스텔 매트 재질, 부드러운 그림자·주변광, 외곽선 없거나 얇게. 에셋 고를 때 이 마감으로 통일(사실적 PBR 텍스처는 버리고 단색 매트로 교체).
+- 작업 파일: `~/Documents/로마콘크리트_3D/roman_concrete_map.blend`(카메라 CAM_iso, 4962×7016, 1pt=0.1단위, 스케치 배경 50%), `scripts/anchors.py`(pt_to_world(u,v,h)/world_to_pt), `ref/sketch_final_2x.png`. 바뀐 회전값 뒤엔 `view_layer.update()` 없이 matrix_world를 읽으면 옛 값이 나옴.
+- **방향 전환(2026-10-07 11:14 사용자)**: "블랜더로 직접 3D 모델링을 만드는 작업을 제거, 취소" → **스케치를 바탕으로 ComfyUI 생성형 이미지**(워크플로우 API, 레이아웃·다이어그램 위치 기반 오브젝트/인포그래픽 생성, 스타일은 체크포인트·LoRA)로 진행. Blender는 더 진행하지 않음(작업 파일·프록시·카메라·SVG 파싱 도구는 남겨 둠: `roman_concrete_map.blend`, `scripts/svg_polys.py`·`svg_objects.py`(공유 꼭짓점으로 SVG 면→물체 분리, 뒤 104·앞 81개)). 스타일 결정(클레이 디오라마+약간 플랫, palette.py의 로마 안료 14색)은 생성형에서도 유지.
+- **Blender 재개(2026-10-07 12:19 사용자)**: 개념도 v6(실제 콜로세움 중심 동심원)이 가장 좋다며 **계속 Blender로**. 지도 속 지역(Figma 실사진 보드 L01~L13)·설명용 오브젝트(O01~O12, R01~R05, DETAIL 모형)마다 공유 에셋을 먼저 찾고, 없으면 직접 제작(**에셋당 삼각형 20만 개 이상**). 계획서 `~/Documents/로마콘크리트_3D/ASSET_PLAN.md`, 기록 `assets/catalog.json`·`ATTRIBUTION.md`·`PROGRESS.md`. 콜로세움은 a=30·b=25·높이 14, 바닥 중심 pt (595,840), 회전 방식 XYZ(Sketchfab 모델은 쿼터니언으로 들어와 오일러 무시됨 주의). 계단식 단은 속 찬 원판이 아니라 뚫린 고리(사발 메시)로.
+- **추가 규칙(2026-10-07 12:31~12:32 사용자)**: Blender 맵에서 **글이 들어갈 자리는 비우거나 낮은 논밭 평야로만**, 글 자리가 아닌 곳의 **오브젝트는 확실히 알아볼 만큼 정교하게 — 오브젝트당 삼각형 최소 5만 개**(앞선 20만 기준 대체). **색 추가 없이**(흑백 스케치) 진행. 글 자리 사각형: `sketch_v2/text_zones.json`(잠정, Figma 최종 v6 위치로 갱신 예정) — 물체의 '화면' 경계 상자가 글 자리와 겹치지 않게(아이소에선 키 큰 물체가 위로 솟아 가림). DETAIL 확대 모형 D1~D4도 공중이 아니라 평야 위 실제 오브젝트로(12:33 사용자).
+- **에셋 확보 방침 변경(12:36~12:38 사용자)**: "저작권·라이선스 상관하지 말고 공격적으로" → 내려받기 가능한 무료 모델이면 NC·ND·에디토리얼까지 사용(비상업 과제, 출처 기록). **유료 판매 모델 우회 다운로드는 하지 않음**(내가 그은 선). 지형(산·강·바다·평야)만 절차 제작, 유적·건축물은 못 찾으면 **Meshy 웹 무료 플랜을 Aside 브라우저 자동화로**(Aside 계정 u0 프로필 — 로그인은 사용자가 Aside 앱에서). `aside repl`로 연 탭은 앱 화면에 안 보임 → 사용자에게 보여 줄 땐 `open -a Aside URL`. 콜로세움은 **지금 남아 있는 부서진 실제 모습 모델로 교체**(무너진 쪽을 화면 앞으로).
+- **Meshy 연결(12:42~12:47)**: 사용자 Pro 구독, API 키는 사용자가 대화에 직접 붙여 줌 → MCP `meshy`(npx @meshy-ai/meshy-mcp-server@0.6.0, cwd=`assets/meshy`, MIT, 통신은 api.meshy.ai만) 등록·연결됨. MCP 도구는 세션 재시작 후 보임 → 그 전엔 REST 클라이언트 `scripts/meshy_client.py`(키는 ~/.claude.json의 meshy env에서 읽고 출력 안 함; balance / t2d / i2d). 잔여 1,100 크레딧. 대화에 키가 남았으니 작업 후 재발급 권장(사용자에게 안내함). 첫 npx 실행은 패키지 내려받기로 30초 연결 제한을 넘겨 실패 — 재시도로 연결됨.
+- **맵 방향 재정의(2026-10-07 13:44~13:47 사용자)**:
+  - "꼭 스케치처럼 배치 안 해도 돼" — **가장 로마 시대처럼 느껴지게, SUPPORT 근거(항구·폼페이·프리베르눔·실험실)가 오브젝트로 전달되는 맵**.
+  - **로마 시대 실제 장소들로** 구성. 내 해석: 북동쪽을 화면 위로 두면 아펜니노가 위, 티레니아해가 아래, 폼페이·베수비오가 오른쪽 아래가 되어 스케치 배치와 거의 같다.
+  - **A2 포스터용 — 직사각형 맵이 아니라 카메라에서 직사각형으로 보이는 맵.** 땅은 화면 좌표(pt) 다각형을 z=0에 투영해 만든다(terrain_polys 여백 = 재단 3mm ≈ 9pt). **모든 오브젝트·지형이 프레임 안에 다 보이게**(잘림 금지 — 예: 베수비오가 오른쪽 밖으로 나가 있었음).
+  - 같은 때 "콜로세움을 반시계 120° 회전해 봐" → 회전함(Z 165°, 4층 외벽이 앞-왼쪽으로). 화면 상자 337~853 × 579~1011(이전 294~896 × 580~985). Figma 이미지는 아직 옛 각도이고 사용자 확정은 대기 중.
+- 12:49 저장본에는 L05 수도교가 없었다(그 뒤에 배치했다가 Blender가 멈춰 날아감). 13:46에 다시 가져와 같은 처리를 함 → **큰 가져오기 전엔 꼭 저장**.
+- **Blender 강제종료 원인·대처(2026-10-07 14:10~14:43)**:
+  - 장면이 600만 삼각형인데 실행취소 32단계·메모리 무제한이라, MCP 스크립트 실행마다 실행취소 사본이 쌓였다.
+  - 이 상태에서 Sketchfab 가져오기(텍스처 포함 zip을 메모리에 받음)나 87만 메시 데시메이트를 하면 GUI Blender가 죽었다. 4번 죽음, 크래시 로그 없음.
+  - 대처:
+    - 실행취소 4단계·1024MB로 줄이고 사용자 환경설정에 저장함.
+    - 무거운 일(데시메이트·GLB 정리)은 `blender -b --factory-startup <파일> --python scripts/assets/bg_optimize.py` 또는 `decimate_glb.py`로 **백그라운드에서**.
+    - Sketchfab은 GUI에서 import_asset 하지 말고 백그라운드 Blender에서 받아 재질 빼고 줄여 GLB로 저장한 뒤 넣을 것.
+  - 최적화 후 보이는 장면은 242만 삼각형(콜로세움 32만, 나머지 오브젝트 5.5만~8만).
+- **뷰포트 = 렌더와 같게**:
+  - 카메라 시점(숫자패드 0), studio light `roman_poster.sl`(위에서 비추는 포스터용 조명, `~/Library/Application Support/Blender/5.2/datafiles/studiolights/studio/`), 노출 0.35.
+  - 카메라는 수평+렌즈 시프트(2점 투시, 세로선 수직, 화면 가운데에서 X −30°·Y +30°).
+  - 자유 시점으로 돌리면 사다리꼴 땅이 그대로 보여 사용자가 헷갈려 함 → 보여 줄 땐 항상 카메라 시점으로 맞추고 파일을 저장.
+- **규칙 변경(2026-10-07 14:44 사용자 승인)**:
+  - **'오브젝트당 삼각형 5만 이상' 기준 폐기.** 포스터에서 보이는 크기에 맞춰 줄인다: 콜로세움 20만, 나머지 2만~4만. 수도교 베벨도 뺐다.
+  - **표면 질감(땅 잔요철·덤불/돌 뿌리기) 제외** — 무거움. `terrain_hf.py`의 TEXTURE=False, 잔요철(bump)=0.
+  - 등고선 단도 꺼 둠(TERRACE=False, 14:32).
+  - 땅 격자는 3.5pt(약 29만).
+  - 보이는 장면은 134만 삼각형.
+  - 높이장 스크립트는 격자 간격을 npz에서 읽음. 간격을 하드코딩하면 언덕이 엉뚱한 곳에 생김.
+- **Meshy 모델 검은 얼룩 해결(14:50)**:
+  - 원인: Meshy 메시는 조각난(비다양체) 덩어리라 데시메이트하면 면 방향이 뒤섞임. 폼페이 마을은 32%가 뒤집혀 Workbench에서 검은 얼룩으로 보였다. 법선 재계산으로는 안 고쳐진다.
+  - 해결: **복셀 재구성(voxel 0.55~1.0% × 최대 치수) → 목표 수(8천~1.8만)로 줄이기 → 3.5° 평면 합치기 → 평면 음영**. 가는 비계·팔라티노는 0.55~0.65%로.
+  - 스크립트 `scripts/assets/bg_clean_objects.py`(백그라운드).
+  - 나무는 오브젝트 화면 상자와 겹치면 심지 않음(fill_plains OBJ_BOX) — 프리베르눔이 소나무에 가려졌었음.
+- **글 배치 비교(2026-10-07 15:10)**: 사용자 결정 대기 중. 추천은 **B(Figma 오버레이)**.
+  - A(Blender 3D 글, `scripts/assets/labels_blender.py`, 컬렉션 70_LABELS_TEST, 숨김)의 문제:
+    - Blender가 Noto Sans CJK OTF를 em의 약 1/3로 읽어 배율 보정이 필요함.
+    - 땅에 세운 글의 아랫줄이 앞 지형에 가려짐.
+    - 번호가 원판 뒤로 숨음. Workbench 그림자가 글 아래 흐린 사본을 만듦. 글이 회색이고 수정할 때마다 다시 렌더해야 함.
+  - B 만드는 법: Figma에 v6(607:78)을 복제해 'v7 시험 · Blender 렌더 + Figma 글 오버레이'(634:78, x 3048)를 만들고, 지도 그림 6개 레이어만 숨긴 뒤 맨 아래 사각형(634:956)에 2배 렌더(`renders/v7_map_2x.jpg`)를 채움.
+  - 바다·강 표현은 `scripts/assets/water.py`(물결 획·해안 파도 띠·강 흐름 선).
+- **B(Figma 오버레이) 확정(2026-10-07 15:09 사용자)**:
+  - 글·도식은 Figma, Blender는 지도·오브젝트만 맡는다. 작업 프레임은 v7 `634:78`(x 3048)이다.
+  - 렌더는 `renders/v7_map_2x.jpg`이고, 사각형 634:956에 upload_assets로 넣는다.
+  - 글 자리 평야 단순화는 `fill_plains.py`의 SIMPLE_ZONES에서 한다(CORE·DETAIL·SUPPORT 글 자리와 DETAIL 도식 자리엔 밭 띠를 놓지 않음).
+  - 길은 글 자리를 피해 다시 그렸다.
+  - 지명·SUPPORT 핀은 지도에 맞춰 옮겼다: 수도교·아피아 가도·화산·폼페이, 항구→방파제, 폼페이→공사현장, 프리베르눔→성벽.
+- **베수비오(15:10~15:12 사용자 "분화구 확실히, 옆 언덕보다 커야")**:
+  - 백업본의 고해상도 스캔을 12만으로 다시 줄여 바꿔 넣음.
+  - 높이 1.5배, 카메라 쪽으로 14° 기울여 분화구 입구가 보이게 함.
+  - 화면 905~1182 × 1269~1580.
+  - 알바노 구릉·레피니는 낮춤(terrain_hf).
+  - 폼페이 마을·공사현장을 왼쪽으로 옮김.
+- **뷰포트가 자유 시점으로 바뀌는 원인(15:39 확인)**: mcp-for-blender의 `look` 도구(angles 모드)가 사용자 3D 뷰를 직접 돌린다. → **look 쓰지 말고** `render.render(write_still)`(테두리 잘라 렌더)로 확인. 썼다면 바로 `region_3d.view_perspective='CAMERA'` + view_center_camera로 되돌리고 저장.
+- **오버레이는 글만(2026-10-07 15:26 사용자)**: 도형·다이어그램·이미지는 모두 Blender에서 만든다.
+  - Figma v7(634:78)에서 글이 아닌 것 187개를 숨겼다. 번호 배지 프레임은 채움만 지웠다.
+  - Blender 쪽:
+    - `detail_models.py`: DETAIL ①~④ 3D 모형(50_DETAIL_MODEL, 색 방식 OBJECT 회색 단계)
+    - `overlay_shapes.py`: 번호 원판·밑줄·SUPPORT 점선 핀·DETAIL 지시선·③ 단면도·연표(카메라 앞 150 평면 80_SHAPES, `shapes2d.py`), CORE 읽는 순서 점선 길은 땅에
+    - `header3d.py`: 제목 개선문(활 모양 아치 3개)·BASIC 아이콘(85_HEADER, 카메라 앞)
+- **CORE 작업 장면(15:30 사용자)**: 생활 소품이 아니라 각 CORE 공정을 하는 사람+도구. Meshy 5건, 100크레딧 승인.
+  - 장면: ① 화산재 채취장 ② 뜨거운 혼합 ③ 아치 틀 쌓기 ④ 금 보수 ⑤ 오늘의 연구자
+  - 정리는 `clean_glb.py`(백그라운드 복셀 0.45%, 1.6만). 45_CORE_SCENES.
+- **크기 규칙(15:41 사용자)**: DETAIL 모형·CORE 장면은 **곁의 글 상자만큼 크게**(≈150×90pt), 글 바로 옆에 둔다(`layout_big.py`).
+  - 장면 ③④⑤는 넓은 면이 카메라를 보게 45° 돌렸다.
+  - DETAIL ④ 글은 모형 아래(1306)로 옮겼다.
+- **산맥 v3(15:23 사용자 "헤더에 가려 안 보임, 화산 같은 모델링")**:
+  - 실제 봉우리 6곳(테르미닐로·젠나로·코르노 그란데·벨리노·아우토레·빌리오)을 z12 고도에서 원형으로 잘라냈다(`peaks_hf.py`).
+  - 8개를 헤더 아래 띠(v 262~440)에 겹쳐 놓았다(`peaks_place.py`, 높이 비율 ≤1.5). 밑에는 구릉을 둔다(terrain_hf FOOTHILL).
+  - 옛 DEM 판 산맥(Hm)은 0으로 껐다.
+- **CORE 흐름 = 로마 포장 길(2026-10-07 18:00~18:05 사용자)**:
+  - 점선 읽는 순서 길은 없앰.
+  - 넓은 길(`assets/core_road_uv.json`, fill_plains R_core_road)이 넓은 평야를 가로질러 ①→②(티베르 다리1)→③④(다리2·콜로세움 앞)→⑤로 이어지고, CORE 글은 길에 바짝 붙임.
+  - 다리는 `scripts/assets/bridge.py`(길·강 교차 자동 탐지).
+- 루프 운영: 블라인드 심사 에이전트(일반 목적, 이미지만 읽음) → 지적을 기하·크롭으로 검증한 뒤 고침. 기록은 `loop/STATE.md`, 자동 감사는 `audit_v7.py`(글↔물체·배경 복잡·프레임 밖).

@@ -1,0 +1,1 @@
+{"fileKey": "jQPriO85F6wtPy1NPo752p", "code": "return {pages:figma.root.children.map(p=>({id:p.id,name:p.name})),editorType:figma.editorType};", "description": "Verify obsolete document pages before authorized removal and mindmap consolidation", "skillNames": "figma-use"}

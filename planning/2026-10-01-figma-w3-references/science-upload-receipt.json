@@ -1,0 +1,7 @@
+{
+  "chunk_id": "1fb268",
+  "wall_time_seconds": 3.020462583,
+  "exit_code": 0,
+  "original_token_count": 254,
+  "output": "{\"results\": [{\"id\": \"science-portus-cosanus-crystals\", \"node_id\": \"421:84\", \"ok\": true, \"status\": 200, \"bytes\": 604560, \"response_keys\": [\"success\", \"imageHash\", \"sizeBytes\", \"contentType\", \"placedOnNodeId\"]}, {\"id\": \"science-privernum-lime-clasts\", \"node_id\": \"421:89\", \"ok\": true, \"status\": 200, \"bytes\": 222056, \"response_keys\": [\"success\", \"imageHash\", \"sizeBytes\", \"contentType\", \"placedOnNodeId\"]}, {\"id\": \"science-pompeii-dry-premix\", \"node_id\": \"421:94\", \"ok\": true, \"status\": 200, \"bytes\": 170514, \"response_keys\": [\"success\", \"imageHash\", \"sizeBytes\", \"contentType\", \"placedOnNodeId\"]}, {\"id\": \"science-modern-fracture-specimen\", \"node_id\": \"421:100\", \"ok\": true, \"status\": 200, \"bytes\": 431902, \"response_keys\": [\"success\", \"imageHash\", \"sizeBytes\", \"contentType\", \"placedOnNodeId\"]}, {\"id\": \"science-modern-healed-crack\", \"node_id\": \"421:105\", \"ok\": true, \"status\": 200, \"bytes\": 544874, \"response_keys\": [\"success\", \"imageHash\", \"sizeBytes\", \"contentType\", \"placedOnNodeId\"]}], \"total\": 5, \"passed\": 5}\n"
+}

@@ -1,0 +1,1248 @@
+{
+  "status": "read_only_village_proposal_complete",
+  "source": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v11.blend",
+  "source_sha256": "f58d958eee5db375a76779f337681be96f8b7b6f0f0d4ba562f7d9aa3f79f528",
+  "canvas": [
+    1191,
+    1684
+  ],
+  "direction": "CORE1NE→CORE2W→CORE3SW→CORE4S/SE→CORE5E counterclockwise narrative; village objects dispersed on land, no road procession",
+  "primaryNegativeConstraints": [
+    "all primary floor polygons on T_land",
+    "zero intersection with R_core_road/R_via_appia/R_via_ostiensis/B_pons1/B_pons2 projected union",
+    "zero L02_tiber projected intersection",
+    "source terrain/camera and existing COL center preserved",
+    "no abstract cubes/white balls/micro triptych as terrain objects"
+  ],
+  "units": {
+    "humanHeightWorld": [
+      2.3,
+      3.0
+    ],
+    "humanNativeHeightPx": [
+      23,
+      35
+    ],
+    "houseHeightWorld": [
+      4,
+      6
+    ],
+    "houseFootprintPx": [
+      60,
+      100
+    ],
+    "makerWholeHeightWorld": 3.5,
+    "makerWholeBBoxPxApprox": 80,
+    "COL_heightWorld_reference": 15.29,
+    "templeHeightWorld_reference": 9
+  },
+  "slots": [
+    {
+      "id": "NW_heritage_neighborhood",
+      "quadrant": "NW",
+      "cluster_bbox": [
+        310,
+        475,
+        467,
+        567
+      ],
+      "land_floor_rectangles": [
+        [
+          315,
+          543,
+          379,
+          566
+        ],
+        [
+          410,
+          526,
+          464,
+          548
+        ]
+      ],
+      "floor_mask_audit": [
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        },
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        }
+      ],
+      "anchor": [
+        388.5,
+        567
+      ],
+      "assets": [
+        "L03_forum_vesta",
+        "L03_forum_temple"
+      ],
+      "notes": "Existing two temples remain as northwestern neighborhood architecture. If needed uniformscale~.68–.78 within these smaller2pedestal slots; do not use the rejected floor[348,634,427,660], which crosses607road pixels."
+    },
+    {
+      "id": "N_house",
+      "quadrant": "N",
+      "cluster_bbox": [
+        544,
+        538,
+        635,
+        615
+      ],
+      "land_floor_rectangles": [
+        [
+          555,
+          590,
+          625,
+          615
+        ]
+      ],
+      "floor_mask_audit": [
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        }
+      ],
+      "anchor": [
+        589.5,
+        615
+      ],
+      "assets": [
+        "new_meshy_roman_house"
+      ],
+      "notes": "House actual height4–6world; footprint60–100px; top clear of CORE1 last line ending529."
+    },
+    {
+      "id": "NE_market",
+      "quadrant": "NE",
+      "cluster_bbox": [
+        813,
+        646,
+        901,
+        728
+      ],
+      "land_floor_rectangles": [
+        [
+          824,
+          699,
+          898,
+          728
+        ]
+      ],
+      "floor_mask_audit": [
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        }
+      ],
+      "anchor": [
+        857.0,
+        728
+      ],
+      "assets": [
+        "new_meshy_roman_market",
+        "NB_worker_carrier(optional)"
+      ],
+      "notes": "Market primary floor begins699, beyond aqueduct bottom672. Stall40–80px; a carrier is2.3–3.0world high,23–35px. Existing field patches may be moved or hidden."
+    },
+    {
+      "id": "W_concrete_workspace",
+      "quadrant": "W",
+      "cluster_bbox": [
+        54,
+        845,
+        207,
+        945
+      ],
+      "land_floor_rectangles": [
+        [
+          68,
+          902,
+          206,
+          945
+        ]
+      ],
+      "floor_mask_audit": [
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        }
+      ],
+      "anchor": [
+        130.5,
+        945
+      ],
+      "assets": [
+        "C2_hot_mixing",
+        "D2_lime_kiln",
+        "material_stockpile"
+      ],
+      "notes": "150px cluster comes from separate small maker/kiln/material stockpile. Maker whole model height~3.5world/fullbbox~80px; kiln4–5world. Keep prep on the west-bank land, entirely west of the core road; no common base crossing road or river."
+    },
+    {
+      "id": "E_attached_construction",
+      "quadrant": "E",
+      "cluster_bbox": [
+        772,
+        839,
+        838,
+        924
+      ],
+      "land_floor_rectangles": [
+        [
+          798,
+          891,
+          827,
+          923
+        ]
+      ],
+      "floor_mask_audit": [
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        }
+      ],
+      "anchor": [
+        812,
+        909
+      ],
+      "assets": [
+        "NB_worker_builder",
+        "attached_scaffold",
+        "NB_build_stone_*",
+        "NB_build_form*"
+      ],
+      "notes": "COL right facade construction. Human2.4world; scaffold beamwidth3–5world, platformlevels z3/z6. Body may project over facade; base is outside road. Real world attachment/penetration must be checked after placement."
+    },
+    {
+      "id": "SW_masonry_workyard",
+      "quadrant": "SW",
+      "cluster_bbox": [
+        344,
+        1135,
+        468,
+        1235
+      ],
+      "land_floor_rectangles": [
+        [
+          358,
+          1201,
+          464,
+          1234
+        ]
+      ],
+      "floor_mask_audit": [
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        }
+      ],
+      "anchor": [
+        406.0,
+        1235
+      ],
+      "assets": [
+        "NB_vault_construction",
+        "NB_vault_timber_*",
+        "stone_brick_rubble",
+        "mortar_stockpile"
+      ],
+      "notes": "Real incomplete arch, timber, stone/rubble and mortar pile replace giant cube/whiteball. Architectural height4–6world; human23–35px. Yard width110–124px comes from several natural parts, not a giant person."
+    },
+    {
+      "id": "S_daily_life",
+      "quadrant": "S",
+      "cluster_bbox": [
+        547,
+        1133,
+        612,
+        1207
+      ],
+      "land_floor_rectangles": [
+        [
+          551,
+          1182,
+          608,
+          1206
+        ]
+      ],
+      "floor_mask_audit": [
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        }
+      ],
+      "anchor": [
+        580,
+        1194
+      ],
+      "assets": [
+        "new_meshy_roman_lifeduo",
+        "small_jars_optional"
+      ],
+      "notes": "Quiet central-south courtyard balances the active construction scenes; humans2.3–3world. Do not add a wide abstract platform."
+    },
+    {
+      "id": "SE_repair_workyard",
+      "quadrant": "SE",
+      "cluster_bbox": [
+        737,
+        1135,
+        839,
+        1236
+      ],
+      "land_floor_rectangles": [
+        [
+          746,
+          1208,
+          835,
+          1235
+        ]
+      ],
+      "floor_mask_audit": [
+        {
+          "road_pixels": 0,
+          "water_pixels": 0,
+          "outside_terrain_pixels": 0,
+          "pass": true
+        }
+      ],
+      "anchor": [
+        788.0,
+        1236
+      ],
+      "assets": [
+        "NB_vault_complete",
+        "masonry_wall_section_with_small_crack",
+        "NB_worker_pair(optional)"
+      ],
+      "notes": "Natural finished vault and small wall section/repair seam replace floating triptych and microcubes. Width90–102px, architecture4–6world; paired humans each2.3–3world. Callout leader targets wall/stone material, not a freestanding diagram cube."
+    }
+  ],
+  "attachedWestScaffold": {
+    "id": "W_attached_scaffold",
+    "belongsTo": "NW_heritage_neighborhood / western construction",
+    "assembly_bbox": [
+      360,
+      836,
+      415,
+      923
+    ],
+    "floor_rectangle": [
+      370,
+      895,
+      396,
+      922
+    ],
+    "anchor": [
+      383,
+      909
+    ],
+    "floor_mask_audit": {
+      "road_pixels": 0,
+      "water_pixels": 0,
+      "outside_terrain_pixels": 0,
+      "pass": true
+    },
+    "human_height_world": 2.4,
+    "scaffold_beamwidth_world": [
+      3,
+      5
+    ],
+    "platform_levels_world": [
+      3,
+      6
+    ],
+    "notes": "Second scaffold at left COL facade. Separate narrow base; do not connect it to west-bank preparation by a floor over the road/water. Source figure may be a standing carrier copy; final3D attachment is production QA."
+  },
+  "retireAbstractObjects": [
+    "NB_lime_clast_specimen",
+    "NB_lime_clast_specimen_LIME00",
+    "NB_lime_clast_specimen_LIME01",
+    "NB_lime_clast_specimen_LIME02",
+    "NB_lime_clast_specimen_LIME03",
+    "NB_lime_clast_specimen_LIME04",
+    "NB_lime_clast_specimen_LIME05",
+    "NB_detail_calcium_clast",
+    "NB_core4_sequence",
+    "NB_core4_sequence_GRAY00",
+    "NB_core4_sequence_GRAY01",
+    "NB_core4_sequence_GRAY02",
+    "NB_core4_sequence_GRAY03",
+    "NB_core4_sequence_GRAY04",
+    "NB_detail4_micro",
+    "NB_detail4_matrix",
+    "NB_detail4_crack",
+    "NB_detail4_crystal"
+  ],
+  "sourceAlreadyHiddenAbstractObjects": [
+    "C3_arch_building",
+    "C4_crack_repair"
+  ],
+  "nativeTextIdsToReplaceOrRelocate": [
+    "749:108",
+    "749:177",
+    "749:178",
+    "749:180",
+    "749:181",
+    "749:184",
+    "749:186",
+    "749:187",
+    "749:188",
+    "749:189",
+    "749:204",
+    "749:200",
+    "749:201",
+    "749:202",
+    "749:203",
+    "755:78",
+    "755:79",
+    "749:198",
+    "749:199",
+    "749:197"
+  ],
+  "nativeCopyPlan": {
+    "CORE2": {
+      "frame": [
+        30,
+        722,
+        160,
+        102
+      ],
+      "preserveMainText": true,
+      "nativeCaption": [
+        54,
+        952,
+        153,
+        14
+      ],
+      "caption": "콘크리트 배합 마당"
+    },
+    "CORE3": {
+      "mainFrame": [
+        330,
+        1032,
+        190,
+        91
+      ],
+      "sourceOrigin": [
+        408.5,
+        1028
+      ],
+      "translation": [
+        -78.5,
+        4
+      ],
+      "titleFont": 21,
+      "bodyFont": 11.5,
+      "bodyLines": 2,
+      "bodyText": "불량 혼합으로 여긴 흰 알갱이.\n연구가 찾은 건 ‘칼슘 공급원’.",
+      "detailFrame": [
+        320,
+        1250,
+        170,
+        57
+      ],
+      "detailTitle": "벽·반죽 속 흰 석회",
+      "detailTitleFont": 12,
+      "detailBodyFont": 9.5,
+      "detailBodyLines": 2,
+      "detailBody": "벽·반죽에 남은 흰 알갱이.\n칼슘이 풍부해 물에 녹아 나온다.",
+      "leaderTarget": [
+        398,
+        1224
+      ],
+      "replace3DAbstract": true
+    },
+    "CORE4": {
+      "mainFrame": [
+        638.5,
+        1032,
+        178,
+        91
+      ],
+      "preserveMainText": true,
+      "titleFont": 21,
+      "bodyFont": 11.5,
+      "bodyLines": 2,
+      "detailFrame": [
+        673,
+        1250,
+        190,
+        57
+      ],
+      "detailTitle": "물에서 새 결정으로",
+      "detailTitleFont": 12,
+      "detailBodyFont": 9.5,
+      "detailBodyLines": 2,
+      "detailBody": "물에 녹은 칼슘이 틈으로 이동.\n새 결정이 자라 작은 금을 메운다.",
+      "leaderTarget": [
+        790,
+        1220
+      ],
+      "limitationFrame": [
+        650,
+        1320,
+        217,
+        26
+      ],
+      "limitationFont": 9.5,
+      "limitationText": "다른 유적·재현 시편에서 확인\n콜로세움에서 직접 입증 안 됨",
+      "replace3DAbstract": true
+    }
+  },
+  "nativeRetainedRectangles": [
+    {
+      "id": "749:80",
+      "text": "전제 · 로마 콘크리트란?",
+      "bbox": [
+        24,
+        24,
+        141,
+        38
+      ]
+    },
+    {
+      "id": "749:81",
+      "text": "전제 · 어떻게 알았나",
+      "bbox": [
+        858,
+        24,
+        958,
+        38
+      ]
+    },
+    {
+      "id": "749:82",
+      "text": "로마 콘크리트",
+      "bbox": [
+        368.5,
+        27,
+        823.5,
+        107
+      ]
+    },
+    {
+      "id": "749:83",
+      "text": "→",
+      "bbox": [
+        223.3046875,
+        82,
+        241.3046875,
+        100
+      ]
+    },
+    {
+      "id": "749:84",
+      "text": "+",
+      "bbox": [
+        81.68994140625,
+        84,
+        92.68994140625,
+        102
+      ]
+    },
+    {
+      "id": "749:85",
+      "text": "+",
+      "bbox": [
+        158.2900390625,
+        84,
+        169.2900390625,
+        102
+      ]
+    },
+    {
+      "id": "749:86",
+      "text": "철근도 없는 로마 건축물이 어떻게 2천 년을 버텼을까?",
+      "bbox": [
+        370,
+        125,
+        822,
+        149
+      ]
+    },
+    {
+      "id": "749:87",
+      "text": "로마 때 기록",
+      "bbox": [
+        864.5,
+        144,
+        915.5,
+        157
+      ]
+    },
+    {
+      "id": "749:88",
+      "text": "오늘의 연구",
+      "bbox": [
+        980.5,
+        144,
+        1029.5,
+        157
+      ]
+    },
+    {
+      "id": "749:89",
+      "text": "살펴볼 건물",
+      "bbox": [
+        1093.5,
+        144,
+        1142.5,
+        157
+      ]
+    },
+    {
+      "id": "749:90",
+      "text": "석회",
+      "bbox": [
+        40,
+        147,
+        59,
+        160
+      ]
+    },
+    {
+      "id": "749:91",
+      "text": "화산재",
+      "bbox": [
+        109.5,
+        147,
+        137.5,
+        160
+      ]
+    },
+    {
+      "id": "749:92",
+      "text": "돌·벽돌 조각",
+      "bbox": [
+        170,
+        147,
+        225,
+        160
+      ]
+    },
+    {
+      "id": "749:93",
+      "text": "틀에 부어 굳힘",
+      "bbox": [
+        258,
+        147,
+        318,
+        160
+      ]
+    },
+    {
+      "id": "749:94",
+      "text": "비트루비우스와\n플리니우스의 책",
+      "bbox": [
+        860,
+        158,
+        920,
+        182
+      ]
+    },
+    {
+      "id": "749:95",
+      "text": "옛 조각 살피고\n다시 만들어 시험",
+      "bbox": [
+        974,
+        158,
+        1036,
+        182
+      ]
+    },
+    {
+      "id": "749:96",
+      "text": "콜로세움 · 로마 · 80년",
+      "bbox": [
+        1074.5,
+        158,
+        1161.5,
+        170
+      ]
+    },
+    {
+      "id": "749:97",
+      "text": "나폴리 근처",
+      "bbox": [
+        101.5,
+        161,
+        145.5,
+        172
+      ]
+    },
+    {
+      "id": "749:98",
+      "text": "로마 공화정 후기부터 제국 시기까지\n벽·지붕·항구에 널리 씀",
+      "bbox": [
+        24,
+        180,
+        171,
+        208
+      ]
+    },
+    {
+      "id": "749:99",
+      "text": "기록과, 옛 조각 연구·재현 실험으로\n재료와 성질을 알게 됨",
+      "bbox": [
+        858,
+        192,
+        1005,
+        220
+      ]
+    },
+    {
+      "id": "749:102",
+      "text": "1",
+      "bbox": [
+        534,
+        392.5,
+        542,
+        404.5
+      ]
+    },
+    {
+      "id": "749:103",
+      "text": "아펜니노 산맥",
+      "bbox": [
+        445,
+        250,
+        514,
+        264
+      ]
+    },
+    {
+      "id": "749:104",
+      "text": "수도교",
+      "bbox": [
+        962,
+        601.0003662109375,
+        996,
+        615.0003662109375
+      ]
+    },
+    {
+      "id": "749:105",
+      "text": "2",
+      "bbox": [
+        36,
+        728.5,
+        44,
+        740.5
+      ]
+    },
+    {
+      "id": "749:106",
+      "text": "5",
+      "bbox": [
+        988.5,
+        822.5,
+        996.5,
+        834.5
+      ]
+    },
+    {
+      "id": "749:107",
+      "text": "아피아 가도",
+      "bbox": [
+        1108.33984375,
+        963.9840087890625,
+        1166.33984375,
+        977.9840087890625
+      ]
+    },
+    {
+      "id": "749:109",
+      "text": "프리베르눔\n성벽 조각",
+      "bbox": [
+        826,
+        1020,
+        882,
+        1050
+      ]
+    },
+    {
+      "id": "749:111",
+      "text": "4",
+      "bbox": [
+        644.5,
+        1038.5,
+        652.5,
+        1050.5
+      ]
+    },
+    {
+      "id": "749:112",
+      "text": "석회·결정 관찰",
+      "bbox": [
+        826,
+        1053.5,
+        887,
+        1065.5
+      ]
+    },
+    {
+      "id": "749:113",
+      "text": "흰 석회 알갱이와\n금을 메운 흰 결정",
+      "bbox": [
+        826,
+        1069,
+        894,
+        1095
+      ]
+    },
+    {
+      "id": "749:115",
+      "text": "화산",
+      "bbox": [
+        1026.1240234375,
+        1244,
+        1049.1240234375,
+        1258
+      ]
+    },
+    {
+      "id": "749:119",
+      "text": "폼페이",
+      "bbox": [
+        816,
+        1364,
+        850,
+        1378
+      ]
+    },
+    {
+      "id": "749:120",
+      "text": "항구",
+      "bbox": [
+        246.7666015625,
+        1450.7459716796875,
+        269.7666015625,
+        1464.7459716796875
+      ]
+    },
+    {
+      "id": "749:121",
+      "text": "로마 항구 방파제 조각",
+      "bbox": [
+        232,
+        1535.5,
+        340,
+        1550.5
+      ]
+    },
+    {
+      "id": "749:122",
+      "text": "폼페이 공사현장(79년)",
+      "bbox": [
+        718.5,
+        1547,
+        833.5,
+        1562
+      ]
+    },
+    {
+      "id": "749:123",
+      "text": "결정 관찰",
+      "bbox": [
+        232,
+        1554,
+        270,
+        1566
+      ]
+    },
+    {
+      "id": "749:124",
+      "text": "바다",
+      "bbox": [
+        167.6796875,
+        1564,
+        191.6796875,
+        1580
+      ]
+    },
+    {
+      "id": "749:125",
+      "text": "배합 흔적",
+      "bbox": [
+        718.5,
+        1565.5,
+        756.5,
+        1577.5
+      ]
+    },
+    {
+      "id": "749:126",
+      "text": "해양 콘크리트 안에서\n새로운 결정이 자람",
+      "bbox": [
+        232,
+        1569.5,
+        337,
+        1595.5
+      ]
+    },
+    {
+      "id": "749:127",
+      "text": "생석회를 섞어 둔 원료 더미",
+      "bbox": [
+        718.5,
+        1581,
+        834.5,
+        1594
+      ]
+    },
+    {
+      "id": "749:128",
+      "text": "로마 방파제 · 개념 모형",
+      "bbox": [
+        385,
+        1587,
+        530,
+        1601
+      ]
+    },
+    {
+      "id": "749:129",
+      "text": "공화정 후기~제국",
+      "bbox": [
+        47.39990234375,
+        1617.5,
+        135.39990234375,
+        1632.5
+      ]
+    },
+    {
+      "id": "749:130",
+      "text": "79년",
+      "bbox": [
+        165.39990234375,
+        1617.5,
+        191.39990234375,
+        1632.5
+      ]
+    },
+    {
+      "id": "749:131",
+      "text": "80년",
+      "bbox": [
+        283.39990234375,
+        1617.5,
+        309.39990234375,
+        1632.5
+      ]
+    },
+    {
+      "id": "749:132",
+      "text": "1349년",
+      "bbox": [
+        401.39990234375,
+        1617.5,
+        441.39990234375,
+        1632.5
+      ]
+    },
+    {
+      "id": "749:133",
+      "text": "19세기",
+      "bbox": [
+        519.39990234375,
+        1617.5,
+        556.39990234375,
+        1632.5
+      ]
+    },
+    {
+      "id": "749:134",
+      "text": "2017~2025년",
+      "bbox": [
+        637.39990234375,
+        1617.5,
+        712.39990234375,
+        1632.5
+      ]
+    },
+    {
+      "id": "749:135",
+      "text": "오늘",
+      "bbox": [
+        755.39990234375,
+        1617.5,
+        778.39990234375,
+        1632.5
+      ]
+    },
+    {
+      "id": "749:136",
+      "text": "벽·지붕·항구에 널리 씀",
+      "bbox": [
+        47.39990234375,
+        1647.5,
+        141.39990234375,
+        1659.5
+      ]
+    },
+    {
+      "id": "749:137",
+      "text": "폼페이 공사현장 원료 더미",
+      "bbox": [
+        165.39990234375,
+        1647.5,
+        268.39990234375,
+        1659.5
+      ]
+    },
+    {
+      "id": "749:138",
+      "text": "콜로세움 개장",
+      "bbox": [
+        283.39990234375,
+        1647.5,
+        338.39990234375,
+        1659.5
+      ]
+    },
+    {
+      "id": "749:139",
+      "text": "지진 · 남쪽 바깥벽 무너짐",
+      "bbox": [
+        401.39990234375,
+        1647.5,
+        503.39990234375,
+        1659.5
+      ]
+    },
+    {
+      "id": "749:140",
+      "text": "벽돌 버팀벽으로 받침",
+      "bbox": [
+        519.39990234375,
+        1647.5,
+        602.39990234375,
+        1659.5
+      ]
+    },
+    {
+      "id": "749:141",
+      "text": "옛 조각 연구·재현 실험",
+      "bbox": [
+        637.39990234375,
+        1647.5,
+        728.39990234375,
+        1659.5
+      ]
+    },
+    {
+      "id": "749:142",
+      "text": "약 1,950년째 서 있음",
+      "bbox": [
+        755.39990234375,
+        1647.5,
+        838.39990234375,
+        1659.5
+      ]
+    },
+    {
+      "id": "749:146",
+      "text": "철근이 있어도",
+      "bbox": [
+        553,
+        386,
+        702,
+        412
+      ]
+    },
+    {
+      "id": "749:147",
+      "text": "금은 생기는데",
+      "bbox": [
+        528,
+        412,
+        702,
+        438
+      ]
+    },
+    {
+      "id": "749:148",
+      "text": "로마에는 2천 년 전 유구가 남았다.\n철근 없이, 어떤 재료로 굳혔을까?",
+      "bbox": [
+        528,
+        446,
+        702,
+        477
+      ]
+    },
+    {
+      "id": "749:152",
+      "text": "물을 넣자,",
+      "bbox": [
+        55,
+        722,
+        190,
+        748
+      ]
+    },
+    {
+      "id": "749:153",
+      "text": "열이 났다",
+      "bbox": [
+        30,
+        748,
+        190,
+        774
+      ]
+    },
+    {
+      "id": "749:154",
+      "text": "생석회·화산재를 마른 채 섞고,\n물을 붓자 열이 났다.\n굳은 반죽엔 흰 알갱이가 남았다.",
+      "bbox": [
+        30,
+        777,
+        190,
+        824
+      ]
+    },
+    {
+      "id": "749:164",
+      "text": "금에 스민 물,",
+      "bbox": [
+        663.5,
+        1032,
+        816.5,
+        1058
+      ]
+    },
+    {
+      "id": "749:165",
+      "text": "칼슘을 옮기다",
+      "bbox": [
+        638.5,
+        1058,
+        816.5,
+        1084
+      ]
+    },
+    {
+      "id": "749:166",
+      "text": "물이 칼슘을 녹여 틈으로 옮긴다.\n새 결정이 자라 작은 금을 메운다.",
+      "bbox": [
+        638.5,
+        1092,
+        816.5,
+        1123
+      ]
+    },
+    {
+      "id": "749:170",
+      "text": "정말 메워질까?",
+      "bbox": [
+        1007.5,
+        816,
+        1162.5,
+        842
+      ]
+    },
+    {
+      "id": "749:171",
+      "text": "금을 내어 봤더니",
+      "bbox": [
+        982.5,
+        842,
+        1162.5,
+        868
+      ]
+    },
+    {
+      "id": "749:172",
+      "text": "현대 재현 시편에 약 0.5mm 금.\n생석회 든 쪽은 수 주 뒤 거의 안 샜다.\n없는 쪽은 계속 샜다.",
+      "bbox": [
+        982.5,
+        874,
+        1162.5,
+        921
+      ]
+    },
+    {
+      "id": "749:191",
+      "text": "현대: 포틀랜드 시멘트 · 철근 보강\n로마: 석회·화산재",
+      "bbox": [
+        528,
+        502,
+        702,
+        529
+      ]
+    },
+    {
+      "id": "749:192",
+      "text": "유적 관찰 장면",
+      "bbox": [
+        866,
+        1244,
+        981,
+        1258
+      ]
+    },
+    {
+      "id": "749:194",
+      "text": "오늘의 실험실",
+      "bbox": [
+        982.5,
+        630,
+        1162.5,
+        645
+      ]
+    },
+    {
+      "id": "749:195",
+      "text": "균열 충전 실험",
+      "bbox": [
+        982.5,
+        649,
+        1162.5,
+        662
+      ]
+    },
+    {
+      "id": "749:196",
+      "text": "재현 시편은 수 주 내 누수 감소,\n생석회 없는 시편은 계속 샘",
+      "bbox": [
+        982.5,
+        666,
+        1162.5,
+        694
+      ]
+    }
+  ],
+  "textRectangleIndications": [],
+  "floorMasksAllPass": true,
+  "evidence": {
+    "inventory": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/construction-detail/village-plan.inventory.json",
+    "roadWaterTerrainMasks": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/construction-detail/village-plan.masks.npz",
+    "sourceProjectedGeometry": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/construction-detail/counterclockwise-road-geometry.npz",
+    "currentCOLGeometry": "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/construction-detail/village-plan.hero.npz",
+    "nativeText": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/figma-v14-road-native-validation.json"
+  },
+  "limitations": [
+    "Footprint rectangles reserve primary ground contact only; upper bodies/roofs may extend in projection. These are layout proposals, no transforms applied.",
+    "All source road/water/terrain meshes are unchanged since v9; actual polygon projections used, not handdrawn road shapes.",
+    "Lowest COL vertices are arena pit floor, so lowZ hull must not be used as exterior foundation footprint; final world BVH performs collision/attachment QA.",
+    "After placement sample actual model low vertices/base faces against road/water surfaces and check facade scaffold supports. Scale by actual world height before final projected fit; text-glyph/model-silhouette QA after native overlay export.",
+    "Village buildings are visual scene context, not an exact historical reconstruction of the Colosseum neighborhood."
+  ]
+}
