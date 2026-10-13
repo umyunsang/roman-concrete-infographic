@@ -1,0 +1,59 @@
+{
+  "restoredAtLocal": "2026-10-08T20:03:08",
+  "figmaVersion": 12,
+  "frameId": "737:78",
+  "backgroundId": "737:79",
+  "pageId": "19:4",
+  "guideId": "737:246",
+  "figmaUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=737-78",
+  "backgroundHash": "867e430e94a7b6fc0b40dae8b89882e6f9704df9",
+  "blenderVersion": 8,
+  "blenderFile": "out/roman_concrete_narrative_v8.blend",
+  "nativeEditableTexts": 95,
+  "exactV12CopyPositionsSizesBackgroundVerified": true,
+  "blenderLiveOpened": true,
+  "blenderDirty": false,
+  "blenderObjects": 317,
+  "blenderMaterials": 51,
+  "hiddenLaterFigmaNodes": [
+    "743:78",
+    "744:99",
+    "749:78",
+    "764:78"
+  ],
+  "laterOutputsPreserved": true,
+  "artifacts": {
+    "out/roman_concrete_narrative_v8.blend": {
+      "bytes": 34930489,
+      "sha256": "d179c5abdce8a9b0b48cf3f34cad9331b61e048f2e8edef504f430cee172ef3c"
+    },
+    "out/figma_poster_v12_part_materials_2x.png": {
+      "bytes": 11541908,
+      "sha256": "c642d67b71765d04076b5e00fa85564d2f46fe4f7b14762c7bb79057eb063345"
+    },
+    "out/figma_poster_v12_part_materials_1x.png": {
+      "bytes": 3015326,
+      "sha256": "75d2373fc8e05426f13478f40e9a7009346262cb529b7bd84e720d0413a656c4"
+    },
+    "copy/narrative_v12.json": {
+      "bytes": 35443,
+      "sha256": "71676e8edb4ce02f377742a56ea298838c69890fbb47ae0f169e2d4927b77976"
+    },
+    "out/rollback-v12-figma-validation.json": {
+      "bytes": 13058,
+      "sha256": "d9e66c2db10c5b77fc75d978c7bba49941732c1613e65b5861c687353f9b5d04"
+    },
+    "README.md": {
+      "bytes": 1389,
+      "sha256": "44595d709f9ad27f22db7f8a90aff7468cd3acedd87a57f04e74bb150b3acd25"
+    },
+    "design/PART-MATERIALS.md": {
+      "bytes": 4782,
+      "sha256": "963841474b9e2d5e5e8d8b432b32450be53c755dc8fb9d953ba92ca6fa816d97"
+    },
+    "분석과_재구성안.md": {
+      "bytes": 26791,
+      "sha256": "f905338bfa872362415c841f7ea2beec9893048507f347f10585bf7a3d706771"
+    }
+  }
+}

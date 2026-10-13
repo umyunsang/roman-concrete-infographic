@@ -1,0 +1,517 @@
+{
+  "source": "/Users/um-yunsang/Documents/로마콘크리트_3D/roman_concrete_map.blend",
+  "source_sha256": "28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3",
+  "source_snapshot_sha256": "9a2ef432b3fe1de8a8b7c4354df0713c9eacef7577c9f458231f37f04bcfc852",
+  "anchors": {
+    "C1_pozzolana_quarry": [
+      695.241224102923,
+      384.0130738116661,
+      816.7910442567858,
+      478.0130873476598
+    ],
+    "C2_hot_mixing": [
+      93.51400260221762,
+      851.9964373011429,
+      194.40638770413517,
+      949.9964348049785
+    ],
+    "C3_arch_building": [
+      450.8198115485486,
+      1127.9869120144374,
+      555.225614381069,
+      1245.9869178406066
+    ],
+    "C4_crack_repair": [
+      684.6617805234092,
+      1130.0046104653247,
+      769.3341293119876,
+      1228.0046073071373
+    ],
+    "C5_researchers": [
+      1015.991814240244,
+      708.0121181914304,
+      1115.986976931736,
+      812.0121319731063
+    ],
+    "L09_portus_lighthouse": [
+      43.340982970553114,
+      1389.7175138224047,
+      106.29480288485092,
+      1524.383135428077
+    ],
+    "L09_portus_mole": [
+      115.17386042192788,
+      1432.0337993701635,
+      224.83755211185112,
+      1521.3830784478764
+    ],
+    "L12_harbor_pilae": [
+      312.73931502036396,
+      1438.3230000697122,
+      387.24877815765024,
+      1517.7267151957967
+    ],
+    "L11_privernum_wall": [
+      1022.2120104465438,
+      1004.6563022380257,
+      1124.5241080548888,
+      1102.7478280274559
+    ],
+    "L08_pompeii_site": [
+      652.5431328457387,
+      1419.9516284043398,
+      749.4427241298914,
+      1524.9768978733227
+    ],
+    "S_lab_island": [
+      556.2621581562544,
+      1505.1340390733644,
+      623.6975511259438,
+      1581.8481366802964
+    ],
+    "COL_ruined": [
+      353.2058988586742,
+      568.2912542922313,
+      835.3687532147561,
+      996.9814397532066
+    ]
+  },
+  "anchor_world": {
+    "C1_pozzolana_quarry": {
+      "world_min": [
+        -49.07353414427121,
+        62.376813554072385,
+        0.0
+      ],
+      "world_max": [
+        -37.42561136354129,
+        74.39924845764637,
+        5.925560145027134
+      ],
+      "location": [
+        -43.24957275390625,
+        68.38803100585938,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "C2_hot_mixing": {
+      "world_min": [
+        -26.411148171787545,
+        -45.26599255545307,
+        0.0
+      ],
+      "world_max": [
+        -17.050826925868705,
+        -35.91357287423443,
+        4.900764457121198
+      ],
+      "location": [
+        -21.730987548828125,
+        -40.58978271484375,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "C3_arch_building": {
+      "world_min": [
+        30.205240017577808,
+        -50.32918223359502,
+        0.0
+      ],
+      "world_max": [
+        38.90702559215427,
+        -41.62765959331912,
+        6.849364678450911
+      ],
+      "location": [
+        35.294342041015625,
+        -46.7235107421875,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        45.00000125223908
+      ]
+    },
+    "C4_crack_repair": {
+      "world_min": [
+        42.85275686071603,
+        -35.56710396659078,
+        0.0
+      ],
+      "world_max": [
+        51.828830352709446,
+        -26.529692758725872,
+        5.251305634374148
+      ],
+      "location": [
+        47.44158935546875,
+        -31.119049072265625,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        45.00000125223908
+      ]
+    },
+    "C5_researchers": {
+      "world_min": [
+        22.08243634087239,
+        36.61235851300263,
+        0.0
+      ],
+      "world_max": [
+        32.70774437853099,
+        44.347987529610826,
+        6.742766112965342
+      ],
+      "location": [
+        27.71136474609375,
+        40.31494140625,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        45.00000125223908
+      ]
+    },
+    "L09_portus_lighthouse": {
+      "world_min": [
+        33.43377305232855,
+        -96.198798326033,
+        0.008933312702106289
+      ],
+      "world_max": [
+        37.06574864188275,
+        -91.69648028374422,
+        8.709773501805103
+      ],
+      "location": [
+        35.249725341796875,
+        -93.9500732421875,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "L09_portus_mole": {
+      "world_min": [
+        35.95110601970384,
+        -90.60686752271329,
+        -0.01585594064935858
+      ],
+      "world_max": [
+        41.93134635057595,
+        -83.68910139058346,
+        2.587164772357255
+      ],
+      "location": [
+        38.93902587890625,
+        -87.11361694335938,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "L12_harbor_pilae": {
+      "world_min": [
+        47.59153782197616,
+        -79.81378753054085,
+        -0.004001935457379618
+      ],
+      "world_max": [
+        52.110706196506996,
+        -75.59928104673557,
+        2.2412058830877157
+      ],
+      "location": [
+        49.855255126953125,
+        -77.70640563964844,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "L11_privernum_wall": {
+      "world_min": [
+        51.612487634293494,
+        0.34207172194417357,
+        -0.16606522630288492
+      ],
+      "world_max": [
+        62.57389647637038,
+        7.889694833470196,
+        3.5689805413852262
+      ],
+      "location": [
+        57.244110107421875,
+        5.474273681640625,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        -2.592427114338901,
+        -0.0,
+        25.786047324494987
+      ]
+    },
+    "L08_pompeii_site": {
+      "world_min": [
+        66.53509851106126,
+        -60.261731877928625,
+        -0.0020022928810495555
+      ],
+      "world_max": [
+        72.72069588593008,
+        -55.07428335942771,
+        4.505574526939682
+      ],
+      "location": [
+        69.61505126953125,
+        -57.66693115234375,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "S_lab_island": {
+      "world_min": [
+        67.99644168850858,
+        -73.15064114134609,
+        0.008671474858592765
+      ],
+      "world_max": [
+        72.61733557946584,
+        -68.84093359078292,
+        5.221163095082204
+      ],
+      "location": [
+        70.30908203125,
+        -70.99154663085938,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "COL_ruined": {
+      "world_min": [
+        -28.917529362379497,
+        -22.339083026440463,
+        -2.442042141030697
+      ],
+      "world_max": [
+        26.71382922607988,
+        23.857002554421697,
+        16.23264575126086
+      ],
+      "location": [
+        -1.2141854763031006,
+        0.7515208721160889,
+        0.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        -0.0,
+        164.99999434625954
+      ]
+    }
+  },
+  "assets": [
+    {
+      "id": "modern_building",
+      "object": "NB_modern_building",
+      "projected_bbox": [
+        708.3717379190516,
+        384.0000054620904,
+        805.6282476027659,
+        491.0000052622696
+      ],
+      "triangles": 16623,
+      "hidden_originals": [
+        "C1_pozzolana_quarry"
+      ],
+      "source_model_sha256": "7320702d1fc2119fbd31459c74a3a2b8ad1e2b12fb58bfcda3597e5a711b5896",
+      "reused_source_objects": [],
+      "visible_gray_copy_groups": [],
+      "illustrative_lime_inclusions": [],
+      "temporary_fit_proxy_removed": false
+    },
+    {
+      "id": "lime_clast_specimen",
+      "object": "NB_lime_clast_specimen",
+      "projected_bbox": [
+        458.0808749209447,
+        1132.0000034265227,
+        560.9191269410178,
+        1260.0000013845358
+      ],
+      "triangles": 21132,
+      "hidden_originals": [
+        "C3_arch_building"
+      ],
+      "source_model_sha256": "92df27b46fe1aaf8c36eb2436611a69cf2ce6f851cbe5eef8b41f85babf7e001",
+      "reused_source_objects": [],
+      "visible_gray_copy_groups": [],
+      "illustrative_lime_inclusions": [
+        {
+          "object": "NB_lime_clast_specimen_LIME00",
+          "reused_from": "D2_lime00",
+          "projected_bbox": [
+            468.63701516034985,
+            1177.1172898766345,
+            475.6713074851934,
+            1183.7392587136073
+          ]
+        },
+        {
+          "object": "NB_lime_clast_specimen_LIME01",
+          "reused_from": "D2_lime01",
+          "projected_bbox": [
+            480.47480223657607,
+            1209.4907685513647,
+            491.55857734390423,
+            1219.9734174513155
+          ]
+        },
+        {
+          "object": "NB_lime_clast_specimen_LIME02",
+          "reused_from": "D2_lime02",
+          "projected_bbox": [
+            505.24766864363227,
+            1212.2991855628356,
+            510.3083300216355,
+            1217.0890245546811
+          ]
+        },
+        {
+          "object": "NB_lime_clast_specimen_LIME03",
+          "reused_from": "D2_lime03",
+          "projected_bbox": [
+            496.1412733976772,
+            1186.3185489664818,
+            505.23553290402594,
+            1194.8988098197344
+          ]
+        },
+        {
+          "object": "NB_lime_clast_specimen_LIME04",
+          "reused_from": "D2_lime04",
+          "projected_bbox": [
+            530.0979580418447,
+            1237.5612507050953,
+            536.685945874531,
+            1243.8218590897502
+          ]
+        },
+        {
+          "object": "NB_lime_clast_specimen_LIME05",
+          "reused_from": "D2_lime05",
+          "projected_bbox": [
+            546.1567323251121,
+            1197.1636728755618,
+            555.7432584840185,
+            1206.2363663076148
+          ]
+        }
+      ],
+      "temporary_fit_proxy_removed": false
+    },
+    {
+      "id": "marine_breakwater",
+      "object": "NB_marine_breakwater",
+      "projected_bbox": [
+        397.9999926149728,
+        1523.9272069519782,
+        499.99998679831594,
+        1600.0000190811068
+      ],
+      "triangles": 17330,
+      "hidden_originals": [],
+      "source_model_sha256": "190086f522ab930fb19c320dac826657342b22c966e97c07fd34833e3ee57a2d",
+      "reused_source_objects": [],
+      "visible_gray_copy_groups": [],
+      "illustrative_lime_inclusions": [],
+      "temporary_fit_proxy_removed": false
+    },
+    {
+      "id": "core4_sequence",
+      "object": "NB_core4_sequence",
+      "projected_bbox": [
+        641.9999860270638,
+        1151.1487578071203,
+        810.9999876720907,
+        1226.9999903240798
+      ],
+      "triangles": 770,
+      "hidden_originals": [
+        "C4_crack_repair"
+      ],
+      "source_model_sha256": "eda1280502658cc21e343fa1fde28a5e3521afef173fe2ef888d328d5566525f",
+      "reused_source_objects": [
+        "D4_arrow0",
+        "D4_arrow1",
+        "D4_crack0",
+        "D4_crack1",
+        "D4_crack2",
+        "D4_cube0",
+        "D4_cube1",
+        "D4_cube2",
+        "D4_drop0",
+        "D4_drop1",
+        "D4_drop2",
+        "D4_lime0",
+        "D4_lime1"
+      ],
+      "visible_gray_copy_groups": [
+        "NB_core4_sequence_GRAY00",
+        "NB_core4_sequence_GRAY01",
+        "NB_core4_sequence_GRAY02",
+        "NB_core4_sequence_GRAY03",
+        "NB_core4_sequence_GRAY04"
+      ],
+      "illustrative_lime_inclusions": [],
+      "temporary_fit_proxy_removed": true
+    }
+  ],
+  "dry_run": false,
+  "audit_only": false,
+  "render_passes": {
+    "map_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v2_map_pass.png",
+    "overlay_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v2_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  },
+  "saved_draft": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v2.blend",
+  "source_preserved": true,
+  "original_geometry_transforms_preserved": true,
+  "allowed_visibility_changes": [
+    "C1_pozzolana_quarry",
+    "C3_arch_building",
+    "C4_crack_repair"
+  ]
+}

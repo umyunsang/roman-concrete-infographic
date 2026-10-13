@@ -1,0 +1,25 @@
+23:00:06 | INFO: Data are loaded, start creating Blender stuff
+23:00:06 | INFO: Blender create Mesh node output_unwrapped
+23:00:06 | INFO: glTF import finished in 0.05s
+00:01.162  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/modern_reinforced_cutaway-0.png'
+00:01.248  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/modern_reinforced_cutaway-90.png'
+00:01.329  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/modern_reinforced_cutaway-180.png'
+00:01.404  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/modern_reinforced_cutaway-270.png'
+23:00:07 | INFO: Data are loaded, start creating Blender stuff
+23:00:07 | INFO: Blender create Mesh node output_unwrapped
+23:00:07 | INFO: glTF import finished in 0.03s
+00:01.526  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_lime_clast_cutaway-0.png'
+00:01.597  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_lime_clast_cutaway-90.png'
+00:01.668  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_lime_clast_cutaway-180.png'
+00:01.732  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_lime_clast_cutaway-270.png'
+23:00:07 | INFO: Data are loaded, start creating Blender stuff
+23:00:07 | INFO: Blender create Mesh node output_unwrapped
+23:00:07 | INFO: glTF import finished in 0.04s
+00:01.874  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_marine_breakwater-0.png'
+00:01.948  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_marine_breakwater-90.png'
+00:02.022  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_marine_breakwater-180.png'
+00:02.100  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_marine_breakwater-270.png'
+MODEL_REVIEW_DONE [{"id": "modern_reinforced_cutaway", "triangles": 13585, "render_angles": [0, 90, 180, 270]}, {"id": "roman_lime_clast_cutaway", "triangles": 17044, "render_angles": [0, 90, 180, 270]}, {"id": "roman_marine_breakwater", "triangles": 17330, "render_angles": [0, 90, 180, 270]}]
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

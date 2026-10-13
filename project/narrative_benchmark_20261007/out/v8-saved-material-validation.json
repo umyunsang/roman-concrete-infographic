@@ -1,0 +1,6539 @@
+{
+  "pass": true,
+  "checks": {
+    "fresh_v7_v8_files_opened": true,
+    "exact_317_objects_255_meshes_preserved": true,
+    "all_geometry_basis_parent_inverse_transforms_collections_constraints_camera_visibility_object_colors_preserved": true,
+    "only_applied_material_slots_changed": true,
+    "saved_before_report_exact_match": true,
+    "saved_after_report_exact_match": true,
+    "exact_51_materials_227_assigned_visible_meshes_36_multicolor_meshes": true,
+    "all_reported_face_counts_slot_roles_and_assignment_sha_exact": true,
+    "all_diffuse_and_principled_colors_match_srgb_linear_float32_palette": true,
+    "only_18_reported_shared_mesh_data_isolations": true,
+    "only_workbench_material_scene_shading_change": true,
+    "only_existing_view3d_material_color_changes": true,
+    "v7_source_sha_preserved": true,
+    "canonical_sha_preserved": true
+  },
+  "object_count": 317,
+  "mesh_count": 255,
+  "material_count": 51,
+  "visible_assigned_mesh_count": 227,
+  "multicolor_mesh_count": 36,
+  "shared_data_isolated_count": 18,
+  "shared_data_isolated": [
+    "COL_ruined",
+    "T_pine",
+    "T_pine.001",
+    "T_pine.002",
+    "T_pine.003",
+    "T_pine.004",
+    "T_pine.007",
+    "T_pine.008",
+    "T_pine.009",
+    "T_pine.010",
+    "T_pine.013",
+    "T_pine.014",
+    "T_pine.015",
+    "T_pine.016",
+    "T_pine.017",
+    "T_pine.019",
+    "T_pine.020",
+    "T_pine.021"
+  ],
+  "v7_sha256": "2c22462b8cd9f169f6eb12822befa415c9c42a256eca86ae4e5ead5820d1b4b8",
+  "v8_sha256": "d179c5abdce8a9b0b48cf3f34cad9331b61e048f2e8edef504f430cee172ef3c",
+  "canonical_sha256": "28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3",
+  "scene_changes": [
+    {
+      "path": "shading.color_type",
+      "before": "OBJECT",
+      "after": "MATERIAL"
+    }
+  ],
+  "viewport_changes": [
+    {
+      "path": "Layout/3/0.shading.color_type",
+      "before": "OBJECT",
+      "after": "MATERIAL"
+    },
+    {
+      "path": "Texture Paint/3/0.shading.color_type",
+      "before": "TEXTURE",
+      "after": "MATERIAL"
+    }
+  ],
+  "unexpected_object_changes": [],
+  "unexpected_scene_changes": [],
+  "unexpected_viewport_changes": [],
+  "unexpected_extra_changes": [],
+  "geometry_differences": [],
+  "report_before_mismatches": [],
+  "report_after_mismatches": [],
+  "wrong_applied_materials": [],
+  "unapplied_mesh_changes": [],
+  "material_errors": [],
+  "saved_materials": {
+    "RC.v12.arena_earth": {
+      "role": "arena_earth",
+      "hex": "#B5A07B",
+      "diffuse_color": [
+        0.46207699179649353,
+        0.35153260827064514,
+        0.19806931912899017,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.46207699179649353,
+        0.35153260827064514,
+        0.19806931912899017,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.base": {
+      "role": "base",
+      "hex": "#9FACA6",
+      "diffuse_color": [
+        0.34670406579971313,
+        0.4125426113605499,
+        0.38132601976394653,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.34670406579971313,
+        0.4125426113605499,
+        0.38132601976394653,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.base_badge_1_5": {
+      "role": "base_badge_1_5",
+      "hex": "#365864",
+      "diffuse_color": [
+        0.03688944876194,
+        0.09758734703063965,
+        0.12743768095970154,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.03688944876194,
+        0.09758734703063965,
+        0.12743768095970154,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 6
+    },
+    "RC.v12.base_badge_2": {
+      "role": "base_badge_2",
+      "hex": "#B44327",
+      "diffuse_color": [
+        0.4564110338687897,
+        0.05612849071621895,
+        0.020288562402129173,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.4564110338687897,
+        0.05612849071621895,
+        0.020288562402129173,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.base_badge_3": {
+      "role": "base_badge_3",
+      "hex": "#8C5B2F",
+      "diffuse_color": [
+        0.2622506618499756,
+        0.10461648553609848,
+        0.028426039963960648,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.2622506618499756,
+        0.10461648553609848,
+        0.028426039963960648,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.base_badge_4": {
+      "role": "base_badge_4",
+      "hex": "#206D74",
+      "diffuse_color": [
+        0.014443843625485897,
+        0.15292614698410034,
+        0.17464740574359894,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.014443843625485897,
+        0.15292614698410034,
+        0.17464740574359894,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.base_colosseum": {
+      "role": "base_colosseum",
+      "hex": "#CDA477",
+      "diffuse_color": [
+        0.6104955673217773,
+        0.37123769521713257,
+        0.18447498977184296,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.6104955673217773,
+        0.37123769521713257,
+        0.18447498977184296,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.base_concrete_dense": {
+      "role": "base_concrete_dense",
+      "hex": "#6B6254",
+      "diffuse_color": [
+        0.14702726900577545,
+        0.12213877588510513,
+        0.08865558356046677,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.14702726900577545,
+        0.12213877588510513,
+        0.08865558356046677,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.base_field": {
+      "role": "base_field",
+      "hex": "#C8BBA0",
+      "diffuse_color": [
+        0.577580451965332,
+        0.4969329833984375,
+        0.35153260827064514,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.577580451965332,
+        0.4969329833984375,
+        0.35153260827064514,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.base_header_surface": {
+      "role": "base_header_surface",
+      "hex": "#EADFC8",
+      "diffuse_color": [
+        0.8227857351303101,
+        0.7379103899002075,
+        0.577580451965332,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.8227857351303101,
+        0.7379103899002075,
+        0.577580451965332,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.base_header_trim": {
+      "role": "base_header_trim",
+      "hex": "#D6C09D",
+      "diffuse_color": [
+        0.672443151473999,
+        0.5271151065826416,
+        0.33716362714767456,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.672443151473999,
+        0.5271151065826416,
+        0.33716362714767456,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 8
+    },
+    "RC.v12.base_hot_mixing": {
+      "role": "base_hot_mixing",
+      "hex": "#D15B36",
+      "diffuse_color": [
+        0.637596845626831,
+        0.10461648553609848,
+        0.03688944876194,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.637596845626831,
+        0.10461648553609848,
+        0.03688944876194,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 3
+    },
+    "RC.v12.base_laboratory": {
+      "role": "base_laboratory",
+      "hex": "#527882",
+      "diffuse_color": [
+        0.08437620848417282,
+        0.18782077729701996,
+        0.22322796285152435,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.08437620848417282,
+        0.18782077729701996,
+        0.22322796285152435,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.base_lime_calcium_crystal": {
+      "role": "base_lime_calcium_crystal",
+      "hex": "#FFF4DD",
+      "diffuse_color": [
+        1.0,
+        0.9046611785888672,
+        0.7230551242828369,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        1.0,
+        0.9046611785888672,
+        0.7230551242828369,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 55
+    },
+    "RC.v12.base_lime_specimen_matrix": {
+      "role": "base_lime_specimen_matrix",
+      "hex": "#97614B",
+      "diffuse_color": [
+        0.30946892499923706,
+        0.11953842639923096,
+        0.07036009430885315,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.30946892499923706,
+        0.11953842639923096,
+        0.07036009430885315,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 5
+    },
+    "RC.v12.base_line": {
+      "role": "base_line",
+      "hex": "#6C7465",
+      "diffuse_color": [
+        0.14995978772640228,
+        0.17464740574359894,
+        0.13013647496700287,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.14995978772640228,
+        0.17464740574359894,
+        0.13013647496700287,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 41
+    },
+    "RC.v12.base_modern_concrete": {
+      "role": "base_modern_concrete",
+      "hex": "#657B88",
+      "diffuse_color": [
+        0.13013647496700287,
+        0.19806931912899017,
+        0.2462013214826584,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.13013647496700287,
+        0.19806931912899017,
+        0.2462013214826584,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 6
+    },
+    "RC.v12.base_mountain_volcano": {
+      "role": "base_mountain_volcano",
+      "hex": "#CDC7AE",
+      "diffuse_color": [
+        0.6104955673217773,
+        0.5711248517036438,
+        0.423267662525177,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.6104955673217773,
+        0.5711248517036438,
+        0.423267662525177,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 9
+    },
+    "RC.v12.base_pozzolan": {
+      "role": "base_pozzolan",
+      "hex": "#A4876D",
+      "diffuse_color": [
+        0.37123769521713257,
+        0.24228112399578094,
+        0.15292614698410034,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.37123769521713257,
+        0.24228112399578094,
+        0.15292614698410034,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 4
+    },
+    "RC.v12.base_road_foundation": {
+      "role": "base_road_foundation",
+      "hex": "#C0AF90",
+      "diffuse_color": [
+        0.5271151065826416,
+        0.42869049310684204,
+        0.2788942754268646,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.5271151065826416,
+        0.42869049310684204,
+        0.2788942754268646,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 15
+    },
+    "RC.v12.base_roman_support_stone": {
+      "role": "base_roman_support_stone",
+      "hex": "#D3BE9E",
+      "diffuse_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.base_sea_river": {
+      "role": "base_sea_river",
+      "hex": "#82B9BC",
+      "diffuse_color": [
+        0.22322796285152435,
+        0.48514994978904724,
+        0.5028864741325378,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.22322796285152435,
+        0.48514994978904724,
+        0.5028864741325378,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.base_steel_if_separate": {
+      "role": "base_steel_if_separate",
+      "hex": "#344E5A",
+      "diffuse_color": [
+        0.03433980792760849,
+        0.07618538290262222,
+        0.10224173218011856,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.03433980792760849,
+        0.07618538290262222,
+        0.10224173218011856,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 3
+    },
+    "RC.v12.base_stone_light": {
+      "role": "base_stone_light",
+      "hex": "#EBDDCA",
+      "diffuse_color": [
+        0.8307698965072632,
+        0.7230551242828369,
+        0.5906188488006592,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.8307698965072632,
+        0.7230551242828369,
+        0.5906188488006592,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 3
+    },
+    "RC.v12.base_stone_middle": {
+      "role": "base_stone_middle",
+      "hex": "#B7A584",
+      "diffuse_color": [
+        0.47353148460388184,
+        0.3762621283531189,
+        0.23074005544185638,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.47353148460388184,
+        0.3762621283531189,
+        0.23074005544185638,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 5
+    },
+    "RC.v12.base_terrain": {
+      "role": "base_terrain",
+      "hex": "#EDE1CB",
+      "diffuse_color": [
+        0.8468732237815857,
+        0.7529422044754028,
+        0.5972017645835876,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.8468732237815857,
+        0.7529422044754028,
+        0.5972017645835876,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.base_type_heading": {
+      "role": "base_type_heading",
+      "hex": "#2E2A22",
+      "diffuse_color": [
+        0.027320891618728638,
+        0.023153366521000862,
+        0.01599629409611225,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.027320891618728638,
+        0.023153366521000862,
+        0.01599629409611225,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.base_type_secondary_on_light_ground": {
+      "role": "base_type_secondary_on_light_ground",
+      "hex": "#615A4E",
+      "diffuse_color": [
+        0.11953842639923096,
+        0.10224173218011856,
+        0.07618538290262222,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.11953842639923096,
+        0.10224173218011856,
+        0.07618538290262222,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 5
+    },
+    "RC.v12.base_water_process": {
+      "role": "base_water_process",
+      "hex": "#3F9DAA",
+      "diffuse_color": [
+        0.04970656707882881,
+        0.33716362714767456,
+        0.4019777774810791,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.04970656707882881,
+        0.33716362714767456,
+        0.4019777774810791,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.base_water_wave": {
+      "role": "base_water_wave",
+      "hex": "#D2E8E1",
+      "diffuse_color": [
+        0.6444796919822693,
+        0.8069522380828857,
+        0.7529422044754028,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.6444796919822693,
+        0.8069522380828857,
+        0.7529422044754028,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.basin": {
+      "role": "basin",
+      "hex": "#B9976F",
+      "diffuse_color": [
+        0.48514994978904724,
+        0.30946892499923706,
+        0.15896083414554596,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.48514994978904724,
+        0.30946892499923706,
+        0.15896083414554596,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.cloth": {
+      "role": "cloth",
+      "hex": "#9C5C43",
+      "diffuse_color": [
+        0.3324515223503113,
+        0.10702310502529144,
+        0.05612849071621895,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.3324515223503113,
+        0.10702310502529144,
+        0.05612849071621895,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.colosseum_interior": {
+      "role": "colosseum_interior",
+      "hex": "#B89D78",
+      "diffuse_color": [
+        0.4793201684951782,
+        0.33716362714767456,
+        0.18782077729701996,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.4793201684951782,
+        0.33716362714767456,
+        0.18782077729701996,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.colosseum_wall": {
+      "role": "colosseum_wall",
+      "hex": "#CDA477",
+      "diffuse_color": [
+        0.6104955673217773,
+        0.37123769521713257,
+        0.18447498977184296,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.6104955673217773,
+        0.37123769521713257,
+        0.18447498977184296,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.concrete": {
+      "role": "concrete",
+      "hex": "#B9BEC0",
+      "diffuse_color": [
+        0.48514994978904724,
+        0.5149176716804504,
+        0.5271151065826416,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.48514994978904724,
+        0.5149176716804504,
+        0.5271151065826416,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.foliage": {
+      "role": "foliage",
+      "hex": "#75865C",
+      "diffuse_color": [
+        0.177888423204422,
+        0.23839756846427917,
+        0.10702310502529144,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.177888423204422,
+        0.23839756846427917,
+        0.10702310502529144,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 21
+    },
+    "RC.v12.foliage_light": {
+      "role": "foliage_light",
+      "hex": "#8D9A70",
+      "diffuse_color": [
+        0.26635560393333435,
+        0.32314321398735046,
+        0.16202937066555023,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.26635560393333435,
+        0.32314321398735046,
+        0.16202937066555023,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 20
+    },
+    "RC.v12.glass": {
+      "role": "glass",
+      "hex": "#3F9DAA",
+      "diffuse_color": [
+        0.04970656707882881,
+        0.33716362714767456,
+        0.4019777774810791,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.04970656707882881,
+        0.33716362714767456,
+        0.4019777774810791,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.labstone": {
+      "role": "labstone",
+      "hex": "#B9C7C5",
+      "diffuse_color": [
+        0.48514994978904724,
+        0.5711248517036438,
+        0.5583403706550598,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.48514994978904724,
+        0.5711248517036438,
+        0.5583403706550598,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.linen": {
+      "role": "linen",
+      "hex": "#DED1AF",
+      "diffuse_color": [
+        0.7304607629776001,
+        0.637596845626831,
+        0.42869049310684204,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.7304607629776001,
+        0.637596845626831,
+        0.42869049310684204,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.mixture": {
+      "role": "mixture",
+      "hex": "#8B6950",
+      "diffuse_color": [
+        0.2581828534603119,
+        0.14126329123973846,
+        0.0802198201417923,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.2581828534603119,
+        0.14126329123973846,
+        0.0802198201417923,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.raw_lime": {
+      "role": "raw_lime",
+      "hex": "#FFF4DD",
+      "diffuse_color": [
+        1.0,
+        0.9046611785888672,
+        0.7230551242828369,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        1.0,
+        0.9046611785888672,
+        0.7230551242828369,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.roman_plinth": {
+      "role": "roman_plinth",
+      "hex": "#B5A68B",
+      "diffuse_color": [
+        0.46207699179649353,
+        0.38132601976394653,
+        0.2581828534603119,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.46207699179649353,
+        0.38132601976394653,
+        0.2581828534603119,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 10
+    },
+    "RC.v12.roman_roof": {
+      "role": "roman_roof",
+      "hex": "#A88565",
+      "diffuse_color": [
+        0.3915724754333496,
+        0.2345505803823471,
+        0.13013647496700287,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.3915724754333496,
+        0.2345505803823471,
+        0.13013647496700287,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.roman_stone": {
+      "role": "roman_stone",
+      "hex": "#D3BE9E",
+      "diffuse_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.6514056324958801,
+        0.5149176716804504,
+        0.34191441535949707,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 14
+    },
+    "RC.v12.roof": {
+      "role": "roof",
+      "hex": "#527882",
+      "diffuse_color": [
+        0.08437620848417282,
+        0.18782077729701996,
+        0.22322796285152435,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.08437620848417282,
+        0.18782077729701996,
+        0.22322796285152435,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.skin": {
+      "role": "skin",
+      "hex": "#C99C78",
+      "diffuse_color": [
+        0.5840784311294556,
+        0.3324515223503113,
+        0.18782077729701996,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.5840784311294556,
+        0.3324515223503113,
+        0.18782077729701996,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.steel": {
+      "role": "steel",
+      "hex": "#344E5A",
+      "diffuse_color": [
+        0.03433980792760849,
+        0.07618538290262222,
+        0.10224173218011856,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.03433980792760849,
+        0.07618538290262222,
+        0.10224173218011856,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.toolmetal": {
+      "role": "toolmetal",
+      "hex": "#526873",
+      "diffuse_color": [
+        0.08437620848417282,
+        0.1384316086769104,
+        0.17144110798835754,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.08437620848417282,
+        0.1384316086769104,
+        0.17144110798835754,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 1
+    },
+    "RC.v12.toolwood": {
+      "role": "toolwood",
+      "hex": "#8D6C49",
+      "diffuse_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 2
+    },
+    "RC.v12.trunk": {
+      "role": "trunk",
+      "hex": "#8D6C49",
+      "diffuse_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ],
+      "use_nodes": true,
+      "roughness": 0.8500000238418579,
+      "principled_base_color": [
+        0.26635560393333435,
+        0.14995978772640228,
+        0.0666259378194809,
+        1.0
+      ],
+      "principled_roughness": 0.8500000238418579,
+      "users": 20
+    }
+  },
+  "saved_object_material_assignments": {
+    "B_pons1": {
+      "data_name": "B_pons1",
+      "vertices": 162,
+      "edges": 243,
+      "loops": 486,
+      "polygons": 91,
+      "geometry_sha256": "1f2ff8e95ddbe6e0dcb26d55be8f66ca7f88de158a8e1850afa3538b8845073f",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 91
+      },
+      "assignment_sha256": "0ae124b1e64802cd478b1a5233f6d6a808c08cb5e512139dc8ef6c96eb0b1330",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "B_pons1_parapet0": {
+      "data_name": "B_pons1_parapet0",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "ae86b9f12bf0c817ab6520510d25e1dbd29412184ce6e8aa1b0fe0cc57076923",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "B_pons1_parapet1": {
+      "data_name": "B_pons1_parapet1",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "dd75e9fafcdba2902c97f92044bf53648d69ee4c592e1ef6b78bd9c8ea5373ba",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "B_pons2": {
+      "data_name": "B_pons2",
+      "vertices": 162,
+      "edges": 243,
+      "loops": 486,
+      "polygons": 91,
+      "geometry_sha256": "71eeb38522ef9f528834e5ba0f7bdfc3e6df8c019bf94222f3b0b810848648d0",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 91
+      },
+      "assignment_sha256": "0ae124b1e64802cd478b1a5233f6d6a808c08cb5e512139dc8ef6c96eb0b1330",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "B_pons2_parapet0": {
+      "data_name": "B_pons2_parapet0",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "1e8d505306d8b44215642076956f0dbd45784c72d8dd232df46445bd2cb53023",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "B_pons2_parapet1": {
+      "data_name": "B_pons2_parapet1",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "e97f804aafe1366800737c713d1912a7939e36d92e4791a6c46e1c3f87873fbf",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "C2_hot_mixing": {
+      "data_name": "Mesh_0.005",
+      "vertices": 40541,
+      "edges": 43972,
+      "loops": 47403,
+      "polygons": 15801,
+      "geometry_sha256": "a2e4ca97b530c1dc283c86bddc95aed28b876f1b1552e15470f5858e9d2b59fa",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.mixture",
+        "RC.v12.toolwood",
+        "RC.v12.basin",
+        "RC.v12.skin",
+        "RC.v12.cloth",
+        "RC.v12.linen"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "mixture",
+        "toolwood",
+        "basin",
+        "skin",
+        "cloth",
+        "linen"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_stone": 6462,
+        "mixture": 2256,
+        "toolwood": 294,
+        "basin": 1512,
+        "skin": 1825,
+        "cloth": 1086,
+        "linen": 2366
+      },
+      "assignment_sha256": "fc478d7a2e544bbf225358464fdbe8ec4322d456b206a396bbcf7845d1d5ad33",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "C5_researchers": {
+      "data_name": "Mesh_0.004",
+      "vertices": 41601,
+      "edges": 44520,
+      "loops": 47439,
+      "polygons": 15813,
+      "geometry_sha256": "a24110ce2f7fee3320ca457b0e8fa16d5da6b84b97e268df569c31d6090ed170",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.linen",
+        "RC.v12.skin",
+        "RC.v12.cloth",
+        "RC.v12.toolmetal"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "linen",
+        "skin",
+        "cloth",
+        "toolmetal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_stone": 13078,
+        "linen": 1690,
+        "skin": 245,
+        "cloth": 387,
+        "toolmetal": 413
+      },
+      "assignment_sha256": "3705f6bfb8c444d8b966ce68ab81165dd6c1f1ba6969b0475a8021ce5fb56bc9",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "COL_ruined": {
+      "data_name": "COL_ruined_raw.001",
+      "vertices": 99207,
+      "edges": 297569,
+      "loops": 593418,
+      "polygons": 197806,
+      "geometry_sha256": "a93e2e10a7114fa16fad34ab426aaab3b9293a6595c1decf58ea72a5ecb245c2",
+      "material_names": [
+        "RC.v12.colosseum_wall",
+        "RC.v12.colosseum_interior",
+        "RC.v12.arena_earth"
+      ],
+      "material_roles": [
+        "colosseum_wall",
+        "colosseum_interior",
+        "arena_earth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "colosseum_interior": 75856,
+        "arena_earth": 10545,
+        "colosseum_wall": 111405
+      },
+      "assignment_sha256": "7d0649e3e160c13c126424d57bf7132afae8e46363c8ff6ef0b379cb0026addd",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_concrete": {
+      "data_name": "Cube.006",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "ebe047a1dc88c5ee1d085a55fc59e540fb8bf94bf0414ffca094f6c177f936a6",
+      "material_names": [
+        "RC.v12.base_lime_specimen_matrix"
+      ],
+      "material_roles": [
+        "base_lime_specimen_matrix"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_specimen_matrix": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal00": {
+      "data_name": "Cylinder",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "b62267296c597d01b99d3587dbebf1f45819ea9c6468bf104add9e169d2b8059",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal01": {
+      "data_name": "Cylinder.001",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "caad1f58893c8cd0c11e2e8f1023a38da5aa5c3e8cf201e39f3a0b94ae4b2f91",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal02": {
+      "data_name": "Cylinder.002",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "1c6a2ab673963abc7635f1ed91e89a2a8383a826963e35d2dfac854538fd9b31",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal03": {
+      "data_name": "Cylinder.003",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "e189960faa61eb5fe1675d3e712a6fe4c2957fd939524608f3090e732e3b7468",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal04": {
+      "data_name": "Cylinder.004",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "08c667607666234207808bf4a3246814ba33013ea46c2a4791e98f2504082914",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal05": {
+      "data_name": "Cylinder.005",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "d4dd64d7053c87e1e21bce33c44f339b0e52c6323cc60a0785deb10a0dd18ae2",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal06": {
+      "data_name": "Cylinder.006",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "746ab295da997025de7f4bfa7621b912b8a02a52f537dbd1b86e4dcd1f9019af",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal07": {
+      "data_name": "Cylinder.007",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "730829c7fb3d5300f92a86dcb8ab98ca62c448f83dd2c20d35c39e906eed4585",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal08": {
+      "data_name": "Cylinder.008",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "27686c0ede4cd60ffb0d34722e837fbc30dd5b4da4eae9ee9a80cf473228e830",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal09": {
+      "data_name": "Cylinder.009",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "17502d78f0ae10e6fe025cdd5647c2edfa1a412c61c984e0fed84ba771e84386",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal10": {
+      "data_name": "Cylinder.010",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "29e57f45ca73ec4ee0ad896de917e36c20edc9e1618244910fe5a1361f7add6a",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal11": {
+      "data_name": "Cylinder.011",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "82938025f27e345237d725dd3aa0ac31cb2982a1d65fe62d507bd78638ceecdf",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal12": {
+      "data_name": "Cylinder.012",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "63b8e5fb5833ff4b0a063f6f40b3a08b92cbb2aee3bb5a1e8b1b8445c1e3adb1",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal13": {
+      "data_name": "Cylinder.013",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "3177c90815fb71e7493ae9746135891120e3eb230bfb2e125cea12c9acb7d249",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal14": {
+      "data_name": "Cylinder.014",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "d56a61597f8861c415afbca53a72e3a7976d120c9757a1ea6ed7d8a07a6ecd8f",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal15": {
+      "data_name": "Cylinder.015",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "a6db70cfd6921ac963082f36e4e0efc775a5721d20e3b0f22be602bcdd0942eb",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal16": {
+      "data_name": "Cylinder.016",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "5fd145e8d3bb7d828afb2d0e82825585df76704d14fe364a2f1097ddc6e00968",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal17": {
+      "data_name": "Cylinder.017",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "fe261e6acb61e883551f20836bea0ed8bbc4f995a803eb42b067c080405a8717",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal18": {
+      "data_name": "Cylinder.018",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "a3a617ed181753a57ae9a837e2b68f2c6b107d36877a085ed50633e16bc10a3b",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal19": {
+      "data_name": "Cylinder.019",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "6e39e4aac00e883167a904239f951baba68ac4b396d1d3627b41b93308924bac",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal20": {
+      "data_name": "Cylinder.020",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "72c79b27b5bd588ea8be73c1d9eb69154549a22fdb9f0a120089ac8688d1d3f3",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal21": {
+      "data_name": "Cylinder.021",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "88a4e06abc56a6ccdf63a6297448d7a1981f221d7ac70b6d3ddc1c716c3018a6",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal22": {
+      "data_name": "Cylinder.022",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "6ed5c2f00ea8972f8230efd2f10cf8a98b4f25ec43112d447812ef678de8ae26",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal23": {
+      "data_name": "Cylinder.023",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "b25a5dbc41d1a6b6cdcb30d64c0f6b04833a5c0b35a38521099f12c1e5ae12c7",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal24": {
+      "data_name": "Cylinder.024",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "ca258da8f60c5806cfe9fef794868ae100783cdccfff91258b78a07e710da9fb",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_crystal25": {
+      "data_name": "Cylinder.025",
+      "vertices": 12,
+      "edges": 18,
+      "loops": 36,
+      "polygons": 8,
+      "geometry_sha256": "b21e6375212d035afea790508a451879ac162b602d5f2fc8ce5d5a2efa86a61a",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 8
+      },
+      "assignment_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_seawater": {
+      "data_name": "Cube.005",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "83654686f10712c96b9fe3ec46d3d766e2785166fb385c9a0c27444ab6205981",
+      "material_names": [
+        "RC.v12.base_water_process"
+      ],
+      "material_roles": [
+        "base_water_process"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_water_process": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_tank_floor": {
+      "data_name": "Cube",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "627df0ee4a0a5dda6adf57a5642727fb627a5ca3f609eda21cde8249733e7bec",
+      "material_names": [
+        "RC.v12.base_modern_concrete"
+      ],
+      "material_roles": [
+        "base_modern_concrete"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_modern_concrete": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_tank_wall0": {
+      "data_name": "Cube.001",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "c98082f3ab8f769e0e52c16651f5a0f67771d85ed0463132a596b6557fc244fc",
+      "material_names": [
+        "RC.v12.base_modern_concrete"
+      ],
+      "material_roles": [
+        "base_modern_concrete"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_modern_concrete": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_tank_wall1": {
+      "data_name": "Cube.002",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "c98082f3ab8f769e0e52c16651f5a0f67771d85ed0463132a596b6557fc244fc",
+      "material_names": [
+        "RC.v12.base_modern_concrete"
+      ],
+      "material_roles": [
+        "base_modern_concrete"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_modern_concrete": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_tank_wall2": {
+      "data_name": "Cube.003",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "8c9012560179b011dad96fdf089088d95615c3547cf9c00c38f5c8d02a18d026",
+      "material_names": [
+        "RC.v12.base_modern_concrete"
+      ],
+      "material_roles": [
+        "base_modern_concrete"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_modern_concrete": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D1_tank_wall3": {
+      "data_name": "Cube.004",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "8c9012560179b011dad96fdf089088d95615c3547cf9c00c38f5c8d02a18d026",
+      "material_names": [
+        "RC.v12.base_modern_concrete"
+      ],
+      "material_roles": [
+        "base_modern_concrete"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_modern_concrete": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_cube": {
+      "data_name": "Cube.007",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "3b20f91fd691649d69bd91be187a4d1056f1f695089df6d4b0a1235185ae13dc",
+      "material_names": [
+        "RC.v12.base_lime_specimen_matrix"
+      ],
+      "material_roles": [
+        "base_lime_specimen_matrix"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_specimen_matrix": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_heat0": {
+      "data_name": "D2_heat0",
+      "vertices": 144,
+      "edges": 282,
+      "loops": 552,
+      "polygons": 138,
+      "geometry_sha256": "0af195431ef42ff85660c89439bc4b2b3bb1488475f4ddf0423fe2dae43944d1",
+      "material_names": [
+        "RC.v12.base_hot_mixing"
+      ],
+      "material_roles": [
+        "base_hot_mixing"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_hot_mixing": 138
+      },
+      "assignment_sha256": "d489001ff88ed206b56f44bd0789a8332510f33bf40a312a7b2e5d60c3fe3e03",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_heat1": {
+      "data_name": "D2_heat1",
+      "vertices": 144,
+      "edges": 282,
+      "loops": 552,
+      "polygons": 138,
+      "geometry_sha256": "3053a184e3111cdc7b7847797ead00b7950e3f2c03f555dda0e572eee1d4bd74",
+      "material_names": [
+        "RC.v12.base_hot_mixing"
+      ],
+      "material_roles": [
+        "base_hot_mixing"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_hot_mixing": 138
+      },
+      "assignment_sha256": "d489001ff88ed206b56f44bd0789a8332510f33bf40a312a7b2e5d60c3fe3e03",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_heat2": {
+      "data_name": "D2_heat2",
+      "vertices": 144,
+      "edges": 282,
+      "loops": 552,
+      "polygons": 138,
+      "geometry_sha256": "afb4caf2881e7351bccf2b31f29b0e00d42580382952312e4f7c5143ffc35a68",
+      "material_names": [
+        "RC.v12.base_hot_mixing"
+      ],
+      "material_roles": [
+        "base_hot_mixing"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_hot_mixing": 138
+      },
+      "assignment_sha256": "d489001ff88ed206b56f44bd0789a8332510f33bf40a312a7b2e5d60c3fe3e03",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime00": {
+      "data_name": "Icosphere",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "24af60cd7327663d3d25f8f5c3dc33f75a47ad804d3138580840452a5ee4d0c4",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime01": {
+      "data_name": "Icosphere.001",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "f432bc098cd0cffc3d9ba45a67aff5d9af2bffbba4d7e26f6bbde7d1c77d909d",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime02": {
+      "data_name": "Icosphere.002",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "ff75e1459da5a8173963e59b6e0f15a5cdde600e27f48d6d670691a3eb3515f5",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime03": {
+      "data_name": "Icosphere.003",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "248e1fa1420870e03fd457b8233366e50d1f337f32c8525b8ef50ecf771f44f9",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime04": {
+      "data_name": "Icosphere.004",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "4e101cdd99df6f41acbdc6179d4592079daa1e3055d9e119ac0f4e3ce39f5b7f",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime05": {
+      "data_name": "Icosphere.005",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "14a2a1356544b583de781a4d0b5781440b31aa01dcb5d934f0202e43b3ceca6b",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime06": {
+      "data_name": "Icosphere.006",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "d093879aacef987d23630cc1b91c443f8d03e9df5944250f196b8394451d2333",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime07": {
+      "data_name": "Icosphere.007",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "0e88c57bf4a21da7239118b51d3f6bdf9be1607d479b96178dbe89286a3ba394",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime08": {
+      "data_name": "Icosphere.008",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "6fbf719984bbbc70aef3d63b65a9890ec5e6cbd083096d3a71f1b762cbdec7be",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime09": {
+      "data_name": "Icosphere.009",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "4cc387b87c580907b50fa6b16632f541301c5138ba02b71c791f2709beec84a2",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime10": {
+      "data_name": "Icosphere.010",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "b2ba25447070d0aabc89068d65824b4ded85d8ff28de0fc15fed60a5a2e2a1de",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime11": {
+      "data_name": "Icosphere.011",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "642753c80eec7840e6a8ce78b5255e9efd5cd2a5d8c2a72f2ab1c43912fd0cd7",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime12": {
+      "data_name": "Icosphere.012",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "c559262d42e087645592c57308c9ce28a5710c25fc59827c18ca29f59c7aa18f",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime13": {
+      "data_name": "Icosphere.013",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "f1791241ea9b2efa574f109ed67fe077917bac40f4e65ddd590f582eda1d4b3d",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime14": {
+      "data_name": "Icosphere.014",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "91bdfc2fcddb812a63294effdcc4b4066111287be2cc96b6973518122b248d50",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime15": {
+      "data_name": "Icosphere.015",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "aaa5dea5428e5e11a7bb93d074647800f7c4d39c15ce0267d8f0199939eaf0f2",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D2_lime_kiln": {
+      "data_name": "output_unwrapped.004",
+      "vertices": 4442,
+      "edges": 10934,
+      "loops": 21868,
+      "polygons": 6494,
+      "geometry_sha256": "377d9bd7686a87065a2e91d6479a1b010557353a966754253e13db28960b086c",
+      "material_names": [
+        "RC.v12.base_roman_support_stone"
+      ],
+      "material_roles": [
+        "base_roman_support_stone"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_roman_support_stone": 6494
+      },
+      "assignment_sha256": "2271b43c2d671ec9b9964c694b29ca02acc687c256c95e741275cc3469db4675",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_brick_course1": {
+      "data_name": "Cube.012",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "6a4780bf8077d61729b227d5255a9bed2a9e48045abe00f033cf676bdeaaf171",
+      "material_names": [
+        "RC.v12.base_pozzolan"
+      ],
+      "material_roles": [
+        "base_pozzolan"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_pozzolan": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_brick_course2": {
+      "data_name": "Cube.013",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "6a4780bf8077d61729b227d5255a9bed2a9e48045abe00f033cf676bdeaaf171",
+      "material_names": [
+        "RC.v12.base_pozzolan"
+      ],
+      "material_roles": [
+        "base_pozzolan"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_pozzolan": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_brick_course3": {
+      "data_name": "Cube.014",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "6a4780bf8077d61729b227d5255a9bed2a9e48045abe00f033cf676bdeaaf171",
+      "material_names": [
+        "RC.v12.base_pozzolan"
+      ],
+      "material_roles": [
+        "base_pozzolan"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_pozzolan": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_foundation": {
+      "data_name": "Cube.008",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "59c509e0f206b013dc594ccac189b83d193a6e17a5789045cd8eb0cabbe42c3a",
+      "material_names": [
+        "RC.v12.base_concrete_dense"
+      ],
+      "material_roles": [
+        "base_concrete_dense"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_concrete_dense": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_heavy": {
+      "data_name": "Cube.009",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "b193df274c06cc6d10e30f8078470e855553b6ce8177f8894c8593fa65f6bf9b",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_light": {
+      "data_name": "Cube.011",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "9f89f69c465129e43439d96d163ae150a3fb90d3c68c6454d762f9f9a7f41305",
+      "material_names": [
+        "RC.v12.base_stone_light"
+      ],
+      "material_roles": [
+        "base_stone_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_stone_light": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_middle": {
+      "data_name": "Cube.010",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "b954ab65ee2b74149b354156f4a0c35f68cdeb21baee0e8a69640167a2ce0550",
+      "material_names": [
+        "RC.v12.base_stone_middle"
+      ],
+      "material_roles": [
+        "base_stone_middle"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_stone_middle": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_press0": {
+      "data_name": "Cylinder.026",
+      "vertices": 24,
+      "edges": 36,
+      "loops": 72,
+      "polygons": 14,
+      "geometry_sha256": "b327aac647b4aac5802ebfc290f2a0e9a6fd0b2352b1a5c1146fe31254b823dc",
+      "material_names": [
+        "RC.v12.base_type_secondary_on_light_ground"
+      ],
+      "material_roles": [
+        "base_type_secondary_on_light_ground"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_type_secondary_on_light_ground": 14
+      },
+      "assignment_sha256": "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_press1": {
+      "data_name": "Cylinder.027",
+      "vertices": 24,
+      "edges": 36,
+      "loops": 72,
+      "polygons": 14,
+      "geometry_sha256": "b327aac647b4aac5802ebfc290f2a0e9a6fd0b2352b1a5c1146fe31254b823dc",
+      "material_names": [
+        "RC.v12.base_type_secondary_on_light_ground"
+      ],
+      "material_roles": [
+        "base_type_secondary_on_light_ground"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_type_secondary_on_light_ground": 14
+      },
+      "assignment_sha256": "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_press_tip0": {
+      "data_name": "Cone",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 48,
+      "polygons": 13,
+      "geometry_sha256": "158cb2696195971a209a0b93cae4e1450fa4cd698f88ca3a338b17bc24afb787",
+      "material_names": [
+        "RC.v12.base_type_secondary_on_light_ground"
+      ],
+      "material_roles": [
+        "base_type_secondary_on_light_ground"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_type_secondary_on_light_ground": 13
+      },
+      "assignment_sha256": "659d36ca563ba4622daabb36a71dafaf6060cdcbf89bb12e75426198496d272c",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "D3_press_tip1": {
+      "data_name": "Cone.001",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 48,
+      "polygons": 13,
+      "geometry_sha256": "158cb2696195971a209a0b93cae4e1450fa4cd698f88ca3a338b17bc24afb787",
+      "material_names": [
+        "RC.v12.base_type_secondary_on_light_ground"
+      ],
+      "material_roles": [
+        "base_type_secondary_on_light_ground"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_type_secondary_on_light_ground": 13
+      },
+      "assignment_sha256": "659d36ca563ba4622daabb36a71dafaf6060cdcbf89bb12e75426198496d272c",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "F_centuriatio": {
+      "data_name": "F_centuriatio.001",
+      "vertices": 29882,
+      "edges": 53057,
+      "loops": 90514,
+      "polygons": 24922,
+      "geometry_sha256": "18208effc51188a5fad854388721ecab57824ba04b53b15a7b08f47bee5475e5",
+      "material_names": [
+        "RC.v12.base_field"
+      ],
+      "material_roles": [
+        "base_field"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_field": 24922
+      },
+      "assignment_sha256": "365d8c2160bed6c441909713e2aa5801a3963bbf1ff0b2901eb4013e1745981b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_ash_pile": {
+      "data_name": "Cone.007",
+      "vertices": 1121,
+      "edges": 3080,
+      "loops": 6160,
+      "polygons": 1961,
+      "geometry_sha256": "898ec40ffa06f35e10d337dc729c6aee91da599d2c22244ad072444a003bff57",
+      "material_names": [
+        "RC.v12.base_pozzolan"
+      ],
+      "material_roles": [
+        "base_pozzolan"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_pozzolan": 1961
+      },
+      "assignment_sha256": "01c3d6fa2a2067dfdad66fddede7e3d20960980c2bfde4d9d2a4bce73da5af62",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_book1": {
+      "data_name": "Cube.090",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "d039f18a56f03a8dfc5b05f1a749023c52ae648d99221b0177b20cff3d4ea0fd",
+      "material_names": [
+        "RC.v12.base_laboratory"
+      ],
+      "material_roles": [
+        "base_laboratory"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_laboratory": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_book1_pages": {
+      "data_name": "Cube.092",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "cc4ec4cf64d8f1fcca2f45104cb6b312a7d7effa7380a1fc82d652deecfea337",
+      "material_names": [
+        "RC.v12.base_stone_light"
+      ],
+      "material_roles": [
+        "base_stone_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_stone_light": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_book2": {
+      "data_name": "Cube.091",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "003fa6da50afe488cc79b16fec72daab9b05e0555e64058c425344546145bf83",
+      "material_names": [
+        "RC.v12.base_laboratory"
+      ],
+      "material_roles": [
+        "base_laboratory"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_laboratory": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_colosseum_mini": {
+      "data_name": "COL_ruined_raw",
+      "vertices": 99207,
+      "edges": 297569,
+      "loops": 593418,
+      "polygons": 197806,
+      "geometry_sha256": "a93e2e10a7114fa16fad34ab426aaab3b9293a6595c1decf58ea72a5ecb245c2",
+      "material_names": [
+        "RC.v12.base_colosseum"
+      ],
+      "material_roles": [
+        "base_colosseum"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_colosseum": 197806
+      },
+      "assignment_sha256": "555a590aedf07aa6b6a684cf0b5652376cb456bf787f95d7612272216c2f65ee",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_core_band0": {
+      "data_name": "Torus.008",
+      "vertices": 576,
+      "edges": 1152,
+      "loops": 2304,
+      "polygons": 576,
+      "geometry_sha256": "fbce6a595847b2361a999db1cf6cf9094aaefaf0238f68a8c2e96eeb080829bc",
+      "material_names": [
+        "RC.v12.base_steel_if_separate"
+      ],
+      "material_roles": [
+        "base_steel_if_separate"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_steel_if_separate": 576
+      },
+      "assignment_sha256": "4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_core_band1": {
+      "data_name": "Torus.009",
+      "vertices": 576,
+      "edges": 1152,
+      "loops": 2304,
+      "polygons": 576,
+      "geometry_sha256": "fbce6a595847b2361a999db1cf6cf9094aaefaf0238f68a8c2e96eeb080829bc",
+      "material_names": [
+        "RC.v12.base_steel_if_separate"
+      ],
+      "material_roles": [
+        "base_steel_if_separate"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_steel_if_separate": 576
+      },
+      "assignment_sha256": "4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_core_band2": {
+      "data_name": "Torus.010",
+      "vertices": 576,
+      "edges": 1152,
+      "loops": 2304,
+      "polygons": 576,
+      "geometry_sha256": "fbce6a595847b2361a999db1cf6cf9094aaefaf0238f68a8c2e96eeb080829bc",
+      "material_names": [
+        "RC.v12.base_steel_if_separate"
+      ],
+      "material_roles": [
+        "base_steel_if_separate"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_steel_if_separate": 576
+      },
+      "assignment_sha256": "4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_core_sample": {
+      "data_name": "Cylinder.041",
+      "vertices": 80,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 42,
+      "geometry_sha256": "e53a85068993ff8edc76d0a094f6ec72347af8b405eac0ec4c174aedb1a7b130",
+      "material_names": [
+        "RC.v12.base_modern_concrete"
+      ],
+      "material_roles": [
+        "base_modern_concrete"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_modern_concrete": 42
+      },
+      "assignment_sha256": "4fea5e6a3ec5f5474a26d858bc77b6d7bd3ab864ea02d988683fdc648602b248",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_base": {
+      "data_name": "Cube.076",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "108a096eec63a1a3a477417084e55ccc9c73ea2d31d9501a43d30aea48a83ec5",
+      "material_names": [
+        "RC.v12.base_header_trim"
+      ],
+      "material_roles": [
+        "base_header_trim"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_trim": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_body": {
+      "data_name": "Cube.067",
+      "vertices": 286,
+      "edges": 463,
+      "loops": 926,
+      "polygons": 179,
+      "geometry_sha256": "c9204d06c482c2c5b01f9022364e03a19f041c1df369a2d3020acb6fbd74935b",
+      "material_names": [
+        "RC.v12.base_header_surface"
+      ],
+      "material_roles": [
+        "base_header_surface"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_surface": 179
+      },
+      "assignment_sha256": "09e7685da39962d29ccd545f78601cf4a6d016216eb0b60f3d6dda0e25ac1f8d",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_cornice146": {
+      "data_name": "Cube.075",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "f903bf3930aac013a14a8f90713fcfe6512f92bfe5ec4ea128073e64f7f5b3cb",
+      "material_names": [
+        "RC.v12.base_header_trim"
+      ],
+      "material_roles": [
+        "base_header_trim"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_trim": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_cornice238": {
+      "data_name": "Cube.074",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "ca5190a23a9abe3d4e27d7628d6a9aeba6bcacc3be7695e2f8b04c9ac47e4443",
+      "material_names": [
+        "RC.v12.base_header_trim"
+      ],
+      "material_roles": [
+        "base_header_trim"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_trim": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_keystone": {
+      "data_name": "Cube.081",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "a9900dd02817feecb91e6baf11a1217b590350276be29d46aca494642ec43135",
+      "material_names": [
+        "RC.v12.base_header_trim"
+      ],
+      "material_roles": [
+        "base_header_trim"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_trim": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_pilaster-24": {
+      "data_name": "Cube.078",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "e0e6dedb9e83352b53cf2f1df3b6db8f7cbba5a31617eed26e0d2b3d5b4a0fc8",
+      "material_names": [
+        "RC.v12.base_header_trim"
+      ],
+      "material_roles": [
+        "base_header_trim"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_trim": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_pilaster-45": {
+      "data_name": "Cube.077",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "8b0ce423d5ab2f002cdd153e70706aa2b9321030db93aa6c4e0f4cc8e25db458",
+      "material_names": [
+        "RC.v12.base_header_trim"
+      ],
+      "material_roles": [
+        "base_header_trim"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_trim": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_pilaster24": {
+      "data_name": "Cube.079",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "43403a7688031c31d92b02c5ae697e629eb1ce9dac9bda15d3840eaa638b096f",
+      "material_names": [
+        "RC.v12.base_header_trim"
+      ],
+      "material_roles": [
+        "base_header_trim"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_trim": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_gate_pilaster45": {
+      "data_name": "Cube.080",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "b1894173b06d0c2d180f0a962d1a40dd74eb14242e7556fc66ef6f24d9860379",
+      "material_names": [
+        "RC.v12.base_header_trim"
+      ],
+      "material_roles": [
+        "base_header_trim"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_header_trim": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_lens_handle": {
+      "data_name": "Cylinder.042",
+      "vertices": 24,
+      "edges": 36,
+      "loops": 72,
+      "polygons": 14,
+      "geometry_sha256": "102f902d1c5a74e9f1782f51322b1165460fa99013114fb5376448021e77655d",
+      "material_names": [
+        "RC.v12.base_badge_1_5"
+      ],
+      "material_roles": [
+        "base_badge_1_5"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_1_5": 14
+      },
+      "assignment_sha256": "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_lens_ring": {
+      "data_name": "Torus.011",
+      "vertices": 576,
+      "edges": 1152,
+      "loops": 2304,
+      "polygons": 576,
+      "geometry_sha256": "dd246c9ec0ae9e3bea11ac3127cdd95c164dd348b1c932f878cacfff2df50202",
+      "material_names": [
+        "RC.v12.base_badge_1_5"
+      ],
+      "material_roles": [
+        "base_badge_1_5"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_1_5": 576
+      },
+      "assignment_sha256": "4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_lime_pile": {
+      "data_name": "Cone.006",
+      "vertices": 1121,
+      "edges": 3080,
+      "loops": 6160,
+      "polygons": 1961,
+      "geometry_sha256": "d19a65eb3516775670a77c78686f0c97b8753e6ea31853a543e04a8c99073b1f",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 1961
+      },
+      "assignment_sha256": "01c3d6fa2a2067dfdad66fddede7e3d20960980c2bfde4d9d2a4bce73da5af62",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_box": {
+      "data_name": "Cube.085",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "e23d543b4c318c42f8ba590fbded39790d10c33f9775205866683e500f798da0",
+      "material_names": [
+        "RC.v12.base_lime_specimen_matrix"
+      ],
+      "material_roles": [
+        "base_lime_specimen_matrix"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_specimen_matrix": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_lime0": {
+      "data_name": "Icosphere.031",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "dd9c7c98e6dcaac8e5dd894f9d3f2bafbbef1399b03695b79a57701e334a01f4",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_lime1": {
+      "data_name": "Icosphere.032",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "dd9c7c98e6dcaac8e5dd894f9d3f2bafbbef1399b03695b79a57701e334a01f4",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_lime2": {
+      "data_name": "Icosphere.033",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "dd9c7c98e6dcaac8e5dd894f9d3f2bafbbef1399b03695b79a57701e334a01f4",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_lime3": {
+      "data_name": "Icosphere.034",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "dd9c7c98e6dcaac8e5dd894f9d3f2bafbbef1399b03695b79a57701e334a01f4",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_lime4": {
+      "data_name": "Icosphere.035",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "dd9c7c98e6dcaac8e5dd894f9d3f2bafbbef1399b03695b79a57701e334a01f4",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_plank0": {
+      "data_name": "Cube.086",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "9b3032f3fbc34c5ac4192dcec550b95486d3bd9f09fbecccb3de5d2470949c54",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_plank1": {
+      "data_name": "Cube.087",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "10ebec6e46fe1dd813dc8fba6e897d875bc3cad2e40cc3354b0eb9aec3c2bbc2",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_plank2": {
+      "data_name": "Cube.088",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "af47b5322c6d45c86c8d574931e9b1a9a5203740a97d501ed5c7ce10df7f5f2c",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_mold_plank3": {
+      "data_name": "Cube.089",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "4956923660dfb26591970aea0f113f4a7fdb125d4830bb55e2fefa5937757045",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_stone0": {
+      "data_name": "Cube.082",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "66e80943029123766189c16e170de18d3255ea7af07e0b5ce998f8a6480d9faf",
+      "material_names": [
+        "RC.v12.base_stone_middle"
+      ],
+      "material_roles": [
+        "base_stone_middle"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_stone_middle": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_stone1": {
+      "data_name": "Cube.083",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "0fce7df4a25ab38241debe2f661403ce7e3200227819dc79d67139047adc2368",
+      "material_names": [
+        "RC.v12.base_stone_middle"
+      ],
+      "material_roles": [
+        "base_stone_middle"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_stone_middle": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "H_stone2": {
+      "data_name": "Cube.084",
+      "vertices": 8,
+      "edges": 12,
+      "loops": 24,
+      "polygons": 6,
+      "geometry_sha256": "eb16027f31cd77842f1b303581d6736daf99ae431f9088d836736fd546113c91",
+      "material_names": [
+        "RC.v12.base_stone_middle"
+      ],
+      "material_roles": [
+        "base_stone_middle"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_stone_middle": 6
+      },
+      "assignment_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L01_autore": {
+      "data_name": "L01_autore",
+      "vertices": 6594,
+      "edges": 19339,
+      "loops": 38238,
+      "polygons": 12746,
+      "geometry_sha256": "fff421248adf418f110bcb8b98692ab763f06cdfdded6e888cfc0b722bc47c91",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 12746
+      },
+      "assignment_sha256": "e2e0b07e07328b5cf499d6b53e2456585405faf116e55b7ba3d9e0c8864ce281",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L01_corno_grande": {
+      "data_name": "L01_corno_grande",
+      "vertices": 8030,
+      "edges": 23626,
+      "loops": 46791,
+      "polygons": 15597,
+      "geometry_sha256": "8c5b9bf9945030e2b8cb5de1e49cc0281c319510994d1d9121207aef2b61d540",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 15597
+      },
+      "assignment_sha256": "7db516c1498f0282e27393cba77be505e4b76d392f9ec484f71a5380ff1f6f69",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L01_gennaro": {
+      "data_name": "L01_gennaro",
+      "vertices": 9173,
+      "edges": 27015,
+      "loops": 53529,
+      "polygons": 17843,
+      "geometry_sha256": "8adca26d0d86d8adaa2fc7e7f63aa3d903eaaf619248f98c114ab0b1979f85b7",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 17843
+      },
+      "assignment_sha256": "f961cca337d998ef0dff4f4c0e5ac10b462e9ed61f54ccf336e3d475091be5a8",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L01_terminillo": {
+      "data_name": "L01_terminillo",
+      "vertices": 8030,
+      "edges": 23626,
+      "loops": 46791,
+      "polygons": 15597,
+      "geometry_sha256": "e7a9067659955c590c5777685601aad6b71fb3f144b23a4036cc327433f3aba3",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 15597
+      },
+      "assignment_sha256": "7db516c1498f0282e27393cba77be505e4b76d392f9ec484f71a5380ff1f6f69",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L01_terminillo_e": {
+      "data_name": "L01_terminillo_e",
+      "vertices": 8965,
+      "edges": 26313,
+      "loops": 52038,
+      "polygons": 17346,
+      "geometry_sha256": "f8557630655e7b3b250ac550f3bc097b3b5aa51fe8c93a9eb8a81095d8d9fc1e",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 17346
+      },
+      "assignment_sha256": "2230ac66b508f2e6d7a9451b6a93cf41c14f1bbab734498c9ba116f2697843be",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L01_velino": {
+      "data_name": "L01_velino",
+      "vertices": 8633,
+      "edges": 25469,
+      "loops": 50511,
+      "polygons": 16837,
+      "geometry_sha256": "c5f6153f9a009e1cac3cf42713b25e247fb6a8c1000e1d832a92ef571a25a2b8",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 16837
+      },
+      "assignment_sha256": "0fd9f69a6b86d1fc0f958768979079f55e65875c68fb1e377d8813c45de5486f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L01_velino_w": {
+      "data_name": "L01_velino_w",
+      "vertices": 8633,
+      "edges": 25469,
+      "loops": 50511,
+      "polygons": 16837,
+      "geometry_sha256": "65e0569f9db309de6ab3fc720626a4d64df8c4941608910284331d965c0b2d29",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 16837
+      },
+      "assignment_sha256": "0fd9f69a6b86d1fc0f958768979079f55e65875c68fb1e377d8813c45de5486f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L01_viglio": {
+      "data_name": "L01_viglio",
+      "vertices": 8633,
+      "edges": 25497,
+      "loops": 50595,
+      "polygons": 16865,
+      "geometry_sha256": "8e1227625949cc5ba03abb4c910454454b0793ecdbe477063a765e2a8f5a0944",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 16865
+      },
+      "assignment_sha256": "c7944860c2131b82643d9a1b11347fad4ae96044bef189900cfd8f8b7bcad9d6",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L02_tiber": {
+      "data_name": "L02_tiber",
+      "vertices": 4882,
+      "edges": 13093,
+      "loops": 24591,
+      "polygons": 8197,
+      "geometry_sha256": "4d77a0c0dd4a6490c7df9b41dbe1be453b074cdd32755243b62e9458b2cb8ed7",
+      "material_names": [
+        "RC.v12.base_sea_river"
+      ],
+      "material_roles": [
+        "base_sea_river"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_sea_river": 8197
+      },
+      "assignment_sha256": "94ce71235d19d9086cfba2066ddd0002f1259f6cdbb474acf7d12f1860897c61",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L03_forum_temple": {
+      "data_name": "Mesh_0",
+      "vertices": 5651,
+      "edges": 13616,
+      "loops": 27232,
+      "polygons": 7939,
+      "geometry_sha256": "f1cc0499d1df4fa1a6286ca1cafbeb7638fa3c2acfb178d161f5d8ea375b12bf",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth",
+        "RC.v12.roman_roof"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth",
+        "roman_roof"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_stone": 6847,
+        "roman_plinth": 157,
+        "roman_roof": 935
+      },
+      "assignment_sha256": "9f2c94610b0cac4da16b624583394c0bb1d961db90e90f6eab6b752f3e5d6274",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L03_forum_vesta": {
+      "data_name": "L03_vesta",
+      "vertices": 15902,
+      "edges": 47276,
+      "loops": 100602,
+      "polygons": 33534,
+      "geometry_sha256": "f4ace59c259c6d26cad81338d53a2a4bd1ae365c7e8a46a577d790c36de3ff5c",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth",
+        "RC.v12.roman_roof"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth",
+        "roman_roof"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_stone": 30359,
+        "roman_plinth": 1999,
+        "roman_roof": 1176
+      },
+      "assignment_sha256": "1ea8469654361fd7bbf145baa9a9a37a4f5553d6bae6c588368826f0f37b128a",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L04_palatine": {
+      "data_name": "L04_palatine_new",
+      "vertices": 224,
+      "edges": 336,
+      "loops": 672,
+      "polygons": 150,
+      "geometry_sha256": "50adf59759854e7ff484f7ab5ab66a427a66ff78bfe9a36ee22c0667c670a151",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_plinth": 30,
+        "roman_stone": 120
+      },
+      "assignment_sha256": "d1c6a88944470ed6b8d54f373e6b5779f7e6586951619f4d079d9b09cdbe7f4b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L04_palatine_arch": {
+      "data_name": "L04_palatine_arch",
+      "vertices": 533,
+      "edges": 533,
+      "loops": 533,
+      "polygons": 41,
+      "geometry_sha256": "f238d219b899787d8282a671f393ba3473b535a22a5c883c13f4c5301ab299a2",
+      "material_names": [
+        "RC.v12.roman_stone"
+      ],
+      "material_roles": [
+        "roman_stone"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_stone": 41
+      },
+      "assignment_sha256": "10cc3c382b13ad9246b74708d03528d294522c558727bd2ed4a242bfb7cf0c3f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L05_aqua_claudia": {
+      "data_name": "L05_aqua_claudia",
+      "vertices": 7976,
+      "edges": 11832,
+      "loops": 22344,
+      "polygons": 5586,
+      "geometry_sha256": "55457c24ef5a1947569e4502b27ed20ddc6b2aa50bce79caf1d73e745e1cd497",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_stone": 5459,
+        "roman_plinth": 127
+      },
+      "assignment_sha256": "eb5880ce9fa352eed68dbef8d8977f590d2f7a6b2afeea79c5fd6e83db4d4bda",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L07_vesuvius": {
+      "data_name": "L07_vesuvius_scan.001",
+      "vertices": 59014,
+      "edges": 175976,
+      "loops": 350547,
+      "polygons": 116849,
+      "geometry_sha256": "28bb5bbdf8602c9fcf9a9824bc0be53d1e3f1c9aa2d03d5277fbc8af80633fc4",
+      "material_names": [
+        "RC.v12.base_mountain_volcano"
+      ],
+      "material_roles": [
+        "base_mountain_volcano"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_mountain_volcano": 116849
+      },
+      "assignment_sha256": "e4a553c502d2794f53b3766557a238ed61eded48a629a04584900981368656a8",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L08_pompeii": {
+      "data_name": "output_unwrapped",
+      "vertices": 6849,
+      "edges": 16993,
+      "loops": 33986,
+      "polygons": 10102,
+      "geometry_sha256": "621512f86aea1d7aa4fecd779759c7b1121e1279e55c6bc9947d7b92aa83881e",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_plinth": 1619,
+        "roman_stone": 8483
+      },
+      "assignment_sha256": "9073f8b5cb30d3b839020f9566c901df017a4996d4eb045518e77ab3cc049d37",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L08_pompeii_site": {
+      "data_name": "Mesh_0.002",
+      "vertices": 7565,
+      "edges": 18079,
+      "loops": 36152,
+      "polygons": 10528,
+      "geometry_sha256": "261d7cf459fae1e434533612696f2f9d1cd0aa5f5b7ecf175db87de744c5cb92",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.toolwood",
+        "RC.v12.raw_lime",
+        "RC.v12.basin"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "toolwood",
+        "raw_lime",
+        "basin"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_stone": 7622,
+        "toolwood": 1696,
+        "raw_lime": 228,
+        "basin": 982
+      },
+      "assignment_sha256": "038a5f36d6292395a075f576a78965ce8e5f89eb4eae3be7039456221b6ca38c",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L09_portus_lighthouse": {
+      "data_name": "Mesh_0.001",
+      "vertices": 4928,
+      "edges": 11701,
+      "loops": 23402,
+      "polygons": 6779,
+      "geometry_sha256": "1ceaff464ecf63655c65011403e9551b386445f1a2c3574846a0480154a876c2",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_plinth": 1134,
+        "roman_stone": 5645
+      },
+      "assignment_sha256": "6eaa0b1d87ef8f92e7f15c9947117f4e3251acfac5fe7e9ea88855bfd32a8822",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L09_portus_mole": {
+      "data_name": "output_unwrapped.002",
+      "vertices": 4265,
+      "edges": 9730,
+      "loops": 19452,
+      "polygons": 5489,
+      "geometry_sha256": "6e2f3c727f6b98df2d0dedefde3f35c9b05e2d5e85aa8aaa358bc875b1971c5f",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_plinth": 989,
+        "roman_stone": 4500
+      },
+      "assignment_sha256": "3c94b6831c0c42cd7add404d4588d9ecc150d10de5d8406c3a0f18f5223fe71f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L10_sea": {
+      "data_name": "L10_sea",
+      "vertices": 17516,
+      "edges": 50711,
+      "loops": 99537,
+      "polygons": 33179,
+      "geometry_sha256": "370190652ce4a27ca2b01131da060eaf3efad99743932257dd8620d22b59d2e2",
+      "material_names": [
+        "RC.v12.base_sea_river"
+      ],
+      "material_roles": [
+        "base_sea_river"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_sea_river": 33179
+      },
+      "assignment_sha256": "5403e13910d216a47034b88b717d3c16cf6fd4d1a440c5e5ad13cd10279c6af7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L11_privernum_wall": {
+      "data_name": "output_unwrapped.001",
+      "vertices": 5723,
+      "edges": 13273,
+      "loops": 26546,
+      "polygons": 7540,
+      "geometry_sha256": "e69dd432be5d76b1bc7ab7349f4966686a71585adc8a9dbe91aaef7ef4745588",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_stone": 7209,
+        "roman_plinth": 331
+      },
+      "assignment_sha256": "4db0cf0ea307ccf1d17047d9a9a2591c957c121be18f9ec8fc00ec60b378e3fe",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L12_harbor_pilae": {
+      "data_name": "output_unwrapped.003",
+      "vertices": 4172,
+      "edges": 9559,
+      "loops": 19118,
+      "polygons": 5389,
+      "geometry_sha256": "91b237cca8e00a278920f918c609bc3a46e5c775002dc50a58f3dc03ae1e4c90",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_plinth": 413,
+        "roman_stone": 4976
+      },
+      "assignment_sha256": "80a1a232479fd7f64bfb81c4c38586e3d73233deca9289ebd2394618d533b335",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_core4_sequence_GRAY00": {
+      "data_name": "NB_core4_sequence_GRAY00",
+      "vertices": 14,
+      "edges": 14,
+      "loops": 14,
+      "polygons": 2,
+      "geometry_sha256": "e16b77557115078a0853a62017936b43792c6126582368ed2206b00119f3cfa9",
+      "material_names": [
+        "RC.v12.base_type_secondary_on_light_ground"
+      ],
+      "material_roles": [
+        "base_type_secondary_on_light_ground"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_type_secondary_on_light_ground": 2
+      },
+      "assignment_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_core4_sequence_GRAY01": {
+      "data_name": "NB_core4_sequence_GRAY01",
+      "vertices": 28,
+      "edges": 38,
+      "loops": 48,
+      "polygons": 12,
+      "geometry_sha256": "ed85c6261a5e9901c73fe8c9baded0956e097e3cf858b0a6338153e30d50110e",
+      "material_names": [
+        "RC.v12.base_type_heading"
+      ],
+      "material_roles": [
+        "base_type_heading"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_type_heading": 12
+      },
+      "assignment_sha256": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_core4_sequence_GRAY02": {
+      "data_name": "NB_core4_sequence_GRAY02",
+      "vertices": 98,
+      "edges": 259,
+      "loops": 504,
+      "polygons": 166,
+      "geometry_sha256": "5c55535cc96006a9d3441e40df9d133870706385052a51b7820a9dbd640aab45",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 166
+      },
+      "assignment_sha256": "f18e4c8388d95251d22fdb63456987c14f67d4027576801db5bcb985dc061565",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_core4_sequence_GRAY03": {
+      "data_name": "NB_core4_sequence_GRAY03",
+      "vertices": 168,
+      "edges": 324,
+      "loops": 648,
+      "polygons": 162,
+      "geometry_sha256": "f8f8e251d6af453b4a094c07638390f3b430bf69bdd1e6470b123420994201d3",
+      "material_names": [
+        "RC.v12.base_lime_specimen_matrix"
+      ],
+      "material_roles": [
+        "base_lime_specimen_matrix"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_specimen_matrix": 162
+      },
+      "assignment_sha256": "7119f314d3837dac54bf984118de657f6f1e6dfd2a2b2a20510454f762dddf11",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_core4_sequence_GRAY04": {
+      "data_name": "NB_core4_sequence_GRAY04",
+      "vertices": 126,
+      "edges": 360,
+      "loops": 720,
+      "polygons": 240,
+      "geometry_sha256": "a4a4e60e08be13fbe168e97bf4657fbae5a43495f4e87e16fdbf7396ffe269f1",
+      "material_names": [
+        "RC.v12.base_water_process"
+      ],
+      "material_roles": [
+        "base_water_process"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_water_process": 240
+      },
+      "assignment_sha256": "4b48f21a4b7a02bfbec19ef880a967a02334a3cdcef8ae83de2ef327ba8bc5dd",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_lime_clast_specimen": {
+      "data_name": "NB_lime_clast_specimen.001",
+      "vertices": 20297,
+      "edges": 42478,
+      "loops": 70692,
+      "polygons": 23532,
+      "geometry_sha256": "a188f8783027fefab99ca4722afffab4517e7d93e87879724a0e0fa8162ac8ac",
+      "material_names": [
+        "RC.v12.base_lime_specimen_matrix"
+      ],
+      "material_roles": [
+        "base_lime_specimen_matrix"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_specimen_matrix": 23532
+      },
+      "assignment_sha256": "11c18578cd069d894b8ea0e487a8c82d01b4aeada98d1ae653275a50be7000f4",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_lime_clast_specimen_LIME00": {
+      "data_name": "Icosphere.021",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "b0cdbfb844a007faf1c90c28e72f2b7720e3bed4782f6a920d1dd677c0ff9ae2",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_lime_clast_specimen_LIME01": {
+      "data_name": "Icosphere.022",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "26dad8f0d62fef5deca6d90bee865b09fc032500fdb5473aec4489e8aa479771",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_lime_clast_specimen_LIME02": {
+      "data_name": "Icosphere.023",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "5da763360b7332fa956f508b63544c38ac79db02d44d399dd34c1994f599531f",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_lime_clast_specimen_LIME03": {
+      "data_name": "Icosphere.024",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "1ce98ba87923d3cd2125a58893cd2338a02026b3b3b5ff2d7f00ee90230465bd",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_lime_clast_specimen_LIME04": {
+      "data_name": "Icosphere.025",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "00b8ced1a1d8a245cb7ff6fd69b066e5f2c2c043ef312779aa7233128a30589d",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_lime_clast_specimen_LIME05": {
+      "data_name": "Icosphere.026",
+      "vertices": 42,
+      "edges": 120,
+      "loops": 240,
+      "polygons": 80,
+      "geometry_sha256": "0bcdd2fbf384b14946d5c27137f125f2f8172079c250fd788745666e6b117e30",
+      "material_names": [
+        "RC.v12.base_lime_calcium_crystal"
+      ],
+      "material_roles": [
+        "base_lime_calcium_crystal"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_lime_calcium_crystal": 80
+      },
+      "assignment_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "uv_layers": [
+        "UVMap"
+      ],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_marine_breakwater": {
+      "data_name": "NB_marine_breakwater",
+      "vertices": 20539,
+      "edges": 35288,
+      "loops": 51990,
+      "polygons": 17330,
+      "geometry_sha256": "d54560881d2caf69ac92256e379dc0748a88d2f966dd4599f23cc657a9582f27",
+      "material_names": [
+        "RC.v12.roman_stone",
+        "RC.v12.roman_plinth"
+      ],
+      "material_roles": [
+        "roman_stone",
+        "roman_plinth"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "roman_plinth": 152,
+        "roman_stone": 17178
+      },
+      "assignment_sha256": "42af8ceafe0b560919433261c76227f3c53416d9499d43b9d19b9e3ee8f2ea1d",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_modern_building": {
+      "data_name": "NB_modern_building.001",
+      "vertices": 28609,
+      "edges": 49344,
+      "loops": 75085,
+      "polygons": 24975,
+      "geometry_sha256": "04ed033206f691a0f970bed78b8f55692b05f33747d782b1b2d655d0c554cd94",
+      "material_names": [
+        "RC.v12.concrete",
+        "RC.v12.steel"
+      ],
+      "material_roles": [
+        "concrete",
+        "steel"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "concrete": 22290,
+        "steel": 2685
+      },
+      "assignment_sha256": "f64f9d906fd8a4e44668c36fe8e551711dae8bcc7b32d38a6da479abc4d63703",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "R_core_road": {
+      "data_name": "R_core_road",
+      "vertices": 22240,
+      "edges": 34072,
+      "loops": 57000,
+      "polygons": 14250,
+      "geometry_sha256": "b814e5adc880baaf6cb55965a662a0513ee9d1866d1fa3c7013dfca1b04f2e45",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 14250
+      },
+      "assignment_sha256": "23baa3c8a30d88d3d6acbdfab5755cd3b915f812040a08c24eada222dc17b6e8",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "R_via_appia": {
+      "data_name": "R_via_appia",
+      "vertices": 3720,
+      "edges": 5722,
+      "loops": 9576,
+      "polygons": 2394,
+      "geometry_sha256": "55b2ed077a00eb329c61e64b9da8ad9166ae5f3cc93f108b2646909fcc97d3c9",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 2394
+      },
+      "assignment_sha256": "9a56fa25b0a0fcc6df3359671e918b2f63ab664a89489aa5023675dbeb1e4297",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "R_via_ostiensis": {
+      "data_name": "R_via_ostiensis",
+      "vertices": 4816,
+      "edges": 7430,
+      "loops": 12444,
+      "polygons": 3111,
+      "geometry_sha256": "c7ac19b3429ea2ab8c687d34ed73add79ee671ae0caffd196504448d45131e58",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 3111
+      },
+      "assignment_sha256": "d1726ca8b514c38eaa3f00377abd9461153281c8503e2492fbcb11c98f18012f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core1_badge": {
+      "data_name": "S_core1_badge.001",
+      "vertices": 33,
+      "edges": 64,
+      "loops": 96,
+      "polygons": 32,
+      "geometry_sha256": "73f051bdf2082c0fce0d62e3a60565e09f6a1bc3daf2f02f8724a737fe0514fc",
+      "material_names": [
+        "RC.v12.base_badge_1_5"
+      ],
+      "material_roles": [
+        "base_badge_1_5"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_1_5": 32
+      },
+      "assignment_sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core1_underline": {
+      "data_name": "S_core1_underline.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "df0e80ef76fec1fd2428cd1dc019cd956420e79b4f0bb7cb3e2554b4524bcfe6",
+      "material_names": [
+        "RC.v12.base_badge_1_5"
+      ],
+      "material_roles": [
+        "base_badge_1_5"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_1_5": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core2_badge": {
+      "data_name": "S_core2_badge.001",
+      "vertices": 33,
+      "edges": 64,
+      "loops": 96,
+      "polygons": 32,
+      "geometry_sha256": "4aaa074ee42a1a62041edadaedb5ee1eaf1140c2f665f4d6e44a3dc2bb6d0580",
+      "material_names": [
+        "RC.v12.base_badge_2"
+      ],
+      "material_roles": [
+        "base_badge_2"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_2": 32
+      },
+      "assignment_sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core2_underline": {
+      "data_name": "S_core2_underline.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "b5bdc70d3b2c78bd705b9851baef934c7764e29ff2fecfc9efc5921757e0c817",
+      "material_names": [
+        "RC.v12.base_badge_2"
+      ],
+      "material_roles": [
+        "base_badge_2"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_2": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core3_badge": {
+      "data_name": "S_core3_badge.001",
+      "vertices": 33,
+      "edges": 64,
+      "loops": 96,
+      "polygons": 32,
+      "geometry_sha256": "9b319714630fccb4940f140e98f977af544dff3d59230d3f527a96441c395324",
+      "material_names": [
+        "RC.v12.base_badge_3"
+      ],
+      "material_roles": [
+        "base_badge_3"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_3": 32
+      },
+      "assignment_sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core3_underline": {
+      "data_name": "S_core3_underline.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "fcb67f8fd81ef5ee91256d8482c12b2ab3bdfebc89f789343f22f7a0650420ad",
+      "material_names": [
+        "RC.v12.base_badge_3"
+      ],
+      "material_roles": [
+        "base_badge_3"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_3": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core4_badge": {
+      "data_name": "S_core4_badge.001",
+      "vertices": 33,
+      "edges": 64,
+      "loops": 96,
+      "polygons": 32,
+      "geometry_sha256": "95e76cf0befc388e12666e748c675b14c36ee727f5ffb235b8ba49acf19600fd",
+      "material_names": [
+        "RC.v12.base_badge_4"
+      ],
+      "material_roles": [
+        "base_badge_4"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_4": 32
+      },
+      "assignment_sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core4_underline": {
+      "data_name": "S_core4_underline.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "67fe11b65e05e3504ebc549c47c55dd4ac1102b3d1a8c99131239c7d0e9a4c45",
+      "material_names": [
+        "RC.v12.base_badge_4"
+      ],
+      "material_roles": [
+        "base_badge_4"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_4": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core5_badge": {
+      "data_name": "S_core5_badge.001",
+      "vertices": 33,
+      "edges": 64,
+      "loops": 96,
+      "polygons": 32,
+      "geometry_sha256": "ce0160d62ab2c7ac0776d8670acb370dcd8e250f749ccf29dd7fac1c1f405926",
+      "material_names": [
+        "RC.v12.base_badge_1_5"
+      ],
+      "material_roles": [
+        "base_badge_1_5"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_1_5": 32
+      },
+      "assignment_sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_core5_underline": {
+      "data_name": "S_core5_underline.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "fb445ff0dd73483a677f9cf6ae9dd8c38c13e0c11e98a811cf554d1b90f97ead",
+      "material_names": [
+        "RC.v12.base_badge_1_5"
+      ],
+      "material_roles": [
+        "base_badge_1_5"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_badge_1_5": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lab_island": {
+      "data_name": "output_unwrapped.006",
+      "vertices": 4851,
+      "edges": 11630,
+      "loops": 23260,
+      "polygons": 6783,
+      "geometry_sha256": "2851484874254c037bbbf661382a54a6e75e933dab4d01d63e8830a44446fe5f",
+      "material_names": [
+        "RC.v12.labstone",
+        "RC.v12.base",
+        "RC.v12.roof",
+        "RC.v12.glass"
+      ],
+      "material_roles": [
+        "labstone",
+        "base",
+        "roof",
+        "glass"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "glass": 303,
+        "base": 5548,
+        "labstone": 831,
+        "roof": 101
+      },
+      "assignment_sha256": "ecd3a592fad047ed255840c4fd77b49b5bbcd347a92924f34030f6728d74e082",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead00": {
+      "data_name": "S_lead00.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "c2c75b1a201320570c924b1836e6a95472229b7b434cdc38da6ac80732c9ad1c",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead01": {
+      "data_name": "S_lead01.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "8061c605b0fdf0db1a35cbe3302b88609f0b7e4c438981975e5a9388d814f6b0",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead02": {
+      "data_name": "S_lead02.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "3b1187df4135a7ca934b05a159ec5730faa790c0597560e8c802c27e0c5d5203",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead03": {
+      "data_name": "S_lead03.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "57c498977abb2543b37949636e402a2ec6ea11e5df9153cde127273c39accc1b",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead04": {
+      "data_name": "S_lead04.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "8d1ebd215f45770f6808b30cc69de2920ad9239f2b8bceccb4af7110e058b4f2",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead05": {
+      "data_name": "S_lead05.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "76550a088ef3dc28a15f0cecc5c878e26892c98c0b83dd510aefff46b4418170",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead06": {
+      "data_name": "S_lead06.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "c790176600602a5f8edfb95bc7ee9dbde0298d1d82abcfd3f41cd518f93c9182",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead07": {
+      "data_name": "S_lead07.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "88dfa4c9bb65e6a3051bc5d39fc01be1f808d57d04a96b6248d88f114a9f4d8f",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead08": {
+      "data_name": "S_lead08.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "08073d4e4966e1327d0e63d372049dec8e212bb7730046490c1c49587a29f2e4",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead09": {
+      "data_name": "S_lead09.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "dea81aa69ed0afb07e99f7aec381050416bc15db4581b64e30fc7daf8d2396bd",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead10": {
+      "data_name": "S_lead10.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "71a6573867094ae55ca8f9900a4325f3840e91040b43fa7449a62d0a19c44a06",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead_dot0": {
+      "data_name": "S_lead_dot0.001",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 36,
+      "polygons": 12,
+      "geometry_sha256": "1561ffca51a389de1e613cdf4f533555165a4177e4f4d36fb59634604d392235",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 12
+      },
+      "assignment_sha256": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead_dot1": {
+      "data_name": "S_lead_dot1.001",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 36,
+      "polygons": 12,
+      "geometry_sha256": "3d83e700b8f4774098c0e0a5cdd2ff651dd4027e7be147e7bee60d97095313f4",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 12
+      },
+      "assignment_sha256": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_lead_dot2": {
+      "data_name": "S_lead_dot2.001",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 36,
+      "polygons": 12,
+      "geometry_sha256": "e117dc51bbb2e9a14d593ce6a842dd73e41fcaec70f07bf72aac5dbb4f3d5def",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 12
+      },
+      "assignment_sha256": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_pin_harbor": {
+      "data_name": "S_pin_harbor.001",
+      "vertices": 120,
+      "edges": 120,
+      "loops": 120,
+      "polygons": 30,
+      "geometry_sha256": "5eeb2db229f59f46463a26a727c01320119051dfefdffb2b740eeb3e1a9553e2",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 30
+      },
+      "assignment_sha256": "5dcc1b5872dd9ff1c234501f1fefda01f664164e1583c3e1bb3dbea47588ab31",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_pin_harbor_dot": {
+      "data_name": "S_pin_harbor_dot.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "1b964141792177477825c71da9c814bb787a1466613f10006d3cdbd86e2d0292",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_pin_pompeii": {
+      "data_name": "S_pin_pompeii.001",
+      "vertices": 132,
+      "edges": 132,
+      "loops": 132,
+      "polygons": 33,
+      "geometry_sha256": "ca5dc7dd38a7e7eb4fb12deae56f064d8efa23b78d01299f7e80eac69965ae13",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 33
+      },
+      "assignment_sha256": "efbb03b7a7f6fd3c29391d4d0281e1830a85caadd831c3f04716faca4107a42e",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_pin_pompeii_dot": {
+      "data_name": "S_pin_pompeii_dot.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "8a5f705df25b584cbc9e676d89b4161490f851ea80b9a48c106b83cb5eb6ceab",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_pin_privernum": {
+      "data_name": "S_pin_privernum.001",
+      "vertices": 264,
+      "edges": 264,
+      "loops": 264,
+      "polygons": 66,
+      "geometry_sha256": "19bc33de1a8d315641e902218e1c82d3b953a365edff7f83d45e89b309e7260d",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 66
+      },
+      "assignment_sha256": "115bad14f1c9f2c027a84de21b107015722cb76be8d0abf3760ad8e00d6c24a5",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_pin_privernum_dot": {
+      "data_name": "S_pin_privernum_dot.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "b781a3e7688005d98ddf4598b39ec0695f7b5bd50e2cdb50b7335cd72ffca47d",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect0": {
+      "data_name": "S_sect0.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "3949fbd5d4d7c344edd7ced73d98ab4fccd0974357ab2f6ec0863fec54f29198",
+      "material_names": [
+        "RC.v12.base_stone_light"
+      ],
+      "material_roles": [
+        "base_stone_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_stone_light": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect0_edge": {
+      "data_name": "S_sect0_edge.001",
+      "vertices": 16,
+      "edges": 16,
+      "loops": 16,
+      "polygons": 4,
+      "geometry_sha256": "5fe21d4ae2f3cd50439a5ef9a42a3d66a102b68400856236fead2398ae505487",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 4
+      },
+      "assignment_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect1": {
+      "data_name": "S_sect1.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "8b0db1b36ec784ecc3774cc6f056d5bb60dc84d750432f6f170bf25264245a5e",
+      "material_names": [
+        "RC.v12.base_stone_middle"
+      ],
+      "material_roles": [
+        "base_stone_middle"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_stone_middle": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect1_edge": {
+      "data_name": "S_sect1_edge.001",
+      "vertices": 16,
+      "edges": 16,
+      "loops": 16,
+      "polygons": 4,
+      "geometry_sha256": "2c4b62dc9d0c99da47c9759296c5f90dd1cd8dc761bbd145635edd6ac31f948f",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 4
+      },
+      "assignment_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect2": {
+      "data_name": "S_sect2.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "387722c41bf0428a95cebf6afdda3928e2fab069b12fa5ca69fc42b8928200c9",
+      "material_names": [
+        "RC.v12.base_road_foundation"
+      ],
+      "material_roles": [
+        "base_road_foundation"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_road_foundation": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect2_edge": {
+      "data_name": "S_sect2_edge.001",
+      "vertices": 16,
+      "edges": 16,
+      "loops": 16,
+      "polygons": 4,
+      "geometry_sha256": "a1b4524dc333fe931c8910f4770d6bbf75946e56dfad73badc035a0d19e661e7",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 4
+      },
+      "assignment_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect3": {
+      "data_name": "S_sect3.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "afe6b5fa73ae5c943d658f526345c293e3631f5a8e3c5e39127f7591c49f20a1",
+      "material_names": [
+        "RC.v12.base_concrete_dense"
+      ],
+      "material_roles": [
+        "base_concrete_dense"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_concrete_dense": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect3_edge": {
+      "data_name": "S_sect3_edge.001",
+      "vertices": 16,
+      "edges": 16,
+      "loops": 16,
+      "polygons": 4,
+      "geometry_sha256": "b6b0177ece16073939f2f68a5c150fbb8c31906e89664b2f7a83b569b72690ad",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 4
+      },
+      "assignment_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect_brick1227": {
+      "data_name": "S_sect_brick1227.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "16e00fb1cae7dd6a40b9591edda527c6424f281c282b66759ca24a641b0f51f4",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect_brick1233": {
+      "data_name": "S_sect_brick1233.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "e3a61357668b9ecf976da3e2cddc752300e9fb9bb89c5d7d7baef030566041d9",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect_brick1239": {
+      "data_name": "S_sect_brick1239.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "ba513759aeb8d39781d01aad334f07a9002501657b10902e50b6dc94e5d67557",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect_dot0": {
+      "data_name": "S_sect_dot0.001",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 36,
+      "polygons": 12,
+      "geometry_sha256": "2dd67cc7771722197ca1e004c66d09af137ef1a7e02c54a4cab3e9aadc5613fe",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 12
+      },
+      "assignment_sha256": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect_dot1": {
+      "data_name": "S_sect_dot1.001",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 36,
+      "polygons": 12,
+      "geometry_sha256": "7363eac40d973804ac2de0fa73119c57abafcb8848fe0cb898b3243dbc21079d",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 12
+      },
+      "assignment_sha256": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect_dot2": {
+      "data_name": "S_sect_dot2.001",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 36,
+      "polygons": 12,
+      "geometry_sha256": "fdaef1edc35a6be262bfcacefa5671ad5980a441ec075c66c5367c3103b70e60",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 12
+      },
+      "assignment_sha256": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect_dot3": {
+      "data_name": "S_sect_dot3.001",
+      "vertices": 13,
+      "edges": 24,
+      "loops": 36,
+      "polygons": 12,
+      "geometry_sha256": "6f26e4c1bda83857e006aea65e5fda65f64ee76a49933629c1666bad7d4f5e6b",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 12
+      },
+      "assignment_sha256": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_sect_ground": {
+      "data_name": "S_sect_ground.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "7f4d42e932d309667e2e4ed259c2c096d2a3b3a93718eb340408225c82792a14",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_dot0": {
+      "data_name": "S_time_dot0.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "a922755adf8212665653c405c16bd919895e955dddf13bc0ef0b127138133cc2",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_dot1": {
+      "data_name": "S_time_dot1.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "b087c4e939bdc35f874c5d88b3d98f94a5c982116ff741f27af5fde47cb9e0a0",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_dot2": {
+      "data_name": "S_time_dot2.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "fd94bd9899ef21420c61d8dc08b19a7f5d1824a23d7f885decd452d584ed77e1",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_dot3": {
+      "data_name": "S_time_dot3.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "6b1767544dd81b3d4b607419a034c8660531a157e10301fe12397d87d6abbb3a",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_dot4": {
+      "data_name": "S_time_dot4.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "bd9c60b2c43fa27074cbe4c22655c2351b3c3468e48e7f78da006628f5222610",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_dot5": {
+      "data_name": "S_time_dot5.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "88eaa98cb3c64670ea0a82f0eeb69b7325fa921d3486b7e44451f4ac3893f043",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_dot6": {
+      "data_name": "S_time_dot6.001",
+      "vertices": 17,
+      "edges": 32,
+      "loops": 48,
+      "polygons": 16,
+      "geometry_sha256": "e0b7acb30008efe965bb3915cbe2393ae9c65ca8fa51ff4b7fadd320b89a43f6",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 16
+      },
+      "assignment_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_head": {
+      "data_name": "S_time_head.001",
+      "vertices": 3,
+      "edges": 3,
+      "loops": 3,
+      "polygons": 1,
+      "geometry_sha256": "53a2f321839a9c16f6a0828c932e73ded4391897731f41223464aadc3315a28c",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "S_time_rule": {
+      "data_name": "S_time_rule.001",
+      "vertices": 4,
+      "edges": 4,
+      "loops": 4,
+      "polygons": 1,
+      "geometry_sha256": "8455d28a79b265c078129dcc392fb5d4bb4727fb545dd2d1595499afdae7953c",
+      "material_names": [
+        "RC.v12.base_line"
+      ],
+      "material_roles": [
+        "base_line"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_line": 1
+      },
+      "assignment_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_cypress": {
+      "data_name": "TREE_cypress_6",
+      "vertices": 642,
+      "edges": 1920,
+      "loops": 3840,
+      "polygons": 1280,
+      "geometry_sha256": "144d7a222aa2c5311305f0dd1bad26b5fb31c3d62aff72e735354361c07a75d5",
+      "material_names": [
+        "RC.v12.foliage"
+      ],
+      "material_roles": [
+        "foliage"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "foliage": 1280
+      },
+      "assignment_sha256": "8ce8ba8e726ee8925e6560d86ac35be1097691d1cfac888e6bd20e804ea9eb15",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_land": {
+      "data_name": "T_land",
+      "vertices": 153090,
+      "edges": 449510,
+      "loops": 894093,
+      "polygons": 296388,
+      "geometry_sha256": "a469ba491c3d2ac0d3a15aad3cdfa0575edcdc9ab4789ccb9282d10eaaa7d874",
+      "material_names": [
+        "RC.v12.base_terrain"
+      ],
+      "material_roles": [
+        "base_terrain"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_terrain": 296388
+      },
+      "assignment_sha256": "c52fe81907dc75a82f65926f328b8bc56509a723b524ef0184d1e25606ff5777",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine": {
+      "data_name": "TREE_pine_3.001",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "02dbc2642ca1f4b7edb7a90c68caa2e07d3a4ad0f1b89bc125f32a8a78016aa5",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "e8c4a6ac7588fb0dacf6746f57219443046fafb5662c2c7b4351692dc8510792",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.001": {
+      "data_name": "TREE_pine_1.001",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "5c59c1085509548b3f1b653d7c79c62803094af669b652ef85e821f155a75890",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage_light": 640,
+        "foliage": 1600
+      },
+      "assignment_sha256": "66dfc041261446b8d21afce2537a0e93517326b9e588a8c1311f6fc6b48a907f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.002": {
+      "data_name": "TREE_pine_3.002",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "02dbc2642ca1f4b7edb7a90c68caa2e07d3a4ad0f1b89bc125f32a8a78016aa5",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "e8c4a6ac7588fb0dacf6746f57219443046fafb5662c2c7b4351692dc8510792",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.003": {
+      "data_name": "TREE_pine_1.002",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "5c59c1085509548b3f1b653d7c79c62803094af669b652ef85e821f155a75890",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage_light": 640,
+        "foliage": 1600
+      },
+      "assignment_sha256": "66dfc041261446b8d21afce2537a0e93517326b9e588a8c1311f6fc6b48a907f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.004": {
+      "data_name": "TREE_pine_3.003",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "02dbc2642ca1f4b7edb7a90c68caa2e07d3a4ad0f1b89bc125f32a8a78016aa5",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "e8c4a6ac7588fb0dacf6746f57219443046fafb5662c2c7b4351692dc8510792",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.007": {
+      "data_name": "TREE_pine_3.004",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "02dbc2642ca1f4b7edb7a90c68caa2e07d3a4ad0f1b89bc125f32a8a78016aa5",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "e8c4a6ac7588fb0dacf6746f57219443046fafb5662c2c7b4351692dc8510792",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.008": {
+      "data_name": "TREE_pine_3.005",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "02dbc2642ca1f4b7edb7a90c68caa2e07d3a4ad0f1b89bc125f32a8a78016aa5",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "e8c4a6ac7588fb0dacf6746f57219443046fafb5662c2c7b4351692dc8510792",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.009": {
+      "data_name": "TREE_pine_1.003",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "5c59c1085509548b3f1b653d7c79c62803094af669b652ef85e821f155a75890",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage_light": 640,
+        "foliage": 1600
+      },
+      "assignment_sha256": "66dfc041261446b8d21afce2537a0e93517326b9e588a8c1311f6fc6b48a907f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.010": {
+      "data_name": "TREE_pine_3.006",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "02dbc2642ca1f4b7edb7a90c68caa2e07d3a4ad0f1b89bc125f32a8a78016aa5",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "e8c4a6ac7588fb0dacf6746f57219443046fafb5662c2c7b4351692dc8510792",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.011": {
+      "data_name": "TREE_pine_3",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "02dbc2642ca1f4b7edb7a90c68caa2e07d3a4ad0f1b89bc125f32a8a78016aa5",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "e8c4a6ac7588fb0dacf6746f57219443046fafb5662c2c7b4351692dc8510792",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.013": {
+      "data_name": "TREE_pine_1.004",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "5c59c1085509548b3f1b653d7c79c62803094af669b652ef85e821f155a75890",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage_light": 640,
+        "foliage": 1600
+      },
+      "assignment_sha256": "66dfc041261446b8d21afce2537a0e93517326b9e588a8c1311f6fc6b48a907f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.014": {
+      "data_name": "TREE_pine_1.005",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "5c59c1085509548b3f1b653d7c79c62803094af669b652ef85e821f155a75890",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage_light": 640,
+        "foliage": 1600
+      },
+      "assignment_sha256": "66dfc041261446b8d21afce2537a0e93517326b9e588a8c1311f6fc6b48a907f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.015": {
+      "data_name": "TREE_pine_1.006",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "5c59c1085509548b3f1b653d7c79c62803094af669b652ef85e821f155a75890",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage_light": 640,
+        "foliage": 1600
+      },
+      "assignment_sha256": "66dfc041261446b8d21afce2537a0e93517326b9e588a8c1311f6fc6b48a907f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.016": {
+      "data_name": "TREE_pine_1.007",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "5c59c1085509548b3f1b653d7c79c62803094af669b652ef85e821f155a75890",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage_light": 640,
+        "foliage": 1600
+      },
+      "assignment_sha256": "66dfc041261446b8d21afce2537a0e93517326b9e588a8c1311f6fc6b48a907f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.017": {
+      "data_name": "TREE_pine_2.001",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "3c5736cacc9175194113ed12f790a1c243ce280f90d244152ef76f4647f714e8",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "9f4f8fbb43c701c62f1594bd5f126f3fdbe33c299b6e999ceb27e76b8b0a5077",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.018": {
+      "data_name": "TREE_pine_1",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "5c59c1085509548b3f1b653d7c79c62803094af669b652ef85e821f155a75890",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage_light": 640,
+        "foliage": 1600
+      },
+      "assignment_sha256": "66dfc041261446b8d21afce2537a0e93517326b9e588a8c1311f6fc6b48a907f",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.019": {
+      "data_name": "TREE_pine_2.002",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "3c5736cacc9175194113ed12f790a1c243ce280f90d244152ef76f4647f714e8",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "9f4f8fbb43c701c62f1594bd5f126f3fdbe33c299b6e999ceb27e76b8b0a5077",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.020": {
+      "data_name": "TREE_pine_2.003",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "3c5736cacc9175194113ed12f790a1c243ce280f90d244152ef76f4647f714e8",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "9f4f8fbb43c701c62f1594bd5f126f3fdbe33c299b6e999ceb27e76b8b0a5077",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.021": {
+      "data_name": "TREE_pine_2.004",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "3c5736cacc9175194113ed12f790a1c243ce280f90d244152ef76f4647f714e8",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "9f4f8fbb43c701c62f1594bd5f126f3fdbe33c299b6e999ceb27e76b8b0a5077",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "T_pine.022": {
+      "data_name": "TREE_pine_2",
+      "vertices": 1190,
+      "edges": 3464,
+      "loops": 6912,
+      "polygons": 2288,
+      "geometry_sha256": "3c5736cacc9175194113ed12f790a1c243ce280f90d244152ef76f4647f714e8",
+      "material_names": [
+        "RC.v12.foliage",
+        "RC.v12.trunk",
+        "RC.v12.foliage_light"
+      ],
+      "material_roles": [
+        "foliage",
+        "trunk",
+        "foliage_light"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "trunk": 48,
+        "foliage": 1600,
+        "foliage_light": 640
+      },
+      "assignment_sha256": "9f4f8fbb43c701c62f1594bd5f126f3fdbe33c299b6e999ceb27e76b8b0a5077",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "W_water_marks": {
+      "data_name": "W_water_marks",
+      "vertices": 10413,
+      "edges": 16251,
+      "loops": 24824,
+      "polygons": 6206,
+      "geometry_sha256": "616954c964d52dda258160078a53d1bf8a1476837080a97d025e57962f3bebab",
+      "material_names": [
+        "RC.v12.base_water_wave"
+      ],
+      "material_roles": [
+        "base_water_wave"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "base_water_wave": 6206
+      },
+      "assignment_sha256": "1a572ba8cb5486b4b5f81bfbd1aa501104c0e08130e63c09cda9dc5092c405bf",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    }
+  },
+  "hidden_world_calculated": [
+    "C1_pozzolana_quarry",
+    "C3_arch_building",
+    "C4_crack_repair",
+    "D4_arrow0",
+    "D4_arrow1",
+    "D4_crack0",
+    "D4_crack1",
+    "D4_crack2",
+    "D4_cube0",
+    "D4_cube1",
+    "D4_cube2",
+    "D4_drop0",
+    "D4_drop1",
+    "D4_drop2",
+    "D4_lime0",
+    "D4_lime1"
+  ],
+  "method": "Two fresh background file opens. Exact vertices/edges/loops/poly topology mesh hashes, matrices and persisted settings; hidden world matrices calculated read-only from basis and parent inverse. No scene/visibility/material/UI changes, save or render."
+}

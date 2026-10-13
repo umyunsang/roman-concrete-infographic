@@ -1,0 +1,18 @@
+23:08:33 | INFO: Data are loaded, start creating Blender stuff
+23:08:33 | INFO: Blender create Mesh node output_unwrapped
+23:08:33 | INFO: glTF import finished in 0.05s
+00:01.179  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/modern_reinforced_frame_v2-0.png'
+00:01.276  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/modern_reinforced_frame_v2-90.png'
+00:01.363  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/modern_reinforced_frame_v2-180.png'
+00:01.455  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/modern_reinforced_frame_v2-270.png'
+23:08:33 | INFO: Data are loaded, start creating Blender stuff
+23:08:33 | INFO: Blender create Mesh node output_unwrapped
+23:08:34 | INFO: glTF import finished in 0.04s
+00:01.586  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_lime_clast_solid_v2-0.png'
+00:01.653  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_lime_clast_solid_v2-90.png'
+00:01.725  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_lime_clast_solid_v2-180.png'
+00:01.798  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/model_review/roman_lime_clast_solid_v2-270.png'
+MODEL_REVIEW_DONE [{"id": "modern_reinforced_frame_v2", "triangles": 16623, "render_angles": [0, 90, 180, 270]}, {"id": "roman_lime_clast_solid_v2", "triangles": 20652, "render_angles": [0, 90, 180, 270]}]
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

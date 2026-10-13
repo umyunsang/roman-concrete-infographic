@@ -1,0 +1,61 @@
+{
+  "createdVariableIds": [
+    "VariableID:732:78",
+    "VariableID:732:79",
+    "VariableID:732:80",
+    "VariableID:732:81",
+    "VariableID:732:82",
+    "VariableID:732:83"
+  ],
+  "variables": {
+    "type_heat": {
+      "rawId": "VariableID:732:78",
+      "semanticId": "VariableID:732:79",
+      "hex": "#983821"
+    },
+    "type_calcium": {
+      "rawId": "VariableID:732:80",
+      "semanticId": "VariableID:732:81",
+      "hex": "#784C26"
+    },
+    "type_water": {
+      "rawId": "VariableID:732:82",
+      "semanticId": "VariableID:732:83",
+      "hex": "#195B61"
+    }
+  },
+  "createdNodeIds": [
+    "732:84",
+    "732:85",
+    "732:86",
+    "732:87"
+  ],
+  "modifiedNodeIds": [
+    "728:316",
+    "728:340",
+    "728:322",
+    "728:350",
+    "728:351",
+    "728:328",
+    "728:337",
+    "728:346",
+    "728:349",
+    "728:283",
+    "728:360"
+  ],
+  "bindingChanges": {
+    "728:316": "type_heat",
+    "728:340": "type_heat",
+    "728:322": "type_calcium",
+    "728:350": "type_calcium",
+    "728:351": "type_calcium",
+    "728:328": "type_water",
+    "728:337": "type_water",
+    "728:346": "type_water",
+    "728:349": "type_water",
+    "728:283": "type_body"
+  },
+  "copyAndBoundsPreserved": true,
+  "guideHeight": 462,
+  "variableCount": 76
+}

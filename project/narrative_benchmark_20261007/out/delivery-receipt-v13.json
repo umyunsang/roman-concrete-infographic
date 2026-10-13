@@ -1,0 +1,160 @@
+{
+  "createdAtLocal": "2026-10-08T17:46:10",
+  "figmaUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=743-78",
+  "guideUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=744-99",
+  "frameId": "743:78",
+  "backgroundId": "743:79",
+  "pageId": "19:4",
+  "backgroundHash": "09dec61555e94434b9c74403403225d0e8f7a65f",
+  "nativeEditableTexts": 95,
+  "changedTexts": 6,
+  "otherTextsPreserved": 89,
+  "actualCoreBodyLines": [
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "fontSizesWidthsAndTopPositionsPreserved": true,
+  "geometryPlacementCameraSceneVisibilityPreservedObjects": 317,
+  "nontargetMeshMaterialAssignmentsPreserved": 250,
+  "newMaterials": 10,
+  "totalMaterials": 61,
+  "newMaterialVariables": 20,
+  "savedSceneReview": "PASS",
+  "nativeVisualReview": "PASS",
+  "newMeshyJobs": 0,
+  "artifacts": [
+    {
+      "path": "out/roman_concrete_narrative_v9.blend",
+      "bytes": 34953608,
+      "sha256": "8125d6cf8ec2da6cf09125472aa603afd1debcd88910ff8ed0893b174a2288fe"
+    },
+    {
+      "path": "out/figma_poster_v13_sea_volcano_2x.png",
+      "bytes": 11522574,
+      "sha256": "d89a0cee560a54cadcf65e2e6e54e6b7f50609a4deb51847bbdf71d228a1d94c"
+    },
+    {
+      "path": "out/figma_poster_v13_sea_volcano_1x.png",
+      "bytes": 3008467,
+      "sha256": "2baf8570d3c6163680e08c9dbef09d18b4dcbf0c31e8389b084dd9ddfb0d08dc"
+    },
+    {
+      "path": "out/figma_sea_volcano_guide_v13_2x.png",
+      "bytes": 66421,
+      "sha256": "59ead7c335c0c233027d9e31e63ec90bd7d1ced5ff43ab6254def9d7d9e2f24e"
+    },
+    {
+      "path": "out/figma_import/map_v9_sea_volcano_without_text_2x.png",
+      "bytes": 10303886,
+      "sha256": "1b8efb800df6bcab32a58fc09856e15a7afbd7d13f618576569b072d2131b6c5"
+    },
+    {
+      "path": "out/poster-sea-volcano-v9.json",
+      "bytes": 1014216,
+      "sha256": "e6a642c7665d2a9ce5e3684cb53e99919fd8e924accf95ee0d0770a500a59bbf"
+    },
+    {
+      "path": "out/figma-v13-copy-mutation.json",
+      "bytes": 7179,
+      "sha256": "f7bf66706e350e877f4b3e34e783d232e55f2cbe2c493547d3d7fab8b747bc41"
+    },
+    {
+      "path": "out/figma-v13-material-guide-mutation.json",
+      "bytes": 1696,
+      "sha256": "84e9054f088cd632150463898b30cfcdbcc0aaa3d158688eb5456e07d5fcff31"
+    },
+    {
+      "path": "out/figma-v13-sea-volcano-validation.json",
+      "bytes": 11892,
+      "sha256": "f5737a7cc893a58f6001b8f18f44c0d5efe0fdce7440101197a79945b0c7c83f"
+    },
+    {
+      "path": "out/figma-v13-sea-volcano-upload.json",
+      "bytes": 144,
+      "sha256": "31008e2e0b43a9bf1082d65ce4836e361e10fd440824e46674e953540af8d753"
+    },
+    {
+      "path": "out/v9-saved-material-validation.json",
+      "bytes": 7351,
+      "sha256": "c8c9649e08aa1bbc100ec5a689540ae4f435c1c3db84cf48aa810f6dbb321c2a"
+    },
+    {
+      "path": "out/v9-saved-material-validation.md",
+      "bytes": 2514,
+      "sha256": "0175e65a77635e4b76ca2651b8a2e9ccd0a1246fca28fb698e368f5d0ffbc4e6"
+    },
+    {
+      "path": "out/v13-final-visual-review.md",
+      "bytes": 2985,
+      "sha256": "1bd79f0a81caadd5324fffce1a96e256a080620cbb8e539e3ed3607bb0314bbe"
+    },
+    {
+      "path": "copy/narrative_v13.json",
+      "bytes": 35348,
+      "sha256": "46010e0db312b1396bfbd513c1f63c97778e35de2f88598b97a85abf55b48f95"
+    },
+    {
+      "path": "copy/sea_volcano_palette_v13.json",
+      "bytes": 2704,
+      "sha256": "2c2efe0ef7f352b00d1732e0e674f8c72406f290658a549c770816f2a6c48343"
+    },
+    {
+      "path": "design/SEA-VOLCANO.md",
+      "bytes": 2853,
+      "sha256": "b53b8716220f8b72cb820856d3ad3fd42a3aec9aac1efe5569e8325fd1494645"
+    },
+    {
+      "path": "design/sea-volcano-tokens.json",
+      "bytes": 2704,
+      "sha256": "2c2efe0ef7f352b00d1732e0e674f8c72406f290658a549c770816f2a6c48343"
+    },
+    {
+      "path": "design/sea-volcano-tokens.css",
+      "bytes": 299,
+      "sha256": "be87d8c25571f147b950502d16847aa994bc2fb91b0a109f0ae7439c4a4019bd"
+    },
+    {
+      "path": "scripts/sea_object_parts.py",
+      "bytes": 4650,
+      "sha256": "fe5a93af5f9a287e08074d5418a85e270c54926c037e4b3fcc8a37668543238a"
+    },
+    {
+      "path": "scripts/volcano_parts.py",
+      "bytes": 4660,
+      "sha256": "5af72a61248d24953976299345c854895a36690082acde30f22428a3ba33ec41"
+    },
+    {
+      "path": "scripts/apply_sea_volcano_v9.py",
+      "bytes": 5696,
+      "sha256": "e3e15a01a1d788901e3ed9c531cd6580b49740fc98504adcfd3f7643cdbee5f4"
+    },
+    {
+      "path": "scripts/compose_sea_volcano_map_v9.py",
+      "bytes": 1575,
+      "sha256": "d01591321611d1bc13665bf1271c1b5ec45e4ac24e941fa873d767c1f67e6119"
+    },
+    {
+      "path": "scripts/figma_sea_volcano_v13.js",
+      "bytes": 3566,
+      "sha256": "e341e7274f52eeb3440e5384dbe1c733aabea4e887b8a0cee1c175bf5e662fe4"
+    },
+    {
+      "path": "scripts/figma_sea_volcano_guide_v13.js",
+      "bytes": 3771,
+      "sha256": "be7c2883c87a8aa727b43fea0891470490574c0c4457fa73c4e3e065ee338ef4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2598,
+      "sha256": "940a8a10ed2a303e024e56237344e4435348af1b54348e6de59f5e92a44df5c9"
+    },
+    {
+      "path": "분석과_재구성안.md",
+      "bytes": 27221,
+      "sha256": "b3166b9d075c7235113942a2f98696a8e8622a9edea12bef117d12f2a5de7a07"
+    }
+  ]
+}

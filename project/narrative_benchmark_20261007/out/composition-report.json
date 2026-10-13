@@ -1,0 +1,53 @@
+{
+  "inputs": {
+    "map": {
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v4_map_pass.png",
+      "size": [
+        2381,
+        3367
+      ]
+    },
+    "overlay": {
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v4_overlay_pass.png",
+      "size": [
+        2381,
+        3367
+      ]
+    },
+    "text": {
+      "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/copy/text_overlay_narrative_rgba_2x.png",
+      "size": [
+        2382,
+        3368
+      ]
+    }
+  },
+  "padding": {
+    "map": {
+      "right_px": 1,
+      "bottom_px": 1
+    },
+    "overlay": {
+      "right_px": 1,
+      "bottom_px": 1
+    }
+  },
+  "poster_2x_size": [
+    2382,
+    3368
+  ],
+  "poster_1x_size": [
+    1191,
+    1684
+  ],
+  "check_only": false,
+  "pdf_page_mm": [
+    419.99998813205286,
+    594.0000047471788
+  ],
+  "outputs": {
+    "poster_2x.png": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/poster_2x.png",
+    "poster_1x.png": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/poster_1x.png",
+    "poster_A2.pdf": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/poster_A2.pdf"
+  }
+}

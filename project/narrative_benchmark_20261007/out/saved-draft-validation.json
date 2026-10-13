@@ -1,0 +1,66 @@
+{
+  "fresh_reload_verified": true,
+  "source_object_count": 302,
+  "source_bytes_preserved": true,
+  "original_mesh_topology_transforms_colors_camera_constraints_preserved": true,
+  "allowed_visibility_changes": [
+    "C1_pozzolana_quarry",
+    "C3_arch_building",
+    "C4_crack_repair",
+    "D4_arrow0",
+    "D4_arrow1",
+    "D4_crack0",
+    "D4_crack1",
+    "D4_crack2",
+    "D4_cube0",
+    "D4_cube1",
+    "D4_cube2",
+    "D4_drop0",
+    "D4_drop1",
+    "D4_drop2",
+    "D4_lime0",
+    "D4_lime1"
+  ],
+  "all_new_assets_present": true,
+  "new_asset_saved_bboxes_verified": [
+    {
+      "id": "modern_building",
+      "projected_bbox": [
+        708.3717379190516,
+        384.0000054620904,
+        805.6282476027659,
+        491.0000052622696
+      ]
+    },
+    {
+      "id": "lime_clast_specimen",
+      "projected_bbox": [
+        458.0808749209447,
+        1132.0000034265227,
+        560.9191269410178,
+        1260.0000013845358
+      ]
+    },
+    {
+      "id": "marine_breakwater",
+      "projected_bbox": [
+        398.0000020768942,
+        1523.927184067401,
+        499.99999801314317,
+        1599.999997092014
+      ]
+    },
+    {
+      "id": "core4_sequence",
+      "projected_bbox": [
+        641.9999860270638,
+        1151.1487578071203,
+        810.9999876720907,
+        1226.9999903240798
+      ]
+    }
+  ],
+  "temporary_fit_proxy_count": 0,
+  "draft": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v4.blend",
+  "verification_method": "Fresh canonical and draft comparison; hidden viewport objects temporarily evaluated and restored; runtime camera session_uid excluded"
+}

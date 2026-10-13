@@ -1,0 +1,42 @@
+[
+  {
+    "path": "out/roman_concrete_narrative_v4.blend",
+    "bytes": 29728668,
+    "sha256": "f6c1072ecb00ae37f65f1aaaaaf0e0690a6d085613877a220b59fa09b7f87452"
+  },
+  {
+    "path": "out/poster_2x.png",
+    "bytes": 6649976,
+    "sha256": "c2250dc277adab8d2fe542d64494b8bddb4a6b8986f5fa4b3e6d00dd8dea8c73"
+  },
+  {
+    "path": "out/poster_1x.png",
+    "bytes": 1710059,
+    "sha256": "84627b6b42cc8a272c30986c325b589f34d1d64ea348a4f215a472096e96993d"
+  },
+  {
+    "path": "out/poster_A2.pdf",
+    "bytes": 7421256,
+    "sha256": "73af71d0a31dd4d4d2f3bab3abffd40f90a975212da6826654bd6318cb11e91c"
+  },
+  {
+    "path": "out/review.html",
+    "bytes": 4612,
+    "sha256": "5a22a16914407bff2d565ec0d60195e8c87be383fb919321d47692ebe8601620"
+  },
+  {
+    "path": "분석과_재구성안.md",
+    "bytes": 24334,
+    "sha256": "f072ba936c465ead3ef1b2d544dd718d4ab52b21cbd721b4d414373447c69042"
+  },
+  {
+    "path": "copy/narrative_copy.json",
+    "bytes": 15091,
+    "sha256": "d8c56298f8ab9cdb915d014583ca2de621175e0030f69234d43c43fe777f1756"
+  },
+  {
+    "path": "copy/text_overlay_narrative_rgba_2x.png",
+    "bytes": 272439,
+    "sha256": "c7fce37b6d58bf4245022c334397632c0a9803e01b659671040f1664a798994f"
+  }
+]

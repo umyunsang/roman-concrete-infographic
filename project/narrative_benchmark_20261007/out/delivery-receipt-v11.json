@@ -1,0 +1,144 @@
+{
+  "createdAtLocal": "2026-10-08T12:59:57",
+  "figmaUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=728-241",
+  "guideUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=728-360",
+  "frameId": "728:241",
+  "pageId": "19:4",
+  "backgroundId": "728:242",
+  "backgroundHash": "cb67c2259a783582b5698013628d7b733f31ff85",
+  "editableTexts": 95,
+  "copyAndTextBoundsPreserved": true,
+  "textSemanticBindings": 95,
+  "colorVariables": 76,
+  "textStyles": 4,
+  "visibleColoredObjects": 227,
+  "geometryTransformsCameraVisibilityPreservedObjects": 317,
+  "sourceV10BackgroundPreserved": true,
+  "sourceV6AndCanonicalBlendBytesPreserved": true,
+  "nativeExportSize": [
+    2382,
+    3368
+  ],
+  "noTextUploadLosslessPixelsEqual": true,
+  "originalRenderSettingsChanged": [
+    "view_settings.exposure: +0.35 to +0.7",
+    "shading.background_type: THEME to WORLD",
+    "World.color and World Background Color: cream palette"
+  ],
+  "newMeshyJobs": 0,
+  "verificationScope": "Actual native export visual QA and live color/font/copy/bounds checks; fresh saved geometry/scene verification. No reader comprehension study.",
+  "artifacts": [
+    {
+      "path": "out/roman_concrete_narrative_v7.blend",
+      "bytes": 29955843,
+      "sha256": "2c22462b8cd9f169f6eb12822befa415c9c42a256eca86ae4e5ead5820d1b4b8"
+    },
+    {
+      "path": "out/figma_poster_v11_color_2x.png",
+      "bytes": 11533247,
+      "sha256": "62b86cc2877b45917cc61ab3fc674fbf24e4618b78de92825f4ddae2a0dcbfb0"
+    },
+    {
+      "path": "out/figma_poster_v11_color_1x.png",
+      "bytes": 3008663,
+      "sha256": "1f8199f67540f01e8d426780be18da7e07a68ee5bc9a4125f5cfd86dc09bf7f3"
+    },
+    {
+      "path": "out/figma_color_typography_guide_v11_2x.png",
+      "bytes": 79753,
+      "sha256": "365989cb29fd6ca5d4ca2cbb1de2758da62440bea6d7bb51f2f46a7de5428037"
+    },
+    {
+      "path": "out/figma_import/map_v7_color_without_text_2x_optimized.png",
+      "bytes": 10311259,
+      "sha256": "41ff88f964c05dc9f6633a99aed3e4863bc06074b2c6164b3f9b47e96cd68cc3"
+    },
+    {
+      "path": "out/poster-color-v7.json",
+      "bytes": 985477,
+      "sha256": "8544216b579093a54894ff530d35ee98dd3d98e5e3e5ebcc8e8d2296fb2cc128"
+    },
+    {
+      "path": "out/figma-v11-color-final-validation.json",
+      "bytes": 17023,
+      "sha256": "b2affceb8528f1e8d12967468af27e6eac9a0dfded7896ca6b350d536b1c7d18"
+    },
+    {
+      "path": "out/figma-v11-color-mutation.json",
+      "bytes": 10315,
+      "sha256": "ff263b7686ad2077cebc2cb149d284ea61205187306b61322e96e0158b487bce"
+    },
+    {
+      "path": "out/figma-v11-text-ink-mutation.json",
+      "bytes": 1258,
+      "sha256": "17630186d9ff871eb219a50c7751b08fdc1f948d4670e38fc3a379fdd8cabade"
+    },
+    {
+      "path": "out/figma-v11-color-foundation.json",
+      "bytes": 5809,
+      "sha256": "ad81037b26cbf8d0eb9bab95c1ebbf8a7615032fc425e4a539581511955a3842"
+    },
+    {
+      "path": "out/v7-color-saved-validation.json",
+      "bytes": 8477,
+      "sha256": "b223f8bda83f7006975980be6e3906bb1ee99ac7a1d150a784503fef4a825858"
+    },
+    {
+      "path": "copy/narrative_v11.json",
+      "bytes": 35440,
+      "sha256": "24e5c77c4aa4e8f5209bdabbc8388f700daaae84661e83f44c4eff639ea8fc62"
+    },
+    {
+      "path": "copy/color_system_v11.json",
+      "bytes": 2981,
+      "sha256": "95e3e342867b3eee6747f1374b9619c684dfd9f7537add455811d981600d8b26"
+    },
+    {
+      "path": "design/design-tokens.json",
+      "bytes": 8824,
+      "sha256": "250b0cc1972444be2630cb94e8024f0c048e53e0796628ec204c31c2abd998de"
+    },
+    {
+      "path": "design/design-tokens.css",
+      "bytes": 1217,
+      "sha256": "4ee42012a5619c6427afc2a13cddd9a9ebd8e091346a45b10b8fc73f4cabac9e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3578,
+      "sha256": "39bdcd0627b6d2e5c4aa93c3394d17de063c52256e2fbe73ca12ae098881e4d3"
+    },
+    {
+      "path": "분석과_재구성안.md",
+      "bytes": 27285,
+      "sha256": "6cb75a105c4047ae18dc92407e37446fd3779e9e2a056b6b2aad299e1eeacc12"
+    },
+    {
+      "path": "design/DESIGN.md",
+      "bytes": 3978,
+      "sha256": "0962b303176204d2251b95dd5967e55903f998949d1d77a3c00ee776a9794a06"
+    },
+    {
+      "path": "out/v11-final-color-qa.md",
+      "bytes": 5653,
+      "sha256": "c968ca56539a034939546ac6338831b17504cdab7ae887a3398f08648cfd8504"
+    },
+    {
+      "path": "out/v7-color-saved-validation.md",
+      "bytes": 2824,
+      "sha256": "618fc8e9e03d06e06e53df2e3b3b32852c5553a580c72dae0f5cabca009e150c"
+    },
+    {
+      "path": "out/contrast-v11-rendered-regions-final.json",
+      "bytes": 16391,
+      "sha256": "78975312ec6a3bc9c2682075a077b606f4f64a71266d6a022af877255cd244fd"
+    }
+  ],
+  "visualReview": "PASS — root and independent final native export",
+  "savedSceneReview": "PASS — fresh v6/v7 comparison",
+  "existingMindmapVariablesPreserved": 59,
+  "reviewFiles": [
+    "out/v11-final-color-qa.md",
+    "out/v7-color-saved-validation.md"
+  ]
+}

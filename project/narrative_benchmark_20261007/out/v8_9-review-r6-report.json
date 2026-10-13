@@ -1,0 +1,12 @@
+{
+  "frame_sliver": 0,
+  "pegs": 61,
+  "vesuvius_strands": 15,
+  "vesuvius_band_verts_smoothed": 7512,
+  "frame_sliver_faces": 0,
+  "render": {
+    "map_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_9_r6_map_pass.png",
+    "overlay_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_9_r6_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

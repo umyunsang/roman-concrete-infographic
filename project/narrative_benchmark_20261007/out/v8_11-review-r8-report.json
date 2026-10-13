@@ -1,0 +1,126 @@
+{
+  "pantheon_old_screen": [
+    414.3,
+    495.4,
+    454.9,
+    558.1
+  ],
+  "pantheon_faces": 70454,
+  "pantheon_roof_faces": 22434,
+  "pantheon": {
+    "yaw": 24,
+    "portico_screen_deg": 129.1,
+    "scale": 4.6859,
+    "screen_box": [
+      420.1,
+      488.9,
+      468.8,
+      549.2
+    ]
+  },
+  "old_step3_seam_faces": 6,
+  "crack_sequence": {
+    "normals": {
+      "R8_crack_step1": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "R8_crack_step2": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "R8_water_step1": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "R8_calcium_step2": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "R8_healed_step3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "drops_box": [
+      665.6,
+      674.4,
+      1164.8,
+      1191.2
+    ]
+  },
+  "value": {
+    "tower_middle": "#C8B491",
+    "tower_heavy": "#A9987C",
+    "sect_heavy": "#A79880",
+    "tower_foundation": "#8C806E",
+    "specimen_matrix": [
+      "#8D6E5D",
+      "#9E7C69"
+    ],
+    "frame_concrete": [
+      "#B9BEC0",
+      "#8B8F90"
+    ],
+    "foliage_pale": "#A9B188",
+    "terrain": [
+      "#EDE1CB",
+      "#F4E8D1"
+    ],
+    "grove_a": [
+      "T_pine.001",
+      "T_pine.002",
+      "T_pine.003",
+      "T_pine.011",
+      "T_pine.013",
+      "T_pine.017",
+      "T_pine.018",
+      "T_pine.019"
+    ]
+  },
+  "render": {
+    "map_pass": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/renders/narrative_v8_11_r8_map_pass.png",
+    "overlay_pass": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/renders/narrative_v8_11_r8_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

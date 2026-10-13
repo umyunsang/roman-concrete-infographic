@@ -1,0 +1,72 @@
+{
+  "specimens": {
+    "healed_centre": [
+      1034.0,
+      704.8
+    ],
+    "leaking_centre": [
+      1110.0,
+      704.8
+    ]
+  },
+  "wave_faces_removed": 48,
+  "colosseum_debris_faces": 3015,
+  "ostiensis_faces_added": 830,
+  "researchers": {
+    "left": {
+      "H_world": 2.398,
+      "scale": 0.68,
+      "verts": 1802
+    },
+    "back": {
+      "H_world": 2.095,
+      "scale": 0.83,
+      "verts": 1354
+    },
+    "front": {
+      "H_world": 2.109,
+      "scale": 0.73,
+      "verts": 1697
+    },
+    "red": {
+      "H_world": 1.556,
+      "scale": 0.95,
+      "verts": 1064
+    }
+  },
+  "pompeii_pin": {
+    "dash_faces_cut": 8
+  },
+  "core_overlays": {
+    "1": [
+      528,
+      382,
+      113
+    ],
+    "2": [
+      57.5,
+      744,
+      77
+    ],
+    "3": [
+      408.5,
+      1028,
+      135
+    ],
+    "4": [
+      638.5,
+      1028,
+      113
+    ],
+    "5": [
+      982.5,
+      813,
+      171
+    ]
+  },
+  "render": {
+    "map_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_5_r2_map_pass.png",
+    "overlay_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_5_r2_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

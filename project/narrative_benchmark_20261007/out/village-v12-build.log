@@ -1,0 +1,36 @@
+00:00.694  blend            | Read blend: "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v9.blend"
+BlenderMCP addon registered
+19:57:47 | INFO: Data are loaded, start creating Blender stuff
+19:57:47 | INFO: Blender create Mesh node output_unwrapped
+19:57:47 | INFO: glTF import finished in 0.08s
+19:57:47 | INFO: Data are loaded, start creating Blender stuff
+19:57:47 | INFO: Blender create Mesh node output_unwrapped
+19:57:47 | INFO: glTF import finished in 0.05s
+19:57:47 | INFO: Data are loaded, start creating Blender stuff
+19:57:47 | INFO: Blender create Mesh node output_unwrapped
+19:57:47 | INFO: glTF import finished in 0.05s
+19:57:47 | INFO: Data are loaded, start creating Blender stuff
+19:57:47 | INFO: Blender create Mesh node output_unwrapped
+19:57:47 | INFO: glTF import finished in 0.06s
+19:57:47 | INFO: Data are loaded, start creating Blender stuff
+19:57:47 | INFO: Blender create Mesh node output_unwrapped
+19:57:48 | INFO: glTF import finished in 0.05s
+19:57:48 | INFO: Data are loaded, start creating Blender stuff
+19:57:48 | INFO: Blender create Mesh node output_unwrapped
+19:57:48 | INFO: glTF import finished in 0.06s
+19:57:48 | INFO: Data are loaded, start creating Blender stuff
+19:57:48 | INFO: Blender create Mesh node output_unwrapped
+19:57:48 | INFO: glTF import finished in 0.05s
+19:57:48 | INFO: Data are loaded, start creating Blender stuff
+19:57:48 | INFO: Blender create Mesh node output_unwrapped
+19:57:48 | INFO: glTF import finished in 0.06s
+/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/scripts/integrate_village_v12.py:66: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  c=(*lin(palette[role]),1.);t=bpy.data.materials.new('RC.v14.'+role);t.diffuse_color=c;t.roughness=.85;t.use_nodes=True
+00:13.781  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v12_construction_details_map_pass.png'
+00:14.289  render           | Saved: '/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v12_construction_details_overlay_pass.png'
+Info: Saved as "roman_concrete_narrative_v12.blend"
+CONSTRUCTION_V12_COMPLETE {"output": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/roman_concrete_narrative_v12.blend", "total_objects": 527, "total_materials": 90, "credits_used": 160}
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

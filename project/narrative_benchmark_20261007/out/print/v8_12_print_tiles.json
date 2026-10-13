@@ -1,0 +1,68 @@
+{
+  "tag": "v8_12",
+  "size_px": [
+    5033,
+    7087
+  ],
+  "ppi": 300,
+  "bleed_mm": 3,
+  "edge_mirror_px": {
+    "top": 12,
+    "right": 16
+  },
+  "edge_after": {
+    "top_rows_mean": [
+      239.3,
+      227.2,
+      205.0
+    ],
+    "right_cols_mean": [
+      233.8,
+      224.6,
+      203.4
+    ]
+  },
+  "tiles": [
+    {
+      "file": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/out/print/v8_12_tile_r0c0.jpg",
+      "box_px": [
+        0,
+        0,
+        2517,
+        3544
+      ],
+      "bytes": 2756970
+    },
+    {
+      "file": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/out/print/v8_12_tile_r0c1.jpg",
+      "box_px": [
+        2517,
+        0,
+        5033,
+        3544
+      ],
+      "bytes": 2793626
+    },
+    {
+      "file": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/out/print/v8_12_tile_r1c0.jpg",
+      "box_px": [
+        0,
+        3544,
+        2517,
+        7087
+      ],
+      "bytes": 2768762
+    },
+    {
+      "file": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/out/print/v8_12_tile_r1c1.jpg",
+      "box_px": [
+        2517,
+        3544,
+        5033,
+        7087
+      ],
+      "bytes": 2771780
+    }
+  ],
+  "pt_per_px": 0.2400158950923902
+}

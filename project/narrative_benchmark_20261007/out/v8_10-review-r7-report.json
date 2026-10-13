@@ -1,0 +1,9 @@
+{
+  "vesuvius_band_smoothed": 653,
+  "pompeii_bar": 21,
+  "render": {
+    "map_pass": "/Users/um-yunsang/Documents/\ub85c\ub9c8\ucf58\ud06c\ub9ac\ud2b8_3D/narrative_benchmark_20261007/renders/narrative_v8_10_r7_map_pass.png",
+    "overlay_pass": "/Users/um-yunsang/Documents/\ub85c\ub9c8\ucf58\ud06c\ub9ac\ud2b8_3D/narrative_benchmark_20261007/renders/narrative_v8_10_r7_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

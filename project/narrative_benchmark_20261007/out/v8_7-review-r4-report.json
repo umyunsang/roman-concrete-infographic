@@ -1,0 +1,13 @@
+{
+  "colosseum_loose_faces_removed": 57,
+  "road_remnant_faces": 261,
+  "kiln_bottom_pt": [
+    738.4,
+    733.3
+  ],
+  "render": {
+    "map_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_7_r4_map_pass.png",
+    "overlay_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_7_r4_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

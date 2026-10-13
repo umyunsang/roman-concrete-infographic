@@ -1,0 +1,11 @@
+{
+  "milestone_column": "#A79375",
+  "col_sliver": 66,
+  "field_pegs": 1051,
+  "frame_pegs": 0,
+  "render": {
+    "map_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_8_r5_map_pass.png",
+    "overlay_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_8_r5_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

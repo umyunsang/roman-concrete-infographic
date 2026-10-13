@@ -1,0 +1,108 @@
+{
+  "colours": "sea #A0CFCF, line #3E3A31, specimen #8D6E5D, books wood/linen, D3_heavy #7A6D58",
+  "hidden": [
+    "L03_forum_vesta",
+    "L04_palatine",
+    "L04_palatine_arch",
+    "S_lab_island",
+    "S_lead00",
+    "S_lead01",
+    "S_lead_dot0",
+    "S_lead_dot1",
+    "S_pin_privernum",
+    "S_pin_privernum_dot"
+  ],
+  "kiln_statue_verts_removed": 393,
+  "mixing_woman": {
+    "verts": 14111,
+    "pivot": [
+      -19.48,
+      -37.67,
+      0.05
+    ],
+    "height_before": 4.85
+  },
+  "crack_sequence": {
+    "drops_moved_pt": -73,
+    "calcium_dots": 3,
+    "water_thread": true
+  },
+  "specimens": {
+    "bench_center_pt": [
+      1072.0,
+      742.0
+    ],
+    "A_mid_pt": [
+      1034.0,
+      704.7
+    ],
+    "B_mid_pt": [
+      1110.0,
+      704.7
+    ]
+  },
+  "wave_faces_cleared_around_model": 67,
+  "seawater_model_box_pt": [
+    34.0,
+    129.3,
+    1560.2,
+    1657.1
+  ],
+  "seawater_model": {
+    "from_base_pt": [
+      115.8,
+      405.3
+    ],
+    "to_base_pt": [
+      74,
+      1652
+    ]
+  },
+  "road_landings_pt": {
+    "1": [
+      536.3,
+      512.9
+    ],
+    "5": [
+      936.8,
+      877.4
+    ]
+  },
+  "road_trim_faces": {
+    "core1": 436,
+    "core5": 217
+  },
+  "field_plate_faces_removed": 38,
+  "core_overlays": {
+    "1": [
+      528,
+      382,
+      110
+    ],
+    "2": [
+      61.5,
+      744,
+      75
+    ],
+    "3": [
+      408.5,
+      1028,
+      131
+    ],
+    "4": [
+      638.5,
+      1028,
+      110
+    ],
+    "5": [
+      982.5,
+      816,
+      127
+    ]
+  },
+  "render": {
+    "map_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_3_r1_map_pass.png",
+    "overlay_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_3_r1_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

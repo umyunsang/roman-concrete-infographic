@@ -1,0 +1,99 @@
+{
+  "scope": "Local asset preparation only; no Figma, Blender, or Meshy mutations",
+  "image": {
+    "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/figma_import/map_without_text_2x.png",
+    "size": [
+      2382,
+      3368
+    ],
+    "bytes": 6264341,
+    "sha256": "8c63e11dcc9175a438554a8f8ce37930fb9fb8d70d42a25947405d2147361434",
+    "under10MB": true
+  },
+  "padding": {
+    "map": {
+      "sourceSize": [
+        2381,
+        3367
+      ],
+      "rightPx": 1,
+      "bottomPx": 1
+    },
+    "overlay": {
+      "sourceSize": [
+        2381,
+        3367
+      ],
+      "rightPx": 1,
+      "bottomPx": 1
+    }
+  },
+  "posterReconstructionMismatchingPixels": 0,
+  "text": {
+    "narrativeEntries": 51,
+    "patchEntries": 27,
+    "originalLiveEntries": 89,
+    "manifestEntries": 90,
+    "expectedCompleteEntries": 90,
+    "complete": true,
+    "groups": {
+      "retained": 39,
+      "QUESTION": 1,
+      "CORE": 20,
+      "DETAIL": 8,
+      "PLACE": 7,
+      "SUPPORT": 14,
+      "TIMELINE": 1
+    },
+    "unresolvedGeometry": [],
+    "unverifiedNarrativeFallbacks": [],
+    "missingOriginalSourceNodes": [],
+    "sourceKinds": {
+      "retained_live": 63,
+      "narrative_patch": 27
+    }
+  },
+  "nontextBackground": [
+    "CORE circles",
+    "CORE underlines",
+    "SUPPORT dashed pins/endpoints",
+    "DETAIL leaders/section diagram",
+    "timeline rule/dots/arrowhead",
+    "header models",
+    "map/architecture/terrain/all placed objects"
+  ],
+  "inputs": {
+    "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v4_map_pass.png": {
+      "bytes": 7871450,
+      "sha256": "8759cd9592010823c0dcf10794c226dd8ba94fc628dcbbeaec2ab2ba704e8a1e"
+    },
+    "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v4_overlay_pass.png": {
+      "bytes": 2276153,
+      "sha256": "521777da1538ee907d388f08279a2f91e597761704c5e44d5a1daa1fa6d9739d"
+    },
+    "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/copy/text_overlay_narrative_rgba_2x.png": {
+      "bytes": 272439,
+      "sha256": "c7fce37b6d58bf4245022c334397632c0a9803e01b659671040f1664a798994f"
+    },
+    "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/poster_2x.png": {
+      "bytes": 6649976,
+      "sha256": "c2250dc277adab8d2fe542d64494b8bddb4a6b8986f5fa4b3e6d00dd8dea8c73"
+    },
+    "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/copy/figma_text_narrative.json": {
+      "bytes": 9515,
+      "sha256": "2e530e747d221513cdd4448f1787ccdc0a1fd67305100d33f6389568660f86dd"
+    },
+    "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/copy/narrative_copy.json": {
+      "bytes": 15091,
+      "sha256": "d8c56298f8ab9cdb915d014583ca2de621175e0030f69234d43c43fe777f1756"
+    },
+    "/Users/um-yunsang/.planning/roman-concrete-narrative-20261007/evidence/figma-texts-import-live.json": {
+      "bytes": 15909,
+      "sha256": "b19f2902ca9398b600e1b84cb92d062ff7dfec65524b02b831dab0189f12a024"
+    }
+  },
+  "manifest": {
+    "path": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/out/figma_import/text_manifest.json",
+    "sha256": "affbb4403c2f5824afe609e11cf4eefafbf2308102e385ed4caba30fa7c35f55"
+  }
+}

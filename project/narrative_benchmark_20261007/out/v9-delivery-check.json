@@ -1,0 +1,24 @@
+{
+  "source_blend_sha256": "28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3",
+  "figma_frame_id": "691:198",
+  "native_text_count": 98,
+  "copy_hand_offs_present": true,
+  "all_body_heights_match": true,
+  "out_of_bounds_count": 0,
+  "v7_v8_unchanged": true,
+  "unchanged_background_hash": "30c500408fbcc4bb14c5511c5be6ab2c818085c5",
+  "native_png_sha256": "96405544984ab321108bd5aff9cc9cf8e5712fee64030fb8a0b69be9214b378c",
+  "scope": "Structural and copy presence checks, not measured reader comprehension.",
+  "caption_fix": {
+    "panel_px": [
+      524,
+      492,
+      704,
+      539
+    ],
+    "ancient_ruin_role": "유적 관찰 장면"
+  },
+  "native_visual_review": "PASS after caption fix",
+  "rhetorical_continuity_review": "PASS",
+  "reader_comprehension_test": "not performed"
+}

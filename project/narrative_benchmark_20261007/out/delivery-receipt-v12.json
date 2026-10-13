@@ -1,0 +1,135 @@
+{
+  "createdAtLocal": "2026-10-08T14:29:16",
+  "figmaUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=737-78",
+  "guideUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=737-246",
+  "frameId": "737:78",
+  "backgroundId": "737:79",
+  "pageId": "19:4",
+  "backgroundHash": "867e430e94a7b6fc0b40dae8b89882e6f9704df9",
+  "nativeEditableTexts": 95,
+  "copyFontsFillsTextBoundsPreserved": true,
+  "totalObjectsGeometryTransformsCameraVisibilityPreserved": 317,
+  "actualMaterialCount": 51,
+  "visibleMeshesWithMaterials": 227,
+  "meshesWithMultipleAssignedMaterials": 36,
+  "sharedMeshDataCopies": 18,
+  "renderAndSavedSolidViewportColorMode": "MATERIAL",
+  "materialPaletteVariables": 48,
+  "existingOverlayVariablesAndStylesPreserved": true,
+  "newMeshyJobs": 0,
+  "savedSceneReview": "PASS — fresh saved comparison",
+  "nativeVisualReview": "PASS — root and independent actual 1x/2x/details/guide",
+  "scope": "Visual/file validation; not a reader study",
+  "artifacts": [
+    {
+      "path": "out/roman_concrete_narrative_v8.blend",
+      "bytes": 34930489,
+      "sha256": "d179c5abdce8a9b0b48cf3f34cad9331b61e048f2e8edef504f430cee172ef3c"
+    },
+    {
+      "path": "out/figma_poster_v12_part_materials_2x.png",
+      "bytes": 11541908,
+      "sha256": "c642d67b71765d04076b5e00fa85564d2f46fe4f7b14762c7bb79057eb063345"
+    },
+    {
+      "path": "out/figma_poster_v12_part_materials_1x.png",
+      "bytes": 3015326,
+      "sha256": "75d2373fc8e05426f13478f40e9a7009346262cb529b7bd84e720d0413a656c4"
+    },
+    {
+      "path": "out/figma_part_material_guide_v12_2x.png",
+      "bytes": 79975,
+      "sha256": "c1719d1290a9fbd37f4caab5a809cb0b274a307c23655a11d2579db9e55c3096"
+    },
+    {
+      "path": "out/figma_import/map_v8_part_materials_without_text_2x.png",
+      "bytes": 10312558,
+      "sha256": "7cfbd9fe71966fc4e4964210affbf394f75584bf42464e82897c69b6f4e09fbe"
+    },
+    {
+      "path": "out/poster-part-materials-v8.json",
+      "bytes": 1084814,
+      "sha256": "833e3ff013baa0727cfb7adbc3b5cd741b9dfa811f7b8d80c25b2aedcce99d2b"
+    },
+    {
+      "path": "out/v8-saved-material-validation.json",
+      "bytes": 184431,
+      "sha256": "4ab20f825d8b6f9e959015f6a20bd09ede647701b854dea6c8cb76c4036fdf3c"
+    },
+    {
+      "path": "out/v8-saved-material-validation.md",
+      "bytes": 2866,
+      "sha256": "51052f30f45bc8f04d1a694f6ec04843fe166e137d2d0265fbd0c27132cb32a4"
+    },
+    {
+      "path": "out/figma-v12-part-material-mutation.json",
+      "bytes": 8509,
+      "sha256": "6bb200feb197530a21df3f7072fbf0c7ace78802dd06f613d2909bf3b9b01603"
+    },
+    {
+      "path": "out/figma-v12-part-material-validation.json",
+      "bytes": 17200,
+      "sha256": "49f6250a4ade044990301858b7b2ac6c93073c6e689587eba7e4f421c3617ac0"
+    },
+    {
+      "path": "out/v12-final-visual-review.md",
+      "bytes": 3525,
+      "sha256": "32ae42da469f1e0f7d5ff808d62e75e4bfe1d94c4411f0e5b90afe605f908a3e"
+    },
+    {
+      "path": "copy/narrative_v12.json",
+      "bytes": 35443,
+      "sha256": "71676e8edb4ce02f377742a56ea298838c69890fbb47ae0f169e2d4927b77976"
+    },
+    {
+      "path": "copy/part_material_palette_v12.json",
+      "bytes": 12083,
+      "sha256": "b67c83989c51ff262a949b828102b7a273d3987168fd3ac648490aaf534e6915"
+    },
+    {
+      "path": "design/PART-MATERIALS.md",
+      "bytes": 4782,
+      "sha256": "963841474b9e2d5e5e8d8b432b32450be53c755dc8fb9d953ba92ca6fa816d97"
+    },
+    {
+      "path": "design/part-material-tokens.json",
+      "bytes": 13113,
+      "sha256": "1df26628e3a51d3df8d2c81a92c328a2d6c70708c06042287a8155bc97dfd1a7"
+    },
+    {
+      "path": "design/part-material-tokens.css",
+      "bytes": 851,
+      "sha256": "b3b8cf3f4f2a8d5254415639da281976b7e15551cdf459feb90ea3fa235de53e"
+    },
+    {
+      "path": "scripts/apply_part_materials_v8.py",
+      "bytes": 6551,
+      "sha256": "6dbeee1788b1b69c4697181cfac4f2b20d9809c6c01cfb7971213b572c429825"
+    },
+    {
+      "path": "scripts/modern_lab_parts.py",
+      "bytes": 4627,
+      "sha256": "774570e00509ef60ccb059a249a9f9a05a925aeea2efb1693f7c6c61f0a0f95b"
+    },
+    {
+      "path": "scripts/process_people_parts.py",
+      "bytes": 7364,
+      "sha256": "09c00b468f43baceafd19a02bd5b095b599fa830c95d89df677d02b1968ed280"
+    },
+    {
+      "path": "scripts/heritage_tree_parts.py",
+      "bytes": 9238,
+      "sha256": "941c47697c65145aa45f703e9919d11bfb9a212bd53cf839656ce15f63c1cce1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3936,
+      "sha256": "70a760c0064e8e9ba8a608eeda6d8f330d741d0387d41d07861128db6d863c39"
+    },
+    {
+      "path": "분석과_재구성안.md",
+      "bytes": 27395,
+      "sha256": "0a74bce158b3d4b05cdc18ce8bfc1c20a57f001de6693a4178f30a8f3f129e99"
+    }
+  ]
+}

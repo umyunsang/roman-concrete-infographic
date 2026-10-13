@@ -1,0 +1,85 @@
+{
+  "pantheon_box": [
+    [
+      420.1,
+      488.9,
+      468.8,
+      549.2
+    ],
+    [
+      390.1,
+      458.7,
+      453.2,
+      532.8
+    ]
+  ],
+  "nw_road_length_ratio": 1.017,
+  "nw_true_centre_offset_max": 1.96,
+  "nw_old_faces_removed": 3601,
+  "nw_repaved": {
+    "pavers": 690,
+    "rows": 92,
+    "pitch": 0.449,
+    "curb_faces": 1650,
+    "old_s": [
+      0.07,
+      40.69
+    ],
+    "new_s": [
+      0.07,
+      41.37
+    ]
+  },
+  "podium_angles_clipped": 59,
+  "podium_t_min": 0.59,
+  "road_vertices_hidden": 0,
+  "nw_band_x340": [
+    587,
+    657
+  ],
+  "nw_band_x360": [
+    572,
+    637
+  ],
+  "nw_band_x380": [
+    556,
+    612
+  ],
+  "nw_band_x400": [
+    544,
+    584
+  ],
+  "nw_band_x420": [
+    538,
+    568
+  ],
+  "nw_band_x440": [
+    535,
+    559
+  ],
+  "nw_band_x460": [
+    529,
+    555
+  ],
+  "nw_band_x480": [
+    519,
+    551
+  ],
+  "nw_band_x500": [
+    510,
+    542
+  ],
+  "nw_band_x520": [
+    503,
+    530
+  ],
+  "nw_band_x540": [
+    506,
+    525
+  ],
+  "render": {
+    "map_pass": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/renders/narrative_v8_12_roads_map_pass.png",
+    "overlay_pass": "/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/nb_work/renders/narrative_v8_12_roads_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

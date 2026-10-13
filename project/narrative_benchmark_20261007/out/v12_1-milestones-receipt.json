@@ -1,0 +1,86 @@
+{
+  "createdAtLocal": "2026-10-12T14:00:54",
+  "figmaFrameId": "790:78",
+  "figmaBackgroundId": "790:79",
+  "figmaBackgroundHash": "7002c5919b2dd0a6ce3e1d92a6c6836bd222d077",
+  "replaces": "flat Meshy arrows of v8.1 (user: arrows should be Roman-era objects, roadside milestone signs)",
+  "meshy": {
+    "concept_text_to_image": "01a12e6a-8175-75de-a47c-c5260a9b5fa8 (nano-banana-2, 6 credits)",
+    "image_to_3d": "01a12e6b-5456-721c-8aea-b6e8a00b2d5d (meshy-7.1 mesh only, 20 credits)"
+  },
+  "post": "decimate 0.16; stone column / plinth / arrow board split by geometry; board enlarged x1.45 length, x1.3 height; materials roman_stone, roman_plinth, RC.v12_1.direction_arrow (#983821)",
+  "signs": {
+    "MS1_core1_to_2": {
+      "mirror": true,
+      "yaw_deg": 285,
+      "dir_err_deg": 0.4,
+      "board_face_visibility": 0.47,
+      "board_screen_len": 36.0,
+      "scale": 8.222,
+      "screen_box": [
+        461.7,
+        513.0,
+        370.2,
+        453.2
+      ]
+    },
+    "MS2_core2_to_34": {
+      "mirror": false,
+      "yaw_deg": 354,
+      "dir_err_deg": 0.2,
+      "board_face_visibility": 0.49,
+      "board_screen_len": 39.6,
+      "scale": 6.61,
+      "screen_box": [
+        199.8,
+        255.1,
+        916.8,
+        1003.9
+      ]
+    },
+    "MS3_core34_to_5": {
+      "mirror": false,
+      "yaw_deg": 87,
+      "dir_err_deg": 0.2,
+      "board_face_visibility": 0.61,
+      "board_screen_len": 43.4,
+      "scale": 6.6,
+      "screen_box": [
+        777.2,
+        846.8,
+        918.0,
+        1008.7
+      ]
+    }
+  },
+  "near_text_gaps": {
+    "MS2_core2_to_34~lime_label": 12.8,
+    "MS3_core34_to_5~privernum": 11.3
+  },
+  "artifacts": {
+    "out/roman_concrete_narrative_v8_2.blend": {
+      "bytes": 36962868,
+      "sha256": "d8c05bd00c9780f8a679554524da034277ff60a89c43ebed7893ea06847ec5a9"
+    },
+    "out/figma_import/map_v8_2_milestones_without_text_2x.png": {
+      "bytes": 10329894,
+      "sha256": "f596fe0d60d93b6bced11c4097379a44afee07bdb9b47fc591724b72d97d8933"
+    },
+    "out/figma_poster_v12_1_milestones_2x.png": {
+      "bytes": 11521775,
+      "sha256": "278ac197d09ca1edd7658e2bef38114c27f73148ab704ba43329b6cddf0a9de7"
+    },
+    "models/milestone_sign_v1/milestone_sign_meshy71.glb": {
+      "bytes": 5479280,
+      "sha256": "e561686a84aa5f97ae9f5b1f77e312b613fde1535669f4601f401757fd2c543f"
+    },
+    "models/milestone_sign_v1/concept_01.png": {
+      "bytes": 1239246,
+      "sha256": "69343f8f3e2cfa64700d3ed05d8e2c3ae57dd12612549028fcc4d1e82861e25f"
+    },
+    "scripts/milestone_signs_v8_2.py": {
+      "bytes": 11274,
+      "sha256": "53f4ab094b0568110fc597b3fa347069ef405b1461264bc7a25677fb542d9f3b"
+    }
+  }
+}

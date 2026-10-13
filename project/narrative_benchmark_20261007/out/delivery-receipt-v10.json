@@ -1,0 +1,62 @@
+{
+  "figmaUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=718-78",
+  "frameId": "718:78",
+  "pageId": "19:4",
+  "backgroundId": "718:79",
+  "backgroundHash": "941c6dfe8fff1e17567f2413cb93c420b93e8517",
+  "nativeTexts": 95,
+  "copyPreserved": true,
+  "originalV9Preserved": true,
+  "originalBlendUnchanged": true,
+  "visualReview": "PASS",
+  "savedGeometryReview": "PASS",
+  "modelsVsTerrainCrossings": {
+    "modern": 0,
+    "clast": 0
+  },
+  "unmodifiedObjects": 286,
+  "totalObjects": 317,
+  "artifacts": [
+    {
+      "path": "out/roman_concrete_narrative_v6.blend",
+      "bytes": 29955697,
+      "sha256": "d71533920ebd305c41e92db718b527647c8b9655aee87cbb3b656c3afde257cd"
+    },
+    {
+      "path": "out/figma_poster_v10_composition_2x.png",
+      "bytes": 6658191,
+      "sha256": "12f4c1cf7e4fe0e6e04f4ffd9192d97b11d38f9139a112f385377e5b9eb7afd2"
+    },
+    {
+      "path": "out/figma_poster_v10_composition_1x.png",
+      "bytes": 1626300,
+      "sha256": "7d7bda505163e30a078f02713f9566ddcb5a2f3eb7b66629524dca64a27da20f"
+    },
+    {
+      "path": "out/figma_import/map_v6_composition_without_text_2x.png",
+      "bytes": 6410635,
+      "sha256": "40d820a1587089bebef8b380021783308bcacb429813d2f51d837487c60f7e0c"
+    },
+    {
+      "path": "out/poster-composition-v6.json",
+      "bytes": 1125375,
+      "sha256": "5ef4d2ff1fc98fd56e728298b3e206622e49bb0abfce998308c7ff7d10d79e7a"
+    },
+    {
+      "path": "out/figma-v10-composition-validation.json",
+      "bytes": 27989,
+      "sha256": "b725b0d4e4ffac439bb23028cbd577f99ae31e1903581e22269d012fb3812f10"
+    },
+    {
+      "path": "copy/narrative_v10.json",
+      "bytes": 28313,
+      "sha256": "2dd6545689d7ba4ce2760e6b8fd4a9efcf5bfafe754f0151e1fc987845e63a0c"
+    }
+  ],
+  "reviewFiles": [
+    "out/v10-composition-visual-review.md",
+    "out/v6-geometry-validation.md",
+    "out/v6-geometry-validation.json"
+  ],
+  "note": "Actual native export and saved-scene QA; no audience-comprehension experiment."
+}

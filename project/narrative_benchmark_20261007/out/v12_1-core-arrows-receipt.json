@@ -1,0 +1,120 @@
+{
+  "createdAtLocal": "2026-10-12T13:38:05",
+  "figmaFrameId": "790:78",
+  "figmaBackgroundId": "790:79",
+  "figmaBackgroundHash": "630fdb771b0b855887d0c0754293aa54e32e06f4",
+  "figmaUrl": "https://www.figma.com/design/jQPriO85F6wtPy1NPo752p/?node-id=790-78",
+  "basedOn": "737:78 (v12, kept)",
+  "changes": {
+    "core_title_line2": "790:147/159/165/171 fills -> semantic/type_heat (#983821, CORE 2)",
+    "core_badges_underlines": "Blender S_core1/3/4/5 badge+underline -> RC.v12.base_badge_2",
+    "timeline": "Figma 14 texts removed; Blender S_time_* hidden",
+    "arrows": "Meshy 7.1 text-to-3d task 01a12e59-b756-73d4-acbf-1fd149dcbf7e, spear tail cut, re-proportioned to classic arrow, RC.v12_1.direction_arrow #983821, collection 47_DIRECTION_ARROWS",
+    "moved": {
+      "apennine_label": "790:103 bbox (412,402)->(360,405)",
+      "bale_field_patch": {
+        "islands": 13,
+        "verts": 282,
+        "from_box": [
+          219,
+          278,
+          968,
+          1013
+        ],
+        "to_box": [
+          185,
+          233,
+          1075,
+          1113
+        ],
+        "world_delta": [
+          9.194,
+          -12.62,
+          -0.023
+        ],
+        "scale": 0.786
+      }
+    }
+  },
+  "meshy": {
+    "credits": 40,
+    "rejected_task": "01a12e5b-73f8-77a3-a1a5-5e3860178fa4 (3D cross, unusable)"
+  },
+  "arrows": {
+    "A1_core1_to_2": {
+      "tail_pt": [
+        502.9,
+        402.3
+      ],
+      "tip_pt": [
+        456.6,
+        440.3
+      ],
+      "world_len": 10.665,
+      "yaw_deg": -74.48,
+      "z": 1.391,
+      "ground_range": [
+        0.237,
+        1.178
+      ]
+    },
+    "A2_core2_to_34": {
+      "tail_pt": [
+        193.5,
+        959.3
+      ],
+      "tip_pt": [
+        248.0,
+        1003.1
+      ],
+      "world_len": 8.91,
+      "yaw_deg": -5.01,
+      "z": 0.831,
+      "ground_range": [
+        0.249,
+        0.653
+      ]
+    },
+    "A3_core34_to_5": {
+      "tail_pt": [
+        793.4,
+        1002.2
+      ],
+      "tip_pt": [
+        856.2,
+        971.3
+      ],
+      "world_len": 7.813,
+      "yaw_deg": 82.82,
+      "z": 0.952,
+      "ground_range": [
+        0.343,
+        0.796
+      ]
+    }
+  },
+  "artifacts": {
+    "out/roman_concrete_narrative_v8_1.blend": {
+      "bytes": 35468175,
+      "sha256": "99c9aef60b4ed068153100c7af6c2e907b32fa07bf972d085a541947a1f50566"
+    },
+    "out/figma_import/map_v8_1_core_arrows_without_text_2x.png": {
+      "bytes": 10320426,
+      "sha256": "daf355d8f9c56097014cd51c1fac1ae79eddbcb29841f1d67dcf37bf2cfb0ee9"
+    },
+    "out/figma_poster_v12_1_core_arrows_2x.png": {
+      "bytes": 11514511,
+      "sha256": "e1a33dadb454916944f257f8cf691d83d735050646d1d402b5283f7a6745f847"
+    },
+    "models/direction_arrow_v1/arrow_meshy71.glb": {
+      "bytes": 725644,
+      "sha256": "f8fcd354546a8354019d2e3dc8f4b29563a02ac378cbe1318ca6d86840d1778e"
+    },
+    "scripts/core_arrows_v8_1.py": {
+      "bytes": 12005,
+      "sha256": "5eb29000562a88ed3c85c83cdc164794021fe13352bbe36e6440d81b8b97268f"
+    }
+  },
+  "v8_source_unchanged_sha256": "d179c5abdce8a9b0b48cf3f34cad9331b61e048f2e8edef504f430cee172ef3c",
+  "note": "Lossless WebP upload was accepted but unreadable in Figma (no image size); PNG upload used."
+}

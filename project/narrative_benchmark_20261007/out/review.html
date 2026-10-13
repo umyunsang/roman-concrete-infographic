@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>로마 콘크리트 — 원본과 개정안 비교</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body { font-family: system-ui, -apple-system, sans-serif; color: #222; background: #e7e7e7; }
+  header { position: relative; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
+    min-height: 64px; padding: 12px 20px; background: #fff; border-bottom: 1px solid #ccc; }
+  .title { font-weight: 650; margin-right: auto; }
+  button, .pdf { border: 1px solid #bbb; border-radius: 7px; background: #fff; color: #222;
+    padding: 8px 12px; font: inherit; font-size: 14px; cursor: pointer; text-decoration: none; }
+  button[aria-pressed="true"] { color: #fff; background: #222; border-color: #222; }
+  button:focus-visible, .pdf:focus-visible, input:focus-visible { outline: 3px solid #666; outline-offset: 3px; }
+  label { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+  input { width: 120px; accent-color: #222; }
+  output { min-width: 42px; font-variant-numeric: tabular-nums; }
+  #stage { height: calc(100vh - 65px); overflow: auto; padding: 20px; }
+  #canvas { margin: auto; box-shadow: 0 3px 22px #0002; background: #fff; }
+  #poster { display: block; width: 100%; height: auto; max-width: none; }
+  .hint { font-size: 12px; color: #666; }
+  @media (max-width: 760px) { header { gap: 8px; padding: 10px; } .title { flex-basis: 100%; }
+    #stage { padding: 10px; } .hint { display: none; } }
+</style>
+<header>
+  <span class="title">로마 콘크리트 · 서사 개정 비교</span>
+  <button id="revised" aria-pressed="true">개정안</button>
+  <button id="original" aria-pressed="false">원본</button>
+  <button id="fit">전체 보기</button>
+  <button id="width">폭 맞춤</button>
+  <label>확대 <input id="zoom" type="range" min="10" max="150" value="25" aria-label="확대 비율">
+    <output id="amount">25%</output></label>
+  <a class="pdf" href="poster_A2.pdf" download="로마콘크리트_개정안_A2.pdf">A2 PDF</a>
+  <span class="hint">키보드 1 개정안 · 2 원본</span>
+</header>
+<main id="stage" aria-label="인포그래픽 비교 화면">
+  <div id="canvas"><img id="poster" src="poster_2x.png" alt="로마 콘크리트 인포그래픽 개정안"></div>
+</main>
+<script>
+  const originalPath = '../../team/baseline_r16_poster_2x.png';
+  const revisedPath = 'poster_2x.png';
+  const poster = document.getElementById('poster');
+  const canvas = document.getElementById('canvas');
+  const stage = document.getElementById('stage');
+  const slider = document.getElementById('zoom');
+  const amount = document.getElementById('amount');
+  const revisedButton = document.getElementById('revised');
+  const originalButton = document.getElementById('original');
+  const width = 2382, height = 3368;
+  function setScale(percent) {
+    percent = Math.max(10, Math.min(150, Math.round(percent)));
+    slider.value = percent;
+    amount.value = percent + '%';
+    canvas.style.width = (width * percent / 100) + 'px';
+  }
+  function select(revised) {
+    poster.src = revised ? revisedPath : originalPath;
+    poster.alt = '로마 콘크리트 인포그래픽 ' + (revised ? '개정안' : '원본');
+    revisedButton.setAttribute('aria-pressed', String(revised));
+    originalButton.setAttribute('aria-pressed', String(!revised));
+  }
+  function updateStageHeight() {
+    stage.style.height = (innerHeight - document.querySelector('header').offsetHeight) + 'px';
+  }
+  function fit() {
+    updateStageHeight();
+    setScale(Math.min((stage.clientWidth - 40) / width, (stage.clientHeight - 40) / height) * 100);
+    stage.scrollTo(0, 0);
+  }
+  slider.addEventListener('input', () => setScale(Number(slider.value)));
+  revisedButton.addEventListener('click', () => select(true));
+  originalButton.addEventListener('click', () => select(false));
+  document.getElementById('fit').addEventListener('click', fit);
+  document.getElementById('width').addEventListener('click', () => {
+    updateStageHeight(); setScale((stage.clientWidth - 40) / width * 100); stage.scrollTo(0, 0);
+  });
+  addEventListener('resize', updateStageHeight);
+  addEventListener('keydown', event => {
+    if (event.target instanceof HTMLInputElement) return;
+    if (event.key === '1') select(true);
+    if (event.key === '2') select(false);
+    if (event.key === '+' || event.key === '=') setScale(Number(slider.value) + 5);
+    if (event.key === '-') setScale(Number(slider.value) - 5);
+  });
+  fit();
+</script>
+</html>

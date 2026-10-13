@@ -1,0 +1,14 @@
+{
+  "piazza": {
+    "A": 26.67,
+    "B": 23.85,
+    "z_top": 0.42,
+    "skirt_verts": 2036
+  },
+  "mountain_tail_verts": 1116,
+  "render": {
+    "map_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_4_r1_map_pass.png",
+    "overlay_pass": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/renders/narrative_v8_4_r1_overlay_pass.png",
+    "compose_note": "Alpha-composite these passes, then current Figma RGBA text overlay."
+  }
+}

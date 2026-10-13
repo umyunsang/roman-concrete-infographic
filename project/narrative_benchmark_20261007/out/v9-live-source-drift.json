@@ -1,0 +1,70 @@
+{
+  "changes": {},
+  "scene": {
+    "camera": "CAM_iso",
+    "render": {
+      "engine": "BLENDER_WORKBENCH",
+      "resolution_x": 4962,
+      "resolution_y": 7016,
+      "resolution_percentage": 48,
+      "pixel_aspect_x": 1.0,
+      "pixel_aspect_y": 1.0,
+      "film_transparent": false,
+      "use_border": false
+    },
+    "collections": {
+      "20_LANDMARK": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "30_TERRAIN": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "35_FIELDS_ROADS": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "40_REGION": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "45_CORE_SCENES": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "46_NARRATIVE_ASSETS": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "50_DETAIL_MODEL": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "60_TREES": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "70_LABELS_TEST": {
+        "hide_render": true,
+        "hide_viewport": true
+      },
+      "80_SHAPES": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "81_NOSHADOW": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "85_HEADER": {
+        "hide_render": false,
+        "hide_viewport": false
+      },
+      "Collection": {
+        "hide_render": false,
+        "hide_viewport": false
+      }
+    }
+  }
+}

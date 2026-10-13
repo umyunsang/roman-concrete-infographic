@@ -1,0 +1,235 @@
+{
+  "pass": true,
+  "checks": {
+    "fresh_v8_v9_files_opened": true,
+    "exact_317_objects_255_meshes_preserved": true,
+    "all_geometry_transforms_camera_visibility_object_colors_parent_inverse_custom_properties_preserved": true,
+    "only_exact_five_target_object_material_slots_changed": true,
+    "exact_250_nontarget_mesh_data_names_material_slots_roles_indices_counts_preserved": true,
+    "all_scene_render_display_shading_world_exposure_settings_exact": true,
+    "all_saved_viewport_settings_exact": true,
+    "existing_51_materials_colors_principled_nodes_links_metadata_exact_except_users": true,
+    "exact_10_new_61_total_reported_materials": true,
+    "all_five_target_slot_roles_face_counts_uint16_assignment_shas_exact": true,
+    "all_255_reported_before_after_index_shas_exact": true,
+    "new_10_material_hex_linear_float32_diffuse_principled_roughness_correct": true,
+    "only_reported_shared_mesh_data_isolations": true,
+    "production_before_report_matches_fresh_v8": true,
+    "production_after_report_matches_fresh_v9": true,
+    "v8_source_sha_preserved": true,
+    "canonical_sha_preserved": true
+  },
+  "object_count": 317,
+  "mesh_count": 255,
+  "material_count": 61,
+  "existing_material_count": 51,
+  "new_material_count": 10,
+  "target_count": 5,
+  "nontarget_mesh_count": 250,
+  "v8_sha256": "d179c5abdce8a9b0b48cf3f34cad9331b61e048f2e8edef504f430cee172ef3c",
+  "v9_sha256": "8125d6cf8ec2da6cf09125472aa603afd1debcd88910ff8ed0893b174a2288fe",
+  "canonical_sha256": "28d49f93c6edaf89bcbcc54ff1dfb94b0089cc2a0e43496032d46717c1a14cb3",
+  "unexpected_object_changes": [],
+  "geometry_differences": [],
+  "scene_changes": [],
+  "viewport_changes": [],
+  "extra_changes": [],
+  "nontarget_mesh_changes": [],
+  "old_material_errors": [],
+  "new_material_errors": [],
+  "wrong_applied_materials": [],
+  "index_report_mismatches": [],
+  "before_report_mismatches": [],
+  "after_report_mismatches": [],
+  "shared_mesh_data_isolated": [],
+  "target_saved_assignments": {
+    "L07_vesuvius": {
+      "data_name": "L07_vesuvius_scan.001",
+      "vertices": 59014,
+      "edges": 175976,
+      "loops": 350547,
+      "polygons": 116849,
+      "geometry_sha256": "28bb5bbdf8602c9fcf9a9824bc0be53d1e3f1c9aa2d03d5277fbc8af80633fc4",
+      "material_names": [
+        "RC.v13.volcano_body",
+        "RC.v13.volcano_crater",
+        "RC.v13.volcano_rock",
+        "RC.v13.volcano_low_slope"
+      ],
+      "material_roles": [
+        "volcano_body",
+        "volcano_crater",
+        "volcano_rock",
+        "volcano_low_slope"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "volcano_low_slope": 19142,
+        "volcano_body": 90774,
+        "volcano_crater": 5460,
+        "volcano_rock": 1473
+      },
+      "assignment_sha256": "6ff22d000c51f61d71561ad21c75f9e1207f801e4dbc0c2b07b1bdbf6318f950",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L09_portus_lighthouse": {
+      "data_name": "Mesh_0.001",
+      "vertices": 4928,
+      "edges": 11701,
+      "loops": 23402,
+      "polygons": 6779,
+      "geometry_sha256": "1ceaff464ecf63655c65011403e9551b386445f1a2c3574846a0480154a876c2",
+      "material_names": [
+        "RC.v13.sea_stone",
+        "RC.v13.sea_base",
+        "RC.v13.sea_cap",
+        "RC.v13.sea_recess"
+      ],
+      "material_roles": [
+        "sea_stone",
+        "sea_base",
+        "sea_cap",
+        "sea_recess"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "sea_base": 449,
+        "sea_stone": 5565,
+        "sea_cap": 438,
+        "sea_recess": 327
+      },
+      "assignment_sha256": "91e6ef0f9d15cbadf592045b810c43970a446c51bac5b817441e85c9868d375c",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L09_portus_mole": {
+      "data_name": "output_unwrapped.002",
+      "vertices": 4265,
+      "edges": 9730,
+      "loops": 19452,
+      "polygons": 5489,
+      "geometry_sha256": "6e2f3c727f6b98df2d0dedefde3f35c9b05e2d5e85aa8aaa358bc875b1971c5f",
+      "material_names": [
+        "RC.v13.sea_stone",
+        "RC.v13.sea_base",
+        "RC.v13.sea_deck",
+        "RC.v13.sea_cap"
+      ],
+      "material_roles": [
+        "sea_stone",
+        "sea_base",
+        "sea_deck",
+        "sea_cap"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "sea_stone": 2815,
+        "sea_deck": 1965,
+        "sea_base": 664,
+        "sea_cap": 45
+      },
+      "assignment_sha256": "f913312211d1b478f6bcd0deb905e0acd4916c1950d42acea1715a0acbfde53a",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "L12_harbor_pilae": {
+      "data_name": "output_unwrapped.003",
+      "vertices": 4172,
+      "edges": 9559,
+      "loops": 19118,
+      "polygons": 5389,
+      "geometry_sha256": "91b237cca8e00a278920f918c609bc3a46e5c775002dc50a58f3dc03ae1e4c90",
+      "material_names": [
+        "RC.v13.sea_stone",
+        "RC.v13.sea_base",
+        "RC.v13.sea_deck",
+        "RC.v13.sea_cap"
+      ],
+      "material_roles": [
+        "sea_stone",
+        "sea_base",
+        "sea_deck",
+        "sea_cap"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "sea_base": 252,
+        "sea_stone": 4612,
+        "sea_deck": 361,
+        "sea_cap": 164
+      },
+      "assignment_sha256": "afdf25cfc1dfc01134fd01fc04dfe1a5717b2642dac38bca9b8706880d33d47d",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    },
+    "NB_marine_breakwater": {
+      "data_name": "NB_marine_breakwater",
+      "vertices": 20539,
+      "edges": 35288,
+      "loops": 51990,
+      "polygons": 17330,
+      "geometry_sha256": "d54560881d2caf69ac92256e379dc0748a88d2f966dd4599f23cc657a9582f27",
+      "material_names": [
+        "RC.v13.sea_concrete",
+        "RC.v13.sea_base",
+        "RC.v13.sea_deck",
+        "RC.v13.sea_cap"
+      ],
+      "material_roles": [
+        "sea_concrete",
+        "sea_base",
+        "sea_deck",
+        "sea_cap"
+      ],
+      "valid_material_indices": true,
+      "face_counts": {
+        "sea_base": 127,
+        "sea_concrete": 12135,
+        "sea_deck": 843,
+        "sea_cap": 4225
+      },
+      "assignment_sha256": "71334144e6c47422d2d99603e149a3bacd1299d938d30fca5bf67a6d4f252abb",
+      "uv_layers": [],
+      "color_attributes": [],
+      "render_visible": true
+    }
+  },
+  "old_material_user_changes": {
+    "RC.v12.base_mountain_volcano": {
+      "v8": 9,
+      "v9": 8
+    },
+    "RC.v12.roman_plinth": {
+      "v8": 10,
+      "v9": 6
+    },
+    "RC.v12.roman_stone": {
+      "v8": 14,
+      "v9": 10
+    }
+  },
+  "hidden_world_calculated": [
+    "C1_pozzolana_quarry",
+    "C3_arch_building",
+    "C4_crack_repair",
+    "D4_arrow0",
+    "D4_arrow1",
+    "D4_crack0",
+    "D4_crack1",
+    "D4_crack2",
+    "D4_cube0",
+    "D4_cube1",
+    "D4_cube2",
+    "D4_drop0",
+    "D4_drop1",
+    "D4_drop2",
+    "D4_lime0",
+    "D4_lime1"
+  ],
+  "method": "Two fresh background file opens, no save/render/visibility/material/UI mutation. Hidden cached matrix_world is normalized read-only using matrix_basis and parent inverse. Exact geometry hashes, persisted scene and viewport RNA, slots and uint16 face-index hashes. Existing material Principled node inputs/properties and links compared except material users."
+}
