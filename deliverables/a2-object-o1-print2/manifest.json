@@ -1,0 +1,47 @@
+{
+  "status": "CANDIDATE_UNDER_INDEPENDENT_DESIGN_REVIEW_NOT_FINAL_AAA",
+  "models": {
+    "active_A2": 236,
+    "retained_hidden": 53,
+    "total_meshes": 289
+  },
+  "print2_changes": {
+    "raster_K245_to244_pixels": 378,
+    "PDF_header": "1.6",
+    "RGB_preview_unchanged": true
+  },
+  "source_scene_sha256": "6ab8c85f39fd66b69adf527ab915748c8133453b6147d75c4a17286871beac4a",
+  "files": {
+    "a2-print.pdf": {
+      "bytes": 58412950,
+      "sha256": "f0cbe2ccd9991e402a7c5a7de0fedac1b72fd2821483eb37761a2d1cd4afa3df"
+    },
+    "print-repair-proof.json": {
+      "bytes": 99517,
+      "sha256": "ac19468d90fe9d778a119ad00f8a78dfc4a3ff0b570e609314a73d4de2fcbef4"
+    },
+    "print-preflight.json": {
+      "bytes": 6970,
+      "sha256": "f471e9db6463794fa8e187e74f4dfa6c7697697539f885d71164330f4f32d893"
+    },
+    "first-archive-form-batch.json": {
+      "bytes": 1835986,
+      "sha256": "cf7babf7a1db2e576d6ae96ed0784d871d58438a2236ce1c4058a517c00e0b79"
+    },
+    "first-archive-form-review.md": {
+      "bytes": 104444,
+      "sha256": "d86cf069f6fa4142d56775f2a72678237adad83fcb75dea5989c302e7b95d0de"
+    },
+    "individual-model-review-status.csv": {
+      "bytes": 71304,
+      "sha256": "e51b1015be36f9ba8d3202a0744fe7c5ea66dc7199a35de675b8548b2051a27f"
+    }
+  },
+  "formal_PDFX_certified": false,
+  "first_archive_form_review": {
+    "AAA": 45,
+    "HOLD": 8,
+    "independent_confirmation_complete": false
+  },
+  "original_PDF_preserved": true
+}
