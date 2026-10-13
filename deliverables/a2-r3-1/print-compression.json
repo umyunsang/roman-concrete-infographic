@@ -1,0 +1,19 @@
+{
+  "source_size": 50758242,
+  "source_sha256": "b6d9a6e158d08d408c89192560d02ae6969a90da062c81eccd37ec24ad6a0e41",
+  "target": "/workspace/production-loop/pdf-delivery-repair/a2-print.pdf",
+  "target_size": 50396227,
+  "target_sha256": "afc71c856d64166f43d51ee428cec0817b8aa28bf672342a0ac6b493caa2c8e8",
+  "encoding": "/FlateDecode",
+  "under_32_MiB": false,
+  "reduction_percent": 0.7132142204609893,
+  "native_cmyk_sha256": "35b651b24f1d68247770c734d7079621c40d12484d51b8a69b8b5fbf4d5eaf2f",
+  "selection": "smallest tested lossless encoding; PNG None predictor / Flate zlib9; PDF1.7",
+  "tested_encodings": [
+    "original Flate",
+    "PNG adaptive",
+    "fixed PNG filters 0-4",
+    "reversible lossless JPEG2000, no color transform"
+  ],
+  "ISO_PDFX_certification_claim": false
+}

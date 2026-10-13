@@ -1,0 +1,288 @@
+{
+  "status": "all_required_checks_passed",
+  "source": "/workspace/production-loop/final/roman-concrete_A2_print_CMYK_bleed3mm.pdf",
+  "target": "/workspace/production-loop/pdf-delivery-repair/a2-print.pdf",
+  "source_sha256": "b6d9a6e158d08d408c89192560d02ae6969a90da062c81eccd37ec24ad6a0e41",
+  "target_sha256": "afc71c856d64166f43d51ee428cec0817b8aa28bf672342a0ac6b493caa2c8e8",
+  "source_size": 50758242,
+  "target_size": 50396227,
+  "page_count": 1,
+  "source_pdf_header": "%PDF-1.3",
+  "target_pdf_header": "%PDF-1.7",
+  "native_source": {
+    "image_xref": 5,
+    "width": 5034,
+    "height": 7088,
+    "components": 4,
+    "colorspace": "DeviceCMYK",
+    "alpha": 0,
+    "bytes": 142723968,
+    "sha256": "35b651b24f1d68247770c734d7079621c40d12484d51b8a69b8b5fbf4d5eaf2f"
+  },
+  "native_target": {
+    "image_xref": 5,
+    "width": 5034,
+    "height": 7088,
+    "components": 4,
+    "colorspace": "DeviceCMYK",
+    "alpha": 0,
+    "bytes": 142723968,
+    "sha256": "35b651b24f1d68247770c734d7079621c40d12484d51b8a69b8b5fbf4d5eaf2f"
+  },
+  "native_samples_identical": true,
+  "all_non_image_encoded_and_decoded_streams_identical": true,
+  "complete_semantic_object_graph_preserved_except_image_predictor": true,
+  "image_decode_array_preserved": true,
+  "icc_profiles": [
+    {
+      "identifier": "FOGRA51",
+      "bytes": 2195228,
+      "sha256": "c30ad2c01e8f93135ec7682c535e0a81bc2d177c301e196376c5f5838b5c8e86"
+    }
+  ],
+  "fonts": [
+    {
+      "resource": "/R30",
+      "basefont": "/RBAWSF+NotoSansKR-Regular",
+      "type": "/Type0",
+      "embedded_streams": [
+        {
+          "key": "/FontFile2",
+          "bytes": 26664,
+          "sha256": "83d1eb78884833c7dd3cd7845c218e712a411a0f55f5c8c2491bc8a3bb92e908"
+        }
+      ],
+      "font_semantic_sha256": "006d9d75f17f278f98c839333ad101ead6eccc3a4b188a3b987648ff8b57070e"
+    },
+    {
+      "resource": "/R24",
+      "basefont": "/GPWYQH+NotoSerifKR-Bold",
+      "type": "/Type0",
+      "embedded_streams": [
+        {
+          "key": "/FontFile2",
+          "bytes": 2848,
+          "sha256": "4028b700d9b1d61c0814519e120a228e8020a1d693e0be2fda18ade1bb801daa"
+        }
+      ],
+      "font_semantic_sha256": "16994d80dd9fa9c5739aea578d13a942143773926f1ec6c1d661c3403844985f"
+    },
+    {
+      "resource": "/R18",
+      "basefont": "/QPKCYS+NotoSansKR-Bold",
+      "type": "/Type0",
+      "embedded_streams": [
+        {
+          "key": "/FontFile2",
+          "bytes": 16568,
+          "sha256": "8ccc0bf9d43b458c24926f6223b6dd4787cd98126e9073a4701a3e1a595db49b"
+        }
+      ],
+      "font_semantic_sha256": "ce5786ef898dee472ce8738150a2e92ae62909182e202b7907a7de61feda36be"
+    },
+    {
+      "resource": "/R12",
+      "basefont": "/KIABOZ+NotoSansKR-Medium",
+      "type": "/Type0",
+      "embedded_streams": [
+        {
+          "key": "/FontFile2",
+          "bytes": 12764,
+          "sha256": "d3a944c15591e1ade15596727c8e8b3303d494ac6351a2fc298f40c7bd4dedcb"
+        }
+      ],
+      "font_semantic_sha256": "cef1fb8f320b7f74b2eeb4feec70696b10cd44b933b6bc04be377a2db8d09dc2"
+    },
+    {
+      "resource": "/R33",
+      "basefont": "/VAJPEK+NotoSansKR-Regular",
+      "type": "/TrueType",
+      "embedded_streams": [
+        {
+          "key": "/FontFile2",
+          "bytes": 2456,
+          "sha256": "155c10f60e6d5501e5cd7275d7f07cc7522cb02a18f457a94cd3fa3f02e75303"
+        }
+      ],
+      "font_semantic_sha256": "f753986c05e294903d6c930a3509bd14314fd763c5fc3eaa6e712ee58843c776"
+    },
+    {
+      "resource": "/R21",
+      "basefont": "/AGDVZQ+NotoSansKR-Bold",
+      "type": "/TrueType",
+      "embedded_streams": [
+        {
+          "key": "/FontFile2",
+          "bytes": 2268,
+          "sha256": "9fc75a2bf53666e9422ec62a921511706d5217ed8e6dafcdadf13bdfc12baaa3"
+        }
+      ],
+      "font_semantic_sha256": "bac5811c37332e181e0e3e6e650a03be6692c6aaf239cb8129bbd102841051de"
+    },
+    {
+      "resource": "/R27",
+      "basefont": "/AZOGWH+NotoSerifKR-Bold",
+      "type": "/TrueType",
+      "embedded_streams": [
+        {
+          "key": "/FontFile2",
+          "bytes": 812,
+          "sha256": "7811c06f0d3b9fbb7e028ef6b30de5a2204bf80adc76db397e98c6e37a6fe2da"
+        }
+      ],
+      "font_semantic_sha256": "c380791fd3eee3d4818896905e4eea0a8ba36da956f713abfb18fc6cc55225e7"
+    },
+    {
+      "resource": "/R16",
+      "basefont": "/CGLQBU+NotoSansKR-Medium",
+      "type": "/TrueType",
+      "embedded_streams": [
+        {
+          "key": "/FontFile2",
+          "bytes": 1400,
+          "sha256": "2bdc73bff6991c94af672878734b65b44589dd672107cd93ed18ad4d7d0ecfd0"
+        }
+      ],
+      "font_semantic_sha256": "70a9e731b219e2142e4dabfda852f5622106df2389d12b254755ae5e4ee4151f"
+    }
+  ],
+  "text_exactly_equal": true,
+  "text_sha256": "bec69415615d0eec581f8dd38897369ecb2aee7a70722c3d5cc3993b44d69dcb",
+  "text_non_whitespace_characters": 853,
+  "text_total_characters": 1197,
+  "page_boxes_pt": {
+    "/MediaBox": [
+      0.0,
+      0.0,
+      1207.55905,
+      1700.7874
+    ],
+    "/CropBox": [
+      0.0,
+      0.0,
+      1207.55905,
+      1700.7874
+    ],
+    "/TrimBox": [
+      8.50393701,
+      8.50393701,
+      1199.05512,
+      1692.28346
+    ],
+    "/BleedBox": [
+      0.0,
+      0.0,
+      1207.55905,
+      1700.7874
+    ]
+  },
+  "drawing_stream_bytes": 25196,
+  "drawing_stream_sha256": "85dfa78b00b2089f93d9bfc8a25c93c95456be02186446db79b9ac4189593988",
+  "background_TAC": {
+    "pixel_count": 35680992,
+    "maximum_percent": 300.0,
+    "pixels_over_300_percent": 0
+  },
+  "poppler_render_comparisons": [
+    {
+      "region": "whole_page",
+      "ppi": 72,
+      "size": [
+        1208,
+        1701
+      ],
+      "mode": "RGB",
+      "equal": true,
+      "maximum_channel_difference": 0,
+      "different_samples": 0,
+      "source_pixel_sha256": "10e5d6761917557e7ae45ef943faa266623f3dc101b9c7494c0d70524236dc1c",
+      "target_pixel_sha256": "10e5d6761917557e7ae45ef943faa266623f3dc101b9c7494c0d70524236dc1c"
+    },
+    {
+      "region": "title",
+      "ppi": 300,
+      "crop_pixels": [
+        100,
+        100,
+        900,
+        600
+      ],
+      "size": [
+        900,
+        600
+      ],
+      "mode": "RGB",
+      "equal": true,
+      "maximum_channel_difference": 0,
+      "different_samples": 0,
+      "source_pixel_sha256": "c2592ffc367d2684c6832369a16fa642cd5673781eb703040e475dd17108b693",
+      "target_pixel_sha256": "c2592ffc367d2684c6832369a16fa642cd5673781eb703040e475dd17108b693"
+    },
+    {
+      "region": "scene",
+      "ppi": 300,
+      "crop_pixels": [
+        1850,
+        1700,
+        900,
+        900
+      ],
+      "size": [
+        900,
+        900
+      ],
+      "mode": "RGB",
+      "equal": true,
+      "maximum_channel_difference": 0,
+      "different_samples": 0,
+      "source_pixel_sha256": "02636af5cfb3ba90452b3ba6509b77900c3aa7fbdc11bcba07d27100cc91399f",
+      "target_pixel_sha256": "02636af5cfb3ba90452b3ba6509b77900c3aa7fbdc11bcba07d27100cc91399f"
+    },
+    {
+      "region": "fine-text",
+      "ppi": 300,
+      "crop_pixels": [
+        300,
+        3850,
+        1100,
+        700
+      ],
+      "size": [
+        1100,
+        700
+      ],
+      "mode": "RGB",
+      "equal": true,
+      "maximum_channel_difference": 0,
+      "different_samples": 0,
+      "source_pixel_sha256": "48f8c86a2ef964e7ac46f0cebacaee555b4d246f0b3697bcb275f24966f22c75",
+      "target_pixel_sha256": "48f8c86a2ef964e7ac46f0cebacaee555b4d246f0b3697bcb275f24966f22c75"
+    },
+    {
+      "region": "footer",
+      "ppi": 300,
+      "crop_pixels": [
+        3550,
+        6150,
+        1000,
+        700
+      ],
+      "size": [
+        1000,
+        700
+      ],
+      "mode": "RGB",
+      "equal": true,
+      "maximum_channel_difference": 0,
+      "different_samples": 0,
+      "source_pixel_sha256": "dd578b341ba59089b4548e3f0c29dcff4c853cbf4635552f7ebf0a488b0ff443",
+      "target_pixel_sha256": "dd578b341ba59089b4548e3f0c29dcff4c853cbf4635552f7ebf0a488b0ff443"
+    }
+  ],
+  "xmp_preserved_exactly": true,
+  "no_downsampling_lossy_encoding_color_conversion_or_font_flattening": true,
+  "pdfx_certification_claim": false,
+  "browser_application_download_unverified": true,
+  "elapsed_seconds": 40.552013371000044,
+  "TAC_scalar_conversion_verified": true
+}

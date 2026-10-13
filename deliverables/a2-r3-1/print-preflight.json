@@ -1,0 +1,159 @@
+{
+  "status": "actual-r3.1-local-candidate",
+  "scope": "Technical exact-A2 print candidate verification; no ISO PDF/X certification, live Figma identity or reader/design grade claim",
+  "print_pdf": "/workspace/production-loop/compositor/actual_r3_1_cmyk_tac300_candidate/poster_print_cmyk_candidate.pdf",
+  "print_sha256": "b6d9a6e158d08d408c89192560d02ae6969a90da062c81eccd37ec24ad6a0e41",
+  "composition_proof_sha256": "f45359257837ec8a37f07ab111f8d3781acc5d69d1d45a1e277d49fe54c7e83c",
+  "icc": "/workspace/roman-concrete-infographic/project/narrative_benchmark_20261007/out/print/PSOcoated_v3.icc",
+  "icc_sha256": "c30ad2c01e8f93135ec7682c535e0a81bc2d177c301e196376c5f5838b5c8e86",
+  "samples_inside_trim": 100000,
+  "rendering_intent": "relative colorimetric (1), BPC off",
+  "page_mm": [
+    425.99999819444446,
+    599.9999994444444
+  ],
+  "trim_mm": [
+    420.0000006659166,
+    593.9999983881388
+  ],
+  "bleed_insets_mm": [
+    3.0000000007499996,
+    3.0000000007499996,
+    2.9999975277778064,
+    3.000001055555495
+  ],
+  "source_native_trim_ppi": [
+    300.0828571428571,
+    300.0107744107744
+  ],
+  "decoded_CMYK_image_size": [
+    5034,
+    7088
+  ],
+  "TAC_all_background_pixels": {
+    "maximum_percent": 300.0,
+    "p99_9_percent": 271.37254901960785,
+    "pixels": 35680992,
+    "pixel_fraction_above_300percent": 0.0,
+    "quantization_aware_operational_limit_percent": 300.5
+  },
+  "vector_CMYK_operator_TAC_max_percent": 283.2,
+  "RGB_vector_operator_count": 0,
+  "gray_vector_operator_count": 0,
+  "outputintents": [
+    {
+      "identifier": "FOGRA51",
+      "sha256": "c30ad2c01e8f93135ec7682c535e0a81bc2d177c301e196376c5f5838b5c8e86",
+      "matches_requested_icc": true
+    }
+  ],
+  "fonts": [
+    {
+      "name": "RBAWSF+NotoSansKR-Regular",
+      "type": "Type0",
+      "embedded_bytes": 26664
+    },
+    {
+      "name": "GPWYQH+NotoSerifKR-Bold",
+      "type": "Type0",
+      "embedded_bytes": 2848
+    },
+    {
+      "name": "QPKCYS+NotoSansKR-Bold",
+      "type": "Type0",
+      "embedded_bytes": 16568
+    },
+    {
+      "name": "KIABOZ+NotoSansKR-Medium",
+      "type": "Type0",
+      "embedded_bytes": 12764
+    },
+    {
+      "name": "VAJPEK+NotoSansKR-Regular",
+      "type": "TrueType",
+      "embedded_bytes": 2456
+    },
+    {
+      "name": "AGDVZQ+NotoSansKR-Bold",
+      "type": "TrueType",
+      "embedded_bytes": 2268
+    },
+    {
+      "name": "AZOGWH+NotoSerifKR-Bold",
+      "type": "TrueType",
+      "embedded_bytes": 812
+    },
+    {
+      "name": "CGLQBU+NotoSansKR-Medium",
+      "type": "TrueType",
+      "embedded_bytes": 1400
+    }
+  ],
+  "lost_characters": {},
+  "extra_characters": {},
+  "per_object_ordered_text_mismatches": [],
+  "per_object_character_font_style_mismatches": [],
+  "max_print_baseline_error_design_pt": 0.004114930694086638,
+  "actual_ink_trim_margins_mm_from_composition_ink_bboxes": {
+    "left": 8.578272499999999,
+    "right": 7.607870833333354,
+    "top": 9.29942083333333,
+    "bottom": 8.431729166666775
+  },
+  "deltaE00_same_separation": {
+    "median": 0.1238,
+    "p95": 0.2306,
+    "p99": 0.2666,
+    "max_sample": 0.8065
+  },
+  "deltaE00_RGB_to_print_including_gamut_change": {
+    "median": 0.1226,
+    "p95": 0.2473,
+    "p99": 0.289,
+    "max_sample": 5.4576
+  },
+  "ghostscript_matching_ICC_decoder": {
+    "background_only": true,
+    "raster_ppi": 300,
+    "size": [
+      5031,
+      7087
+    ],
+    "source_image_CTM": [
+      1207.83,
+      0.0,
+      0.0,
+      1701.06,
+      -0.13367700000000002,
+      -0.135831
+    ],
+    "physical_pixel_center_mapping": true,
+    "K_correlation": 0.9915231604982518,
+    "K_mean_absolute_error_8bit": 1.10816
+  },
+  "checks": {
+    "composition_all_checks_pass": true,
+    "single_lossless_cmyk_background": true,
+    "background_exact_source_pixel_dimensions": true,
+    "trim_exact_A2": true,
+    "page_exact_declared_bleed": true,
+    "bleed_insets_exact": true,
+    "ICC_outputintent_matches_requested": true,
+    "fonts_all_embedded": true,
+    "print_text_characters_preserved": true,
+    "all_83_print_objects_ordered_characters_at_correct_transform": true,
+    "print_font_styles_at_each_source_character_match": true,
+    "image_TAC_no_more_than_300_5percent": true,
+    "vector_CMYK_TAC_no_more_than_300_5percent": true,
+    "no_device_RGB_vector_operators": true,
+    "ink_trim_margins_at_least_operational_6_35mm": true,
+    "same_separation_de00_median_below_0_6_p99_below_2": true,
+    "independent_matching_ICC_decoder_K_correlation_above_0_98": true,
+    "native_source_background_300ppi": true
+  },
+  "limits": [
+    "TAC checks cover all single-background CMYK pixels and explicit CMYK vector color operators; no transparent-overprint mixing simulation",
+    "Technical tolerances inherit the existing print pipeline; they are not human legibility thresholds",
+    "Ink margin uses actual Inkscape glyph-ink extents; original live Figma baseline equality remains unverified"
+  ]
+}

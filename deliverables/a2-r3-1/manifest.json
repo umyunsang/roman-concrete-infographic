@@ -1,0 +1,95 @@
+{
+  "prepared_at": "2026-10-14T02:00:14.962165+09:00",
+  "status": "verified_delivery_candidate_for_git_branch",
+  "repository": "umyunsang/roman-concrete-infographic",
+  "proposed_branch": "a2-download-repair-r3-1",
+  "delivery_directory": "deliverables/a2-r3-1",
+  "print": {
+    "file": "a2-print.pdf",
+    "page_mm": [
+      426,
+      600
+    ],
+    "trim_mm": [
+      420,
+      594
+    ],
+    "bleed_mm": 3,
+    "resolution_ppi": 300,
+    "native_image_pixels": [
+      5034,
+      7088
+    ],
+    "color": "CMYK / FOGRA51",
+    "lossless": true,
+    "all_native_pixels_and_vector_content_preserved": true,
+    "independent_local_render_verified": true
+  },
+  "preview": {
+    "file": "a2-preview.pdf",
+    "purpose": "screen_only",
+    "page_mm": [
+      420,
+      594
+    ],
+    "resolution_ppi": 144,
+    "color": "sRGB",
+    "lossy_background": true,
+    "original_searchable_vector_text_and_fonts_preserved": true,
+    "local_checks_passed": 12
+  },
+  "publication": {
+    "external_upload_performed": false,
+    "user_download_verified": false,
+    "github_read_access_checked": true,
+    "github_new_branch_push_dry_run_succeeded": true,
+    "phase": "recorded_before_push"
+  },
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 2398,
+      "sha256": "a91c11a13238dfd4c9a20d9c27dccfcf2f8cc0cac3a53674c10a513e151fa910"
+    },
+    {
+      "file": "a2-300ppi.png",
+      "bytes": 44931579,
+      "sha256": "9daaf66c2a8abe8022213ade57dbcb20519e0d6428f8410da627c8408c1ed3cd"
+    },
+    {
+      "file": "a2-preview.jpg",
+      "bytes": 1514040,
+      "sha256": "0d2c032265ca22603ac0faed49d95b2f758b82034ad4490ae4b797fa04aaf35c"
+    },
+    {
+      "file": "a2-preview.pdf",
+      "bytes": 1694422,
+      "sha256": "85ca2a469bb889eda13c8b83bbc87d5c9093cb6b9cc3b838b2889770923f9175"
+    },
+    {
+      "file": "a2-print.pdf",
+      "bytes": 50396227,
+      "sha256": "afc71c856d64166f43d51ee428cec0817b8aa28bf672342a0ac6b493caa2c8e8"
+    },
+    {
+      "file": "preview-verification.json",
+      "bytes": 6236,
+      "sha256": "6d6354d22c13ac101ec9c59c3d641a23a5a6032667ce9f24d86ccac287ae324f"
+    },
+    {
+      "file": "print-compression.json",
+      "bytes": 786,
+      "sha256": "9a0811dd597bec70998ef17e1c8e979161ddeffa84b8c4ec5855878f27fdea50"
+    },
+    {
+      "file": "print-preflight.json",
+      "bytes": 4939,
+      "sha256": "ba1d1ad657cd76d776229f2ca1e52b25d22149b65f101816dc5ab1b64b629c39"
+    },
+    {
+      "file": "print-verification.json",
+      "bytes": 8243,
+      "sha256": "866d7dc58652beefaf58b334f2cbb9701a1b6bc2d60ab9f72b265ec039a2f2ac"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "purpose": "screen_preview_not_print_master",
+  "output": "/workspace/production-loop/pdf-preview/a2-preview.pdf",
+  "bytes": 1694422,
+  "sha256": "85ca2a469bb889eda13c8b83bbc87d5c9093cb6b9cc3b838b2889770923f9175",
+  "source": "/workspace/production-loop/compositor/actual_r3_1_print_300/poster_trim_rgb.pdf",
+  "source_bytes": 45272351,
+  "source_sha256": "2e09534d111385b869207e633b53172d1c2a69df95ac9e4e219a64bb979a1d42",
+  "page_mm": [
+    420,
+    594
+  ],
+  "background_pixels": [
+    2416,
+    3402
+  ],
+  "background_resolution_ppi": [
+    144.02069010088698,
+    143.99501918683748
+  ],
+  "background_encoding": {
+    "format": "JPEG",
+    "quality": 92,
+    "subsampling": 0,
+    "color_space": "ICCBased sRGB",
+    "profile_sha256": "40e44e7f582c077c1b5d8e47e03a8306132b4043d8ccb1754486568f6f163eaf"
+  },
+  "text_nonspace_characters": 853,
+  "font_count": 8,
+  "fonts": [
+    {
+      "basefont": "FVHTBU+NotoSerifKR-Bold",
+      "name": "FVHTBU+NotoSerifKR-Bold",
+      "extension": "ttf",
+      "bytes": 2864,
+      "sha256": "899547fad03b3d1cb04ea7428b7d5aa4ee8590a77a091449c98fb810c9d460fb",
+      "embedded": true
+    },
+    {
+      "basefont": "GUSZOL+NotoSansKR-Bold",
+      "name": "GUSZOL+NotoSansKR-Bold",
+      "extension": "ttf",
+      "bytes": 2116,
+      "sha256": "5fe2219bbc1959a30e8b38f7c421333558f17e0e5e857a1618c11c87609c25f2",
+      "embedded": true
+    },
+    {
+      "basefont": "JXRFRT+NotoSansKR-Regular",
+      "name": "JXRFRT+NotoSansKR-Regular",
+      "extension": "ttf",
+      "bytes": 2304,
+      "sha256": "29b125561c5b640fdd1f28fdb58cee3d420391760f45a73c8d5e99914cc6169f",
+      "embedded": true
+    },
+    {
+      "basefont": "LGJAXU+NotoSansKR-Regular",
+      "name": "LGJAXU+NotoSansKR-Regular",
+      "extension": "ttf",
+      "bytes": 27044,
+      "sha256": "56c5629e272cb48068e21caf1777c1118390c9b2a13a1debb94db8014f33981f",
+      "embedded": true
+    },
+    {
+      "basefont": "LLJQWH+NotoSansKR-Medium",
+      "name": "LLJQWH+NotoSansKR-Medium",
+      "extension": "ttf",
+      "bytes": 12952,
+      "sha256": "a4feb8fa39226bba63d432ca51a9ecd794775907513b22fa9ef0e9704d58c043",
+      "embedded": true
+    },
+    {
+      "basefont": "SEBXZE+NotoSansKR-Medium",
+      "name": "SEBXZE+NotoSansKR-Medium",
+      "extension": "ttf",
+      "bytes": 1228,
+      "sha256": "0e36e03d064dc96e09539f60b4d9a675dba9ce9e9dfa23f51f8f3caef803a5ef",
+      "embedded": true
+    },
+    {
+      "basefont": "XDPKBV+NotoSansKR-Bold",
+      "name": "XDPKBV+NotoSansKR-Bold",
+      "extension": "ttf",
+      "bytes": 16796,
+      "sha256": "342c864367cb63f56565f056bab7d5daddffb2423867717587eb3048a067a73c",
+      "embedded": true
+    },
+    {
+      "basefont": "YDRXSJ+NotoSerifKR-Bold",
+      "name": "YDRXSJ+NotoSerifKR-Bold",
+      "extension": "ttf",
+      "bytes": 984,
+      "sha256": "7596e8294abc070b00217f64be1e7a34a66fb4a289edba53e543e82929adfb1b",
+      "embedded": true
+    }
+  ],
+  "drawing_streams_source": 1,
+  "drawing_streams_preview": 1,
+  "checks": {
+    "one_page": true,
+    "under_10_mb": true,
+    "page_boxes_unchanged": true,
+    "original_text_exactly_preserved": true,
+    "nonspace_characters_853": true,
+    "fonts_identical_and_embedded": true,
+    "original_drawing_streams_retained": true,
+    "one_jpeg_background": true,
+    "background_144ppi": true,
+    "poppler_independent_open_and_render_exit_0": true,
+    "poppler_extracted_text_exactly_preserved": true,
+    "poppler_render_dimensions_2382x3368": true
+  },
+  "independent_reader": {
+    "name": "Poppler",
+    "commands": [
+      {
+        "argv": [
+          "pdfinfo",
+          "/workspace/production-loop/pdf-preview/a2-preview.pdf"
+        ],
+        "exit_code": 0,
+        "stderr": "",
+        "stdout_file": "/workspace/production-loop/pdf-preview/pdfinfo.txt"
+      },
+      {
+        "argv": [
+          "pdffonts",
+          "/workspace/production-loop/pdf-preview/a2-preview.pdf"
+        ],
+        "exit_code": 0,
+        "stderr": "",
+        "stdout_file": "/workspace/production-loop/pdf-preview/pdffonts.txt"
+      },
+      {
+        "argv": [
+          "pdftotext",
+          "/workspace/production-loop/compositor/actual_r3_1_print_300/poster_trim_rgb.pdf",
+          "/workspace/production-loop/pdf-preview/source-poppler-text.txt"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "pdftotext",
+          "/workspace/production-loop/pdf-preview/a2-preview.pdf",
+          "/workspace/production-loop/pdf-preview/preview-poppler-text.txt"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "pdftoppm",
+          "-r",
+          "144",
+          "-singlefile",
+          "-jpeg",
+          "-jpegopt",
+          "quality=92,optimize=y",
+          "/workspace/production-loop/pdf-preview/a2-preview.pdf",
+          "/workspace/production-loop/pdf-preview/poppler-preview"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ],
+    "render_pixels": [
+      2382,
+      3368
+    ],
+    "render_output": "/workspace/production-loop/pdf-preview/poppler-preview.jpg",
+    "render_sha256": "0d2c032265ca22603ac0faed49d95b2f758b82034ad4490ae4b797fa04aaf35c",
+    "text_nonspace_characters": 853
+  },
+  "replacement_method": "Direct XObject stream update, without PyMuPDF page.replace_image. Source drawing stream bytes and resource structure retained; only background JPEG dimensions/encoding and ICC color-space/profile were substituted.",
+  "discarded_method": "page.replace_image initially introduced a duplicated background resource plus q/Q wrapper and empty drawing streams; this failed strict checks and was discarded. Direct XObject update passes original drawing stream equality and single image checks.",
+  "delivery_status": "Local workspace files only; no output attachment/download service available or upload performed.",
+  "checks_passed": 12,
+  "checks_total": 12,
+  "assistant_visual_inspection": "Poppler 144 ppi actual render visually inspected by the assistant using the image tool: page complete, no blank content, readable layout and original text retained. JPEG/downsampling variations are allowed for this screen-only copy, not used to change print master."
+}
