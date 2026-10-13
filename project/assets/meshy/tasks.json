@@ -1,0 +1,30 @@
+{
+ "model": "meshy-7.1 text-to-3d preview (mesh only), 20 credits each, approved by user 2026-10-07 13:4x",
+ "tasks": {
+  "L08_pompeii": "01a114a5-ed67-74d6-a311-5e0bb6d5b9a6",
+  "L11_privernum": "01a114a5-f6a0-7024-86cd-b4abe5387a69",
+  "L09_harbor_breakwater": "01a114a6-074c-756f-9ba4-2021ae3e9543",
+  "L12_cosa_pilae": "01a114a6-102b-7611-a7f0-7df194286b6f",
+  "kiln": "01a114a6-1ca0-7574-8d73-3ce5c4e9f9d5",
+  "lab_island": "01a114a6-24af-7092-9f33-26a9c611cd85"
+ },
+ "batch2": {
+  "model": "meshy-7.1 text-to-3d preview (mesh only), 20 credits each, approved by user 2026-10-07 14:1x (4건 = 80)",
+  "tasks": {
+   "L06_caecilia_metella": "01a114c3-309b-7441-bee8-3112b7973dab",
+   "L09_portus_lighthouse": "01a114c3-3dfa-7688-b6dc-d514d56187ad",
+   "L08_pompeii_site": "01a114c3-4aaf-70fb-bc1c-3722063403a3",
+   "L04_palatine_palace": "01a114c3-551f-76ef-9543-c7f97b7ced6d"
+  }
+ },
+ "batch3_core_scenes": {
+  "model": "meshy-7.1 text-to-3d preview, 20 credits each, approved by user 2026-10-07 15:4x (5건 = 100)",
+  "tasks": {
+   "C1_pozzolana_quarry": "01a11511-f362-7098-b973-1ded314454bf",
+   "C2_hot_mixing": "01a11511-fd02-7483-8953-02d23b2cbb30",
+   "C3_arch_building": "01a11512-0741-76b1-8db8-d6cd5a30ff5d",
+   "C4_crack_repair": "01a11512-107c-7397-8360-f2a4323a3dbe",
+   "C5_researchers": "01a11512-1bb1-7378-85ac-9b1dbc8c97ba"
+  }
+ }
+}

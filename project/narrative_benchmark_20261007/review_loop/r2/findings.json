@@ -1,0 +1,440 @@
+[
+ {
+  "field": "hierarchy_access",
+  "grade": "A",
+  "summary": "등급은 A입니다(blocker 0 · major 3 · minor 0). 루브릭 23개 항목 중 P1·P2(인쇄 해상도·재단 여분)는 STATE R4에 따라 보류하고 21개를 판정했습니다. 그중 4개(H3, C1, C3, C6)가 불합격입니다. C1과 C3은 같은 원인이라 지적 1건으로 셌습니다.\n\n참 배경으로 r2/map_only_2x.png를 썼습니다. sha256이 map_v8_4와 같고, 글 상자 밖 차이가 0픽셀임을 확인했습니다.\n\n지적 3건:\n1. CORE 제목 19pt ÷ DETAIL 제목 13pt = 1.46으로, 기준 1.50에 못 미칩니다(H3).\n2. 790:190의 머리말 '사례 · '가 유적 모형의 접지 그림자 안에 있습니다. '·' 4.42:1, '례' 4.52:1(C1), halo Lc 58.1(C3)입니다.\n3. 790:122 '79년'의 획 밑으로 흰 물결 표식이 지납니다. 잉크 53px이 물결 위에 직접 놓입니다(C6).\n\n나머지 항목은 모두 합격입니다.\n- 위계: 제목은 차순위 글의 3.5배, 질문 20pt ≥ CORE 제목 19pt.\n- 거리 판독: 모든 글의 D_max가 기준 이상입니다(가장 작은 9pt가 0.719m, 고령 보정 0.566m).\n- 대비: CORE 본문 Lc 78.2~80.6, 원판 숫자 6.81:1, 원판·이정표·밑줄 모두 3:1 이상.\n- 색각이상: 세 유형 모두 대비와 ΔE00가 유지됩니다.\n- 인쇄: PSO Coated v3 왕복 ΔE00 1.03 이하, 안전 영역 7.2mm 이상, 9pt 세로획 0.264mm.\n- 루브릭 밖 blocker와 줄바꿈 오독은 없습니다.\n\n④⑤ 본문 밑 지형 음영 띠는 R3 보류 항목이라 다시 내지 않았습니다. 리포트: /Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/review_loop/r2/report_hierarchy_access.md",
+  "findings": [
+   {
+    "id": "F-01",
+    "severity": "major",
+    "title": "CORE 제목과 DETAIL 제목의 크기비가 H3 기준(1.5)에 못 미침",
+    "location": "CORE 제목 790:146/147/152/153/158/159/164/165/170/171 (19pt Bold) vs DETAIL 제목 790:174/177/180/183 (13pt Bold)",
+    "evidence": "text_spec_r2 기준 19 / 13 = 1.46으로, 기준 ≥ 1.50에 못 미칩니다. 번호 원판 5개는 모두 있습니다. STATE D2에서 DETAIL 제목을 13pt로 정한 결과입니다(기각 목록에는 없음).",
+    "rubric_check": "H3",
+    "fix_tool": "figma",
+    "fix": "택1. (A) CORE 제목 10개를 19 → 19.5pt Bold로, 행간을 24 → 24.5px로 바꿉니다. 비가 1.50이 되고 질문 20pt ≥ 19.5라 H2와 STATE D1의 의도도 유지됩니다. 실측상 잉크 폭이 최대 +3.4pt(⑤ 오른쪽 끝 1128pt) 늘 뿐이라 이웃 모듈·안전 영역과 부딪히지 않습니다. (B) DETAIL 제목을 12.5pt, SUPPORT 제목을 10.5pt Bold로 바꿉니다(19/12.5 = 1.52, H4 12.5/10.5 = 1.19). DETAIL만 12.5로 낮추면 H4가 1.136으로 깨지므로 하지 마십시오."
+   },
+   {
+    "id": "F-02",
+    "severity": "major",
+    "title": "790:190 머리말 '사례 · '가 접지 그림자 안에서 대비 미달",
+    "location": "790:190 '사례 · 유적 관찰 장면'의 '사례 · '(#615A4E, Noto Sans KR Medium 10.5pt), x 866–896, y 1244–1258pt, 유적 장면 받침 바로 아래",
+    "evidence": "참 배경 halo의 최암 2% 빠른 검사에서 4.22:1로 불합격입니다. 글자별 재검사(halo 배경 중앙값)에서 '사' 4.69, '례' 4.52, '·' 4.42:1(배경 #DACFBB)로 '·'가 4.5 미만이라 C1 major입니다. 같은 원인으로 머리말 halo 중앙값(#DED2BE)의 APCA Lc가 58.1이라 C3(60)에도 못 미칩니다. 같은 원인이라 1건으로 셉니다. 4배 확대로 보면 받침 아래 접지 그림자 띠 위에 글이 놓여 있습니다.",
+    "rubric_check": "C1 (+C3 같은 원인)",
+    "fix_tool": "figma",
+    "fix": "택1. (a) Figma 790:190을 y 1244 → 1250pt(+6)로 옮깁니다. 실측 결과 Lc 60.8, '례' 4.74:1, '·' 4.64:1이고, 아래 6pt는 빈 땅입니다. (b) '사례 · ' 구간 색을 #615A4E → #574F44로 바꿉니다. 최암 배경 #DACFBB 대비 5.23:1, Lc 62.5입니다. (c) Blender에서 유적 장면 받침의 접지 그림자를 줄여 글 밑 배경을 #E2D7C2 이상으로 밝힙니다."
+   },
+   {
+    "id": "F-03",
+    "severity": "major",
+    "title": "790:122 '79년' 획 밑으로 흰 물결 표식이 지남",
+    "location": "790:122 '사례 · 폼페이 공사현장(서기 79년)'의 '9년', 참 배경 x 853.5–866.5, y 1551.5–1562.5pt",
+    "evidence": "팽창 없는 글자 잉크 중 53px(덩어리 30·14·6px)이 물결 표식 위에 놓여 있습니다. 물결은 수면 대비 휘도차 ΔY > 0.08이고, 겹친 곳은 x 855.5–866.5, y 1551.5–1556pt입니다. 획 + 1px 영역의 3.54%가 물결 위입니다. 8배 확대에서 map_only와 poster를 비교해 '9'·'년' 획이 흰 물결 곡선과 겹치는 것을 확인했습니다. 글자별 대비는 7.81:1 이상으로 통과하므로 C6 major입니다.",
+    "rubric_check": "C6",
+    "fix_tool": "blender",
+    "fix": "Blender에서 그 물결 표식 하나를 오른쪽 x ≥ 885pt(+17pt 이상)나 아래 y ≥ 1566pt(+9pt 이상)로 옮기거나 지웁니다. 바로 아래 물결들(x 852–870, y 1560–1592)은 790:125·127 글 폭(x ≤ 834.5) 밖이라 그대로 둡니다."
+   }
+  ],
+  "checks_total": 21,
+  "checks_failed": 4,
+  "report_file": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/review_loop/r2/report_hierarchy_access.md",
+  "strengths": [
+   "첫 3초 위계가 분명합니다. 제목 70pt는 차순위 질문 20pt의 3.5배이고 Lc 76.9이며, 질문 20pt ≥ CORE 제목 19pt로 크기 역전이 없습니다.",
+   "관람 거리 판독은 모든 글이 기준 이상입니다. 가장 작은 9pt Regular가 D_max 0.719m, 고령 보정 0.566m이고, CORE 제목은 1.56m, 질문은 1.64m입니다.",
+   "CORE 본문 5개의 APCA Lc가 78.2~80.6으로 본문 기준 75를 넘습니다. 790:190 머리말을 뺀 모든 글이 글자 단위 WCAG 기준을 통과합니다.",
+   "원판 숫자 #FFF4DD는 6.81:1, |Lc| 83.2입니다. 원판·이정표 화살 판·밑줄 모두 비텍스트 3:1을 넘고, 색각이상 세 유형에서도 유지됩니다(deutan 최저: 원판 4.52, 이정표 4.42, 밑줄 3.23).",
+   "색만으로 전하는 정보가 없습니다. 물/칼슘 라벨 ΔE00은 protan에서도 25.8입니다.",
+   "팔레트가 PSO Coated v3 색역 안에 있어 인쇄 왕복 ΔE00이 1.03 이하이고, 대비 변화가 없습니다.",
+   "안전 영역 여백이 최소 20.5pt(7.23mm)이고, 9pt 세로획이 0.264mm로 인쇄에 충분합니다.",
+   "여러 줄 글 18개에 줄바꿈 오독이 없습니다('보통 온도에서도'를 한 줄에 둠)."
+  ]
+ },
+ {
+  "field": "infographic",
+  "grade": "B",
+  "summary": "27개 항목 가운데 21개는 측정으로 합격했다. 서사 연쇄(INF-05 4/4), 번호 원판(5/5, 지름 20.5pt, 간격 5.5pt), 이정표 방향(오차 6.8°·19.8°·10.6°), 역할 표지, 지명 7/7, 사실 대조(1차 논문 PDF와 맞춰 모순 0)가 여기에 든다. 불합격은 6개다. blocker 1건: ⑤의 결정적 증거 그림에서 '생석회 없음' 시편에 '생석회 있음' 쪽과 똑같은 흰 석회 알갱이 점(2.0pt, RGB≈252,248,232)이 그려져 있다. 그래서 그림이 이름표와 반대로 말하고, 원논문의 'lime clast–free control'과도 어긋난다. 이 모형은 ⑤ 글 상자에서 62.5pt 떨어져 있어 기준 60pt도 넘는다. major 3건: 질문에 답하는 결과형 문장이 없다(⑤ '스스로 메워졌다'에 핵심어가 하나뿐). CORE와 DETAIL 제목 크기 비가 19/13 = 1.46으로 1.5에 못 미친다. ② 본문과 제작 원리 DETAIL이 같은 명제를 되풀이한다(내용어 64% 겹침). minor 2건: '오늘의 실험실' 이름표 간격 21.5pt, 용어 불일치(금/균열/틈, 메움/충전, 방파제 두 물체). 집계는 blocker 1 · major 3 · minor 2로 B다. 1차 출처 확인에 쓴 자료: Seymour et al. 2023 PDF(https://www.ancientportsantiques.com/wp-content/uploads/Documents/ETUDESarchivees/Ma%c3%a7onnerie/B%c3%a9tonRomain/RomanConcrete-Seymour2023.pdf), MIT News 2023(https://news.mit.edu/2023/roman-concrete-durability-lime-casts-0106).",
+  "findings": [
+   {
+    "id": "F-15",
+    "severity": "blocker",
+    "title": "⑤ 비교 그림: '생석회 없음' 시편에 석회 알갱이가 있어 이름표와 반대로 말함. ⑤ 글과의 거리도 62.5pt",
+    "location": "⑤ 옆 시편 모형 x988.5–1155 y668.5–753.5 (map_only_2x), 이름표 798:78·79, ⑤ 글 상자 790:170–172 (982.5,816)",
+    "evidence": "오른쪽('생석회 없음/계속 샘') 시편에 흰 점 2개: (1099.8,712.2)·(1118.7,695.3), 각 2.0×2.0pt, RGB (254,249,233)·(251,246,230). 왼쪽('생석회 있음') 시편의 점 3개 (1023.8,710.2)·(1039.7,716.3)·(1041.7,694.3)와 크기·색이 같음. '석회 알갱이' 이름표(790:108)가 가리키는 제작 원리 덩어리의 흰 알갱이(RGB≈251,246,228)와도 같은 부호. 1차 논문 Seymour et al. 2023 그림 5는 대조군을 'lime clast–free control'이라고 씀. 거리: 받침 아래 끝 y=753.5(열 단면에서 RGB 차 115→≤15) ↔ ⑤ 제목 y=816 = 62.5pt(INF-15 기준 60).",
+    "fix_tool": "figma+blender",
+    "fix": "Blender: 오른쪽 시편의 흰 구 2개를 지우고 그 자리는 시편 바탕 재질 그대로 둠(렌더 #8D7666–#9A8170). 왼쪽 시편의 알갱이 3개는 지름 2.0→3.5pt로 키워 차이가 1m 거리에서도 보이게 함. Figma: ⑤ 모듈(790:170·171·172, 원판, 밑줄)을 3pt 올림(y 816→813) → 모형과 59.5pt. 798:78·79와의 틈은 30pt 남음.",
+    "rubric_check": "INF-15 (INF-16 '그림이 글과 반대로 말하면 blocker' 원칙, BRIEF 의미·사실 오류)"
+   },
+   {
+    "id": "F-02",
+    "severity": "major",
+    "title": "포스터 질문에 답하는 결과형 문장(핵심어 2개 이상)이 CORE 제목·⑤ 본문에 없음",
+    "location": "790:171 ⑤ 제목 둘째 줄 '스스로 메워졌다' (982.5,840)",
+    "evidence": "CORE 제목 10줄과 ⑤ 본문의 핵심어(금·메움·버팀) 수: ① 금 1, ④ 금 1, ⑤ 제목 메움 1, ⑤ 본문 금 1. 두 개를 쓴 결과형 문장은 ④ 본문 '새 결정이 자라 작은 금을 메운다.'(19자)뿐인데 허용 자리가 아님. '버팀'(2천 년)으로 돌아오는 문장은 포스터 전체에 0개.",
+    "fix_tool": "copy",
+    "fix": "790:171 '스스로 메워졌다' → '금이 스스로 메워졌다'(19pt Bold #983821). 지금 글자 폭 125pt(한 글자 약 17.1pt) → 약 164pt, x 983.5–1147.5로 오른쪽 여백 1167 안. 밑줄은 D1 규칙대로 둘째 줄 폭에 맞춤.",
+    "rubric_check": "INF-02"
+   },
+   {
+    "id": "F-10",
+    "severity": "major",
+    "title": "CORE 제목과 DETAIL 제목의 크기 비가 1.46으로 기준 1.5 미달",
+    "location": "CORE 제목 790:146–171(19pt) / DETAIL 제목 790:174·177·180·183 둘째 구간(13pt Bold)",
+    "evidence": "text_spec_r2: CORE 제목 10줄 모두 19pt, DETAIL 제목 4개 모두 13pt, SUPPORT 제목 11pt. 19/13 = 1.4615 < 1.5.",
+    "fix_tool": "figma",
+    "fix": "DETAIL 제목 4개를 13 → 12.5pt Bold로(19/12.5 = 1.52). 머리말 10.5 Medium, SUPPORT 11pt와의 단계는 유지됨. 다른 방법인 CORE 19.5pt(1.50)는 ⑤ 폭 여유를 줄이므로 권하지 않음.",
+    "rubric_check": "INF-10"
+   },
+   {
+    "id": "F-22",
+    "severity": "major",
+    "title": "② 본문과 제작 원리 DETAIL이 같은 두 명제를 되풀이함",
+    "location": "790:154 ② 본문 (61.5,799.5) / 790:178 제작 원리 본문 (24,1056.4)",
+    "evidence": "790:178 내용어 11개 가운데 7개(생석회·물·열·내다·희다·알갱이·남다)가 790:154에 있음 = 64%(반대 방향은 7/13 = 54%). 같은 명제 2개: '생석회+물→열', '흰 알갱이가 남음'. 새 정보는 '덜 반응한' 하나뿐. 그림 이름표는 세지 않음.",
+    "fix_tool": "copy",
+    "fix": "790:178을 2줄 그대로 원리를 더하는 문장으로 바꿈. 1줄 '생석회가 소석회로 바뀌며 발열'(9.5pt, 약 120pt), 2줄 '석회 일부가 mm 크기 덩어리로 남음'(상자 160pt 안). 겹침 3/10 = 30%. 근거: 논문 'CaO reaction with water to produce Ca(OH)2', MIT News 'millimeter-scale lime clasts'.",
+    "rubric_check": "INF-22"
+   },
+   {
+    "id": "F-14",
+    "severity": "minor",
+    "title": "'사례 · 오늘의 실험실' 이름표가 리더선 없이 모형에서 21.5pt 떨어짐",
+    "location": "790:192·193 (982.5,616)–(1162.5,647) ↔ 시편 모형 위 끝 y668.5",
+    "evidence": "map_only_2x 물체 경계(#E4D9C4와 차 합 >28): 모형 y668.5, 이름표 상자 아래 끝 647 → 21.5pt > 20pt, 리더선 없음. 나머지 SUPPORT는 프리베르눔 5.0pt, 유적 관찰 0pt, 항구·폼페이는 리더선 있음.",
+    "fix_tool": "figma",
+    "fix": "790:192·193을 2pt 아래로(y 616→618, 634→636) → 19.5pt. F-15의 ⑤ 3pt 올림과 충돌하지 않음.",
+    "rubric_check": "INF-14"
+   },
+   {
+    "id": "F-23",
+    "severity": "minor",
+    "title": "한 개념에 여러 용어를 씀(금/균열/틈, 메움/충전), 서로 다른 두 물체를 '방파제'로 부름",
+    "location": "790:166 '틈', 790:183 '균열 원리', 790:188 '결정 충전', 790:193 '균열 충전 실험', 790:121·790:128 '방파제'",
+    "evidence": "같은 대상의 동의어 4쌍: 금↔균열, 금↔틈, 메움↔충전, 흰 알갱이↔석회 알갱이(기준 ≤1). 다른 대상에 같은 이름: 790:121 '로마 항구 방파제'(리더선 → 배가 든 네모 수조형 물체 x115–225 y1440–1500)와 790:128 '로마 방파제 · 개념 모형'(길쭉한 블록 x395–500 y1500–1590)(기준 0).",
+    "fix_tool": "copy",
+    "fix": "790:166 '틈 안으로'→'금 안으로'. 790:188 '결정 충전'→'결정이 메움'(10.5pt, 약 52pt, 상자 68pt 안). 790:193→'금 메움 실험 · MIT 2023'. 790:183 머리말 '균열 원리 · '→'메움 원리 · '. 790:128은 '방파제'를 뺀 이름(예: '항구 블록 · 개념 모형'). 남는 동의어는 흰 알갱이↔석회 알갱이 1쌍(790:178에서 이어 줌).",
+    "rubric_check": "INF-23"
+   }
+  ],
+  "checks_total": 27,
+  "checks_failed": 6,
+  "report_file": "/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/review_loop/r2/report_infographic.md",
+  "strengths": [
+   "번호 원판 5/5가 같은 규격이다(지름 20.5pt, 제목 첫 글자까지 5.5pt, 첫 줄 중심과의 세로 차 1.0~1.2pt)",
+   "이정표 3개가 모두 다음 CORE를 ±30° 안으로 가리킨다(차 6.8° / 19.8° / 10.6°). 경로는 교차가 없고 이웃 거리는 모두 600pt 이하다",
+   "이웃한 CORE 본문이 앞 단계의 핵심어를 4/4 이어받는다(굳히는→굳는다, 흰 알갱이→알갱이, 칼슘→칼슘, 금·물→금·물)",
+   "#983821은 CORE 제목 둘째 줄 5개에만 쓰였다. DETAIL과 SUPPORT는 머리말·크기·행간 세 가지로 구분된다",
+   "④ 단계 모형이 물 스밈 → 칼슘 이동 → 결정 충전을 화살표와 함께 그림과 이름표가 맞게 보여 준다",
+   "사실 문장이 1차 논문과 맞는다(0.5±0.1mm 금, 1~3주(MIT 기사는 2주), 불량 혼합으로 여겨짐, 항구 결정). '콜로세움에서 직접 입증 안 됨', '개념 모형' 표시도 있다",
+   "지명 7/7과 기원 표기('서기 80년', '서기 79년')가 갖춰져 있다"
+  ]
+ },
+ {
+  "field": "color",
+  "grade": "AA",
+  "summary": "라운드 2 컬러그래픽 블라인드 심사 결과는 AA입니다(blocker 0, major 1, minor 2). 루브릭 25항목 중 4개(CL-12, CL-14, CL-22, CL-23)가 기준에 미달합니다. CL-22는 CL-12와 원인이 같은 물체여서 지적 하나로 묶었습니다. AAA까지 남은 것은 major 1건입니다. 비CORE 적갈 물체 3개(인부 옷, 유적 관찰 인물 옷, 철근 건물 녹 자국)가 강조색 #983821과 ΔE00 8.3~9.7로 너무 가깝습니다(기준 ≥10). 옷 재질 하나만 바꾸고 녹 자국을 고치면 풀립니다.\n\n리포트 파일 r2/report_color.md는 하네스가 하위 에이전트의 리포트 파일 작성을 막아서 만들지 못했습니다. 항목별 판정 전체를 아래에 담았습니다. 측정 스크립트와 중간값(textc.json, secA.json, objs.json, water.json, cvd.json)은 스크래치패드 color_r2/에 있습니다. 측정 라이브러리는 APCA 공식 예시값(#888/#fff = 63.06, #fff/#888 = −68.54), Sharma ΔE00 시험쌍, WCAG 21:1로 먼저 검증했습니다.\n\n항목별 판정:\n- CL-01 합격(판단 포함). 종이·땅·산·돌만 보면 색상각 10~90백분위 폭이 6.0°이고, 저채도 비율은 91.2%입니다. 공식을 글자 그대로 적용하면 115.6°가 나오지만, 폭을 넓힌 것은 저채도 띠 안 픽셀의 13.2%를 차지하는 티베르강·티레니아해(h 196°)뿐입니다. 이 물은 고정 조건 4와 CL-10이 요구하는 색이라 감점하지 않았습니다.\n- CL-02 합격. 면적 0.3% 이상인 유채 색상군은 2개입니다(30~90°에 7.83%, 120~135°에 0.84%).\n- CL-03 합격. C > 0.15 픽셀은 0.007%입니다.\n- CL-04 합격. 강조색 면적은 0.347%입니다.\n- CL-05 합격. text_spec에서 CORE 밖 글 중 #983821은 0개입니다. CORE 밖 강조색 계열 픽셀은 113px(0.0056%)이고, 모두 ② 반죽터 옆 '열' 물결 소품입니다.\n- CL-06 합격. 역할마다 땅 위 변수 1개에 물 위 예외 1개입니다.\n- CL-07 합격. 물색은 ④ 1단계에만 52px 있고, 갈색은 각 단계에 2,100px 이상 있습니다.\n- CL-08 합격. 로마 물체는 h 64.7~86.0°입니다. 철근 건물 자체 픽셀은 h 214.3°, 실험 도구는 235°입니다. 반대 계열 물체는 0개입니다.\n- CL-09 합격. 물 표현 4종의 색상각 차는 최대 12.0°이고, 강–바다 ΔE00은 0.30입니다.\n- CL-10 합격. 강·바다 모두 h 196.2°입니다.\n- CL-11 합격. 원판 ΔE00 1.08, 화살표 밝은 면 2.35~6.52이고 색상각 차는 0.2° 이하입니다.\n- CL-12 미달(major). 아래 지적 참고.\n- CL-13 합격. 최소값은 Lc 78.2, WCAG 10.02입니다.\n- CL-14 미달(minor). 790:190 머리말 하나가 Lc 57.9입니다.\n- CL-15 합격. 최소값은 Lc 63.0, WCAG 5.19입니다.\n- CL-16 합격. 최소값은 Lc 81.7, WCAG 6.41입니다.\n- CL-17 합격. 모든 글의 최악 배경 p10이 53.5 이상입니다. 790:115 '베수비오 화산'은 처음에 26.8이 나왔지만 측정 오염이었습니다. 회전 글의 축 정렬 상자에 화산 음영 1,405px가 글자 마스크로 잡혔습니다. 화산을 연결 성분으로 분리하니 글자와 화산은 5.6pt 떨어져 있고, 고리는 100% 종이 위이며 p10은 62.6입니다.\n- CL-18 합격. 점선 지시선 3.89~4.72, 하중 화살표 5.35, ④ 단계 화살표 3.31~4.01, 원판 4.95~5.14입니다.\n- CL-19 합격.\n- CL-20 합격. 종이 중앙값 #E7DBC6과 토큰의 ΔE00은 2.89로, 여유는 0.11뿐입니다.\n- CL-21 합격. 최소 D는 CORE 1·2줄 1.35, 물/칼슘 라벨 1.02, 강조 제목/본문 1.03입니다. '주제색 제목끼리' 쌍은 고정 조건 5로 CORE 둘째 줄이 한 색이 되어 r2에는 해당 쌍이 없습니다.\n- CL-22 미달(minor, CL-12에 묶음). 땅/바다(최소 D 1.12), 강/길(1.65), 현대 슬레이트/로마 황토 대표색(1.29)은 합격입니다. 강조색과 적갈 물체 쌍은 제1·2색약에서 D 0.67~0.88입니다.\n- CL-23 미달(minor). 개념색 라벨 두 색이 3.70, 4.05입니다.\n- CL-24 합격. 왕복 ΔE00 > 5인 픽셀은 0.593%입니다.\n- CL-25 합격. 총잉크량 최대 296.1%, K 최대 94.9%입니다.\n\n점수에 넣지 않은 관찰:\n- 강조색 계열의 인쇄 왕복이 3.85~4.18로 나옵니다. 원인은 규약에 정한 검정점 보정이고, 보정을 빼면 0.85입니다. 색값 자체가 고정 조건 5·6이라 감점하지 않았습니다.\n- 구조 모형의 '무거운 돌'·'기초 12m+' 지시선은 시작 부분이 짙은 블록 위에 있어 1.13~1.19:1입니다. 종이 위 구간은 층 가장자리에서 라벨까지 3:1을 넘어 가리키는 대상은 분명합니다. 오른쪽 기둥처럼 블록 가장자리에서 점으로 시작하게 바꾸기를 권합니다.\n- 실험실 판은 h 186.6°로 루브릭 범위 190~260° 밖이지만, C 0.016에서 Oklab 차이가 약 0.001이라 지각되지 않는 차이입니다.\n\n한국어 줄바꿈 오독은 다줄 글 21개를 확인했고 없습니다. 고정 조건 밖의 blocker급 신규 결함(NEW-)도 없습니다.",
+  "findings": [
+   {
+    "id": "CL-12",
+    "severity": "major",
+    "title": "비CORE 적갈 물체 3개가 강조색 #983821과 구별되지 않음(정상 시각 ΔE00 < 10, 색각이상 모의 D < 1)",
+    "location": "② 반죽터 오른쪽 인부의 붉은 치마(약 179–189, 897–912pt) · 유적 관찰 장면 인물 옷(약 950–954, 1199–1217pt) · CORE ① 철근 건물 왼쪽 기둥 녹 자국(약 717–720, 500–509pt)",
+    "evidence": "poster_2x에서 옷 영역의 RGB 중앙값을 쟀습니다. 인부 옷 #834D38은 ΔE00(#983821) 8.3, 유적 인물 옷 #8C543D는 8.9, 녹 자국 #77442D는 8.9입니다. 분할 임계값 5종을 바꿔도 8.3~9.7로 모두 기준 10 미만입니다. 세 곳 모두 Oklch h 41.8~44.5°라 강조색 범위(20~48°)에 들어갑니다. 원인은 재질 토큰 cloth #9C5C43이 이미 ΔE00 10.17로 경계에 있는데, 렌더에서 선형값이 약 0.69배로 어두워져 강조색 쪽으로 다가간 것입니다. CL-22도 같은 원인으로 미달합니다. Machado 모의 후 Szafir 2° 기준 D는 인부 옷 제1색약 0.67·제2색약 0.85, 유적 인물 옷 0.81·0.83, 녹 자국 0.47·0.88입니다(기준 ≥ 1). 이정표 화살표 밝은 면 #8D3520과 인부 옷의 쌍도 0.71·0.72입니다. 시편 정육면체(ΔE00 16.1~16.4)와 재현 시편(24.4)은 합격입니다.",
+    "rubric_check": "CL-12 (major) + CL-22 (minor, 같은 원인이라 한 건으로 묶음)",
+    "fix_tool": "blender",
+    "fix": "Blender에서 재질 RC.v12.cloth를 #9C5C43에서 #A47C66으로 바꿉니다. 예측 렌더값은 #896856이고 ΔE00(#983821) 16.7입니다. 정상 시각과 세 가지 색각이상 모두에서 강조색·화살표와의 최소 D가 1.50이며, Oklch h 50°라 로마 시대 따뜻한 계열은 유지됩니다. 철근 건물 녹 자국은 렌더값이 #5E4A3E 이하가 되도록 재질을 약 #71594A로 내립니다(ΔE00 17.7, 최소 D 1.14). 아니면 녹 자국을 지웁니다."
+   },
+   {
+    "id": "CL-14",
+    "severity": "minor",
+    "title": "790:190 머리말 '사례 · '가 그늘진 종이 위에서 Lc 57.9(기준 60, 2.1 부족)",
+    "location": "790:190 '사례 · 유적 관찰 장면'의 머리말 구간(866–897, 1244–1258pt, 10.5pt Medium #615A4E)",
+    "evidence": "머리말 글자만 따로 잰 고리 배경 중앙값은 #DDD2BD이고, APCA Lc 57.9(측정 글자색 기준 58.2), WCAG 4.55(기준 4.5 통과, 여유 0.05), 최악 배경 p10은 53.5입니다. 글 전체를 한 고리로 재도 Lc 58.7입니다. 원인은 위쪽 유적 관찰 장면의 그림자 띠로, x 862–900에서 y 1236–1254 구간이 #D6CBB7~#D8CDB9입니다. 그 아래 y 1260부터는 #E6DAC5이고 Lc 62.6입니다. 같은 글의 제목 '유적 관찰 장면'(#3E3A31)은 Lc 71.3으로 합격입니다. 내용 글 69개 중 기준에 못 미치는 것은 이 하나뿐입니다.",
+    "rubric_check": "CL-14 (규약 5: 부족분 3 미만이라 minor)",
+    "fix_tool": "figma",
+    "fix": "Figma에서 790:190을 y 1244pt에서 1258pt로 14pt 내립니다. 그러면 머리말 뒤 종이가 #E2D6C1~#E6DAC5가 되어 Lc 60.3~62.6입니다. 아래 x 866–962, y 1258–1272 구간은 비어 있습니다. Blender로 고칠 수도 있습니다. 유적 관찰 장면이 종이에 드리우는 그림자를 줄여 캡션 아래 종이가 #E2D6C1 이상이 되게 합니다. 공용 변수를 바꾸는 방법(#615A4E → #575045, 그늘 위 Lc 62.0)도 있지만, 머리말과 제목 #3E3A31의 차이가 ΔE00 11.2에서 7.7로 줄어 권하지 않습니다."
+   },
+   {
+    "id": "CL-23",
+    "severity": "minor",
+    "title": "④ 단계 개념색 라벨 2색이 PSO Coated v3 인쇄 왕복 ΔE00 3 초과(3.70, 4.05)",
+    "location": "790:186 '물이 스밈'(#0F4A50), 790:187 '칼슘 이동' · 790:188 '결정 충전'(#7A4A1E), 모두 y 1259pt, 10.5pt",
+    "evidence": "ECI PSOcoated_v3.icc(FOGRA51)로 sRGB → CMYK(상대 색도, 검정점 보정) → Lab D50으로 왕복했습니다(Pillow/LittleCMS, Lab의 a·b를 부호 있는 8비트로 해석). #0F4A50은 CMYK 80/36/39/55에 ΔE00 3.70, #7A4A1E는 25/60/81/48에 4.05입니다. 토큰 type_water #195B61(3.26)과 type_calcium #784C26(3.53)도 기준 3을 넘습니다. 물 렌더색(바다 #9CCACA 0.77, #3F9DAA 1.43)은 합격입니다. 강조색 계열 3.85~4.18은 고정 조건 색이라 이 지적에서 뺐습니다.",
+    "rubric_check": "CL-23 (3~5이므로 minor)",
+    "fix_tool": "figma",
+    "fix": "Figma에서 물 라벨을 #0F4A50에서 #1B5760으로 바꿉니다(왕복 2.93, 단계 바탕 #EADEC9에서 Lc 69.3, h 209°로 물방울 203~208°와 맞물림). 칼슘 라벨은 #7A4A1E에서 #8A5427로 바꿉니다(왕복 2.98, Lc 62.1, h 58°로 정육면체 갈색 약 50°와 ±20° 안). 두 색을 함께 탐색해 고른 쌍이며, CVD 최소 D 1.07로 현재 1.02보다 나아 CL-21을 지킵니다. 변수 type_water와 type_calcium도 같은 값으로 맞춥니다."
+   }
+  ],
+  "checks_total": 25,
+  "checks_failed": 4,
+  "strengths": [
+   "바탕(종이·땅·산·돌)이 한 색상군으로 매우 강하게 응집합니다. 색상각 10~90백분위 폭이 6.0°(80.4~86.5°)이고 저채도 픽셀이 91.2%이며, 과채도 픽셀은 0.007%뿐입니다.",
+   "강조색이 아주 희소합니다. 면적 0.347%이고, CORE 밖 강조색 계열 픽셀은 '열' 소품 113px뿐이며, text_spec에서 CORE 밖 #983821은 0개입니다.",
+   "CORE 표지가 실제 렌더에서도 지정색과 맞습니다. 원판 ΔE00 1.08, 이정표 화살표 밝은 면 2.35~6.52이고 색상각 차는 0.2° 이하입니다.",
+   "글 대비가 역할별 기준을 넉넉히 넘습니다. CORE 본문 Lc 78.2 이상, WCAG 10:1 이상이고, 번호 숫자는 Lc 81.7 이상입니다. 물 위 글은 #2E2A22·#3E3A31로 바꿔 Lc 60.8~65.7을 확보했습니다.",
+   "물 표현이 한 색상군으로 일관됩니다. 강·바다·시편 수조·물방울의 색상각 차는 최대 12°이고, 강–바다 ΔE00은 0.30입니다.",
+   "인쇄 조건을 지킵니다. 왕복 ΔE00 > 5인 픽셀은 0.593%이고, 총잉크량 최대 296.1%, K 최대 94.9%입니다.",
+   "역할별 글 색 변수가 '땅 위 1개 + 물 위 예외 1개' 규칙을 빠짐없이 지킵니다."
+  ]
+ },
+ {
+  "field": "typography",
+  "grade": "B",
+  "summary": "라운드 2 타이포그래피 블라인드 심사 결과는 B등급이다(blocker 2 · major 1 · minor 3). 두 blocker가 모두 TY-28(글 밑 민바탕·대비)에서 나와 AAA·AA가 될 수 없다.\n\n리포트 파일 r2/report_typography.md는 만들지 못했다. 서브에이전트의 리포트 파일 쓰기를 실행 환경(harness)이 차단했기 때문이다. 아래 내용이 그 리포트를 대신한다.\n\n측정 방법\n- 자료: poster_2x.png와 map_only_2x.png(글을 뺀 지도, 포스터와 글 화소만 다름을 확인)를 화소 단위로 비교했다.\n- 단위: pt = 2x 화소 ÷ 2.\n- 대비: 잉크는 글자 화소 중 어두운 20%, 바탕은 5백분위로 WCAG 대비를 계산했다.\n- 바탕 간섭: 낱말 상자의 바탕 L 표준편차(σ), 그리고 하이패스로 걸러낸 무늬와 잉크 사이의 최소 거리를 쟀다.\n- 회전 지명: 글을 −θ만큼 되돌려 평탄화한 뒤 세로획 기울기를 쟀다.\n\n항목별 판정(28개 중 8개 불합격, TY-24는 등급 제외)\n- TY-01 불합격, minor(F5): 질문 ÷ CORE 소제목 = 1.053. 설명(9.5 Regular)과 키커·부품 라벨(9.5 Medium)이 같은 크기다.\n- TY-02 불합격, minor(F6): '석회 알갱이' 하나만 9pt.\n- TY-03 불합격, minor: 글 크기가 11단계다. TY-01과 원인이 같아 F5 하나로 묶었다.\n- TY-04 합격: 제목 잉크 68pt ÷ 질문 19pt = 3.58.\n- TY-05 불합격, major(F3): SUPPORT 제목 ÷ 설명 = 1.158.\n- TY-06 합격: 키커와 설명은 굵기 차 100, 획 농도 +15~+38%.\n- TY-07 합격: 굵기 3단계(Regular·Medium·Bold).\n- TY-08 합격: 행간 134.8~147%. 실측 줄 간격은 CORE 15.5, DETAIL 14, SUPPORT 13, BASIC 14pt.\n- TY-09 합격: 2줄 소제목 행간 126~132%.\n- TY-10 합격: 자간 0%, 제목 −1%.\n- TY-11 합격: 가장 긴 줄 21자. 2줄 설명의 가장 긴 줄은 10자 이상이다. BASIC 부가(8~9자)는 설명문이 아니라 부가 라벨이라 판정 범위 밖으로 봤다.\n- TY-12 합격: 외톨이 줄 없음.\n- TY-13 합격: 가운데 맞춤은 2줄 이하에만 쓰였다.\n- TY-14 합격: CORE 밖 10덩이의 왼끝 차는 0.5pt 이하다. CORE는 0.75~1.5pt인데 측정 분해능(끝마다 ±0.5pt) 안이라 결함으로 증명할 수 없다.\n- TY-15 합격:\n  - (a) 원판 → 제목 첫 줄: 4.5~5.5pt\n  - (b) 둘째 줄 → 밑줄: 4.0~4.5pt\n  - (c) 밑줄 → 본문: 다섯 곳 모두 6.5pt\n  - (d) 밑줄 길이 − 둘째 줄 잉크 폭: +1.0~+3.0pt로 측정 오차 안이다.\n- TY-16·TY-17·TY-18 합격: 2줄 이상 글 22개를 모두 읽었다. 어절 안 끊김, 줄끝 오독, 금칙 위반이 없다.\n- TY-19·TY-20·TY-21 합격: 가운뎃점 25곳이 모두 U+00B7이다. 열거는 붙이고 구분자는 띄워 일관된다. 따옴표는 U+2018/2019이고, 같은 역할 안의 끝맺음이 섞이지 않았다.\n- TY-22 합격: 명조는 70pt 제목에만 쓰였다.\n- TY-23 합격: 최소 9pt(기준 6.2pt 이상).\n- TY-24 불합격, minor: CORE 본문 11.5pt < 12.35pt(6.9% 부족). STATE R2 보류 항목이라 다시 지적하지 않고 등급에서도 뺐다.\n- TY-25 합격: CORE 소제목 실측 잉크 18.0pt = 6.35mm(기준 5.92mm 이상).\n- TY-26 불합격, minor(F4): '티베르강'만 변환이 다르다.\n- TY-27 불합격, minor: 회전 지명은 모두 12pt 이상이고 대비도 4.75:1 이상이다. 다만 '티레니아해'와 물결 표시의 간격이 0.7~1.0pt다. 원인이 같아 F1에 묶었다.\n- TY-28 불합격, blocker 2개: F1(물결 표시가 글자 밑을 지남)과 F2(대비 4.5:1 미달).\n\n보류 항목: STATE R3의 ④⑤ 본문 밑 지형 음영 띠를 다시 쟀다. σ 7.5~9.2이지만 고주파 무늬는 없는 매끈한 음영이고 대비는 7.1:1 이상이다. 새 근거가 아니어서 재지적하지 않았다.\n\n등급: blocker 2개이므로 B.",
+  "findings": [
+   {
+    "id": "TY-F1",
+    "severity": "blocker",
+    "title": "바다 물결 표시가 '(서기 79년)' 글자 밑을 지나고, '티레니아해'와 1pt 안으로 붙음",
+    "location": "790:122 '사례 · 폼페이 공사현장(서기 79년)'의 '79'(pt x 855.5~865, y 1551.5~1556), 790:124 '티레니아해'의 '해' 오른쪽 위(pt 193~204, 1537~1545)",
+    "evidence": "poster_2x와 map_only_2x를 비교했다. 글자 화소(두 이미지 차 > 40)와 물결 화소(바다 중앙값 L 192보다 25 넘게 밝음)가 42 px 겹친다. 물결 한 쌍(지도 pt x 852~864, y 1550~1563)의 위쪽 곡선이 '79' 글자 몸통 밑으로 지나간다. 이 낱말의 바탕 σ는 15.4다(기준 ≤ 6, 민바탕 2~3.5). 원인이 같은 두 번째 사례: '티레니아해'의 '해'와 물결 표시는 겹치지는 않지만 잉크 간격이 0.7~1.0 pt다(TY-27 기준 ≥ 2 pt).",
+    "fix_tool": "figma+blender",
+    "fix": "Blender: '79' 밑 물결 쌍(포스터 pt x 852~864, y 1550~1563)을 지우는 것을 권한다. 오른쪽(x 886~904)에 다른 물결이 있어 옆으로 옮길 자리가 없다. '티레니아해' 옆 물결(pt 193~204, 1537~1545)은 지우거나 글자에서 4 pt 이상 떨어지게 옮긴다. Figma 대안('티레니아해'만 해당): 790:124를 (−2, +3) pt 옮겨 간격을 3 pt 이상으로 만든다.",
+    "rubric_check": "TY-28 (+TY-27 같은 원인)"
+   },
+   {
+    "id": "TY-F2",
+    "severity": "blocker",
+    "title": "땅 위 머리말 #615A4E가 음영 바탕에서 대비 4.5:1 미달",
+    "location": "790:190 '사례 · 유적 관찰 장면'의 머리말 '사례 · '(pt x 866.5~891.5, y 1245.5~1256), 경계치로 790:180 '구조 원리 · '의 '원리'(pt x 271.5~290, y 1348~1358.5)",
+    "evidence": "잉크 실측 상대휘도는 0.104로 명목색 #615A4E와 같다. 따라서 대비 부족은 바탕 탓이다. 유적 모형 아래 땅 음영 때문에 바탕 5백분위가 상대휘도 0.607~0.618(L≈206)까지 어둡다. 국소 최저 대비: '사례' 4.33:1(map_only 바탕) / 4.39:1(루브릭 방식: 포스터에서 L<120 글자 화소를 2px 팽창해 제외), '·' 4.26:1. 기준 4.5:1에 못 미친다. 같은 원인의 경계치: '원리' 4.47~4.51:1. 같은 색의 다른 글은 모두 4.60:1 이상이다.",
+    "fix_tool": "figma",
+    "fix": "Figma: 땅 위 머리말 색을 #615A4E에서 #3E3A31로 바꾼다. 바다 위 머리말 790:121·122·174가 이미 쓰는 토큰이다. 같은 바탕에서 '·' 7.1:1, '사례' 7.2:1, '원리' 7.4:1이 된다. 최소 수정은 790:190과 790:180의 머리말 부분만 바꾸는 것이다. 일관성을 위해 790:109·177·183·192 머리말도 함께 바꾸기를 권한다. 색 계열을 유지하려면 #554F44 이하(5.1:1)로 낮춘다.",
+    "rubric_check": "TY-28"
+   },
+   {
+    "id": "TY-F3",
+    "severity": "major",
+    "title": "SUPPORT 제목과 설명의 크기비 1.158 < 1.2",
+    "location": "790:109→790:113, 790:121→790:126, 790:122→790:127 (SUPPORT 제목 Bold 11 / 설명 Regular 9.5)",
+    "evidence": "text_spec 기준 11 ÷ 9.5 = 1.158이다. 잉크 높이 비로도 11×0.93 ÷ 9.5×0.906 = 1.19로 기준 1.2에 못 미친다. 굵기 차 300(Bold 700 ↔ Regular 400)은 충족한다. 비교로 CORE는 19/11.5 = 1.65, DETAIL은 13/9.5 = 1.37, BASIC은 12/10 = 1.20으로 합격이다.",
+    "fix_tool": "figma",
+    "fix": "Figma: SUPPORT 제목의 굵은 부분(790:109·121·122·190·192)을 11 → 11.5 pt Bold로, 행간을 14 → 15 px로 바꾼다. 11.5 ÷ 9.5 = 1.21로 합격한다. 머리말 '사례 · '(10.5 Medium)는 그대로 둔다. 폭은 약 4.5% 늘어난다(790:122는 158 → 약 164 pt, 오른끝 x ≈ 882.5). F1 물결을 지우면 이웃 요소와 겹치지 않는다. 이 수정은 크기 단계 11 → 11.5 통합(F5)과 같다.",
+    "rubric_check": "TY-05"
+   },
+   {
+    "id": "TY-F4",
+    "severity": "minor",
+    "title": "같은 −30° 지명 중 '티베르강'만 땅 축 전단 없이 순수 회전",
+    "location": "797:80 '티베르강' (box 111,432 · −30°)",
+    "evidence": "글을 −θ만큼 되돌려 평탄화하고 세로획 기울기를 쟀다. 797:80은 0°로, 기울임 없는 순수 회전이다. 같은 −30° 지명 790:115 '베수비오 화산', 790:119 '폼페이', 790:120 '항구'는 세로획이 +29~+31° 기운다. 즉 등각 땅 축 전단을 쓴다. +30° 무리(103·104·124)는 −24~−30°로 서로 일관된다. text_spec에는 회전값 −30°만 있어 이 차이가 드러나지 않는다. 뒤집힘·거울상은 없다.",
+    "fix_tool": "figma",
+    "fix": "Figma: 797:80에 790:119 '폼페이'와 같은 변환(회전 −30° + 기울임 30°)을 적용한다. relativeTransform을 그대로 복사하면 된다. 크기 12 pt Medium, 색 #615A4E는 유지하고, 잉크 중심을 지금 자리(약 x 134, y 449 pt)에 맞춘다.",
+    "rubric_check": "TY-26"
+   },
+   {
+    "id": "TY-F5",
+    "severity": "minor",
+    "title": "글 크기 11단계와 이웃 역할 비 1.10 미만(질문/소제목 1.05, 설명/키커 동률)",
+    "location": "전체 글 크기 체계: 790:86 질문, CORE 소제목 146~171, 설명·키커·부품 라벨",
+    "evidence": "text_spec의 글 크기는 11단계다(70·20·19·13·12·11.5·11·10.5·10·9.5·9, +·→의 18 제외). 기준은 7단계 이하다. 이웃 역할 잉크 높이 비: 질문 20 B ÷ CORE 소제목 19 B = 1.053(실측 잉크 19.0 ÷ 18.0 pt = 1.056)으로 1.10 미만이다. 설명 9.5 R(8.61) ÷ 키커·부품 라벨 9.5 M(≈8.69) ≈ 0.99로 동률이다. 캡션 10 R ÷ 부품 라벨 9.5 M = 1.04다. 질문은 제목 액자 띠 안에 있고 설명은 제목 바로 밑에 있어 위치로 구분되므로 minor로 판정했다.",
+    "fix_tool": "figma",
+    "fix": "Figma, 세 단계로 고친다. (1) CORE 소제목 다섯 개를 19 → 18 pt Bold, 행간 24 → 23 px로 낮춘다. TY-25 하한 18.0 pt는 지켜지고 질문 비가 1.11이 된다. (2) 크기를 합친다: 9 → 9.5(790:94~97, 790:108), 11 → 11.5(SUPPORT 제목, F3과 같은 수정), 10.5 → 10(머리말, 단계 라벨 186~188), 12 → 13(BASIC 제목 80·81, 지명, 원판 숫자). 결과는 {70, 20, 18, 13, 11.5, 10, 9.5} 7단계다. (3) 선택: 맨 아래 동률까지 풀려면 SUPPORT 키커(112·123·125·193)와 부품 라벨을 8.5 pt Medium으로 낮춘다(설명 ÷ 키커 = 1.107). 이 경우 10 pt 역할을 9.5로 합쳐야 7단계가 유지된다.",
+    "rubric_check": "TY-01, TY-03"
+   },
+   {
+    "id": "TY-F6",
+    "severity": "minor",
+    "title": "부품 라벨 '석회 알갱이'만 9pt(같은 역할은 9.5pt)",
+    "location": "790:108 '석회 알갱이' (143, 1001.5)",
+    "evidence": "790:108은 9 pt Medium, 행간 125%다. 같은 역할(지시선 부품 라벨)인 790:114·116·117·118, 797:78·79는 모두 9.5 pt Medium, 행간 120%다. 실측 글자 폭 비는 0.944로 9 ÷ 9.5와 같다. 크기 차가 0.5 pt라 minor다. 한 줄 글의 행간 차는 이미지로 확인할 수 없어 판정에서 뺐다.",
+    "fix_tool": "figma",
+    "fix": "Figma: 790:108을 9.5 pt Medium, 행간 120%로 바꾼다. 상자 폭은 44 → 약 46.5 pt가 되고, 지시선 끝 x 143은 그대로 둔다.",
+    "rubric_check": "TY-02"
+   }
+  ],
+  "checks_total": 28,
+  "checks_failed": 8,
+  "strengths": [
+   "한국어 줄바꿈이 깨끗하다. 2줄 이상 글 22개를 모두 읽었고 어절 안 끊김, 줄끝 오독, 금칙 위반이 없다. '보통 온도에서도'처럼 붙어야 할 말도 한 줄에 있다.",
+   "문장부호가 통일됐다. 가운뎃점 25곳이 모두 U+00B7이고, 열거는 붙이고 구분자는 띄우는 규칙이 일관되며, 따옴표는 둥근 따옴표(U+2018/2019)다.",
+   "CORE ①~⑤ 모듈 치수가 사실상 같다. 원판 지름 21 pt, 원판에서 제목까지 4.5~5.5 pt, 둘째 줄에서 밑줄까지 4.0~4.5 pt, 밑줄에서 본문까지 다섯 곳 모두 6.5 pt다.",
+   "CORE 밖 10덩이의 왼끝 잉크 차가 0.5 pt 이하다. 행간은 본문 134.8%, 설명 137~147%, 2줄 소제목 126%로 모두 적정 범위다.",
+   "진입 위계가 분명하다. 제목 잉크가 질문의 3.58배다. 가장 작은 글이 9 pt로 기준 6.2 pt를 넘고, CORE 소제목 잉크는 6.35 mm라 1.5 m에서도 읽힌다.",
+   "회전 지명은 모두 ±30°, 12 pt 이상이고 대비 4.75:1 이상이며 뒤집힘·거울상이 없다. 명조는 70 pt 제목에만 쓰였다."
+  ]
+ },
+ {
+  "field": "layout",
+  "grade": "AA",
+  "summary": "레이아웃·구성 r2 블라인드 심사. 루브릭 LY-01~27을 2x 픽셀과 text_spec 값으로 모두 측정함. 결과는 blocker 0, major 2(LY-05, LY-02), minor 3(LY-06, LY-20, LY-03)이고, BRIEF 기준으로 AA다(minor가 3이라 major를 없애도 AAA에는 1개 부족).\n\n리포트 파일은 쓰지 못함: 하네스가 서브에이전트의 리포트 파일 쓰기를 막았고 우회하지 않았다. 항목별 판정은 아래에 모두 적는다.\n\n항목별 판정:\n- LY-01 예. 글자 위로 물체가 지나가는 곳 0. ④⑤ 본문 밑 지형 음영은 물체가 아니고 R3 보류 항목이다.\n- LY-02 아니오(major). 폼페이 제목과 물결 사이 약 1pt. 나머지 글의 최소 여유는 3.5pt(② 본문 '섞는다.'와 길, 개념 모형 캡션).\n- LY-03 아니오(minor). ② 본문 상자 질감 2.47%. ④ p95-p5 33.1, ⑤ 28.0은 R3 보류라 다시 내지 않음. 나머지 본문은 질감 0~0.09%, p95-p5 6.7~14.8.\n- LY-04 예. 수평 글 상자끼리 겹친 쌍 0.\n- LY-05 아니오(major). 4곳.\n- LY-06 아니오(minor). 폼페이 지시선 67pt. 방파제 지시선은 55pt이고 교차 0.\n- LY-07 예. g_in 6.5, g_out 13.5/13.5/19.5/38.6/38.5, 최소 비율 2.08.\n- LY-08 예. DETAIL 5개 모두 같은 방향 CORE보다 바깥.\n- LY-09 예. r 351/443/299/329/496, CV 0.19.\n- LY-10 예. 콜로세움 174,960 대 베수비오 64,896으로 2.70배, 가운데 1/3 안.\n- LY-11 예. L/R 1.04(바다 포함), 0.83(땅만).\n- LY-12 예. θ 84.9, 181.6, 254.4, 295.8, 350.2로 증가, 누적 265°, 교차 0.\n- LY-13 예. 이동 거리 596/455/224/405, 최댓값 596은 645(중앙값 430의 1.5배) 이하.\n- LY-14 예. 이정표와 블록 중심선 거리 113/68/71pt, 화살 방향 차 2.4/-4.0/0.6°.\n- LY-15 예. 원판 오프셋 -18.5/7.3/25로 다섯 블록 동일.\n- LY-16 예. 제목2→밑줄 4.0~4.5, 밑줄→본문 6.5.\n- LY-17 예. 밑줄 길이 = 제목2 폭 +0.5~2.5.\n- LY-18 예(경계). DETAIL 8.5~10.5, SUPPORT 7.5~9.5로 범위가 기준값 2.0과 같음. 부제→본문은 6.5로 일정.\n- LY-19 예. 블록 안 왼쪽 선 범위 1.0 이하.\n- LY-20 아니오(minor).\n- LY-21 예. 좌우 머리글·항목 줄 Δy 0, 제목판 중심 595.\n- LY-22 예. 글 21.5pt 이상, 라벨 붙은 물체 21pt 이상.\n- LY-23 예. 바깥 여백 24.5/21.5/26.0.\n- LY-24 예. 헤더와 지도 최소 25.5pt, 침범 0.\n- LY-25 예. 최대 빈 사각형 14,000pt².\n- LY-26 예. CORE 고리 혼잡도 38~48 백분위.\n- LY-27 예. 해안선이 글 상자를 가로지름 0, 하단 빈 띠 약 26~30pt.\n\n기각·보류 항목(R1~R4)은 다시 내지 않았다. 유적 관찰 장면 제목 위 반점은 모형의 접지 그림자이고, 단단한 가장자리는 4~5pt 떨어져 있어 지적하지 않았다. 측정 스크립트: /private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/ly/",
+  "findings": [
+   {
+    "id": "LY-05",
+    "severity": "major",
+    "rubric_check": "LY-05 지시선 없는 라벨이 자기 물체에 더 가까운가 (d_other/d_own ≥ 1.5)",
+    "title": "지시선 없는 라벨 4곳이 자기 물체보다 남의 글·모형에 더 가깝다",
+    "location": "① 사례·오늘의 실험실 790:192/193 + 수도교 790:104 ② 재료 원리 790:174/175 ③ 석회 알갱이 확대 캡션 790:189 ④ 석회 가마 797:78",
+    "evidence": "모두 잉크 상자 기준이다. ① 실험실 머리글(983–1088.5 × 617.5–644): 자기 시편 모형까지 24.5pt, 바로 위 지명 '수도교'까지 14.1pt로 비율 0.58. '수도교' 자신은 가장 가까운 수도교 교각(925–932.5, 549–567)에서 약 45pt 떨어져 있어 실험실 블록의 머리말처럼 읽힌다. ② 재료 원리(142.5–284.5 × 1608–1651.5): 물탱크 모형 11.7pt, 위 SUPPORT 방파제 본문 끝(1593) 15.0pt로 비율 1.29. ③ 캡션(439–565 × 1305.5–1314): 자기 큐브 밑꼭짓점(1288) 17.5pt, 구조 모형 지면선 끝(417.5, 1299.5) 21.6pt로 비율 1.23. ④ 석회 가마(24.5–60.5 × 717–725.5): 가마 19.3pt, ② 번호 원판 22.8pt로 비율 1.18.",
+    "fix_tool": "figma",
+    "fix": "① 790:104 '수도교'를 (962,584)에서 (940,551)로 옮김. 교각과 7.5pt, 실험실 머리글과 40pt 이상 떨어져 비율 1.6 이상이 된다. ② 790:174/175를 아래로 8pt(y 1606→1614, 1626.2→1634.2). d_other 23pt로 비율 1.97, 하단 여백 24.5pt. ③ 790:189를 위로 8pt(y 1303→1295). d_own 9.5pt, 지면선과 수평 21.5pt로 비율 2.26. ④ 797:78을 (24,716)에서 (36,706)으로. 가마와 약 7.5pt, ② 원판과 약 31pt로 비율 약 3.9."
+   },
+   {
+    "id": "LY-02",
+    "severity": "major",
+    "rubric_check": "LY-02 글 잉크와 가장 가까운 물체 사이 ≥ 3pt",
+    "title": "폼페이 사례 제목 '(서기 79년)' 바로 밑에 물결 무늬가 약 1pt로 붙어 있다",
+    "location": "790:122 '사례 · 폼페이 공사현장(서기 79년)', 물결 무늬 pt (852.5–866, 1560–1565)",
+    "evidence": "2x 화소 지도: '9년)' 잉크 아래끝 y=1559.0, 물결(흰 곡선) 위끝 y=1560.0(x 852.5–862.5)로 간격 약 1pt, 기준 3pt 미달. 바다 위 다른 글의 최소 여유는 결정 관찰 7.0, 방파제 제목 4.0, 개념 모형 캡션 3.5pt로 이 곳만 기준을 어긴다.",
+    "fix_tool": "blender",
+    "fix": "이 물결 곡선 하나를 아래로 7pt 옮김(pt 1560–1565 → 1567–1572; 2x 렌더 기준 14px에 해당하는 월드 거리). 제목과 8pt 띄워지고, 그 x 범위(852–866)에는 아래 본문(x 719–819)이 없어 새 충돌도 없다. 지우는 것도 가능."
+   },
+   {
+    "id": "LY-06",
+    "severity": "minor",
+    "rubric_check": "LY-06 지시선 길이 ≤ 60pt, 가로지름 0",
+    "title": "폼페이 공사현장 점선 지시선이 67pt로 기준을 넘는다",
+    "location": "790:122 지시선, 끝점 (723,1482) → 라벨 잉크 위끝 (723,1549)",
+    "evidence": "끝점 원(722–724.4 × 1480.4–1483.6)에서 라벨 잉크 위끝 1549.0까지 67pt(마지막 대시 끝 1544까지 62pt). 기준 60pt. 교차는 0(좌우 물결과 7pt/11pt). 방파제 지시선은 끝점 (197.5,1494.5)에서 라벨까지 55pt로 통과.",
+    "fix_tool": "figma",
+    "fix": "끝점 원을 (723,1482)에서 (723,1494)로 내려 생석회 더미 바구니 오른쪽 가장자리(709–724 × 1487–1502)에 놓고 점선을 1494–1546로 다시 그림. 길이 55pt가 되고, 캡션이 말하는 '생석회를 섞어 둔 원료 더미'를 바로 가리키게 된다."
+   },
+   {
+    "id": "LY-20",
+    "severity": "minor",
+    "rubric_check": "LY-20 쌓인 블록의 왼쪽 정렬 near-miss 없음 (Δx ≤ 1.5 또는 ≥ 18.6)",
+    "title": "구조 원리–방파제 사례(Δx 18.0)와 구조 모형 라벨 4개(Δx 1–8)가 거의 정렬",
+    "location": "790:180/181(왼쪽 잉크 250.5) vs 790:121/123/126(232.5); 790:114/116/117/118",
+    "evidence": "(a) 세로 간격 146pt로 쌓인 두 블록의 왼쪽 잉크 차가 18.0pt로 기준 18.6 미만. (b) 라벨 왼쪽 잉크 322.5/330.5/326.5/325.5로 짝마다 Δx 3–8pt. 가운데 정렬로 보아도 중심이 344.5/344.0/344.25/347.0이라 '기초 12m+'만 2.75pt 어긋난다.",
+    "fix_tool": "figma",
+    "fix": "(a) 790:121/123/126의 x를 232→230(Δx 20.0)으로 하고 점선 끝을 2pt 늘림. (b) 네 라벨을 x=321.8(잉크 322.5)로 왼쪽 정렬하고 오른쪽 지시선은 라벨 끝+6pt에서 시작하게 맞춤. 가운데 정렬을 유지하려면 790:118만 x 324.6→321.9로 옮겨 중심을 344.3에 맞추고 양쪽 짧은 선도 2.7pt 왼쪽으로."
+   },
+   {
+    "id": "LY-03",
+    "severity": "minor",
+    "rubric_check": "LY-03 CORE·DETAIL 본문 밑 바탕 평탄 (질감 ≤ 0.5%, p95−p5 ≤ 15)",
+    "title": "② 본문 상자 오른쪽 끝이 길 돌판 위에 걸친다",
+    "location": "790:154 ② 본문 상자 (61.5–221.5 × 799.5–846.5), 길 왼쪽 가장자리 x≈218.5–219",
+    "evidence": "상자 ±1pt 안 비잉크 화소 중 질감(기울기 >12) 2.47%로 기준 0.5% 초과. 질감 화소 242개 모두 x 218.5–222.0, 곧 길 포장 부분. 첫 줄 '섞는다.' 잉크 끝(215.5)과 길 사이도 3.5pt뿐(LY-02는 겨우 통과). ④ p95−p5 33.1, ⑤ 28.0은 R3 보류라 이 지적에 넣지 않음.",
+    "fix_tool": "figma",
+    "fix": "② 블록 전체(790:105 원판·번호, 152, 153, 154, 밑줄)를 왼쪽으로 6pt(제목2·본문 x 61.5→55.5, 제목1 86.5→80.5, 번호 68→62). 상자 +1pt 오른쪽이 216.5로 길(218.5) 밖이 되어 질감 0, 잉크–길 여유 9.5pt. 아래 제작 원리(24.5)와 Δx 31로 정렬 규칙도 지킴."
+   }
+  ],
+  "checks_total": 27,
+  "checks_failed": 5,
+  "strengths": [
+   "CORE 모듈 반복이 정확함: 원판 오프셋(-18.5, 7.3, 25)이 다섯 블록 동일, 제목2→밑줄 4.0~4.5pt, 밑줄→본문 6.5pt, 밑줄 길이 = 제목2 폭 +0.5~2.5pt",
+   "동심원·반시계 흐름 실행이 깨끗함: θ 84.9→181.6→254.4→295.8→350.2 단조 증가, CORE 거리 CV 0.19, DETAIL 5개 모두 같은 방향 CORE보다 바깥",
+   "이정표 3개가 각 전환선에서 68~113pt 안에 있고 화살 방향이 다음 블록 방향과 2.4/4.0/0.6° 차이뿐",
+   "글 상자 겹침 0, 수평 글 위로 물체가 지나가는 곳 0, 바깥 여백 24.5/21.5/26.0pt로 고름",
+   "헤더와 지도 분리 최소 25.5pt, 좌우 무게 L/R 1.04, 중심 450pt 안의 최대 빈 사각형 14,000pt²로 죽은 빈터 없음"
+  ]
+ },
+ {
+  "field": "illustration3d",
+  "grade": "B",
+  "summary": "Grade B (blocker 1, major 4, minor 5), judged against all 29 rubric items. 11 items failed. Failures that share a cause are bundled, so they produce 9 rubric findings plus 1 finding outside the rubric (NEW-01). The harness blocked writing r2/report_illustration3d.md (\"Subagents should return findings as text\"), so this output replaces the report file. I used the 2x map-only image (r2/map_only_2x.png, no text) to separate objects from text. Rejected or deferred items were not raised again: R1 (milestone off the road), and from R3 the river head and tree shadows. The fixed conditions were not penalised.\n\nPassed:\n- I3-01: the 6 brown cubes match. Top faces L* 47.8–48.1, left 39.6–40.5, right 33.0–34.0, hue 55–56°.\n- I3-02: near-black (L*<20) is 0.12% of object pixels.\n- I3-04: modern objects are cool or grey (rebar frame h 220–237° C≤3.9; lab slab h 185–187° C≤5.2). Roman objects are warm (h 72–83°).\n- I3-06: milestone heights are 82.8, 85.5 and 85.1pt (mean 84.5, within ±2%).\n- I3-07: the Colosseum mask is about 158,000pt², larger than the rebar frame (about 26,000) and the largest DETAIL model (about 20,700).\n- I3-09: on 6 of 6 boxes the top face is lighter than the left, and the left lighter than the right.\n- I3-10: all 7 mountain groups have a median top-edge ΔL* of 9.1–12.4; the volcano is 24.5.\n- I3-13: Colosseum ΔL* ≥25, volcano 24.5, lighthouse ΔE 33.6, aqueduct ≥25, milestones ≥18.\n- I3-14: no unidentified, unlabeled objects.\n- I3-15: whole-model median ΔL* is 20.1 for the kiln scene, 23.0 for the rebar frame and 24.0 for the specimens, against 14.1 for the fields. The weakest face is the kiln platform alone at 11.8.\n- I3-17: milestones 2 and 3 stand within 10pt of the road.\n- I3-19: river vs sea ΔE 0.4; flow marks are white (L* 91–95).\n- I3-20: the closest letter stroke to a 3D object is 4.5pt away; no letter sits on an object.\n- I3-22: no landmark is clipped.\n- I3-23: 6 grains, diameter 3.7–8.3pt, ΔL* about 58.\n- I3-24: each of the 3 crack stages has its own cue inside the cube outline.\n- I3-28: arrow colour ΔE 1.3–3.9; arrow direction is 7–20° off the next title.\n- I3-29: figures are 22–38pt tall; there is an arm with a tool in the kiln scene and a tripod in the excavation scene.\n\nFailed:\n- I3-03 and I3-27 (minor).\n- I3-05 + I3-08 bundled (major).\n- I3-11 + I3-12 bundled (minor).\n- I3-16 (major), I3-18 (minor), I3-21 (major), I3-25 (minor), I3-26 (major).\n- Outside the rubric: NEW-01 (blocker, meaning error).\n\nConsidered and not raised:\n- The Pantheon drawn without its round drum. It could be read as a simplification, so I can't prove it is a factual error.\n- The dead ends closed off with small plazas, which were already handled by decision D7.",
+  "findings": [
+   {
+    "id": "NEW-01",
+    "severity": "blocker",
+    "title": "The 'no quicklime' specimen shows the same white lime-grain dots as the 'with quicklime' one (meaning error)",
+    "location": "⑤ 'Case · Today's lab' right specimen ('생석회 없음', without quicklime), 1090–1130 × 672–742pt; grains at (1119,696) and (1100,712)",
+    "evidence": "Right specimen: 2 white dots, L* ≥85, diameter 2.3 and 2.0pt. Left specimen ('생석회 있음', with quicklime): 3 dots of the same size (2.1pt) at (1042,694), (1024,710) and (1040,716). Everywhere else on the poster, white dots mean lime grains: the leader label '석회 알갱이' on the making-principle cube at (143,1001), the ③ block, and the ④ cubes. So the one thing being compared (lime grains present or absent) looks the same on both specimens. This also contradicts the cited experiment (MIT 2023: the control had no quicklime, hence no lime grains).",
+    "fix_tool": "blender",
+    "fix": "Delete the 2 white grain objects on the right specimen, or set their material to the cylinder body colour (rendered L* 50±3, ΔL* <5). Scale the 3 grains on the left specimen by 1.5 (diameter 2.1 → ≥3.2pt) so the presence or absence of grains reads at 1.5m.",
+    "rubric_check": "NEW (meaning/factual error)"
+   },
+   {
+    "id": "F-01",
+    "severity": "major",
+    "title": "⑤ specimen crack cue is below the visibility threshold (stroke and contrast)",
+    "location": "⑤ specimens: right open crack 1096–1113 × 686–716pt; left healed crack 1026–1040 × 693–722pt",
+    "evidence": "Right ('계속 샘', keeps leaking) open crack: dips to L* 39–45 against a body of 56–57 (ΔL* 12–18), width 1–2px at 2x (0.5–1pt), broken into specks. Left healed white line: peaks at L* 75–77 against 54–55 (ΔL* 20–22), width 1.0–1.5pt. The rubric needs ≥1.5pt and ΔL* ≥20. 1pt is 0.35mm, which is 0.8′ at 1.5m, under the 1′ acuity limit. All other CORE cues pass: ① crack 1.5pt ΔL* 27; ② heat 2.5pt ΔL* 26; ③ grains ΔL* 58; ④ fill 1.5pt ΔL* 29–37, dots 2.5pt ΔL* 52.",
+    "fix_tool": "blender",
+    "fix": "Right specimen: make the crack one continuous groove 2.0pt wide (on screen) and 30–35pt long, interior material #2A211C (L* ≈14 → ΔL* ≥30). Left specimen: healed-crack fill 2.0pt wide, material #F2EEE4 (L* ≈94 → ΔL* ≈40).",
+    "rubric_check": "I3-26"
+   },
+   {
+    "id": "F-02",
+    "severity": "major",
+    "title": "Leftover scan debris on the hero Colosseum (thin detached strands, floor fragments, a hole)",
+    "location": "Colosseum left outside 355–425 × 825–925pt; front base 470–560 × 950–990pt",
+    "evidence": "(a) Thin strands 1–2pt wide, separate from the body (components of 7.2, 7.5, 17.8, 29.2 and 65.8pt²), at 356–369 × 826–859pt and 390–425 × 886–925pt. (b) 3 islands of leftover scanned ground at the front base: 470–480 × 952–962 (43pt²), 480–490 × 958–964 (34pt²), 494–505 × 964–972 (47pt²). Plus an irregular floor patch at 474–600 × 945–993. (c) A hole in that patch showing the ground, about 13×7pt at (523–536, 971–978). Minor, same item: a torn notch at the Pantheon-road plaza (528–540 × 525–533pt) and a sticking-out tab at the ⑤ road plaza (955–960 × 883–895pt).",
+    "fix_tool": "blender",
+    "fix": "Colosseum: Mesh > Clean Up > Delete Loose, then Separate by Loose Parts and delete any part under 0.3% of the face count. Cut the scanned ground skirt with a plane at ground +0.3m (model scale) and delete what is below it. Check that no separate piece >1pt² is left within 40pt of the outline. Road ends: merge the torn vertices and delete the tab faces.",
+    "rubric_check": "I3-21"
+   },
+   {
+    "id": "F-03",
+    "severity": "major",
+    "title": "Adult figures in the excavation scene differ in size by 1.40×, and the arches are barely taller than the figures",
+    "location": "'Case · ruin observation scene' 865–975 × 1125–1230pt",
+    "evidence": "Head-top to feet: left figure 30.8pt (1174.6→1205.4), back centre 25.4pt (1165.3→1190.6), front centre 28.7pt (1184.9→1213.6), red figure 22.0pt (1194.9→1216.9). Max/min = 1.40, over the 1.15 limit. Head widths are 3.9 vs 3.1pt (1.26). Arch opening heights: left 26.3pt (1160.6→1186.9), centre 27.2pt (1162.8→1190.0), right 28.1pt (1164.4→1192.5). Divided by figure height (22–31pt) that is 0.85–1.28. The back-centre figure, standing inside the centre arch, is 1.07 (needs ≥1.2). Same cause (figure scale), so I3-05 and I3-08 are bundled.",
+    "fix_tool": "blender",
+    "fix": "Scale all 4 figures to a common height of 21pt: left ×0.68, back centre ×0.83, front centre ×0.73, red ×0.95. Max/min becomes 1.00; arch/figure becomes 26.3/21 = 1.25 or more; height stays ≥18pt, so I3-29 still passes.",
+    "rubric_check": "I3-05 · I3-08"
+   },
+   {
+    "id": "F-04",
+    "severity": "major",
+    "title": "The paved road along the Tiber's east bank dead-ends in empty land",
+    "location": "The paved road running SW from the Colosseum ring road (400,1007); its SW end is at 140–157 × 1343–1350pt",
+    "evidence": "The NE end touches the ring road (within 5pt) and is fine. At the SW end the road surface stops at y≈1345 (L* profile at x=150: 53–75 → 89). Below it is bare ground (L* 88–90) for at least 35pt, to y 1380, and the gap to the river edge (x≈129) is 10pt. No other road, destination object or board edge is within 5pt. This end has no D7-style plaza either, so it is new evidence and not one of the D7 plazas.",
+    "fix_tool": "blender",
+    "fix": "Extend the road curve about 70pt from its end (148,1347) toward the SSW, ending at the shoreline (168,1414)pt (within 5pt of the land/sea edge). The dock basin's top corner (175,1433) is then about 20pt away, so the road reads as leading to the port. Alternatively, finish it at a small stone quay object (10×8pt) on the shore.",
+    "rubric_check": "I3-16"
+   },
+   {
+    "id": "F-05",
+    "severity": "minor",
+    "title": "Cast and contact shadows are inconsistent across models (hard shadow vs none)",
+    "location": "⑤ specimens 985–1160 × 660–756pt vs ④ crack cubes 624–842 × 1172–1252pt, making-principle cube, ③ block, milestones",
+    "evidence": "The ⑤ specimens cast a hard shadow behind and to the left on the ground: L* 77–79 vs 88–89 (ΔL* ≈10), with the edge changing within 0.5pt. The lighthouse's shadow on the water falls the opposite way, to the right (68.7 vs 78.2). The ④ cubes (78pt tall) have no shadow on any side: L* 86–91 vs background 88–89, and there is even a bright halo of L* 94 just under cube 3's bottom edge. Ground just under the bases: making-principle cube 85–87 vs 85–86; ③ block 86–89; milestones 86–88. So contact darkening is ΔL* <3 (I3-12a fails). Nothing visibly floats with its underside showing, so this is minor.",
+    "fix_tool": "blender",
+    "fix": "Use the same sun direction for all model renders (shadows falling to the right, like the lighthouse), softness 3–5°. For the ④ cubes, the making-principle cube, the ③ block and the milestones, set shadow strength so shadowed ground is L* 80–83 (ΔL* 5–8). Add contact AO (distance 0.5–1 model unit) so the ground within 3pt of every base is ΔL* ≥3. Soften the specimens' shadow to ΔL* 5–8 and turn it to the common direction. Remove the light rim under the ④ cubes (L* 94 → ≤88).",
+    "rubric_check": "I3-11 · I3-12"
+   },
+   {
+    "id": "F-06",
+    "severity": "minor",
+    "title": "The Tiber narrows by 64% downstream (the Colosseum ring covers its right bank)",
+    "location": "Tiber 260–310 × 780–910pt (right bank meets the Colosseum's paved ring)",
+    "evidence": "Width measured across the channel: y745 42.6pt → y795 28.0 → y845 16.4 → y870 15.4 → y895 18.1 → y945 51.5pt. For y 790–900 the water's right edge is the ring's outer edge, with no bank in between (rendered at 10x zoom). Upstream and downstream it widens normally (16 → 55pt). Whether this is a true 3D penetration can't be proven from the image, so I filed it under I3-18(b) only.",
+    "fix_tool": "blender",
+    "fix": "Move the river centreline 10pt left for y 780–910pt and move the west-bank road 10pt left with it, or cut the ring's outer radius by 10–14pt on that side. Keep the river width ≥38pt (within 10% of the upstream 42.6pt), with a ground bank of at least 4pt between the water and the ring.",
+    "rubric_check": "I3-18"
+   },
+   {
+    "id": "F-07",
+    "severity": "minor",
+    "title": "In the structure model, heavy stone and foundation are too close in lightness",
+    "location": "Structure principle model, stacked column 262–322 × 1180–1325pt",
+    "evidence": "Left-face L* from light brick to foundation: 73.9 → 57.0 → 38.4 → 34.1. Steps are ΔL* 16.9, 18.6, 4.3; the last is under 8. The right face repeats this: 62.6 → 47.4 → 31.5 → 27.8, last step 3.7.",
+    "fix_tool": "blender",
+    "fix": "Raise the heavy-stone base colour Value by ×1.3 so its left face renders at L* ≈46. Steps become 57.0 → 46 (11) → 34.1 (11.9). Or darken the foundation by Value ×0.75 to L* ≈28 (ΔL* 10).",
+    "rubric_check": "I3-25"
+   },
+   {
+    "id": "F-08",
+    "severity": "minor",
+    "title": "Tree canopies are flat-shaded facets, unlike the smooth clay style",
+    "location": "All trees (about 20), e.g. the grove at 405–500 × 1345–1420pt",
+    "evidence": "Each canopy is made of flat lobes with polygonal edges. Adjacent lobes differ by L* 61.6 vs 51.4 (ΔL* 10.2) and 59.3 vs 50.2 (ΔL* 9.1). The cones, Pantheon dome, specimen cylinders and milestone pillars are all smooth. These are background objects, so minor. Tree shadows (R3) are not raised.",
+    "fix_tool": "blender",
+    "fix": "Apply Shade Smooth and Subdivision Surface level 2 (or Auto Smooth 30°) to the shared canopy mesh, so the ΔL* across lobe edges is under 5. Keep the lobe silhouettes.",
+    "rubric_check": "I3-03"
+   },
+   {
+    "id": "F-09",
+    "severity": "minor",
+    "title": "The material-principle (crystals in seawater) model has no leader lines",
+    "location": "Material principle model 15–124 × 1555–1660pt",
+    "evidence": "Needle bases are 2.0–4.0pt wide at L* 93–100 (pass), and the cyan seawater is visible (L* 58, h 213°; pass). But leader lines reaching a needle and the water: 0 of 2.",
+    "fix_tool": "figma",
+    "fix": "Add 2 leader lines, 0.75pt #3E3A31. Label '새 결정' (new crystals), Sans KR Medium 9.5pt #2E2A22, at (128,1568), with its line ending on the needle tip at (113,1582). Label '바닷물' (seawater), same style, at (128,1586), with its line ending on the visible cyan water at (110,1598). Keep both labels above the title (y 1606) and do not change the description text.",
+    "rubric_check": "I3-27"
+   }
+  ],
+  "checks_total": 29,
+  "checks_failed": 11,
+  "strengths": [
+   "Same material renders the same: on the 6 brown cubes, same-direction faces differ by ΔL* ≤1 and Δh ≤1°, and every box model's faces darken in the same order (top > left > right). Consistent lighting.",
+   "Meaning-by-colour holds: modern objects are cool or grey (h 185–237°, C ≤5) and Roman objects are warm (h 72–83°).",
+   "The 3 milestones are the same scale within ±2%. Arrow boards match #983821 within ΔE 1.3–3.9 and point within 7–20° of the next CORE title.",
+   "River and sea colours match (ΔE 0.4), flow marks are consistently white (L* 91–95), and the Tiber flows into the sea.",
+   "The ③ grain block's 6 grains (diameter 3.7–8.3pt, ΔL* ≈58) and the ④ three-stage cues (drops, white specks, white fill) are clear.",
+   "Every mountain and the volcano are outlined against empty background (median ΔL* 9.1–24.5); the landmark silhouettes all pass.",
+   "Near-black is only 0.12%, so the shading stays in the mid-tones. The closest text-to-object gap is 4.5pt, with no overlaps."
+  ]
+ }
+]

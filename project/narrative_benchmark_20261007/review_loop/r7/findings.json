@@ -1,0 +1,338 @@
+[
+ {
+  "field": "layout",
+  "grade": "AAA",
+  "summary": "I judged the layout field on r7 against the fixed layout.md rubric (LY-01 to LY-27). I measured by pixels on poster_2x and map_only_2x, and on poster_1x for LY-25 and LY-26. Text sizes and positions come from text_spec_r7.json. Gradient means the standard central difference, (L[i+1]−L[i−1])/2, with threshold 12. Ink is L<140 limited to the text layer, taken as the difference between poster and map_only.\n\nResult: 25 of 27 items pass. Two fail, LY-03 and LY-20, and both are items already on hold: R3 (shading band under the ④ and ⑤ body text) and R6/R9 (the structure block vs harbor case Δx 18.0, and the centered small labels). There is no new evidence for either. The r6→r7 1x difference touches only small Blender areas (field stakes, structure model, Vesuvius outline), and text_spec is identical. So I did not raise them again and they do not count toward the grade.\n\nGraded findings: blocker 0, major 0, minor 0, so the grade is AAA.\n\nBoundary values (not graded, for watching):\n1. LY-02. The closest gap is the Pompeii case title (790:122). Its ink top is at 1548.5 and the wave stroke above it ends at 1545.5, a gap of 3.0pt. If the gradient is defined without halving, the gap reads 2.5pt. Optional fix: move 790:122, 125 and 127 down 1pt (y 1547→1548, 1565.5→1566.5, 1581→1582). This gives 4.0pt clearance, raises the harbor/Pompeii title Δy to 27.3, and makes the leader 51.8pt.\n2. LY-18. The DETAIL title→body ink gaps are 8.5, 9.0, 10.5 and 10.0, a range of 2.0, which sits exactly on the limit. Setting 790:181 y from 1365.9 to 1365.4 brings the range to 1.5.\n3. LY-20(b). The harbor vs Pompeii title ink-top gap measures 26.0 at 2x pixels and 26.3 subpixel, right at the D18 reference value.\n4. LY-25. Shifting the grid by 10pt raises the largest empty rectangle to 18,000pt², close to the 19,600 limit.\n\nNo blocker-level issues outside the rubric: no occlusion, no text-on-text overlap, no line breaks that would be misread in Korean.",
+  "findings": [],
+  "checks": [
+   {
+    "id": "LY-01",
+    "pass": true,
+    "evidence": "Checked the ink row×column range of all 72 horizontal text boxes (excluding number digits and the title plate) against map_only_2x object pixels (gradient>12 or RGB distance>28): 0 overlapping glyphs. The colour-distance pixels that show up on the 3rd line of 790:166 (④ body) and of 790:172 (⑤ body) are terrain shading with max gradient 7.5 and L 180–220 (low frequency, no texture), not objects. The 1244–1252 pixels above the ruin-scene caption 790:190 are a contact shadow (RGB 214,203,183, gradient<8). The model's hard bottom edge is 1241.5, so the caption gap is 10.0pt."
+   },
+   {
+    "id": "LY-02",
+    "pass": true,
+    "evidence": "Minimum clearance: 790:122 Pompeii case title, ink top 1548.5 ↔ wave stroke bottom 1545.5 = 3.0pt (subpixel top 1548.75); 790:128 3.5; 790:108 3.5; 790:153 4.0; 790:159 and 790:165 3.5–4.0 (to their own underlines). The four structure labels 790:114/116/117/118 at 2.0–2.8pt measure to the ends of their own leader lines, not to objects. Boundary note: computing the gradient without halving puts 790:122 at 2.5pt."
+   },
+   {
+    "id": "LY-03",
+    "pass": false,
+    "evidence": "④ 790:166 has texture 0% but L p95−p5 = 31.8 (p5 191, p95 223). ⑤ 790:172 has texture 0% but p95−p5 = 28.3. ①②③ are 9.2–10.8 and the DETAIL bodies 6.7–11.3, all passing. This is the same item as STATE R3 (terrain shading band under the ④⑤ body text, on hold as minor). The r6→r7 change areas do not touch it, so there is no new evidence: not raised again, not counted in the grade."
+   },
+   {
+    "id": "LY-04",
+    "pass": true,
+    "evidence": "Among all horizontal text boxes in text_spec_r7, every pair has 0 intersection area. Bounding boxes of the 8 rotated place names also have 0 intersection with horizontal boxes."
+   },
+   {
+    "id": "LY-05",
+    "pass": true,
+    "evidence": "16 labels without leaders. Lowest ratios: magnified-model caption 790:189, d_own 10.0 (big cube) vs d_other 20.1 (structure cross-section column) = 2.01. Filling-principle block 183/184, d_own 27.5 (its own step label 790:187) vs 62.3 (Pompeii place name) = 2.26 (with only the cubes as its own model it would be 47.7, giving 1.31; the step labels annotate the same DETAIL model, so I counted them as its own group). Others: 결정이 메움 2.26, 물이 스밈 2.55, 실험실 2.61, 프리베르눔 2.94, 생석회 있음 2.95, 재료 원리 3.00, 구조 원리 3.23, 유적 장면 4.09, 제작 원리 5.59, 석회 가마 6.31, 판테온 6.62."
+   },
+   {
+    "id": "LY-06",
+    "pass": true,
+    "evidence": "Pompeii dotted leader (723.6, 1493.6→1544.4) ≈ 50.8pt. Harbor dotted leader (197.5,1496.2)→(221.7,1516.7) ≈ 31.7pt. Structure labels and the 석회 알갱이 leader are all under 12pt. Crossings of other text or objects: 0 (the Pompeii leader passes through the gap between two wave strokes at x 715–734; the coastal sand band is base map)."
+   },
+   {
+    "id": "LY-07",
+    "pass": true,
+    "evidence": "g_in = 6.5pt in all five blocks (underline→body; title gaps 4.0–6.0, body line gaps 3.5–5.5). g_out: ① 13.5 to milestone 1 → 2.08; ② 14.8 to the lime kiln → 2.28; ③ 18.0 to the magnified cube → 2.77; ④ 24.0 to the water drops → 3.70; ⑤ 35.1 to the specimen captions → 5.40."
+   },
+   {
+    "id": "LY-08",
+    "pass": true,
+    "evidence": "Centre C (584,783). 제작 원리 r 531.0, θ 205.9 vs ② 446.7 (Δθ 24.3). 구조 원리 562.9/243.7 vs ③ 299.8. 메움 원리 482.5/287.9 vs ③ 299.8 and ④ 329.6. 재료 원리 919.0/244.1 vs ③ 299.8. 확대 모형 440.3/263.0 vs ③ 299.8 and ④ 329.6. r_CORE < r_DETAIL in every pair."
+   },
+   {
+    "id": "LY-09",
+    "pass": true,
+    "evidence": "CORE r = 350.6, 446.7, 299.8, 329.6, 495.3 (mean 384.4). CV 0.193 (population) / 0.216 (sample), both ≤ 0.25."
+   },
+   {
+    "id": "LY-10",
+    "pass": true,
+    "evidence": "Colosseum bounding box 437×410 = 179,170pt² (silhouette 121,723) vs Vesuvius 253×255 = 64,515 (silhouette 45,882): ratio 2.78 (2.65 by silhouette). The aqueduct is 5+ separate arch segments (largest about 92×118 ≈ 10,900). The whole chain's bounding box (335×292) is a mostly empty diagonal box, so I left it out of the comparison; by silhouette the Colosseum is about 5× larger. Centre (584,783) lies inside the middle third of the map area (x 397–794, y 668–1099)."
+   },
+   {
+    "id": "LY-11",
+    "pass": true,
+    "evidence": "Pixels with RGB distance>28 from paper (231,219,198): L/R = 1.057 on the poster (y 240–1684), 1.032 on land only (y 240–1530), 1.067 on map_only."
+   },
+   {
+    "id": "LY-12",
+    "pass": true,
+    "evidence": "θ: ① 84.9 → ② 181.6 → ③ 254.4 → ④ 295.8 → ⑤ 350.5, strictly increasing, total rotation 265.6°. Crossings between non-adjacent links (①②×③④, ①②×④⑤, ②③×④⑤): 0."
+   },
+   {
+    "id": "LY-13",
+    "pass": true,
+    "evidence": "Jumps 599.2, 458.4, 224.1, 406.5. Median 432.5, max/median 1.39 ≤ 1.5. No link passes through another CORE box."
+   },
+   {
+    "id": "LY-14",
+    "pass": true,
+    "evidence": "Transitions over 250pt: ①②, ②③, ④⑤. MS1: board centre (482.9,394.9) is 110.8pt from the line (71pt from the pillar base); arrow 221.2° vs transition 217.2° (Δ4.0) and vs direction to next block 229.3° (Δ8.0). MS2: 66.0pt; 319.2° vs 323.0° (Δ3.8) / 335.5° (Δ16.3). MS3: 70.1pt; 32.4° vs 31.9° (Δ0.4) / 17.0° (Δ15.4)."
+   },
+   {
+    "id": "LY-15",
+    "pass": true,
+    "evidence": "Digit x − title1 x = −18.5 in all five. Digit y − title1 y = 7.5/7.5/7.6/7.6/7.5 (range 0.1). Title1 x − title2 x = 25.0 in all five. Disc diameter is 21.0 in all five."
+   },
+   {
+    "id": "LY-16",
+    "pass": true,
+    "evidence": "Ink measurements. Title2 bottom → underline top: 5.0/4.5/4.5/4.5/4.5 (range 0.5). Underline bottom → body top: 6.5 in all five (range 0)."
+   },
+   {
+    "id": "LY-17",
+    "pass": true,
+    "evidence": "Underline ink length − title2 ink width: ① 109.5−110.0, ② 74.5−75.0, ③ 132.0−132.0, ④ 111.0−111.0, ⑤ 169.0−169.5. All five within ±0.5 under rule (a)."
+   },
+   {
+    "id": "LY-18",
+    "pass": true,
+    "evidence": "DETAIL title→body ink gaps: 재료 8.5, 제작 9.0, 구조 10.5, 메움 10.0, range 2.0 (on the limit). SUPPORT name→subtitle: 프리베르눔 8.0, 항구 8.0, 폼페이 7.5, 실험실 8.0 (range 0.5). Subtitle→body: 7.0/7.0/7.0 (range 0)."
+   },
+   {
+    "id": "LY-19",
+    "pass": true,
+    "evidence": "Left-edge range within each block ≤ 0.5pt. CORE title2/body: 528.5/528.5, 58.5/58.0, 409.5/409.0, 639.5/639.0, 983.0/983.0. DETAIL: 142.5, 24.5, 250.5, 639.5/639.0. SUPPORT: 899.5, 232.5, 719.0, 983.0. BASIC: 24.5/25.0, 858.5/859.0."
+   },
+   {
+    "id": "LY-20",
+    "pass": false,
+    "evidence": "(a) Structure block (250.5) ↔ harbor case (232.5): Δx 18.0 — this is STATE R6 (on hold). The four structure cross-section labels (left edges 322.5/330.5/326.5/325.5, Δx 3–8) are centred small labels — R9 (on hold). No other near-alignments (② ↔ lime kiln 21.5, ③ ↔ magnified caption 29.5, ④ ↔ filling principle 0.5, ⑤ ↔ lab 0). (b) ③·④ Δy 0; magnified caption ↔ filling principle Δy 0; harbor ↔ Pompeii case titles 26.0 at 2x pixels and 26.3 subpixel (the D18 value). With no new evidence, not raised again and not counted."
+   },
+   {
+    "id": "LY-21",
+    "pass": true,
+    "evidence": "'전제 ·' headers: y 24 vs 24. Item names: 147 vs 147 (Δ0). Title plate outline at y=30: x 367.0–823.5, centre 595.25 vs canvas 595.5 (Δ0.25). Title ink centre 596.25, question 595.75."
+   },
+   {
+    "id": "LY-22",
+    "pass": true,
+    "evidence": "Minimum text margins: right 21.5 (790:96), left 24.5, top 26.0, bottom 24.0 (790:175). Labelled objects: seawater model left 33.0 / bottom 26; aqueduct right end ≈1167.5 (23.5); Vesuvius 29; lighthouse ≈42. The Appian Way road and the field plates run to the trim as map base (bleed); no information is lost."
+   },
+   {
+    "id": "LY-23",
+    "pass": true,
+    "evidence": "Leftmost text ink 24.5, rightmost 1191−1169.5 = 21.5, topmost 26.0. Range 4.5 ≤ 6."
+   },
+   {
+    "id": "LY-24",
+    "pass": true,
+    "evidence": "Title plate bottom 236 ↔ mountain top 261 (x≈596): minimum 25pt. BASIC text bottoms 206/217.5 ↔ first map objects ≥ 50pt. Map objects intruding into the header band: 0."
+   },
+   {
+    "id": "LY-25",
+    "pass": true,
+    "evidence": "Largest empty rectangle on the 20pt grid (centre within 450pt): 14,400pt² with grid origin (0,240); shifting the grid by 10pt gives up to 18,000pt² (x 520–820, y 550–610, the band above the Colosseum). Both ≤ 19,600."
+   },
+   {
+    "id": "LY-26",
+    "pass": true,
+    "evidence": "30pt ring clutter: ① 0.108 (46.4th percentile), ② 0.085 (43.8), ③ 0.079 (42.4), ④ 0.062 (40.3), ⑤ 0.029 (36.1). Land cells p75 = 0.305. All ≤ 75th percentile."
+   },
+   {
+    "id": "LY-27",
+    "pass": true,
+    "evidence": "(a) Coastline crossing a text box: 0 cases ('항구', the harbor case and the breakwater caption are on the sea side; the apparent crossings at x 340–349 and 400–480 are breaks from objects in the sea). (b) The harbor and Pompeii cases share the same format: '사례 · name' (10.5 Medium + 11 Bold) → subtitle 9.5 Medium → body 9 Regular, left-aligned, dotted leader. (c) Last text/object bottom 1660 → bottom band 24pt (1.4%) ≤ 101."
+   }
+  ],
+  "checks_total": 27,
+  "checks_failed": 2,
+  "strengths": [
+   "The five CORE modules share one geometry. Disc offsets differ by at most 0.1pt, underline lengths match title2 width within 0.5pt, and the underline→body gap is 6.5pt in all five. The repetition reads as one system.",
+   "The reading loop holds up under measurement: angles rise strictly 84.9→350.5° with no crossings, longest jump/median is 1.39, CV is 0.19, and all three milestones point within 4° of their transition direction.",
+   "The concentric order is kept in every direction: each DETAIL sits outside its nearest CORE (r 440–919 vs 300–447).",
+   "No text touches an object, and no boxes overlap. The closest horizontal clearance is 3.0pt, and every place name is at least 5.4pt from objects.",
+   "Margins (21.5/24.5/26.0/24.0) and the header-to-map gap of 25pt are consistent, and left/right weight is balanced at L/R 1.03–1.07."
+  ]
+ },
+ {
+  "field": "illustration3d",
+  "grade": "AAA",
+  "summary": "AAA 판정(blocker 0, major 0, minor 2). 루브릭 29개 항목은 r7 map_only_2x와 poster_2x 픽셀, text_spec_r7로 모두 직접 쟀다. 불합격 항목은 5개이고, 이 중 새 지적은 2개다. (1) I3-21: 본체와 떨어진 메시 조각이 남아 있다. 베수비오 북서 윤곽 바깥에 약 17pt 길이 조각이 있어 D25의 정리가 덜 됐고, 폼페이 비계 옆에는 1.5×3pt 막대가 떠 있다. (2) I3-25: 구조 모형의 단면 기둥에서 '무거운 돌'과 '기초'의 명도 차가 ΔL* 1.6이다. 원인은 D25가 고른 #726753과 기초 #6B6254의 바탕 명도 차가 2.1뿐이라는 데 있다. 나머지 3개(I3-12 접촉 어둠, I3-18 강 머리, I3-27 지시선)는 STATE 보류 항목 R10·R3·R5와 같은 내용이고 새 근거가 없어 지적하지 않았다. ①→② 이정표가 길에서 떨어진 점은 고정 조건 9·R1에 따라 판정에서 뺐다. 큐브 6개는 재질·광원 순서가 완전히 같다(윗면 48 / 왼면 40 / 오른면 33, Δh ≤ 0.7°). 실루엣·전경 대비, 핵심 현상 단서 크기, 이정표 색·방향·축척, 물 표현, 글과 지물 사이 간격도 모두 기준을 넘는다.",
+  "findings": [
+   {
+    "id": "I3-21-a",
+    "severity": "minor",
+    "title": "본체와 떨어진 메시 조각이 베수비오 북서 윤곽과 폼페이 비계에 남아 있다",
+    "location": "베수비오 북서 윤곽 바깥 x 986–1001, y 1279–1290pt / 폼페이 공사현장 비계 왼쪽 x 692–693.5, y 1436–1439pt",
+    "evidence": "map_only_2x L* 측정. 베수비오: 폭 1pt 이하·길이 약 17pt의 줄 조각(L* 78–86)이 바탕(L* 89–91) 위에 있다. 화산 실루엣은 x≈1000부터 L* 60대로 시작하는데, 조각과 실루엣 사이에 3–5pt 너비의 바탕(L* 87–91)이 끼어 있어 떨어진 조각이다. D25에서 북서 윤곽을 정리했는데도 남았다. 폼페이: 1.5×3pt 막대(L* 57–77)가 아래 비계(y 1440.5부터 L* 69–80)와 약 1pt 너비의 바탕(L* 85–89) 간격을 두고 떠 있다. 두 물체 모두 영웅·CORE 물체가 아니므로 루브릭상 minor다. 참고로 콜로세움 깨진 끝부분의 가는 가시들은 본체에 붙어 있고, 밝은 틈은 약 16pt²로 20pt² 미만이라 (a)·(c) 조건에 해당하지 않는다.",
+    "fix_tool": "blender",
+    "fix": "베수비오 메시를 Edit 모드에서 P › By Loose Parts로 나눈 뒤, 정점 수가 200개 미만인 조각을 지운다. 또는 화면 x 980–1002, y 1275–1292pt에 투영되는 실루엣 바깥 정점을 지운다. 재렌더한 뒤 화산 실루엣 바깥 2–6pt 띠 안에 L* < 86 화소가 0개인지 확인한다. 폼페이 비계의 떠 있는 막대는 지우거나, 아래 기둥 쪽으로 1.5pt 늘려 간격을 0으로 붙인다.",
+    "rubric_check": "I3-21"
+   },
+   {
+    "id": "I3-25-col",
+    "severity": "minor",
+    "title": "구조 모형 단면 기둥의 '무거운 돌'과 '기초'가 명도로 구별되지 않는다(ΔL* 1.6)",
+    "location": "구조 원리 단면 기둥 x 388–400pt, 무거운 돌 y 1274–1296 / 기초 y 1301–1312",
+    "evidence": "단면 기둥 median L*는 가벼운 벽돌 77.5 → 중간 돌 57.7 → 무거운 돌 36.1 → 기초 34.5이고, 인접 ΔL*는 19.8 / 21.6 / 1.6이다(기준 8). 같은 이름표 4개(가벼운 벽돌~기초 12m+)가 지시선으로 가리키는 탑 왼면은 74 → 57 → 44 → 34(ΔL* 17/13/10)로 합격한다. 원인: D25에서 기둥 무거운 돌에 쓴 #726753은 바탕 L* 44.1이고 기초 #6B6254는 42.0이라 재질 단계에서 이미 차이가 2.1뿐이다. 탑의 무거운 돌은 렌더 결과로 거꾸로 계산하면 바탕 L* 약 53이다.",
+    "fix_tool": "blender",
+    "fix": "단면 기둥 '무거운 돌' 재질을 #726753에서 #897D69로 바꾼다(바탕 L* 53, 색상각은 그대로, 탑의 무거운 돌과 같은 명도). 이 면의 음영 배율이 0.65이므로 렌더 L*는 약 44로 예상되고, 그러면 기초 34.5와 ΔL* 약 9.5, 중간 돌 57.7과 약 14가 된다. 재렌더한 뒤 x 388–400pt 영역 median으로 인접 ΔL* ≥ 8을 확인한다.",
+    "rubric_check": "I3-25"
+   }
+  ],
+  "checks": [
+   {
+    "id": "I3-01",
+    "pass": true,
+    "evidence": "큐브 6개(③ 블록, ④ 3개, 제작 원리, 재료 원리)의 윗면 L*는 47.7–48.1, 왼면 40.1–40.5, 오른면 33.0–33.8이다. 같은 방향 면끼리 ΔL* ≤ 1.1, 색상각 55.2–55.9°로 Δh ≤ 0.7°."
+   },
+   {
+    "id": "I3-02",
+    "pass": true,
+    "evidence": "map_only에서 물체 화소(L*<84) 3,588,381개 중 L*<20은 4,792개로 0.13%다(바다를 빼면 0.17%). 기준 2% 이하."
+   },
+   {
+    "id": "I3-03",
+    "pass": true,
+    "evidence": "판테온 돔, 생석회·화산재 원뿔, ⑤ 원기둥, 이정표 기둥은 매끈하다. 원뿔 꼭대기의 방사 줄무늬는 폭 1pt 미만의 줄이라 평면 패싯이 아니다. 콜로세움 관람석 경사면의 다각형은 인접 면 ΔL* 2–4로 5 미만이다."
+   },
+   {
+    "id": "I3-04",
+    "pass": true,
+    "evidence": "현대 물체: ① 골조 C 2.0(h 231°), 실험실 받침판 h 188°·C 5.0. 로마 물체: 콜로세움 h 73°, 폼페이 83°, 이정표 기둥 82°, 프리베르눔 82°, 등대 83°."
+   },
+   {
+    "id": "I3-05",
+    "pass": true,
+    "evidence": "유적 관찰 장면 인물 4명의 키는 19.5/21/21.5/20.5pt로 큰 쪽/작은 쪽 1.10이다. ② 장면은 뒤 인물의 발이 반죽 통에 가려 키 대신 머리 폭으로 쟀고, 6.9/6.25pt로 1.10이다."
+   },
+   {
+    "id": "I3-06",
+    "pass": true,
+    "evidence": "이정표 높이(기둥 꼭대기~받침 바닥)는 81.4 / 81.0 / 80.0pt다. 평균 80.8pt 대비 최대 편차 0.8%."
+   },
+   {
+    "id": "I3-07",
+    "pass": true,
+    "evidence": "콜로세움 외곽 437×399pt ≈ 174k pt²가 CORE 최댓값인 ① 골조 177×185 ≈ 32.7k보다 크다. 32.7k는 DETAIL 최댓값(구조 모형 ≈ 20.3k, ③ 블록 ≈ 19.7k, ④ 큐브 묶음 ≈ 17.9k) 이상이다."
+   },
+   {
+    "id": "I3-08",
+    "pass": true,
+    "evidence": "유적 관찰 장면의 아치 개구부 높이 약 36pt ÷ 인물 키 약 21pt = 1.7."
+   },
+   {
+    "id": "I3-09",
+    "pass": true,
+    "evidence": "상자형 7개(큐브 6개와 구조 탑)가 모두 윗면 > 왼면 > 오른면 순서다. 큐브는 48/40/33, 탑의 벽돌은 86.9/73.3/56.4, 중간 돌은 왼면 57.0 > 오른면 47.8. 일치율 100%."
+   },
+   {
+    "id": "I3-10",
+    "pass": true,
+    "evidence": "산 덩어리 8개의 윗변 윤곽 안(2–10pt)/밖 median ΔL*는 12.6, 11.7, 10.0, 13.8, 12.5, 12.7, 9.2, 12.2이고 화산은 26.2다. 모두 8 이상이라 비율 100%. 가장 약한 것은 x 952–1075의 9.2."
+   },
+   {
+    "id": "I3-11",
+    "pass": true,
+    "evidence": "그늘 쪽 바닥 ΔL*: 큐브 6–10, 나무 수관 11.9, 사이프러스 16.6, 이정표 13.7, ⑤ 시편 11.5. 그림자가 없는(ΔL*<1) 부류는 없다. 그림자 방향이 다른 점(큐브·이정표는 오른쪽, 나무·시편은 왼쪽)은 R5 보류 항목이라 지적하지 않았다."
+   },
+   {
+    "id": "I3-12",
+    "pass": false,
+    "evidence": "(b) 밑면이 보이면서 떠 있는 물체는 0개로 합격이다. (a) 나무 줄기 밑 1–3pt 바닥은 ΔL* 1–3, 사이프러스 아래 끝은 ΔL* 1–2로 기준 3 미만이다. 이는 R10(접촉 어둠, Workbench 특성) 보류 항목과 같은 내용이고 새 근거가 없어 지적하지 않았고 등급에도 반영하지 않았다."
+   },
+   {
+    "id": "I3-13",
+    "pass": true,
+    "evidence": "실루엣 안/밖 ΔL*: 콜로세움 22.5, 등대 13.7(ΔE 30.1), 화산 윗변 26.2. 수도교는 L* 50–77 대 바탕 88–91로 11 이상, 이정표 기둥은 L* 52 대 85–88로 33 이상이다. 윗변이 다른 서 있는 물체와 겹치는 곳은 없다."
+   },
+   {
+    "id": "I3-14",
+    "pass": true,
+    "evidence": "일반 지물을 뺀 3D 물체는 모두 40pt 안에 이름표나 지시선이 있다(석회 가마, 판테온, 항구 시설(D6), 폼페이, 프리베르눔, 실험실 등). 이름표가 없는 등대는 실루엣만으로 특정된다. ②의 붉은 S자는 I3-26이 요구하는 열 단서다. 정체가 모호한 물체는 0개."
+   },
+   {
+    "id": "I3-15",
+    "pass": true,
+    "evidence": "CORE 모형의 ΔL*: ① 23.3, ② 23.2, ⑤ 24.6. DETAIL 모형: ③ 46.6, ④ 48.6, 제작 원리 46.6, 구조 40.0, 재료 원리는 바다 위라 색상 대비가 크다. 밭은 ΔL* 11.9–14.5로 CORE 최솟값 23.2 이하다."
+   },
+   {
+    "id": "I3-16",
+    "pass": true,
+    "evidence": "도로 끝을 모두 확인했다. 판테온 쪽(≈552,510)과 ⑤ 쪽(≈945,875)은 포장 광장(D7)으로 끝난다. 아피아 가도는 오른쪽 가장자리 x 1191에 닿고, 서안 도로는 등대 밑동에 닿는다. 다리 2곳은 양끝이 도로와 이어진다. 막다른 끝은 0개."
+   },
+   {
+    "id": "I3-17",
+    "pass": true,
+    "evidence": "②→③ 이정표 받침과 도로 사이는 약 4pt이고, ④→⑤ 이정표 받침은 도로 위(0pt)에 있다. ①→② 이정표는 고정 조건 9·R1(사용자 지정 자리)에 따라 판정에서 뺐다."
+   },
+   {
+    "id": "I3-18",
+    "pass": false,
+    "evidence": "(b) 강 폭은 상류 9.7pt에서 하류 56pt로 계속 넓어진다(다리에 가린 행은 뺌). (c) 하구가 y≈1430에서 바다에 닿는다. 두 조건은 합격이다. (a) 강 머리(≈145,322)는 산·가장자리·수원 표시 어디에도 닿지 않는다. 이는 R3 보류 항목이고 새 근거가 없어 지적하지 않았다."
+   },
+   {
+    "id": "I3-19",
+    "pass": true,
+    "evidence": "강 하류 Lab 77.9/−15.0/−4.9와 바다 78.2/−15.0/−4.9의 ΔE76는 0.36이다. 물결·흐름 기호는 강(L* 88.9, a* −8.1, b* 0.8)과 바다(93.3, −8.8, 0.8) 모두 흰 청록 계열로 통일되어 있다."
+   },
+   {
+    "id": "I3-20",
+    "pass": true,
+    "evidence": "글자 획(L*<60)과 3D 지물 사이 최소 거리는 '베수비오 화산' 5.6pt, 제목 '로마 콘크리트'와 제목판 5.5pt이고 나머지는 모두 6pt 이상이다. 구조 이름표의 3.0–3.4pt는 Figma 지시선 눈금까지 거리라 의도된 것이다. ④⑤ 본문 아래 겹침 화소는 3D 물체가 아니라 지형 음영 띠(R3)다."
+   },
+   {
+    "id": "I3-21",
+    "pass": false,
+    "evidence": "(a) 기준에 걸리는 조각 2곳: 베수비오 북서(986–1001, 1279–1290)의 길이 약 17pt 조각이 바탕 3–5pt를 사이에 두고 떨어져 있고, 폼페이 비계(692–693.5, 1436–1439)의 1.5×3pt 막대가 1pt 간격으로 떠 있다. (c) 콜로세움의 밝은 틈은 약 16pt²로 20pt² 미만이다. → 지적 I3-21-a(minor)."
+   },
+   {
+    "id": "I3-22",
+    "pass": true,
+    "evidence": "물체끼리 관통하는 곳이 없다. 도판 가장자리나 제목판에 잘린 랜드마크는 0개다(오른쪽 가장자리의 수도교 이탈은 예외 조항에 해당)."
+   },
+   {
+    "id": "I3-23",
+    "pass": true,
+    "evidence": "보이는 흰 알갱이 6개, 등가 지름 3.3–8.1pt. 알갱이 L* 98–100 대 갈색 면 33–40으로 ΔL* 58–67."
+   },
+   {
+    "id": "I3-24",
+    "pass": true,
+    "evidence": "단계 1(625–693): 청록 물방울 3개(L* 58)가 큐브 외곽에서 8pt 안에 있다. 단계 2(698–766): 흰 점 3개(지름 2.1–2.3pt)가 금을 따라 흩어져 있다. 흰 '줄'이 아니라 점이지만 이 단계에만 나오는 새 단서다. 단계 3(771–839): 금 전체에 흰 충전(L* 60–70, 면 L* 33)이 있다."
+   },
+   {
+    "id": "I3-25",
+    "pass": false,
+    "evidence": "탑 왼면은 74 → 57 → 44 → 34로 합격한다. 같은 이름표를 가리키는 단면 기둥은 77.5 → 57.7 → 36.1 → 34.5로, 무거운 돌과 기초의 ΔL*가 1.6이다. → 지적 I3-25-col(minor)."
+   },
+   {
+    "id": "I3-26",
+    "pass": true,
+    "evidence": "획 굵기(가로 연속 화소 median ÷ 2)와 ΔL*: ① 금 2.5–4.0pt/44. ② 열 S자 2.0pt/23.3(ΔE 48). ③ 알갱이 3.3pt 이상/58 이상. ④ 물방울 3.0pt/29.5, 칼슘 점 2.1–4.6pt/67, 결정 충전 1.5pt/27. ⑤ 금 1.5pt/32.4, 메움 3.0pt/25.8, 누수 2.5pt/33.2. 제작 원리의 열 단서는 ② 받침의 S자(큐브 윗면에서 7pt)와 같이 쓴다. ④ 결정 충전과 ⑤ 금은 1.5pt로 기준선에 딱 걸린다."
+   },
+   {
+    "id": "I3-27",
+    "pass": false,
+    "evidence": "바늘 밑동 폭은 2.0–6.3pt이고 바늘 대부분의 median L*는 80–97이다(아래쪽 그늘면 바늘 3개만 73–76). 청록 바닷물 면(L* 77.5, a* −15)도 보인다. 이 부분은 합격이다. 바늘과 물을 가리키는 지시선은 없는데, 이는 R5(F-09) 보류 항목이라 지적하지 않았다."
+   },
+   {
+    "id": "I3-28",
+    "pass": true,
+    "evidence": "화살표 판 붉은 화소의 밝기 상위 10% 색과 #983821의 ΔE76: 2.8 / 3.8 / 1.0. 다음 CORE 제목 중심 방향과의 각도 차: ①→② 7°, ②→③ 18°, ④→⑤ 7°."
+   },
+   {
+    "id": "I3-29",
+    "pass": true,
+    "evidence": "② 장면: 인물 키 약 37pt와 34.5pt. 한 명은 반죽에 도구를 넣고 있고 다른 한 명은 흰 덩이를 들고 있어, 둘 다 실루엣 밖으로 3pt 이상 드러난다. 유적 관찰 장면: 키 19.5–21.5pt, 삼각대와 막대가 실루엣 밖으로 드러난다."
+   }
+  ],
+  "checks_total": 29,
+  "checks_failed": 5,
+  "strengths": [
+   "같은 재질 큐브 6개의 면 명도·색상이 사실상 같다(윗면 48 / 왼면 40 / 오른면 33, Δh ≤ 0.7°). 광원 순서도 모든 상자형 모형에서 같다.",
+   "이정표 3개의 축척 편차는 0.8%다. 화살표 색은 #983821과 ΔE ≤ 3.8, 방향은 다음 CORE 제목과 각도 차 ≤ 18°로 정확하다.",
+   "CORE·DETAIL 모형과 바탕의 대비가 ΔL* 23–49로 밭(12–15)보다 확실히 높아 전경과 배경의 위계가 분명하다.",
+   "핵심 현상 단서(금·열·알갱이·물·칼슘·결정·누수)가 모두 1.5pt 이상, ΔL* 23 이상으로 관람 거리에서 보인다. ④ 3단계 단서도 이름표와 하나씩 맞는다.",
+   "강은 하류로 갈수록 9.7pt에서 56pt로 넓어지고, 강과 바다의 색 차는 ΔE 0.36으로 물 표현이 일관된다.",
+   "테베레강–콜로세움–판테온–수도교–아피아 가도의 상대 배치가 실제 로마 지리와 대체로 맞는다."
+  ]
+ }
+]

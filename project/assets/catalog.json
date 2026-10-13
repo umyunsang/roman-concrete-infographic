@@ -1,0 +1,66 @@
+{
+ "updated": "2026-10-07T12:51",
+ "assets": [
+  {
+   "id": "COL",
+   "name": "콜로세움(무너진 실제 상태)",
+   "object": "COL_ruined",
+   "source": "Sketchfab rjgarnicap \"Coliseo, Roma, Italia\" https://sketchfab.com/3d-models/9a8b7cfc850049709016baf54aaa24dd",
+   "license": "CC-BY",
+   "tris": 876702,
+   "collection": "20_LANDMARK",
+   "status": "placed",
+   "screen_bbox": [
+    293.9,
+    580.0,
+    896.5,
+    985.1
+   ],
+   "note": "사진측량, 주변 지형 타원 밖 삭제, 재질·UV 제거, 무너진 남쪽을 화면 앞으로(z 45°)"
+  },
+  {
+   "id": "L07",
+   "name": "베수비오산",
+   "object": "L07_vesuvius",
+   "source": "Sketchfab rjgarnicap \"Volcán Vesubio (Vesuvius volcano)\" https://sketchfab.com/3d-models/523f5d4d1f1e4b3ca9e8a8f6156c3198",
+   "license": "CC-BY",
+   "tris": 686383,
+   "collection": "40_REGION",
+   "status": "placed",
+   "screen_bbox": [
+    925.1,
+    1340.1,
+    1289.9,
+    1577.8
+   ],
+   "note": "원형으로 자르고 가장자리 테이퍼, 높이 과장"
+  },
+  {
+   "id": "L03",
+   "name": "포로 로마노(베스타 신전)",
+   "object": "L03_vesta",
+   "source": "Sketchfab unhvrc \"Temple of Vesta in the Roman Forum\" https://sketchfab.com/3d-models/8bdf295b9ff04e3a9fe0f62a0017c120",
+   "license": "CC-BY",
+   "tris": 454585,
+   "collection": "90_STAGING",
+   "status": "imported"
+  },
+  {
+   "id": "L05",
+   "name": "수도교",
+   "object": "L05_aqueduct",
+   "source": "Sketchfab dinael \"Roman Aqueduct - No Extra Assets\" https://sketchfab.com/3d-models/6069f1084e424d038284e504911c93cf",
+   "license": "CC-BY",
+   "tris": 66496,
+   "collection": "40_REGION",
+   "status": "placed",
+   "screen_bbox": [
+    796.1,
+    340.8,
+    1012.9,
+    534.2
+   ],
+   "note": "원본 9.7천 tris → 베벨(각도 30°, 4단) 모디파이어로 모서리 디테일, z 1.8배(아치를 높게), z 90° 회전"
+  }
+ ]
+}

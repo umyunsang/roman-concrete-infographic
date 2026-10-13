@@ -1,0 +1,987 @@
+[
+ {
+  "field": "hierarchy_access",
+  "grade": "AAA",
+  "summary": "r5를 rubrics/hierarchy_access.md 23개 항목 그대로 실측했다. 결과는 blocker 0 · major 0 · minor 0 → AAA. map_only_2x.png가 poster_2x.png와 글 밖에서 픽셀 단위로 일치(차이 중앙값 0)하고 원판·밑줄·제목 액자가 지도에 구워져 있으므로, 이 파일을 참 배경으로 써서 80개 글 전부의 WCAG(F83 두 단계)·APCA Lc·물체 침범을 계산했다. 원판·이정표 판·밑줄 대비, Machado 2009 색각이상 시뮬레이션, PSO Coated v3 소프트프루프(ECI 정품 프로파일, 상대 색도+BPC), Noto Sans KR 획 폭도 직접 쟀다. 기준 미달 항목은 없다. 루브릭 밖의 blocker급 결함(가림·겹침·판독 불가·사실 오류)과 한국어 줄바꿈 오독도 찾지 못했다. 790:172 아래 지형 접힘 음영은 STATE R3 보류 항목과 같고 새 근거가 없어 다시 내지 않았다. P1·P2는 BRIEF 고정 조건 10·STATE R4에 따라 판정을 미뤘다. 통과했지만 여유가 거의 없는 값이 넷 있어, 다음 수정에서 이 값을 낮추면 바로 불합격이 된다. ① H3 CORE:DETAIL 크기비가 정확히 1.50이다(19.5/13). ② D2 9pt Regular의 D_max는 0.719m로 기준 0.711m보다 1.1% 크다. ③ V2 '칼슘 이동' #8A5427의 deutan 글자별 대비는 4.54로 기준 4.5보다 0.04 높다. ④ C3 바다 위 #3E3A31 머리말의 Lc는 60.8로 기준 60보다 0.8 높다. 9pt 축소, #8A5427·#3E3A31 명도 상승, DETAIL 제목 확대는 피해야 한다.",
+  "findings": [],
+  "checks": [
+   {
+    "id": "H1",
+    "pass": true,
+    "evidence": "제목 790:82는 70pt, 그다음으로 큰 글은 질문 790:86 20pt → 크기비 3.50 ≥ 3.0. 제목 Lc 76.9(참 배경 halo 중앙값 #DFD5BF), WCAG 9.54 → large 기준 Lc 45 통과."
+   },
+   {
+    "id": "H2",
+    "pass": true,
+    "evidence": "질문 20pt ≥ CORE 제목 19.5pt(790:146/147/152/153/158/159/164/165/170/171, text_spec_r5)."
+   },
+   {
+    "id": "H3",
+    "pass": true,
+    "evidence": "19.5 ÷ max(DETAIL 13, SUPPORT 11) = 1.50 ≥ 1.5로 경계값에서 정확히 통과. 원판 5개는 text_spec 790:102/105/110/111/106에 있고, 픽셀에서도 지름 20.8pt 원판 5개를 확인했다(중심 pt 538,395 / 67.6,757 / 418.5,1041 / 648.4,1041 / 992.3,826)."
+   },
+   {
+    "id": "H4",
+    "pass": true,
+    "evidence": "DETAIL 제목 790:174/177/180/183은 13pt Bold, SUPPORT 제목 790:109/121/122/192(190 포함)는 11pt Bold → 모든 쌍 크기비 1.18 ≥ 1.15."
+   },
+   {
+    "id": "D1",
+    "pass": true,
+    "evidence": "공식 잉크 높이: 제목 70×0.3528×0.960 = 23.71mm → D_max 6.01m. 질문 20pt Bold 6.47mm → 1.64m. CORE 제목 19.5pt Bold 6.31mm → 1.60m. 모두 ≥ 1.5m. 렌더 실측 잉크(790:146 18.5pt, 790:86 19.0pt)가 spec 환산(17.9 / 18.3pt)보다 커서 spec 값이 보수적이다."
+   },
+   {
+    "id": "D2",
+    "pass": true,
+    "evidence": "T2 최소는 9pt Regular(SUPPORT 설명 790:113/126/127, BASIC 캡션 790:94~97) 잉크 2.835mm → D_max 0.719m ≥ 0.711m(여유 1.1%). 9.5pt(DETAIL 본문·SUPPORT 소제목) 0.759m, 10pt 0.799m, CORE 본문 11.5pt 0.918m. 렌더 실측 9pt 잉크 8.5pt ≥ 공식 8.04pt."
+   },
+   {
+    "id": "D3",
+    "pass": true,
+    "evidence": "9~10.5pt 라벨 중 최소 9pt는 0.719m, 9.5pt Medium 라벨(석회 가마·판테온·석회 알갱이 등)은 0.759m → 모두 ≥ 0.5m."
+   },
+   {
+    "id": "D4",
+    "pass": true,
+    "evidence": "모든 글 중 D_max 최소 0.719m ÷ 1.27 = 0.566m ≥ 0.5m."
+   },
+   {
+    "id": "D5",
+    "pass": true,
+    "evidence": "제목 잉크 높이는 공식 23.7mm, poster_2x 실측 줄 잉크 범위 y 36.5~105.0pt = 68.5pt = 24.2mm → 1.5m(6ft 미만) 기준 15.9mm 통과."
+   },
+   {
+    "id": "C1",
+    "pass": true,
+    "evidence": "80개 글 모두 F83 (1) 또는 (2)를 통과했다. 최저값은 다음과 같다. 790:187 '칼슘 이동' 10.5pt #8A5427: 빠른 검사 4.50, 글자별 최소 4.81 ≥ 4.5. 790:188: 4.53 / 4.89. CORE 둘째 줄 #983821 19.5 Bold(큰 글): 4.94~4.99 / 5.19~5.29 ≥ 3.0. 땅 위 #59524A 최저 790:190 머리말 4.84 / 5.34. 바다 위 #3E3A31: 6.00 / 6.32. 3:1 미만 글자 없음."
+   },
+   {
+    "id": "C2",
+    "pass": true,
+    "evidence": "CORE 본문 Lc(halo 중앙값): 790:148 80.1, 154 80.6, 160 80.6, 166 80.1, 172 78.2(글자별 최소 77.8) → 모두 ≥ 75."
+   },
+   {
+    "id": "C3",
+    "pass": true,
+    "evidence": "CORE 본문 외 최저 Lc는 60.8(#3E3A31 머리말이 바다 #9CCACA 위에 놓인 790:121·122·174). 그 밖에 #983821 CORE 둘째 줄 63.0~64.2, #8A5427 63.8~64.9, #1B5760 69.7, 땅 위 #59524A 63.4~69.8, 바다 위 #2E2A22 65.7 → 모두 ≥ 60."
+   },
+   {
+    "id": "C4",
+    "pass": true,
+    "evidence": "#FFF4DD 숫자 vs 원판 #95361F: WCAG 빠른 6.28~6.43, 글자별 6.81 ≥ 4.5. Lc −83.2(|Lc| ≥ 60)."
+   },
+   {
+    "id": "C5",
+    "pass": true,
+    "evidence": "원판 #95361F vs 둘레 고리(반지름 12~15pt): 5.33~5.53, 가장 어두운 2% 대비로도 5.05~5.19. 이정표 판 중앙값 vs 바로 옆 4px 고리 중앙값: ①→② #5A1E0F/#C6BCAA 6.87, ②→③ #7B2C19/#B3A287 3.81, ④→⑤ #6B2514/#BEB39C 5.33. CORE 밑줄 최심 행 #B05545~#B5503C vs #E7DBC6: 3.6~3.7. 모두 ≥ 3:1."
+   },
+   {
+    "id": "C6",
+    "pass": true,
+    "evidence": "3D 물체가 획 밑으로 들어온 글은 없다. |ΔY|>0.08 비율은 790:172 10.0%, 790:190 4.4%, 790:166 3.4%이고 나머지는 1.4% 이하다. 2배 확대와 자동 대비로 다시 보니 172·166은 V자 지형 접힘 음영(Y 0.70→0.456)으로, STATE R3 보류 항목 '④⑤ 본문 밑 지형 음영 띠'와 같다. 190은 유적 모형 받침 아래의 부드러운 그늘이다. 둘 다 물체·윤곽이 아니다. 해당 글의 글자별 대비는 172 9.94, 166 10.31, 190 7.87이다. 원판을 빼면 글 잉크와 물체 사이 최소 간격은 2.2pt(790:117이 자기 지시선 끝과 떨어진 거리)다."
+   },
+   {
+    "id": "V1",
+    "pass": true,
+    "evidence": "색 부호마다 비색 단서가 함께 있다. 열: 빨간 물결 모양 + '열이 났다'. 물: 물방울 모양 + '물이 스밈'. 칼슘: 흰 점·금 모양 + '칼슘 이동'·'결정이 메움'. CORE 둘째 줄: 밑줄. 원판: 숫자 1~5. 이정표: 화살 모양. 바다/땅: 물결 표시·해안선 + '티레니아해'. ⑤ 시편: 물방울 유무 + '물 멈춤/계속 샘'."
+   },
+   {
+    "id": "V2",
+    "pass": true,
+    "evidence": "Machado 1.0, 실제 배경 픽셀로 잰 글자별 최저값. #8A5427: deutan 4.54(790:187), 4.62(790:188) ≥ 4.5. #1B5760: protan 5.67. #983821(큰 글): deutan 4.66 ≥ 3.0. 원판 숫자 #FFF4DD/#95361F: deutan 6.12 ≥ 4.5. 루브릭의 옛 값 #195B61·#784C26 대신 text_spec_r5의 실제 값 #1B5760·#8A5427로 쟀고, #365864는 r5 글에 없다."
+   },
+   {
+    "id": "V3",
+    "pass": true,
+    "evidence": "물 #1B5760 vs 칼슘 #8A5427 ΔE00: 정상 35.7, protan 27.5, deutan 33.4, tritan 44.6. 이정표 판 vs 옆 지면은 deutan ②→③에서 최저 36.4. 모두 ≥ 10."
+   },
+   {
+    "id": "P1",
+    "pass": true,
+    "evidence": "판정을 미뤘다(BRIEF §3 고정 조건 10, STATE R4). 심사 이미지는 화면 검토용 2배 내보내기(2382px ÷ 16.535in = 144ppi)라 감점하지 않았다. 최종 인쇄 원고(300ppi = 4962×7016)에서 판정한다."
+   },
+   {
+    "id": "P2",
+    "pass": true,
+    "evidence": "판정을 미뤘다(BRIEF §3 고정 조건 10, STATE R4). 현재 프레임은 재단 여분 0mm이고, 최종 인쇄용 프레임(재단 3mm)에서 판정한다."
+   },
+   {
+    "id": "P3",
+    "pass": true,
+    "evidence": "글 상자와 재단선 사이 최소 거리는 20.5pt = 7.23mm(790:96 오른쪽 끝 1170.5pt), 잉크 기준으로는 21.5pt. 다음은 790:175 아래 21.8pt, 790:80/98/177/178 왼쪽 24pt. 모두 ≥ 18pt(6.35mm)."
+   },
+   {
+    "id": "P4",
+    "pass": true,
+    "evidence": "PSO Coated v3(ECI 정품, md5 2ecf5bdf…) 상대 색도+BPC 왕복. 글 색 ΔE00 최대 1.03(#2E2A22→#2D2A21), #1B5760 0.34, 나머지 0.00. 왕복 후 대비: CORE 본문 10.48 / Lc 80.7, 바다 위 머리말 6.32 / Lc 60.8, #8A5427 4.89 / Lc 64.9, #983821 5.20 / Lc 63.2, 원판 숫자 6.81 / Lc −83.2. C1~C3 모두 유지."
+   },
+   {
+    "id": "P5",
+    "pass": true,
+    "evidence": "Noto Sans CJK KR Regular(Noto Sans KR과 같은 디자인)의 'ㅣ'·'이' 세로획은 81~84/1000em → 9pt에서 0.257~0.267mm ≥ 0.1mm."
+   }
+  ],
+  "checks_total": 23,
+  "checks_failed": 0,
+  "strengths": [
+   "위계 크기 사다리가 수치로 성립한다: 제목 70pt → 질문 20pt(3.50배) → CORE 제목 19.5pt → DETAIL 13pt(1.50배) → SUPPORT 11pt(1.18배).",
+   "80개 글 전부 WCAG 1.4.3을 통과한다(최저: 글자별 4.81, 큰 글 5.19). CORE 본문 다섯 개는 모두 APCA Lc 78 이상이다.",
+   "바다 위 글을 #2E2A22로 바꿔 #9CCACA 위에서 7.97:1, Lc 65.7을 확보했다.",
+   "번호 원판·이정표 판·밑줄이 모두 비텍스트 대비 3:1을 넘고, 순서 단서가 숫자·화살 모양으로도 이중 부호화되어 있다.",
+   "의미색(물/칼슘)과 순서 단서가 세 종류 색각이상 시뮬레이션에서도 대비 4.5 이상, ΔE00 27 이상을 유지한다.",
+   "주요 글 색이 PSO Coated v3 색역 안에 있어 인쇄 왕복 ΔE00이 1.03 이하다.",
+   "가장 작은 9pt 글도 팔 길이(0.711m) 판독 거리를 넘고, 고령 독자 1.27배 보정 뒤에도 0.566m다.",
+   "땅에 눕힌 지명·모형 라벨 어디에도 3D 물체가 획 밑으로 들어오지 않는다(원판 제외 최소 간격 2.2pt)."
+  ]
+ },
+ {
+  "field": "infographic",
+  "grade": "AAA",
+  "summary": "r5 포스터를 루브릭 27개 항목으로 판정한 결과 26개 합격, 1개 불합격입니다. 불합격은 INF-23 용어 일관성(minor) 하나이고, blocker·major는 없어 BRIEF 기준으로 AAA입니다. 질문(20pt, y125) → CORE ①~⑤ → 결과 문장 '금이 스스로 메워졌다'로 이어지는 서사가 측정으로 확인됩니다. 이웃 CORE 본문은 핵심어를 4/4로 이어받습니다. 번호 원판은 5개 모두 지름 20pt에 제목과 5~6pt 간격이고, 이정표 3개의 화살 방향은 다음 CORE와 7.6°/19.6°/9.9° 차이입니다. 강조색 #983821은 CORE 둘째 줄 5개에만 쓰였습니다. 루브릭 밖 blocker는 찾지 못했습니다. 지명·이름표 글자는 모두 3D 물체에서 4pt 이상 떨어져 있고(가장 가까운 베수비오 4.3pt), 1~3pt인 경우는 의도된 지시선 끝이나 물결 무늬입니다. 사실 대조(MIT 2023·2025, Jackson 2017)에서도 모순이 없었습니다. 경계값에 걸린 항목이 넷이라 다음 수정 때 조금만 움직여도 무너집니다. ⑤ 받침판 아래끝 753.5pt와 ⑤ 제목 상자 위끝 813pt 사이 59.5pt(기준 60), 실험실 이름표 상자와 원기둥 사이 19.4pt(기준 20, 잉크 기준으로는 22.0), ①→② 제목 거리 593.6pt(기준 600), CORE:DETAIL 제목 비 1.50(기준 1.5)입니다.",
+  "findings": [
+   {
+    "id": "INF23-1",
+    "severity": "minor",
+    "rubric_check": "INF-23",
+    "title": "한 개념에 두 용어: '유구/유적', '다시 만들어 시험/재현 실험'",
+    "location": "790:148 둘째 줄(x528, y454 부근) ↔ 790:184·790:190 / 790:95 둘째 줄(x974, y173 부근) ↔ 790:99·790:172·790:184",
+    "evidence": "text_spec_r5 용어 집계. 살아남은 로마 구조물을 790:148은 '약 2천 년 전 유구가 남아 있다'로, 790:184는 '다른 유적·재현 시편에서 확인', 790:190은 '사례 · 유적 관찰 장면'으로 부릅니다(유구 1회, 유적 2회, 본문에서 이어 주는 말 없음). 복제 실험도 790:95는 '다시 만들어 시험', 790:99는 '재현 실험', 790:172·790:184는 '재현 시편'으로 씁니다. 790:95와 790:99는 위아래 31pt 거리에 있습니다. 허용되는 동의어 쌍은 '흰 알갱이=석회 알갱이' 하나뿐이고 이것은 790:178에서 이어 줍니다. 이어 주지 않은 동의어 쌍 2개가 더 있어 합격 기준(≤1쌍)을 넘습니다. '건축물(790:86)/건물(790:89)'은 790:89가 콜로세움 한 채를 가리켜서 세지 않았습니다.",
+    "fix_tool": "copy",
+    "fix": "(1) 790:148 둘째 줄 '약 2천 년 전 유구가 남아 있다.' → '약 2천 년 된 유적이 남아 있다.' 글자 수가 같아 11.5pt/15.5px, 상자 폭 174pt 그대로 들어갑니다. (2) 790:95 둘째 줄 '다시 만들어 시험' → '재현 실험'. 9pt Regular로 약 45pt 폭이라 62pt 상자 안에 들어가고, 가운데 정렬 중심 x1005를 유지합니다. 두 줄 안 고정 조건도 지킵니다. (3) 선택: 790:99 첫 줄 '기록과, 옛 조각 연구·재현 실험으로' → '이 두 갈래 근거로'. 아이콘 설명 790:95를 다시 나열하지 않게 되어, (2)를 고친 뒤 생길 수 있는 INF-22 중복(내용어 4/5 겹침)을 막습니다. 고친 뒤 동의어 쌍은 흰 알갱이=석회 알갱이 1쌍만 남습니다."
+   }
+  ],
+  "checks": [
+   {
+    "id": "INF-01",
+    "pass": true,
+    "evidence": "790:86 '철근도 없는 로마 건축물이 어떻게 2천 년을 버텼을까?' Sans Bold 20pt, 상자 y=125 ≤ 253. 크기 20 ≥ 18."
+   },
+   {
+    "id": "INF-02",
+    "pass": true,
+    "evidence": "CORE ⑤ 둘째 줄 790:171 '금이 스스로 메워졌다'(11자 ≤ 30). 핵심어 금+메움, 완료형."
+   },
+   {
+    "id": "INF-03",
+    "pass": true,
+    "evidence": "CORE 제목 10줄 판정 3/4. p1 '물을 넣자, 열이 났다'는 물→열 인과가 있으나 주체 '생석회'가 빠져 있어 경계로 보고 셈에 넣었습니다. p2 '흰 알갱이의 반전'에는 '칼슘 공급원'이 없어 불합격입니다. p3 '금에 스민 물, 칼슘을 옮기다' 다음에 '금이 스스로 메워졌다'가 이어져 합격입니다. p4 '정말 메워질까?/금이 스스로 메워졌다'로 합격입니다."
+   },
+   {
+    "id": "INF-04",
+    "pass": true,
+    "evidence": "790:146-147 '철근이 있어도 금은 생기는데'(현대 철근 콘크리트와 대비, 오른쪽 7pt 옆 철근 골조에 금이 보임). 790:148 '굳히는 재료는 무엇이 달랐을까?'(재료로 좁힌 질문)."
+   },
+   {
+    "id": "INF-05",
+    "pass": true,
+    "evidence": "4/4. ①→② '굳히는 재료' → '굳는다'. ②→③ '흰 알갱이' → '흰 알갱이의 반전'·'알갱이'. ③→④ '칼슘 공급원' → '칼슘을 녹이고'. ④→⑤ '금·메운다' → '금·메워졌다'."
+   },
+   {
+    "id": "INF-06",
+    "pass": true,
+    "evidence": "0건. 790:178 '흰 알갱이로 남음'(x24, y1056)은 ③과 같은 가로 띠의 왼쪽에 있지만 ③의 반전(칼슘 공급원)은 말하지 않습니다. 790:113 '칼슘 결정'(x899)은 ③·④보다 오른쪽입니다. 실험실 캡션 798:78-79(y758)는 ④→⑤ 경로가 아니라 ⑤ 너머에 있고, ⑤ 제목과 세로 거리가 55pt로 ±40pt 밖입니다."
+   },
+   {
+    "id": "INF-07",
+    "pass": true,
+    "evidence": "poster_2x에서 원판 경계 상자를 잼. ① 20.5×20.0pt, 간격 5.5. ② 20×20, 5.5. ③ 20×20, 5.0. ④ 20×20, 6.0. ⑤ 20×20.5, 6.0. 원판 중심 y와 제목 첫 줄 중심 y의 차 ≤ 1.3pt. 5/5."
+   },
+   {
+    "id": "INF-08",
+    "pass": true,
+    "evidence": "map_only_2x의 화살 판 붉은 픽셀 주축과 다음 CORE 제목 블록 중심 방향을 비교. ①→② 화살 140.2°, 목표 132.6°, 차 7.6°. ②→③ 40.7°/21.1°, 차 19.6°. ④→⑤ −32.2°/−22.3°, 차 9.9°. ③→④는 같은 띠(제목 y 차 0)에서 왼쪽→오른쪽. 3/3."
+   },
+   {
+    "id": "INF-09",
+    "pass": true,
+    "evidence": "제목 상자 왼쪽 위 사이 거리. ①→② 593.6pt(여유 6.4), ②→③ 451.5, ③→④ 230.0, ④→⑤ 405.7. 경로 선분 교차 0."
+   },
+   {
+    "id": "INF-10",
+    "pass": true,
+    "evidence": "CORE 제목 19.5pt ÷ DETAIL 제목 13pt = 1.50 ≥ 1.5(경계값)."
+   },
+   {
+    "id": "INF-11",
+    "pass": true,
+    "evidence": "DETAIL 4개 모두 머리말 '○○ 원리 · ' 10.5 Medium + 제목 13 Bold #2E2A22, 행간 16px. SUPPORT 5개 모두 '사례 · ' 10.5 Medium + 11 Bold, 한 줄. 역할 사이에 크기(13 대 11)와 머리말이 다릅니다. 머리말 hex 차이(땅 위 #59524A, 바다 위 #3E3A31)는 D2·D5 배경 보정 규칙으로 두 역할에 예외 없이 적용되어 불일치로 세지 않았습니다."
+   },
+   {
+    "id": "INF-12",
+    "pass": true,
+    "evidence": "#983821 글 노드는 790:147·153·159·165·171(CORE 둘째 줄)뿐이고 그 밖은 0개입니다."
+   },
+   {
+    "id": "INF-13",
+    "pass": true,
+    "evidence": "제작 원리(24,1036.5)→② 제목(82.5,744) 298.3pt. 메움 원리(638.5,1281)→④(663.5,1028) 254.2pt. 재료 원리(142,1614)→SUPPORT 로마 항구(232,1520.7) 129.6pt. 석회 알갱이 확대 모형 캡션(438,1295)→③ 267pt. 구조 원리는 루브릭 개념 목록에 없고 대응 SUPPORT도 없어 판정에서 뺐습니다(참고로 ①과는 1009pt)."
+   },
+   {
+    "id": "INF-14",
+    "pass": true,
+    "evidence": "오늘의 실험실: 790:193 상자 아래끝 649.6pt와 원기둥 윗면 669.0pt 사이 19.4pt ≤ 20(잉크 기준 22.0, 경계값). 프리베르눔: 제목 잉크와 유적 모형 사이 13.9pt. 유적 관찰 장면: 10.0pt. 로마 항구·폼페이 공사현장은 점선 지시선. 명사(조각·콘크리트·공사현장·장면·실험실)는 각 물체 종류와 대응합니다."
+   },
+   {
+    "id": "INF-15",
+    "pass": true,
+    "evidence": "① 철근 골조 왼끝 x≈709, 글 오른끝 702(7pt), 왼쪽 기둥에 검은 금(713-722, 445-495). ② 섞는 구덩이와 인물 머리 y≈853, 본문 아래끝 847.5(6pt), 붉은 열 표시. ③ 흰 알갱이 블록이 본문 아래 약 17pt. ④ 단계 정육면체 위끝 1172(물방울 1153), 본문 아래 약 20pt. ⑤ 받침판 아래끝 753.5와 790:170 위끝 813 사이 59.5pt ≤ 60(경계값), 생석회 있음/없음 비교. 5/5."
+   },
+   {
+    "id": "INF-16",
+    "pass": true,
+    "evidence": "메움 순서: 정육면체 중심 x 653.5/732/811, 이름표 중심 659/732/805(차 ≤ 6pt). 1단계에 파란 물방울과 금 속 파란 선, 2단계에 금을 따라 흰 점, 3단계에 흰색으로 메워진 금. ⑤ 비교: 캡션 중심 1034/1110, 원기둥 중심 약 1033/1108. 있음 쪽은 흰 메움에 물 없음, 없음 쪽은 검은 금에 물방울과 웅덩이. 구조 모형 층과 이름표 y도 일치합니다."
+   },
+   {
+    "id": "INF-17",
+    "pass": true,
+    "evidence": "메움 순서 정육면체 사이 회색 화살표 2개(약 x 683-700, 762-780, y≈1210). 전제 배합에 '+ + →'. 구조 모형에 하중 화살표. 해수 결정·⑤ 비교·알갱이 확대는 과정 모형이 아닙니다."
+   },
+   {
+    "id": "INF-18",
+    "pass": true,
+    "evidence": "CORE·DETAIL 글 상자 60pt 안의 건물·장치는 모두 이름표가 있거나 글에 나옵니다. 철근 골조와 철근 더미는 ①의 '철근', 판테온·석회 가마는 이름표, 4기둥 선착 구조(약 312-387, 1438-1498)는 D6의 '항구' 묶음, 받침판과 시편은 실험실 이름표. 이정표는 고정 조건, 밭·길·나무는 바탕 요소로 뺐습니다."
+   },
+   {
+    "id": "INF-19",
+    "pass": true,
+    "evidence": "모순 0, 부정확 0~1. 열 혼합·흰 알갱이(MIT 2023), 0.5mm 금과 2주 만에 물 멈춤(Seymour 2023), 폼페이에서 미리 섞어 둔 원료 더미·서기 79년(MIT 2025), 해수 속 저온 결정(Jackson 2017), 콜로세움 서기 80년, 생석회→소석회 발열 모두 출처와 맞습니다. '틀에 부어 굳힘'은 층층이 다져 넣던 실제 시공과 비교해 부정확 1건 후보입니다."
+   },
+   {
+    "id": "INF-20",
+    "pass": true,
+    "evidence": "790:184 '콜로세움에서 직접 입증 안 됨', 790:189 '석회 알갱이를 확대한 개념 모형', 790:128 '방파제 블록 · 개념 모형' 표시가 있습니다."
+   },
+   {
+    "id": "INF-21",
+    "pass": true,
+    "evidence": "연도: '서기 80년', '서기 79년', 'MIT 2023'(현대), '약 2천 년'(기간)으로 모호한 연도 0. 지명 7/7: 아펜니노 산맥(790:103), 티베르강(797:80), 티레니아해(790:124), 베수비오 화산(790:115), 폼페이(790:119), 아피아 가도(790:107), 수도교(790:104)."
+   },
+   {
+    "id": "INF-22",
+    "pass": true,
+    "evidence": "가장 가까운 짝은 ② 본문(790:154)과 제작 원리(790:178)로 내용어 6개가 겹칩니다(6/12=50%, 6/13=46%, 60% 미만). 790:95와 790:99는 2/6로 겹치지 않습니다. ④·⑤ 본문과 모형 단계·조건 이름표의 겹침은 INF-16이 요구하는 그림 이름표라 중복으로 세지 않았습니다."
+   },
+   {
+    "id": "INF-23",
+    "pass": false,
+    "evidence": "동의어 쌍 3개로 기준 1개를 넘습니다. 허용된 '흰 알갱이=석회 알갱이'(790:178에서 이어 줌) 외에 '유구'(790:148)와 '유적'(790:184·190), '다시 만들어 시험'(790:95)과 '재현 실험'(790:99)·'재현 시편'(790:172·184)이 이어 주는 말 없이 같은 대상을 부릅니다. 다른 대상에 같은 이름을 쓴 경우는 0(칼슘 결정과 광물 결정은 구분됨). 지적 INF23-1(minor)."
+   },
+   {
+    "id": "INF-24",
+    "pass": true,
+    "evidence": "DETAIL·SUPPORT 본문은 790:113·126·175·178·181·184 모두 2줄, 790:127은 1줄. CORE 본문은 148·154·166·172가 3줄, 160이 2줄. 상자 높이 ÷ 행간이 줄바꿈 수와 같아(2.0/3.03) 자동 줄바꿈이 없습니다."
+   },
+   {
+    "id": "INF-25",
+    "pass": true,
+    "evidence": "5/5. q1 790:178 '생석회가 소석회로 바뀌며 열을 냄'. q2 790:178과 790:160 '칼슘 공급원'. q3 790:166. q4 790:172 '2주 만에 물이 멈췄고'. q5 프리베르눔·로마 항구·폼페이 공사현장·'다른 유적'."
+   },
+   {
+    "id": "INF-26",
+    "pass": true,
+    "evidence": "사람 모형(섞는 사람 2명, 유적 관찰 인물 4명), 알아보는 건물(콜로세움·판테온·수도교·베수비오), 갈색·청록·붉은 강조색이 있고 차트 형식이 아닌 3D 디오라마입니다."
+   },
+   {
+    "id": "INF-27",
+    "pass": true,
+    "evidence": "글은 ④ 본문 790:166, 그림은 메움 순서 3단계 모형과 이름표 790:186-188, 그리고 ⑤ 비교 시편에 모두 있습니다."
+   }
+  ],
+  "checks_total": 27,
+  "checks_failed": 1,
+  "strengths": [
+   "질문(20pt, 프레임 띠 안 y125)에서 시작해 ⑤ 둘째 줄 '금이 스스로 메워졌다'로 닫히는 질문→답 구조가 분명하고, 이웃 CORE 본문이 핵심어를 4/4로 이어받습니다.",
+   "번호 원판 5개가 모두 지름 20pt, 제목과 5~6pt 간격으로 같고, 로마 이정표 3개가 다음 CORE를 7.6°/19.6°/9.9° 오차로 가리킵니다. ④→⑤ 화살 연장선은 ⑤ 원판을 그대로 지납니다.",
+   "강조색 #983821을 CORE 둘째 줄 5개에만 써서 역할 부호가 깨끗하고, DETAIL·SUPPORT 머리말 체계에 예외가 없습니다.",
+   "메움 순서 3단계 모형과 ⑤ 생석회 있음/없음 비교 시편이 이름표와 6pt 안으로 정렬되고, 물·흰 알갱이·메움 표시가 글과 일치합니다.",
+   "'콜로세움에서 직접 입증 안 됨'과 '개념 모형' 표기로 근거의 범위를 정직하게 밝혔고, 사실 문장이 1차 연구와 모순되지 않습니다."
+  ]
+ },
+ {
+  "field": "typography",
+  "grade": "AAA",
+  "summary": "Typography grade: AAA (blocker 0, major 0, new minor 0). I measured all 28 rubric items against the r5 images, text_spec_r5.json and the text-free map render. To get exact text pixels I subtracted map_only_2x from poster_2x; the difference contained only text. 24 items pass. The 4 that fail (TY-01, TY-03, TY-24, TY-28) all match decisions already recorded in STATE.md (D8, R7, R2, R3). Each fail falls inside the severity those entries assumed, and I found no new evidence that changes them, so none is raised again or counted in the grade. Measurement note: the rubric's background test removes glyph pixels with L<120 plus 2px dilation. On 9pt #59524A text this lets anti-aliased stroke edges count as background, producing false std readings up to 29. I therefore took background std and contrast from map_only_2x, the same render without text. No blocker-level problem outside the rubric (hidden text, overlap, unreadable text, factual error) was found. Words containing a spacing or factual slip: none that rise to blocker level.",
+  "findings": [],
+  "checks": [
+   {
+    "id": "TY-01",
+    "pass": false,
+    "evidence": "Ink-height ratios (spec size × K1, checked against 2x pixels). Title 68.0pt ÷ question 19.0pt = 3.58 (pass). Question 20B ÷ CORE heading 19.5B = 1.026 (fail): this is decision D8, which keeps it; the question sits inside the title frame band, so severity is minor. CORE heading (18.1 ink) ÷ largest of {DETAIL title 13B = 12.1, CORE body 11.5R = 10.4, SUPPORT title 11B = 10.2} = 1.50 (pass). SUPPORT title 10.2 ÷ caption 10R 9.06 = 1.13 (pass). Bottom tier fails: SUPPORT description 9R (8.15) is smaller than kicker and part labels 9.5M (about 8.8); DETAIL description 9.5R ties with part labels 9.5M; stage labels 10.5R are larger than DETAIL description 9.5R. The descriptions sit directly under their titles, so severity is minor. This has the same cause as R7 (11 size steps, description/kicker tie, D8 ratios take priority), so it is not raised again."
+   },
+   {
+    "id": "TY-02",
+    "pass": true,
+    "evidence": "One spec per role. CORE heading 19.5B/24.5px ×10. CORE body 11.5R/15.5px ×5. DETAIL kicker+title 10.5M+13B/16px ×4. DETAIL description 9.5R/14px ×4. SUPPORT kicker+title 10.5M+11B/14px ×5. SUPPORT kicker 9.5M/125% ×4. SUPPORT description 9R/12.5px ×3. Model caption 10R/14px ×2. Part labels 9.5M ×9. Stage labels 10.5R/14px ×3. BASIC title 10.5M+12B, name 10B/125%, gloss 9R/128%, description 10R/138%. Place names 12M; the sea name 티레니아해 is 13M, which the rubric allows. The only leading difference is single-line labels at 120% vs the 2-line specimen labels at 12.5px; leading on a single line is invisible, so it cannot be measured."
+   },
+   {
+    "id": "TY-03",
+    "pass": false,
+    "evidence": "11 sizes in use: 70, 20, 19.5, 13, 12, 11.5, 11, 10.5, 10, 9.5, 9 (limit 7). Minor. Same item as STATE R7 (size-step count, held); not raised again."
+   },
+   {
+    "id": "TY-04",
+    "pass": true,
+    "evidence": "Title ink 68.0pt (y 37.0–105.0) ÷ question ink 19.0pt = 3.58, at least 2.5."
+   },
+   {
+    "id": "TY-05",
+    "pass": true,
+    "evidence": "Weight difference 300 (Bold to Regular) in every pair. Size ratios: CORE 19.5/11.5 = 1.70, DETAIL 13/9.5 = 1.37, SUPPORT 11/9 = 1.22, BASIC 12/10 = 1.20. All at least 1.2."
+   },
+   {
+    "id": "TY-06",
+    "pass": true,
+    "evidence": "Kicker 9.5 Medium vs description 9 Regular: weight difference 100. Stroke coverage inside the ink band: 석회·결정 관찰 0.302 vs 0.251 (+20%), 광물 결정 관찰 0.341 vs 0.248 (+38%), 배합 흔적 0.347 vs 0.242 (+43%). All at least 10%."
+   },
+   {
+    "id": "TY-07",
+    "pass": true,
+    "evidence": "Sans uses Regular, Medium and Bold (3 weights); Serif uses Bold only, on the title."
+   },
+   {
+    "id": "TY-08",
+    "pass": true,
+    "evidence": "Leading ratio by spec, with measured line pitch: CORE body 134.8% (15.0–16.0pt), DETAIL description 147.4% (14.0), SUPPORT description 138.9% (12.0), BASIC description 138% (14.0), BASIC gloss 128% (12.0), specimen labels 131.6% (13.0). All within 120–170%."
+   },
+   {
+    "id": "TY-09",
+    "pass": true,
+    "evidence": "All five CORE 2-line headings: line pitch 24.5pt ÷ 19.5 = 125.6%. Measured line-1 to line-2 ink-top spacing is 24.5pt in all five."
+   },
+   {
+    "id": "TY-10",
+    "pass": true,
+    "evidence": "Tracking is 0% on all 79 non-title texts; the 70pt title is −1%."
+   },
+   {
+    "id": "TY-11",
+    "pass": true,
+    "evidence": "Longest description line: '석회 일부는 mm 크기 흰 알갱이로 남음', 23 characters (limit 30). Shortest 'longest line' in any 2+ line description: '그 둘레의 칼슘 결정', 11 characters (minimum 10). The BASIC glosses (8–9 characters, centred under icons) and the specimen labels are separate roles from 설명문 under the rubric's role list, so they are outside this item."
+   },
+   {
+    "id": "TY-12",
+    "pass": true,
+    "evidence": "The last line of all 2+ line texts (16 bodies and descriptions, 5 heading pairs) has 2 or more 어절; no single-word last lines."
+   },
+   {
+    "id": "TY-13",
+    "pass": true,
+    "evidence": "Centred text appears only on the title, the question, BASIC names and glosses, stage labels and specimen labels, all 2 lines or fewer. Every multi-line body and description is left-aligned with a ragged right."
+   },
+   {
+    "id": "TY-14",
+    "pass": true,
+    "evidence": "Left ink edge differences within each block: CORE ① 528.5/528.5/528.5 (line 2, underline, body), ② 58.5/58.5/58.0, ③ 409.0/409.0/409.0, ④ 639.5/639.0/639.0, ⑤ 983.0/983.0/983.0. DETAIL 142.5/142.5, 24.5/24.5, 250.5/250.5, 639.0/639.0. SUPPORT 899.5/899.5/899.5, 232.5×3, 719.0×3, 983.0/983.0. BASIC 24.5/25.0 and 858.5/858.5. Largest difference 0.5pt."
+   },
+   {
+    "id": "TY-15",
+    "pass": true,
+    "evidence": "Across the five CORE modules: (a) disk to line-1 ink 4.5–5.0pt, indent 24.5–25.0pt, disk diameter 20.5–21.0pt; (b) line-2 ink bottom to underline 4.5–5.0pt; (c) underline to body ink top 6.0–6.5pt; (d) underline length = line-2 ink width −0.5 to 0pt, underline start = line-2 start ±0.5pt. All differences 1pt or less."
+   },
+   {
+    "id": "TY-16",
+    "pass": true,
+    "evidence": "The number of rendered lines in every text equals its explicit line breaks (no automatic wrapping). Every break falls between 어절."
+   },
+   {
+    "id": "TY-17",
+    "pass": true,
+    "evidence": "I read every 2+ line text. No modifier/head-noun splits, number/unit splits, or negation/predicate splits. Example: '바닷물이 스미면 보통 온도에서도 / 새 광물 결정이 자람' keeps '보통 온도' together. '2주 만에 / 물이 멈췄고' and '연구·재현 실험으로 / 재료와' are not misread."
+   },
+   {
+    "id": "TY-18",
+    "pass": true,
+    "evidence": "No line starts with a period, comma, question mark, closing quote or middle dot. No line ends with an opening quote. 0.5mm, 2주, 서기 79년, 12m+ and MIT 2023 each stay on one line."
+   },
+   {
+    "id": "TY-19",
+    "pass": true,
+    "evidence": "All 25 middle dots are U+00B7. Enumerations are attached (7: 돌·벽돌, 벽·지붕·항구, 연구·재현, 석회·결정, 석회·화산재, 아치·벽·기초, 유적·재현). Spaced dots are used only as separators: role markers ('전제 · ', '사례 · ', '○○ 원리 · ') and items ('콜로세움 · 로마 · 서기 80년', '판테온 · 철근 없는 돔', '금 메움 실험 · MIT 2023', '방파제 블록 · 개념 모형')."
+   },
+   {
+    "id": "TY-20",
+    "pass": true,
+    "evidence": "‘칼슘 공급원’ uses U+2018/U+2019. All 7 commas attach to the preceding word. The parenthesis in '공사현장(서기 79년)' attaches to the preceding word. No straight quotes."
+   },
+   {
+    "id": "TY-21",
+    "pass": true,
+    "evidence": "CORE bodies end every line with a period or question mark. DETAIL, SUPPORT and BASIC descriptions, kickers and labels are all noun or 개조식 phrases with no period. No mixing within a role."
+   },
+   {
+    "id": "TY-22",
+    "pass": true,
+    "evidence": "Two families, Noto Serif KR and Noto Sans KR, from the same Source Han design series. The serif appears only on the 70pt title, so no serif at 12pt or below."
+   },
+   {
+    "id": "TY-23",
+    "pass": true,
+    "evidence": "Smallest text is 9pt Regular: 9 × 0.906 × 0.3528 = 2.88mm, at least 1.97mm (0.5m)."
+   },
+   {
+    "id": "TY-24",
+    "pass": false,
+    "evidence": "CORE body 11.5pt gives ink height 3.68mm (measured ink 10.5pt) against 3.94mm needed: 6.7% short, readable to about 0.93m. That is within 15%, so minor. Same item as STATE R2 (held); not raised again."
+   },
+   {
+    "id": "TY-25",
+    "pass": true,
+    "evidence": "Question 20B: 6.56mm. CORE heading 19.5B: 6.40mm (measured ink 18.5pt = 6.53mm). Title 68pt ink. All at least 5.92mm."
+   },
+   {
+    "id": "TY-26",
+    "pass": true,
+    "evidence": "All 8 rotated names are ±30° in the spec, well within 45°. Measured baseline angles: 아펜니노 산맥 29.5, 티레니아해 29.2, 베수비오 화산 −29.9, 티베르강 −29.2, 콜로세움 −28.8. Short words (수도교, 폼페이, 항구) read lower because a short word skews the angle estimate. Zoomed crops show all names upright and reading left to right, none flipped or mirrored. Both the +30 group and the −30 group use plain rotation."
+   },
+   {
+    "id": "TY-27",
+    "pass": true,
+    "evidence": "Sizes 12–13pt. Local minimum contrast (darkest 20% of ink vs 5th-percentile background within 2pt): 5.40–7.72. Minimum gap from ink to map objects: 베수비오 5.15pt, 티베르강 6.0, 폼페이 9.2, 항구 9.2, 수도교 11.3, 아펜니노 산맥 27.4; 콜로세움 and 티레니아해 have no objects within 12pt."
+   },
+   {
+    "id": "TY-28",
+    "pass": false,
+    "evidence": "Background std per word, taken from the text-free map render: 349 of 351 words are at most 4.92 (plain paper 2.1–3.6). Two exceed 6: ④ body line 3 '메운다.' 10.84 (background L 187–221) and ⑤ body line 3 '계속' 11.51 (L 182–217). Both come from the soft terrain shadow band, not from a 3D object, road, field or wave pattern, and their contrast stays at 7.59 and 7.12. Lowest contrast of any word: 4.57 ('칼슘 이동', stage label), so all are at least 4.5. No object, road, field or wave lies within 2pt of any horizontal text; the only things within 2–3.5pt are the designed leader lines, and the road is 9.0pt from 아피아 가도. This is the same item as STATE R3 ('④⑤ 본문 밑 지형 음영 띠', held as minor); not raised again."
+   }
+  ],
+  "checks_total": 28,
+  "checks_failed": 4,
+  "strengths": [
+   "The five CORE modules are nearly identical: disk-to-heading gap, heading-to-underline and underline-to-body spacing all vary by 0.5pt or less, and each underline matches its line-2 ink width within −0.5pt.",
+   "Every line break falls between 어절 and no line end is misread (the '보통 / 온도' type of break is gone). Line breaks are set by hand, so there is no automatic wrapping.",
+   "Punctuation code points and spacing are correct throughout: middle dots are all U+00B7, attached for enumerations and spaced only as separators; quotes are curly U+2018/U+2019.",
+   "Contrast is at least 4.57:1 for every word. The 8 ground-laid names are all ±30° plain rotations, upright, at least 5pt from map objects, with contrast of 5.4:1 or more.",
+   "Weight hierarchy is consistent: Bold to Regular (300) for every heading/body pair, and Medium to Regular for kicker/description, where stroke coverage differs by 20–43%."
+  ]
+ },
+ {
+  "field": "color",
+  "grade": "AAA",
+  "summary": "색채 루브릭 25개 항목을 r5 이미지에서 직접 쟀다. 24개는 통과하고 CL-23 하나만 기준을 넘는다(minor 1, blocker·major 0). 그래서 BRIEF 기준으로 AAA다.\n\n통과한 항목의 주요 수치:\n- **팔레트**: 저채도(Oklch C ≤ 0.05) 면적 91.4%, 강조색 계열 0.39%, 과채도 면적 0.007%, 0.3% 이상 유채 색상군 2개다.\n- **강조색 제한**: CORE 밖 강조색 픽셀은 열 소품 113px뿐이다.\n- **글 대비**: 렌더된 글자색이 지정 hex와 같았다(ΔE 0). CORE 본문은 Lc 78.2 이상이다. 내용 글의 최저값은 바다 위 '사례 · '(#3E3A31)의 Lc 60.8이다. 최악 배경 10백분위의 최저값은 58.9다.\n- **비텍스트 요소**: 모두 3:1 이상이다. 최저는 바다 위 항구 점선 3.49다.\n- **색각이상 모의**: 지정 쌍 모두 D ≥ 1이다. 최저는 protan에서 1.03~1.07이다.\n- **물 표현**: 색상각 폭 12.9°, 강과 바다의 ΔE00은 0.26이다.\n- **인쇄**: 총잉크량 최대 295.2%, K 최대 94.5%다. 왕복 ΔE00 > 5인 면적은 0.45%다.\n- 참고값: 색채감 M3 = 35.0.\n\nCL-23의 결함과 보류 처리:\n- **새 지적 1건**: ④ 단계 라벨 두 색의 인쇄 왕복 ΔE00이 기준 3을 넘는다(#1B5760 3.29, #8A5427 3.28). LittleCMS를 부동소수 Lab로 돌려 잰 값이다.\n- **D9가 통과한 것처럼 보인 이유**: Pillow 8비트 Lab 경로는 a·b 값을 1단위로 끊어 2.93/2.98로 읽는다. 원인은 검정점 보정(BPC)이다. BPC를 끄면 0.04/0.02다.\n- **R8과의 관계**: R8의 보류 범위는 강조색과 이정표 판뿐이다. 이 라벨 두 색은 그 범위에 들지 않는 새 근거로 본다.\n- **다시 내지 않은 지적**: 강조색 3.84, 번호 원판 3.84, 이정표 판 4.07~4.82는 R8 보류라서 지적으로 내지 않았다.\n\n측정 규약에서 걸리는 점 두 가지:\n- **CL-01**: 루브릭 식대로 포스터 전체를 넣으면 색상각 폭이 115.6°로 나온다. 바다(C 0.048, h 196°)가 저채도 띠의 13.3%를 차지하기 때문이다. 루브릭 질문의 대상(종이·땅·산·돌)으로 좁히면 6.3°라서 통과로 판정했다.\n- **CL-17**: 회전 지명은 텍스트 상자가 축정렬이라, 규약 마스크가 수도교 그늘과 화산 분화구 질감까지 글자로 잡았다. 그래서 '수도교' 37.8, '베수비오 화산' 30.4라는 거짓 미달이 나왔다. 포스터와 글 없는 지도의 차분과 교차하자 64.1/65.8이 되었고, 글자 둘레는 모두 종이 위다.\n\n측정 스크립트는 /private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad/color_r5_judge/ 에 있다. 이번 라운드 대상은 r5다(/Users/um-yunsang/Documents/로마콘크리트_3D/narrative_benchmark_20261007/review_loop/r5/).",
+  "findings": [
+   {
+    "id": "CL-23-a",
+    "severity": "minor",
+    "title": "④ 단계 개념 라벨 두 색의 인쇄 왕복 ΔE00 3.28~3.29 (기준 ≤ 3 초과)",
+    "location": "메움 원리 단계 라벨 790:186 '물이 스밈'(625,1259 pt, #1B5760), 790:187 '칼슘 이동'(698,1259), 790:188 '결정이 메움'(771,1259)(둘 다 #8A5427)",
+    "evidence": "LittleCMS 2(/opt/homebrew liblcms2, double Lab, ECI PSOcoated_v3.icc, 상대 색도+BPC)로 sRGB → CMYK → Lab(D50)을 왕복했다. ΔE00은 #1B5760 3.29, #8A5427 3.28이다. 8비트 분판으로 반올림해도 3.32/3.29다. Pillow ImageCms 8비트 LAB 출력은 a·b를 1단위로 끊어 2.93/2.98로 읽는다. D9의 '인쇄 왕복 기준' 선택은 이 양자화 덕에 통과한 것으로 보인다. 원인은 BPC다(끄면 0.04/0.02). R8 보류 범위는 강조색과 이정표 판이고 이 라벨 두 색은 빠져 있으므로 새 근거로 본다. 같은 루브릭의 물 렌더색(바다 0.51, 물방울 1.40, 수조 1.34)은 통과다.",
+    "rubric_check": "CL-23",
+    "fix_tool": "figma",
+    "fix": "1안(권장): R8과 같은 방식으로 인쇄용 프레임 분판에서 두 라벨 색을 CMYK로 직접 지정한다. 물 라벨은 C85 M31 Y35 K52(왕복 ΔE00 0.24, TAC 203%), 칼슘 라벨은 C16 M61 Y92 K46(ΔE00 0.10, TAC 215%)이다. 화면 원고 hex는 그대로 둔다. 2안(hex 교체): 두 색을 반드시 함께 #096174(물) / #865835(칼슘)로 바꾼다. 왕복 2.89/2.89이고, 가장 나쁜 라벨 배경 [234,222,201]에서 Lc 65.4/61.5, WCAG 5.31/4.56이며, 세 CVD 최소 D는 1.03이다. 다만 여유가 얇다. 한쪽만 밝히는 해(#2F616A / #865939)는 protan D가 0.81로 떨어져 CL-21을 깨므로 쓰지 않는다."
+   }
+  ],
+  "checks": [
+   {
+    "id": "CL-01",
+    "pass": true,
+    "evidence": "Oklch C ≤ 0.05 픽셀 91.4%(기준 ≥ 60%). 0.015 ≤ C ≤ 0.05 띠의 색상각 10~90백분위 폭: 포스터 전체로는 80.6~196.2° = 115.6°다. 바다·강(C 0.048, h 196.2°)이 띠의 13.3%를 차지하기 때문이다. 질문의 대상(종이·땅·산·돌)만 두고 물(h 160~260°)을 빼면 80.2~86.5° = 6.3° ≤ 25°다. 물은 CL-09/10이 따로 다룬다."
+   },
+   {
+    "id": "CL-02",
+    "pass": true,
+    "evidence": "C ≥ 0.05 픽셀은 8.58%다. 15° 칸을 이웃끼리 합친 색상군 가운데 면적 ≥ 0.3%인 것은 황토·갈 30~90°(7.57%)와 잎 녹색 120~135°(0.83%) 2개다. 청 195~210°는 0.18%로 기준 미만이다. 2 ≤ 5."
+   },
+   {
+    "id": "CL-03",
+    "pass": true,
+    "evidence": "C > 0.15 픽셀 0.0072%(기준 ≤ 0.5%)."
+   },
+   {
+    "id": "CL-04",
+    "pass": true,
+    "evidence": "강조색 계열(h 20~48°, C ≥ 0.10) 7,785px = 0.388%(0.1~10% 안)."
+   },
+   {
+    "id": "CL-05",
+    "pass": true,
+    "evidence": "① text_spec에서 CORE 밖 #983821 글은 0개다. ② CORE 영역(둘째 줄+밑줄 상자, 번호 원판, 각 ±4pt, 이정표 판 3곳) 밖의 강조색 계열 픽셀은 113px = 0.0056%다. 전부 혼합 구덩이 옆 열 파동 3개(x 79~119, y 915~946 pt, 각 35~40px ≤ 50px, '열' 소품)라 제외하면 0px다."
+   },
+   {
+    "id": "CL-06",
+    "pass": true,
+    "evidence": "역할별 색 변수: DETAIL 제목 #2E2A22 1개. SUPPORT 제목은 땅 #3E3A31(109·190·192)과 바다 #2E2A22(121·122)로 물 예외 1개. SUPPORT 소제목·본문은 땅 #3E3A31(112·113·193·798:78/79)과 바다 #2E2A22(123·125·126·127). BASIC 라벨 #59524A(87~99). 지명은 땅 #59524A 7개와 바다 #2E2A22(항구·티레니아해). 머리말도 땅 #59524A, 바다 #3E3A31로 같은 규칙이다."
+   },
+   {
+    "id": "CL-07",
+    "pass": true,
+    "evidence": "'물이 스밈'(#1B5760, h 209.2°): 1단계 상자 안 같은 색상군 52px(청록 물방울 h 208.4°), 2·3단계 0px. '칼슘 이동'·'결정이 메움'(#8A5427, h 57.9°): 자기 단계 상자에 2,167/2,182px(시편 몸체 h 49.7°, C 0.041). 열(#983821): 혼합 구덩이에 287px(열 파동 h 38~39°). 참고: 칼슘 라벨 색과 맞물리는 것은 흰 칼슘 알갱이가 아니라 시편 몸체 색이다. 측정 기준으로는 통과다."
+   },
+   {
+    "id": "CL-08",
+    "pass": true,
+    "evidence": "로마 사물 대표색 h: 콜로세움 모형 69.4°, 책 67.7°, 화산재 63.6°, 인물 66.4°, 유적 78.4°, 프리베르눔 80.2°, 폼페이 77.4°(모두 30~110°). 현대 사물: 철근 건물 214.3°(밝은 면 205.0°), 연구 통 235.0°, 실험대 윗면 186.6°(C 0.016). 반대 계열 사물은 0개다. 실험대는 190°에 3.4° 모자라지만, C 0.016에서는 Oklab 거리 약 0.001이라 지각할 수 없다. 시편 원기둥(h 56°)은 재료색이고 정육면체 시편과 같은 물질이다."
+   },
+   {
+    "id": "CL-09",
+    "pass": true,
+    "evidence": "물 표현 색상각: 강 196.2°, 바다 196.2°, 해수 수조 207.2°, 실험대 물웅덩이 207.2°, 물방울 209.1°, ④ 물방울 208.4°. 폭 12.9° ≤ ±15°. 강–바다 ΔE00 0.26 ≤ 3."
+   },
+   {
+    "id": "CL-10",
+    "pass": true,
+    "evidence": "강 [155,201,201]·바다 [156,202,202] 모두 Oklch h 196.2°(180~250° 안)."
+   },
+   {
+    "id": "CL-11",
+    "pass": true,
+    "evidence": "번호 원판 5개의 렌더 중앙값은 [157,57,33]으로 #983821과 ΔE00 1.08이다. 이정표 판 밝은 면(휘도 60~90백분위)은 ①→② [128,46,27] 5.28, ②→③ [141,53,32] 2.35, ④→⑤ [122,45,26] 6.52로 모두 ≤ 8이다. 색상각 차는 0.0~0.2°(≤ 10°)."
+   },
+   {
+    "id": "CL-12",
+    "pass": true,
+    "evidence": "강조색 근처 비CORE 물체와 #983821의 ΔE00: ③ 확대 블록 [117,91,76] 16.2, ④ 시편 16.1, ② 정육면체 16.0, 해수 모형 정육면체 16.9, 실험 시편 원기둥 20.8, 열 파동 [197,94,59] 14.3, 혼합장 옷+열 13.8. 모두 ≥ 10."
+   },
+   {
+    "id": "CL-13",
+    "pass": true,
+    "evidence": "CORE 본문 5개: Lc 78.2~80.6, WCAG 10.02~10.44(고리 중앙값 기준). 최저는 ⑤ 790:172 #2E2A22, 배경 [226,215,194]. 측정 글자 가장 어두운 5%는 지정 hex와 같다(ΔE 0)."
+   },
+   {
+    "id": "CL-14",
+    "pass": true,
+    "evidence": "내용 글 최저 Lc 60.8: 바다 [156,202,202] 위 '사례 · '·'재료 원리 · '(#3E3A31), WCAG 6.32. 최저 WCAG 4.81: '칼슘 이동' #8A5427(Lc 63.8). #59524A 라벨은 Lc 63.9~69.8, WCAG 5.40~5.95. 모두 Lc ≥ 60, WCAG ≥ 4.5."
+   },
+   {
+    "id": "CL-15",
+    "pass": true,
+    "evidence": "CORE 둘째 줄 #983821: Lc 63.2~64.2, WCAG 5.20~5.29. #2E2A22 제목·제목 띠(70pt, 20pt, CORE 첫 줄): Lc 76.9~81.8, WCAG 9.80~10.64. 기준은 Lc 45, 3:1."
+   },
+   {
+    "id": "CL-16",
+    "pass": true,
+    "evidence": "번호 숫자 #FFF4DD를 원판 [153~156,56~57,32] 위에서 재면 Lc 81.6~82.2, WCAG 6.37~6.54다."
+   },
+   {
+    "id": "CL-17",
+    "pass": true,
+    "evidence": "글자 둘레 고리 |Lc| 10백분위 최저는 58.9(790:190 '사례 · ' #59524A)로 ≥ 45다. 규약 마스크를 그대로 쓰면 '수도교' 37.8, '베수비오 화산' 30.4가 나오지만, 축정렬 상자 안의 수도교 그늘과 분화구 질감 픽셀을 글자로 잡은 오차다(마스크 오버레이로 확인). 포스터와 map_only의 차분(ΔE76 > 10)으로 글 레이어만 남기면 64.1/65.8이고, 글자 고리는 전부 종이 위다."
+   },
+   {
+    "id": "CL-18",
+    "pass": true,
+    "evidence": "2배 창에서 가장 어두운 3%와 창 중앙값의 WCAG: 구조 모형 지시선 4.12~5.10, 석회 알갱이 지시선 5.70, 하중 화살표 5.91, 순서 화살표 5.20/3.78, 항구 점선(바다) 3.49, 폼페이 점선 구간별 현장 바닥 4.59 / 종이 4.93 / 바다 3.74, 번호 원판 5.52~6.04, 이정표 판 4.26~8.07. 모두 ≥ 3."
+   },
+   {
+    "id": "CL-19",
+    "pass": true,
+    "evidence": "CORE 1·2줄은 위치(둘째 줄)와 밑줄이 함께 구별한다. 개념색 라벨은 낱말이 있다. 땅/바다는 해안선 모양과 지명(티레니아해·티베르강·항구)이 있다. 실험 시편은 '생석회 있음/없음' 캡션이 있다. 금 메움 전후는 명도와 모양 차이다. 색만으로 전달하는 정보는 없다."
+   },
+   {
+    "id": "CL-20",
+    "pass": true,
+    "evidence": "포스터 최빈 바탕 [231,219,198](종이 군집 중앙값도 같고, 포스터의 53%)과 background #F3E8D4의 ΔE00은 2.89 ≤ 3이다. 여유는 0.11이다(4단계 묶음 최빈값으로는 3.20)."
+   },
+   {
+    "id": "CL-21",
+    "pass": true,
+    "evidence": "Machado 2009 모의 후 Szafir D(정상/P/D/T): CORE 제목 1·2줄 @0.5°: 2.67/1.35/2.08/3.06. 물·칼슘 라벨 @0.25°: 1.64/1.07/1.41/1.86. 강조 제목/본문 @0.25°: 1.85/1.03/1.59/2.05. 주제색 제목끼리: CORE 둘째 줄이 한 색이라(고정 조건 5) 해당 쌍 없음. 모두 ≥ 1."
+   },
+   {
+    "id": "CL-22",
+    "pass": true,
+    "evidence": "@2° D(정상/P/D/T): 땅/바다 1.78/1.12/1.55/2.30. 강/길 [185,168,138] 2.01/1.59/1.67/2.53. 이정표 판/종이 5.26 이상. 이정표 판/길 3.16 이상. 강조색/시편 2.65/1.25/1.51/3.05. 이정표 판/시편 1.62 이상. 철근 건물/콜로세움 1.98 이상. 연구 통/책 1.82 이상. 모두 ≥ 1."
+   },
+   {
+    "id": "CL-23",
+    "pass": false,
+    "evidence": "LittleCMS double, PSO Coated v3, 상대 색도+BPC 왕복 ΔE00. 물 렌더색: 바다 0.51, 물방울 1.40, 수조 1.34. 개념 라벨: #1B5760 3.29, #8A5427 3.28로 3~5(minor)이며 지적 CL-23-a로 냈다. 8비트 Pillow 경로는 2.93/2.98로 양자화에 가려진다. 강조색 #983821 3.84, 원판 렌더 3.84, 이정표 판 4.07~4.82는 R8 보류라 다시 내지 않았다. 원인은 모두 BPC다(끄면 0.02~0.65)."
+   },
+   {
+    "id": "CL-24",
+    "pass": true,
+    "evidence": "poster_1x 왕복 ΔE00 > 5 픽셀은 0.45%(double; 8비트 경로 0.60%)로 ≤ 1%다. 해당 픽셀은 #2E2A22 진한 글자 [45,37,26]이고, 검정점 보정 때문이다."
+   },
+   {
+    "id": "CL-25",
+    "pass": true,
+    "evidence": "PSO Coated v3 변환 후 C+M+Y+K 최댓값 295.2%(≤ 300%), K 최댓값 94.5%(≤ 96%)."
+   }
+  ],
+  "checks_total": 25,
+  "checks_failed": 1,
+  "strengths": [
+   "렌더된 글자색이 지정 hex와 같다(측정한 가장 어두운 5%와 ΔE 0). 80개 글이 모두 역할별 APCA·WCAG 기준을 넘는다.",
+   "팔레트가 절제되어 있다. 저채도 91.4%, 강조색 0.39%로 CORE 밖 사용 0이다(열 소품 제외). 0.3% 이상 유채 색상군은 2개다.",
+   "물 표현 6종이 한 색상군(196~209°)으로 묶이고, 강과 바다는 ΔE00 0.26으로 사실상 같다.",
+   "고정 조건 5·6의 이행이 정확하다. 번호 원판과 #983821의 ΔE00은 1.08이고, 이정표 판 색상각 차는 0.2° 이하다.",
+   "물·칼슘 라벨, CORE 1·2줄, 땅·바다를 포함한 지정 쌍이 세 CVD 모의에서 모두 D ≥ 1이고, 색만으로 전달하는 정보가 없다.",
+   "총잉크량 295%, K 94.5%로 FOGRA51 한계 안이다."
+  ]
+ },
+ {
+  "field": "layout",
+  "grade": "AA",
+  "summary": "레이아웃·구성 판정은 AA입니다(blocker 0 · major 1 · minor 2). 루브릭 27개 항목을 r5/poster_2x.png, map_only_2x.png, text_spec_r5.json으로 직접 쟀습니다. 측정에 쓴 문턱값(L<140, 기울기>12, RGB 거리>28)은 루브릭 그대로입니다.\n\n뼈대는 수상작 수준입니다.\n- 반시계 흐름: θ가 84.9→181.6→254.4→295.8→350.5°로 단조 증가하고, 연결선 교차는 0, 이정표 방향 오차는 3.7° 이하입니다.\n- 동심원 실행: 다섯 DETAIL 모두 짝 CORE보다 바깥에 있고, CORE 고리 CV는 0.19입니다.\n- CORE 모듈 반복: 원판·밑줄·간격이 블록 사이 0.5pt 안에서 같습니다.\n- 겹침·여백: 글-물체 겹침과 글 상자 겹침이 0입니다. 바깥 여백은 21.5~26pt, 헤더와 지도 사이는 25.5pt 떨어져 있습니다.\n\nAAA를 막는 것은 다음 하나입니다.\n- [major · LY-05] 2라운드 D13에서 붙인 '콜로세움' 지명(802:78)이 자기 건물보다 다른 물체에 훨씬 가깝습니다. 콜로세움 벽까지 66.3pt인데 수도교 남쪽 끝 기둥까지 15.8pt, ① 골조 건물까지 61.0pt입니다(비 0.24, 기준 1.5 이상). 상자를 (−40, +35)pt 옮기는 모의 계산에서 비 3.41, 겹침 0을 확인했습니다.\n\nminor 두 개는 모두 LY-20(거의-정렬)입니다.\n- (b) '석회 알갱이를 확대한 개념 모형' 캡션과 '메움 원리' 제목의 높이 차 14.5pt\n- (a) 가운데 정렬 소라벨(구조 모형 라벨 넷, BASIC 첫 열 캡션)의 왼끝이 이웃 왼쪽 정렬선과 2~11.5pt 어긋남\n\n판정에서 뺀 것은 다음과 같습니다.\n- LY-03: ④·⑤ 본문 밑 바탕은 p95−p5가 31.8, 28.3으로 측정상 불합격입니다. 다만 STATE R3에 보류된 '지형 음영 띠'와 같은 결함이고 새 근거가 없어 지적으로 내지 않았습니다. checks에는 측정 결과대로 불합격으로 남겼으니, checks_failed 3과 지적 3개 중 major 1·minor 2의 대응이 다른 이유가 이것입니다.\n- 구조 원리와 항구 사례의 Δx 18.0pt: STATE R6 보류라 제외했습니다.\n\nblocker급 NEW- 결함(가림·겹침·판독 불가·사실 오류)과 한국어 줄바꿈 오독은 없습니다. 측정 스크립트는 스크래치패드(/private/tmp/claude-501/-Users-um-yunsang/73df8d3b-73af-481e-9f8b-64064c56fc53/scratchpad)에만 썼고, 작업 폴더의 파일은 고치지 않았습니다.",
+  "findings": [
+   {
+    "id": "LY-05-COLOSSEUM",
+    "severity": "major",
+    "title": "'콜로세움' 지명이 자기 건물보다 수도교 끝 기둥·① 골조에 더 가깝다",
+    "location": "Figma 802:78 '콜로세움'(−30°), 상자 (770.5, 598.2, 51.1×29.5)pt, 잉크 773.5–815.5 × 600.5–625.0pt",
+    "evidence": "map_only_2x 경계 마스크(기울기>12)로 잼: d_own = 콜로세움 북동 벽 (738.0, 661.5)까지 66.3pt. d_other = 수도교(라벨 붙은 랜드마크) 남쪽 끝 기둥 (828.5, 630.0)까지 15.8pt, ① 골조 건물 (782.0, 539.5)까지 61.0pt. 비 d_other/d_own = 0.24로 기준 1.5 이상에 크게 못 미침. 라벨에서 콜로세움 쪽으로 쏜 광선도 첫 물체가 60–80pt 뒤에, 수도교 쪽은 16.5pt 뒤에 나옴. 2x 확대에서도 글자가 수도교 기둥 바로 옆에 붙어 보이고 콜로세움 벽은 멀리 떨어져 있음.",
+    "fix_tool": "figma",
+    "fix": "802:78 상자 원점을 (770.5, 598.2) → (730.5, 633.2)으로 옮김(Δx −40, Δy +35pt, −30° 땅 축 유지). 같은 잉크를 옮긴 모의 계산 결과: 잉크 733.5–775.5 × 635.5–660.0, 콜로세움 15.9pt, 수도교 54.2pt, ① 골조 96.0pt → 비 3.41. 가장 가까운 물체는 15.9pt라 겹침 0이고 D13의 4pt 규칙도 지킴.",
+    "rubric_check": "LY-05"
+   },
+   {
+    "id": "LY-20-B-LIMECAP",
+    "severity": "minor",
+    "title": "석회 알갱이 확대 캡션과 메움 원리 제목이 14.5pt 어긋나 나란히 놓임(거의-정렬)",
+    "location": "790:189 '석회 알갱이를 확대한 개념 모형'(잉크 위끝 1297.5) ↔ 790:183 '메움 원리 · 금이 메워지는 순서'(잉크 위끝 1283.0)",
+    "evidence": "BRIEF §2상 둘 다 DETAIL. 가로 간격 74pt로 나란히 있고 세로 범위가 겹침. 잉크 위끝 차 Δy = 14.5pt로 기준(≤1.5 또는 ≥26.3)을 벗어남. 캡션 기준선이 이웃 블록의 제목(1295)과 본문 첫 줄(1314) 사이에 떨어짐. 캡션을 올리는 해법은 자기 큐브 아래끝(1288.5)에 막힘.",
+    "fix_tool": "figma",
+    "fix": "790:183 y 1281 → 1295.5, 790:184 y 1302 → 1316.5(둘 다 +14.5pt)로 옮겨 Δy를 0으로 맞춤. 옮긴 뒤 본문 잉크 아래끝 1342.5는 '폼페이' 지명(1370)에서 27.5pt, 나무(x 846.5)에서 56pt 떨어짐. 단계 라벨→제목 26.5pt로 LY-05 비 1.9 이상, LY-18 제목→본문 간격은 그대로.",
+    "rubric_check": "LY-20"
+   },
+   {
+    "id": "LY-20-A-CENTERED",
+    "severity": "minor",
+    "title": "가운데 정렬 소라벨의 왼끝이 이웃 왼쪽 정렬선과 2~11.5pt 어긋남",
+    "location": "구조 원리 탑 라벨 790:114/116/117/118; BASIC 790:90 '생석회'; BASIC 오른쪽 첫 열 790:87·790:94",
+    "evidence": "탑 라벨 잉크 왼끝 322.5/330.5/326.5/325.5 → 쌍 Δx 1.0–8.0. 가운데 정렬로 봐도 중심 344.75/344.25/344.5/347.25로 '기초 12m+'가 2.5–3.0pt 벗어남. BASIC 왼쪽 머리글·본문 24.5 vs '생석회' 36.0 → Δ 11.5. BASIC 오른쪽 858.5 vs '로마 때 기록' 865.0, '비트루비우스와' 862.0, '플리니우스의 책' 860.5 → Δ 6.5/3.5/2.0. 모두 기준(≤1.5 또는 ≥18.6)을 벗어남. 원인은 하나: 가운데 정렬 라벨이 왼쪽 정렬선 곁에 쌓임.",
+    "fix_tool": "figma+blender",
+    "fix": "① 탑 라벨 넷을 왼쪽 정렬 x 321.8로 맞춤(790:116 −8.3, 790:117 −4.0, 790:118 −2.8pt) → 잉크 왼끝 모두 322.5. 왼쪽 눈금은 x 320에서 끝나게, 오른쪽 눈금은 각 라벨 잉크 끝+3pt에서 기둥 왼끝(x 383.75)까지 다시 그림. ② 790:90을 x 24 왼쪽 정렬로(잉크 24.5, 원뿔 왼끝 23과 Δ1.5). ③ 790:87·790:94를 x 858 왼쪽 정렬로 하고 책 아이콘 왼끝을 876 → 858.5로 −17.5pt 옮김 → 세 곳 Δx ≤ 0.5. 눈금·아이콘은 map_only 렌더에 들어 있어 소속(Figma 레이어 또는 Blender)에 따라 해당 도구로 옮김.",
+    "rubric_check": "LY-20"
+   }
+  ],
+  "checks": [
+   {
+    "id": "LY-01",
+    "pass": true,
+    "evidence": "수평 글 상자 61개의 잉크 줄 사각형을 2x 행 단위로 검사함. 문턱값 물체 후보는 세 곳: ④⑤ 본문 셋째 줄(부드러운 지형 음영), 790:181(상자 오른끝 x 411–415에 들어온 나무 화소가 잉크로 잡힘; 실제 글 끝 399.4), 790:190(모형 그늘). 확대해 보니 모두 길·밭판·모형·강·물결이 아님. 경계(기울기>12) 기준 겹친 글자 0."
+   },
+   {
+    "id": "LY-02",
+    "pass": true,
+    "evidence": "경계 기준 최소 여유: 790:122 3.5pt(해안 물결), 790:128 3.8pt, 790:107 9.0pt, 790:189 10.0pt, 790:190 10.5pt, 790:181 나무까지 약 12pt. 탑 라벨 2.1–2.8pt와 790:108 3.5pt는 자기 지시 눈금(물체 아님)이고, 실제 탑·기둥·큐브까지는 6.5pt 이상."
+   },
+   {
+    "id": "LY-03",
+    "pass": false,
+    "evidence": "질감 비율 0–0.08%. p95−p5: ① 10.8, ② 9.5, ③ 9.2, ④ 31.8, ⑤ 28.3, DETAIL 6.7/9.3/9.2/14.2. ④⑤ 초과는 STATE R3 보류('④⑤ 본문 밑 지형 음영 띠')와 같은 결함이고 새 근거가 없어 지적 미제출(등급 미반영)."
+   },
+   {
+    "id": "LY-04",
+    "pass": true,
+    "evidence": "text_spec 수평 글 상자 모든 쌍의 교집합 면적 0. 회전 글 bbox를 넣어도 0."
+   },
+   {
+    "id": "LY-05",
+    "pass": false,
+    "evidence": "'콜로세움' 802:78: d_own 66.3, 수도교 15.8 → 비 0.24(불합격). 나머지 14개는 합격: 아펜니노 1.57, 판테온 4.6, 석회 확대 캡션 2.01, 유적 3.50, 실험실 2.16, 시편 라벨 5.40, 프리베르눔 2.07, 아피아 3.74, 석회 가마 6.18, 방파제 6.08, 제작 9.85, 구조 3.91, 메움 2.24, 해수 3.00."
+   },
+   {
+    "id": "LY-06",
+    "pass": true,
+    "evidence": "항구 점선 (197.5,1496)→(221,1517) 약 31.5pt. 폼페이 점선 (724,1493)→(723,1544) 51pt로 물결 두 획 사이를 지나 가로지름 0. 석회 알갱이 눈금 12.5pt, 탑 눈금 2.5–15pt. 모두 60pt 이하, 가로지름 0."
+   },
+   {
+    "id": "LY-07",
+    "pass": true,
+    "evidence": "g_in은 다섯 블록 모두 6.5pt(밑줄→본문 잉크). g_out은 길·밭판·자기 삽화를 빼고: ① 29.0(이정표), ② 14.8(석회 가마), ③ 18.0(석회 확대 큐브), ④ 24.0(메움 물방울), ⑤ 35.1(시편 라벨). 비 2.28–5.4, 모두 1.5 이상."
+   },
+   {
+    "id": "LY-08",
+    "pass": true,
+    "evidence": "r/θ: 해수 873.4/242.6°(③ 299.8), 제작 530.7/205.9°(② 446.7), 구조 562.3/243.7°(③), 메움 481.3/287.9°(③ 299.8·④ 329.6), 석회 확대 440.3/263.0°(③·④). 모든 짝에서 r_CORE < r_DETAIL."
+   },
+   {
+    "id": "LY-09",
+    "pass": true,
+    "evidence": "r = 350.6/446.7/299.8/329.6/495.3, CV = 0.193(표본 0.216), 기준 0.25 이하."
+   },
+   {
+    "id": "LY-10",
+    "pass": true,
+    "evidence": "콜로세움 174,960pt² vs 최대 단일 물체 베수비오 71,690pt²(상한) → 2.44배. C(584,783)이 지도 영역(y 235.5–1529)의 가운데 1/3(x 397–794, y 667–1098) 안."
+   },
+   {
+    "id": "LY-11",
+    "pass": true,
+    "evidence": "종이색 거리 28 초과 화소 L/R = 1.053(y 240–1684), 1.028(해안선 위). 0.8–1.25 안."
+   },
+   {
+    "id": "LY-12",
+    "pass": true,
+    "evidence": "θ 84.9→181.6→254.4→295.8→350.5°로 엄격 증가(누적 265.6°), 인접 연결선 교차 0."
+   },
+   {
+    "id": "LY-13",
+    "pass": true,
+    "evidence": "①② 599.2, ②③ 458.4, ③④ 224.1, ④⑤ 406.5. 최대값 ≤ 1.5×중앙값(648.7). 다른 CORE 상자를 지나는 선 0."
+   },
+   {
+    "id": "LY-14",
+    "pass": true,
+    "evidence": "250pt 넘는 전환 3개. ①→② 화살 무게중심 113pt(기둥 밑 77pt), 방향차 1.6°. ②→③ 66.0pt, 3.7°. ④→⑤ 70.1pt, 0.6°. 모두 120pt 안, ±45° 안."
+   },
+   {
+    "id": "LY-15",
+    "pass": true,
+    "evidence": "원판 숫자 x−제목1 x = −18.5 ×5, y차 7.5–7.6, 제목1 x−제목2 x = 25 ×5. 범위 0/0.1/0. 픽셀상 원판 지름 21.0 ×5."
+   },
+   {
+    "id": "LY-16",
+    "pass": true,
+    "evidence": "제목2→밑줄 5.0/4.5/4.5/4.5/4.5(범위 0.5), 밑줄→본문 6.5 ×5(범위 0)."
+   },
+   {
+    "id": "LY-17",
+    "pass": true,
+    "evidence": "밑줄 길이 109.5/74.5/132.0/111.0/169.0, 제목2 잉크 폭과의 차 −0.5/−0.5/0/0/−0.5. 규칙 (a)로 ±3pt 안."
+   },
+   {
+    "id": "LY-18",
+    "pass": true,
+    "evidence": "DETAIL 제목→본문 8.5/9.0/10.5/10.0, 범위 2.0 ≤ 2(경계값). SUPPORT 이름→부제 8.0/8.0/8.0/7.5(범위 0.5), 부제→본문 7.0 ×3(범위 0)."
+   },
+   {
+    "id": "LY-19",
+    "pass": true,
+    "evidence": "블록별 줄 왼끝 범위: CORE 제목2·본문 0–0.5, DETAIL 0–0.5, SUPPORT 0, BASIC 0.5. ②④의 큰 값은 제목1 쉼표가 상자 여유 안에 들어온 측정 잡음."
+   },
+   {
+    "id": "LY-20",
+    "pass": false,
+    "evidence": "(b) 790:189 vs 790:183 Δy 14.5 불합격. (a) 탑 라벨 Δx 1.0–8.0, BASIC '생석회' 11.5, 오른쪽 첫 열 2.0/3.5/6.5 불합격. 통과: ③④ Δy 0, 바다 SUPPORT 두 제목 Δy 26.2(서브픽셀)/26.3(text_spec). 구조 원리 250.5 vs 항구 232.5 Δx 18.0은 R6 보류로 제외."
+   },
+   {
+    "id": "LY-21",
+    "pass": true,
+    "evidence": "머리글 y 24/24, 항목 이름 줄 147/147(Δ0). 제목판 가로 중심 595.5–595.75 vs 캔버스 595.5(차 ≤ 0.25), 제목 잉크 중심 596.25."
+   },
+   {
+    "id": "LY-22",
+    "pass": true,
+    "evidence": "글 잉크와 재단선 거리: 왼 24.5, 오른 21.5(790:96), 위 26.0, 아래 24.0. 라벨 붙은 물체: 수도교 북동 끝 19.0, 해수 모형 25.5, 베수비오 27.5, 왼쪽 위 산 25.0. 모두 14.2pt 이상."
+   },
+   {
+    "id": "LY-23",
+    "pass": true,
+    "evidence": "가장 왼쪽 글 24.5, 오른쪽 21.5, 위 26.0 → 범위 4.5 ≤ 6."
+   },
+   {
+    "id": "LY-24",
+    "pass": true,
+    "evidence": "헤더 아래끝(제목판 235.5, 왼 BASIC 206.0, 오른 BASIC 218.0) → 첫 지도 물체 최소 25.5pt(x 598 산봉우리). 헤더 띠(y 236–250) 침범 화소 0."
+   },
+   {
+    "id": "LY-25",
+    "pass": true,
+    "evidence": "C에서 450pt 안의 빈 칸(물체 2% 미만, 글 없음)으로 만든 최대 직사각형 14,000pt²(x 560–700, y 500–600) ≤ 19,600."
+   },
+   {
+    "id": "LY-26",
+    "pass": true,
+    "evidence": "땅 칸 3,056개 중 75백분위 0.297. CORE 고리 혼잡: ① 0.109(47.3백분위), ② 0.084(44.0), ③ 0.075(42.6), ④ 0.060(40.9), ⑤ 0.029(36.8)."
+   },
+   {
+    "id": "LY-27",
+    "pass": true,
+    "evidence": "(a) 해안선이 글 상자를 가로지름 0, '항구' 잉크(238.5–261.5 × 1460.5–1473.5)는 바다 위. (b) 두 바다 SUPPORT 형식이 같음(Bold 11 이름 → Medium 9.5 부제 → Regular 9/12.5 본문, 점선 지시선). (c) 하단 빈 띠 24pt(1.4%) ≤ 101."
+   }
+  ],
+  "checks_total": 27,
+  "checks_failed": 3,
+  "strengths": [
+   "반시계 서사 흐름의 기하가 깨끗함: θ 단조 증가(누적 265.6°), 연결선 교차 0, 이정표 3개 모두 연결선 120pt 안·방향 오차 3.7° 이하",
+   "CORE 모듈 반복이 정밀함: 원판 위치(text_spec 범위 0~0.1), 제목2→밑줄→본문 간격(범위 0.5/0), 밑줄=제목2 잉크 폭(±0.5)이 다섯 블록에서 같음",
+   "동심원 원칙 실행: 모든 DETAIL이 짝 CORE보다 바깥(r 440~873 vs 300~447), CORE 고리 CV 0.19",
+   "겹침·가림 0, 글 상자 교집합 0, 헤더와 지도 25.5pt 분리, 바깥 여백 21.5~26pt로 고름",
+   "좌우 시각 무게 L/R 1.05, 콜로세움이 두 번째로 큰 물체의 2.4배이고 지도 가운데 1/3에 있음"
+  ]
+ },
+ {
+  "field": "illustration3d",
+  "grade": "AA",
+  "summary": "Graded AA: 0 blocker, 2 major, 1 minor. All measurements were made on r5 poster_2x and map_only_2x. Both majors are measured failures. (1) I3-13: the column tops of the ② and ⑤ milestones sit over the road and the Colosseum's paved ring. Their top-edge contrast is only ΔL* 4.0 and 0.7. (2) I3-21: a detached ~8.5pt sliver of the hero Colosseum mesh lies on the south paved ring at (553–561, 973–976)pt, and about 21 field pegs with no plate stand next to the CORE ① frame. The minor is I3-03: the lime-kiln dome shows flat facets. Material consistency, lighting order, scale hierarchy, core-phenomenon cues and arrow colour/direction all pass with numbers. I3-11, I3-12, I3-18 and I3-27 fail on measurement, but they are the same issues as STATE R3/R5 (held), so I did not raise them as findings. The ④-row cubes 1–2 crack is broken into dashes: its long segments are ΔL* ≤ 4 and only 3 short ticks are visible. This is outside the rubric and below blocker level, so it is recorded only in the I3-24/I3-26 evidence.",
+  "findings": [
+   {
+    "id": "I3-13-1",
+    "severity": "major",
+    "title": "② and ⑤ milestone column tops vanish into the road and the Colosseum's paved ring",
+    "location": "② milestone column top (222–243, 916–926)pt with the west-bank road behind it; ⑤ milestone column top (786–810, 921–931)pt with the Colosseum's limestone paved ring behind it",
+    "evidence": "map_only_2x, band 2–10pt inside vs 2–10pt outside the top edge. ⑤: cap L*76.2 vs paved ring 76.8 → ΔL* 0.7, ΔE76 2.1; in the vertical profile at x 797 the only separation is a 0.5pt outline (L*69). ②: cap 76.2 vs road pavers 72.1 → ΔL* 4.0, ΔE76 5.3. For comparison, ① cap vs background 88.4 gives ΔL* 12.3. Rubric threshold is ΔL*≥10 or ΔE76≥25 with no overlap on the top edge, so ② and ⑤ fail. The red arrow boards themselves are fine (ΔE 1.1–3.8, side ΔL* 29–40).",
+    "rubric_check": "I3-13",
+    "fix_tool": "blender",
+    "fix": "Darken the material of all 3 milestone columns so the rendered cap goes from ≈#CEB99A (L*76) to ≈#A79375 (L*62, same hue h≈82°). Expected result: ⑤ cap vs paved ring ΔL*≈15, ② cap vs road ΔL*≈10, ① cap vs background ΔL*≈26; column vs arrow board stays at ΔL*≈25. Leave positions as they are (② base to road stays 3–5pt, so I3-17 is unaffected). Alternative for ⑤ only: move it x +30pt along the Appian Way so the background (L*85.7) is behind the cap, and also lower the cap to L*≤72."
+   },
+   {
+    "id": "I3-21-1",
+    "severity": "major",
+    "title": "Detached Colosseum fragment on the paved ring + leftover pegs from field assets beside the ① frame",
+    "location": "Under the Colosseum's south wall (552.5–561, 973–975.5)pt; beside the ① steel frame (704–745, 512–550)pt and (777–832, 512–540)pt; also, from the same cause, a 2-stub plate under the tree next to Vesuvius (861–891, 1348–1375)pt",
+    "evidence": "(1) A full scan of the paved ring (L*77.2, map_only_2x) found exactly one isolated component: 11pt², length 8.5pt, thickness ≈1pt, minimum L*57.9 (ΔL* 19), a warm colour like the Colosseum, about 4pt from the wall base (y≈968.5). It is a fragment left after the D21 removal, so it counts as a hero-object fragment → major. (2) Beside ① there are about 21 pegs (11+10 components) standing on bare ground with no field plate. Median width 1.5–2.0pt, matching I3-21 (a): width <2pt and detached from the body. The 2-stub plate is wider than 2pt, so it does not count under the criterion, but it is the same kind of leftover.",
+    "rubric_check": "I3-21",
+    "fix_tool": "blender",
+    "fix": "Run Separate by Loose Parts on the Colosseum mesh, then delete the piece that projects to (552–561, 973–976)pt on screen; or run Mesh > Clean Up > Delete Loose and remove pieces with fewer than 50 vertices. Delete the two peg clusters beside ① (including the 2 discs and the small stub plate) and the 2-stub plate under the tree. Alternatively, lay a field plate under them to restore them as fields. Target: 0 detached fragments under 2pt wide."
+   },
+   {
+    "id": "I3-03-1",
+    "severity": "minor",
+    "title": "Lime-kiln dome rendered with flat facets that do not match the smooth clay look",
+    "location": "Lime kiln (85–200, 630–735)pt",
+    "evidence": "At 4x zoom, polygon facets with straight edges are visible across the dome surface. Fraction of 2pt-neighbour patch pairs with ΔL*≥5 is 21% (p90 7.1), against 10% (p90 5.1) on the Pantheon dome and 12% on Vesuvius. The other curved objects (Pantheon dome, raw-material cones, barrel, ⑤ cylinders, milestone cylinders, cypress) are smooth. Background landmark → minor.",
+    "rubric_check": "I3-03",
+    "fix_tool": "blender",
+    "fix": "On the kiln mesh, apply Remesh (Voxel, about 0.5pt on screen) + Smooth (factor 0.5, 8 iterations), or Subdivision level 2 + Shade Smooth (Auto Smooth 30°). Target: 2pt-neighbour pairs with ΔL*≥5 at or below 10%, p90 ≤5 (the Pantheon dome's level)."
+   }
+  ],
+  "checks": [
+   {
+    "id": "I3-01",
+    "pass": true,
+    "evidence": "Across the ③ block, ④ cubes ×3, the 제작 원리 cube and the 재료 원리 cube: top faces L*47.7–48.1, left faces 39.5–40.5, right faces 33.0–34.0. Max ΔL* between same-direction faces is 1.1; hue h 55–57° (Δh ≤2°)."
+   },
+   {
+    "id": "I3-02",
+    "pass": true,
+    "evidence": "With text boxes masked (+4pt; +15pt for rotated text), L*<20 pixels are 4,786 of 3,391,345 object pixels = 0.14% (≤2%). They sit mostly in the ⑤ cylinder cracks and the ① milestone arrow."
+   },
+   {
+    "id": "I3-03",
+    "pass": false,
+    "evidence": "Lime-kiln dome has flat facets: 21% of 2pt-neighbour pairs at ΔL*≥5 (p90 7.1) vs Pantheon 10% / Vesuvius 12%. The other curved objects are smooth. Background object → minor (I3-03-1)."
+   },
+   {
+    "id": "I3-04",
+    "pass": true,
+    "evidence": "Modern: ① frame h235° C1.8; lab plate h187° C5.2. Roman: Colosseum h73°, Pompeii h83°, Prevernum h82°, milestone column h83°, Pompeii construction site h83°."
+   },
+   {
+    "id": "I3-05",
+    "pass": true,
+    "evidence": "Ruin-observation scene, 4 figures: ≈19/20/21/21pt (largest/smallest 1.10). Kiln scene: 36pt vs ≈34pt (stooped), head widths 6.0/6.5pt (1.08)."
+   },
+   {
+    "id": "I3-06",
+    "pass": true,
+    "evidence": "Column top to base bottom: ① 84.5pt (369.5→454), ② 86pt (916.5→1002.5), ⑤ 86.5pt (921→1007.5). Mean 85.7; largest deviation −1.4%."
+   },
+   {
+    "id": "I3-07",
+    "pass": true,
+    "evidence": "Colosseum ≈500×420 = 210k pt² > CORE max (① frame ≈177×189 = 33k) ≥ DETAIL max (④ cube row ≈21.8k, ③ block ≈20.8k, structure model incl. elevation ≈23k)."
+   },
+   {
+    "id": "I3-08",
+    "pass": true,
+    "evidence": "Ruin-observation scene: centre arch opening ≈38pt (1152→1190) ÷ figure 20pt = 1.9 ≥ 1.2."
+   },
+   {
+    "id": "I3-09",
+    "pass": true,
+    "evidence": "6 box models (③, ④×3, 제작 원리, 재료 원리) all order top > left > right (≈48 > 40 > 33): 100% agreement. Structure model left 57.0 > right 47.8, consistent."
+   },
+   {
+    "id": "I3-10",
+    "pass": true,
+    "evidence": "Median top-edge ΔL* (2–10pt in/out bands) for 9 mountains: 11.0, 9.8, 12.1, 9.9, 9.9, 13.1, 8.1, 12.8, Vesuvius 22.2. All ≥8, contact rate 100%. Mountain at (951–1078, 303–396)pt is borderline at 8.1 (outline line helps)."
+   },
+   {
+    "id": "I3-11",
+    "pass": false,
+    "evidence": "① milestone side shadow ΔL* 9.6, ④ cube 5.7, Prevernum 5.7 vs ③ block 0.5, lab 0.0, structure model −0.6, kiln 0.3: classes with and without shadows are mixed. Same as STATE R5 (shadow strength/direction per model, held) → no finding."
+   },
+   {
+    "id": "I3-12",
+    "pass": false,
+    "evidence": "(b) No object shows an underside or hovers. (a) Contact darkening within 3pt of the base: trees 0.7–1.1, ③ block 0.2, lab 0.3, structure model 1.0, 제작 원리 cube 0.0 — all <3. Same as R3 (tree shadows) and R5 (shadow strength), both held → no finding."
+   },
+   {
+    "id": "I3-13",
+    "pass": false,
+    "evidence": "Colosseum top ΔL* 46.3; Vesuvius 22.2; lighthouse shaft ΔE 31.5, finial ΔL* 12.1 (touches the surf line, ok); aqueduct ΔL* 27–28; ① milestone cap ΔL* 12.3. ② cap vs road ΔL* 4.0 / ΔE 5.3 and ⑤ cap vs paved ring ΔL* 0.7 / ΔE 2.1, with the top edge over other objects → fail (I3-13-1, major)."
+   },
+   {
+    "id": "I3-14",
+    "pass": true,
+    "evidence": "Non-generic 3D objects are labelled or carry leaders (Pantheon, lime kiln, Prevernum, ruin scene, construction site, harbour, breakwater) or are grouped under the D6 label '항구'. The pegs by the frame and the 2-stub plate are leftover field assets, handled under I3-21."
+   },
+   {
+    "id": "I3-15",
+    "pass": true,
+    "evidence": "CORE minimum ΔL*: ① frame median L*64.5 vs background 87.5 → 23; ⑤ cylinders 33; ② pit 42; ③/④ ≥40. DETAIL: structure model 31, 제작 원리 cube 47. Fields ΔL* 13.5–14.2 ≤ 23."
+   },
+   {
+    "id": "I3-16",
+    "pass": true,
+    "evidence": "Appian Way → right edge; NW road → Colosseum; west-bank road → both bridges; SW road → lighthouse. The two branch ends finish in paved plazas at (530–560, 500–520)pt and (915–960, 862–892)pt, accepted as destinations per D7 (their edge tabs are cosmetic)."
+   },
+   {
+    "id": "I3-17",
+    "pass": true,
+    "evidence": "② base corner (250, 975) to road lower edge (255, 972) ≈3–5pt; ⑤ base stands on the Appian Way, 0pt. ① is exempt (fixed condition 9, R1)."
+   },
+   {
+    "id": "I3-18",
+    "pass": false,
+    "evidence": "(b) Width every 100pt: 17→23→30→36→42→48→51→54→60→63→63pt, never decreasing ✓. (c) Mouth reaches the sea ✓. (a) River head starts on open ground at (145–170, 320–340)pt — same as R3 m3 (held) → no finding."
+   },
+   {
+    "id": "I3-19",
+    "pass": true,
+    "evidence": "Lower river Lab (77.8, −15.0, −4.9) vs sea (78.2, −15.0, −4.9): ΔE76 0.4. Flow marks on both are pale white-cyan (L*89.6–93.7, b*0.9)."
+   },
+   {
+    "id": "I3-20",
+    "pass": true,
+    "evidence": "Minimum text-stroke-to-3D-object distance: 5.0pt (title vs title panel), 5.85pt ('베수비오 화산'), others ≥6.5pt. The only strokes on L*76–80 are the ④/⑤ body text over the terrain shading band, which is R3-held (layout F4)."
+   },
+   {
+    "id": "I3-21",
+    "pass": false,
+    "evidence": "Detached Colosseum fragment 11pt² at (552.5–561, 973–975.5)pt, about 4pt from the wall; ≈21 field pegs, 1.5–2.0pt wide, beside ① → fail (I3-21-1, major)."
+   },
+   {
+    "id": "I3-22",
+    "pass": true,
+    "evidence": "No objects pass through each other. Items crossing the sheet edge are the aqueduct, fields and roads only (exempt). The title panel crops nothing. The ① milestone base and Pantheon dome are ≈3pt apart, no overlap."
+   },
+   {
+    "id": "I3-23",
+    "pass": true,
+    "evidence": "6 white grains on the ③ block: 4.5×5, 6.5×7, 6.5×7.5, 8×8.5, 3×3.5, 5×4.5pt. L*≈99 vs face 40 → ΔL* 59."
+   },
+   {
+    "id": "I3-24",
+    "pass": true,
+    "evidence": "Cube 1: 3 teal drops (3.5–4×6pt, L*57) within ±10pt of the cube. Cube 2: 3 new white specks along the crack, (735.5,1210), (741.5,1218), (744.5,1226) — dots rather than a streak, but unique to this stage. Cube 3: continuous white fill. Note (outside rubric): the long crack segments on cubes 1–2 measure L*33 vs 37 (ΔL*≤4), so only 3 short ticks (L*10) show and the crack reads as dashes."
+   },
+   {
+    "id": "I3-25",
+    "pass": true,
+    "evidence": "Left faces: light brick 73.5 → medium stone 57.0 → heavy stone 43.7 → foundation 34.1; steps ΔL* 16.5 / 13.3 / 9.6."
+   },
+   {
+    "id": "I3-26",
+    "pass": true,
+    "evidence": "① crack 3.2pt, ΔL*66. ② heat squiggles 1.6–2.0pt, ΔL*35. ③ grains ΔL*59. ④ drops ΔL*30, specks ≈60, crystal fill ≈1.5pt ΔL*31 (borderline). ⑤ white fill 2.2–2.7pt ΔL*25, dark crack 2.0pt ΔL*40, leak drops teal. 제작 원리 heat squiggles sit right next to it and are shared."
+   },
+   {
+    "id": "I3-27",
+    "pass": false,
+    "evidence": "Needle base widths mostly 2.0–3.0pt at L*84–99.7 ✓; teal water L*57 visible ✓. No leader lines touch the needles or water — same as R5 (3D F-09, held) → no finding."
+   },
+   {
+    "id": "I3-28",
+    "pass": true,
+    "evidence": "Brightest 10% of red pixels vs #983821: ΔE76 2.9 / 3.8 / 1.1. Angle to the next CORE title centre ≈6° (①→②), ≈16° (②→③), ≈7° (④→⑤)."
+   },
+   {
+    "id": "I3-29",
+    "pass": true,
+    "evidence": "Figures 19–36pt tall. Ruin scene: tripod stands outside the figure silhouettes. Kiln scene: the jug extends 4–6pt beyond the right-hand figure's silhouette."
+   }
+  ],
+  "checks_total": 29,
+  "checks_failed": 7,
+  "strengths": [
+   "Same-material models (6 cubes) agree on face lightness within ΔL* 1.1 and on light order top > left > right 100%: the clay diorama's lighting system holds together.",
+   "Scale hierarchy is clear: Colosseum 210k pt² ≫ CORE max 33k ≥ DETAIL max ≈22k; milestone heights deviate ≤1.4%.",
+   "Core-phenomenon cues are readable at viewing distance: ① crack 3.2pt / ΔL*66, ⑤ crack and fill 2–2.7pt, ③ grains ΔL*59, heat squiggles ΔL*35.",
+   "Water is consistent: river and sea ΔE76 0.4, flow marks the same pale colour; river widths increase steadily downstream.",
+   "Arrow boards match #983821 within ΔE76 ≤3.8 and point within 16° of the next CORE title."
+  ]
+ }
+]
