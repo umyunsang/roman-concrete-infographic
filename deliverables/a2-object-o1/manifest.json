@@ -1,0 +1,66 @@
+{
+  "status": "CANDIDATE_UNDER_INDEPENDENT_DESIGN_REVIEW_NOT_FINAL_AAA",
+  "revision": "object-o1",
+  "active_models": 236,
+  "retained_hidden_models": 53,
+  "restored_hidden_FONT_objects": 47,
+  "actual_changed_MESH_models": 36,
+  "technical_print_preflight_checks_passed": 19,
+  "print_trim_mm": [
+    420,
+    594
+  ],
+  "bleed_mm": 3,
+  "image_pixels": [
+    4961,
+    7016
+  ],
+  "text_objects": 83,
+  "nonwhitespace_characters": 860,
+  "files": {
+    "a2-print.pdf": {
+      "sha256": "34341e71ab61fe45f004227cdcad665fa9fb9a015319db6ad807dc63b016a9b6",
+      "bytes": 58413087
+    },
+    "a2-preview.pdf": {
+      "sha256": "3865f34a0d33133a3ad1060f15176290d447e5e17a5fcf7757349783ed2a45e8",
+      "bytes": 1481279
+    },
+    "a2-300ppi.png": {
+      "sha256": "f31ef33bff9c49856fa49d6f6af08d2aaad7f08b551dca7aa0e58369f5b225c8",
+      "bytes": 42991013
+    },
+    "roman-concrete-o1.blend": {
+      "sha256": "6ab8c85f39fd66b69adf527ab915748c8133453b6147d75c4a17286871beac4a",
+      "bytes": 67479565
+    },
+    "text-spec.json": {
+      "sha256": "f5e5140b6204dc720a942c038a1218f038980e503ae535acf08a3915ec506201",
+      "bytes": 40460
+    },
+    "model-changes.json": {
+      "sha256": "70640e0befb9232baa47dc49f7b868cde54b6f6883b3a83ab3e4fc1f2233b930",
+      "bytes": 933623
+    },
+    "NotoSansCJK-LICENSE.txt": {
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    "NotoSansKR-LICENSE.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "bytes": 4388
+    },
+    "NotoSerifKR-LICENSE.txt": {
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "bytes": 4350
+    }
+  },
+  "design_gates": {
+    "individual_models": "PENDING",
+    "global_composition": "PENDING",
+    "final_A2_manuscript": "PENDING"
+  },
+  "figma_remote_identity": "UNVERIFIED_LOCAL_CANDIDATE",
+  "physical_press_proof": "NOT_EXECUTED",
+  "PDF_X_certification": "NOT_CLAIMED"
+}
