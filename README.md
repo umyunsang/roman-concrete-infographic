@@ -37,7 +37,6 @@ Blender 3D 지도(아이소 원근, Workbench 렌더) 위에 Figma로 글을 얹
 ## 저장소에 넣지 않은 것
 
 - 라이선스가 불분명한 외부 논문 원문 2개(`jackson-2017-paper.pdf`, `vaserman-2025.xml`). 출처: Jackson et al. 2017 *American Mineralogist*, Vaserman 2025.
-- iCloud에서 내려받지 못한 옛 이미지 4개(v6~v8_1 시기 지도 합성 PNG).
 
 ## 다시 실행하려면
 
