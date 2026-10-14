@@ -1,0 +1,39 @@
+{
+  "schema": "current-actual-A2-review-candidate-delivery/1",
+  "created_at_utc": "2026-10-14T02:35:40.013633+00:00",
+  "source_scene_sha256": "9b4bf0bd8fa6cc36cdfc7f0033dc66c3915b03d457fa7e23e4382d3e088391a5",
+  "actual_model_count": 289,
+  "active_models": 236,
+  "hidden_retained_models": 53,
+  "actual_changes_since_O1_models": 47,
+  "final_all_fields_independent_AAA_count": 0,
+  "acceptance_status": "IN_PROGRESS_NOT_FINAL_AAA",
+  "files": [
+    {
+      "name": "a2-print.pdf",
+      "sha256": "59f91fd6138ab29c82fb21c9e10d21ab95baf05b012a852a3d1dd0882967073b",
+      "bytes": 58404221,
+      "download_uri": "https://github.com/umyunsang/roman-concrete-infographic/raw/refs/heads/a2-object-review-o1/deliverables/a2-object-o2-3-candidate/a2-print.pdf"
+    },
+    {
+      "name": "a2-300ppi.png",
+      "sha256": "e4b14d37c3df7c10e36e6d9f1b8b7f24aedc2d8d6924356dbb7a75e09c12321d",
+      "bytes": 42997624,
+      "download_uri": "https://github.com/umyunsang/roman-concrete-infographic/raw/refs/heads/a2-object-review-o1/deliverables/a2-object-o2-3-candidate/a2-300ppi.png"
+    },
+    {
+      "name": "a2-preview.pdf",
+      "sha256": "eeaf17dab7752e60127fbe61429ab20920bdf5e565b4f9745e6c3a49d41e83e8",
+      "bytes": 1479545,
+      "download_uri": "https://github.com/umyunsang/roman-concrete-infographic/raw/refs/heads/a2-object-review-o1/deliverables/a2-object-o2-3-candidate/a2-preview.pdf"
+    },
+    {
+      "name": "roman-concrete-o2-3.blend",
+      "sha256": "9b4bf0bd8fa6cc36cdfc7f0033dc66c3915b03d457fa7e23e4382d3e088391a5",
+      "bytes": 68316762,
+      "download_uri": "https://github.com/umyunsang/roman-concrete-infographic/raw/refs/heads/a2-object-review-o1/deliverables/a2-object-o2-3-candidate/roman-concrete-o2-3.blend"
+    }
+  ],
+  "postprocessing_status": "Storytold tool use scheduled AFTER complete AAA, as requested. Source assessment only so far.",
+  "formal_PDFX_certification": "UNKNOWN_NOT_CLAIMED"
+}
